@@ -182,7 +182,9 @@ npm run report:coverage
 │   ├── 08-content-operations.md
 │   ├── 09-deployment.md
 │   ├── 10-decisions.md
-│   └── 11-changelog.md
+│   ├── 11-changelog.md
+│   ├── 12-project-state.md
+│   └── 13-geometry-expansion-plan.md
 ├── public/
 ├── scripts/
 │   ├── report-content-coverage.mjs
@@ -258,6 +260,7 @@ https://<username>.github.io/zhongkao-sprint-book/
 - 多步题和过程判分；
 - 完整数学表达式等价判断；
 - 几何图形交互题；
+- 圆、四边形、图形变换、平行线等完整几何模块；
 - 标准中考真实分区和官方分值；
 - 作文 / 主观题 AI 评分；
 - 云端账号与多端同步。

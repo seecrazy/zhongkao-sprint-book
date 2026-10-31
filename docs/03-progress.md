@@ -209,9 +209,10 @@ src/lib/storage.test.ts
 
 ## 下一步
 
-1. 增加多步题和步骤分。
-2. 引入 Zod 运行时 Schema 校验。
-3. 建立模考历史分类筛选。
-4. 增加标准中考分区模板。
-5. 做 PWA 离线缓存。
-6. 优化移动端数学输入。
+1. 优先执行几何扩展计划，见 [`docs/13-geometry-expansion-plan.md`](13-geometry-expansion-plan.md)。
+2. 增加多步题和步骤分。
+3. 引入 Zod 运行时 Schema 校验。
+4. 建立模考历史分类筛选。
+5. 增加标准中考分区模板。
+6. 做 PWA 离线缓存。
+7. 优化移动端数学输入。

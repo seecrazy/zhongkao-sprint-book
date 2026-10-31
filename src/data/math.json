@@ -1,5 +1,5 @@
 {
-  "version": "math-v0.4",
+  "version": "math-v0.6",
   "knowledgePoints": [
     {
       "id": "math-equation-quadratic",
@@ -7,7 +7,95 @@
       "subject": "math",
       "summary": "掌握解法、根的判别式和根与系数关系。",
       "examWeight": "high",
-      "status": "learning"
+      "status": "learning",
+      "lesson": {
+        "objectives": [
+          "会用因式分解法、公式法和配方法解一元二次方程。",
+          "能根据判别式判断根的情况。",
+          "会用根与系数关系检查或构造方程。"
+        ],
+        "keyIdea": "一元二次方程通常有两个根；解题前先观察是否能因式分解，不能分解时再用公式法。",
+        "concepts": [
+          {
+            "title": "定义与基本形式",
+            "content": [
+              "一元二次方程的一般形式是 $ax^2+bx+c=0$，其中 $a\\ne0$。",
+              "若二次项系数为 0，它就退化为一元一次方程。",
+              "方程的解必须代入原方程检验，尤其是含字母参数的题目。"
+            ]
+          },
+          {
+            "title": "三种常用解法",
+            "content": [
+              "因式分解法：适合能拆成两个一次因式的方程，速度最快。",
+              "公式法：适用于任意一元二次方程，先计算判别式。",
+              "配方法：常用于推导公式、求最值或处理缺少明显因式的方程。"
+            ]
+          },
+          {
+            "title": "根的判别式",
+            "content": [
+              "$\\Delta=b^2-4ac$。",
+              "$\\Delta>0$ 时有两个不相等实数根；$\\Delta=0$ 时有两个相等实数根；$\\Delta<0$ 时没有实数根。",
+              "题目中说“有两个不相等实数根”，通常直接令 $\\Delta>0$。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "求根公式",
+            "expression": "$x=\\dfrac{-b\\pm\\sqrt{b^2-4ac}}{2a}$",
+            "note": "使用前先确认 $a\\ne0$。"
+          },
+          {
+            "name": "根的判别式",
+            "expression": "$\\Delta=b^2-4ac$"
+          },
+          {
+            "name": "根与系数关系",
+            "expression": "$x_1+x_2=-\\dfrac{b}{a},\\quad x_1x_2=\\dfrac{c}{a}$",
+            "note": "常用于快速检验答案或构造方程。"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "因式分解法",
+            "problem": "解方程：$x^2-5x+6=0$。",
+            "steps": [
+              "拆分常数项：$2\\times3=6$，$2+3=5$。",
+              "因式分解：$(x-2)(x-3)=0$。",
+              "令每个因式为 0：$x-2=0$ 或 $x-3=0$。"
+            ],
+            "answer": "$x=2$ 或 $x=3$",
+            "takeaway": "一元二次方程一般不要漏写两个解。"
+          },
+          {
+            "title": "判别式求参数",
+            "problem": "若 $x^2-4x+k=0$ 有两个不相等实数根，求 $k$ 的取值范围。",
+            "steps": [
+              "写出判别式：$\\Delta=(-4)^2-4k=16-4k$。",
+              "两个不相等实数根要求 $\\Delta>0$。",
+              "解不等式：$16-4k>0$。"
+            ],
+            "answer": "$k<4$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "只写一个解。",
+            "correction": "一元二次方程通常有两个解，除非判别式为 0。"
+          },
+          {
+            "mistake": "因式分解时符号错误。",
+            "correction": "分解后用两因式相乘展开检查一次。"
+          },
+          {
+            "mistake": "使用公式法时忘记先算 $\\Delta$。",
+            "correction": "先判断根是否存在，再代入求根公式。"
+          }
+        ],
+        "strategy": "考试时先用 10 秒观察能否十字相乘；能分解就用因式分解法，不能分解再用公式法。含参数问题优先考虑判别式。"
+      }
     },
     {
       "id": "math-function-linear",
@@ -15,7 +103,83 @@
       "subject": "math",
       "summary": "掌握图像性质、解析式求解与实际应用。",
       "examWeight": "high",
-      "status": "not-started"
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "理解一次函数的定义、图像和增减性。",
+          "会用两点求解析式。",
+          "能根据 $k$、$b$ 判断图像经过的象限。"
+        ],
+        "keyIdea": "$k$ 决定直线的方向，$b$ 决定与 $y$ 轴的交点。",
+        "concepts": [
+          {
+            "title": "定义",
+            "content": [
+              "形如 $y=kx+b$ 的函数叫一次函数，其中 $k\\ne0$。",
+              "当 $b=0$ 时，它也是正比例函数。"
+            ]
+          },
+          {
+            "title": "图像与系数",
+            "content": [
+              "$k>0$ 时，$y$ 随 $x$ 增大而增大；$k<0$ 时，$y$ 随 $x$ 增大而减小。",
+              "直线与 $y$ 轴交于 $(0,b)$。",
+              "$k$、$b$ 的符号共同决定图像经过哪些象限。"
+            ]
+          },
+          {
+            "title": "求解析式",
+            "content": [
+              "已知两点时，设 $y=kx+b$。",
+              "代入两点坐标，解二元一次方程组求 $k$ 和 $b$。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "两点斜率公式",
+            "expression": "$k=\\dfrac{y_2-y_1}{x_2-x_1}$",
+            "note": "$x_1\\ne x_2$。"
+          },
+          {
+            "name": "一般形式",
+            "expression": "$y=kx+b\\quad(k\\ne0)$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "由两点求解析式",
+            "problem": "一次函数图像经过 $(0,2)$ 和 $(1,5)$，求解析式。",
+            "steps": [
+              "$b=2$。",
+              "$k=\\dfrac{5-2}{1-0}=3$。",
+              "写出解析式。"
+            ],
+            "answer": "$y=3x+2$"
+          },
+          {
+            "title": "判断象限",
+            "problem": "判断 $y=-2x+4$ 不经过哪个象限。",
+            "steps": [
+              "$k=-2<0$，图像下降。",
+              "$b=4>0$，与 $y$ 轴交于正半轴。",
+              "图像经过第一、二、四象限。"
+            ],
+            "answer": "不经过第三象限。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "只看 $b$ 忘记看 $k$。",
+            "correction": "先判断增减性，再看 $y$ 轴交点。"
+          },
+          {
+            "mistake": "求斜率时横纵坐标顺序写反。",
+            "correction": "牢记“纵坐标之差比横坐标之差”。"
+          }
+        ],
+        "strategy": "图像题先标出 $(0,b)$，再根据 $k$ 判断上升或下降；解析式题优先代入已知点。"
+      }
     },
     {
       "id": "math-geometry-triangle",
@@ -23,7 +187,76 @@
       "subject": "math",
       "summary": "掌握全等、相似与常见证明思路。",
       "examWeight": "high",
-      "status": "not-started"
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握全等三角形与相似三角形的判定。",
+          "能确定对应边和对应角。",
+          "会用比例关系计算线段或面积。"
+        ],
+        "keyIdea": "几何证明先标图，再写已知、目标结论和需要补足的判定条件。",
+        "concepts": [
+          {
+            "title": "全等三角形",
+            "content": [
+              "全等三角形对应边相等、对应角相等。",
+              "常用判定：SSS、SAS、ASA、AAS；直角三角形还可用 HL。",
+              "三个角对应相等不能判定全等。"
+            ]
+          },
+          {
+            "title": "相似三角形",
+            "content": [
+              "相似三角形对应角相等，对应边成比例。",
+              "周长比等于相似比，面积比等于相似比的平方。",
+              "常用判定包括两角对应相等、两边成比例且夹角相等、三边对应成比例。"
+            ]
+          },
+          {
+            "title": "证明书写顺序",
+            "content": [
+              "先写“在哪个三角形中”。",
+              "列出三个条件，并说明公共边、公共角或对顶角。",
+              "最后写判定依据和结论。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "相似比与面积比",
+            "expression": "$\\dfrac{S_1}{S_2}=\\left(\\dfrac{a_1}{a_2}\\right)^2$",
+            "note": "周长比等于相似比。"
+          },
+          {
+            "name": "三角形内角和",
+            "expression": "$\\angle A+\\angle B+\\angle C=180^\\circ$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "相似面积计算",
+            "problem": "两个相似三角形相似比为 $2:3$，较小三角形面积为 8，求较大三角形面积。",
+            "steps": [
+              "面积比等于相似比平方，即 $4:9$。",
+              "设较大面积为 $x$，则 $8:x=4:9$。",
+              "解得 $x=18$。"
+            ],
+            "answer": "$18$",
+            "takeaway": "面积要用相似比的平方，不能用相似比直接算。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "误用“SSA”判定全等。",
+            "correction": "“边边角”不一定全等，除非是直角三角形的 HL。"
+          },
+          {
+            "mistake": "面积比直接使用相似比。",
+            "correction": "面积比等于相似比的平方。"
+          }
+        ],
+        "strategy": "证明题先在图上标出相等的边角；找不到思路时，反问“结论需要哪三个条件”，再从图形中补齐。"
+      }
     },
     {
       "id": "math-statistics-average",
@@ -31,7 +264,66 @@
       "subject": "math",
       "summary": "能选择合适统计量描述数据。",
       "examWeight": "medium",
-      "status": "not-started"
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "会求平均数、中位数和众数。",
+          "能根据数据特点选择合适统计量。",
+          "理解极端值对平均数的影响。"
+        ],
+        "keyIdea": "平均数看总体水平，中位数看中间位置，众数看出现次数最多的数据。",
+        "concepts": [
+          {
+            "title": "平均数",
+            "content": [
+              "平均数等于所有数据之和除以个数。",
+              "它利用了所有数据，但容易受极端值影响。"
+            ]
+          },
+          {
+            "title": "中位数",
+            "content": [
+              "先把数据从小到大排列。",
+              "奇数个数据取正中间一个；偶数个数据取中间两个的平均数。"
+            ]
+          },
+          {
+            "title": "众数",
+            "content": [
+              "众数是出现次数最多的数据。",
+              "一组数据可能没有众数，也可能有多个众数。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "平均数",
+            "expression": "$\\bar{x}=\\dfrac{x_1+x_2+\\cdots+x_n}{n}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "求中位数",
+            "problem": "求数据 $3,4,4,6,8$ 的中位数。",
+            "steps": [
+              "数据已经从小到大排列。",
+              "共有 5 个数据，中位数是第 3 个数。"
+            ],
+            "answer": "$4$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "求中位数前没有排序。",
+            "correction": "必须先从小到大排列。"
+          },
+          {
+            "mistake": "偶数个数据时忘记取平均。",
+            "correction": "中位数等于中间两个数的平均值。"
+          }
+        ],
+        "strategy": "看到统计题先数清数据个数；有极端值时，中位数或众数往往比平均数更能代表一般水平。"
+      }
     },
     {
       "id": "math-number-real",
@@ -39,7 +331,59 @@
       "subject": "math",
       "summary": "掌握相反数、绝对值、科学记数法和实数运算。",
       "examWeight": "medium",
-      "status": "not-started"
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握相反数、绝对值和倒数。",
+          "能进行实数混合运算。",
+          "会用科学记数法表示较大或较小的数。"
+        ],
+        "keyIdea": "先确定符号，再计算绝对值；混合运算注意运算顺序。",
+        "concepts": [
+          {
+            "title": "相反数与绝对值",
+            "content": [
+              "$a$ 的相反数是 $-a$。",
+              "$|a|$ 表示数轴上 $a$ 到原点的距离，结果非负。"
+            ]
+          },
+          {
+            "title": "科学记数法",
+            "content": [
+              "较大数写成 $a\\times10^n$，其中 $1\\le|a|<10$。",
+              "$n$ 等于原数整数位数减 1。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "绝对值",
+            "expression": "$|a|=\\begin{cases}a,&a\\ge0\\\\-a,&a<0\\end{cases}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "绝对值运算",
+            "problem": "计算 $|-5|+2$。",
+            "steps": [
+              "$|-5|=5$。",
+              "$5+2=7$。"
+            ],
+            "answer": "$7$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把相反数与倒数混淆。",
+            "correction": "相反数只改变符号；倒数是乘积为 1 的数。"
+          },
+          {
+            "mistake": "绝对值结果直接带负号。",
+            "correction": "绝对值结果一定非负。"
+          }
+        ],
+        "strategy": "实数计算题按“定符号 → 定绝对值 → 定运算顺序”三步走，能显著减少粗心错误。"
+      }
     },
     {
       "id": "math-algebra-factor",
@@ -47,7 +391,80 @@
       "subject": "math",
       "summary": "掌握乘法公式、提公因式和公式法分解。",
       "examWeight": "high",
-      "status": "not-started"
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "会提公因式。",
+          "会用平方差和完全平方公式分解。",
+          "能用十字相乘处理二次三项式。"
+        ],
+        "keyIdea": "因式分解前先找公因式，再看项数和结构，最后检查是否能继续分解。",
+        "concepts": [
+          {
+            "title": "提公因式",
+            "content": [
+              "系数取最大公约数。",
+              "相同字母取最低次幂。",
+              "提完后括号内不能漏项。"
+            ]
+          },
+          {
+            "title": "公式法",
+            "content": [
+              "平方差：两项符号相反，且都是平方形式。",
+              "完全平方：三项结构符合“首平方、尾平方、首尾积的 2 倍在中央”。"
+            ]
+          },
+          {
+            "title": "十字相乘",
+            "content": [
+              "对 $x^2+px+q$，寻找两数使积为 $q$、和为 $p$。",
+              "分解后展开检查符号。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "平方差",
+            "expression": "$a^2-b^2=(a+b)(a-b)$"
+          },
+          {
+            "name": "完全平方",
+            "expression": "$a^2\\pm2ab+b^2=(a\\pm b)^2$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "提公因式",
+            "problem": "分解 $3x^2+6x$。",
+            "steps": [
+              "公因式是 $3x$。",
+              "提出 $3x$ 后括号内为 $x+2$。"
+            ],
+            "answer": "$3x(x+2)$"
+          },
+          {
+            "title": "十字相乘",
+            "problem": "分解 $x^2+5x+6$。",
+            "steps": [
+              "寻找两数：积为 6，和为 5。",
+              "两数为 2 和 3。"
+            ],
+            "answer": "$(x+2)(x+3)$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "提公因式后漏项。",
+            "correction": "提出公因式后，原多项式每一项都要除以公因式。"
+          },
+          {
+            "mistake": "把 $x^2-4$ 分解成 $(x-2)^2$。",
+            "correction": "$x^2-4$ 是平方差，应分解为 $(x+2)(x-2)$。"
+          }
+        ],
+        "strategy": "按“一提、二套、三查”操作：先提公因式，再套公式或十字相乘，最后展开检查。"
+      }
     },
     {
       "id": "math-inequality",
@@ -55,7 +472,66 @@
       "subject": "math",
       "summary": "掌握解集、数轴表示和实际问题。",
       "examWeight": "high",
-      "status": "not-started"
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "会解一元一次不等式。",
+          "会在数轴上表示解集。",
+          "能用不等式解决简单实际问题。"
+        ],
+        "keyIdea": "解不等式的移项、合并与方程类似，但两边乘除负数时必须改变不等号方向。",
+        "concepts": [
+          {
+            "title": "基本性质",
+            "content": [
+              "两边加减同一个数，不等号方向不变。",
+              "两边乘除同一个正数，不等号方向不变。",
+              "两边乘除同一个负数，不等号方向改变。"
+            ]
+          },
+          {
+            "title": "数轴表示",
+            "content": [
+              "“>”或“<”用空心圆圈。",
+              "“≥”或“≤”用实心圆点。",
+              "大于向右，小于向左。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "不等式性质",
+            "expression": "$a>b\\Rightarrow ac>bc\\quad(c>0)$"
+          },
+          {
+            "name": "负数乘除反向",
+            "expression": "$a>b\\Rightarrow ac<bc\\quad(c<0)$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "系数为负",
+            "problem": "解不等式 $-3x\\le9$。",
+            "steps": [
+              "两边同除以 $-3$。",
+              "不等号方向由 $\\le$ 改为 $\\ge$。"
+            ],
+            "answer": "$x\\ge-3$",
+            "takeaway": "除以负数时一定要改变不等号方向。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "两边除以负数后没有改变方向。",
+            "correction": "写上“除以负数”这一步提醒自己反向。"
+          },
+          {
+            "mistake": "数轴上空心、实心分不清。",
+            "correction": "包含等号用实心点，不包含等号用空心圈。"
+          }
+        ],
+        "strategy": "解不等式时先化成 $ax>b$ 形式，再判断 $a$ 的符号；实际应用题最后要检查是否符合实际意义。"
+      }
     },
     {
       "id": "math-function-quadratic",
@@ -63,7 +539,70 @@
       "subject": "math",
       "summary": "掌握顶点式、开口方向、对称轴与最值。",
       "examWeight": "high",
-      "status": "not-started"
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握二次函数的开口方向、对称轴和顶点。",
+          "会用顶点式求最值。",
+          "能通过平移理解图像变化。"
+        ],
+        "keyIdea": "先看 $a$ 定开口，再找顶点 $(h,k)$；最值由开口方向决定。",
+        "concepts": [
+          {
+            "title": "三种表达形式",
+            "content": [
+              "一般式：$y=ax^2+bx+c$。",
+              "顶点式：$y=a(x-h)^2+k$。",
+              "交点式：$y=a(x-x_1)(x-x_2)$。"
+            ]
+          },
+          {
+            "title": "图像性质",
+            "content": [
+              "$a>0$ 时开口向上，顶点是最低点。",
+              "$a<0$ 时开口向下，顶点是最高点。",
+              "对称轴为 $x=h$。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "顶点式",
+            "expression": "$y=a(x-h)^2+k$"
+          },
+          {
+            "name": "顶点坐标",
+            "expression": "$\\left(-\\dfrac{b}{2a},\\dfrac{4ac-b^2}{4a}\\right)$"
+          },
+          {
+            "name": "对称轴",
+            "expression": "$x=-\\dfrac{b}{2a}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "配方求最值",
+            "problem": "求 $y=-x^2+4x+1$ 的最大值。",
+            "steps": [
+              "配方：$y=-(x-2)^2+5$。",
+              "$a=-1<0$，开口向下。",
+              "顶点纵坐标为最大值。"
+            ],
+            "answer": "$5$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把 $(x+3)^2$ 的顶点横坐标写成 $3$。",
+            "correction": "顶点式是 $(x-h)^2$，这里 $h=-3$。"
+          },
+          {
+            "mistake": "求出顶点横坐标就当作最值。",
+            "correction": "最值通常是顶点纵坐标。"
+          }
+        ],
+        "strategy": "二次函数题先确定用哪种形式：看图像用顶点式，已知交点用交点式，求最值优先配方。"
+      }
     },
     {
       "id": "math-geometry-congruence",
@@ -71,7 +610,63 @@
       "subject": "math",
       "summary": "掌握全等判定和对应关系。",
       "examWeight": "high",
-      "status": "not-started"
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握全等三角形判定方法。",
+          "能准确找出对应边和对应角。",
+          "会书写规范的全等证明过程。"
+        ],
+        "keyIdea": "全等证明的核心是把三个条件凑齐，并确认它们满足判定方法。",
+        "concepts": [
+          {
+            "title": "判定方法",
+            "content": [
+              "SSS：三边分别相等。",
+              "SAS：两边及夹角分别相等。",
+              "ASA：两角及夹边分别相等。",
+              "AAS：两角及其中一角的对边分别相等。"
+            ]
+          },
+          {
+            "title": "隐含条件",
+            "content": [
+              "公共边是隐含相等条件。",
+              "公共角、对顶角也是隐含相等条件。",
+              "等边加公共部分仍相等，等角加公共部分仍相等。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "对应边相等",
+            "expression": "$\\triangle ABC\\cong\\triangle DEF\\Rightarrow AB=DE$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "补 SAS 条件",
+            "problem": "已知 $AB=DE$，$\\angle A=\\angle D$，要用 SAS 判定全等，还需要什么条件？",
+            "steps": [
+              "$AB$ 与 $DE$ 是一组对应边。",
+              "$\\angle A$ 与 $\\angle D$ 是对应角。",
+              "需要夹这个角的另一组边相等。"
+            ],
+            "answer": "$BC=EF$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "误用 SSA 判定全等。",
+            "correction": "两边及其中一边的对角不能一般地判定全等。"
+          },
+          {
+            "mistake": "对应关系写错。",
+            "correction": "按字母顺序确定对应顶点。"
+          }
+        ],
+        "strategy": "证明全等时先圈出已知相等边角，再寻找公共边、公共角、对顶角或中点条件。"
+      }
     },
     {
       "id": "math-geometry-similarity",
@@ -79,7 +674,67 @@
       "subject": "math",
       "summary": "掌握相似判定、比例线段和实际应用。",
       "examWeight": "high",
-      "status": "not-started"
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握相似三角形的判定。",
+          "会用相似比求线段、周长和面积。",
+          "能建立比例式解决实际问题。"
+        ],
+        "keyIdea": "相似看“角相等、边成比例”；周长比等于相似比，面积比等于相似比的平方。",
+        "concepts": [
+          {
+            "title": "判定方法",
+            "content": [
+              "两角对应相等，两三角形相似。",
+              "两边对应成比例且夹角相等，两三角形相似。",
+              "三边对应成比例，两三角形相似。"
+            ]
+          },
+          {
+            "title": "比例关系",
+            "content": [
+              "对应边成比例。",
+              "对应高、对应中线、对应角平分线的比等于相似比。",
+              "面积比等于相似比的平方。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "面积比",
+            "expression": "$\\dfrac{S_1}{S_2}=k^2$",
+            "note": "$k$ 是相似比。"
+          },
+          {
+            "name": "周长比",
+            "expression": "$\\dfrac{C_1}{C_2}=k$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "面积计算",
+            "problem": "相似比为 $2:3$，较小三角形面积为 8，求较大三角形面积。",
+            "steps": [
+              "面积比为 $4:9$。",
+              "设较大面积为 $x$。",
+              "$8:x=4:9$。"
+            ],
+            "answer": "$18$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把面积比当成相似比。",
+            "correction": "面积比等于相似比的平方。"
+          },
+          {
+            "mistake": "对应边没有按顶点顺序对应。",
+            "correction": "先写清相似三角形字母顺序。"
+          }
+        ],
+        "strategy": "相似题先确定对应顶点，再写比例式；实际应用题可画示意图，把未知线段设为 $x$。"
+      }
     },
     {
       "id": "math-probability-basic",
@@ -87,7 +742,66 @@
       "subject": "math",
       "summary": "会用列举法计算简单事件的概率。",
       "examWeight": "medium",
-      "status": "not-started"
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "理解等可能事件。",
+          "会用列举法求概率。",
+          "掌握概率的取值范围。"
+        ],
+        "keyIdea": "概率等于符合条件的结果数除以所有等可能结果数。",
+        "concepts": [
+          {
+            "title": "概率公式",
+            "content": [
+              "$P(A)=\\dfrac{m}{n}$，其中 $n$ 是所有等可能结果数，$m$ 是事件 $A$ 包含的结果数。",
+              "所有结果必须等可能。",
+              "$0\\le P(A)\\le1$。"
+            ]
+          },
+          {
+            "title": "列举方法",
+            "content": [
+              "简单事件可直接列表。",
+              "两步事件常用树状图或表格。",
+              "注意是否有放回、是否有序。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "概率公式",
+            "expression": "$P(A)=\\dfrac{m}{n}$"
+          },
+          {
+            "name": "必然事件与不可能事件",
+            "expression": "$P(必然事件)=1,\\quad P(不可能事件)=0$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "列举法",
+            "problem": "从 $1,2,3$ 中随机取一个数，求取到偶数的概率。",
+            "steps": [
+              "所有等可能结果：$1,2,3$。",
+              "偶数只有 $2$。",
+              "概率为 $\\dfrac{1}{3}$。"
+            ],
+            "answer": "$\\dfrac{1}{3}$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "总结果数重复或遗漏。",
+            "correction": "先用表格或树状图列出全部结果。"
+          },
+          {
+            "mistake": "把不可能事件的概率写成很小但不为 0。",
+            "correction": "不可能事件概率是 0。"
+          }
+        ],
+        "strategy": "概率题先写“所有等可能结果”，再数符合条件的结果；两步实验优先画树状图。"
+      }
     }
   ],
   "questions": [

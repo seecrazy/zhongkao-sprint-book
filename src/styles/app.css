@@ -441,6 +441,123 @@ button.danger {
   gap: 10px;
 }
 
+.lesson-detail {
+  background: #fff;
+  border: 1px solid #dfe5ee;
+  border-radius: 18px;
+  box-shadow: 0 10px 24px rgba(32, 43, 54, 0.05);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.lesson-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  border-bottom: 1px solid #e3e8ef;
+  padding-bottom: 16px;
+  margin-bottom: 18px;
+}
+
+.lesson-header h2 {
+  margin: 8px 0 6px;
+}
+
+.lesson-header p {
+  margin: 0;
+  color: #667487;
+}
+
+.lesson-body {
+  display: grid;
+  gap: 24px;
+}
+
+.lesson-body h3 {
+  margin: 0 0 10px;
+  font-size: 1.14rem;
+}
+
+.lesson-body section {
+  border-top: 1px solid #edf1f6;
+  padding-top: 18px;
+}
+
+.lesson-body section:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.lesson-list {
+  margin: 0;
+  padding-left: 20px;
+  color: #475467;
+  display: grid;
+  gap: 6px;
+}
+
+.lesson-key-idea {
+  margin: 0;
+  background: #eef4ff;
+  color: #245a9c;
+  padding: 12px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.lesson-card {
+  background: #f8fafc;
+  border: 1px solid #e3e8ef;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.lesson-card h4 {
+  margin: 0 0 10px;
+}
+
+.lesson-card p {
+  color: #475467;
+  line-height: 1.6;
+}
+
+.formula-line {
+  font-size: 1.05rem;
+  background: #eef4ff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.lesson-note {
+  margin-top: 8px;
+  color: #6c7889;
+}
+
+.warning-card {
+  background: #fff8f6;
+  border-color: #f0c9c1;
+}
+
+.lesson-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  border-top: 1px solid #e3e8ef;
+  padding-top: 16px;
+  margin-top: 20px;
+}
+
+.topic-card button.full-width {
+  margin-top: 14px;
+}
+
 .trend-summary {
   display: flex;
   align-items: baseline;
@@ -874,6 +991,14 @@ button.danger {
 
   .two-column {
     grid-template-columns: 1fr;
+  }
+
+  .lesson-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lesson-header {
+    flex-direction: column;
   }
 
   .exam-header,

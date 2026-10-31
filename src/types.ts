@@ -9,6 +9,41 @@ export interface KnowledgePoint {
   summary: string;
   examWeight: "high" | "medium" | "low";
   status: KnowledgePointStatus;
+  lesson?: KnowledgeLesson;
+}
+
+export interface LessonConcept {
+  title: string;
+  content: string[];
+}
+
+export interface LessonFormula {
+  name: string;
+  expression: string;
+  note?: string;
+}
+
+export interface LessonExample {
+  title: string;
+  problem: string;
+  steps: string[];
+  answer: string;
+  takeaway?: string;
+}
+
+export interface LessonPitfall {
+  mistake: string;
+  correction: string;
+}
+
+export interface KnowledgeLesson {
+  objectives: string[];
+  keyIdea: string;
+  concepts: LessonConcept[];
+  formulas: LessonFormula[];
+  workedExamples: LessonExample[];
+  pitfalls: LessonPitfall[];
+  strategy: string;
 }
 
 export interface ChoiceOption {

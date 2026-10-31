@@ -342,3 +342,36 @@ sprintbook-exam-history-v1
 ### 限制
 
 这是线性近似模型，还没有基于大样本数据校准题目难度和区分度。
+
+---
+
+## 2026-11-01：考点讲解内嵌在知识点数据中
+
+### 决策
+
+将考点讲解作为 `KnowledgePoint.lesson` 字段保存，而不是拆成单独的讲解 JSON 文件。
+
+### 结构
+
+```ts
+interface KnowledgeLesson {
+  objectives: string[];
+  keyIdea: string;
+  concepts: LessonConcept[];
+  formulas: LessonFormula[];
+  workedExamples: LessonExample[];
+  pitfalls: LessonPitfall[];
+  strategy: string;
+}
+```
+
+### 原因
+
+1. 讲解、题目和掌握度属于同一个学习单元。
+2. 考点卡片、讲解面板和专题练习可以使用同一个考点 ID 关联。
+3. 内容校验可以一次性检查“讲解 + 题目 + 引用关系”是否完整。
+4. 当前数学试点规模较小，单文件维护成本可控。
+
+### 限制
+
+如果后续全科内容规模扩大，应拆分为独立课程文件，并通过考点 ID 引用。

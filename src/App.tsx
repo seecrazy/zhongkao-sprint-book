@@ -77,7 +77,9 @@ export default function App() {
           onNavigate={navigate}
         />
       )}
-      {page === "topics" && <Topics progress={progress} />}
+      {page === "topics" && (
+        <Topics progress={progress} onNavigate={navigate} />
+      )}
       {page === "practice" && (
         <Practice
           progress={progress}

@@ -12,7 +12,7 @@ src/data/math.json
 
 ```json
 {
-  "version": "math-v0.4",
+  "version": "math-v0.6",
   "knowledgePoints": [],
   "questions": []
 }
@@ -25,6 +25,7 @@ src/data/math.json
 ```text
 知识点：11 个
 题目：25 道
+考点讲解：11 个
 基础题：14 道
 中等题：9 道
 较难题：2 道
@@ -73,6 +74,19 @@ interface KnowledgePoint {
   summary: string;
   examWeight: "high" | "medium" | "low";
   status: "not-started" | "learning" | "stable" | "mastered";
+  lesson?: KnowledgeLesson;
+}
+```
+
+```ts
+interface KnowledgeLesson {
+  objectives: string[];
+  keyIdea: string;
+  concepts: LessonConcept[];
+  formulas: LessonFormula[];
+  workedExamples: LessonExample[];
+  pitfalls: LessonPitfall[];
+  strategy: string;
 }
 ```
 
@@ -85,8 +99,25 @@ interface KnowledgePoint {
   "subject": "math",
   "summary": "掌握解法、根的判别式和根与系数关系。",
   "examWeight": "high",
-  "status": "learning"
+  "status": "learning",
+  "lesson": {
+    "objectives": [],
+    "keyIdea": "",
+    "concepts": [],
+    "formulas": [],
+    "workedExamples": [],
+    "pitfalls": [],
+    "strategy": ""
+  }
 }
+```
+
+当前讲解规模：
+
+```text
+知识点：11
+结构化讲解：11
+覆盖比例：11/11
 ```
 
 ## 题目公共字段
@@ -266,18 +297,20 @@ npm run validate:content
 1. JSON 可解析。
 2. 文件有版本号。
 3. 知识点必填字段完整。
-4. 题目必填字段完整。
-5. 知识点 ID 唯一。
-6. 题目 ID 唯一。
-7. 题目引用的知识点存在。
-8. 单选题必须有选项和答案。
-9. 数值题必须有数值答案。
-10. 表达式题必须有可接受答案。
-11. 题干中的 `$` 符号必须成对。
-12. 表达式题 `answerKind` 合法。
-13. 解析中的 `$` 符号必须成对。
-14. 选项中的 `$` 符号必须成对。
-15. 暂无题目的知识点给出警告。
+4. 知识点必须包含结构化讲解。
+5. 讲解必须包含学习目标、核心思路、概念、公式、例题、易错提醒和策略。
+6. 题目必填字段完整。
+7. 知识点 ID 唯一。
+8. 题目 ID 唯一。
+9. 题目引用的知识点存在。
+10. 单选题必须有选项和答案。
+11. 数值题必须有数值答案。
+12. 表达式题必须有可接受答案。
+13. 题干中的 `$` 符号必须成对。
+14. 表达式题 `answerKind` 合法。
+15. 解析中的 `$` 符号必须成对。
+16. 选项中的 `$` 符号必须成对。
+17. 暂无题目的知识点给出警告。
 
 ## 覆盖率报告
 
@@ -302,6 +335,7 @@ npm run report:coverage
 
 ```text
 知识点：11
+考点讲解：11
 题目：25
 基础：14
 中等：9

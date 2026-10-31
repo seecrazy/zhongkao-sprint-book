@@ -13,6 +13,7 @@ const examSectionQuestionIds = new Set();
 let fileCount = 0;
 let questionCount = 0;
 let knowledgePointCount = 0;
+let lessonCount = 0;
 let examCount = 0;
 
 function isObject(value) {
@@ -22,7 +23,7 @@ function isObject(value) {
 function validateKnowledgePoint(point, file, index) {
   const location = `${file}:knowledgePoints[${index}]`;
 
-  for (const field of ["id", "name", "subject", "summary", "examWeight", "status"]) {
+  for (const field of ["id", "name", "subject", "summary", "examWeight", "status", "lesson"]) {
     if (!point[field]) errors.push(`${location} 缺少字段 ${field}`);
   }
 
@@ -39,6 +40,69 @@ function validateKnowledgePoint(point, file, index) {
       errors.push(`${location} 知识点 ID 重复：${point.id}`);
     }
     knowledgePointIds.add(point.id);
+  }
+
+  if (point.lesson) validateKnowledgeLesson(point.lesson, location);
+  if (point.lesson) lessonCount += 1;
+}
+
+function validateKnowledgeLesson(lesson, location) {
+  for (const field of [
+    "objectives",
+    "keyIdea",
+    "concepts",
+    "formulas",
+    "workedExamples",
+    "pitfalls",
+    "strategy",
+  ]) {
+    if (lesson[field] === undefined || lesson[field] === "") {
+      errors.push(`${location}.lesson 缺少字段 ${field}`);
+    }
+  }
+
+  if (!Array.isArray(lesson.objectives) || lesson.objectives.length < 2) {
+    errors.push(`${location}.lesson 至少需要 2 个学习目标`);
+  }
+
+  if (!Array.isArray(lesson.concepts) || lesson.concepts.length < 2) {
+    errors.push(`${location}.lesson 至少需要 2 个概念块`);
+  } else {
+    lesson.concepts.forEach((concept, index) => {
+      if (!concept?.title || !Array.isArray(concept.content) || concept.content.length === 0) {
+        errors.push(`${location}.lesson.concepts[${index}] 结构不完整`);
+      }
+    });
+  }
+
+  if (!Array.isArray(lesson.formulas) || lesson.formulas.length === 0) {
+    errors.push(`${location}.lesson 至少需要 1 个公式`);
+  } else {
+    lesson.formulas.forEach((formula, index) => {
+      if (!formula?.name || !formula?.expression) {
+        errors.push(`${location}.lesson.formulas[${index}] 结构不完整`);
+      }
+    });
+  }
+
+  if (!Array.isArray(lesson.workedExamples) || lesson.workedExamples.length < 1) {
+    errors.push(`${location}.lesson 至少需要 1 道例题`);
+  } else {
+    lesson.workedExamples.forEach((example, index) => {
+      if (
+        !example?.title ||
+        !example?.problem ||
+        !Array.isArray(example.steps) ||
+        example.steps.length === 0 ||
+        !example?.answer
+      ) {
+        errors.push(`${location}.lesson.workedExamples[${index}] 结构不完整`);
+      }
+    });
+  }
+
+  if (!Array.isArray(lesson.pitfalls) || lesson.pitfalls.length < 1) {
+    errors.push(`${location}.lesson 至少需要 1 条易错提醒`);
   }
 }
 
@@ -325,6 +389,7 @@ async function main() {
   console.log("=== 内容校验报告 ===");
   console.log(`内容文件：${fileCount}`);
   console.log(`知识点：${knowledgePointCount}`);
+  console.log(`考点讲解：${lessonCount}`);
   console.log(`题目：${questionCount}`);
   console.log(`试卷：${examCount}`);
 

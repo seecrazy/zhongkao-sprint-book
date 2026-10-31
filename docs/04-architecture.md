@@ -28,6 +28,7 @@
 考点地图
 ├── 考点列表
 ├── 重要程度
+├── 结构化讲解
 ├── 当前状态
 └── 完成度
 
@@ -76,6 +77,7 @@ src/
 │   ├── MathText.tsx
 │   └── QuestionCard.tsx
 ├── data/
+│   ├── content.test.ts
 │   ├── math-exams.json
 │   ├── math.json
 │   └── sample-content.ts
@@ -111,17 +113,7 @@ math.json
     ↓
 sample-content.ts
     ↓ 类型化导出
-Practice.tsx
-    ↓ 用户作答
-responses / question-timers
-    ↓ 一键打分
-grading.ts
-    ↓
-QuestionResult[] + timeSpentSeconds
-    ↓
-UI 显示解析与用时
-    ↓
-storage.recordAttempt
+Topics.tsx / Practice.tsx / Home.tsx / Mistakes.tsx
     ↓
 attempts / completedQuestionIds / mistakes / reviewSchedule
     ↓
@@ -131,6 +123,31 @@ questionStats / topicStats / overallMastery
     ↓
 Home / Topics / Mistakes 更新
 ```
+
+## 考点讲解模块
+
+每个 `KnowledgePoint` 携带一个 `KnowledgeLesson`。当前 11 个考点都有完整讲解。
+
+讲解结构：
+
+```text
+objectives       学习目标
+keyIdea          核心思路
+concepts         概念讲解
+formulas         核心公式
+workedExamples   例题与步骤
+pitfalls         易错警示
+strategy         解题策略
+```
+
+`Topics.tsx` 负责：
+
+1. 展示考点卡片、掌握度和优先级。
+2. 打开指定考点的结构化讲解。
+3. 使用 `MathText` 渲染讲解中的数学公式。
+4. 提供跳转到该考点专题练习的入口。
+
+用户从讲解进入练习后，继续走判分和掌握度更新流程。
 
 ## 每日计划模块
 
@@ -196,6 +213,7 @@ src/lib/grading.test.ts
 src/lib/exam.test.ts
 src/lib/mastery.test.ts
 src/lib/storage.test.ts
+src/data/content.test.ts
 ```
 
 覆盖：
@@ -205,6 +223,8 @@ src/lib/storage.test.ts
 3. 模考趋势排序与得分率。
 4. 时间衰减、难度调整和考点掌握度。
 5. 错题复习阶段升级与重置。
+6. 考点讲解结构完整。
+7. 题库和试卷引用关系有效。
 
 ## 掌握度模块
 

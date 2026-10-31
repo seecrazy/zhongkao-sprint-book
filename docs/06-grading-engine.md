@@ -14,6 +14,7 @@
 → 给出错误类型
 → 支撑错题记录
 → 支撑用时统计
+→ 支撑整卷评分
 ```
 
 ## 当前入口
@@ -48,6 +49,23 @@ interface QuestionResult {
   errorType: "none" | "blank" | "concept" | "calculation" | "careless";
   timeSpentSeconds?: number;
 }
+```
+
+## 得分规则
+
+当前每题满分 1 分。
+
+```text
+correct：score = 1
+wrong：score = 0
+skipped：score = 0
+```
+
+整卷评分使用：
+
+```text
+试卷总分 = Σ QuestionResult.score
+试卷满分 = 题目数 × scorePerQuestion
 ```
 
 ## 当前题型判分

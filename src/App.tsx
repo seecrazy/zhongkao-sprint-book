@@ -3,12 +3,20 @@ import Layout, { type PageKey } from "./components/Layout";
 import Home from "./pages/Home";
 import Topics from "./pages/Topics";
 import Practice from "./pages/Practice";
+import Exam from "./pages/Exam";
 import Mistakes from "./pages/Mistakes";
 import Settings from "./pages/Settings";
 import { loadProgress, saveProgress } from "./lib/storage";
 import type { ProgressState } from "./types";
 
-const pageKeys = ["home", "topics", "practice", "mistakes", "settings"] as const;
+const pageKeys = [
+  "home",
+  "topics",
+  "practice",
+  "exam",
+  "mistakes",
+  "settings",
+] as const;
 
 function parseHash(): {
   page: PageKey;
@@ -62,7 +70,13 @@ export default function App() {
 
   return (
     <Layout page={page} onNavigate={navigate}>
-      {page === "home" && <Home progress={progress} onNavigate={navigate} />}
+      {page === "home" && (
+        <Home
+          progress={progress}
+          setProgress={setProgress}
+          onNavigate={navigate}
+        />
+      )}
       {page === "topics" && <Topics progress={progress} />}
       {page === "practice" && (
         <Practice
@@ -70,6 +84,13 @@ export default function App() {
           setProgress={setProgress}
           initialTopicId={query.get("topic") ?? "all"}
           initialReviewOnly={query.get("review") === "1"}
+        />
+      )}
+      {page === "exam" && (
+        <Exam
+          progress={progress}
+          setProgress={setProgress}
+          onNavigate={navigate}
         />
       )}
       {page === "mistakes" && <Mistakes progress={progress} onNavigate={navigate} />}

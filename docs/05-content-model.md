@@ -12,7 +12,7 @@ src/data/math.json
 
 ```json
 {
-  "version": "math-v0.3",
+  "version": "math-v0.4",
   "knowledgePoints": [],
   "questions": []
 }
@@ -24,9 +24,34 @@ src/data/math.json
 
 ```text
 知识点：11 个
-题目：19 道
-基础题：12 道
-中等题：7 道
+题目：25 道
+基础题：14 道
+中等题：9 道
+较难题：2 道
+```
+
+试卷内容位于：
+
+```text
+src/data/math-exams.json
+```
+
+试卷结构：
+
+```json
+{
+  "version": "math-exams-v0.4",
+  "exams": [
+    {
+      "id": "math-mock-001",
+      "subject": "math",
+      "title": "数学基础冲刺摸底卷",
+      "durationMinutes": 25,
+      "scorePerQuestion": 1,
+      "questionIds": []
+    }
+  ]
+}
 ```
 
 ## 当前基础模型
@@ -264,18 +289,45 @@ npm run report:coverage
 5. 每个考点的题量和题型数量。
 6. 每个考点的难度分布。
 7. 待补题型和待补难度提示。
+8. 待补题目的具体考点。
 
 当前快照：
 
 ```text
 知识点：11
-题目：19
-基础：12
-中等：7
-较难：0
+题目：25
+基础：14
+中等：9
+较难：2
 题目覆盖：11/11
-结构健康：7/11
+结构健康：11/11
 ```
+
+## 试卷模型
+
+当前试卷字段：
+
+```ts
+interface ExamPaper {
+  id: string;
+  subject: Subject;
+  title: string;
+  description: string;
+  durationMinutes: number;
+  scorePerQuestion: number;
+  questionIds: string[];
+}
+```
+
+校验规则：
+
+1. 试卷必填字段完整。
+2. 试卷 ID 唯一。
+3. `durationMinutes` 必须是正数。
+4. `scorePerQuestion` 必须是正数。
+5. 试卷至少包含 5 道题。
+6. 试卷引用的题目必须存在。
+7. 试卷内题目 ID 不重复。
 
 ## 解析结构方向
 

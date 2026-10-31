@@ -1,5 +1,6 @@
 import type { ProgressState } from "../types";
 import { resetProgress } from "../lib/storage";
+import { clearExamHistory, saveActiveExam } from "../lib/exam-storage";
 
 interface SettingsProps {
   progress: ProgressState;
@@ -10,6 +11,8 @@ export default function Settings({ progress, setProgress }: SettingsProps) {
   function clearProgress() {
     if (!window.confirm("确定要清空本地学习进度和错题本吗？")) return;
 
+    clearExamHistory();
+    saveActiveExam(null);
     setProgress(resetProgress());
   }
 

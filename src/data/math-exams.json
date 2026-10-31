@@ -1,0 +1,30 @@
+{
+  "version": "math-exams-v0.4",
+  "exams": [
+    {
+      "id": "math-mock-001",
+      "subject": "math",
+      "title": "数学基础冲刺摸底卷",
+      "description": "覆盖方程、函数、几何、统计与概率的基础主干考点。",
+      "durationMinutes": 25,
+      "scorePerQuestion": 1,
+      "questionIds": [
+        "math-quadratic-001",
+        "math-quadratic-002",
+        "math-linear-001",
+        "math-linear-002",
+        "math-stats-001",
+        "math-number-001",
+        "math-number-002",
+        "math-factor-001",
+        "math-factor-002",
+        "math-inequality-001",
+        "math-inequality-002",
+        "math-quadratic-function-001",
+        "math-quadratic-function-002",
+        "math-congruence-001",
+        "math-similarity-001"
+      ]
+    }
+  ]
+}

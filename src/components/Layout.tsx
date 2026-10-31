@@ -1,6 +1,12 @@
 import type { ReactNode } from "react";
 
-export type PageKey = "home" | "topics" | "practice" | "mistakes" | "settings";
+export type PageKey =
+  | "home"
+  | "topics"
+  | "practice"
+  | "exam"
+  | "mistakes"
+  | "settings";
 
 interface LayoutProps {
   page: PageKey;
@@ -12,6 +18,7 @@ const navItems: Array<{ key: PageKey; label: string }> = [
   { key: "home", label: "冲刺看板" },
   { key: "topics", label: "考点地图" },
   { key: "practice", label: "专题练习" },
+  { key: "exam", label: "限时模考" },
   { key: "mistakes", label: "错题本" },
   { key: "settings", label: "设置" },
 ];
@@ -42,7 +49,7 @@ export default function Layout({ page, onNavigate, children }: LayoutProps) {
       </header>
       <main className="app-main">{children}</main>
       <footer className="app-footer">
-        SprintBook v0.3 · 数学试点 · 掌握度 · 错题间隔复习
+        SprintBook v0.4 · 数学试点 · 每日计划 · 掌握度 · 模考复盘
       </footer>
     </div>
   );

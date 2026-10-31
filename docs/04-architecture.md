@@ -17,6 +17,7 @@
 ```text
 冲刺看板
 ├── 学习进度
+├── 今日冲刺计划
 ├── 今日做题
 ├── 连续学习
 ├── 综合掌握度
@@ -38,6 +39,16 @@
 ├── 一键打分
 ├── 用时记录
 └── 题目反馈
+
+限时模考
+├── 试卷列表
+├── 倒计时
+├── 单题作答
+├── 答题卡
+├── 立即 / 自动交卷
+├── 分考点报告
+├── 逐题解析
+└── 最近成绩
 
 错题本
 ├── 到期复习
@@ -62,13 +73,18 @@ src/
 │   ├── MathText.tsx
 │   └── QuestionCard.tsx
 ├── data/
+│   ├── math-exams.json
 │   ├── math.json
 │   └── sample-content.ts
 ├── lib/
+│   ├── exam-storage.ts
+│   ├── exam.ts
 │   ├── grading.ts
 │   ├── mastery.ts
+│   ├── planner.ts
 │   └── storage.ts
 ├── pages/
+│   ├── Exam.tsx
 │   ├── Home.tsx
 │   ├── Topics.tsx
 │   ├── Practice.tsx
@@ -108,6 +124,42 @@ questionStats / topicStats / overallMastery
     ↓
 Home / Topics / Mistakes 更新
 ```
+
+## 每日计划模块
+
+`src/lib/planner.ts` 根据当前学习状态生成任务：
+
+1. 如果有到期错题，生成间隔复习任务。
+2. 按掌握度排序，为前两个薄弱考点生成专项任务。
+3. 如果题库支持整卷，生成限时模考任务。
+4. 生成今日复盘任务。
+
+任务 ID 按日期和考点生成，保证同一天内相对稳定。完成状态保存在：
+
+```ts
+ProgressState.dailyPlans[date].completedTaskIds
+```
+
+## 模考模块
+
+`src/lib/exam.ts` 负责：
+
+1. 根据 `questionIds` 加载整卷题目。
+2. 计算剩余时间。
+3. 调用判分引擎评分。
+4. 按考点聚合得分。
+5. 生成分考点报告和冲刺建议。
+
+`src/pages/Exam.tsx` 负责：
+
+1. 展示试卷列表。
+2. 创建和恢复考试会话。
+3. 倒计时。
+4. 单题作答和答题卡。
+5. 交卷或自动交卷。
+6. 展示报告页。
+
+考试会话基于 `startedAt` 和试卷时长计算，因此页面刷新或路由切换后仍能继续剩余时间。
 
 ## 掌握度模块
 
@@ -158,7 +210,7 @@ grading/
 当前使用 localStorage：
 
 ```text
-key: sprintbook-progress-v0.3
+key: sprintbook-progress-v0.4
 ```
 
 结构：
@@ -168,6 +220,7 @@ interface ProgressState {
   completedQuestionIds: string[];
   mistakes: Record<string, MistakeRecord>;
   attempts: AttemptRecord[];
+  dailyPlans: Record<string, DailyPlanRecord>;
 }
 ```
 
@@ -180,6 +233,15 @@ nextReviewAt        下次复习时间
 ```
 
 加载时会归一化旧版本数据，当前兼容读取 `sprintbook-progress-v0.1`。
+
+模考使用独立存储：
+
+```text
+sprintbook-active-exam-v1
+sprintbook-exam-history-v1
+```
+
+前者保存未交卷会话，后者保留最近 20 次成绩。
 
 后续如果题量和记录变多，应迁移到 IndexedDB。
 
@@ -203,6 +265,7 @@ nextReviewAt        下次复习时间
 
 ```text
 #/practice?review=1
+#/practice?topic=math-equation-quadratic
 ```
 
 ## 后续架构方向

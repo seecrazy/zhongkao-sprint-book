@@ -1,10 +1,11 @@
 import type {
   AttemptStatus,
+  DailyPlanRecord,
   MistakeRecord,
   ProgressState,
 } from "../types";
 
-const STORAGE_KEY = "sprintbook-progress-v0.3";
+const STORAGE_KEY = "sprintbook-progress-v0.4";
 const LEGACY_STORAGE_KEY = "sprintbook-progress-v0.1";
 const MAX_ATTEMPTS = 1000;
 
@@ -14,6 +15,7 @@ export const defaultProgress: ProgressState = {
   completedQuestionIds: [],
   mistakes: {},
   attempts: [],
+  dailyPlans: {},
 };
 
 function addDays(date: Date, days: number): Date {
@@ -68,12 +70,30 @@ function normalizeProgress(input: unknown): ProgressState {
       )
     : [];
 
+  const dailyPlans: Record<string, DailyPlanRecord> = {};
+  Object.entries(value.dailyPlans ?? {}).forEach(([date, plan]) => {
+    if (
+      typeof plan?.date === "string" &&
+      typeof plan?.generatedAt === "string" &&
+      Array.isArray(plan.completedTaskIds)
+    ) {
+      dailyPlans[date] = {
+        date: plan.date,
+        generatedAt: plan.generatedAt,
+        completedTaskIds: plan.completedTaskIds.filter(
+          (taskId): taskId is string => Boolean(taskId)
+        ),
+      };
+    }
+  });
+
   return {
     completedQuestionIds: Array.isArray(value.completedQuestionIds)
       ? value.completedQuestionIds.filter((id): id is string => Boolean(id))
       : [],
     mistakes,
     attempts,
+    dailyPlans,
   };
 }
 
@@ -219,4 +239,29 @@ export function getDueMistakes(
         new Date(left.nextReviewAt).getTime() -
         new Date(right.nextReviewAt).getTime()
     );
+}
+
+export function toggleDailyTask(
+  progress: ProgressState,
+  date: string,
+  taskId: string
+): ProgressState {
+  const now = new Date().toISOString();
+  const existing = progress.dailyPlans[date];
+  const completedTaskIds = existing?.completedTaskIds ?? [];
+  const nextCompletedTaskIds = completedTaskIds.includes(taskId)
+    ? completedTaskIds.filter((id) => id !== taskId)
+    : [...completedTaskIds, taskId];
+
+  return {
+    ...progress,
+    dailyPlans: {
+      ...progress.dailyPlans,
+      [date]: {
+        date,
+        generatedAt: existing?.generatedAt ?? now,
+        completedTaskIds: nextCompletedTaskIds,
+      },
+    },
+  };
 }

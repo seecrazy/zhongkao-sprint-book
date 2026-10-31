@@ -61,6 +61,7 @@ export function gradeQuestion(
     return {
       ...base,
       status,
+      score: status === "correct" ? 1 : 0,
       correctAnswer: question.answer,
       errorType: status === "correct" ? "none" : "concept",
     };
@@ -76,6 +77,7 @@ export function gradeQuestion(
     return {
       ...base,
       status,
+      score: status === "correct" ? 1 : 0,
       correctAnswer: String(question.answer),
       errorType: status === "correct" ? "none" : "calculation",
     };
@@ -99,6 +101,7 @@ export function gradeQuestion(
     return {
       ...base,
       status: matched ? "correct" : "wrong",
+      score: matched ? 1 : 0,
       correctAnswer: question.acceptedAnswers[0],
       errorType: matched ? "none" : "concept",
     };
@@ -112,6 +115,7 @@ export function gradeQuestion(
   return {
     ...base,
     status: matched ? "correct" : "wrong",
+      score: matched ? 1 : 0,
     correctAnswer: question.acceptedAnswers[0],
     errorType: matched ? "none" : "concept",
   };

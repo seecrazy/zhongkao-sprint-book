@@ -7,9 +7,12 @@ const errors = [];
 const warnings = [];
 const questionIds = new Set();
 const knowledgePointIds = new Set();
+const examPaperIds = new Set();
+const examQuestionReferences = [];
 let fileCount = 0;
 let questionCount = 0;
 let knowledgePointCount = 0;
+let examCount = 0;
 
 function isObject(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -19,9 +22,7 @@ function validateKnowledgePoint(point, file, index) {
   const location = `${file}:knowledgePoints[${index}]`;
 
   for (const field of ["id", "name", "subject", "summary", "examWeight", "status"]) {
-    if (!point[field]) {
-      errors.push(`${location} 缺少字段 ${field}`);
-    }
+    if (!point[field]) errors.push(`${location} 缺少字段 ${field}`);
   }
 
   if (!["high", "medium", "low"].includes(point.examWeight)) {
@@ -85,9 +86,7 @@ function validateQuestion(question, file, index) {
     if (!Array.isArray(question.options) || question.options.length < 2) {
       errors.push(`${location} 单选题至少需要 2 个选项`);
     }
-    if (!question.answer) {
-      errors.push(`${location} 单选题缺少 answer`);
-    }
+    if (!question.answer) errors.push(`${location} 单选题缺少 answer`);
   }
 
   if (question.type === "numeric" && !Number.isFinite(question.answer)) {
@@ -98,10 +97,7 @@ function validateQuestion(question, file, index) {
     if (!Array.isArray(question.acceptedAnswers) || question.acceptedAnswers.length === 0) {
       errors.push(`${location} 表达式题缺少 acceptedAnswers`);
     }
-    if (
-      question.answerKind &&
-      !["solution-set", "text"].includes(question.answerKind)
-    ) {
+    if (question.answerKind && !["solution-set", "text"].includes(question.answerKind)) {
       errors.push(`${location} answerKind 无效`);
     }
   }
@@ -135,6 +131,51 @@ function validateQuestion(question, file, index) {
   }
 }
 
+function validateExamPaper(paper, file, index) {
+  const location = `${file}:exams[${index}]`;
+
+  for (const field of [
+    "id",
+    "subject",
+    "title",
+    "description",
+    "durationMinutes",
+    "scorePerQuestion",
+    "questionIds",
+  ]) {
+    if (paper[field] === undefined || paper[field] === "") {
+      errors.push(`${location} 缺少字段 ${field}`);
+    }
+  }
+
+  if (paper.id) {
+    if (examPaperIds.has(paper.id)) {
+      errors.push(`${location} 试卷 ID 重复：${paper.id}`);
+    }
+    examPaperIds.add(paper.id);
+  }
+
+  if (!Number.isFinite(paper.durationMinutes) || paper.durationMinutes <= 0) {
+    errors.push(`${location} durationMinutes 必须是正数`);
+  }
+
+  if (!Number.isFinite(paper.scorePerQuestion) || paper.scorePerQuestion <= 0) {
+    errors.push(`${location} scorePerQuestion 必须是正数`);
+  }
+
+  if (!Array.isArray(paper.questionIds) || paper.questionIds.length < 5) {
+    errors.push(`${location} 试卷至少需要 5 道题`);
+  } else {
+    paper.questionIds.forEach((questionId) => {
+      examQuestionReferences.push({ file, location, questionId });
+    });
+
+    if (new Set(paper.questionIds).size !== paper.questionIds.length) {
+      errors.push(`${location} questionIds 存在重复`);
+    }
+  }
+}
+
 async function main() {
   const files = (await readdir(contentDir))
     .filter((file) => file.endsWith(".json"))
@@ -162,36 +203,55 @@ async function main() {
       continue;
     }
 
-    if (!content.version) {
-      errors.push(`${file} 缺少 version`);
+    if (!content.version) errors.push(`${file} 缺少 version`);
+
+    const isExamFile = Array.isArray(content.exams);
+
+    if (!isExamFile) {
+      if (!Array.isArray(content.knowledgePoints)) {
+        errors.push(`${file} 缺少 knowledgePoints 数组`);
+      } else {
+        content.knowledgePoints.forEach((point, index) => {
+          knowledgePointCount += 1;
+          if (!isObject(point)) {
+            errors.push(`${file}:knowledgePoints[${index}] 必须是对象`);
+            return;
+          }
+          validateKnowledgePoint(point, file, index);
+        });
+      }
+
+      if (!Array.isArray(content.questions)) {
+        errors.push(`${file} 缺少 questions 数组`);
+      } else {
+        content.questions.forEach((question, index) => {
+          questionCount += 1;
+          if (!isObject(question)) {
+            errors.push(`${file}:questions[${index}] 必须是对象`);
+            return;
+          }
+          validateQuestion(question, file, index);
+        });
+      }
     }
 
-    if (!Array.isArray(content.knowledgePoints)) {
-      errors.push(`${file} 缺少 knowledgePoints 数组`);
-    } else {
-      content.knowledgePoints.forEach((point, index) => {
-        knowledgePointCount += 1;
-        if (!isObject(point)) {
-          errors.push(`${file}:knowledgePoints[${index}] 必须是对象`);
+    if (isExamFile) {
+      content.exams.forEach((exam, index) => {
+        examCount += 1;
+        if (!isObject(exam)) {
+          errors.push(`${file}:exams[${index}] 必须是对象`);
           return;
         }
-        validateKnowledgePoint(point, file, index);
-      });
-    }
-
-    if (!Array.isArray(content.questions)) {
-      errors.push(`${file} 缺少 questions 数组`);
-    } else {
-      content.questions.forEach((question, index) => {
-        questionCount += 1;
-        if (!isObject(question)) {
-          errors.push(`${file}:questions[${index}] 必须是对象`);
-          return;
-        }
-        validateQuestion(question, file, index);
+        validateExamPaper(exam, file, index);
       });
     }
   }
+
+  examQuestionReferences.forEach(({ file, location, questionId }) => {
+    if (!questionIds.has(questionId)) {
+      errors.push(`${file}:${location} 引用了不存在的题目：${questionId}`);
+    }
+  });
 
   if (questionCount > 0 && knowledgePointIds.size > 0) {
     const usedPointIds = new Set();
@@ -205,15 +265,14 @@ async function main() {
 
     [...knowledgePointIds]
       .filter((pointId) => !usedPointIds.has(pointId))
-      .forEach((pointId) => {
-        warnings.push(`知识点暂无题目：${pointId}`);
-      });
+      .forEach((pointId) => warnings.push(`知识点暂无题目：${pointId}`));
   }
 
   console.log("=== 内容校验报告 ===");
   console.log(`内容文件：${fileCount}`);
   console.log(`知识点：${knowledgePointCount}`);
   console.log(`题目：${questionCount}`);
+  console.log(`试卷：${examCount}`);
 
   if (warnings.length > 0) {
     console.log("\n警告：");

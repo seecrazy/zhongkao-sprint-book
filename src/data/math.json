@@ -1,5 +1,5 @@
 {
-  "version": "math-v0.3",
+  "version": "math-v0.4",
   "knowledgePoints": [
     {
       "id": "math-equation-quadratic",
@@ -94,7 +94,9 @@
     {
       "id": "math-quadratic-001",
       "subject": "math",
-      "knowledgePointIds": ["math-equation-quadratic"],
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 2,
@@ -102,10 +104,22 @@
       "stem": "方程 $x^2 - 5x + 6 = 0$ 的解是（　）",
       "source": "中考基础训练",
       "options": [
-        { "key": "A", "label": "$x = 2$" },
-        { "key": "B", "label": "$x = 3$" },
-        { "key": "C", "label": "$x = 2$ 或 $x = 3$" },
-        { "key": "D", "label": "$x = -2$ 或 $x = -3$" }
+        {
+          "key": "A",
+          "label": "$x = 2$"
+        },
+        {
+          "key": "B",
+          "label": "$x = 3$"
+        },
+        {
+          "key": "C",
+          "label": "$x = 2$ 或 $x = 3$"
+        },
+        {
+          "key": "D",
+          "label": "$x = -2$ 或 $x = -3$"
+        }
       ],
       "answer": "C",
       "explanation": "因式分解得 $(x - 2)(x - 3) = 0$，所以 $x = 2$ 或 $x = 3$。",
@@ -115,7 +129,9 @@
     {
       "id": "math-quadratic-002",
       "subject": "math",
-      "knowledgePointIds": ["math-equation-quadratic"],
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 3,
@@ -136,7 +152,9 @@
     {
       "id": "math-linear-001",
       "subject": "math",
-      "knowledgePointIds": ["math-function-linear"],
+      "knowledgePointIds": [
+        "math-function-linear"
+      ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 2,
@@ -144,10 +162,22 @@
       "stem": "一次函数 $y = -2x + 4$ 的图像不经过（　）",
       "source": "函数基础训练",
       "options": [
-        { "key": "A", "label": "第一象限" },
-        { "key": "B", "label": "第二象限" },
-        { "key": "C", "label": "第三象限" },
-        { "key": "D", "label": "第四象限" }
+        {
+          "key": "A",
+          "label": "第一象限"
+        },
+        {
+          "key": "B",
+          "label": "第二象限"
+        },
+        {
+          "key": "C",
+          "label": "第三象限"
+        },
+        {
+          "key": "D",
+          "label": "第四象限"
+        }
       ],
       "answer": "C",
       "explanation": "$k = -2 < 0$，$b = 4 > 0$，图像经过第一、二、四象限，不经过第三象限。",
@@ -157,7 +187,9 @@
     {
       "id": "math-linear-002",
       "subject": "math",
-      "knowledgePointIds": ["math-function-linear"],
+      "knowledgePointIds": [
+        "math-function-linear"
+      ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 3,
@@ -172,7 +204,9 @@
     {
       "id": "math-stats-001",
       "subject": "math",
-      "knowledgePointIds": ["math-statistics-average"],
+      "knowledgePointIds": [
+        "math-statistics-average"
+      ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 1,
@@ -186,7 +220,9 @@
     {
       "id": "math-number-001",
       "subject": "math",
-      "knowledgePointIds": ["math-number-real"],
+      "knowledgePointIds": [
+        "math-number-real"
+      ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 1,
@@ -200,7 +236,9 @@
     {
       "id": "math-number-002",
       "subject": "math",
-      "knowledgePointIds": ["math-number-real"],
+      "knowledgePointIds": [
+        "math-number-real"
+      ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 2,
@@ -208,10 +246,22 @@
       "stem": "计算 $|-5| + 2$ 的结果是（　）",
       "source": "运算训练",
       "options": [
-        { "key": "A", "label": "$3$" },
-        { "key": "B", "label": "$-3$" },
-        { "key": "C", "label": "$7$" },
-        { "key": "D", "label": "$-7$" }
+        {
+          "key": "A",
+          "label": "$3$"
+        },
+        {
+          "key": "B",
+          "label": "$-3$"
+        },
+        {
+          "key": "C",
+          "label": "$7$"
+        },
+        {
+          "key": "D",
+          "label": "$-7$"
+        }
       ],
       "answer": "C",
       "explanation": "$|-5| = 5$，所以 $|-5| + 2 = 7$。",
@@ -220,7 +270,9 @@
     {
       "id": "math-factor-001",
       "subject": "math",
-      "knowledgePointIds": ["math-algebra-factor"],
+      "knowledgePointIds": [
+        "math-algebra-factor"
+      ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
@@ -228,7 +280,10 @@
       "stem": "因式分解：$x^2 - 4$。",
       "source": "公式法训练",
       "answerKind": "text",
-      "acceptedAnswers": ["(x+2)(x-2)", "(x-2)(x+2)"],
+      "acceptedAnswers": [
+        "(x+2)(x-2)",
+        "(x-2)(x+2)"
+      ],
       "explanation": "这是平方差公式：$a^2-b^2=(a+b)(a-b)$，所以 $x^2-4=(x+2)(x-2)$。",
       "optimalSolution": "先判断是否为平方差结构，再直接套用公式。",
       "commonMistake": "误写成 $(x-2)^2$。"
@@ -236,7 +291,9 @@
     {
       "id": "math-factor-002",
       "subject": "math",
-      "knowledgePointIds": ["math-algebra-factor"],
+      "knowledgePointIds": [
+        "math-algebra-factor"
+      ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 2,
@@ -244,10 +301,22 @@
       "stem": "多项式 $3x^2 + 6x$ 因式分解的结果是（　）",
       "source": "提公因式训练",
       "options": [
-        { "key": "A", "label": "$3x(x + 2)$" },
-        { "key": "B", "label": "$3x(x - 2)$" },
-        { "key": "C", "label": "$x(3x + 6)$" },
-        { "key": "D", "label": "$3(x^2 + 2x)$" }
+        {
+          "key": "A",
+          "label": "$3x(x + 2)$"
+        },
+        {
+          "key": "B",
+          "label": "$3x(x - 2)$"
+        },
+        {
+          "key": "C",
+          "label": "$x(3x + 6)$"
+        },
+        {
+          "key": "D",
+          "label": "$3(x^2 + 2x)$"
+        }
       ],
       "answer": "A",
       "explanation": "公因式是 $3x$，所以 $3x^2+6x=3x(x+2)$。",
@@ -257,7 +326,9 @@
     {
       "id": "math-inequality-001",
       "subject": "math",
-      "knowledgePointIds": ["math-inequality"],
+      "knowledgePointIds": [
+        "math-inequality"
+      ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 2,
@@ -265,10 +336,22 @@
       "stem": "不等式 $2x - 4 > 0$ 的解集是（　）",
       "source": "基础训练",
       "options": [
-        { "key": "A", "label": "$x > 2$" },
-        { "key": "B", "label": "$x < 2$" },
-        { "key": "C", "label": "$x > -2$" },
-        { "key": "D", "label": "$x < -2$" }
+        {
+          "key": "A",
+          "label": "$x > 2$"
+        },
+        {
+          "key": "B",
+          "label": "$x < 2$"
+        },
+        {
+          "key": "C",
+          "label": "$x > -2$"
+        },
+        {
+          "key": "D",
+          "label": "$x < -2$"
+        }
       ],
       "answer": "A",
       "explanation": "移项得 $2x>4$，两边同除以正数 $2$，不等号方向不变，所以 $x>2$。",
@@ -277,7 +360,9 @@
     {
       "id": "math-inequality-002",
       "subject": "math",
-      "knowledgePointIds": ["math-inequality"],
+      "knowledgePointIds": [
+        "math-inequality"
+      ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 3,
@@ -285,7 +370,10 @@
       "stem": "不等式 $-3x \\le 9$ 的解集是 ______。",
       "source": "专题巩固",
       "answerKind": "text",
-      "acceptedAnswers": ["x >= -3", "x≥-3"],
+      "acceptedAnswers": [
+        "x >= -3",
+        "x≥-3"
+      ],
       "explanation": "两边同除以负数 $-3$，不等号方向改变，所以 $x \\ge -3$。",
       "optimalSolution": "看到系数为负，先提醒自己：除后必须改变不等号方向。",
       "commonMistake": "除以负数后没有改变不等号方向。"
@@ -293,7 +381,9 @@
     {
       "id": "math-quadratic-function-001",
       "subject": "math",
-      "knowledgePointIds": ["math-function-quadratic"],
+      "knowledgePointIds": [
+        "math-function-quadratic"
+      ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
@@ -307,7 +397,9 @@
     {
       "id": "math-quadratic-function-002",
       "subject": "math",
-      "knowledgePointIds": ["math-function-quadratic"],
+      "knowledgePointIds": [
+        "math-function-quadratic"
+      ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 3,
@@ -315,10 +407,22 @@
       "stem": "抛物线 $y = -2(x + 3)^2 - 1$ 的开口方向和顶点坐标分别是（　）",
       "source": "二次函数训练",
       "options": [
-        { "key": "A", "label": "开口向上，顶点 $(-3,-1)$" },
-        { "key": "B", "label": "开口向下，顶点 $(-3,-1)$" },
-        { "key": "C", "label": "开口向下，顶点 $(3,-1)$" },
-        { "key": "D", "label": "开口向上，顶点 $(3,1)$" }
+        {
+          "key": "A",
+          "label": "开口向上，顶点 $(-3,-1)$"
+        },
+        {
+          "key": "B",
+          "label": "开口向下，顶点 $(-3,-1)$"
+        },
+        {
+          "key": "C",
+          "label": "开口向下，顶点 $(3,-1)$"
+        },
+        {
+          "key": "D",
+          "label": "开口向上，顶点 $(3,1)$"
+        }
       ],
       "answer": "B",
       "explanation": "$a=-2<0$，开口向下；顶点式表示顶点为 $(-3,-1)$。",
@@ -328,7 +432,10 @@
     {
       "id": "math-congruence-001",
       "subject": "math",
-      "knowledgePointIds": ["math-geometry-triangle", "math-geometry-congruence"],
+      "knowledgePointIds": [
+        "math-geometry-triangle",
+        "math-geometry-congruence"
+      ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 2,
@@ -336,10 +443,22 @@
       "stem": "下列不能判定两个三角形全等的是（　）",
       "source": "几何判定",
       "options": [
-        { "key": "A", "label": "三边分别相等" },
-        { "key": "B", "label": "两边及夹角分别相等" },
-        { "key": "C", "label": "两角及夹边分别相等" },
-        { "key": "D", "label": "三个角分别相等" }
+        {
+          "key": "A",
+          "label": "三边分别相等"
+        },
+        {
+          "key": "B",
+          "label": "两边及夹角分别相等"
+        },
+        {
+          "key": "C",
+          "label": "两角及夹边分别相等"
+        },
+        {
+          "key": "D",
+          "label": "三个角分别相等"
+        }
       ],
       "answer": "D",
       "explanation": "三个角分别相等只能说明形状相同，不能保证大小相同，因此不能判定全等。",
@@ -348,7 +467,10 @@
     {
       "id": "math-congruence-002",
       "subject": "math",
-      "knowledgePointIds": ["math-geometry-triangle", "math-geometry-congruence"],
+      "knowledgePointIds": [
+        "math-geometry-triangle",
+        "math-geometry-congruence"
+      ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
@@ -362,7 +484,10 @@
     {
       "id": "math-similarity-001",
       "subject": "math",
-      "knowledgePointIds": ["math-geometry-triangle", "math-geometry-similarity"],
+      "knowledgePointIds": [
+        "math-geometry-triangle",
+        "math-geometry-similarity"
+      ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 3,
@@ -370,10 +495,22 @@
       "stem": "若两个相似三角形的相似比是 $1:2$，则它们的周长比是（　）",
       "source": "相似性质",
       "options": [
-        { "key": "A", "label": "$1:2$" },
-        { "key": "B", "label": "$1:4$" },
-        { "key": "C", "label": "$1:6$" },
-        { "key": "D", "label": "$1:8$" }
+        {
+          "key": "A",
+          "label": "$1:2$"
+        },
+        {
+          "key": "B",
+          "label": "$1:4$"
+        },
+        {
+          "key": "C",
+          "label": "$1:6$"
+        },
+        {
+          "key": "D",
+          "label": "$1:8$"
+        }
       ],
       "answer": "A",
       "explanation": "相似三角形的周长比等于相似比，所以是 $1:2$。",
@@ -383,7 +520,10 @@
     {
       "id": "math-similarity-002",
       "subject": "math",
-      "knowledgePointIds": ["math-geometry-triangle", "math-geometry-similarity"],
+      "knowledgePointIds": [
+        "math-geometry-triangle",
+        "math-geometry-similarity"
+      ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 3,
@@ -397,7 +537,9 @@
     {
       "id": "math-probability-001",
       "subject": "math",
-      "knowledgePointIds": ["math-probability-basic"],
+      "knowledgePointIds": [
+        "math-probability-basic"
+      ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
@@ -405,14 +547,20 @@
       "stem": "随机掷一枚均匀硬币一次，正面朝上的概率是 ______。",
       "source": "概率基础",
       "answerKind": "text",
-      "acceptedAnswers": ["1/2", "0.5", "50%"],
+      "acceptedAnswers": [
+        "1/2",
+        "0.5",
+        "50%"
+      ],
       "explanation": "共有 2 种等可能结果，正面朝上有 1 种，所以概率是 $\\dfrac{1}{2}$。",
       "commonMistake": "把“正面朝上”与“反面朝上”混在一起计数。"
     },
     {
       "id": "math-probability-002",
       "subject": "math",
-      "knowledgePointIds": ["math-probability-basic"],
+      "knowledgePointIds": [
+        "math-probability-basic"
+      ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 3,
@@ -420,15 +568,191 @@
       "stem": "从 $1,2,3$ 中随机取一个数，取到偶数的概率是（　）",
       "source": "列举法训练",
       "options": [
-        { "key": "A", "label": "$\\dfrac{1}{3}$" },
-        { "key": "B", "label": "$\\dfrac{1}{2}$" },
-        { "key": "C", "label": "$\\dfrac{2}{3}$" },
-        { "key": "D", "label": "$1$" }
+        {
+          "key": "A",
+          "label": "$\\dfrac{1}{3}$"
+        },
+        {
+          "key": "B",
+          "label": "$\\dfrac{1}{2}$"
+        },
+        {
+          "key": "C",
+          "label": "$\\dfrac{2}{3}$"
+        },
+        {
+          "key": "D",
+          "label": "$1$"
+        }
       ],
       "answer": "A",
       "explanation": "共有 3 种等可能结果，偶数只有 $2$，所以概率是 $\\dfrac{1}{3}$。",
       "optimalSolution": "先列全部等可能结果，再数满足条件的结果数。",
       "commonMistake": "漏掉总结果数中的某个数。"
+    },
+    {
+      "id": "math-stats-002",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-statistics-average"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "数据 $3,4,4,6,8$ 的中位数是（　）",
+      "source": "统计专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "$3$"
+        },
+        {
+          "key": "B",
+          "label": "$4$"
+        },
+        {
+          "key": "C",
+          "label": "$5$"
+        },
+        {
+          "key": "D",
+          "label": "$6$"
+        }
+      ],
+      "answer": "B",
+      "explanation": "数据已按从小到大排列，共 5 个数，中位数是第 3 个数 $4$。",
+      "commonMistake": "把中间两个数相加后直接忘记除以 2。"
+    },
+    {
+      "id": "math-factor-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-algebra-factor"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 75,
+      "stem": "因式分解：$x^2 + 5x + 6$。",
+      "source": "十字相乘训练",
+      "answerKind": "text",
+      "acceptedAnswers": [
+        "(x+2)(x+3)",
+        "(x+3)(x+2)"
+      ],
+      "explanation": "因为 $2 \\times 3 = 6$，$2 + 3 = 5$，所以 $x^2+5x+6=(x+2)(x+3)$。",
+      "optimalSolution": "十字相乘时，先找积为 6、和为 5 的两个数。",
+      "commonMistake": "符号判断错误，写成 $(x-2)(x-3)$。"
+    },
+    {
+      "id": "math-congruence-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-triangle",
+        "math-geometry-congruence"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 80,
+      "stem": "在 $\\triangle ABC$ 和 $\\triangle DEF$ 中，已知 $AB=DE$，$\\angle A=\\angle D$。要使用“SAS”判定两三角形全等，还需要添加条件 ______。",
+      "source": "全等综合",
+      "answerKind": "text",
+      "acceptedAnswers": [
+        "BC=EF",
+        "EF=BC"
+      ],
+      "explanation": "“SAS”指两边及夹角分别相等。已知 $AB=DE$ 和 $\\angle A=\\angle D$，还需要夹这个角的另一组边相等，即 $BC=EF$。",
+      "optimalSolution": "判断全等条件时，先确定已知角是不是两条已知边的夹角。",
+      "commonMistake": "误以为任意一组边相等都可以和已知边角组成 SAS。"
+    },
+    {
+      "id": "math-similarity-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-triangle",
+        "math-geometry-similarity"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 45,
+      "stem": "两个相似三角形的对应角关系是（　）",
+      "source": "相似基础",
+      "options": [
+        {
+          "key": "A",
+          "label": "互补"
+        },
+        {
+          "key": "B",
+          "label": "相等"
+        },
+        {
+          "key": "C",
+          "label": "互余"
+        },
+        {
+          "key": "D",
+          "label": "无法确定"
+        }
+      ],
+      "answer": "B",
+      "explanation": "相似三角形的对应角相等，对应边成比例。",
+      "commonMistake": "把对应边成比例误解为对应角也成比例。"
+    },
+    {
+      "id": "math-quadratic-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 4,
+      "estimatedSeconds": 100,
+      "stem": "若关于 $x$ 的一元二次方程 $x^2 - 4x + k = 0$ 有两个不相等的实数根，则 $k$ 的取值范围是（　）",
+      "source": "根的判别式",
+      "options": [
+        {
+          "key": "A",
+          "label": "$k < 4$"
+        },
+        {
+          "key": "B",
+          "label": "$k \\le 4$"
+        },
+        {
+          "key": "C",
+          "label": "$k > 4$"
+        },
+        {
+          "key": "D",
+          "label": "$k \\ge 4$"
+        }
+      ],
+      "answer": "A",
+      "explanation": "判别式 $\\Delta = (-4)^2 - 4k = 16 - 4k$。有两个不相等实数根，需要 $\\Delta>0$，所以 $k<4$。",
+      "optimalSolution": "看到“两个不相等实数根”，直接令 $\\Delta>0$。",
+      "commonMistake": "把“不相等”和“有实数根”的条件混用。"
+    },
+    {
+      "id": "math-quadratic-function-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-function-quadratic"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 100,
+      "stem": "函数 $y = -x^2 + 4x + 1$ 的最大值是 ______。",
+      "source": "二次函数最值",
+      "answer": 5,
+      "explanation": "配方得 $y=-(x-2)^2+5$。因为 $a=-1<0$，抛物线开口向下，最大值为 $5$。",
+      "optimalSolution": "求最值优先配方或使用顶点公式，先确认开口方向。",
+      "commonMistake": "只求顶点横坐标，忘记代入求最大值。"
     }
   ]
 }

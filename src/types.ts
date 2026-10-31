@@ -83,6 +83,7 @@ export interface ProgressState {
   completedQuestionIds: string[];
   mistakes: Record<string, MistakeRecord>;
   attempts: AttemptRecord[];
+  dailyPlans: Record<string, DailyPlanRecord>;
 }
 
 export type AttemptStatus = "correct" | "wrong" | "skipped";
@@ -118,4 +119,71 @@ export interface TopicStats {
   stability: number;
   mastery: number;
   status: KnowledgePointStatus;
+}
+
+export type DailyTaskType = "review" | "topic" | "exam" | "summary";
+
+export interface DailyTaskRoute {
+  page: "practice" | "mistakes" | "exam";
+  query?: Record<string, string>;
+}
+
+export interface DailyTask {
+  id: string;
+  type: DailyTaskType;
+  title: string;
+  description: string;
+  targetTopicId?: string;
+  targetQuestionCount?: number;
+  route?: DailyTaskRoute;
+}
+
+export interface DailyPlanRecord {
+  date: string;
+  generatedAt: string;
+  completedTaskIds: string[];
+}
+
+export interface ExamPaper {
+  id: string;
+  subject: Subject;
+  title: string;
+  description: string;
+  durationMinutes: number;
+  scorePerQuestion: number;
+  questionIds: string[];
+}
+
+export interface ExamSession {
+  paperId: string;
+  startedAt: string;
+  endsAt: string;
+  responses: Record<string, string>;
+}
+
+export interface ExamTopicReport {
+  topicId: string;
+  topicName: string;
+  questionCount: number;
+  correctCount: number;
+  wrongCount: number;
+  skippedCount: number;
+  score: number;
+  maxScore: number;
+}
+
+export interface ExamResult {
+  id: string;
+  paperId: string;
+  paperTitle: string;
+  submittedAt: string;
+  startedAt: string;
+  score: number;
+  maxScore: number;
+  correctCount: number;
+  wrongCount: number;
+  skippedCount: number;
+  timeSpentSeconds: number;
+  results: QuestionResult[];
+  topicReports: ExamTopicReport[];
 }

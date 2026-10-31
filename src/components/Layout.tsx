@@ -42,7 +42,7 @@ export default function Layout({ page, onNavigate, children }: LayoutProps) {
       </header>
       <main className="app-main">{children}</main>
       <footer className="app-footer">
-        SprintBook v0.1 · 当前为项目骨架与做题闭环 Demo
+        SprintBook v0.2 · 数学试点 · 内容外置 · 公式渲染 · 本地做题闭环
       </footer>
     </div>
   );

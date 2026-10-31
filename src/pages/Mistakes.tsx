@@ -1,4 +1,5 @@
 import { sampleQuestions } from "../data/sample-content";
+import MathText from "../components/MathText";
 import { getCorrectAnswerText } from "../lib/grading";
 import type { ProgressState } from "../types";
 
@@ -42,16 +43,20 @@ export default function Mistakes({ progress }: MistakesProps) {
                   <span>错误 {mistake.wrongCount} 次</span>
                   <span>待巩固</span>
                 </div>
-                <h2>{question.stem}</h2>
+                <h2>
+                  <MathText text={question.stem} />
+                </h2>
                 <p>
                   <strong>正确答案：</strong>
-                  {getCorrectAnswerText(question)}
+                  <MathText text={getCorrectAnswerText(question)} />
                 </p>
-                <p>{question.explanation}</p>
+                <p>
+                  <MathText text={question.explanation} />
+                </p>
                 {question.commonMistake && (
                   <p className="warning">
                     <strong>常见错误：</strong>
-                    {question.commonMistake}
+                    <MathText text={question.commonMistake} />
                   </p>
                 )}
               </article>

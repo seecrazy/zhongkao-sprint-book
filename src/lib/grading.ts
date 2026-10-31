@@ -10,6 +10,31 @@ export function normalizeText(value: string): string {
     .replace(/±/g, "+-");
 }
 
+function extractSolutionSet(value: string): number[] {
+  const normalized = value
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "")
+    .replace(/，/g, ",")
+    .replace(/x[₁₂₃]|x[123]/g, "x")
+    .replace(/±(\d+(?:\.\d+)?)/g, "$1or-$1")
+    .replace(/或|or/g, ",");
+
+  const matches = normalized.match(/[+-]?\d+(?:\.\d+)?/g);
+  if (!matches) return [];
+
+  const numbers = matches
+    .map(Number)
+    .filter(Number.isFinite)
+    .sort((left, right) => left - right);
+
+  return Array.from(new Set(numbers));
+}
+
+function isSameSolutionSet(left: number[], right: number[]): boolean {
+  return left.length === right.length && left.every((value, index) => value === right[index]);
+}
+
 export function gradeQuestion(
   question: Question,
   response: UserResponse | undefined
@@ -57,7 +82,14 @@ export function gradeQuestion(
   }
 
   const normalizedUser = normalizeText(userAnswer);
-  const matched = question.acceptedAnswers.some((answer) => {
+
+  const userSolutionSet = extractSolutionSet(userAnswer);
+  const matched = userSolutionSet.length > 0
+    ? question.acceptedAnswers.some((answer) => {
+        const acceptedSolutionSet = extractSolutionSet(answer);
+        return isSameSolutionSet(userSolutionSet, acceptedSolutionSet);
+      })
+    : question.acceptedAnswers.some((answer) => {
     const normalizedAnswer = normalizeText(answer);
     return normalizedUser === normalizedAnswer;
   });

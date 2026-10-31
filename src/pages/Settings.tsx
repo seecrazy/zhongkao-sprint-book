@@ -35,7 +35,7 @@ export default function Settings({ progress, setProgress }: SettingsProps) {
 
       <div className="panel">
         <h2>当前版本</h2>
-        <p>SprintBook v0.1 · 项目骨架与基础做题闭环。</p>
+        <p>SprintBook v0.2 · 数学试点，内容外置与公式渲染已接入。</p>
       </div>
     </section>
   );

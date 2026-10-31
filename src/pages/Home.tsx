@@ -16,7 +16,7 @@ export default function Home({ progress, onNavigate }: HomeProps) {
     <section className="page">
       <div className="hero">
         <div>
-          <span className="eyebrow">SprintBook v0.1</span>
+          <span className="eyebrow">SprintBook v0.2</span>
           <h1>考点看得清，错题改得掉。</h1>
           <p>
             这是中考冲刺书的最小可用骨架：先跑通“专题练习 → 一键判分 → 答案解析 → 错题记录”闭环。

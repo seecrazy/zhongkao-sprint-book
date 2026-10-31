@@ -7,6 +7,7 @@
 | 构建 | Vite | 启动快，配置简单，适合静态站点。 |
 | UI | React 18 | 生态成熟，组件化清晰。 |
 | 语言 | TypeScript | 题目、判分、进度模型需要强类型。 |
+| 数学公式 | KaTeX | 渲染中考数学题干、选项和解析。 |
 | 样式 | 原生 CSS | 第一版避免样式框架负担。 |
 | 存储 | localStorage | 零后端，离线可用，适合 MVP。 |
 | 部署 | GitHub Pages | 免费、简单、支持静态站点。 |
@@ -50,6 +51,7 @@ src/
 ├── components/
 │   └── Layout.tsx
 ├── data/
+│   ├── math.json
 │   └── sample-content.ts
 ├── lib/
 │   ├── grading.ts
@@ -70,8 +72,10 @@ src/
 ## 核心数据流
 
 ```text
-sample-content.ts
+math.json
     ↓
+sample-content.ts
+    ↓ 类型化导出
 Practice.tsx
     ↓ 用户作答
 responses
@@ -138,18 +142,19 @@ interface ProgressState {
 
 ## 路由策略
 
-当前使用组件状态切换页面。
+当前使用组件状态 + URL Hash 切换页面。
 
 优点：
 
 1. 简单。
-2. 无额外依赖。
-3. 适合 MVP。
+2. 无额外路由依赖。
+3. 刷新后可停留在当前页面。
+4. 适合 GitHub Pages 子路径部署。
 
 缺点：
 
-1. 刷新后回到首页。
-2. 无法直接分享指定页面。
+1. 还不是标准多路径路由。
+2. 页面间无法携带复杂查询参数。
 
 后续建议使用 hash router，避免 GitHub Pages 子路径部署时的服务端路由问题。
 

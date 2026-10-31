@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { knowledgePoints, sampleQuestions } from "../data/sample-content";
 import { gradeQuestions } from "../lib/grading";
 import { markCompleted, recordMistake } from "../lib/storage";
+import MathText from "../components/MathText";
 import type { ProgressState, Question, QuestionResult } from "../types";
 
 interface PracticeProps {
@@ -87,6 +88,15 @@ export default function Practice({ progress, setProgress }: PracticeProps) {
             本次完成：{correctCount} 对 / {wrongCount} 错
           </strong>
           <span>错题已进入错题本，解析可在题目下方查看。</span>
+          <div className="result-actions">
+            <button
+              className="ghost"
+              type="button"
+              onClick={() => switchTopic(topicId)}
+            >
+              再练一组
+            </button>
+          </div>
         </div>
       )}
 
@@ -144,7 +154,9 @@ function QuestionCard({
         )}
       </div>
 
-      <h2>{question.stem}</h2>
+      <h2>
+        <MathText text={question.stem} />
+      </h2>
 
       {question.type === "single-choice" ? (
         <div className="option-list">
@@ -158,7 +170,9 @@ function QuestionCard({
                 onChange={() => onChange(option.key)}
               />
               <strong>{option.key}.</strong>
-              <span>{option.label}</span>
+              <span>
+                <MathText text={option.label} />
+              </span>
             </label>
           ))}
         </div>
@@ -175,26 +189,26 @@ function QuestionCard({
         <div className="feedback">
           <div>
             <strong>你的答案：</strong>
-            {result.userAnswer || "未作答"}
+            {result.userAnswer ? <MathText text={result.userAnswer} /> : "未作答"}
           </div>
           <div>
             <strong>正确答案：</strong>
-            {result.correctAnswer}
+            <MathText text={result.correctAnswer} />
           </div>
           <div>
             <strong>解析：</strong>
-            {question.explanation}
+            <MathText text={question.explanation} />
           </div>
           {result.status !== "correct" && question.commonMistake && (
             <div className="warning">
               <strong>常见错误：</strong>
-              {question.commonMistake}
+              <MathText text={question.commonMistake} />
             </div>
           )}
           {question.optimalSolution && (
             <div className="optimal">
               <strong>更优方法：</strong>
-              {question.optimalSolution}
+              <MathText text={question.optimalSolution} />
             </div>
           )}
         </div>

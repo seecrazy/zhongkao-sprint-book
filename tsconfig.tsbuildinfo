@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/vite-env.d.ts","./src/components/layout.tsx","./src/data/sample-content.ts","./src/lib/grading.ts","./src/lib/storage.ts","./src/pages/home.tsx","./src/pages/mistakes.tsx","./src/pages/practice.tsx","./src/pages/settings.tsx","./src/pages/topics.tsx"],"version":"5.9.3"}

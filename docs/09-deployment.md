@@ -69,6 +69,9 @@ export default defineConfig({
 checkout
 → setup node
 → npm ci
+→ validate:content
+→ report:coverage
+→ test
 → typecheck
 → build
 → upload dist

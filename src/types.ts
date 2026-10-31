@@ -103,6 +103,7 @@ export interface QuestionStats {
   wrong: number;
   skipped: number;
   accuracy: number;
+  weightedAccuracy: number;
   averageTimeSeconds: number;
   consecutiveCorrect: number;
   lastAttemptAt?: string;
@@ -116,6 +117,7 @@ export interface TopicStats {
   skippedAnswers: number;
   coverage: number;
   accuracy: number;
+  weightedAccuracy: number;
   stability: number;
   mastery: number;
   status: KnowledgePointStatus;
@@ -150,8 +152,10 @@ export interface ExamPaper {
   title: string;
   description: string;
   durationMinutes: number;
-  scorePerQuestion: number;
-  questionIds: string[];
+  scorePerQuestion?: number;
+  questionIds?: string[];
+  sections?: ExamSection[];
+  level: "foundation" | "topic" | "challenge" | "mock";
 }
 
 export interface ExamSession {
@@ -159,6 +163,25 @@ export interface ExamSession {
   startedAt: string;
   endsAt: string;
   responses: Record<string, string>;
+}
+
+export interface ExamSection {
+  id: string;
+  title: string;
+  description?: string;
+  scorePerQuestion: number;
+  questionIds: string[];
+}
+
+export interface ExamSectionReport {
+  sectionId: string;
+  sectionTitle: string;
+  questionCount: number;
+  correctCount: number;
+  wrongCount: number;
+  skippedCount: number;
+  score: number;
+  maxScore: number;
 }
 
 export interface ExamTopicReport {
@@ -186,4 +209,5 @@ export interface ExamResult {
   timeSpentSeconds: number;
   results: QuestionResult[];
   topicReports: ExamTopicReport[];
+  sectionReports: ExamSectionReport[];
 }

@@ -9,6 +9,7 @@ const questionIds = new Set();
 const knowledgePointIds = new Set();
 const examPaperIds = new Set();
 const examQuestionReferences = [];
+const examSectionQuestionIds = new Set();
 let fileCount = 0;
 let questionCount = 0;
 let knowledgePointCount = 0;
@@ -140,8 +141,7 @@ function validateExamPaper(paper, file, index) {
     "title",
     "description",
     "durationMinutes",
-    "scorePerQuestion",
-    "questionIds",
+    "level",
   ]) {
     if (paper[field] === undefined || paper[field] === "") {
       errors.push(`${location} 缺少字段 ${field}`);
@@ -159,13 +159,24 @@ function validateExamPaper(paper, file, index) {
     errors.push(`${location} durationMinutes 必须是正数`);
   }
 
-  if (!Number.isFinite(paper.scorePerQuestion) || paper.scorePerQuestion <= 0) {
-    errors.push(`${location} scorePerQuestion 必须是正数`);
+  if (!["foundation", "topic", "challenge", "mock"].includes(paper.level)) {
+    errors.push(`${location} level 无效`);
   }
 
-  if (!Array.isArray(paper.questionIds) || paper.questionIds.length < 5) {
-    errors.push(`${location} 试卷至少需要 5 道题`);
-  } else {
+  const hasLegacyQuestionIds =
+    Array.isArray(paper.questionIds) && paper.questionIds.length > 0;
+  const hasSections = Array.isArray(paper.sections) && paper.sections.length > 0;
+
+  if (!hasLegacyQuestionIds && !hasSections) {
+    errors.push(`${location} 必须提供 questionIds 或 sections`);
+    return;
+  }
+
+  if (hasLegacyQuestionIds && hasSections) {
+    errors.push(`${location} questionIds 和 sections 只能选择一种组卷方式`);
+  }
+
+  if (hasLegacyQuestionIds) {
     paper.questionIds.forEach((questionId) => {
       examQuestionReferences.push({ file, location, questionId });
     });
@@ -173,6 +184,49 @@ function validateExamPaper(paper, file, index) {
     if (new Set(paper.questionIds).size !== paper.questionIds.length) {
       errors.push(`${location} questionIds 存在重复`);
     }
+  }
+
+  if (!hasSections) return;
+
+  paper.sections.forEach((section, sectionIndex) => {
+    const sectionLocation = `${location}:sections[${sectionIndex}]`;
+
+    if (!isObject(section)) {
+      errors.push(`${sectionLocation} 必须是对象`);
+      return;
+    }
+
+    for (const field of ["id", "title", "scorePerQuestion", "questionIds"]) {
+      if (section[field] === undefined || section[field] === "") {
+        errors.push(`${sectionLocation} 缺少字段 ${field}`);
+      }
+    }
+
+    if (!Number.isFinite(section.scorePerQuestion) || section.scorePerQuestion <= 0) {
+      errors.push(`${sectionLocation} scorePerQuestion 必须是正数`);
+    }
+
+    if (!Array.isArray(section.questionIds) || section.questionIds.length < 3) {
+      errors.push(`${sectionLocation} 分区至少需要 3 道题`);
+    } else {
+      section.questionIds.forEach((questionId) => {
+        examQuestionReferences.push({ file, location, questionId });
+        const sectionKey = `${paper.id}:${questionId}`;
+        if (examSectionQuestionIds.has(sectionKey)) {
+          errors.push(`${sectionLocation} 题目在本卷重复：${questionId}`);
+        }
+        examSectionQuestionIds.add(sectionKey);
+      });
+    }
+  });
+
+  const sectionCount = paper.sections.reduce(
+    (total, section) => total + (Array.isArray(section.questionIds) ? section.questionIds.length : 0),
+    0
+  );
+
+  if (sectionCount < 5) {
+    errors.push(`${location} 试卷至少需要 5 道题`);
   }
 }
 

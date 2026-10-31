@@ -441,6 +441,24 @@ button.danger {
   gap: 10px;
 }
 
+.trend-summary {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.trend-summary span {
+  color: #6c7889;
+  font-size: 0.9rem;
+}
+
+.trend-chart {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
 .stat-card {
   padding: 18px;
 }

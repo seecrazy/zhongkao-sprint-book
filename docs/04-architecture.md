@@ -42,11 +42,14 @@
 
 限时模考
 ├── 试卷列表
+├── 分区组卷
 ├── 倒计时
 ├── 单题作答
 ├── 答题卡
 ├── 立即 / 自动交卷
 ├── 分考点报告
+├── 分区报告
+├── 趋势图
 ├── 逐题解析
 └── 最近成绩
 
@@ -80,8 +83,12 @@ src/
 │   ├── exam-storage.ts
 │   ├── exam.ts
 │   ├── grading.ts
+│   ├── exam.test.ts
+│   ├── grading.test.ts
 │   ├── mastery.ts
+│   ├── mastery.test.ts
 │   ├── planner.ts
+│   ├── storage.test.ts
 │   └── storage.ts
 ├── pages/
 │   ├── Exam.tsx
@@ -144,11 +151,19 @@ ProgressState.dailyPlans[date].completedTaskIds
 
 `src/lib/exam.ts` 负责：
 
-1. 根据 `questionIds` 加载整卷题目。
-2. 计算剩余时间。
-3. 调用判分引擎评分。
-4. 按考点聚合得分。
-5. 生成分考点报告和冲刺建议。
+1. 根据分区 `questionIds` 加载整卷题目。
+2. 对旧版扁平试卷保持兼容。
+3. 对分区独立计分。
+4. 对整卷题目去重。
+5. 按考点聚合得分。
+6. 生成趋势数据。
+7. 生成分区报告、分考点报告和冲刺建议。
+
+`src/lib/exam-storage.ts` 负责：
+
+1. 保存未完成考试会话。
+2. 读取最近 20 次成绩。
+3. 清空模考历史。
 
 `src/pages/Exam.tsx` 负责：
 
@@ -157,9 +172,39 @@ ProgressState.dailyPlans[date].completedTaskIds
 3. 倒计时。
 4. 单题作答和答题卡。
 5. 交卷或自动交卷。
-6. 展示报告页。
+6. 展示分区报告、分考点报告、趋势图和逐题解析。
 
 考试会话基于 `startedAt` 和试卷时长计算，因此页面刷新或路由切换后仍能继续剩余时间。
+
+## 趋势模块
+
+`buildExamTrend` 会：
+
+1. 将成绩按提交时间正序排序。
+2. 计算 `score / maxScore` 的得分率。
+3. 生成本地化日期标签。
+4. 供 SVG 折线图渲染。
+
+趋势图不用于预测分数，只用于观察最近训练状态。
+
+## 业务测试模块
+
+测试使用 Vitest：
+
+```text
+src/lib/grading.test.ts
+src/lib/exam.test.ts
+src/lib/mastery.test.ts
+src/lib/storage.test.ts
+```
+
+覆盖：
+
+1. 单选题、数值题、表达式题判分。
+2. 分区组卷、分区去重和分区分值。
+3. 模考趋势排序与得分率。
+4. 时间衰减、难度调整和考点掌握度。
+5. 错题复习阶段升级与重置。
 
 ## 掌握度模块
 
@@ -169,12 +214,23 @@ ProgressState.dailyPlans[date].completedTaskIds
 2. 计算单题尝试次数、正确率、平均用时和连续答对次数。
 3. 按考点聚合覆盖率、正确率和稳定性。
 4. 计算考点掌握度和整体掌握度。
-5. 计算连续学习天数、今日做题次数和累计用时。
+5. 计算时间加权正确率。
+6. 计算难度调整后的加权表现。
+7. 计算近期练习量。
+8. 计算连续学习天数、今日做题次数和累计用时。
 
 当前公式：
 
 ```text
-mastery = accuracy × 65% + coverage × 25% + stability × 10%
+加权表现 =
+  时间加权正确率
++ 难度调整
+
+mastery =
+  加权表现 × 50%
++ 覆盖率 × 25%
++ 稳定性 × 10%
++ 近期练习量 × 15%
 ```
 
 ## 判分模块

@@ -40,15 +40,22 @@ src/data/math-exams.json
 
 ```json
 {
-  "version": "math-exams-v0.4",
+  "version": "math-exams-v0.5",
   "exams": [
     {
       "id": "math-mock-001",
       "subject": "math",
       "title": "数学基础冲刺摸底卷",
       "durationMinutes": 25,
-      "scorePerQuestion": 1,
-      "questionIds": []
+      "level": "mock",
+      "sections": [
+        {
+          "id": "foundation",
+          "title": "基础过关",
+          "scorePerQuestion": 1,
+          "questionIds": []
+        }
+      ]
     }
   ]
 }
@@ -314,6 +321,17 @@ interface ExamPaper {
   title: string;
   description: string;
   durationMinutes: number;
+  level: "foundation" | "topic" | "challenge" | "mock";
+  questionIds?: string[];
+  sections?: ExamSection[];
+}
+```
+
+```ts
+interface ExamSection {
+  id: string;
+  title: string;
+  description?: string;
   scorePerQuestion: number;
   questionIds: string[];
 }
@@ -324,10 +342,13 @@ interface ExamPaper {
 1. 试卷必填字段完整。
 2. 试卷 ID 唯一。
 3. `durationMinutes` 必须是正数。
-4. `scorePerQuestion` 必须是正数。
-5. 试卷至少包含 5 道题。
-6. 试卷引用的题目必须存在。
-7. 试卷内题目 ID 不重复。
+4. `level` 必须是基础、专项、挑战或模考。
+5. 试卷必须提供分区或旧版 `questionIds`。
+6. 分区标题、分值和题目列表完整。
+7. 分区至少包含 3 道题。
+8. 整卷至少包含 5 道题。
+9. 试卷引用的题目必须存在。
+10. 同一试卷内题目 ID 不重复。
 
 ## 解析结构方向
 

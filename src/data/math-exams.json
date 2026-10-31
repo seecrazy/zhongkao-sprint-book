@@ -1,29 +1,115 @@
 {
-  "version": "math-exams-v0.4",
+  "version": "math-exams-v0.5",
   "exams": [
     {
       "id": "math-mock-001",
       "subject": "math",
       "title": "数学基础冲刺摸底卷",
-      "description": "覆盖方程、函数、几何、统计与概率的基础主干考点。",
+      "description": "覆盖主干考点的分区摸底卷，先看基础稳定性和中档题速度。",
       "durationMinutes": 25,
-      "scorePerQuestion": 1,
-      "questionIds": [
-        "math-quadratic-001",
-        "math-quadratic-002",
-        "math-linear-001",
-        "math-linear-002",
-        "math-stats-001",
-        "math-number-001",
-        "math-number-002",
-        "math-factor-001",
-        "math-factor-002",
-        "math-inequality-001",
-        "math-inequality-002",
-        "math-quadratic-function-001",
-        "math-quadratic-function-002",
-        "math-congruence-001",
-        "math-similarity-001"
+      "level": "mock",
+      "sections": [
+        {
+          "id": "foundation",
+          "title": "基础过关",
+          "description": "10 道基础题，目标是快速拿稳基础分。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "math-number-001",
+            "math-number-002",
+            "math-quadratic-001",
+            "math-linear-001",
+            "math-factor-001",
+            "math-inequality-001",
+            "math-quadratic-function-001",
+            "math-stats-001",
+            "math-congruence-002",
+            "math-probability-001"
+          ]
+        },
+        {
+          "id": "application",
+          "title": "综合应用",
+          "description": "5 道中档题，检查公式使用、图形对应和综合表达。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "math-quadratic-002",
+            "math-linear-002",
+            "math-inequality-002",
+            "math-quadratic-function-002",
+            "math-similarity-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-topic-precision-001",
+      "subject": "math",
+      "title": "薄弱考点精准卷",
+      "description": "按代数、函数统计分区的短卷，适合每天 15～20 分钟定向修补。",
+      "durationMinutes": 18,
+      "level": "topic",
+      "sections": [
+        {
+          "id": "number-algebra",
+          "title": "数与代数",
+          "description": "覆盖实数、因式分解、方程和不等式。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "math-number-001",
+            "math-number-002",
+            "math-factor-002",
+            "math-factor-003",
+            "math-quadratic-001",
+            "math-inequality-002"
+          ]
+        },
+        {
+          "id": "function-statistics",
+          "title": "函数与统计",
+          "description": "覆盖一次函数、二次函数和统计概念。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "math-linear-001",
+            "math-linear-002",
+            "math-quadratic-function-001",
+            "math-quadratic-function-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-challenge-001",
+      "subject": "math",
+      "title": "压轴题提速挑战卷",
+      "description": "集中训练方程、函数和几何中的中高档题，重点看方法入口和时间。",
+      "durationMinutes": 20,
+      "level": "challenge",
+      "sections": [
+        {
+          "id": "algebra-challenge",
+          "title": "代数与函数挑战",
+          "description": "方程多解、判别式、因式分解和二次函数最值。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "math-quadratic-002",
+            "math-quadratic-003",
+            "math-factor-003",
+            "math-quadratic-function-002",
+            "math-quadratic-function-003"
+          ]
+        },
+        {
+          "id": "geometry-challenge",
+          "title": "几何挑战",
+          "description": "全等判定、对应关系和相似性质的综合应用。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "math-congruence-001",
+            "math-congruence-003",
+            "math-similarity-002"
+          ]
+        }
       ]
     }
   ]

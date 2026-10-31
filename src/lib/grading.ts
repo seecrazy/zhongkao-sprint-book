@@ -6,6 +6,8 @@ export function normalizeText(value: string): string {
     .toLowerCase()
     .replace(/\s+/g, "")
     .replace(/，/g, ",")
+    .replace(/≥/g, ">=")
+    .replace(/≤/g, "<=")
     .replace(/或/g, "or")
     .replace(/±/g, "+-");
 }

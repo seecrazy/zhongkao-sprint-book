@@ -1,31 +1,124 @@
+import { useMemo, useState } from "react";
 import { sampleQuestions } from "../data/sample-content";
 import MathText from "../components/MathText";
 import { getCorrectAnswerText } from "../lib/grading";
-import type { ProgressState } from "../types";
+import {
+  getDueMistakes,
+  isMistakeDue,
+  isMistakeMastered,
+} from "../lib/storage";
+import type { MistakeRecord, ProgressState } from "../types";
 
 interface MistakesProps {
   progress: ProgressState;
+  onNavigate: (page: "practice", query?: Record<string, string>) => void;
 }
 
-export default function Mistakes({ progress }: MistakesProps) {
-  const mistakes = Object.values(progress.mistakes).sort(
-    (a, b) => new Date(b.lastSeenAt).getTime() - new Date(a.lastSeenAt).getTime()
-  );
+type MistakeFilter = "due" | "all" | "mastered";
+
+function formatDateTime(value: string): string {
+  return new Date(value).toLocaleString("zh-CN", {
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function getMistakeStatus(mistake: MistakeRecord): {
+  label: string;
+  className: string;
+} {
+  if (isMistakeMastered(mistake)) {
+    return { label: "已掌握", className: "mastered" };
+  }
+
+  if (isMistakeDue(mistake)) {
+    return { label: "待复习", className: "wrong" };
+  }
+
+  return { label: `巩固中 · 阶段 ${mistake.reviewStage}`, className: "skipped" };
+}
+
+export default function Mistakes({ progress, onNavigate }: MistakesProps) {
+  const [filter, setFilter] = useState<MistakeFilter>("due");
+  const dueMistakes = getDueMistakes(progress);
+
+  const mistakes = useMemo(() => {
+    const all = Object.values(progress.mistakes).sort(
+      (left, right) =>
+        new Date(right.lastSeenAt).getTime() -
+        new Date(left.lastSeenAt).getTime()
+    );
+
+    if (filter === "due") return dueMistakes;
+    if (filter === "mastered") {
+      return all.filter(isMistakeMastered);
+    }
+    return all;
+  }, [progress.mistakes, dueMistakes, filter]);
 
   return (
     <section className="page">
       <div className="section-head">
         <div>
           <h1>错题本</h1>
-          <p>错题会在本地浏览器中保存，后续将加入间隔复习和错因分类。</p>
+          <p>
+            错题会进入间隔复习队列：当天 → 1 天 → 2 天 → 4 天 → 7 天 → 15 天。连续答对可升级，再错会重置。
+          </p>
         </div>
-        <span className="count-badge">{mistakes.length} 题</span>
+        <span className="count-badge">{dueMistakes.length} 题到期</span>
+      </div>
+
+      <div className="toolbar">
+        <div className="filter-tabs">
+          <button
+            type="button"
+            className={filter === "due" ? "active" : ""}
+            onClick={() => setFilter("due")}
+          >
+            到期复习
+          </button>
+          <button
+            type="button"
+            className={filter === "all" ? "active" : ""}
+            onClick={() => setFilter("all")}
+          >
+            全部错题
+          </button>
+          <button
+            type="button"
+            className={filter === "mastered" ? "active" : ""}
+            onClick={() => setFilter("mastered")}
+          >
+            已掌握
+          </button>
+        </div>
+
+        <button
+          className="primary"
+          type="button"
+          disabled={dueMistakes.length === 0}
+          onClick={() => onNavigate("practice", { review: "1" })}
+        >
+          开始复习到期错题
+        </button>
       </div>
 
       {mistakes.length === 0 ? (
         <div className="empty">
-          <strong>还没有错题</strong>
-          <p>完成一组练习后，错误或未作答的题目会自动出现在这里。</p>
+          <strong>
+            {filter === "due"
+              ? "当前没有到期错题"
+              : filter === "mastered"
+                ? "还没有已掌握错题"
+                : "还没有错题"}
+          </strong>
+          <p>
+            {filter === "due"
+              ? "完成练习后，错误或未作答的题目会按复习计划自动到期。"
+              : "完成一组练习后，错误或未作答的题目会自动出现在这里。"}
+          </p>
         </div>
       ) : (
         <div className="mistake-list">
@@ -36,12 +129,19 @@ export default function Mistakes({ progress }: MistakesProps) {
 
             if (!question) return null;
 
+            const status = getMistakeStatus(mistake);
+
             return (
               <article key={question.id} className="mistake-card">
                 <div className="question-meta">
                   <span>{question.displayType}</span>
                   <span>错误 {mistake.wrongCount} 次</span>
-                  <span>待巩固</span>
+                  <span className={`answer-state ${status.className}`}>
+                    {status.label}
+                  </span>
+                  <span>
+                    下次复习 {formatDateTime(mistake.nextReviewAt)}
+                  </span>
                 </div>
                 <h2>
                   <MathText text={question.stem} />

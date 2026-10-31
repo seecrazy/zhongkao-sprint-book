@@ -1,7 +1,7 @@
 {
   "name": "zhongkao-sprint-book",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "description": "中考冲刺书 · SprintBook：中考冲刺阶段互动练习平台",
   "scripts": {
@@ -9,7 +9,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
-    "validate:content": "node scripts/validate-content.mjs"
+    "validate:content": "node scripts/validate-content.mjs",
+    "report:coverage": "node scripts/report-content-coverage.mjs"
   },
   "dependencies": {
     "katex": "^0.19.1",

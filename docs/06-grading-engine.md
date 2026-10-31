@@ -13,6 +13,7 @@
 → 返回正确答案
 → 给出错误类型
 → 支撑错题记录
+→ 支撑用时统计
 ```
 
 ## 当前入口
@@ -45,6 +46,7 @@ interface QuestionResult {
   score: number;
   maxScore: number;
   errorType: "none" | "blank" | "concept" | "calculation" | "careless";
+  timeSpentSeconds?: number;
 }
 ```
 
@@ -81,7 +83,13 @@ interface QuestionResult {
 
 ### 表达式题
 
-当前使用解集判分基础版：
+当前表达式题分为两类。
+
+### `answerKind: "solution-set"`
+
+适合方程解等只关心最终解集的题目。
+
+判分步骤：
 
 1. 去除空格。
 2. 转小写。
@@ -104,7 +112,37 @@ x2=3,x1=2
 
 如果无法从答案中提取数字，则退回字符串归一化比较。
 
+### `answerKind: "text"`
+
+适合因式分解、不等式解集、概率分数等答案方向和书写形式都重要的题目。
+
+判分步骤：
+
+1. 去除空格。
+2. 转小写。
+3. 统一部分中文符号。
+4. 与 `acceptedAnswers` 逐个归一化比较。
+
+例如下面两题必须使用 `text`，否则容易误判：
+
+```text
+x >= -3 与 x <= -3
+(x + 2)(x - 2) 与 (x + 2)^2
+```
+
 后续需要升级为真正的表达式等价判断，覆盖分数、根式、区间、集合和含字母表达式。
+
+## 用时记录
+
+`Practice.tsx` 在用户首次修改某题答案时记录开始时间；点击“一键打分”时计算：
+
+```text
+timeSpentSeconds = max(1, round((submittedAt - firstInteractionAt) / 1000))
+```
+
+未作答题记录为 0 秒。
+
+当前记录的是“从首次输入到交卷”的时间，还不是严格意义上的独立思考时间。
 
 ## 错误类型
 

@@ -12,13 +12,22 @@ src/data/math.json
 
 ```json
 {
-  "version": "math-v0.2",
+  "version": "math-v0.3",
   "knowledgePoints": [],
   "questions": []
 }
 ```
 
 题干、选项、解析中的公式使用 `$...$` 包裹，由 KaTeX 渲染。
+
+当前规模：
+
+```text
+知识点：11 个
+题目：19 道
+基础题：12 道
+中等题：7 道
+```
 
 ## 当前基础模型
 
@@ -123,6 +132,27 @@ interface NumericQuestion extends BaseQuestion {
 interface ExpressionQuestion extends BaseQuestion {
   type: "expression";
   acceptedAnswers: string[];
+  answerKind?: "solution-set" | "text";
+}
+```
+
+`answerKind` 用途：
+
+| 值 | 适用题 | 判分方式 |
+| --- | --- | --- |
+| `solution-set` | 方程的解 | 提取数字解集，忽略顺序和常见书写差异 |
+| `text` | 因式分解、不等式解集、概率分数 | 归一化后与可接受答案比较 |
+
+示例：
+
+```json
+{
+  "type": "expression",
+  "acceptedAnswers": [
+    "x = 3 或 x = -3",
+    "x = ±3"
+  ],
+  "answerKind": "solution-set"
 }
 ```
 
@@ -212,7 +242,40 @@ npm run validate:content
 9. 数值题必须有数值答案。
 10. 表达式题必须有可接受答案。
 11. 题干中的 `$` 符号必须成对。
-12. 暂无题目的知识点给出警告。
+12. 表达式题 `answerKind` 合法。
+13. 解析中的 `$` 符号必须成对。
+14. 选项中的 `$` 符号必须成对。
+15. 暂无题目的知识点给出警告。
+
+## 覆盖率报告
+
+当前已支持：
+
+```bash
+npm run report:coverage
+```
+
+报告输出：
+
+1. 知识点总数。
+2. 题目总数。
+3. 基础 / 中等 / 较难题量。
+4. 单选题、数值题、表达式题数量。
+5. 每个考点的题量和题型数量。
+6. 每个考点的难度分布。
+7. 待补题型和待补难度提示。
+
+当前快照：
+
+```text
+知识点：11
+题目：19
+基础：12
+中等：7
+较难：0
+题目覆盖：11/11
+结构健康：7/11
+```
 
 ## 解析结构方向
 

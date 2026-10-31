@@ -234,6 +234,13 @@ button.danger {
   gap: 12px;
 }
 
+.two-column {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 16px;
+  align-items: start;
+}
+
 .stat-card {
   padding: 18px;
 }
@@ -336,6 +343,60 @@ button.danger {
   font-size: 0.9rem;
 }
 
+.topic-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 16px 0 0;
+}
+
+.topic-stats div {
+  background: #f6f8fb;
+  border-radius: 10px;
+  padding: 9px;
+  text-align: center;
+}
+
+.topic-stats dt {
+  color: #6c7889;
+  font-size: 0.78rem;
+}
+
+.topic-stats dd {
+  margin: 3px 0 0;
+  font-weight: 800;
+}
+
+.ranking-list {
+  display: grid;
+  gap: 10px;
+}
+
+.ranking-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #e3e8ef;
+  border-radius: 12px;
+}
+
+.ranking-item div {
+  display: grid;
+  gap: 3px;
+}
+
+.ranking-item span {
+  color: #6c7889;
+  font-size: 0.86rem;
+}
+
+.mastery-value {
+  align-self: center;
+  font-weight: 900;
+  color: #2f6fed;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -350,6 +411,47 @@ button.danger {
   border-radius: 12px;
   padding: 0 10px;
   background: #fff;
+}
+
+.filter-tabs {
+  display: flex;
+  gap: 8px;
+  background: #e8ecf3;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.filter-tabs button {
+  border: 0;
+  background: transparent;
+  color: #5a6779;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.filter-tabs button.active {
+  background: #fff;
+  color: #2f6fed;
+  box-shadow: 0 4px 10px rgba(32, 43, 54, 0.08);
+}
+
+.review-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: #eef4ff;
+  border: 1px solid #c9d7f5;
+  color: #245a9c;
+  padding: 16px;
+  border-radius: 14px;
+  margin-bottom: 18px;
+}
+
+.review-banner .ghost {
+  margin-top: 8px;
+  align-self: flex-start;
 }
 
 .result-banner {
@@ -519,6 +621,16 @@ button.danger {
   color: #556375;
 }
 
+.summary-list {
+  display: grid;
+  gap: 10px;
+  color: #45525f;
+}
+
+.summary-list .answer-state {
+  margin-right: 8px;
+}
+
 @media (max-width: 820px) {
   .hero,
   .topic-grid {
@@ -540,6 +652,19 @@ button.danger {
 
   .toolbar {
     flex-direction: column;
+  }
+
+  .two-column {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-tabs {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .topic-stats {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .toolbar button,

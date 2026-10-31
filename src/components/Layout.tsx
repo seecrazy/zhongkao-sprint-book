@@ -4,7 +4,7 @@ export type PageKey = "home" | "topics" | "practice" | "mistakes" | "settings";
 
 interface LayoutProps {
   page: PageKey;
-  onNavigate: (page: PageKey) => void;
+  onNavigate: (page: PageKey, query?: Record<string, string>) => void;
   children: ReactNode;
 }
 
@@ -42,7 +42,7 @@ export default function Layout({ page, onNavigate, children }: LayoutProps) {
       </header>
       <main className="app-main">{children}</main>
       <footer className="app-footer">
-        SprintBook v0.2 · 数学试点 · 内容外置 · 公式渲染 · 本地做题闭环
+        SprintBook v0.3 · 数学试点 · 掌握度 · 错题间隔复习
       </footer>
     </div>
   );

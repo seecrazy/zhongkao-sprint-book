@@ -17,8 +17,11 @@
 ```text
 冲刺看板
 ├── 学习进度
-├── 考点数量
-├── 错题数量
+├── 今日做题
+├── 连续学习
+├── 综合掌握度
+├── 到期错题
+├── 累计用时
 └── 下一步建议
 
 考点地图
@@ -29,14 +32,20 @@
 
 专题练习
 ├── 考点筛选
+├── 复习模式
 ├── 题目列表
 ├── 作答区
 ├── 一键打分
+├── 用时记录
 └── 题目反馈
 
 错题本
-├── 错题列表
+├── 到期复习
+├── 全部错题
+├── 已掌握
 ├── 错误次数
+├── 复习阶段
+├── 下次复习时间
 ├── 正确答案
 └── 解析
 
@@ -49,12 +58,15 @@
 ```text
 src/
 ├── components/
-│   └── Layout.tsx
+│   ├── Layout.tsx
+│   ├── MathText.tsx
+│   └── QuestionCard.tsx
 ├── data/
 │   ├── math.json
 │   └── sample-content.ts
 ├── lib/
 │   ├── grading.ts
+│   ├── mastery.ts
 │   └── storage.ts
 ├── pages/
 │   ├── Home.tsx
@@ -78,19 +90,39 @@ sample-content.ts
     ↓ 类型化导出
 Practice.tsx
     ↓ 用户作答
-responses
+responses / question-timers
     ↓ 一键打分
 grading.ts
     ↓
-QuestionResult[]
+QuestionResult[] + timeSpentSeconds
     ↓
-UI 显示解析
+UI 显示解析与用时
     ↓
-storage.ts
+storage.recordAttempt
     ↓
-completedQuestionIds / mistakes
+attempts / completedQuestionIds / mistakes / reviewSchedule
+    ↓
+mastery.ts
+    ↓
+questionStats / topicStats / overallMastery
     ↓
 Home / Topics / Mistakes 更新
+```
+
+## 掌握度模块
+
+`src/lib/mastery.ts` 当前负责：
+
+1. 从 `attempts` 中筛选单题记录。
+2. 计算单题尝试次数、正确率、平均用时和连续答对次数。
+3. 按考点聚合覆盖率、正确率和稳定性。
+4. 计算考点掌握度和整体掌握度。
+5. 计算连续学习天数、今日做题次数和累计用时。
+
+当前公式：
+
+```text
+mastery = accuracy × 65% + coverage × 25% + stability × 10%
 ```
 
 ## 判分模块
@@ -99,14 +131,14 @@ Home / Topics / Mistakes 更新
 
 1. 接收题目和用户响应。
 2. 按题型选择判分逻辑。
-3. 返回统一结果结构。
+3. 返回统一结果结构和用时。
 
 当前支持：
 
 ```text
 single-choice：比较选项 key。
 numeric：数值容差比较。
-expression：字符串归一化后比较。
+expression：solution-set 按解集比较；text 按归一化文本比较。
 ```
 
 后续会拆分为：
@@ -126,7 +158,7 @@ grading/
 当前使用 localStorage：
 
 ```text
-key: sprintbook-progress-v0.1
+key: sprintbook-progress-v0.3
 ```
 
 结构：
@@ -135,8 +167,19 @@ key: sprintbook-progress-v0.1
 interface ProgressState {
   completedQuestionIds: string[];
   mistakes: Record<string, MistakeRecord>;
+  attempts: AttemptRecord[];
 }
 ```
+
+`MistakeRecord` 额外保存：
+
+```text
+reviewStage         当前复习阶段
+consecutiveCorrect  连续答对次数
+nextReviewAt        下次复习时间
+```
+
+加载时会归一化旧版本数据，当前兼容读取 `sprintbook-progress-v0.1`。
 
 后续如果题量和记录变多，应迁移到 IndexedDB。
 
@@ -154,9 +197,13 @@ interface ProgressState {
 缺点：
 
 1. 还不是标准多路径路由。
-2. 页面间无法携带复杂查询参数。
+2. 查询参数能力较简单。
 
-后续建议使用 hash router，避免 GitHub Pages 子路径部署时的服务端路由问题。
+当前已支持 Hash Query，例如：
+
+```text
+#/practice?review=1
+```
 
 ## 后续架构方向
 

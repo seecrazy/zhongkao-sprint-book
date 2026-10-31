@@ -82,14 +82,29 @@ export function gradeQuestion(
   }
 
   const normalizedUser = normalizeText(userAnswer);
+  const answerKind = question.answerKind ?? "solution-set";
 
-  const userSolutionSet = extractSolutionSet(userAnswer);
-  const matched = userSolutionSet.length > 0
-    ? question.acceptedAnswers.some((answer) => {
-        const acceptedSolutionSet = extractSolutionSet(answer);
-        return isSameSolutionSet(userSolutionSet, acceptedSolutionSet);
-      })
-    : question.acceptedAnswers.some((answer) => {
+  if (answerKind === "solution-set") {
+    const userSolutionSet = extractSolutionSet(userAnswer);
+    const matched = userSolutionSet.length > 0
+      ? question.acceptedAnswers.some((answer) => {
+          const acceptedSolutionSet = extractSolutionSet(answer);
+          return isSameSolutionSet(userSolutionSet, acceptedSolutionSet);
+        })
+      : question.acceptedAnswers.some((answer) => {
+          const normalizedAnswer = normalizeText(answer);
+          return normalizedUser === normalizedAnswer;
+        });
+
+    return {
+      ...base,
+      status: matched ? "correct" : "wrong",
+      correctAnswer: question.acceptedAnswers[0],
+      errorType: matched ? "none" : "concept",
+    };
+  }
+
+  const matched = question.acceptedAnswers.some((answer) => {
     const normalizedAnswer = normalizeText(answer);
     return normalizedUser === normalizedAnswer;
   });

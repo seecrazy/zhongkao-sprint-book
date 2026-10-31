@@ -1,5 +1,5 @@
 {
-  "version": "math-v0.2",
+  "version": "math-v0.3",
   "knowledgePoints": [
     {
       "id": "math-equation-quadratic",
@@ -30,6 +30,62 @@
       "name": "平均数、中位数与众数",
       "subject": "math",
       "summary": "能选择合适统计量描述数据。",
+      "examWeight": "medium",
+      "status": "not-started"
+    },
+    {
+      "id": "math-number-real",
+      "name": "实数与运算",
+      "subject": "math",
+      "summary": "掌握相反数、绝对值、科学记数法和实数运算。",
+      "examWeight": "medium",
+      "status": "not-started"
+    },
+    {
+      "id": "math-algebra-factor",
+      "name": "整式与因式分解",
+      "subject": "math",
+      "summary": "掌握乘法公式、提公因式和公式法分解。",
+      "examWeight": "high",
+      "status": "not-started"
+    },
+    {
+      "id": "math-inequality",
+      "name": "一元一次不等式",
+      "subject": "math",
+      "summary": "掌握解集、数轴表示和实际问题。",
+      "examWeight": "high",
+      "status": "not-started"
+    },
+    {
+      "id": "math-function-quadratic",
+      "name": "二次函数",
+      "subject": "math",
+      "summary": "掌握顶点式、开口方向、对称轴与最值。",
+      "examWeight": "high",
+      "status": "not-started"
+    },
+    {
+      "id": "math-geometry-congruence",
+      "name": "全等三角形",
+      "subject": "math",
+      "summary": "掌握全等判定和对应关系。",
+      "examWeight": "high",
+      "status": "not-started"
+    },
+    {
+      "id": "math-geometry-similarity",
+      "name": "相似三角形",
+      "subject": "math",
+      "summary": "掌握相似判定、比例线段和实际应用。",
+      "examWeight": "high",
+      "status": "not-started"
+    },
+    {
+      "id": "math-probability-basic",
+      "name": "概率初步",
+      "subject": "math",
+      "summary": "会用列举法计算简单事件的概率。",
       "examWeight": "medium",
       "status": "not-started"
     }
@@ -126,6 +182,253 @@
       "answer": 5,
       "explanation": "$\\dfrac{2 + 4 + 6 + 8}{4} = \\dfrac{20}{4} = 5$。",
       "commonMistake": "数据个数数错。"
+    },
+    {
+      "id": "math-number-001",
+      "subject": "math",
+      "knowledgePointIds": ["math-number-real"],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 1,
+      "estimatedSeconds": 35,
+      "stem": "$-2026$ 的相反数是 ______。",
+      "source": "基础巩固",
+      "answer": 2026,
+      "explanation": "只有符号不同的两个数互为相反数，所以 $-2026$ 的相反数是 $2026$。",
+      "commonMistake": "把相反数和倒数混淆。"
+    },
+    {
+      "id": "math-number-002",
+      "subject": "math",
+      "knowledgePointIds": ["math-number-real"],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "计算 $|-5| + 2$ 的结果是（　）",
+      "source": "运算训练",
+      "options": [
+        { "key": "A", "label": "$3$" },
+        { "key": "B", "label": "$-3$" },
+        { "key": "C", "label": "$7$" },
+        { "key": "D", "label": "$-7$" }
+      ],
+      "answer": "C",
+      "explanation": "$|-5| = 5$，所以 $|-5| + 2 = 7$。",
+      "commonMistake": "直接把绝对值符号当作负号。"
+    },
+    {
+      "id": "math-factor-001",
+      "subject": "math",
+      "knowledgePointIds": ["math-algebra-factor"],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "因式分解：$x^2 - 4$。",
+      "source": "公式法训练",
+      "answerKind": "text",
+      "acceptedAnswers": ["(x+2)(x-2)", "(x-2)(x+2)"],
+      "explanation": "这是平方差公式：$a^2-b^2=(a+b)(a-b)$，所以 $x^2-4=(x+2)(x-2)$。",
+      "optimalSolution": "先判断是否为平方差结构，再直接套用公式。",
+      "commonMistake": "误写成 $(x-2)^2$。"
+    },
+    {
+      "id": "math-factor-002",
+      "subject": "math",
+      "knowledgePointIds": ["math-algebra-factor"],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "多项式 $3x^2 + 6x$ 因式分解的结果是（　）",
+      "source": "提公因式训练",
+      "options": [
+        { "key": "A", "label": "$3x(x + 2)$" },
+        { "key": "B", "label": "$3x(x - 2)$" },
+        { "key": "C", "label": "$x(3x + 6)$" },
+        { "key": "D", "label": "$3(x^2 + 2x)$" }
+      ],
+      "answer": "A",
+      "explanation": "公因式是 $3x$，所以 $3x^2+6x=3x(x+2)$。",
+      "optimalSolution": "先找系数最大公约数，再找相同字母的最低次幂。",
+      "commonMistake": "只提取字母而漏掉系数。"
+    },
+    {
+      "id": "math-inequality-001",
+      "subject": "math",
+      "knowledgePointIds": ["math-inequality"],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "不等式 $2x - 4 > 0$ 的解集是（　）",
+      "source": "基础训练",
+      "options": [
+        { "key": "A", "label": "$x > 2$" },
+        { "key": "B", "label": "$x < 2$" },
+        { "key": "C", "label": "$x > -2$" },
+        { "key": "D", "label": "$x < -2$" }
+      ],
+      "answer": "A",
+      "explanation": "移项得 $2x>4$，两边同除以正数 $2$，不等号方向不变，所以 $x>2$。",
+      "commonMistake": "移项后忘记除以系数 2。"
+    },
+    {
+      "id": "math-inequality-002",
+      "subject": "math",
+      "knowledgePointIds": ["math-inequality"],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "不等式 $-3x \\le 9$ 的解集是 ______。",
+      "source": "专题巩固",
+      "answerKind": "text",
+      "acceptedAnswers": ["x >= -3", "x≥-3"],
+      "explanation": "两边同除以负数 $-3$，不等号方向改变，所以 $x \\ge -3$。",
+      "optimalSolution": "看到系数为负，先提醒自己：除后必须改变不等号方向。",
+      "commonMistake": "除以负数后没有改变不等号方向。"
+    },
+    {
+      "id": "math-quadratic-function-001",
+      "subject": "math",
+      "knowledgePointIds": ["math-function-quadratic"],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 55,
+      "stem": "抛物线 $y = (x - 1)^2 + 3$ 的顶点横坐标是 ______。",
+      "source": "图像基础",
+      "answer": 1,
+      "explanation": "顶点式为 $y=a(x-h)^2+k$，顶点是 $(h,k)$，所以横坐标为 $1$。",
+      "commonMistake": "把 $x=1$ 错看成 $x=-1$。"
+    },
+    {
+      "id": "math-quadratic-function-002",
+      "subject": "math",
+      "knowledgePointIds": ["math-function-quadratic"],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "抛物线 $y = -2(x + 3)^2 - 1$ 的开口方向和顶点坐标分别是（　）",
+      "source": "二次函数训练",
+      "options": [
+        { "key": "A", "label": "开口向上，顶点 $(-3,-1)$" },
+        { "key": "B", "label": "开口向下，顶点 $(-3,-1)$" },
+        { "key": "C", "label": "开口向下，顶点 $(3,-1)$" },
+        { "key": "D", "label": "开口向上，顶点 $(3,1)$" }
+      ],
+      "answer": "B",
+      "explanation": "$a=-2<0$，开口向下；顶点式表示顶点为 $(-3,-1)$。",
+      "optimalSolution": "先看 $a$ 判断开口，再把括号内符号还原成顶点横坐标。",
+      "commonMistake": "把 $(x+3)^2$ 的顶点横坐标写成 $3$。"
+    },
+    {
+      "id": "math-congruence-001",
+      "subject": "math",
+      "knowledgePointIds": ["math-geometry-triangle", "math-geometry-congruence"],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "下列不能判定两个三角形全等的是（　）",
+      "source": "几何判定",
+      "options": [
+        { "key": "A", "label": "三边分别相等" },
+        { "key": "B", "label": "两边及夹角分别相等" },
+        { "key": "C", "label": "两角及夹边分别相等" },
+        { "key": "D", "label": "三个角分别相等" }
+      ],
+      "answer": "D",
+      "explanation": "三个角分别相等只能说明形状相同，不能保证大小相同，因此不能判定全等。",
+      "commonMistake": "把“AAA”误认为全等判定。"
+    },
+    {
+      "id": "math-congruence-002",
+      "subject": "math",
+      "knowledgePointIds": ["math-geometry-triangle", "math-geometry-congruence"],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 55,
+      "stem": "若 $\\triangle ABC \\cong \\triangle DEF$，且 $AB=5$，则 $DE=$ ______。",
+      "source": "对应关系训练",
+      "answer": 5,
+      "explanation": "全等三角形对应边相等，$AB$ 的对应边是 $DE$，所以 $DE=5$。",
+      "commonMistake": "没有按字母顺序确定对应边。"
+    },
+    {
+      "id": "math-similarity-001",
+      "subject": "math",
+      "knowledgePointIds": ["math-geometry-triangle", "math-geometry-similarity"],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 65,
+      "stem": "若两个相似三角形的相似比是 $1:2$，则它们的周长比是（　）",
+      "source": "相似性质",
+      "options": [
+        { "key": "A", "label": "$1:2$" },
+        { "key": "B", "label": "$1:4$" },
+        { "key": "C", "label": "$1:6$" },
+        { "key": "D", "label": "$1:8$" }
+      ],
+      "answer": "A",
+      "explanation": "相似三角形的周长比等于相似比，所以是 $1:2$。",
+      "optimalSolution": "记牢：周长比等于相似比，面积比等于相似比的平方。",
+      "commonMistake": "把周长比误算成面积比。"
+    },
+    {
+      "id": "math-similarity-002",
+      "subject": "math",
+      "knowledgePointIds": ["math-geometry-triangle", "math-geometry-similarity"],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "两个相似三角形的相似比是 $2:3$，较小三角形面积为 $8$，则较大三角形面积为 ______。",
+      "source": "相似面积",
+      "answer": 18,
+      "explanation": "面积比是相似比的平方，即 $4:9$。设较大面积为 $x$，则 $8:x=4:9$，解得 $x=18$。",
+      "commonMistake": "直接用相似比 $2:3$ 计算面积。"
+    },
+    {
+      "id": "math-probability-001",
+      "subject": "math",
+      "knowledgePointIds": ["math-probability-basic"],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "随机掷一枚均匀硬币一次，正面朝上的概率是 ______。",
+      "source": "概率基础",
+      "answerKind": "text",
+      "acceptedAnswers": ["1/2", "0.5", "50%"],
+      "explanation": "共有 2 种等可能结果，正面朝上有 1 种，所以概率是 $\\dfrac{1}{2}$。",
+      "commonMistake": "把“正面朝上”与“反面朝上”混在一起计数。"
+    },
+    {
+      "id": "math-probability-002",
+      "subject": "math",
+      "knowledgePointIds": ["math-probability-basic"],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 75,
+      "stem": "从 $1,2,3$ 中随机取一个数，取到偶数的概率是（　）",
+      "source": "列举法训练",
+      "options": [
+        { "key": "A", "label": "$\\dfrac{1}{3}$" },
+        { "key": "B", "label": "$\\dfrac{1}{2}$" },
+        { "key": "C", "label": "$\\dfrac{2}{3}$" },
+        { "key": "D", "label": "$1$" }
+      ],
+      "answer": "A",
+      "explanation": "共有 3 种等可能结果，偶数只有 $2$，所以概率是 $\\dfrac{1}{3}$。",
+      "optimalSolution": "先列全部等可能结果，再数满足条件的结果数。",
+      "commonMistake": "漏掉总结果数中的某个数。"
     }
   ]
 }

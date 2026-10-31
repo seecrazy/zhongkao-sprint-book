@@ -98,6 +98,12 @@ function validateQuestion(question, file, index) {
     if (!Array.isArray(question.acceptedAnswers) || question.acceptedAnswers.length === 0) {
       errors.push(`${location} 表达式题缺少 acceptedAnswers`);
     }
+    if (
+      question.answerKind &&
+      !["solution-set", "text"].includes(question.answerKind)
+    ) {
+      errors.push(`${location} answerKind 无效`);
+    }
   }
 
   if (question.difficulty && !/[1-5]/.test(String(question.difficulty))) {
@@ -107,6 +113,25 @@ function validateQuestion(question, file, index) {
   const mathMarkerCount = (String(question.stem).match(/\$/g) ?? []).length;
   if (mathMarkerCount % 2 !== 0) {
     errors.push(`${location} 题干中的 $ 符号不配对`);
+  }
+
+  const explanationMarkerCount = (String(question.explanation).match(/\$/g) ?? []).length;
+  if (explanationMarkerCount % 2 !== 0) {
+    errors.push(`${location} 解析中的 $ 符号不配对`);
+  }
+
+  if (Array.isArray(question.options)) {
+    question.options.forEach((option, optionIndex) => {
+      if (typeof option?.label !== "string") {
+        errors.push(`${location}:options[${optionIndex}] label 必须是字符串`);
+        return;
+      }
+
+      const optionMarkerCount = (option.label.match(/\$/g) ?? []).length;
+      if (optionMarkerCount % 2 !== 0) {
+        errors.push(`${location}:options[${optionIndex}] label 中的 $ 符号不配对`);
+      }
+    });
   }
 }
 

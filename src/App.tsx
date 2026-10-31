@@ -10,13 +10,25 @@ import type { ProgressState } from "./types";
 
 const pageKeys = ["home", "topics", "practice", "mistakes", "settings"] as const;
 
-function readHashPage(): PageKey {
-  const hash = window.location.hash.replace(/^#\/?/, "");
-  return pageKeys.includes(hash as PageKey) ? (hash as PageKey) : "home";
+function parseHash(): {
+  page: PageKey;
+  query: URLSearchParams;
+} {
+  const rawHash = window.location.hash.replace(/^#\/?/, "");
+  const [rawPage, rawQuery = ""] = rawHash.split("?");
+  const page = pageKeys.includes(rawPage as PageKey)
+    ? (rawPage as PageKey)
+    : "home";
+  return {
+    page,
+    query: new URLSearchParams(rawQuery),
+  };
 }
 
 export default function App() {
-  const [page, setPage] = useState<PageKey>(() => readHashPage());
+  const initialRoute = parseHash();
+  const [page, setPage] = useState<PageKey>(initialRoute.page);
+  const [query, setQuery] = useState(() => initialRoute.query);
   const [progress, setProgress] = useState<ProgressState>(() => loadProgress());
 
   useEffect(() => {
@@ -25,17 +37,26 @@ export default function App() {
 
   useEffect(() => {
     function handleHashChange() {
-      setPage(readHashPage());
+      const route = parseHash();
+      setPage(route.page);
+      setQuery(route.query);
     }
 
     window.addEventListener("hashchange", handleHashChange);
     return () => window.removeEventListener("hashchange", handleHashChange);
   }, []);
 
-  function navigate(nextPage: PageKey) {
-    if (readHashPage() !== nextPage) {
-      window.location.hash = `/${nextPage}`;
+  function navigate(
+    nextPage: PageKey,
+    nextQuery?: Record<string, string>
+  ) {
+    const search = new URLSearchParams(nextQuery ?? {}).toString();
+    const nextHash = `/${nextPage}${search ? `?${search}` : ""}`;
+
+    if (window.location.hash.replace(/^#/, "") !== nextHash) {
+      window.location.hash = nextHash;
     }
+    setQuery(new URLSearchParams(nextQuery ?? {}));
     setPage(nextPage);
   }
 
@@ -43,8 +64,15 @@ export default function App() {
     <Layout page={page} onNavigate={navigate}>
       {page === "home" && <Home progress={progress} onNavigate={navigate} />}
       {page === "topics" && <Topics progress={progress} />}
-      {page === "practice" && <Practice progress={progress} setProgress={setProgress} />}
-      {page === "mistakes" && <Mistakes progress={progress} />}
+      {page === "practice" && (
+        <Practice
+          progress={progress}
+          setProgress={setProgress}
+          initialTopicId={query.get("topic") ?? "all"}
+          initialReviewOnly={query.get("review") === "1"}
+        />
+      )}
+      {page === "mistakes" && <Mistakes progress={progress} onNavigate={navigate} />}
       {page === "settings" && <Settings progress={progress} setProgress={setProgress} />}
     </Layout>
   );

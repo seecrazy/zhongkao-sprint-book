@@ -1,12 +1,12 @@
 {
-  "version": "physics-exams-v0.9",
+  "version": "physics-exams-v0.11",
   "exams": [
     {
       "id": "physics-mock-001",
       "subject": "physics",
       "title": "物理基础冲刺摸底卷",
       "description": "覆盖力学、压强声光和电学的分区摸底卷，检查物理基础概念的稳定性和计算速度。",
-      "durationMinutes": 25,
+      "durationMinutes": 30,
       "level": "mock",
       "sections": [
         {
@@ -47,6 +47,17 @@
             "physics-ohm-002",
             "physics-ohm-003"
           ]
+        },
+        {
+          "id": "work-thermal-power",
+          "title": "功、热与电功率",
+          "description": "功与功率、比热容热值、电功率的基础题。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "physics-work-001",
+            "physics-heat-001",
+            "physics-epower-001"
+          ]
         }
       ]
     },
@@ -55,7 +66,7 @@
       "subject": "physics",
       "title": "物理薄弱考点精准卷",
       "description": "快速诊断物理薄弱考点的短卷，适合每天 15 分钟定向修补。",
-      "durationMinutes": 15,
+      "durationMinutes": 20,
       "level": "topic",
       "sections": [
         {
@@ -71,7 +82,42 @@
             "physics-pressure-001",
             "physics-pressure-002",
             "physics-ohm-001",
-            "physics-ohm-002"
+            "physics-ohm-002",
+            "physics-work-002",
+            "physics-heat-002",
+            "physics-epower-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-challenge-001",
+      "subject": "physics",
+      "title": "物理综合挑战卷",
+      "description": "集中训练过桥模型、柱体压强、并联分流、功率与热值计算的中高档题。",
+      "durationMinutes": 20,
+      "level": "challenge",
+      "sections": [
+        {
+          "id": "mechanics-hard",
+          "title": "力学压轴",
+          "description": "过桥问题、柱体压强与功率综合。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "physics-motion-004",
+            "physics-pressure-004",
+            "physics-work-003"
+          ]
+        },
+        {
+          "id": "thermal-power-hard",
+          "title": "热学与电学压轴",
+          "description": "热值计算、并联分流与电能计算。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "physics-heat-003",
+            "physics-ohm-004",
+            "physics-epower-003"
           ]
         }
       ]

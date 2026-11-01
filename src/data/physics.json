@@ -1,5 +1,5 @@
 {
-  "version": "physics-v0.9",
+  "version": "physics-v0.11",
   "knowledgePoints": [
     {
       "id": "physics-motion-speed",
@@ -449,6 +449,268 @@
         ],
         "strategy": "回声测距记住“除以 $2$”；光学判断题先分清是反射还是折射；平面镜作图抓住“对称”两个字。"
       }
+    },
+    {
+      "id": "physics-work-energy",
+      "name": "功和机械能",
+      "subject": "physics",
+      "summary": "掌握做功的条件、功和功率的计算及动能势能的影响因素。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "理解做功的两个必要条件，会判断力是否做功。",
+          "会用 $W=Fs$ 和 $P=\\dfrac{W}{t}$ 进行计算。",
+          "知道动能、重力势能的影响因素。"
+        ],
+        "keyIdea": "做功必须同时满足“有力”和“沿力的方向移动距离”，缺一不可；功率表示做功的快慢。",
+        "concepts": [
+          {
+            "title": "功",
+            "content": [
+              "功 $W=Fs$，$s$ 是物体沿力的方向移动的距离，单位焦耳（$\\text{J}$），$1\\ \\text{J}=1\\ \\text{N}\\cdot\\text{m}$。",
+              "三种不做功的典型情况：有力无距离（推而未动）、有距离无力（靠惯性滑动）、力与移动方向垂直（提水桶水平走）。",
+              "在水平面上用水平力拉物体，克服重力不做功；匀速提升物体时拉力等于重力。"
+            ]
+          },
+          {
+            "title": "功率",
+            "content": [
+              "功率表示做功的快慢，$P=\\dfrac{W}{t}$，单位瓦特（$\\text{W}$）。",
+              "功率大只说明做功快，不代表做的功一定多，还要看时间。",
+              "匀速运动时也可用 $P=Fv$ 计算。"
+            ]
+          },
+          {
+            "title": "动能和势能",
+            "content": [
+              "物体由于运动而具有的能叫动能，质量越大、速度越大，动能越大。",
+              "物体由于被举高而具有的能叫重力势能，质量越大、位置越高，重力势能越大。",
+              "发生弹性形变的物体具有弹性势能；动能和势能统称机械能，它们之间可以相互转化。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "功",
+            "expression": "$W=Fs$"
+          },
+          {
+            "name": "功率",
+            "expression": "$P=\\dfrac{W}{t}=Fv$"
+          },
+          {
+            "name": "提升物体做功",
+            "expression": "$W=Gh=mgh$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "水平拉力做功",
+            "problem": "用 $20\\ \\text{N}$ 的水平拉力拉着小车沿力的方向前进 $5\\ \\text{m}$，拉力做多少功？",
+            "steps": [
+              "力和移动方向一致。",
+              "$W=Fs=20\\times5$。",
+              "$W=100\\ \\text{J}$。"
+            ],
+            "answer": "$100\\ \\text{J}$",
+            "takeaway": "力和距离必须“同方向”才能直接相乘。"
+          },
+          {
+            "title": "提升货物求功率",
+            "problem": "起重机在 $30\\ \\text{s}$ 内把质量 $600\\ \\text{kg}$ 的货物匀速提升 $5\\ \\text{m}$（$g=10\\ \\text{N/kg}$），求功率。",
+            "steps": [
+              "匀速提升，拉力 $F=G=mg=6000\\ \\text{N}$。",
+              "做功 $W=Gh=6000\\times5=30000\\ \\text{J}$。",
+              "$P=\\dfrac{W}{t}=\\dfrac{30000}{30}=1000\\ \\text{W}$。"
+            ],
+            "answer": "$1000\\ \\text{W}$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为只要用了力就一定做功。",
+            "correction": "推而未动、提着水桶水平匀速前进都不做功。"
+          },
+          {
+            "mistake": "认为功率大做的功一定多。",
+            "correction": "功 $W=Pt$，还要看做功时间。"
+          }
+        ],
+        "strategy": "判断做功先检查“力、距离、方向”三要素；功率计算先求功再除时间，匀速提升用 $P=\\dfrac{Gh}{t}$ 最快。"
+      }
+    },
+    {
+      "id": "physics-thermal",
+      "name": "内能与热量",
+      "subject": "physics",
+      "summary": "掌握温度、内能、热量的关系，会用比热容和热值进行计算。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "能区分温度、内能、热量三个概念。",
+          "会用 $Q=cm\\Delta t$ 计算吸放热。",
+          "知道燃料热值的含义并会用 $Q=mq$ 计算。"
+        ],
+        "keyIdea": "改变内能的两种方式是做功和热传递；热量是过程量，只能说“吸收”或“放出”，不能说“含有”。",
+        "concepts": [
+          {
+            "title": "内能与热传递",
+            "content": [
+              "内能是物体内部所有分子动能与分子势能的总和，一切物体在任何温度下都有内能。",
+              "热传递发生的条件是存在温度差，热量从高温物体传向低温物体。",
+              "改变内能的两种方式：做功和热传递，两者等效。"
+            ]
+          },
+          {
+            "title": "比热容",
+            "content": [
+              "比热容表示单位质量的物质温度升高 $1\\ ^\\circ\\text{C}$ 吸收的热量，水的比热容最大，为 $4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$。",
+              "水的比热容大，所以相同条件下水升温慢、降温也慢（沿海昼夜温差小、汽车水箱用水作冷却剂）。",
+              "吸热公式 $Q_{吸}=cm(t-t_0)$，放热公式 $Q_{放}=cm(t_0-t)$。"
+            ]
+          },
+          {
+            "title": "热值",
+            "content": [
+              "$1\\ \\text{kg}$ 某种燃料完全燃烧放出的热量叫这种燃料的热值，单位 $\\text{J/kg}$。",
+              "热值是燃料本身的特性，与是否完全燃烧无关。",
+              "放热公式 $Q_{放}=mq$（固体燃料）。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "吸放热公式",
+            "expression": "$Q=cm\\Delta t$"
+          },
+          {
+            "name": "燃料放热",
+            "expression": "$Q_{放}=mq$"
+          },
+          {
+            "name": "水的比热容",
+            "expression": "$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "水吸热计算",
+            "problem": "把 $2\\ \\text{kg}$ 水从 $20\\ ^\\circ\\text{C}$ 加热到 $70\\ ^\\circ\\text{C}$，水吸收多少热量？",
+            "steps": [
+              "$\\Delta t=70-20=50\\ ^\\circ\\text{C}$。",
+              "$Q_{吸}=cm\\Delta t=4.2\\times10^3\\times2\\times50$。",
+              "$Q_{吸}=4.2\\times10^5\\ \\text{J}$。"
+            ],
+            "answer": "$4.2\\times10^5\\ \\text{J}$",
+            "takeaway": "质量单位必须化成 $\\text{kg}$ 再代入。"
+          },
+          {
+            "title": "海陆温差",
+            "problem": "为什么沿海地区昼夜温差比内陆小？",
+            "steps": [
+              "海水的比热容比砂石大。",
+              "吸收或放出相同热量时，海水温度变化小。",
+              "所以沿海昼夜温差小。"
+            ],
+            "answer": "因为水的比热容大"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "说“物体含有多少热量”。",
+            "correction": "热量是热传递过程中的过程量，只能“吸收”或“放出”。"
+          },
+          {
+            "mistake": "认为温度高的物体内能一定大。",
+            "correction": "内能还与质量、物质种类有关，一杯开水的内能比一座冰山的内能小。"
+          }
+        ],
+        "strategy": "概念题分清“温度是状态、内能是能量、热量是过程”；比热容计算先把质量化成 $\\text{kg}$；热值题认清“完全燃烧”四个字。"
+      }
+    },
+    {
+      "id": "physics-electric-power",
+      "name": "电功率",
+      "subject": "physics",
+      "summary": "掌握电功率的意义、电功计算和额定功率的概念。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "理解电功率表示电流做功的快慢。",
+          "会用 $P=UI$、$W=Pt$ 及变形公式计算。",
+          "理解额定电压、额定功率和实际功率的关系。"
+        ],
+        "keyIdea": "用电器上标的是额定值；实际功率随实际电压变化，额定功率只有一个。",
+        "concepts": [
+          {
+            "title": "电功率与电功",
+            "content": [
+              "电功率表示电流做功的快慢，$P=UI$，单位瓦特（$\\text{W}$）。",
+              "电流做的功叫电功（消耗的电能），$W=UIt=Pt$，单位焦耳（$\\text{J}$）。",
+              "电能常用单位是千瓦时（$\\text{kW}\\cdot\\text{h}$，即“度”），$1\\ \\text{kW}\\cdot\\text{h}=3.6\\times10^6\\ \\text{J}$。"
+            ]
+          },
+          {
+            "title": "额定值与实际值",
+            "content": [
+              "“$220\\text{V}\\ 100\\text{W}$”表示额定电压 $220\\ \\text{V}$、额定功率 $100\\ \\text{W}$。",
+              "用电器在额定电压下正常工作，实际功率等于额定功率。",
+              "实际电压低于额定电压时，实际功率小于额定功率，灯泡变暗。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "电功率",
+            "expression": "$P=UI$"
+          },
+          {
+            "name": "电功",
+            "expression": "$W=UIt=Pt$"
+          },
+          {
+            "name": "单位换算",
+            "expression": "$1\\ \\text{kW}\\cdot\\text{h}=3.6\\times10^6\\ \\text{J}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "求电功率",
+            "problem": "一盏电灯接在 $220\\ \\text{V}$ 电路中，正常工作时电流为 $0.5\\ \\text{A}$，它的功率是多少？",
+            "steps": [
+              "$P=UI=220\\times0.5$。",
+              "$P=110\\ \\text{W}$。"
+            ],
+            "answer": "$110\\ \\text{W}$",
+            "takeaway": "电功率计算直接用 $P=UI$，注意两个量要属于同一段电路。"
+          },
+          {
+            "title": "消耗的电能",
+            "problem": "一盏“$220\\text{V}\\ 100\\text{W}$”的灯泡正常工作 $10\\ \\text{h}$，消耗多少电能？",
+            "steps": [
+              "正常工作即实际功率等于额定功率 $100\\ \\text{W}=0.1\\ \\text{kW}$。",
+              "$W=Pt=0.1\\times10$。",
+              "$W=1\\ \\text{kW}\\cdot\\text{h}$。"
+            ],
+            "answer": "$1\\ \\text{kW}\\cdot\\text{h}$",
+            "takeaway": "用 $\\text{kW}\\cdot\\text{h}$ 计算时功率用 $\\text{kW}$、时间用 $\\text{h}$。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为千瓦时是功率的单位。",
+            "correction": "$\\text{kW}\\cdot\\text{h}$ 是电能（电功）的单位，功率单位是 $\\text{kW}$ 或 $\\text{W}$。"
+          },
+          {
+            "mistake": "电压变化时仍按额定功率计算。",
+            "correction": "实际功率随实际电压变化，先求实际电流或用比例关系。"
+          }
+        ],
+        "strategy": "电能表（度数）问题用 $W=Pt$，单位选 $\\text{kW}\\cdot\\text{h}$ 最方便；灯泡亮度由实际功率决定，不是由额定功率决定。"
+      }
     }
   ],
   "questions": [
@@ -800,6 +1062,267 @@
       "explanation": "光从空气斜射入水（或其他介质）时，折射光线向法线偏折，折射角小于入射角。",
       "optimalSolution": "口诀：空气中的角总是最大的。",
       "commonMistake": "垂直入射（折射角等于入射角，均为 $0^\\circ$）的特殊情况与斜射混淆。"
+    },
+    {
+      "id": "physics-motion-004",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 100,
+      "stem": "一列长 $200\\ \\text{m}$ 的火车以 $20\\ \\text{m/s}$ 的速度匀速通过一座长 $600\\ \\text{m}$ 的大桥，火车完全通过大桥需要 ______ $\\text{s}$。",
+      "source": "中考压轴模型：过桥问题",
+      "answer": 40,
+      "explanation": "完全通过大桥，火车要走的路程 $=$ 桥长 $+$ 车长 $=600+200=800\\ \\text{m}$。$t=\\dfrac{s}{v}=\\dfrac{800}{20}=40\\ \\text{s}$。",
+      "optimalSolution": "过桥（隧道）问题：路程 $=$ 桥长 $+$ 车长。",
+      "commonMistake": "忘记加车长，算出 $30\\ \\text{\\s}$。"
+    },
+    {
+      "id": "physics-pressure-004",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-pressure",
+        "physics-mass-density"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 120,
+      "stem": "一个质量分布均匀的实心正方体，边长为 $0.1\\ \\text{m}$，密度为 $3\\times10^3\\ \\text{kg/m}^3$，静止在水平桌面上，它对桌面的压强是 ______ $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "source": "中考压轴模型：柱体压强",
+      "answer": 3000,
+      "explanation": "水平面上 $F=G=mg=\\rho Vg$，$S=L^2$。$p=\\dfrac{F}{S}=\\dfrac{\\rho L^3 g}{L^2}=\\rho gL=3000\\times10\\times0.1=3000\\ \\text{Pa}$。",
+      "optimalSolution": "柱体对水平面的压强可直接用 $p=\\rho g h$（$h$ 为柱体高度），不必先算重力。",
+      "commonMistake": "体积和面积代入混乱；正确推导是 $p=\\dfrac{\\rho L^3g}{L^2}$。"
+    },
+    {
+      "id": "physics-ohm-004",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 110,
+      "stem": "$R_1=10\\ \\Omega$ 与 $R_2=20\\ \\Omega$ 并联接在 $12\\ \\text{V}$ 电源两端，则干路电流是 ______ $\\text{A}$。",
+      "source": "中考压轴模型：并联分流",
+      "answer": 1.8,
+      "tolerance": 0.01,
+      "explanation": "并联各支路电压都等于电源电压：$I_1=\\dfrac{12}{10}=1.2\\ \\text{A}$，$I_2=\\dfrac{12}{20}=0.6\\ \\text{A}$，干路电流 $I=I_1+I_2=1.8\\ \\text{A}$。",
+      "optimalSolution": "并联电路分别求各支路电流再相加，比先算总电阻更快。",
+      "commonMistake": "误用串联总电阻公式 $R_1+R_2=30\\ \\Omega$。"
+    },
+    {
+      "id": "physics-work-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 1,
+      "estimatedSeconds": 50,
+      "stem": "用 $20\\ \\text{N}$ 的水平拉力拉着小车沿力的方向前进 $5\\ \\text{m}$，拉力做的功是 ______ $\\text{J}$。",
+      "source": "功的基础计算",
+      "answer": 100,
+      "explanation": "$W=Fs=20\\times5=100\\ \\text{J}$。",
+      "optimalSolution": "力和移动方向一致，直接 $W=Fs$。",
+      "commonMistake": "公式记成 $W=F/s$。"
+    },
+    {
+      "id": "physics-work-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "关于功率，下列说法正确的是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "功率大的机器做的功一定多"
+        },
+        {
+          "key": "B",
+          "label": "功率表示做功的快慢"
+        },
+        {
+          "key": "C",
+          "label": "做功时间长的机器功率一定大"
+        },
+        {
+          "key": "D",
+          "label": "功率大的机器一定省力"
+        }
+      ],
+      "answer": "B",
+      "explanation": "功率表示做功的快慢。做功多少还要看时间（A 错）；功率与做功时间、省力与否没有必然关系（C、D 错）。",
+      "optimalSolution": "抓住定义：功率 $=$ 单位时间做的功。",
+      "commonMistake": "混淆“做功多”和“做功快”。"
+    },
+    {
+      "id": "physics-work-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 100,
+      "stem": "起重机在 $30\\ \\text{s}$ 内把质量 $600\\ \\text{kg}$ 的货物匀速提升 $5\\ \\text{m}$，起重机的功率是 ______ $\\text{W}$。（$g=10\\ \\text{N/kg}$）",
+      "source": "功率计算压轴基础",
+      "answer": 1000,
+      "explanation": "匀速提升 $F=G=6000\\ \\text{N}$，$W=Gh=30000\\ \\text{J}$，$P=\\dfrac{W}{t}=\\dfrac{30000}{30}=1000\\ \\text{W}$。",
+      "optimalSolution": "匀速提升用 $P=\\dfrac{Gh}{t}$ 一步到位。",
+      "commonMistake": "忘记匀速时拉力等于重力，或漏算 $g$。"
+    },
+    {
+      "id": "physics-heat-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "热传递发生的条件是两个物体之间必须存在（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "质量差"
+        },
+        {
+          "key": "B",
+          "label": "温度差"
+        },
+        {
+          "key": "C",
+          "label": "体积差"
+        },
+        {
+          "key": "D",
+          "label": "密度差"
+        }
+      ],
+      "answer": "B",
+      "explanation": "存在温度差是发生热传递的条件，热量从高温物体传向低温物体。",
+      "optimalSolution": "记住关键词“温度差”。",
+      "commonMistake": "误以为与内能大小有关。"
+    },
+    {
+      "id": "physics-heat-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 80,
+      "stem": "把 $2\\ \\text{kg}$ 水从 $20\\ ^\\circ\\text{C}$ 加热到 $70\\ ^\\circ\\text{C}$，水吸收的热量是 ______ $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "source": "比热容计算",
+      "answer": 420000,
+      "explanation": "$Q=cm\\Delta t=4.2\\times10^3\\times2\\times(70-20)=4.2\\times10^5\\ \\text{J}$。",
+      "optimalSolution": "先算温差 $50\\ ^\\circ\\text{C}$，再代入 $Q=cm\\Delta t$。",
+      "commonMistake": "温差代入成 $70\\ ^\\circ\\text{C}$（末温）。"
+    },
+    {
+      "id": "physics-heat-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 90,
+      "stem": "完全燃烧 $0.5\\ \\text{kg}$ 某种燃料，已知它的热值为 $4.2\\times10^7\\ \\text{J/kg}$，放出的热量是 ______ $\\text{J}$。",
+      "source": "热值计算",
+      "answer": 21000000,
+      "explanation": "$Q=mq=0.5\\times4.2\\times10^7=2.1\\times10^7\\ \\text{J}$。",
+      "optimalSolution": "直接用 $Q=mq$。",
+      "commonMistake": "科学计数法运算出错。"
+    },
+    {
+      "id": "physics-epower-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "关于电功率，下列说法正确的是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "电功率表示电流做功的多少"
+        },
+        {
+          "key": "B",
+          "label": "电功率表示电流做功的快慢"
+        },
+        {
+          "key": "C",
+          "label": "电流做功越多，电功率越大"
+        },
+        {
+          "key": "D",
+          "label": "电能表测量的是用电器的电功率"
+        }
+      ],
+      "answer": "B",
+      "explanation": "电功率表示电流做功的快慢。A、C 混淆了“做功多少”与“做功快慢”；D 错误，电能表测的是电能。",
+      "optimalSolution": "功率类物理量都表示“快慢”。",
+      "commonMistake": "与电功（电能）概念混淆。"
+    },
+    {
+      "id": "physics-epower-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "一盏电灯接在 $220\\ \\text{V}$ 电路中正常工作，通过的电流为 $0.5\\ \\text{A}$，它的电功率是 ______ $\\text{W}$。",
+      "source": "电功率计算",
+      "answer": 110,
+      "explanation": "$P=UI=220\\times0.5=110\\ \\text{W}$。",
+      "optimalSolution": "直接代入 $P=UI$。",
+      "commonMistake": "把 $220\\ \\text{V}$ 当成功率。"
+    },
+    {
+      "id": "physics-epower-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 90,
+      "stem": "一盏“$220\\text{V}\\ 100\\text{W}$”的灯泡正常工作 $10\\ \\text{h}$，消耗的电能是 ______ $\\text{kW}\\cdot\\text{h}$。",
+      "source": "电能计算压轴基础",
+      "answer": 1,
+      "tolerance": 0.01,
+      "explanation": "$P=100\\ \\text{W}=0.1\\ \\text{kW}$，$W=Pt=0.1\\times10=1\\ \\text{kW}\\cdot\\text{h}$。",
+      "optimalSolution": "用“度”（$\\text{kW}\\cdot\\text{h}$）计算时功率化成 $\\text{kW}$。",
+      "commonMistake": "单位混用，忘记把瓦换算成千瓦。"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "chemistry-v0.10",
+  "version": "chemistry-v0.11",
   "knowledgePoints": [
     {
       "id": "chemistry-change-properties",
@@ -422,6 +422,273 @@
         ],
         "strategy": "求某物质质量先想质量守恒的“总账平衡”；方程式计算严格按“设、写、找、列、算”五步走，相对分子质量别算错。"
       }
+    },
+    {
+      "id": "chemistry-carbon-family",
+      "name": "碳和碳的氧化物",
+      "subject": "chemistry",
+      "summary": "掌握碳单质的性质用途、二氧化碳的性质与检验、一氧化碳的毒性。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "知道金刚石、石墨物理性质差异的原因和主要用途。",
+          "掌握二氧化碳的性质、用途和检验方法。",
+          "知道一氧化碳的可燃性、毒性和还原性。"
+        ],
+        "keyIdea": "结构决定性质：金刚石和石墨都是碳单质，物理性质差异大是因为碳原子排列不同；CO2 的特征反应是使澄清石灰水变浑浊。",
+        "concepts": [
+          {
+            "title": "碳单质",
+            "content": [
+              "金刚石是天然存在最硬的物质，可用于裁玻璃、做钻头；石墨质软、能导电，可做电极、铅笔芯。",
+              "金刚石和石墨物理性质差异很大，原因是碳原子的排列方式不同。",
+              "木炭、活性炭具有疏松多孔的结构，有吸附性（吸附色素和异味），该过程属于物理变化。"
+            ]
+          },
+          {
+            "title": "二氧化碳",
+            "content": [
+              "通常情况下，$\\text{CO}_2$ 无色无味，密度比空气大，能溶于水；固态 $\\text{CO}_2$ 叫干冰，升华吸热，可用于人工降雨。",
+              "$\\text{CO}_2$ 不燃烧也不支持燃烧，且密度比空气大，可用于灭火。",
+              "$\\text{CO}_2$ 能溶于水生成碳酸：$\\text{CO}_2+\\text{H}_2\\text{O}=\\text{H}_2\\text{CO}_3$；能使澄清石灰水变浑浊：$\\text{CO}_2+\\text{Ca(OH)}_2=\\text{CaCO}_3\\downarrow+\\text{H}_2\\text{O}$，这是检验 $\\text{CO}_2$ 的方法。",
+              "$\\text{CO}_2$ 无毒，但不能供给呼吸，空气中含量过高会使人窒息。"
+            ]
+          },
+          {
+            "title": "一氧化碳",
+            "content": [
+              "$\\text{CO}$ 无色无味、难溶于水，有剧毒，中毒原因是它与血红蛋白结合，使人体缺氧。",
+              "$\\text{CO}$ 有可燃性：$2\\text{CO}+\\text{O}_2\\xrightarrow{\\text{点燃}}2\\text{CO}_2$，燃烧产生蓝色火焰。",
+              "$\\text{CO}$ 有还原性，工业上用于冶炼金属，如 $\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "检验二氧化碳",
+            "expression": "$\\text{CO}_2+\\text{Ca(OH)}_2=\\text{CaCO}_3\\downarrow+\\text{H}_2\\text{O}$"
+          },
+          {
+            "name": "一氧化碳燃烧",
+            "expression": "$2\\text{CO}+\\text{O}_2\\xrightarrow{\\text{点燃}}2\\text{CO}_2$"
+          },
+          {
+            "name": "相对分子质量",
+            "expression": "$\\text{CO}_2$：$12+16\\times2=44$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "检验二氧化碳",
+            "problem": "如何检验某气体是否为二氧化碳？",
+            "steps": [
+              "将气体通入澄清石灰水中。",
+              "若石灰水变浑浊，则该气体是 $\\text{CO}_2$。",
+              "化学方程式：$\\text{CO}_2+\\text{Ca(OH)}_2=\\text{CaCO}_3\\downarrow+\\text{H}_2\\text{O}$。"
+            ],
+            "answer": "通入澄清石灰水，变浑浊则是 $\\text{CO}_2$",
+            "takeaway": "检验 $\\text{CO}_2$ 用澄清石灰水，鉴别 $\\text{CO}_2$ 与 $\\text{CO}$ 也用它。"
+          },
+          {
+            "title": "干冰的用途",
+            "problem": "干冰为什么能用于人工降雨？",
+            "steps": [
+              "干冰是固态二氧化碳。",
+              "干冰升华时吸收大量的热。",
+              "使周围温度降低，水蒸气凝结成水滴落下。"
+            ],
+            "answer": "干冰升华吸热，使水蒸气凝结"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为二氧化碳有毒。",
+            "correction": "$\\text{CO}_2$ 无毒，但不供给呼吸，浓度过高会使人窒息；有毒的是 $\\text{CO}$。"
+          },
+          {
+            "mistake": "把干冰当成冰（水凝固而成）。",
+            "correction": "干冰是固态二氧化碳。"
+          }
+        ],
+        "strategy": "推断题抓特征反应：使澄清石灰水变浑浊就是 $\\text{CO}_2$；比较 $\\text{CO}$ 和 $\\text{CO}_2$ 从“可燃性、毒性、是否供给呼吸”三个角度列表记忆。"
+      }
+    },
+    {
+      "id": "chemistry-metal-iron",
+      "name": "金属与金属矿物",
+      "subject": "chemistry",
+      "summary": "掌握金属的物理性质、铁生锈的条件、防锈措施和铁的冶炼原理。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "知道金属共有的物理性质。",
+          "掌握铁生锈的条件和防止生锈的措施。",
+          "了解一氧化碳还原氧化铁的冶炼原理。"
+        ],
+        "keyIdea": "铁生锈是铁与氧气、水共同作用的结果；防锈的思路就是破坏生锈条件。",
+        "concepts": [
+          {
+            "title": "金属的物理性质",
+            "content": [
+              "大多数金属有金属光泽、能导电、能导热、有延展性。",
+              "导电性最好的是银（其次是铜、铝），常用于导线的是铜、铝（考虑价格）。",
+              "金属材料包括纯金属和合金；合金的硬度一般比组成它的纯金属大，熔点更低。"
+            ]
+          },
+          {
+            "title": "铁的生锈与防锈",
+            "content": [
+              "铁生锈的条件：铁与氧气、水同时接触，二者缺一不可。",
+              "干燥空气中的铁不易生锈（缺水），完全隔绝空气的铁也不生锈（缺氧）。",
+              "防锈措施：破坏生锈条件——保持干燥、表面涂油或刷漆、镀保护层、制成不锈钢等。"
+            ]
+          },
+          {
+            "title": "铁的冶炼",
+            "content": [
+              "工业炼铁的原理：在高温下用一氧化碳还原氧化铁。",
+              "$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$。",
+              "实验室可用 CO 还原氧化铁的装置模拟，尾气必须点燃或收集（CO 有毒）。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "铁生锈条件",
+            "expression": "$\\text{铁}+\\text{氧气}+\\text{水}\\rightarrow\\text{铁锈}$"
+          },
+          {
+            "name": "一氧化碳炼铁",
+            "expression": "$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "判断生锈条件",
+            "problem": "为什么放在干燥空气中的铁钉不易生锈？",
+            "steps": [
+              "铁生锈需要氧气和水同时存在。",
+              "干燥空气中缺少水分。",
+              "破坏了生锈条件，所以不易生锈。"
+            ],
+            "answer": "因为缺少水",
+            "takeaway": "判断生锈先检查“氧气、水”两个条件是否同时满足。"
+          },
+          {
+            "title": "CO 还原氧化铁计算",
+            "problem": "用 CO 还原 $16\\ \\text{g}$ 氧化铁（相对分子质量 $160$），最多生成铁多少克？",
+            "steps": [
+              "$\\text{Fe}_2\\text{O}_3$ 的相对质量份数为 $160$，$16\\ \\text{g}$ 恰好对应 $0.1$ 份。",
+              "由方程式，$160$ 份 $\\text{Fe}_2\\text{O}_3$ 对应 $112$ 份 $\\text{Fe}$（$2\\times56$）。",
+              "$112\\times0.1=11.2\\ \\text{g}$。"
+            ],
+            "answer": "$11.2\\ \\text{g}$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为铁生锈只是与氧气反应。",
+            "correction": "必须有水参与，铁在完全干燥的空气中不易生锈。"
+          },
+          {
+            "mistake": "CO 还原氧化铁的实验中不处理尾气。",
+            "correction": "尾气含 CO，有毒，必须点燃或收集。"
+          }
+        ],
+        "strategy": "防锈题从“隔绝氧气、隔绝水”两个方向找措施；炼铁计算抓住 Fe2O3→2Fe 的质量对应关系（160 : 112）。"
+      }
+    },
+    {
+      "id": "chemistry-acid-base-salt",
+      "name": "常见的酸和碱",
+      "subject": "chemistry",
+      "summary": "掌握酸碱指示剂、pH 与溶液酸碱性的关系及中和反应。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "知道酸碱指示剂在酸碱溶液中的变色规律。",
+          "会用 pH 判断溶液的酸碱性。",
+          "理解中和反应及其在生产生活中的应用。"
+        ],
+        "keyIdea": "酸碱中和的本质是酸中的氢离子与碱中的氢氧根离子结合生成水；pH 是判断酸碱性的量化指标。",
+        "concepts": [
+          {
+            "title": "酸碱指示剂",
+            "content": [
+              "紫色石蕊溶液：遇酸变红，遇碱变蓝，中性为紫色。",
+              "无色酚酞溶液：遇酸不变色（仍为无色），遇碱变红。",
+              "指示剂变色规律必须记准，这是判断酸碱的基础。"
+            ]
+          },
+          {
+            "title": "pH 与酸碱性",
+            "content": [
+              "pH 的范围通常为 $0\\sim14$。",
+              "$\\text{pH}<7$ 溶液呈酸性，$\\text{pH}=7$ 呈中性，$\\text{pH}>7$ 呈碱性。",
+              "$\\text{pH}$ 越小酸性越强，$\\text{pH}$ 越大碱性越强；测定用 pH 试纸。"
+            ]
+          },
+          {
+            "title": "中和反应",
+            "content": [
+              "酸与碱作用生成盐和水的反应叫中和反应：$\\text{酸}+\\text{碱}\\rightarrow\\text{盐}+\\text{水}$。",
+              "例如：$\\text{NaOH}+\\text{HCl}=\\text{NaCl}+\\text{H}_2\\text{O}$。",
+              "应用：用含氢氧化铝的药物治疗胃酸过多、用熟石灰改良酸性土壤、处理工厂废水。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "中和反应通式",
+            "expression": "$\\text{酸}+\\text{碱}\\rightarrow\\text{盐}+\\text{水}$"
+          },
+          {
+            "name": "氢氧化钠与盐酸",
+            "expression": "$\\text{NaOH}+\\text{HCl}=\\text{NaCl}+\\text{H}_2\\text{O}$"
+          },
+          {
+            "name": "酸碱性判断",
+            "expression": "$\\text{pH}<7$ 酸性，$\\text{pH}=7$ 中性，$\\text{pH}>7$ 碱性"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "指示剂变色",
+            "problem": "向氢氧化钠溶液中滴入紫色石蕊溶液，颜色如何变化？",
+            "steps": [
+              "氢氧化钠溶液呈碱性。",
+              "紫色石蕊遇碱变蓝。",
+              "所以溶液变蓝。"
+            ],
+            "answer": "变蓝",
+            "takeaway": "石蕊“酸红碱蓝”，酚酞“酸无碱红”。"
+          },
+          {
+            "title": "改良酸性土壤",
+            "problem": "为什么常用熟石灰改良酸性土壤？",
+            "steps": [
+              "熟石灰是氢氧化钙，呈碱性。",
+              "它与土壤中的酸性物质发生中和反应。",
+              "从而降低土壤酸性，且价格便宜。"
+            ],
+            "answer": "利用中和反应，熟石灰廉价易得"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为酚酞遇酸变红。",
+            "correction": "酚酞遇酸不变色（无色），遇碱才变红。"
+          },
+          {
+            "mistake": "认为 pH 可能大于 14 或小于 0。",
+            "correction": "中学生阶段 pH 范围按 $0\\sim14$ 处理。"
+          }
+        ],
+        "strategy": "酸碱判断题先想指示剂或 pH；中和反应应用题本质都是“酸+碱→盐+水”；写生成物时盐的名称要准确（如氯化钠、氯化钙）。"
+      }
     }
   ],
   "questions": [
@@ -814,6 +1081,362 @@
       "explanation": "“能燃烧”描述的是可燃性，需要通过化学变化才能表现，属于化学性质。A、D 是变化的描述，B 是物理性质。",
       "optimalSolution": "找“能、会、可以、易”这类词；生锈、结冰是变化过程的陈述。",
       "commonMistake": "把“铁生锈”这一变化误当作性质。"
+    },
+    {
+      "id": "chem-air-004",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen",
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 130,
+      "stem": "实验室加热氯酸钾制取氧气（$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$，$\\text{KClO}_3$ 相对分子质量 $122.5$）。欲制取 $9.6\\ \\text{g}$ 氧气，至少需要氯酸钾 ______ $\\text{g}$。",
+      "source": "中考压轴模型：方程式计算",
+      "answer": 24.5,
+      "tolerance": 0.1,
+      "explanation": "$9.6\\ \\text{g}$ 氧气对应相对质量份数 $96$（$3\\times32$），即 $0.1$ 份。氯酸钾对应份数 $245$（$2\\times122.5$），质量 $=245\\times0.1=24.5\\ \\text{g}$。",
+      "optimalSolution": "按相对质量份数列比例：$245:96=x:9.6$，解得 $x=24.5$。",
+      "commonMistake": "忘记化学计量数（系数），直接用 $122.5:32$ 计算。"
+    },
+    {
+      "id": "chem-water-004",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 120,
+      "stem": "把 $50\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液稀释成质量分数为 $10\\%$ 的溶液，需要加水 ______ $\\text{g}$。",
+      "source": "中考压轴模型：溶液稀释",
+      "answer": 50,
+      "explanation": "稀释前后溶质质量不变：$50\\times20\\%=10\\ \\text{g}$。稀释后溶液质量 $=10\\div10\\%=100\\ \\text{g}$，需加水 $100-50=50\\ \\text{g}$。",
+      "optimalSolution": "抓住“溶质质量不变”列等式：$50\\times20\\%=(50+x)\\times10\\%$，$x=50$。",
+      "commonMistake": "把 $50\\ \\text{g}$ 直接当成加水量后再算错，或忘记稀释后要先求溶液总质量。"
+    },
+    {
+      "id": "chem-equation-004",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations",
+        "chemistry-water-solution"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 120,
+      "stem": "通电分解 $18\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），生成氢气的质量是 ______ $\\text{g}$。",
+      "source": "中考压轴模型：方程式计算",
+      "answer": 2,
+      "tolerance": 0.01,
+      "explanation": "$18\\ \\text{g}$ 水对应相对质量份数 $36$（$2\\times18$），即 $0.5$ 份。氢气对应份数 $4$（$2\\times2$），质量 $=4\\times0.5=2\\ \\text{g}$。",
+      "optimalSolution": "水的相对质量份数 $36$ 对应氢气 $4$，比例 $9:1$，所以 $18\\ \\text{g}$ 水生成 $2\\ \\text{g}$ 氢气。",
+      "commonMistake": "求成氧气的质量（$16\\ \\text{g}$）。"
+    },
+    {
+      "id": "chem-carbon-001",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "下列关于二氧化碳的说法，正确的是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "二氧化碳有毒，会污染空气"
+        },
+        {
+          "key": "B",
+          "label": "固态二氧化碳俗称干冰，升华吸热，可用于人工降雨"
+        },
+        {
+          "key": "C",
+          "label": "二氧化碳能供给呼吸"
+        },
+        {
+          "key": "D",
+          "label": "二氧化碳的水溶液能使紫色石蕊溶液变蓝"
+        }
+      ],
+      "answer": "B",
+      "explanation": "B 正确。A 错误：二氧化碳无毒；C 错误：二氧化碳不供给呼吸；D 错误：碳酸显酸性，使石蕊变红。",
+      "optimalSolution": "记牢 CO2 的四个要点：无毒不助燃、密度大、溶于水成酸、石灰水变浑浊。",
+      "commonMistake": "误认为石蕊变蓝。"
+    },
+    {
+      "id": "chem-carbon-002",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "二氧化碳（$\\text{CO}_2$）的相对分子质量是 ______。",
+      "source": "化学式计算",
+      "answer": 44,
+      "explanation": "碳的相对原子质量为 $12$，氧为 $16$，$12+16\\times2=44$。",
+      "optimalSolution": "相对分子质量 $=$ 各原子相对原子质量之和。",
+      "commonMistake": "漏乘氧原子个数 $2$。"
+    },
+    {
+      "id": "chem-carbon-003",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "下列关于一氧化碳和二氧化碳的说法，正确的是（　）",
+      "source": "碳的氧化物综合",
+      "options": [
+        {
+          "key": "A",
+          "label": "一氧化碳和二氧化碳都有毒"
+        },
+        {
+          "key": "B",
+          "label": "二氧化碳能与血红蛋白结合使人中毒"
+        },
+        {
+          "key": "C",
+          "label": "一氧化碳有毒，能与血红蛋白结合使人缺氧中毒"
+        },
+        {
+          "key": "D",
+          "label": "一氧化碳和二氧化碳的碳元素质量分数相同"
+        }
+      ],
+      "answer": "C",
+      "explanation": "C 正确。A 错误：CO2 无毒；B 错误：与血红蛋白结合的是 CO；D 错误：分子构成不同，碳元素质量分数不同（CO 约为 43%，CO2 约为 27%）。",
+      "optimalSolution": "CO 三大性质：可燃、有毒、有还原性；CO2 无毒不助燃。",
+      "commonMistake": "把毒性记到二氧化碳头上。"
+    },
+    {
+      "id": "chem-metal-001",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "铁制品在潮湿的空气中容易生锈，铁生锈是铁与（　）发生化学反应的结果。",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "只有氧气"
+        },
+        {
+          "key": "B",
+          "label": "氧气和氮气"
+        },
+        {
+          "key": "C",
+          "label": "氧气和水"
+        },
+        {
+          "key": "D",
+          "label": "只有水蒸气"
+        }
+      ],
+      "answer": "C",
+      "explanation": "铁生锈的条件是铁与氧气、水同时接触，二者缺一不可。",
+      "optimalSolution": "记住生锈两要素：氧气 $+$ 水。",
+      "commonMistake": "漏掉水，认为只有氧气就够。"
+    },
+    {
+      "id": "chem-metal-002",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "下列措施中，能够防止铁栏杆生锈的是（　）",
+      "source": "金属防锈",
+      "options": [
+        {
+          "key": "A",
+          "label": "经常用水冲洗铁栏杆"
+        },
+        {
+          "key": "B",
+          "label": "在铁栏杆表面刷漆"
+        },
+        {
+          "key": "C",
+          "label": "用稀盐酸定期擦拭"
+        },
+        {
+          "key": "D",
+          "label": "把铁栏杆安装在潮湿的地下室"
+        }
+      ],
+      "answer": "B",
+      "explanation": "刷漆能隔绝氧气和水，破坏生锈条件。A、D 提供水分，加速生锈；C 中稀盐酸会与铁反应，腐蚀栏杆。",
+      "optimalSolution": "防锈思路：隔绝氧气或隔绝水。",
+      "commonMistake": "误以为水洗能“保持清洁防锈”。"
+    },
+    {
+      "id": "chem-metal-003",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-metal-iron",
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 110,
+      "stem": "工业上用一氧化碳还原氧化铁炼铁（$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$）。用 CO 还原 $16\\ \\text{g}$ 氧化铁（相对分子质量 $160$），最多能生成铁 ______ $\\text{g}$。（铁的相对原子质量取 $56$）",
+      "source": "炼铁计算",
+      "answer": 11.2,
+      "tolerance": 0.1,
+      "explanation": "$160$ 份 $\\text{Fe}_2\\text{O}_3$ 对应 $112$ 份 $\\text{Fe}$。$16\\ \\text{g}$ 对应 $0.1$ 份，生成铁 $112\\times0.1=11.2\\ \\text{g}$。",
+      "optimalSolution": "记住质量比 $\\text{Fe}_2\\text{O}_3:\\text{Fe}=160:112=10:7$，$16\\times\\dfrac{7}{10}=11.2$。",
+      "commonMistake": "比例写成 $160:56$，忘记系数 $2$。"
+    },
+    {
+      "id": "chem-acidbase-001",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "紫色石蕊溶液遇稀盐酸变成（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "红色"
+        },
+        {
+          "key": "B",
+          "label": "蓝色"
+        },
+        {
+          "key": "C",
+          "label": "无色"
+        },
+        {
+          "key": "D",
+          "label": "紫色"
+        }
+      ],
+      "answer": "A",
+      "explanation": "紫色石蕊溶液遇酸变红，遇碱变蓝。",
+      "optimalSolution": "口诀“酸红碱蓝”。",
+      "commonMistake": "与酚酞的变色规律混淆。"
+    },
+    {
+      "id": "chem-acidbase-002",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "某溶液的 $\\text{pH}=3$，该溶液呈（　）",
+      "source": "pH 与酸碱性",
+      "options": [
+        {
+          "key": "A",
+          "label": "酸性"
+        },
+        {
+          "key": "B",
+          "label": "中性"
+        },
+        {
+          "key": "C",
+          "label": "碱性"
+        },
+        {
+          "key": "D",
+          "label": "无法判断"
+        }
+      ],
+      "answer": "A",
+      "explanation": "$\\text{pH}<7$ 时溶液呈酸性，$\\text{pH}=3$ 远小于 $7$，酸性较强。",
+      "optimalSolution": "记住分界线 $7$：小于酸、等于中、大于碱。",
+      "commonMistake": "把 pH 当成碱性指标。"
+    },
+    {
+      "id": "chem-acidbase-003",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 80,
+      "stem": "氢氧化钠溶液与稀盐酸发生中和反应生成氯化钠和 ______。（填另一种生成物的名称）",
+      "source": "中和反应",
+      "acceptedAnswers": [
+        "水"
+      ],
+      "answerKind": "text",
+      "explanation": "中和反应：$\\text{NaOH}+\\text{HCl}=\\text{NaCl}+\\text{H}_2\\text{O}$，另一种生成物是水。",
+      "optimalSolution": "中和反应通式：酸 $+$ 碱 $\\rightarrow$ 盐 $+$ 水。",
+      "commonMistake": "误填“氢气”或“氧气”。"
+    },
+    {
+      "id": "chem-acidbase-004",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "中和反应在生产生活中应用广泛。下列说法中，不合理的是（　）",
+      "source": "中和反应应用综合",
+      "options": [
+        {
+          "key": "A",
+          "label": "用含氢氧化铝的药物治疗胃酸过多"
+        },
+        {
+          "key": "B",
+          "label": "用熟石灰改良酸性土壤"
+        },
+        {
+          "key": "C",
+          "label": "用氢氧化钠改良酸性土壤"
+        },
+        {
+          "key": "D",
+          "label": "用熟石灰处理硫酸厂的酸性废水"
+        }
+      ],
+      "answer": "C",
+      "explanation": "氢氧化钠碱性太强、腐蚀性强且价格贵，不适合改良土壤；改良酸性土壤应选用廉价温和的熟石灰。A、B、D 都是合理的中和反应应用。",
+      "optimalSolution": "应用题既要考虑反应原理，也要考虑成本和安全性。",
+      "commonMistake": "只看“碱能中和酸”就选 D，忽略氢氧化钠的腐蚀性和成本。"
     }
   ]
 }

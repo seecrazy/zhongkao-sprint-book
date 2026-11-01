@@ -1,12 +1,12 @@
 {
-  "version": "chemistry-exams-v0.10",
+  "version": "chemistry-exams-v0.11",
   "exams": [
     {
       "id": "chem-mock-001",
       "subject": "chemistry",
       "title": "化学基础冲刺摸底卷",
       "description": "覆盖变化与性质、空气氧气、物质构成、水溶液和质量守恒的分区摸底卷。",
-      "durationMinutes": 25,
+      "durationMinutes": 30,
       "level": "mock",
       "sections": [
         {
@@ -47,6 +47,20 @@
             "chem-equation-002",
             "chem-equation-003"
           ]
+        },
+        {
+          "id": "carbon-metal-acidbase",
+          "title": "碳、金属与酸碱",
+          "description": "碳的氧化物、金属防锈与酸碱指示剂的基础题。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "chem-carbon-001",
+            "chem-carbon-002",
+            "chem-metal-001",
+            "chem-metal-002",
+            "chem-acidbase-001",
+            "chem-acidbase-002"
+          ]
         }
       ]
     },
@@ -55,7 +69,7 @@
       "subject": "chemistry",
       "title": "化学薄弱考点精准卷",
       "description": "快速诊断化学薄弱考点的短卷，适合每天 15 分钟定向修补。",
-      "durationMinutes": 15,
+      "durationMinutes": 20,
       "level": "topic",
       "sections": [
         {
@@ -71,7 +85,43 @@
             "chem-water-001",
             "chem-water-002",
             "chem-equation-001",
-            "chem-equation-002"
+            "chem-equation-002",
+            "chem-carbon-002",
+            "chem-metal-002",
+            "chem-acidbase-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chem-challenge-001",
+      "subject": "chemistry",
+      "title": "化学综合挑战卷",
+      "description": "集中训练方程式计算、溶液稀释、炼铁计算和碳的氧化物综合的中高档题。",
+      "durationMinutes": 20,
+      "level": "challenge",
+      "sections": [
+        {
+          "id": "calc-hard",
+          "title": "计算压轴",
+          "description": "方程式计算、溶液稀释与炼铁计算。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "chem-air-004",
+            "chem-water-004",
+            "chem-equation-004",
+            "chem-metal-003"
+          ]
+        },
+        {
+          "id": "concept-hard",
+          "title": "概念压轴",
+          "description": "碳的氧化物对比与酸碱综合。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "chem-carbon-003",
+            "chem-acidbase-003",
+            "chem-acidbase-004"
           ]
         }
       ]

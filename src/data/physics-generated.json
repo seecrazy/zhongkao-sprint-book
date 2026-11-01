@@ -1,0 +1,4923 @@
+{
+  "version": "gen-physics-v0.15",
+  "questions": [
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0259",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一辆汽车做匀速直线运动，$24\\ \\text{s}$ 内通过 $360\\ \\text{m}$ 的路程，它的速度是 ______ $\\text{m/s}$。",
+      "answer": 15,
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{360}{24}=15\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 100,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0260",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：一辆汽车以 $5\\ \\text{m/s}$ 的速度匀速行驶 $28\\ \\text{s}$，它通过的路程是多少米？（填数值）",
+      "answer": 140,
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=5\\times28=140\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0261",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一辆汽车做匀速直线运动，$31\\ \\text{s}$ 内通过 $620\\ \\text{m}$ 的路程，它的速度是 ______ $\\text{m/s}$。",
+      "answer": 20,
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{620}{31}=20\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 100,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0262",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：一辆汽车以 $5\\ \\text{m/s}$ 的速度匀速行驶 $13\\ \\text{s}$，它通过的路程是多少米？（填数值）",
+      "answer": 65,
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=5\\times13=65\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0263",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一辆汽车做匀速直线运动，$37\\ \\text{s}$ 内通过 $185\\ \\text{m}$ 的路程，它的速度是 ______ $\\text{m/s}$。",
+      "answer": 5,
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{185}{37}=5\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 100,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0264",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：一辆汽车以 $25\\ \\text{m/s}$ 的速度匀速行驶 $38\\ \\text{s}$，它通过的路程是多少米？（填数值）",
+      "answer": 950,
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=25\\times38=950\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0265",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一辆汽车做匀速直线运动，$40\\ \\text{s}$ 内通过 $1000\\ \\text{m}$ 的路程，它的速度是 ______ $\\text{m/s}$。",
+      "answer": 25,
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{1000}{40}=25\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 100,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0266",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：一辆汽车以 $20\\ \\text{m/s}$ 的速度匀速行驶 $9\\ \\text{s}$，它通过的路程是多少米？（填数值）",
+      "answer": 180,
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=20\\times9=180\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0267",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一辆汽车做匀速直线运动，$40\\ \\text{s}$ 内通过 $400\\ \\text{m}$ 的路程，它的速度是 ______ $\\text{m/s}$。",
+      "answer": 10,
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{400}{40}=10\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 100,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0268",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：一辆汽车以 $5\\ \\text{m/s}$ 的速度匀速行驶 $31\\ \\text{s}$，它通过的路程是多少米？（填数值）",
+      "answer": 155,
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=5\\times31=155\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0269",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一辆汽车做匀速直线运动，$7\\ \\text{s}$ 内通过 $35\\ \\text{m}$ 的路程，它的速度是 ______ $\\text{m/s}$。",
+      "answer": 5,
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{35}{7}=5\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 100,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0270",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：一辆汽车以 $15\\ \\text{m/s}$ 的速度匀速行驶 $39\\ \\text{s}$，它通过的路程是多少米？（填数值）",
+      "answer": 585,
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=15\\times39=585\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0271",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一辆汽车做匀速直线运动，$35\\ \\text{s}$ 内通过 $350\\ \\text{m}$ 的路程，它的速度是 ______ $\\text{m/s}$。",
+      "answer": 10,
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{350}{35}=10\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 100,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0272",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：一辆汽车以 $25\\ \\text{m/s}$ 的速度匀速行驶 $37\\ \\text{s}$，它通过的路程是多少米？（填数值）",
+      "answer": 925,
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=25\\times37=925\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0273",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一辆汽车做匀速直线运动，$25\\ \\text{s}$ 内通过 $375\\ \\text{m}$ 的路程，它的速度是 ______ $\\text{m/s}$。",
+      "answer": 15,
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{375}{25}=15\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 100,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0274",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：一辆汽车以 $25\\ \\text{m/s}$ 的速度匀速行驶 $23\\ \\text{s}$，它通过的路程是多少米？（填数值）",
+      "answer": 575,
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=25\\times23=575\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0275",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一块金属的密度为 $2.7\\ \\text{g/cm}^3$，体积为 $49\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 132.3,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=2.7\\times49=132.3\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0276",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一块金属的密度为 $1.2\\ \\text{g/cm}^3$，体积为 $17\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 20.4,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=1.2\\times17=20.4\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0277",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一块金属的密度为 $0.8\\ \\text{g/cm}^3$，体积为 $46\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 36.8,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=0.8\\times46=36.8\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0278",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一块金属的密度为 $1.2\\ \\text{g/cm}^3$，体积为 $53\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 63.6,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=1.2\\times53=63.6\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0279",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一块金属的密度为 $7.9\\ \\text{g/cm}^3$，体积为 $77\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 608.3,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=7.9\\times77=608.3\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0280",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一块金属的密度为 $2.7\\ \\text{g/cm}^3$，体积为 $87\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 234.9,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=2.7\\times87=234.9\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0281",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一块金属的密度为 $2.7\\ \\text{g/cm}^3$，体积为 $58\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 156.6,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=2.7\\times58=156.6\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0282",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一块金属的密度为 $0.8\\ \\text{g/cm}^3$，体积为 $30\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 24,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=0.8\\times30=24\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0283",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一块金属的密度为 $2.7\\ \\text{g/cm}^3$，体积为 $32\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 86.4,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=2.7\\times32=86.4\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0284",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一块金属的密度为 $7.9\\ \\text{g/cm}^3$，体积为 $67\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 529.3,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=7.9\\times67=529.3\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0285",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一块金属的密度为 $2.7\\ \\text{g/cm}^3$，体积为 $33\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 89.1,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=2.7\\times33=89.1\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0286",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一块金属的密度为 $1.2\\ \\text{g/cm}^3$，体积为 $66\\ \\text{cm}^3$，它的质量是 ______ $\\text{g}$。（保留一位小数）",
+      "answer": 79.2,
+      "tolerance": 0.1,
+      "explanation": "【解答过程】$m=\\rho V=1.2\\times66=79.2\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0287",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "质量为 $95\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $250\\ \\text{cm}^2$，它对地面的压强是 ______ $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "answer": 38000,
+      "explanation": "【解答过程】$F=G=mg=95\\times10=950\\ \\text{N}$；$S=250\\ \\text{cm}^2=0.025\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{950}{0.025}=38000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0288",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：水池中水深 $0.2\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 2000,
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times0.2=2000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0289",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：质量为 $15\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $100\\ \\text{cm}^2$，它对地面的压强是 ______ $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "answer": 15000,
+      "explanation": "【解答过程】$F=G=mg=15\\times10=150\\ \\text{N}$；$S=100\\ \\text{cm}^2=0.01\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{150}{0.01}=15000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0290",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：水池中水深 $0.8\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 8000,
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times0.8=8000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0291",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "质量为 $40\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $400\\ \\text{cm}^2$，它对地面的压强是 ______ $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "answer": 10000,
+      "explanation": "【解答过程】$F=G=mg=40\\times10=400\\ \\text{N}$；$S=400\\ \\text{cm}^2=0.04\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{400}{0.04}=10000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0292",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：水池中水深 $0.5\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 5000,
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times0.5=5000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0293",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：质量为 $50\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $100\\ \\text{cm}^2$，它对地面的压强是 ______ $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "answer": 50000,
+      "explanation": "【解答过程】$F=G=mg=50\\times10=500\\ \\text{N}$；$S=100\\ \\text{cm}^2=0.01\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{500}{0.01}=50000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0294",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：水池中水深 $0.5\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 5000,
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times0.5=5000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0295",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：质量为 $90\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $500\\ \\text{cm}^2$，它对地面的压强是 ______ $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "answer": 18000,
+      "explanation": "【解答过程】$F=G=mg=90\\times10=900\\ \\text{N}$；$S=500\\ \\text{cm}^2=0.05\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{900}{0.05}=18000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0296",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：水池中水深 $2\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 20000,
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times2=20000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0297",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "质量为 $10\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $100\\ \\text{cm}^2$，它对地面的压强是 ______ $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "answer": 10000,
+      "explanation": "【解答过程】$F=G=mg=10\\times10=100\\ \\text{N}$；$S=100\\ \\text{cm}^2=0.01\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{100}{0.01}=10000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0298",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：水池中水深 $0.5\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 5000,
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times0.5=5000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0299",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：质量为 $15\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $100\\ \\text{cm}^2$，它对地面的压强是 ______ $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "answer": 15000,
+      "explanation": "【解答过程】$F=G=mg=15\\times10=150\\ \\text{N}$；$S=100\\ \\text{cm}^2=0.01\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{150}{0.01}=15000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0300",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：水池中水深 $1\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 10000,
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times1=10000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0301",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "质量为 $65\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $200\\ \\text{cm}^2$，它对地面的压强是 ______ $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "answer": 32500,
+      "explanation": "【解答过程】$F=G=mg=65\\times10=650\\ \\text{N}$；$S=200\\ \\text{cm}^2=0.02\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{650}{0.02}=32500\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0302",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：水池中水深 $2\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 20000,
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times2=20000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0303",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：电阻 $R=5\\ \\Omega$ 两端电压为 $9\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 1.8,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{9}{5}=1.8\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0304",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：电阻 $R=15\\ \\Omega$ 两端电压为 $9\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 0.6,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{9}{15}=0.6\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0305",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：电阻 $R=20\\ \\Omega$ 两端电压为 $3\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 0.15,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{3}{20}=0.15\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0306",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "电阻 $R=30\\ \\Omega$ 两端电压为 $9\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 0.3,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{9}{30}=0.3\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0307",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "电阻 $R=15\\ \\Omega$ 两端电压为 $6\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 0.4,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{6}{15}=0.4\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0308",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：电阻 $R=10\\ \\Omega$ 两端电压为 $12\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 1.2,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{12}{10}=1.2\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0309",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：电阻 $R=10\\ \\Omega$ 两端电压为 $12\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 1.2,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{12}{10}=1.2\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0310",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：电阻 $R=30\\ \\Omega$ 两端电压为 $3\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 0.1,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{3}{30}=0.1\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0311",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "电阻 $R=10\\ \\Omega$ 两端电压为 $12\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 1.2,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{12}{10}=1.2\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0312",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "电阻 $R=30\\ \\Omega$ 两端电压为 $3\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 0.1,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{3}{30}=0.1\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0313",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：电阻 $R=5\\ \\Omega$ 两端电压为 $12\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 2.4,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{12}{5}=2.4\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0314",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：电阻 $R=20\\ \\Omega$ 两端电压为 $6\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 0.3,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{6}{20}=0.3\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0315",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：电阻 $R=5\\ \\Omega$ 两端电压为 $6\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 1.2,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{6}{5}=1.2\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0316",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "电阻 $R=15\\ \\Omega$ 两端电压为 $12\\ \\text{V}$，通过它的电流是 ______ $\\text{A}$。",
+      "answer": 0.8,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{12}{15}=0.8\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0317",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.2\\ \\text{A}$，它的电功率是 ______ $\\text{W}$。",
+      "answer": 44,
+      "explanation": "【解答过程】$P=UI=220\\times0.2=44\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0318",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：功率为 $100\\ \\text{W}$ 的用电器正常工作 $5\\ \\text{h}$，消耗电能 ______ $\\text{kW}\\cdot\\text{h}$。",
+      "answer": 0.5,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$P=100\\ \\text{W}=0.1\\ \\text{kW}$；$W=Pt=0.1\\times5=0.5\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0319",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.5\\ \\text{A}$，它的电功率是 ______ $\\text{W}$。",
+      "answer": 110,
+      "explanation": "【解答过程】$P=UI=220\\times0.5=110\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0320",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：功率为 $800\\ \\text{W}$ 的用电器正常工作 $7\\ \\text{h}$，消耗电能 ______ $\\text{kW}\\cdot\\text{h}$。",
+      "answer": 5.6,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$P=800\\ \\text{W}=0.8\\ \\text{kW}$；$W=Pt=0.8\\times7=5.6\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0321",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.2\\ \\text{A}$，它的电功率是 ______ $\\text{W}$。",
+      "answer": 44,
+      "explanation": "【解答过程】$P=UI=220\\times0.2=44\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0322",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：功率为 $100\\ \\text{W}$ 的用电器正常工作 $10\\ \\text{h}$，消耗电能 ______ $\\text{kW}\\cdot\\text{h}$。",
+      "answer": 1,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$P=100\\ \\text{W}=0.1\\ \\text{kW}$；$W=Pt=0.1\\times10=1\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0323",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.3\\ \\text{A}$，它的电功率是 ______ $\\text{W}$。",
+      "answer": 66,
+      "explanation": "【解答过程】$P=UI=220\\times0.3=66\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0324",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：功率为 $800\\ \\text{W}$ 的用电器正常工作 $1\\ \\text{h}$，消耗电能 ______ $\\text{kW}\\cdot\\text{h}$。",
+      "answer": 0.8,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$P=800\\ \\text{W}=0.8\\ \\text{kW}$；$W=Pt=0.8\\times1=0.8\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0325",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.2\\ \\text{A}$，它的电功率是 ______ $\\text{W}$。",
+      "answer": 44,
+      "explanation": "【解答过程】$P=UI=220\\times0.2=44\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0326",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：功率为 $1000\\ \\text{W}$ 的用电器正常工作 $2\\ \\text{h}$，消耗电能 ______ $\\text{kW}\\cdot\\text{h}$。",
+      "answer": 2,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$P=1000\\ \\text{W}=1\\ \\text{kW}$；$W=Pt=1\\times2=2\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0327",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.8\\ \\text{A}$，它的电功率是 ______ $\\text{W}$。",
+      "answer": 176,
+      "explanation": "【解答过程】$P=UI=220\\times0.8=176\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0328",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：功率为 $1500\\ \\text{W}$ 的用电器正常工作 $7\\ \\text{h}$，消耗电能 ______ $\\text{kW}\\cdot\\text{h}$。",
+      "answer": 10.5,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$P=1500\\ \\text{W}=1.5\\ \\text{kW}$；$W=Pt=1.5\\times7=10.5\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0329",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $1\\ \\text{A}$，它的电功率是 ______ $\\text{W}$。",
+      "answer": 220,
+      "explanation": "【解答过程】$P=UI=220\\times1=220\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0330",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：功率为 $200\\ \\text{W}$ 的用电器正常工作 $10\\ \\text{h}$，消耗电能 ______ $\\text{kW}\\cdot\\text{h}$。",
+      "answer": 2,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$P=200\\ \\text{W}=0.2\\ \\text{kW}$；$W=Pt=0.2\\times10=2\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0331",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "用 $95\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $6\\ \\text{m}$，拉力做功 ______ $\\text{J}$。",
+      "answer": 570,
+      "explanation": "【解答过程】$W=Fs=95\\times6=570\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0332",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：拉力做功 $455\\ \\text{J}$ 用时 $32\\ \\text{s}$，功率是多少瓦？（填数值）",
+      "answer": 14.21875,
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{455}{32}=14.21875\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0333",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：用 $40\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $2\\ \\text{m}$，拉力做功 ______ $\\text{J}$。",
+      "answer": 80,
+      "explanation": "【解答过程】$W=Fs=40\\times2=80\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0334",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：拉力做功 $400\\ \\text{J}$ 用时 $18\\ \\text{s}$，功率是多少瓦？（填数值）",
+      "answer": 22.22222222222222,
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{400}{18}=22.22222222222222\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0335",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：用 $30\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $8\\ \\text{m}$，拉力做功 ______ $\\text{J}$。",
+      "answer": 240,
+      "explanation": "【解答过程】$W=Fs=30\\times8=240\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0336",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：拉力做功 $240\\ \\text{J}$ 用时 $18\\ \\text{s}$，功率是多少瓦？（填数值）",
+      "answer": 13.333333333333334,
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{240}{18}=13.333333333333334\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0337",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "用 $35\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $4\\ \\text{m}$，拉力做功 ______ $\\text{J}$。",
+      "answer": 140,
+      "explanation": "【解答过程】$W=Fs=35\\times4=140\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0338",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：拉力做功 $150\\ \\text{J}$ 用时 $20\\ \\text{s}$，功率是多少瓦？（填数值）",
+      "answer": 7.5,
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{150}{20}=7.5\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0339",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：用 $10\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $10\\ \\text{m}$，拉力做功 ______ $\\text{J}$。",
+      "answer": 100,
+      "explanation": "【解答过程】$W=Fs=10\\times10=100\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0340",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：拉力做功 $600\\ \\text{J}$ 用时 $17\\ \\text{s}$，功率是多少瓦？（填数值）",
+      "answer": 35.294117647058826,
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{600}{17}=35.294117647058826\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0341",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "用 $55\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $10\\ \\text{m}$，拉力做功 ______ $\\text{J}$。",
+      "answer": 550,
+      "explanation": "【解答过程】$W=Fs=55\\times10=550\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0342",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：拉力做功 $600\\ \\text{J}$ 用时 $40\\ \\text{s}$，功率是多少瓦？（填数值）",
+      "answer": 15,
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{600}{40}=15\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0343",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：用 $30\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $3\\ \\text{m}$，拉力做功 ______ $\\text{J}$。",
+      "answer": 90,
+      "explanation": "【解答过程】$W=Fs=30\\times3=90\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0344",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：拉力做功 $500\\ \\text{J}$ 用时 $15\\ \\text{s}$，功率是多少瓦？（填数值）",
+      "answer": 33.333333333333336,
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{500}{15}=33.333333333333336\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0345",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：把 $4\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $40\\ ^\\circ\\text{C}$，水吸收的热量是 ______ $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "answer": 336000,
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times4\\times20=336000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0346",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：完全燃烧 $1\\ \\text{kg}$ 某燃料（热值 $4.2\\times10^7\\ \\text{J/kg}$），放出的热量是 ______ $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "answer": 4.2,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$Q=mq=1\\times4.2\\times10^7=4.2\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0347",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "把 $1\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $55\\ ^\\circ\\text{C}$，水吸收的热量是 ______ $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "answer": 147000,
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times1\\times35=147000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0348",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：完全燃烧 $2\\ \\text{kg}$ 某燃料（热值 $4.2\\times10^7\\ \\text{J/kg}$），放出的热量是 ______ $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "answer": 8.4,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$Q=mq=2\\times4.2\\times10^7=8.4\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0349",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：把 $3\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $80\\ ^\\circ\\text{C}$，水吸收的热量是 ______ $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "answer": 756000,
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times3\\times60=756000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0350",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：完全燃烧 $1.5\\ \\text{kg}$ 某燃料（热值 $3\\times10^7\\ \\text{J/kg}$），放出的热量是 ______ $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "answer": 4.5,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$Q=mq=1.5\\times3\\times10^7=4.5\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0351",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "把 $4\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $35\\ ^\\circ\\text{C}$，水吸收的热量是 ______ $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "answer": 252000,
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times4\\times15=252000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0352",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：完全燃烧 $0.5\\ \\text{kg}$ 某燃料（热值 $3\\times10^7\\ \\text{J/kg}$），放出的热量是 ______ $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "answer": 1.5,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$Q=mq=0.5\\times3\\times10^7=1.5\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0353",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：把 $4\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $65\\ ^\\circ\\text{C}$，水吸收的热量是 ______ $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "answer": 756000,
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times4\\times45=756000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0354",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：完全燃烧 $1\\ \\text{kg}$ 某燃料（热值 $4.2\\times10^7\\ \\text{J/kg}$），放出的热量是 ______ $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "answer": 4.2,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$Q=mq=1\\times4.2\\times10^7=4.2\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0355",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：把 $5\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $50\\ ^\\circ\\text{C}$，水吸收的热量是 ______ $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "answer": 630000,
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times5\\times30=630000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0356",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：完全燃烧 $1.5\\ \\text{kg}$ 某燃料（热值 $2.8\\times10^7\\ \\text{J/kg}$），放出的热量是 ______ $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "answer": 4.2,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$Q=mq=1.5\\times2.8\\times10^7=4.2\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0357",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "把 $2\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $40\\ ^\\circ\\text{C}$，水吸收的热量是 ______ $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "answer": 168000,
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times2\\times20=168000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 90,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0358",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：完全燃烧 $2\\ \\text{kg}$ 某燃料（热值 $2.8\\times10^7\\ \\text{J/kg}$），放出的热量是 ______ $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "answer": 5.6,
+      "tolerance": 0.01,
+      "explanation": "【解答过程】$Q=mq=2\\times2.8\\times10^7=5.6\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0359",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：对着山崖喊话，经过 $1\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 170,
+      "explanation": "【解答过程】声音总路程 $=340\\times1=340\\ \\text{m}$；$s=\\dfrac{340}{2}=170\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0360",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：对着山崖喊话，经过 $5\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 850,
+      "explanation": "【解答过程】声音总路程 $=340\\times5=1700\\ \\text{m}$；$s=\\dfrac{1700}{2}=850\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0361",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "对着山崖喊话，经过 $4\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 680,
+      "explanation": "【解答过程】声音总路程 $=340\\times4=1360\\ \\text{m}$；$s=\\dfrac{1360}{2}=680\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0362",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "对着山崖喊话，经过 $4\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 680,
+      "explanation": "【解答过程】声音总路程 $=340\\times4=1360\\ \\text{m}$；$s=\\dfrac{1360}{2}=680\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0363",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：对着山崖喊话，经过 $1\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 170,
+      "explanation": "【解答过程】声音总路程 $=340\\times1=340\\ \\text{m}$；$s=\\dfrac{340}{2}=170\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0364",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：对着山崖喊话，经过 $5\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 850,
+      "explanation": "【解答过程】声音总路程 $=340\\times5=1700\\ \\text{m}$；$s=\\dfrac{1700}{2}=850\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0365",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：对着山崖喊话，经过 $3\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 510,
+      "explanation": "【解答过程】声音总路程 $=340\\times3=1020\\ \\text{m}$；$s=\\dfrac{1020}{2}=510\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0366",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "对着山崖喊话，经过 $1\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 170,
+      "explanation": "【解答过程】声音总路程 $=340\\times1=340\\ \\text{m}$；$s=\\dfrac{340}{2}=170\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0367",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "对着山崖喊话，经过 $1\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 170,
+      "explanation": "【解答过程】声音总路程 $=340\\times1=340\\ \\text{m}$；$s=\\dfrac{340}{2}=170\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0368",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：对着山崖喊话，经过 $2\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 340,
+      "explanation": "【解答过程】声音总路程 $=340\\times2=680\\ \\text{m}$；$s=\\dfrac{680}{2}=340\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0369",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：对着山崖喊话，经过 $5\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 850,
+      "explanation": "【解答过程】声音总路程 $=340\\times5=1700\\ \\text{m}$；$s=\\dfrac{1700}{2}=850\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0370",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：对着山崖喊话，经过 $3\\ \\text{s}$ 听到回声，人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "answer": 510,
+      "explanation": "【解答过程】声音总路程 $=340\\times3=1020\\ \\text{m}$；$s=\\dfrac{1020}{2}=510\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0371",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一物体浸没在水中，排开水的体积为 $300\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 3,
+      "explanation": "【解答过程】$V_{排}=300\\ \\text{cm}^3=300\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times300\\times10^{-6}=3\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0372",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一物体浸没在水中，排开水的体积为 $500\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 5,
+      "explanation": "【解答过程】$V_{排}=500\\ \\text{cm}^3=500\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times500\\times10^{-6}=5\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0373",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一物体浸没在水中，排开水的体积为 $100\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 0.9999999999999999,
+      "explanation": "【解答过程】$V_{排}=100\\ \\text{cm}^3=100\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times100\\times10^{-6}=0.9999999999999999\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0374",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一物体浸没在水中，排开水的体积为 $50\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 0.49999999999999994,
+      "explanation": "【解答过程】$V_{排}=50\\ \\text{cm}^3=50\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times50\\times10^{-6}=0.49999999999999994\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0375",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一物体浸没在水中，排开水的体积为 $500\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 5,
+      "explanation": "【解答过程】$V_{排}=500\\ \\text{cm}^3=500\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times500\\times10^{-6}=5\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0376",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一物体浸没在水中，排开水的体积为 $50\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 0.49999999999999994,
+      "explanation": "【解答过程】$V_{排}=50\\ \\text{cm}^3=50\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times50\\times10^{-6}=0.49999999999999994\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0377",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一物体浸没在水中，排开水的体积为 $100\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 0.9999999999999999,
+      "explanation": "【解答过程】$V_{排}=100\\ \\text{cm}^3=100\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times100\\times10^{-6}=0.9999999999999999\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0378",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一物体浸没在水中，排开水的体积为 $500\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 5,
+      "explanation": "【解答过程】$V_{排}=500\\ \\text{cm}^3=500\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times500\\times10^{-6}=5\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0379",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一物体浸没在水中，排开水的体积为 $200\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 1.9999999999999998,
+      "explanation": "【解答过程】$V_{排}=200\\ \\text{cm}^3=200\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times200\\times10^{-6}=1.9999999999999998\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0380",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一物体浸没在水中，排开水的体积为 $100\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 0.9999999999999999,
+      "explanation": "【解答过程】$V_{排}=100\\ \\text{cm}^3=100\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times100\\times10^{-6}=0.9999999999999999\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0381",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一物体浸没在水中，排开水的体积为 $400\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 3.9999999999999996,
+      "explanation": "【解答过程】$V_{排}=400\\ \\text{cm}^3=400\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times400\\times10^{-6}=3.9999999999999996\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 70,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0382",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一物体浸没在水中，排开水的体积为 $400\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "answer": 3.9999999999999996,
+      "explanation": "【解答过程】$V_{排}=400\\ \\text{cm}^3=400\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times400\\times10^{-6}=3.9999999999999996\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0383",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：同一直线上的两个力 $F_1=8\\ \\text{N}$、$F_2=14\\ \\text{N}$ 方向相同，它们的合力是 ______ $\\text{N}$。",
+      "answer": 22,
+      "explanation": "【解答过程】同方向二力合成：$F=F_1+F_2=8+14=22\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0384",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：同一直线上的两个力 $F_1=12\\ \\text{N}$、$F_2=8\\ \\text{N}$ 方向相反，它们的合力是 ______ $\\text{N}$。",
+      "answer": 4,
+      "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=12-8=4\\ \\text{N}$，方向与较大力相同。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0385",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：同一直线上的两个力 $F_1=4\\ \\text{N}$、$F_2=4\\ \\text{N}$ 方向相同，它们的合力是 ______ $\\text{N}$。",
+      "answer": 8,
+      "explanation": "【解答过程】同方向二力合成：$F=F_1+F_2=4+4=8\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0386",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "同一直线上的两个力 $F_1=18\\ \\text{N}$、$F_2=4\\ \\text{N}$ 方向相反，它们的合力是 ______ $\\text{N}$。",
+      "answer": 14,
+      "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=18-4=14\\ \\text{N}$，方向与较大力相同。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0387",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "同一直线上的两个力 $F_1=10\\ \\text{N}$、$F_2=10\\ \\text{N}$ 方向相同，它们的合力是 ______ $\\text{N}$。",
+      "answer": 20,
+      "explanation": "【解答过程】同方向二力合成：$F=F_1+F_2=10+10=20\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0388",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：同一直线上的两个力 $F_1=14\\ \\text{N}$、$F_2=4\\ \\text{N}$ 方向相反，它们的合力是 ______ $\\text{N}$。",
+      "answer": 10,
+      "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=14-4=10\\ \\text{N}$，方向与较大力相同。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0389",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：同一直线上的两个力 $F_1=6\\ \\text{N}$、$F_2=16\\ \\text{N}$ 方向相同，它们的合力是 ______ $\\text{N}$。",
+      "answer": 22,
+      "explanation": "【解答过程】同方向二力合成：$F=F_1+F_2=6+16=22\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0390",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：同一直线上的两个力 $F_1=16\\ \\text{N}$、$F_2=2\\ \\text{N}$ 方向相反，它们的合力是 ______ $\\text{N}$。",
+      "answer": 14,
+      "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=16-2=14\\ \\text{N}$，方向与较大力相同。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0391",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "同一直线上的两个力 $F_1=10\\ \\text{N}$、$F_2=12\\ \\text{N}$ 方向相同，它们的合力是 ______ $\\text{N}$。",
+      "answer": 22,
+      "explanation": "【解答过程】同方向二力合成：$F=F_1+F_2=10+12=22\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0392",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "同一直线上的两个力 $F_1=16\\ \\text{N}$、$F_2=8\\ \\text{N}$ 方向相反，它们的合力是 ______ $\\text{N}$。",
+      "answer": 8,
+      "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=16-8=8\\ \\text{N}$，方向与较大力相同。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0393",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：同一直线上的两个力 $F_1=4\\ \\text{N}$、$F_2=18\\ \\text{N}$ 方向相同，它们的合力是 ______ $\\text{N}$。",
+      "answer": 22,
+      "explanation": "【解答过程】同方向二力合成：$F=F_1+F_2=4+18=22\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-p-0394",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：同一直线上的两个力 $F_1=20\\ \\text{N}$、$F_2=14\\ \\text{N}$ 方向相反，它们的合力是 ______ $\\text{N}$。",
+      "answer": 6,
+      "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=20-14=6\\ \\text{N}$，方向与较大力相同。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0263c",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "一辆汽车做匀速直线运动，$37\\ \\text{s}$ 内通过 $185\\ \\text{m}$ 的路程，它的速度是 （　） $\\text{m/s}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "2"
+        },
+        {
+          "key": "B",
+          "label": "0"
+        },
+        {
+          "key": "C",
+          "label": "3"
+        },
+        {
+          "key": "D",
+          "label": "5"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{185}{37}=5\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0264c",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "计算题：一辆汽车以 $25\\ \\text{m/s}$ 的速度匀速行驶 $38\\ \\text{s}$，它通过的路程是多少米？",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "932"
+        },
+        {
+          "key": "B",
+          "label": "956"
+        },
+        {
+          "key": "C",
+          "label": "980"
+        },
+        {
+          "key": "D",
+          "label": "950"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=25\\times38=950\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0265c",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "一辆汽车做匀速直线运动，$40\\ \\text{s}$ 内通过 $1000\\ \\text{m}$ 的路程，它的速度是 （　） $\\text{m/s}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "43"
+        },
+        {
+          "key": "B",
+          "label": "5"
+        },
+        {
+          "key": "C",
+          "label": "40"
+        },
+        {
+          "key": "D",
+          "label": "25"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{1000}{40}=25\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0266c",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "计算题：一辆汽车以 $20\\ \\text{m/s}$ 的速度匀速行驶 $9\\ \\text{s}$，它通过的路程是多少米？",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "162"
+        },
+        {
+          "key": "B",
+          "label": "180"
+        },
+        {
+          "key": "C",
+          "label": "189"
+        },
+        {
+          "key": "D",
+          "label": "200"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=20\\times9=180\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0267c",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "一辆汽车做匀速直线运动，$40\\ \\text{s}$ 内通过 $400\\ \\text{m}$ 的路程，它的速度是 （　） $\\text{m/s}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "8"
+        },
+        {
+          "key": "B",
+          "label": "15"
+        },
+        {
+          "key": "C",
+          "label": "12"
+        },
+        {
+          "key": "D",
+          "label": "10"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{400}{40}=10\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0268c",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "计算题：一辆汽车以 $5\\ \\text{m/s}$ 的速度匀速行驶 $31\\ \\text{s}$，它通过的路程是多少米？",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "205"
+        },
+        {
+          "key": "B",
+          "label": "175"
+        },
+        {
+          "key": "C",
+          "label": "161"
+        },
+        {
+          "key": "D",
+          "label": "155"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=5\\times31=155\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0272c",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "计算题：一辆汽车以 $25\\ \\text{m/s}$ 的速度匀速行驶 $37\\ \\text{s}$，它通过的路程是多少米？",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "965"
+        },
+        {
+          "key": "B",
+          "label": "925"
+        },
+        {
+          "key": "C",
+          "label": "955"
+        },
+        {
+          "key": "D",
+          "label": "945"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=25\\times37=925\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0273c",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "一辆汽车做匀速直线运动，$25\\ \\text{s}$ 内通过 $375\\ \\text{m}$ 的路程，它的速度是 （　） $\\text{m/s}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "12"
+        },
+        {
+          "key": "B",
+          "label": "17"
+        },
+        {
+          "key": "C",
+          "label": "20"
+        },
+        {
+          "key": "D",
+          "label": "15"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$v=\\dfrac{s}{t}=\\dfrac{375}{25}=15\\ \\text{m/s}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0274c",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "计算题：一辆汽车以 $25\\ \\text{m/s}$ 的速度匀速行驶 $23\\ \\text{s}$，它通过的路程是多少米？",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "575"
+        },
+        {
+          "key": "B",
+          "label": "563"
+        },
+        {
+          "key": "C",
+          "label": "615"
+        },
+        {
+          "key": "D",
+          "label": "573"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】由 $v=\\dfrac{s}{t}$ 得 $s=vt=25\\times23=575\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0275c",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一块金属的密度为 $2.7\\ \\text{g/cm}^3$，体积为 $49\\ \\text{cm}^3$，它的质量是 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "152.3"
+        },
+        {
+          "key": "B",
+          "label": "132.3"
+        },
+        {
+          "key": "C",
+          "label": "112.3"
+        },
+        {
+          "key": "D",
+          "label": "122.3"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$m=\\rho V=2.7\\times49=132.3\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0276c",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一块金属的密度为 $1.2\\ \\text{g/cm}^3$，体积为 $17\\ \\text{cm}^3$，它的质量是 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "30.4"
+        },
+        {
+          "key": "B",
+          "label": "12.4"
+        },
+        {
+          "key": "C",
+          "label": "24.4"
+        },
+        {
+          "key": "D",
+          "label": "20.4"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$m=\\rho V=1.2\\times17=20.4\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0277c",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一块金属的密度为 $0.8\\ \\text{g/cm}^3$，体积为 $46\\ \\text{cm}^3$，它的质量是 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "24.8"
+        },
+        {
+          "key": "B",
+          "label": "51.8"
+        },
+        {
+          "key": "C",
+          "label": "36.8"
+        },
+        {
+          "key": "D",
+          "label": "34.8"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$m=\\rho V=0.8\\times46=36.8\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0278c",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一块金属的密度为 $1.2\\ \\text{g/cm}^3$，体积为 $53\\ \\text{cm}^3$，它的质量是 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "53.6"
+        },
+        {
+          "key": "B",
+          "label": "68.6"
+        },
+        {
+          "key": "C",
+          "label": "45.6"
+        },
+        {
+          "key": "D",
+          "label": "63.6"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$m=\\rho V=1.2\\times53=63.6\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0279c",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一块金属的密度为 $7.9\\ \\text{g/cm}^3$，体积为 $77\\ \\text{cm}^3$，它的质量是 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "613.3"
+        },
+        {
+          "key": "B",
+          "label": "608.3"
+        },
+        {
+          "key": "C",
+          "label": "606.3"
+        },
+        {
+          "key": "D",
+          "label": "617.3"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$m=\\rho V=7.9\\times77=608.3\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0280c",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一块金属的密度为 $2.7\\ \\text{g/cm}^3$，体积为 $87\\ \\text{cm}^3$，它的质量是 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "254.9"
+        },
+        {
+          "key": "B",
+          "label": "225.9"
+        },
+        {
+          "key": "C",
+          "label": "234.9"
+        },
+        {
+          "key": "D",
+          "label": "238.9"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$m=\\rho V=2.7\\times87=234.9\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0281c",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一块金属的密度为 $2.7\\ \\text{g/cm}^3$，体积为 $58\\ \\text{cm}^3$，它的质量是 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "150.6"
+        },
+        {
+          "key": "B",
+          "label": "176.6"
+        },
+        {
+          "key": "C",
+          "label": "156.6"
+        },
+        {
+          "key": "D",
+          "label": "171.6"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$m=\\rho V=2.7\\times58=156.6\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0282c",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一块金属的密度为 $0.8\\ \\text{g/cm}^3$，体积为 $30\\ \\text{cm}^3$，它的质量是 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "24"
+        },
+        {
+          "key": "B",
+          "label": "74"
+        },
+        {
+          "key": "C",
+          "label": "27"
+        },
+        {
+          "key": "D",
+          "label": "64"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$m=\\rho V=0.8\\times30=24\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0283c",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一块金属的密度为 $2.7\\ \\text{g/cm}^3$，体积为 $32\\ \\text{cm}^3$，它的质量是 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "86.4"
+        },
+        {
+          "key": "B",
+          "label": "66.4"
+        },
+        {
+          "key": "C",
+          "label": "78.4"
+        },
+        {
+          "key": "D",
+          "label": "92.4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$m=\\rho V=2.7\\times32=86.4\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0285c",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一块金属的密度为 $2.7\\ \\text{g/cm}^3$，体积为 $33\\ \\text{cm}^3$，它的质量是 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "89.1"
+        },
+        {
+          "key": "B",
+          "label": "87.1"
+        },
+        {
+          "key": "C",
+          "label": "114.1"
+        },
+        {
+          "key": "D",
+          "label": "71.1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$m=\\rho V=2.7\\times33=89.1\\ \\text{g}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0287c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "质量为 $95\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $250\\ \\text{cm}^2$，它对地面的压强是 （　） $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "38005"
+        },
+        {
+          "key": "B",
+          "label": "38000"
+        },
+        {
+          "key": "C",
+          "label": "38018"
+        },
+        {
+          "key": "D",
+          "label": "38012"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$F=G=mg=95\\times10=950\\ \\text{N}$；$S=250\\ \\text{cm}^2=0.025\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{950}{0.025}=38000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0289c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "质量为 $15\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $100\\ \\text{cm}^2$，它对地面的压强是 （　） $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "15006"
+        },
+        {
+          "key": "B",
+          "label": "15025"
+        },
+        {
+          "key": "C",
+          "label": "15000"
+        },
+        {
+          "key": "D",
+          "label": "15002"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$F=G=mg=15\\times10=150\\ \\text{N}$；$S=100\\ \\text{cm}^2=0.01\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{150}{0.01}=15000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0290c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "计算题：水池中水深 $0.8\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "8008"
+        },
+        {
+          "key": "B",
+          "label": "8018"
+        },
+        {
+          "key": "C",
+          "label": "7988"
+        },
+        {
+          "key": "D",
+          "label": "8000"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times0.8=8000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0293c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "质量为 $50\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $100\\ \\text{cm}^2$，它对地面的压强是 （　） $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "50000"
+        },
+        {
+          "key": "B",
+          "label": "50025"
+        },
+        {
+          "key": "C",
+          "label": "49998"
+        },
+        {
+          "key": "D",
+          "label": "49996"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$F=G=mg=50\\times10=500\\ \\text{N}$；$S=100\\ \\text{cm}^2=0.01\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{500}{0.01}=50000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0294c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "计算题：水池中水深 $0.5\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "4994"
+        },
+        {
+          "key": "B",
+          "label": "5000"
+        },
+        {
+          "key": "C",
+          "label": "4975"
+        },
+        {
+          "key": "D",
+          "label": "5005"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times0.5=5000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0296c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "计算题：水池中水深 $2\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "20020"
+        },
+        {
+          "key": "B",
+          "label": "20050"
+        },
+        {
+          "key": "C",
+          "label": "20000"
+        },
+        {
+          "key": "D",
+          "label": "20040"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times2=20000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0297c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "质量为 $10\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $100\\ \\text{cm}^2$，它对地面的压强是 （　） $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "10002"
+        },
+        {
+          "key": "B",
+          "label": "10004"
+        },
+        {
+          "key": "C",
+          "label": "10000"
+        },
+        {
+          "key": "D",
+          "label": "10006"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$F=G=mg=10\\times10=100\\ \\text{N}$；$S=100\\ \\text{cm}^2=0.01\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{100}{0.01}=10000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0298c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "计算题：水池中水深 $0.5\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "5006"
+        },
+        {
+          "key": "B",
+          "label": "5000"
+        },
+        {
+          "key": "C",
+          "label": "4994"
+        },
+        {
+          "key": "D",
+          "label": "5040"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times0.5=5000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0300c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "计算题：水池中水深 $1\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "10002"
+        },
+        {
+          "key": "B",
+          "label": "9970"
+        },
+        {
+          "key": "C",
+          "label": "10000"
+        },
+        {
+          "key": "D",
+          "label": "10012"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times1=10000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0301c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "质量为 $65\\ \\text{kg}$ 的物体静止在水平地面上，与地面的接触面积为 $200\\ \\text{cm}^2$，它对地面的压强是 （　） $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "32482"
+        },
+        {
+          "key": "B",
+          "label": "32509"
+        },
+        {
+          "key": "C",
+          "label": "32494"
+        },
+        {
+          "key": "D",
+          "label": "32500"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$F=G=mg=65\\times10=650\\ \\text{N}$；$S=200\\ \\text{cm}^2=0.02\\ \\text{m}^2$；$p=\\dfrac{F}{S}=\\dfrac{650}{0.02}=32500\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0302c",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "计算题：水池中水深 $2\\ \\text{m}$ 处水产生的压强是多少帕？（填数值，$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "20000"
+        },
+        {
+          "key": "B",
+          "label": "20005"
+        },
+        {
+          "key": "C",
+          "label": "20003"
+        },
+        {
+          "key": "D",
+          "label": "20010"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$p=\\rho gh=10^3\\times10\\times2=20000\\ \\text{Pa}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0303c",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "电阻 $R=5\\ \\Omega$ 两端电压为 $9\\ \\text{V}$，通过它的电流是 （　） $\\text{A}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "11.8"
+        },
+        {
+          "key": "B",
+          "label": "0.8"
+        },
+        {
+          "key": "C",
+          "label": "1.8"
+        },
+        {
+          "key": "D",
+          "label": "4.8"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{9}{5}=1.8\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0304c",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "电阻 $R=15\\ \\Omega$ 两端电压为 $9\\ \\text{V}$，通过它的电流是 （　） $\\text{A}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "5.6"
+        },
+        {
+          "key": "B",
+          "label": "0.6"
+        },
+        {
+          "key": "C",
+          "label": "10.6"
+        },
+        {
+          "key": "D",
+          "label": "3.6"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{9}{15}=0.6\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0305c",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "电阻 $R=20\\ \\Omega$ 两端电压为 $3\\ \\text{V}$，通过它的电流是 （　） $\\text{A}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "1.15"
+        },
+        {
+          "key": "B",
+          "label": "10.15"
+        },
+        {
+          "key": "C",
+          "label": "0.15"
+        },
+        {
+          "key": "D",
+          "label": "2.15"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{3}{20}=0.15\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0307c",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "电阻 $R=15\\ \\Omega$ 两端电压为 $6\\ \\text{V}$，通过它的电流是 （　） $\\text{A}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "1.4"
+        },
+        {
+          "key": "B",
+          "label": "10.4"
+        },
+        {
+          "key": "C",
+          "label": "0.4"
+        },
+        {
+          "key": "D",
+          "label": "5.4"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{6}{15}=0.4\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0309c",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "电阻 $R=10\\ \\Omega$ 两端电压为 $12\\ \\text{V}$，通过它的电流是 （　） $\\text{A}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "3.2"
+        },
+        {
+          "key": "B",
+          "label": "1.2"
+        },
+        {
+          "key": "C",
+          "label": "2.2"
+        },
+        {
+          "key": "D",
+          "label": "0.2"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{12}{10}=1.2\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0310c",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "电阻 $R=30\\ \\Omega$ 两端电压为 $3\\ \\text{V}$，通过它的电流是 （　） $\\text{A}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "0.1"
+        },
+        {
+          "key": "B",
+          "label": "10.1"
+        },
+        {
+          "key": "C",
+          "label": "1.1"
+        },
+        {
+          "key": "D",
+          "label": "2.1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{3}{30}=0.1\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0311c",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "电阻 $R=10\\ \\Omega$ 两端电压为 $12\\ \\text{V}$，通过它的电流是 （　） $\\text{A}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "0.2"
+        },
+        {
+          "key": "B",
+          "label": "1.2"
+        },
+        {
+          "key": "C",
+          "label": "11.2"
+        },
+        {
+          "key": "D",
+          "label": "2.2"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{12}{10}=1.2\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0313c",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "电阻 $R=5\\ \\Omega$ 两端电压为 $12\\ \\text{V}$，通过它的电流是 （　） $\\text{A}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "3.4"
+        },
+        {
+          "key": "B",
+          "label": "12.4"
+        },
+        {
+          "key": "C",
+          "label": "2.4"
+        },
+        {
+          "key": "D",
+          "label": "0.4"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{12}{5}=2.4\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0314c",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "电阻 $R=20\\ \\Omega$ 两端电压为 $6\\ \\text{V}$，通过它的电流是 （　） $\\text{A}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "5.3"
+        },
+        {
+          "key": "B",
+          "label": "0.3"
+        },
+        {
+          "key": "C",
+          "label": "3.3"
+        },
+        {
+          "key": "D",
+          "label": "2.3"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$I=\\dfrac{U}{R}=\\dfrac{6}{20}=0.3\\ \\text{A}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0317c",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.2\\ \\text{A}$，它的电功率是 （　） $\\text{W}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "14"
+        },
+        {
+          "key": "B",
+          "label": "38"
+        },
+        {
+          "key": "C",
+          "label": "50"
+        },
+        {
+          "key": "D",
+          "label": "44"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$P=UI=220\\times0.2=44\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0323c",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.3\\ \\text{A}$，它的电功率是 （　） $\\text{W}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "58"
+        },
+        {
+          "key": "B",
+          "label": "66"
+        },
+        {
+          "key": "C",
+          "label": "78"
+        },
+        {
+          "key": "D",
+          "label": "72"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$P=UI=220\\times0.3=66\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0324c",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：功率为 $800\\ \\text{W}$ 的用电器正常工作 $1\\ \\text{h}$，消耗电能 （　） $\\text{kW}\\cdot\\text{h}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "0.8"
+        },
+        {
+          "key": "B",
+          "label": "2.8"
+        },
+        {
+          "key": "C",
+          "label": "5.8"
+        },
+        {
+          "key": "D",
+          "label": "1.8"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$P=800\\ \\text{W}=0.8\\ \\text{kW}$；$W=Pt=0.8\\times1=0.8\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0327c",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.8\\ \\text{A}$，它的电功率是 （　） $\\text{W}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "167"
+        },
+        {
+          "key": "B",
+          "label": "164"
+        },
+        {
+          "key": "C",
+          "label": "176"
+        },
+        {
+          "key": "D",
+          "label": "188"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$P=UI=220\\times0.8=176\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0329c",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $1\\ \\text{A}$，它的电功率是 （　） $\\text{W}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "208"
+        },
+        {
+          "key": "B",
+          "label": "214"
+        },
+        {
+          "key": "C",
+          "label": "220"
+        },
+        {
+          "key": "D",
+          "label": "230"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$P=UI=220\\times1=220\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0332c",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：拉力做功 $455\\ \\text{J}$ 用时 $32\\ \\text{s}$，功率是多少瓦？",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "15.22"
+        },
+        {
+          "key": "B",
+          "label": "12.22"
+        },
+        {
+          "key": "C",
+          "label": "17.22"
+        },
+        {
+          "key": "D",
+          "label": "14.21875"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{455}{32}=14.21875\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0334c",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：拉力做功 $400\\ \\text{J}$ 用时 $18\\ \\text{s}$，功率是多少瓦？",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "28.22"
+        },
+        {
+          "key": "B",
+          "label": "22.22222222222222"
+        },
+        {
+          "key": "C",
+          "label": "26.22"
+        },
+        {
+          "key": "D",
+          "label": "37.22"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{400}{18}=22.22222222222222\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0338c",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：拉力做功 $150\\ \\text{J}$ 用时 $20\\ \\text{s}$，功率是多少瓦？",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "12.5"
+        },
+        {
+          "key": "B",
+          "label": "4.5"
+        },
+        {
+          "key": "C",
+          "label": "7.5"
+        },
+        {
+          "key": "D",
+          "label": "10.5"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{150}{20}=7.5\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0339c",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "用 $10\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $10\\ \\text{m}$，拉力做功 （　） $\\text{J}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "109"
+        },
+        {
+          "key": "B",
+          "label": "100"
+        },
+        {
+          "key": "C",
+          "label": "104"
+        },
+        {
+          "key": "D",
+          "label": "96"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$W=Fs=10\\times10=100\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0341c",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "用 $55\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $10\\ \\text{m}$，拉力做功 （　） $\\text{J}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "580"
+        },
+        {
+          "key": "B",
+          "label": "555"
+        },
+        {
+          "key": "C",
+          "label": "550"
+        },
+        {
+          "key": "D",
+          "label": "562"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$W=Fs=55\\times10=550\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0342c",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：拉力做功 $600\\ \\text{J}$ 用时 $40\\ \\text{s}$，功率是多少瓦？",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "25"
+        },
+        {
+          "key": "B",
+          "label": "17"
+        },
+        {
+          "key": "C",
+          "label": "14"
+        },
+        {
+          "key": "D",
+          "label": "15"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$P=\\dfrac{W}{t}=\\dfrac{600}{40}=15\\ \\text{W}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0343c",
+      "knowledgePointIds": [
+        "physics-work-energy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "用 $30\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $3\\ \\text{m}$，拉力做功 （　） $\\text{J}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "96"
+        },
+        {
+          "key": "B",
+          "label": "90"
+        },
+        {
+          "key": "C",
+          "label": "99"
+        },
+        {
+          "key": "D",
+          "label": "86"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$W=Fs=30\\times3=90\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0345c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "把 $4\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $40\\ ^\\circ\\text{C}$，水吸收的热量是 （　） $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "335994"
+        },
+        {
+          "key": "B",
+          "label": "336006"
+        },
+        {
+          "key": "C",
+          "label": "336000"
+        },
+        {
+          "key": "D",
+          "label": "335990"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times4\\times20=336000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0346c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：完全燃烧 $1\\ \\text{kg}$ 某燃料（热值 $4.2\\times10^7\\ \\text{J/kg}$），放出的热量是 （　） $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "4.2"
+        },
+        {
+          "key": "B",
+          "label": "6.2"
+        },
+        {
+          "key": "C",
+          "label": "2.2"
+        },
+        {
+          "key": "D",
+          "label": "1.2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$Q=mq=1\\times4.2\\times10^7=4.2\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0347c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "把 $1\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $55\\ ^\\circ\\text{C}$，水吸收的热量是 （　） $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "147009"
+        },
+        {
+          "key": "B",
+          "label": "147000"
+        },
+        {
+          "key": "C",
+          "label": "147025"
+        },
+        {
+          "key": "D",
+          "label": "147050"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times1\\times35=147000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0349c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "把 $3\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $80\\ ^\\circ\\text{C}$，水吸收的热量是 （　） $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "755998"
+        },
+        {
+          "key": "B",
+          "label": "755988"
+        },
+        {
+          "key": "C",
+          "label": "756000"
+        },
+        {
+          "key": "D",
+          "label": "756005"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times3\\times60=756000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0350c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：完全燃烧 $1.5\\ \\text{kg}$ 某燃料（热值 $3\\times10^7\\ \\text{J/kg}$），放出的热量是 （　） $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "7.5"
+        },
+        {
+          "key": "B",
+          "label": "1.5"
+        },
+        {
+          "key": "C",
+          "label": "4.5"
+        },
+        {
+          "key": "D",
+          "label": "6.5"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$Q=mq=1.5\\times3\\times10^7=4.5\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0351c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "把 $4\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $35\\ ^\\circ\\text{C}$，水吸收的热量是 （　） $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "251998"
+        },
+        {
+          "key": "B",
+          "label": "251995"
+        },
+        {
+          "key": "C",
+          "label": "251990"
+        },
+        {
+          "key": "D",
+          "label": "252000"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times4\\times15=252000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0352c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：完全燃烧 $0.5\\ \\text{kg}$ 某燃料（热值 $3\\times10^7\\ \\text{J/kg}$），放出的热量是 （　） $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "2.5"
+        },
+        {
+          "key": "B",
+          "label": "1.5"
+        },
+        {
+          "key": "C",
+          "label": "11.5"
+        },
+        {
+          "key": "D",
+          "label": "0.5"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$Q=mq=0.5\\times3\\times10^7=1.5\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0353c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "把 $4\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $65\\ ^\\circ\\text{C}$，水吸收的热量是 （　） $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "755992"
+        },
+        {
+          "key": "B",
+          "label": "755998"
+        },
+        {
+          "key": "C",
+          "label": "756000"
+        },
+        {
+          "key": "D",
+          "label": "756010"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times4\\times45=756000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0354c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：完全燃烧 $1\\ \\text{kg}$ 某燃料（热值 $4.2\\times10^7\\ \\text{J/kg}$），放出的热量是 （　） $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "6.2"
+        },
+        {
+          "key": "B",
+          "label": "9.2"
+        },
+        {
+          "key": "C",
+          "label": "4.2"
+        },
+        {
+          "key": "D",
+          "label": "2.2"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$Q=mq=1\\times4.2\\times10^7=4.2\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0355c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 48,
+      "stem": "把 $5\\ \\text{kg}$ 的水从 $20\\ ^\\circ\\text{C}$ 加热到 $50\\ ^\\circ\\text{C}$，水吸收的热量是 （　） $\\text{J}$。（$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "630020"
+        },
+        {
+          "key": "B",
+          "label": "630009"
+        },
+        {
+          "key": "C",
+          "label": "629994"
+        },
+        {
+          "key": "D",
+          "label": "630000"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$Q=cm\\Delta t=4.2\\times10^3\\times5\\times30=630000\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0356c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：完全燃烧 $1.5\\ \\text{kg}$ 某燃料（热值 $2.8\\times10^7\\ \\text{J/kg}$），放出的热量是 （　） $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "4.2"
+        },
+        {
+          "key": "B",
+          "label": "3.2"
+        },
+        {
+          "key": "C",
+          "label": "7.2"
+        },
+        {
+          "key": "D",
+          "label": "6.2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$Q=mq=1.5\\times2.8\\times10^7=4.2\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0358c",
+      "knowledgePointIds": [
+        "physics-thermal"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 54,
+      "stem": "计算题：完全燃烧 $2\\ \\text{kg}$ 某燃料（热值 $2.8\\times10^7\\ \\text{J/kg}$），放出的热量是 （　） $\\text{J}$。（填科学计数法系数 $\\times10^7$ 的系数，如 $2.1\\times10^7$ 填 $2.1$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "6.6"
+        },
+        {
+          "key": "B",
+          "label": "0.6"
+        },
+        {
+          "key": "C",
+          "label": "5.6"
+        },
+        {
+          "key": "D",
+          "label": "8.6"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】$Q=mq=2\\times2.8\\times10^7=5.6\\times10^7\\ \\text{J}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0359c",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "对着山崖喊话，经过 $1\\ \\text{s}$ 听到回声，人到山崖的距离约是 （　） $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "182"
+        },
+        {
+          "key": "B",
+          "label": "162"
+        },
+        {
+          "key": "C",
+          "label": "161"
+        },
+        {
+          "key": "D",
+          "label": "170"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】声音总路程 $=340\\times1=340\\ \\text{m}$；$s=\\dfrac{340}{2}=170\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0360c",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "对着山崖喊话，经过 $5\\ \\text{s}$ 听到回声，人到山崖的距离约是 （　） $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "830"
+        },
+        {
+          "key": "B",
+          "label": "850"
+        },
+        {
+          "key": "C",
+          "label": "875"
+        },
+        {
+          "key": "D",
+          "label": "848"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】声音总路程 $=340\\times5=1700\\ \\text{m}$；$s=\\dfrac{1700}{2}=850\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0361c",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "对着山崖喊话，经过 $4\\ \\text{s}$ 听到回声，人到山崖的距离约是 （　） $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "705"
+        },
+        {
+          "key": "B",
+          "label": "692"
+        },
+        {
+          "key": "C",
+          "label": "680"
+        },
+        {
+          "key": "D",
+          "label": "730"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】声音总路程 $=340\\times4=1360\\ \\text{m}$；$s=\\dfrac{1360}{2}=680\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0362c",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "对着山崖喊话，经过 $4\\ \\text{s}$ 听到回声，人到山崖的距离约是 （　） $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "720"
+        },
+        {
+          "key": "B",
+          "label": "698"
+        },
+        {
+          "key": "C",
+          "label": "680"
+        },
+        {
+          "key": "D",
+          "label": "665"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】声音总路程 $=340\\times4=1360\\ \\text{m}$；$s=\\dfrac{1360}{2}=680\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0363c",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "对着山崖喊话，经过 $1\\ \\text{s}$ 听到回声，人到山崖的距离约是 （　） $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "200"
+        },
+        {
+          "key": "B",
+          "label": "162"
+        },
+        {
+          "key": "C",
+          "label": "170"
+        },
+        {
+          "key": "D",
+          "label": "160"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】声音总路程 $=340\\times1=340\\ \\text{m}$；$s=\\dfrac{340}{2}=170\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0364c",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "对着山崖喊话，经过 $5\\ \\text{s}$ 听到回声，人到山崖的距离约是 （　） $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "875"
+        },
+        {
+          "key": "B",
+          "label": "850"
+        },
+        {
+          "key": "C",
+          "label": "844"
+        },
+        {
+          "key": "D",
+          "label": "870"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】声音总路程 $=340\\times5=1700\\ \\text{m}$；$s=\\dfrac{1700}{2}=850\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0365c",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "对着山崖喊话，经过 $3\\ \\text{s}$ 听到回声，人到山崖的距离约是 （　） $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "520"
+        },
+        {
+          "key": "B",
+          "label": "530"
+        },
+        {
+          "key": "C",
+          "label": "550"
+        },
+        {
+          "key": "D",
+          "label": "510"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】声音总路程 $=340\\times3=1020\\ \\text{m}$；$s=\\dfrac{1020}{2}=510\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0367c",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "对着山崖喊话，经过 $1\\ \\text{s}$ 听到回声，人到山崖的距离约是 （　） $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "164"
+        },
+        {
+          "key": "B",
+          "label": "230"
+        },
+        {
+          "key": "C",
+          "label": "140"
+        },
+        {
+          "key": "D",
+          "label": "170"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】声音总路程 $=340\\times1=340\\ \\text{m}$；$s=\\dfrac{340}{2}=170\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0368c",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "对着山崖喊话，经过 $2\\ \\text{s}$ 听到回声，人到山崖的距离约是 （　） $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "355"
+        },
+        {
+          "key": "B",
+          "label": "336"
+        },
+        {
+          "key": "C",
+          "label": "340"
+        },
+        {
+          "key": "D",
+          "label": "370"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】声音总路程 $=340\\times2=680\\ \\text{m}$；$s=\\dfrac{680}{2}=340\\ \\text{m}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0372c",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一物体浸没在水中，排开水的体积为 $500\\ \\text{cm}^3$，它受到的浮力是 （　） $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "7"
+        },
+        {
+          "key": "B",
+          "label": "8"
+        },
+        {
+          "key": "C",
+          "label": "0"
+        },
+        {
+          "key": "D",
+          "label": "5"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$V_{排}=500\\ \\text{cm}^3=500\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times500\\times10^{-6}=5\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0373c",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一物体浸没在水中，排开水的体积为 $100\\ \\text{cm}^3$，它受到的浮力是 （　） $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "11"
+        },
+        {
+          "key": "B",
+          "label": "2"
+        },
+        {
+          "key": "C",
+          "label": "3"
+        },
+        {
+          "key": "D",
+          "label": "0.9999999999999999"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$V_{排}=100\\ \\text{cm}^3=100\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times100\\times10^{-6}=0.9999999999999999\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0374c",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一物体浸没在水中，排开水的体积为 $50\\ \\text{cm}^3$，它受到的浮力是 （　） $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "1.5"
+        },
+        {
+          "key": "B",
+          "label": "0.49999999999999994"
+        },
+        {
+          "key": "C",
+          "label": "5.5"
+        },
+        {
+          "key": "D",
+          "label": "3.5"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$V_{排}=50\\ \\text{cm}^3=50\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times50\\times10^{-6}=0.49999999999999994\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0377c",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一物体浸没在水中，排开水的体积为 $100\\ \\text{cm}^3$，它受到的浮力是 （　） $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "4"
+        },
+        {
+          "key": "B",
+          "label": "2"
+        },
+        {
+          "key": "C",
+          "label": "6"
+        },
+        {
+          "key": "D",
+          "label": "0.9999999999999999"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$V_{排}=100\\ \\text{cm}^3=100\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times100\\times10^{-6}=0.9999999999999999\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0378c",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一物体浸没在水中，排开水的体积为 $500\\ \\text{cm}^3$，它受到的浮力是 （　） $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "6"
+        },
+        {
+          "key": "B",
+          "label": "2"
+        },
+        {
+          "key": "C",
+          "label": "3"
+        },
+        {
+          "key": "D",
+          "label": "5"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$V_{排}=500\\ \\text{cm}^3=500\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times500\\times10^{-6}=5\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0381c",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 42,
+      "stem": "一物体浸没在水中，排开水的体积为 $400\\ \\text{cm}^3$，它受到的浮力是 （　） $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "3.9999999999999996"
+        },
+        {
+          "key": "B",
+          "label": "5"
+        },
+        {
+          "key": "C",
+          "label": "14"
+        },
+        {
+          "key": "D",
+          "label": "2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$V_{排}=400\\ \\text{cm}^3=400\\times10^{-6}\\ \\text{m}^3$；$F_{浮}=\\rho gV_{排}=10^3\\times10\\times400\\times10^{-6}=3.9999999999999996\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0384c",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "同一直线上的两个力 $F_1=12\\ \\text{N}$、$F_2=8\\ \\text{N}$ 方向相反，它们的合力是 （　） $\\text{N}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "6"
+        },
+        {
+          "key": "B",
+          "label": "9"
+        },
+        {
+          "key": "C",
+          "label": "14"
+        },
+        {
+          "key": "D",
+          "label": "4"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=12-8=4\\ \\text{N}$，方向与较大力相同。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0385c",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "同一直线上的两个力 $F_1=4\\ \\text{N}$、$F_2=4\\ \\text{N}$ 方向相同，它们的合力是 （　） $\\text{N}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "7"
+        },
+        {
+          "key": "B",
+          "label": "10"
+        },
+        {
+          "key": "C",
+          "label": "9"
+        },
+        {
+          "key": "D",
+          "label": "8"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】同方向二力合成：$F=F_1+F_2=4+4=8\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0386c",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "同一直线上的两个力 $F_1=18\\ \\text{N}$、$F_2=4\\ \\text{N}$ 方向相反，它们的合力是 （　） $\\text{N}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "15"
+        },
+        {
+          "key": "B",
+          "label": "11"
+        },
+        {
+          "key": "C",
+          "label": "16"
+        },
+        {
+          "key": "D",
+          "label": "14"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=18-4=14\\ \\text{N}$，方向与较大力相同。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0387c",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "同一直线上的两个力 $F_1=10\\ \\text{N}$、$F_2=10\\ \\text{N}$ 方向相同，它们的合力是 （　） $\\text{N}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "18"
+        },
+        {
+          "key": "B",
+          "label": "20"
+        },
+        {
+          "key": "C",
+          "label": "19"
+        },
+        {
+          "key": "D",
+          "label": "17"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】同方向二力合成：$F=F_1+F_2=10+10=20\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0389c",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "同一直线上的两个力 $F_1=6\\ \\text{N}$、$F_2=16\\ \\text{N}$ 方向相同，它们的合力是 （　） $\\text{N}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "22"
+        },
+        {
+          "key": "B",
+          "label": "14"
+        },
+        {
+          "key": "C",
+          "label": "16"
+        },
+        {
+          "key": "D",
+          "label": "7"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】同方向二力合成：$F=F_1+F_2=6+16=22\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0391c",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "同一直线上的两个力 $F_1=10\\ \\text{N}$、$F_2=12\\ \\text{N}$ 方向相同，它们的合力是 （　） $\\text{N}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "17"
+        },
+        {
+          "key": "B",
+          "label": "28"
+        },
+        {
+          "key": "C",
+          "label": "22"
+        },
+        {
+          "key": "D",
+          "label": "16"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】同方向二力合成：$F=F_1+F_2=10+12=22\\ \\text{N}$。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0392c",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "同一直线上的两个力 $F_1=16\\ \\text{N}$、$F_2=8\\ \\text{N}$ 方向相反，它们的合力是 （　） $\\text{N}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "7"
+        },
+        {
+          "key": "B",
+          "label": "13"
+        },
+        {
+          "key": "C",
+          "label": "9"
+        },
+        {
+          "key": "D",
+          "label": "8"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=16-8=8\\ \\text{N}$，方向与较大力相同。"
+    },
+    {
+      "subject": "physics",
+      "id": "gen-p-0394c",
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "同一直线上的两个力 $F_1=20\\ \\text{N}$、$F_2=14\\ \\text{N}$ 方向相反，它们的合力是 （　） $\\text{N}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "6"
+        },
+        {
+          "key": "B",
+          "label": "1"
+        },
+        {
+          "key": "C",
+          "label": "11"
+        },
+        {
+          "key": "D",
+          "label": "8"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=20-14=6\\ \\text{N}$，方向与较大力相同。"
+    }
+  ]
+}

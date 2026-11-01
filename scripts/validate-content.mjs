@@ -16,6 +16,7 @@ let knowledgePointCount = 0;
 let lessonCount = 0;
 let examCount = 0;
 let referenceCount = 0;
+const generatedBanks = [];
 
 function isObject(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -358,7 +359,13 @@ async function main() {
     const isExamFile = Array.isArray(content.exams);
 
     if (!isExamFile) {
-      if (!Array.isArray(content.knowledgePoints)) {
+      const isGeneratedBank =
+        !Array.isArray(content.knowledgePoints) && Array.isArray(content.questions);
+
+      if (isGeneratedBank) {
+        // 生成题库：先收集，主内容文件处理完再校验（保证知识点集合已完整）
+        generatedBanks.push({ file, content });
+      } else if (!Array.isArray(content.knowledgePoints)) {
         errors.push(`${file} 缺少 knowledgePoints 数组`);
       } else {
         content.knowledgePoints.forEach((point, index) => {
@@ -371,17 +378,19 @@ async function main() {
         });
       }
 
-      if (!Array.isArray(content.questions)) {
-        errors.push(`${file} 缺少 questions 数组`);
-      } else {
-        content.questions.forEach((question, index) => {
-          questionCount += 1;
-          if (!isObject(question)) {
-            errors.push(`${file}:questions[${index}] 必须是对象`);
-            return;
-          }
-          validateQuestion(question, file, index);
-        });
+      if (!isGeneratedBank) {
+        if (!Array.isArray(content.questions)) {
+          errors.push(`${file} 缺少 questions 数组`);
+        } else {
+          content.questions.forEach((question, index) => {
+            questionCount += 1;
+            if (!isObject(question)) {
+              errors.push(`${file}:questions[${index}] 必须是对象`);
+              return;
+            }
+            validateQuestion(question, file, index);
+          });
+        }
       }
     }
 
@@ -395,6 +404,18 @@ async function main() {
         validateExamPaper(exam, file, index);
       });
     }
+  }
+
+  // 生成题库校验（先于试卷引用检查：此时知识点已完整，试卷引用的生成题即将入库）
+  for (const { file, content } of generatedBanks) {
+    content.questions.forEach((question, index) => {
+      questionCount += 1;
+      if (!isObject(question)) {
+        errors.push(`${file}:questions[${index}] 必须是对象`);
+        return;
+      }
+      validateQuestion(question, file, index);
+    });
   }
 
   examQuestionReferences.forEach(({ file, location, questionId }) => {

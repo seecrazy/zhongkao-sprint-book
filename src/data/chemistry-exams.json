@@ -1,5 +1,5 @@
 {
-  "version": "chemistry-exams-v0.13",
+  "version": "chemistry-exams-v0.15",
   "exams": [
     {
       "id": "chem-mock-001",
@@ -130,6 +130,526 @@
             "chem-acidbase-004",
             "chem-atom-004",
             "chem-elem-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry-sim-001",
+      "subject": "chemistry",
+      "title": "化学冲刺模拟卷（一）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 实验与计算题。满分 53 分。",
+      "durationMinutes": 45,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-c-0424",
+            "gen-c-0417",
+            "gen-c-0396",
+            "gen-c-0477",
+            "gen-c-0545",
+            "gen-c-0405",
+            "gen-c-0550",
+            "gen-c-0418",
+            "gen-c-0576",
+            "gen-c-0463c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-c-0466",
+            "gen-c-0465",
+            "gen-c-0497",
+            "gen-c-0442",
+            "gen-c-0492"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、实验与计算题",
+          "description": "3 题，每题 6 分。",
+          "scorePerQuestion": 6,
+          "questionIds": [
+            "gen-c-0464",
+            "gen-c-0490",
+            "gen-c-0458"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry-sim-002",
+      "subject": "chemistry",
+      "title": "化学冲刺模拟卷（二）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 实验与计算题。满分 53 分。",
+      "durationMinutes": 45,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-c-0469",
+            "gen-c-0406",
+            "gen-c-0411",
+            "gen-c-0602",
+            "gen-c-0540",
+            "gen-c-0564",
+            "gen-c-0528",
+            "gen-c-0471",
+            "gen-c-0551",
+            "gen-c-0546"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-c-0460",
+            "gen-c-0498",
+            "gen-c-0442",
+            "gen-c-0448",
+            "gen-c-0493"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、实验与计算题",
+          "description": "3 题，每题 6 分。",
+          "scorePerQuestion": 6,
+          "questionIds": [
+            "gen-c-0507",
+            "gen-c-0515",
+            "gen-c-0441"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry-sim-003",
+      "subject": "chemistry",
+      "title": "化学冲刺模拟卷（三）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 实验与计算题。满分 53 分。",
+      "durationMinutes": 45,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-c-0418",
+            "gen-c-0400",
+            "gen-c-0450",
+            "gen-c-0453",
+            "gen-c-0565",
+            "gen-c-0489",
+            "gen-c-0601",
+            "gen-c-0417",
+            "gen-c-0575",
+            "gen-c-0588"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-c-0460",
+            "gen-c-0492",
+            "gen-c-0461",
+            "gen-c-0493",
+            "gen-c-0466"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、实验与计算题",
+          "description": "3 题，每题 6 分。",
+          "scorePerQuestion": 6,
+          "questionIds": [
+            "gen-c-0459",
+            "gen-c-0499",
+            "gen-c-0512"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry-sim-004",
+      "subject": "chemistry",
+      "title": "化学冲刺模拟卷（四）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 实验与计算题。满分 53 分。",
+      "durationMinutes": 45,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-c-0526",
+            "gen-c-0421",
+            "gen-c-0442c",
+            "gen-c-0479",
+            "gen-c-0551",
+            "gen-c-0456",
+            "gen-c-0476",
+            "gen-c-0571",
+            "gen-c-0504",
+            "gen-c-0548"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-c-0442",
+            "gen-c-0465",
+            "gen-c-0466",
+            "gen-c-0460",
+            "gen-c-0443"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、实验与计算题",
+          "description": "3 题，每题 6 分。",
+          "scorePerQuestion": 6,
+          "questionIds": [
+            "gen-c-0507",
+            "gen-c-0462",
+            "gen-c-0491"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry-sim-005",
+      "subject": "chemistry",
+      "title": "化学冲刺模拟卷（五）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 实验与计算题。满分 53 分。",
+      "durationMinutes": 45,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-c-0590",
+            "gen-c-0443c",
+            "gen-c-0407",
+            "gen-c-0502",
+            "gen-c-0545",
+            "gen-c-0477",
+            "gen-c-0444c",
+            "gen-c-0546",
+            "gen-c-0399",
+            "gen-c-0415"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-c-0461",
+            "gen-c-0460",
+            "gen-c-0497",
+            "gen-c-0493",
+            "gen-c-0498"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、实验与计算题",
+          "description": "3 题，每题 6 分。",
+          "scorePerQuestion": 6,
+          "questionIds": [
+            "gen-c-0445",
+            "gen-c-0499",
+            "gen-c-0514"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry-sim-006",
+      "subject": "chemistry",
+      "title": "化学冲刺模拟卷（六）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 实验与计算题。满分 53 分。",
+      "durationMinutes": 45,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-c-0555",
+            "gen-c-0548",
+            "gen-c-0573",
+            "gen-c-0521",
+            "gen-c-0472",
+            "gen-c-0531",
+            "gen-c-0524",
+            "gen-c-0504",
+            "gen-c-0480",
+            "gen-c-0488"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-c-0447",
+            "gen-c-0461",
+            "gen-c-0442",
+            "gen-c-0497",
+            "gen-c-0460"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、实验与计算题",
+          "description": "3 题，每题 6 分。",
+          "scorePerQuestion": 6,
+          "questionIds": [
+            "gen-c-0515",
+            "gen-c-0449",
+            "gen-c-0496"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry-sim-007",
+      "subject": "chemistry",
+      "title": "化学冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 实验与计算题。满分 53 分。",
+      "durationMinutes": 45,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-c-0553",
+            "gen-c-0506c",
+            "gen-c-0422",
+            "gen-c-0457",
+            "gen-c-0487",
+            "gen-c-0425",
+            "gen-c-0579",
+            "gen-c-0398",
+            "gen-c-0556",
+            "gen-c-0541"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-c-0498",
+            "gen-c-0493",
+            "gen-c-0442",
+            "gen-c-0492",
+            "gen-c-0447"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、实验与计算题",
+          "description": "3 题，每题 6 分。",
+          "scorePerQuestion": 6,
+          "questionIds": [
+            "gen-c-0511",
+            "gen-c-0440",
+            "gen-c-0462"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry-sim-008",
+      "subject": "chemistry",
+      "title": "化学冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 实验与计算题。满分 53 分。",
+      "durationMinutes": 45,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-c-0553",
+            "gen-c-0411",
+            "gen-c-0488",
+            "gen-c-0397",
+            "gen-c-0483",
+            "gen-c-0399",
+            "gen-c-0548",
+            "gen-c-0571",
+            "gen-c-0514c",
+            "gen-c-0492c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-c-0466",
+            "gen-c-0497",
+            "gen-c-0442",
+            "gen-c-0492",
+            "gen-c-0493"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、实验与计算题",
+          "description": "3 题，每题 6 分。",
+          "scorePerQuestion": 6,
+          "questionIds": [
+            "gen-c-0505",
+            "gen-c-0467",
+            "gen-c-0514"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry-sim-009",
+      "subject": "chemistry",
+      "title": "化学冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 实验与计算题。满分 53 分。",
+      "durationMinutes": 45,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-c-0582",
+            "gen-c-0577",
+            "gen-c-0405",
+            "gen-c-0457",
+            "gen-c-0558",
+            "gen-c-0590",
+            "gen-c-0472",
+            "gen-c-0476",
+            "gen-c-0432",
+            "gen-c-0541"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-c-0493",
+            "gen-c-0443",
+            "gen-c-0460",
+            "gen-c-0447",
+            "gen-c-0497"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、实验与计算题",
+          "description": "3 题，每题 6 分。",
+          "scorePerQuestion": 6,
+          "questionIds": [
+            "gen-c-0440",
+            "gen-c-0467",
+            "gen-c-0513"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chemistry-sim-010",
+      "subject": "chemistry",
+      "title": "化学冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 实验与计算题。满分 53 分。",
+      "durationMinutes": 45,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-c-0496c",
+            "gen-c-0427",
+            "gen-c-0600",
+            "gen-c-0456",
+            "gen-c-0560",
+            "gen-c-0504",
+            "gen-c-0480",
+            "gen-c-0447c",
+            "gen-c-0531",
+            "gen-c-0536"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-c-0492",
+            "gen-c-0497",
+            "gen-c-0465",
+            "gen-c-0448",
+            "gen-c-0447"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、实验与计算题",
+          "description": "3 题，每题 6 分。",
+          "scorePerQuestion": 6,
+          "questionIds": [
+            "gen-c-0515",
+            "gen-c-0511",
+            "gen-c-0514"
           ]
         }
       ]

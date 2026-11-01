@@ -1,5 +1,5 @@
 {
-  "version": "physics-exams-v0.11",
+  "version": "physics-exams-v0.15",
   "exams": [
     {
       "id": "physics-mock-001",
@@ -118,6 +118,546 @@
             "physics-heat-003",
             "physics-ohm-004",
             "physics-epower-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-sim-001",
+      "subject": "physics",
+      "title": "物理冲刺模拟卷（一）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 计算题。满分 74 分。",
+      "durationMinutes": 50,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-p-0378c",
+            "gen-p-0354c",
+            "gen-p-0275c",
+            "gen-p-0303c",
+            "gen-p-0364c",
+            "gen-p-0289c",
+            "gen-p-0386c",
+            "gen-p-0347c",
+            "gen-p-0345c",
+            "gen-p-0317c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "6 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-p-0362",
+            "gen-p-0267",
+            "gen-p-0271",
+            "gen-p-0361",
+            "gen-p-0366",
+            "gen-p-0386"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、计算题",
+          "description": "4 题，每题 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0314",
+            "gen-p-0294",
+            "gen-p-0320",
+            "gen-p-0302"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-sim-002",
+      "subject": "physics",
+      "title": "物理冲刺模拟卷（二）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 计算题。满分 74 分。",
+      "durationMinutes": 50,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-p-0360c",
+            "gen-p-0385c",
+            "gen-p-0334c",
+            "gen-p-0304c",
+            "gen-p-0384c",
+            "gen-p-0351c",
+            "gen-p-0307c",
+            "gen-p-0347c",
+            "gen-p-0275c",
+            "gen-p-0345c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "6 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-p-0267",
+            "gen-p-0271",
+            "gen-p-0381",
+            "gen-p-0382",
+            "gen-p-0386",
+            "gen-p-0337"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、计算题",
+          "description": "4 题，每题 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0295",
+            "gen-p-0388",
+            "gen-p-0369",
+            "gen-p-0259"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-sim-003",
+      "subject": "physics",
+      "title": "物理冲刺模拟卷（三）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 计算题。满分 74 分。",
+      "durationMinutes": 50,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-p-0313c",
+            "gen-p-0355c",
+            "gen-p-0266c",
+            "gen-p-0298c",
+            "gen-p-0349c",
+            "gen-p-0391c",
+            "gen-p-0289c",
+            "gen-p-0359c",
+            "gen-p-0264c",
+            "gen-p-0323c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "6 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-p-0347",
+            "gen-p-0321",
+            "gen-p-0331",
+            "gen-p-0277",
+            "gen-p-0351",
+            "gen-p-0361"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、计算题",
+          "description": "4 题，每题 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0329",
+            "gen-p-0375",
+            "gen-p-0335",
+            "gen-p-0373"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-sim-004",
+      "subject": "physics",
+      "title": "物理冲刺模拟卷（四）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 计算题。满分 74 分。",
+      "durationMinutes": 50,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-p-0350c",
+            "gen-p-0324c",
+            "gen-p-0362c",
+            "gen-p-0304c",
+            "gen-p-0352c",
+            "gen-p-0367c",
+            "gen-p-0266c",
+            "gen-p-0311c",
+            "gen-p-0339c",
+            "gen-p-0301c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "6 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-p-0271",
+            "gen-p-0362",
+            "gen-p-0261",
+            "gen-p-0376",
+            "gen-p-0301",
+            "gen-p-0371"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、计算题",
+          "description": "4 题，每题 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0292",
+            "gen-p-0293",
+            "gen-p-0364",
+            "gen-p-0284"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-sim-005",
+      "subject": "physics",
+      "title": "物理冲刺模拟卷（五）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 计算题。满分 74 分。",
+      "durationMinutes": 50,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-p-0362c",
+            "gen-p-0263c",
+            "gen-p-0353c",
+            "gen-p-0368c",
+            "gen-p-0367c",
+            "gen-p-0356c",
+            "gen-p-0317c",
+            "gen-p-0363c",
+            "gen-p-0359c",
+            "gen-p-0381c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "6 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-p-0267",
+            "gen-p-0357",
+            "gen-p-0331",
+            "gen-p-0277",
+            "gen-p-0282",
+            "gen-p-0381"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、计算题",
+          "description": "4 题，每题 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0304",
+            "gen-p-0269",
+            "gen-p-0285",
+            "gen-p-0352"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-sim-006",
+      "subject": "physics",
+      "title": "物理冲刺模拟卷（六）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 计算题。满分 74 分。",
+      "durationMinutes": 50,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-p-0275c",
+            "gen-p-0300c",
+            "gen-p-0276c",
+            "gen-p-0394c",
+            "gen-p-0323c",
+            "gen-p-0385c",
+            "gen-p-0378c",
+            "gen-p-0342c",
+            "gen-p-0358c",
+            "gen-p-0392c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "6 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-p-0311",
+            "gen-p-0341",
+            "gen-p-0377",
+            "gen-p-0317",
+            "gen-p-0297",
+            "gen-p-0357"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、计算题",
+          "description": "4 题，每题 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0260",
+            "gen-p-0324",
+            "gen-p-0390",
+            "gen-p-0375"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-sim-007",
+      "subject": "physics",
+      "title": "物理冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 计算题。满分 74 分。",
+      "durationMinutes": 50,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-p-0363c",
+            "gen-p-0272c",
+            "gen-p-0355c",
+            "gen-p-0303c",
+            "gen-p-0285c",
+            "gen-p-0275c",
+            "gen-p-0300c",
+            "gen-p-0353c",
+            "gen-p-0293c",
+            "gen-p-0283c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "6 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-p-0382",
+            "gen-p-0351",
+            "gen-p-0381",
+            "gen-p-0287",
+            "gen-p-0377",
+            "gen-p-0317"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、计算题",
+          "description": "4 题，每题 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0265",
+            "gen-p-0393",
+            "gen-p-0285",
+            "gen-p-0314"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-sim-008",
+      "subject": "physics",
+      "title": "物理冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 计算题。满分 74 分。",
+      "durationMinutes": 50,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-p-0272c",
+            "gen-p-0342c",
+            "gen-p-0267c",
+            "gen-p-0353c",
+            "gen-p-0332c",
+            "gen-p-0277c",
+            "gen-p-0275c",
+            "gen-p-0359c",
+            "gen-p-0358c",
+            "gen-p-0324c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "6 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-p-0276",
+            "gen-p-0386",
+            "gen-p-0286",
+            "gen-p-0297",
+            "gen-p-0267",
+            "gen-p-0271"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、计算题",
+          "description": "4 题，每题 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0348",
+            "gen-p-0274",
+            "gen-p-0290",
+            "gen-p-0308"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-sim-009",
+      "subject": "physics",
+      "title": "物理冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 计算题。满分 74 分。",
+      "durationMinutes": 50,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-p-0338c",
+            "gen-p-0327c",
+            "gen-p-0368c",
+            "gen-p-0310c",
+            "gen-p-0386c",
+            "gen-p-0324c",
+            "gen-p-0323c",
+            "gen-p-0360c",
+            "gen-p-0363c",
+            "gen-p-0355c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "6 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-p-0261",
+            "gen-p-0376",
+            "gen-p-0271",
+            "gen-p-0386",
+            "gen-p-0341",
+            "gen-p-0277"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、计算题",
+          "description": "4 题，每题 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0338",
+            "gen-p-0379",
+            "gen-p-0272",
+            "gen-p-0266"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-sim-010",
+      "subject": "physics",
+      "title": "物理冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 计算题。满分 74 分。",
+      "durationMinutes": 50,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-p-0301c",
+            "gen-p-0289c",
+            "gen-p-0305c",
+            "gen-p-0277c",
+            "gen-p-0323c",
+            "gen-p-0298c",
+            "gen-p-0353c",
+            "gen-p-0361c",
+            "gen-p-0392c",
+            "gen-p-0279c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "6 题，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "gen-p-0367",
+            "gen-p-0362",
+            "gen-p-0357",
+            "gen-p-0287",
+            "gen-p-0261",
+            "gen-p-0331"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、计算题",
+          "description": "4 题，每题 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0312",
+            "gen-p-0279",
+            "gen-p-0369",
+            "gen-p-0388"
           ]
         }
       ]

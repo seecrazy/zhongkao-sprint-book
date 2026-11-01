@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import mathContent from "./math.json";
 import mathExamContent from "./math-exams.json";
+import mathGenerated from "./math-generated.json";
 import type { ExamPaper } from "../types";
 
 describe("math content", () => {
@@ -47,7 +48,11 @@ describe("math content", () => {
 
 describe("math exams", () => {
   it("only links papers to existing questions", () => {
-    const questionIds = new Set(mathContent.questions.map((question) => question.id));
+    const questionIds = new Set(
+      [...mathContent.questions, ...mathGenerated.questions].map(
+        (question) => question.id
+      )
+    );
 
     const exams = mathExamContent.exams as ExamPaper[];
 

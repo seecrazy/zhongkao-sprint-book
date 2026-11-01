@@ -1,5 +1,5 @@
 {
-  "version": "math-exams-v0.8",
+  "version": "math-exams-v0.15",
   "exams": [
     {
       "id": "math-mock-001",
@@ -157,6 +157,576 @@
             "math-circle-001",
             "math-circle-002",
             "math-transformation-001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-sim-001",
+      "subject": "math",
+      "title": "数学冲刺模拟卷（一）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 解答题。满分 125 分。",
+      "durationMinutes": 60,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0158",
+            "gen-m-0215c",
+            "gen-m-0185c",
+            "gen-m-0202c",
+            "gen-m-0183c",
+            "gen-m-0114c",
+            "gen-m-0124c",
+            "gen-m-0243c",
+            "gen-m-0154",
+            "gen-m-0254c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0043",
+            "gen-m-0003",
+            "gen-m-0060",
+            "gen-m-0223",
+            "gen-m-0044"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、解答题",
+          "description": "8 题，每题 10 分。",
+          "scorePerQuestion": 10,
+          "questionIds": [
+            "gen-m-0171",
+            "gen-m-0131",
+            "gen-m-0030",
+            "gen-m-0244",
+            "gen-m-0161",
+            "gen-m-0116",
+            "gen-m-0255",
+            "gen-m-0027"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-sim-002",
+      "subject": "math",
+      "title": "数学冲刺模拟卷（二）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 解答题。满分 125 分。",
+      "durationMinutes": 60,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0230c",
+            "gen-m-0198c",
+            "gen-m-0226c",
+            "gen-m-0132c",
+            "gen-m-0062c",
+            "gen-m-0182c",
+            "gen-m-0241c",
+            "gen-m-0053c",
+            "gen-m-0071c",
+            "gen-m-0203c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0099",
+            "gen-m-0138",
+            "gen-m-0056",
+            "gen-m-0242",
+            "gen-m-0100"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、解答题",
+          "description": "8 题，每题 10 分。",
+          "scorePerQuestion": 10,
+          "questionIds": [
+            "gen-m-0132",
+            "gen-m-0010",
+            "gen-m-0105",
+            "gen-m-0191",
+            "gen-m-0127",
+            "gen-m-0005",
+            "gen-m-0009",
+            "gen-m-0136"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-sim-003",
+      "subject": "math",
+      "title": "数学冲刺模拟卷（三）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 解答题。满分 125 分。",
+      "durationMinutes": 60,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0205c",
+            "gen-m-0206c",
+            "gen-m-0168c",
+            "gen-m-0232c",
+            "gen-m-0160",
+            "gen-m-0242c",
+            "gen-m-0071c",
+            "gen-m-0017c",
+            "gen-m-0029c",
+            "gen-m-0151c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0043",
+            "gen-m-0056",
+            "gen-m-0039",
+            "gen-m-0144",
+            "gen-m-0044"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、解答题",
+          "description": "8 题，每题 10 分。",
+          "scorePerQuestion": 10,
+          "questionIds": [
+            "gen-m-0057",
+            "gen-m-0236",
+            "gen-m-0201",
+            "gen-m-0176",
+            "gen-m-0135",
+            "gen-m-0019",
+            "gen-m-0078",
+            "gen-m-0180"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-sim-004",
+      "subject": "math",
+      "title": "数学冲刺模拟卷（四）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 解答题。满分 125 分。",
+      "durationMinutes": 60,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0188c",
+            "gen-m-0031c",
+            "gen-m-0134c",
+            "gen-m-0071c",
+            "gen-m-0121c",
+            "gen-m-0204c",
+            "gen-m-0125c",
+            "gen-m-0129c",
+            "gen-m-0156",
+            "gen-m-0159"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0024",
+            "gen-m-0227",
+            "gen-m-0038",
+            "gen-m-0228",
+            "gen-m-0163"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、解答题",
+          "description": "8 题，每题 10 分。",
+          "scorePerQuestion": 10,
+          "questionIds": [
+            "gen-m-0105",
+            "gen-m-0201",
+            "gen-m-0059",
+            "gen-m-0130",
+            "gen-m-0229",
+            "gen-m-0145",
+            "gen-m-0009",
+            "gen-m-0064"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-sim-005",
+      "subject": "math",
+      "title": "数学冲刺模拟卷（五）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 解答题。满分 125 分。",
+      "durationMinutes": 60,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0076c",
+            "gen-m-0005c",
+            "gen-m-0112c",
+            "gen-m-0186c",
+            "gen-m-0166c",
+            "gen-m-0253c",
+            "gen-m-0022c",
+            "gen-m-0189c",
+            "gen-m-0114c",
+            "gen-m-0103c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0045",
+            "gen-m-0098",
+            "gen-m-0060",
+            "gen-m-0018",
+            "gen-m-0076"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、解答题",
+          "description": "8 题，每题 10 分。",
+          "scorePerQuestion": 10,
+          "questionIds": [
+            "gen-m-0186",
+            "gen-m-0214",
+            "gen-m-0010",
+            "gen-m-0141",
+            "gen-m-0225",
+            "gen-m-0165",
+            "gen-m-0221",
+            "gen-m-0020"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-sim-006",
+      "subject": "math",
+      "title": "数学冲刺模拟卷（六）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 解答题。满分 125 分。",
+      "durationMinutes": 60,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0029c",
+            "gen-m-0082c",
+            "gen-m-0185c",
+            "gen-m-0120c",
+            "gen-m-0254c",
+            "gen-m-0247c",
+            "gen-m-0179c",
+            "gen-m-0258c",
+            "gen-m-0160",
+            "gen-m-0058c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0228",
+            "gen-m-0087",
+            "gen-m-0055",
+            "gen-m-0028",
+            "gen-m-0237"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、解答题",
+          "description": "8 题，每题 10 分。",
+          "scorePerQuestion": 10,
+          "questionIds": [
+            "gen-m-0189",
+            "gen-m-0150",
+            "gen-m-0215",
+            "gen-m-0110",
+            "gen-m-0015",
+            "gen-m-0254",
+            "gen-m-0053",
+            "gen-m-0014"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-sim-007",
+      "subject": "math",
+      "title": "数学冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 解答题。满分 125 分。",
+      "durationMinutes": 60,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0206c",
+            "gen-m-0188c",
+            "gen-m-0168c",
+            "gen-m-0017c",
+            "gen-m-0243c",
+            "gen-m-0124c",
+            "gen-m-0022c",
+            "gen-m-0005c",
+            "gen-m-0156",
+            "gen-m-0026c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0094",
+            "gen-m-0028",
+            "gen-m-0045",
+            "gen-m-0134",
+            "gen-m-0193"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、解答题",
+          "description": "8 题，每题 10 分。",
+          "scorePerQuestion": 10,
+          "questionIds": [
+            "gen-m-0194",
+            "gen-m-0145",
+            "gen-m-0240",
+            "gen-m-0025",
+            "gen-m-0231",
+            "gen-m-0102",
+            "gen-m-0021",
+            "gen-m-0244"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-sim-008",
+      "subject": "math",
+      "title": "数学冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 解答题。满分 125 分。",
+      "durationMinutes": 60,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0239c",
+            "gen-m-0070c",
+            "gen-m-0217c",
+            "gen-m-0134c",
+            "gen-m-0210c",
+            "gen-m-0124c",
+            "gen-m-0054c",
+            "gen-m-0179c",
+            "gen-m-0219c",
+            "gen-m-0185c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0108",
+            "gen-m-0207",
+            "gen-m-0036",
+            "gen-m-0183",
+            "gen-m-0087"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、解答题",
+          "description": "8 题，每题 10 分。",
+          "scorePerQuestion": 10,
+          "questionIds": [
+            "gen-m-0225",
+            "gen-m-0014",
+            "gen-m-0194",
+            "gen-m-0204",
+            "gen-m-0231",
+            "gen-m-0029",
+            "gen-m-0106",
+            "gen-m-0082"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-sim-009",
+      "subject": "math",
+      "title": "数学冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 解答题。满分 125 分。",
+      "durationMinutes": 60,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0054c",
+            "gen-m-0174c",
+            "gen-m-0250c",
+            "gen-m-0130c",
+            "gen-m-0058c",
+            "gen-m-0248c",
+            "gen-m-0249c",
+            "gen-m-0196c",
+            "gen-m-0120c",
+            "gen-m-0166c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0065",
+            "gen-m-0093",
+            "gen-m-0109",
+            "gen-m-0232",
+            "gen-m-0253"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、解答题",
+          "description": "8 题，每题 10 分。",
+          "scorePerQuestion": 10,
+          "questionIds": [
+            "gen-m-0062",
+            "gen-m-0191",
+            "gen-m-0023",
+            "gen-m-0251",
+            "gen-m-0064",
+            "gen-m-0226",
+            "gen-m-0067",
+            "gen-m-0127"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-sim-010",
+      "subject": "math",
+      "title": "数学冲刺模拟卷（undefined）",
+      "description": "卷面结构参考真实中考：选择题 / 填空题 / 解答题。满分 125 分。",
+      "durationMinutes": 60,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "sec-1",
+          "title": "一、选择题",
+          "description": "10 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0079c",
+            "gen-m-0077c",
+            "gen-m-0063c",
+            "gen-m-0105c",
+            "gen-m-0155",
+            "gen-m-0153",
+            "gen-m-0250c",
+            "gen-m-0010c",
+            "gen-m-0004c",
+            "gen-m-0130c"
+          ]
+        },
+        {
+          "id": "sec-2",
+          "title": "二、填空题",
+          "description": "5 题，每题 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-m-0203",
+            "gen-m-0237",
+            "gen-m-0047",
+            "gen-m-0217",
+            "gen-m-0228"
+          ]
+        },
+        {
+          "id": "sec-3",
+          "title": "三、解答题",
+          "description": "8 题，每题 10 分。",
+          "scorePerQuestion": 10,
+          "questionIds": [
+            "gen-m-0145",
+            "gen-m-0073",
+            "gen-m-0014",
+            "gen-m-0005",
+            "gen-m-0169",
+            "gen-m-0161",
+            "gen-m-0216",
+            "gen-m-0174"
           ]
         }
       ]

@@ -1,0 +1,5808 @@
+{
+  "version": "gen-chemistry-v0.15",
+  "questions": [
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0395",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：冰融化成水没有生成新物质，属于物理变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0396",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：木炭燃烧生成二氧化碳，属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0397",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：灯泡通电发光发热，属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0398",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：酒精挥发属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0399",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：食物腐败属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0400",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：铁生锈属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0401",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：汽油能溶解油污，属于汽油的化学性质",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0402",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：氧气能支持燃烧，属于氧气的化学性质",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0403",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：纸张燃烧生成二氧化碳和水，属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0404",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：酒精能燃烧，属于酒精的化学性质",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0405",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：水结冰体积变大，属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0406",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：胆矾研碎属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0407",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：蜡烛燃烧时既有物理变化又有化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0408",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：铁变成铁水属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0409",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：粮食酿酒属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0410",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：动植物的呼吸作用属于化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0411",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "stem": "下列说法正确的有（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "木炭燃烧生成二氧化碳，属于化学变化"
+        },
+        {
+          "key": "B",
+          "label": "冰融化成水没有生成新物质，属于物理变化"
+        },
+        {
+          "key": "C",
+          "label": "食物腐败属于化学变化"
+        },
+        {
+          "key": "D",
+          "label": "灯泡通电发光发热，属于化学变化"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "逐项判断：错误的说法是“灯泡通电发光发热，属于化学变化”，其余均正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0413",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：氧气约占空气体积的 21%",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0414",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：氮气约占空气体积的 78%",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0415",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：氧气能支持燃烧，是常用的氧化剂",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0416",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：氧气可以作燃料",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0417",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：铁丝在空气中能剧烈燃烧",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0418",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：氧气不易溶于水",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0419",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：红磷燃烧生成五氧化二磷",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0420",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：二氧化碳约占空气体积的 21%",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0421",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：细铁丝在氧气中燃烧生成四氧化三铁",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0422",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：木炭在氧气中发出白光",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0423",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：硫在氧气中燃烧发出微弱的淡蓝色火焰",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0424",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：硫在空气中燃烧发出淡蓝色火焰",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0425",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：氧气浓度越高，燃烧越剧烈",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0426",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：稀有气体约占空气体积的 0.94%",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0427",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：红磷燃烧产生大量白雾",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0431",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：分子在不停地运动",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0432",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：温度越高，分子运动越慢",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0433",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：分子之间没有间隔",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0434",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：原子在化学变化中不可再分",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0435",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：水是由氢元素和氧元素组成的",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0436",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：分子是保持物质化学性质的最小粒子（由分子构成的物质）",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0437",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：冰水混合物属于混合物",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0438",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：在化学变化中分子可以再分",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0439",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "stem": "下列说法正确的有（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "原子在化学变化中不可再分"
+        },
+        {
+          "key": "B",
+          "label": "温度越高，分子运动越慢"
+        },
+        {
+          "key": "C",
+          "label": "分子在不停地运动"
+        },
+        {
+          "key": "D",
+          "label": "水是由氢元素和氧元素组成的"
+        }
+      ],
+      "answer": "ACD",
+      "explanation": "逐项判断：错误的说法是“温度越高，分子运动越慢”，其余均正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0440",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一个 $\\text{H}_2\\text{O}$ 分子中含有 ______ 个原子。",
+      "answer": 3,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0441",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一个 $\\text{CO}_2$ 分子中含有 ______ 个原子。",
+      "answer": 3,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0442",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一个 $\\text{O}_2$ 分子中含有 ______ 个原子。",
+      "answer": 2,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0443",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一个 $\\text{NH}_3$ 分子中含有 ______ 个原子。",
+      "answer": 4,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：4 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0444",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一个 $\\text{H}_2$ 分子中含有 ______ 个原子。",
+      "answer": 2,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0445",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一个 $\\text{CO}$ 分子中含有 ______ 个原子。",
+      "answer": 2,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0446",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一个 $\\text{CH}_4$ 分子中含有 ______ 个原子。",
+      "answer": 5,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：5 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0447",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一个 $\\text{SO}_2$ 分子中含有 ______ 个原子。",
+      "answer": 3,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0448",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一个 $\\text{HCl}$ 分子中含有 ______ 个原子。",
+      "answer": 2,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0449",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一个 $\\text{P}_2\\text{O}_5$ 分子中含有 ______ 个原子。",
+      "answer": 7,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：7 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0450",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：原子中质子数等于核外电子数",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0451",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：原子核由质子和中子构成",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0452",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：原子中质子数一定等于中子数",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0453",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：钠原子易失去一个电子形成带正电的钠离子",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0454",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：原子核带负电",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0455",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：相对原子质量约等于质子数加中子数",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0456",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：原子核居于原子中心，体积极小",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0457",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "stem": "下列说法正确的有（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "钠原子易失去一个电子形成带正电的钠离子"
+        },
+        {
+          "key": "B",
+          "label": "原子中质子数等于核外电子数"
+        },
+        {
+          "key": "C",
+          "label": "原子核由质子和中子构成"
+        },
+        {
+          "key": "D",
+          "label": "原子中质子数一定等于中子数"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "逐项判断：错误的说法是“原子中质子数一定等于中子数”，其余均正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0458",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：某原子的质子数为 $8$，中子数为 $8$，它的相对原子质量约为 ______。",
+      "answer": 16,
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=8+8=16$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0459",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：某原子的质子数为 $11$，中子数为 $12$，它的相对原子质量约为 ______。",
+      "answer": 23,
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=11+12=23$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0460",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "某原子的质子数为 $6$，中子数为 $6$，它的相对原子质量约为 ______。",
+      "answer": 12,
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=6+6=12$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0461",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "某原子的质子数为 $13$，中子数为 $14$，它的相对原子质量约为 ______。",
+      "answer": 27,
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=13+14=27$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0462",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：某原子的质子数为 $17$，中子数为 $18$，它的相对原子质量约为 ______。",
+      "answer": 35,
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=17+18=35$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0463",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：某原子的质子数为 $19$，中子数为 $20$，它的相对原子质量约为 ______。",
+      "answer": 39,
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=19+20=39$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0464",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：某原子的质子数为 $16$，中子数为 $16$，它的相对原子质量约为 ______。",
+      "answer": 32,
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=16+16=32$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0465",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "某原子的质子数为 $2$，中子数为 $2$，它的相对原子质量约为 ______。",
+      "answer": 4,
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=2+2=4$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0466",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "某原子的质子数为 $12$，中子数为 $12$，它的相对原子质量约为 ______。",
+      "answer": 24,
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=12+12=24$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0467",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：某原子的质子数为 $9$，中子数为 $10$，它的相对原子质量约为 ______。",
+      "answer": 19,
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=9+10=19$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0468",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 硫 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "Na"
+        },
+        {
+          "key": "B",
+          "label": "K"
+        },
+        {
+          "key": "C",
+          "label": "S"
+        },
+        {
+          "key": "D",
+          "label": "Al"
+        }
+      ],
+      "answer": "C",
+      "explanation": "硫 的元素符号是 S，原子序数为 16。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0469",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 钠 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "S"
+        },
+        {
+          "key": "B",
+          "label": "Mg"
+        },
+        {
+          "key": "C",
+          "label": "P"
+        },
+        {
+          "key": "D",
+          "label": "Na"
+        }
+      ],
+      "answer": "D",
+      "explanation": "钠 的元素符号是 Na，原子序数为 11。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0470",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 铍 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "Be"
+        },
+        {
+          "key": "B",
+          "label": "F"
+        },
+        {
+          "key": "C",
+          "label": "B"
+        },
+        {
+          "key": "D",
+          "label": "Mg"
+        }
+      ],
+      "answer": "A",
+      "explanation": "铍 的元素符号是 Be，原子序数为 4。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0471",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 铝 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "Si"
+        },
+        {
+          "key": "B",
+          "label": "Mg"
+        },
+        {
+          "key": "C",
+          "label": "F"
+        },
+        {
+          "key": "D",
+          "label": "Al"
+        }
+      ],
+      "answer": "D",
+      "explanation": "铝 的元素符号是 Al，原子序数为 13。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0472",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 钙 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "Mg"
+        },
+        {
+          "key": "B",
+          "label": "Ca"
+        },
+        {
+          "key": "C",
+          "label": "Ne"
+        },
+        {
+          "key": "D",
+          "label": "C"
+        }
+      ],
+      "answer": "B",
+      "explanation": "钙 的元素符号是 Ca，原子序数为 20。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0473",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 钾 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "C"
+        },
+        {
+          "key": "B",
+          "label": "O"
+        },
+        {
+          "key": "C",
+          "label": "K"
+        },
+        {
+          "key": "D",
+          "label": "Be"
+        }
+      ],
+      "answer": "C",
+      "explanation": "钾 的元素符号是 K，原子序数为 19。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0474",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 氩 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "N"
+        },
+        {
+          "key": "B",
+          "label": "Be"
+        },
+        {
+          "key": "C",
+          "label": "Ar"
+        },
+        {
+          "key": "D",
+          "label": "K"
+        }
+      ],
+      "answer": "C",
+      "explanation": "氩 的元素符号是 Ar，原子序数为 18。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0475",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 镁 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "Li"
+        },
+        {
+          "key": "B",
+          "label": "Be"
+        },
+        {
+          "key": "C",
+          "label": "Mg"
+        },
+        {
+          "key": "D",
+          "label": "Ne"
+        }
+      ],
+      "answer": "C",
+      "explanation": "镁 的元素符号是 Mg，原子序数为 12。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0476",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 锂 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "O"
+        },
+        {
+          "key": "B",
+          "label": "F"
+        },
+        {
+          "key": "C",
+          "label": "Li"
+        },
+        {
+          "key": "D",
+          "label": "K"
+        }
+      ],
+      "answer": "C",
+      "explanation": "锂 的元素符号是 Li，原子序数为 3。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0477",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 硅 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "Si"
+        },
+        {
+          "key": "B",
+          "label": "Ca"
+        },
+        {
+          "key": "C",
+          "label": "He"
+        },
+        {
+          "key": "D",
+          "label": "O"
+        }
+      ],
+      "answer": "A",
+      "explanation": "硅 的元素符号是 Si，原子序数为 14。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0478",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 硼 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "Ca"
+        },
+        {
+          "key": "B",
+          "label": "Ne"
+        },
+        {
+          "key": "C",
+          "label": "B"
+        },
+        {
+          "key": "D",
+          "label": "He"
+        }
+      ],
+      "answer": "C",
+      "explanation": "硼 的元素符号是 B，原子序数为 5。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0479",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 磷 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "Be"
+        },
+        {
+          "key": "B",
+          "label": "P"
+        },
+        {
+          "key": "C",
+          "label": "Li"
+        },
+        {
+          "key": "D",
+          "label": "B"
+        }
+      ],
+      "answer": "B",
+      "explanation": "磷 的元素符号是 P，原子序数为 15。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0480",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 氢 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "H"
+        },
+        {
+          "key": "B",
+          "label": "O"
+        },
+        {
+          "key": "C",
+          "label": "Si"
+        },
+        {
+          "key": "D",
+          "label": "Cl"
+        }
+      ],
+      "answer": "A",
+      "explanation": "氢 的元素符号是 H，原子序数为 1。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0481",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 氦 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "K"
+        },
+        {
+          "key": "B",
+          "label": "P"
+        },
+        {
+          "key": "C",
+          "label": "He"
+        },
+        {
+          "key": "D",
+          "label": "S"
+        }
+      ],
+      "answer": "C",
+      "explanation": "氦 的元素符号是 He，原子序数为 2。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0482",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 氖 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "B"
+        },
+        {
+          "key": "B",
+          "label": "N"
+        },
+        {
+          "key": "C",
+          "label": "Ne"
+        },
+        {
+          "key": "D",
+          "label": "Na"
+        }
+      ],
+      "answer": "C",
+      "explanation": "氖 的元素符号是 Ne，原子序数为 10。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0483",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 碳 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "C"
+        },
+        {
+          "key": "B",
+          "label": "Na"
+        },
+        {
+          "key": "C",
+          "label": "Li"
+        },
+        {
+          "key": "D",
+          "label": "Ne"
+        }
+      ],
+      "answer": "A",
+      "explanation": "碳 的元素符号是 C，原子序数为 6。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0484",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：溶液质量等于溶质质量与溶剂质量之和",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0485",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：饱和溶液一定是浓溶液",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0486",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：电解水时正极产生氧气",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0487",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：电解水时负极产生氧气",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0488",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：洗涤剂去油污是乳化作用",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0489",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：溶液都是无色的",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0490",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：配制 $200\\ \\text{g}$ 质量分数为 $25\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 50,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=200\\times25\\%=50\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0491",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：配制 $50\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 2.5,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=50\\times5\\%=2.5\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0492",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "配制 $40\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 2,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=40\\times5\\%=2\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0493",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "配制 $80\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 16,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times20\\%=16\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0494",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：配制 $100\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 20,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times20\\%=20\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0495",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：配制 $100\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 20,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times20\\%=20\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0496",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：配制 $80\\ \\text{g}$ 质量分数为 $25\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 20,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times25\\%=20\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0497",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "配制 $80\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 8,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times10\\%=8\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0498",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "配制 $60\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 6,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=60\\times10\\%=6\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0499",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：配制 $50\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 2.5,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=50\\times5\\%=2.5\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0500",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：参加化学反应的各物质质量总和等于反应后生成的各物质质量总和",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0501",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：没有参加反应的剩余物质质量也计入反应物总质量",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0502",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：化学反应前后分子种类一定改变",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0503",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：化学反应前后原子数目可能改变",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0504",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：所有化学反应都遵守质量守恒定律",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0505",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$。现有 水 $18\\ \\text{g}$ 完全反应，生成 氢气 ______ $\\text{g}$。",
+      "answer": 2,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，36 份 水 对应 4 份 氢气（质量比 $36:4$）。$18\\ \\text{g}$ 水 生成 氢气 $=18\\times\\dfrac{4}{36}=2\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0506",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$。现有 水 $36\\ \\text{g}$ 完全反应，生成 氢气 ______ $\\text{g}$。",
+      "answer": 4,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，36 份 水 对应 4 份 氢气（质量比 $36:4$）。$36\\ \\text{g}$ 水 生成 氢气 $=36\\times\\dfrac{4}{36}=4\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0507",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$。现有 水 $54\\ \\text{g}$ 完全反应，生成 氢气 ______ $\\text{g}$。",
+      "answer": 6,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，36 份 水 对应 4 份 氢气（质量比 $36:4$）。$54\\ \\text{g}$ 水 生成 氢气 $=54\\times\\dfrac{4}{36}=6\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0508",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$。现有 水 $72\\ \\text{g}$ 完全反应，生成 氢气 ______ $\\text{g}$。",
+      "answer": 8,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，36 份 水 对应 4 份 氢气（质量比 $36:4$）。$72\\ \\text{g}$ 水 生成 氢气 $=72\\times\\dfrac{4}{36}=8\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0509",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$。现有 氯酸钾 $24.5\\ \\text{g}$ 完全反应，生成 氧气 ______ $\\text{g}$。",
+      "answer": 9.6,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$24.5\\ \\text{g}$ 氯酸钾 生成 氧气 $=24.5\\times\\dfrac{96}{245}=9.6\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0510",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$。现有 氯酸钾 $49\\ \\text{g}$ 完全反应，生成 氧气 ______ $\\text{g}$。",
+      "answer": 19.2,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$49\\ \\text{g}$ 氯酸钾 生成 氧气 $=49\\times\\dfrac{96}{245}=19.2\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0511",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$。现有 氯酸钾 $73.5\\ \\text{g}$ 完全反应，生成 氧气 ______ $\\text{g}$。",
+      "answer": 28.8,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$73.5\\ \\text{g}$ 氯酸钾 生成 氧气 $=73.5\\times\\dfrac{96}{245}=28.8\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0512",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$。现有 氯酸钾 $98\\ \\text{g}$ 完全反应，生成 氧气 ______ $\\text{g}$。",
+      "answer": 38.4,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$98\\ \\text{g}$ 氯酸钾 生成 氧气 $=98\\times\\dfrac{96}{245}=38.4\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0513",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$。现有 氧化铁 $16\\ \\text{g}$ 完全反应，生成 铁 ______ $\\text{g}$。",
+      "answer": 11.2,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，160 份 氧化铁 对应 112 份 铁（质量比 $160:112$）。$16\\ \\text{g}$ 氧化铁 生成 铁 $=16\\times\\dfrac{112}{160}=11.2\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0514",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$。现有 氧化铁 $32\\ \\text{g}$ 完全反应，生成 铁 ______ $\\text{g}$。",
+      "answer": 22.4,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，160 份 氧化铁 对应 112 份 铁（质量比 $160:112$）。$32\\ \\text{g}$ 氧化铁 生成 铁 $=32\\times\\dfrac{112}{160}=22.4\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0515",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$。现有 氧化铁 $48\\ \\text{g}$ 完全反应，生成 铁 ______ $\\text{g}$。",
+      "answer": 33.6,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，160 份 氧化铁 对应 112 份 铁（质量比 $160:112$）。$48\\ \\text{g}$ 氧化铁 生成 铁 $=48\\times\\dfrac{112}{160}=33.6\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 110,
+      "source": "题库生成 · 变式训练",
+      "commonMistake": "忘记化学计量数导致比例错误。",
+      "id": "gen-c-0516",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 3,
+      "stem": "计算题：$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$。现有 氧化铁 $80\\ \\text{g}$ 完全反应，生成 铁 ______ $\\text{g}$。",
+      "answer": 56,
+      "tolerance": 0.05,
+      "explanation": "【解答过程】由化学方程式，160 份 氧化铁 对应 112 份 铁（质量比 $160:112$）。$80\\ \\text{g}$ 氧化铁 生成 铁 $=80\\times\\dfrac{112}{160}=56\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0517",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：一氧化碳有毒，能与血红蛋白结合",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0518",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：二氧化碳有毒",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0519",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：干冰是固态二氧化碳，升华吸热",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0520",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：二氧化碳能供给呼吸",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0521",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：石墨具有良好的导电性",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0522",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：金刚石和石墨物理性质差异很大，因为碳原子排列方式不同",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0523",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：二氧化碳能使澄清石灰水变浑浊",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0524",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：一氧化碳能燃烧生成二氧化碳",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0525",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：二氧化碳燃烧生成一氧化碳",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0526",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：活性炭具有吸附性，可以除去色素和异味",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0527",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：金刚石是天然存在最硬的物质",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0528",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：石墨很软，可用来做铅笔芯",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0529",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：二氧化碳密度比空气大",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0530",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：一氧化碳难溶于水",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0531",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：向二氧化碳的水溶液中滴入紫色石蕊溶液，变红",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0532",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：一氧化碳和二氧化碳组成元素相同，化学性质也相同",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0533",
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "stem": "下列说法正确的有（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "干冰是固态二氧化碳，升华吸热"
+        },
+        {
+          "key": "B",
+          "label": "一氧化碳有毒，能与血红蛋白结合"
+        },
+        {
+          "key": "C",
+          "label": "石墨具有良好的导电性"
+        },
+        {
+          "key": "D",
+          "label": "二氧化碳有毒"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "逐项判断：错误的说法是“二氧化碳有毒”，其余均正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0534",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：铁生锈是铁与氧气、水共同作用的结果",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0535",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：铁生锈只需要氧气",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0536",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：在铁栏杆表面刷漆可以防止生锈",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0537",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：经常用水冲洗铁栏杆能防止生锈",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0538",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：铁是银白色金属",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0539",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：铜在潮湿的空气中容易生成铜绿",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0540",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：铝表面有致密的氧化膜，抗腐蚀能力强",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0541",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：生铁和钢都是铁的合金",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0542",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：钢的含碳量比生铁低",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0543",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：铁能与稀盐酸反应生成氢气",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0544",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：金在金属活动性顺序中排在最后",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0545",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：铝的金属活动性比铁强",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0546",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：配制波尔多液要用到硫酸铜",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0547",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：波尔多液不能用铁桶盛放，因为铁能与硫酸铜反应",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0548",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：一氧化碳可以用于冶炼金属",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0549",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：合金的硬度一般比组成它的纯金属大",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0550",
+      "knowledgePointIds": [
+        "chemistry-metal-iron"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "stem": "下列说法正确的有（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "铁是银白色金属"
+        },
+        {
+          "key": "B",
+          "label": "铁生锈是铁与氧气、水共同作用的结果"
+        },
+        {
+          "key": "C",
+          "label": "在铁栏杆表面刷漆可以防止生锈"
+        },
+        {
+          "key": "D",
+          "label": "铁生锈只需要氧气"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "逐项判断：错误的说法是“铁生锈只需要氧气”，其余均正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0551",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：紫色石蕊溶液遇酸变红",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0552",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：无色酚酞溶液遇碱变红",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0553",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：无色酚酞溶液遇酸变红",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0554",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：pH 小于 7 的溶液呈酸性",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0555",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：pH 等于 7 的溶液呈碱性",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0556",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：氢氧化钠俗称烧碱、火碱、苛性钠",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0557",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：用氢氧化钠改良酸性土壤最合适",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0558",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：熟石灰可用于改良酸性土壤",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0559",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：浓硫酸敞口放置质量会变大，因为它有吸水性",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0560",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：浓盐酸敞口放置质量会变小，因为它有挥发性",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0561",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：氢氧化钠溶液能使紫色石蕊溶液变蓝",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0562",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：胃酸过多的病人可以服用含氢氧化铝的药物",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0563",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：氢氧化钙俗称熟石灰、消石灰",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0564",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：碳酸钠俗称纯碱，但它属于盐而不是碱",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0565",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：镁条能与稀盐酸反应产生气泡",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0566",
+      "knowledgePointIds": [
+        "chemistry-acid-base-salt"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "stem": "下列说法正确的有（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "pH 小于 7 的溶液呈酸性"
+        },
+        {
+          "key": "B",
+          "label": "紫色石蕊溶液遇酸变红"
+        },
+        {
+          "key": "C",
+          "label": "无色酚酞溶液遇酸变红"
+        },
+        {
+          "key": "D",
+          "label": "无色酚酞溶液遇碱变红"
+        }
+      ],
+      "answer": "ABD",
+      "explanation": "逐项判断：错误的说法是“无色酚酞溶液遇酸变红”，其余均正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0567",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：给试管中液体加热，液体不超过试管容积的三分之一",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0568",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：可以用嘴吹灭酒精灯",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0569",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：稀释浓硫酸时应把水倒入浓硫酸",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0570",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：闻气体气味应用扇闻法",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0571",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：量筒读数时视线应与凹液面最低处保持水平",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0572",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：用剩的药品应放回原瓶",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0573",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：块状药品可以用镊子取用",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0574",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：取用液体药品时瓶塞要正放在桌面上",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0575",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：倾倒液体时标签要向着手心",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0576",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：加热试管时要先预热",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0577",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：可以用酒精灯的内焰加热",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0578",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：给试管中固体加热时，管口要略向下倾斜",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0579",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：托盘天平称量时要左物右码",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0580",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：实验室用剩的药品要放回原瓶",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0581",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：搅拌可以加快物质的溶解速度",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0582",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：试管内壁附着的水既不聚成水滴也不成股流下，说明已洗净",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0583",
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：取用液体药品后要立即盖紧瓶塞",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0588",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：燃烧需要可燃物、氧气和温度达到着火点",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0589",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：油锅着火可以盖上锅盖灭火",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0590",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：灭火时应设法降低可燃物的着火点",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0591",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：煤气泄漏时应先开窗通风",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0592",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：煤、石油、天然气是可再生能源",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0593",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：氢气燃烧产物只有水，是最清洁的燃料",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0594",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：温度低于着火点，可燃物不能燃烧",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0595",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：用水灭火是因为降低了可燃物的着火点",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0596",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：燃烧一定伴有发光、放热现象",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0597",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：所有的爆炸都是化学变化",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0598",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：天然气的主要成分是甲烷",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0599",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：甲烷是最简单的有机物",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0600",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：把柴火架空燃烧更旺，是因为增大了与氧气的接触面积",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0601",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：乙醇（酒精）是可再生能源",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0602",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：石油直接烧掉是最合理的利用方式",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0603",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "stem": "下列说法正确的有（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "灭火时应设法降低可燃物的着火点"
+        },
+        {
+          "key": "B",
+          "label": "煤气泄漏时应先开窗通风"
+        },
+        {
+          "key": "C",
+          "label": "燃烧需要可燃物、氧气和温度达到着火点"
+        },
+        {
+          "key": "D",
+          "label": "油锅着火可以盖上锅盖灭火"
+        }
+      ],
+      "answer": "BCD",
+      "explanation": "逐项判断：错误的说法是“灭火时应设法降低可燃物的着火点”，其余均正确。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 80,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0604",
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "stem": "下列说法正确的有（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "温度低于着火点，可燃物不能燃烧"
+        },
+        {
+          "key": "B",
+          "label": "天然气的主要成分是甲烷"
+        },
+        {
+          "key": "C",
+          "label": "煤、石油、天然气是可再生能源"
+        },
+        {
+          "key": "D",
+          "label": "燃烧一定伴有发光、放热现象"
+        }
+      ],
+      "answer": "ABD",
+      "explanation": "逐项判断：错误的说法是“煤、石油、天然气是可再生能源”，其余均正确。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0440c",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "一个 $\\text{H}_2\\text{O}$ 分子中含有 （　） 个原子。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "13"
+        },
+        {
+          "key": "B",
+          "label": "3"
+        },
+        {
+          "key": "C",
+          "label": "4"
+        },
+        {
+          "key": "D",
+          "label": "0"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0441c",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "一个 $\\text{CO}_2$ 分子中含有 （　） 个原子。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "5"
+        },
+        {
+          "key": "B",
+          "label": "3"
+        },
+        {
+          "key": "C",
+          "label": "8"
+        },
+        {
+          "key": "D",
+          "label": "2"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0442c",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "一个 $\\text{O}_2$ 分子中含有 （　） 个原子。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "3"
+        },
+        {
+          "key": "B",
+          "label": "2"
+        },
+        {
+          "key": "C",
+          "label": "1"
+        },
+        {
+          "key": "D",
+          "label": "5"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0443c",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "一个 $\\text{NH}_3$ 分子中含有 （　） 个原子。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "2"
+        },
+        {
+          "key": "B",
+          "label": "7"
+        },
+        {
+          "key": "C",
+          "label": "9"
+        },
+        {
+          "key": "D",
+          "label": "4"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：4 个。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0444c",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "一个 $\\text{H}_2$ 分子中含有 （　） 个原子。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "0"
+        },
+        {
+          "key": "B",
+          "label": "7"
+        },
+        {
+          "key": "C",
+          "label": "1"
+        },
+        {
+          "key": "D",
+          "label": "2"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0447c",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "一个 $\\text{SO}_2$ 分子中含有 （　） 个原子。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "2"
+        },
+        {
+          "key": "B",
+          "label": "1"
+        },
+        {
+          "key": "C",
+          "label": "5"
+        },
+        {
+          "key": "D",
+          "label": "3"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0448c",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "一个 $\\text{HCl}$ 分子中含有 （　） 个原子。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "5"
+        },
+        {
+          "key": "B",
+          "label": "1"
+        },
+        {
+          "key": "C",
+          "label": "12"
+        },
+        {
+          "key": "D",
+          "label": "2"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0449c",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "一个 $\\text{P}_2\\text{O}_5$ 分子中含有 （　） 个原子。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "8"
+        },
+        {
+          "key": "B",
+          "label": "5"
+        },
+        {
+          "key": "C",
+          "label": "7"
+        },
+        {
+          "key": "D",
+          "label": "9"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：7 个。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0458c",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "某原子的质子数为 $8$，中子数为 $8$，它的相对原子质量约为 （　）。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "16"
+        },
+        {
+          "key": "B",
+          "label": "21"
+        },
+        {
+          "key": "C",
+          "label": "15"
+        },
+        {
+          "key": "D",
+          "label": "26"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=8+8=16$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0460c",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "某原子的质子数为 $6$，中子数为 $6$，它的相对原子质量约为 （　）。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "12"
+        },
+        {
+          "key": "B",
+          "label": "17"
+        },
+        {
+          "key": "C",
+          "label": "15"
+        },
+        {
+          "key": "D",
+          "label": "14"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=6+6=12$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0461c",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "某原子的质子数为 $13$，中子数为 $14$，它的相对原子质量约为 （　）。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "22"
+        },
+        {
+          "key": "B",
+          "label": "7"
+        },
+        {
+          "key": "C",
+          "label": "39"
+        },
+        {
+          "key": "D",
+          "label": "27"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=13+14=27$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0463c",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "某原子的质子数为 $19$，中子数为 $20$，它的相对原子质量约为 （　）。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "43"
+        },
+        {
+          "key": "B",
+          "label": "37"
+        },
+        {
+          "key": "C",
+          "label": "39"
+        },
+        {
+          "key": "D",
+          "label": "49"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=19+20=39$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0465c",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "某原子的质子数为 $2$，中子数为 $2$，它的相对原子质量约为 （　）。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "6"
+        },
+        {
+          "key": "B",
+          "label": "14"
+        },
+        {
+          "key": "C",
+          "label": "1"
+        },
+        {
+          "key": "D",
+          "label": "4"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=2+2=4$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0466c",
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "某原子的质子数为 $12$，中子数为 $12$，它的相对原子质量约为 （　）。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "84"
+        },
+        {
+          "key": "B",
+          "label": "20"
+        },
+        {
+          "key": "C",
+          "label": "27"
+        },
+        {
+          "key": "D",
+          "label": "24"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=12+12=24$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0492c",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "配制 $40\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "1"
+        },
+        {
+          "key": "B",
+          "label": "2"
+        },
+        {
+          "key": "C",
+          "label": "0"
+        },
+        {
+          "key": "D",
+          "label": "3"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=40\\times5\\%=2\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0493c",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "配制 $80\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "11"
+        },
+        {
+          "key": "B",
+          "label": "16"
+        },
+        {
+          "key": "C",
+          "label": "14"
+        },
+        {
+          "key": "D",
+          "label": "18"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times20\\%=16\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0494c",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "配制 $100\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "15"
+        },
+        {
+          "key": "B",
+          "label": "25"
+        },
+        {
+          "key": "C",
+          "label": "21"
+        },
+        {
+          "key": "D",
+          "label": "20"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times20\\%=20\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0495c",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "配制 $100\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "20"
+        },
+        {
+          "key": "B",
+          "label": "19"
+        },
+        {
+          "key": "C",
+          "label": "25"
+        },
+        {
+          "key": "D",
+          "label": "15"
+        }
+      ],
+      "answer": "A",
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times20\\%=20\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0496c",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "配制 $80\\ \\text{g}$ 质量分数为 $25\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "19"
+        },
+        {
+          "key": "B",
+          "label": "15"
+        },
+        {
+          "key": "C",
+          "label": "22"
+        },
+        {
+          "key": "D",
+          "label": "20"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times25\\%=20\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0497c",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "配制 $80\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "18"
+        },
+        {
+          "key": "B",
+          "label": "8"
+        },
+        {
+          "key": "C",
+          "label": "9"
+        },
+        {
+          "key": "D",
+          "label": "7"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times10\\%=8\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0498c",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "配制 $60\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "1"
+        },
+        {
+          "key": "B",
+          "label": "6"
+        },
+        {
+          "key": "C",
+          "label": "7"
+        },
+        {
+          "key": "D",
+          "label": "11"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=60\\times10\\%=6\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0505c",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 66,
+      "stem": "计算题：$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$。现有 水 $18\\ \\text{g}$ 完全反应，生成 氢气 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "1"
+        },
+        {
+          "key": "B",
+          "label": "5"
+        },
+        {
+          "key": "C",
+          "label": "2"
+        },
+        {
+          "key": "D",
+          "label": "12"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】由化学方程式，36 份 水 对应 4 份 氢气（质量比 $36:4$）。$18\\ \\text{g}$ 水 生成 氢气 $=18\\times\\dfrac{4}{36}=2\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0506c",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 66,
+      "stem": "计算题：$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$。现有 水 $36\\ \\text{g}$ 完全反应，生成 氢气 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "14"
+        },
+        {
+          "key": "B",
+          "label": "5"
+        },
+        {
+          "key": "C",
+          "label": "4"
+        },
+        {
+          "key": "D",
+          "label": "7"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】由化学方程式，36 份 水 对应 4 份 氢气（质量比 $36:4$）。$36\\ \\text{g}$ 水 生成 氢气 $=36\\times\\dfrac{4}{36}=4\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0507c",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 66,
+      "stem": "计算题：$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$。现有 水 $54\\ \\text{g}$ 完全反应，生成 氢气 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "3"
+        },
+        {
+          "key": "B",
+          "label": "6"
+        },
+        {
+          "key": "C",
+          "label": "1"
+        },
+        {
+          "key": "D",
+          "label": "8"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】由化学方程式，36 份 水 对应 4 份 氢气（质量比 $36:4$）。$54\\ \\text{g}$ 水 生成 氢气 $=54\\times\\dfrac{4}{36}=6\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0510c",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 66,
+      "stem": "计算题：$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$。现有 氯酸钾 $49\\ \\text{g}$ 完全反应，生成 氧气 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "18.2"
+        },
+        {
+          "key": "B",
+          "label": "29.2"
+        },
+        {
+          "key": "C",
+          "label": "20.2"
+        },
+        {
+          "key": "D",
+          "label": "19.2"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$49\\ \\text{g}$ 氯酸钾 生成 氧气 $=49\\times\\dfrac{96}{245}=19.2\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0511c",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 66,
+      "stem": "计算题：$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$。现有 氯酸钾 $73.5\\ \\text{g}$ 完全反应，生成 氧气 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "78.8"
+        },
+        {
+          "key": "B",
+          "label": "34.8"
+        },
+        {
+          "key": "C",
+          "label": "24.8"
+        },
+        {
+          "key": "D",
+          "label": "28.8"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$73.5\\ \\text{g}$ 氯酸钾 生成 氧气 $=73.5\\times\\dfrac{96}{245}=28.8\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0512c",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 66,
+      "stem": "计算题：$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$。现有 氯酸钾 $98\\ \\text{g}$ 完全反应，生成 氧气 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "8.4"
+        },
+        {
+          "key": "B",
+          "label": "33.4"
+        },
+        {
+          "key": "C",
+          "label": "38.4"
+        },
+        {
+          "key": "D",
+          "label": "98.4"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$98\\ \\text{g}$ 氯酸钾 生成 氧气 $=98\\times\\dfrac{96}{245}=38.4\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0514c",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 66,
+      "stem": "计算题：$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$。现有 氧化铁 $32\\ \\text{g}$ 完全反应，生成 铁 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "37.4"
+        },
+        {
+          "key": "B",
+          "label": "42.4"
+        },
+        {
+          "key": "C",
+          "label": "26.4"
+        },
+        {
+          "key": "D",
+          "label": "22.4"
+        }
+      ],
+      "answer": "D",
+      "explanation": "【解答过程】由化学方程式，160 份 氧化铁 对应 112 份 铁（质量比 $160:112$）。$32\\ \\text{g}$ 氧化铁 生成 铁 $=32\\times\\dfrac{112}{160}=22.4\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0516c",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 66,
+      "stem": "计算题：$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$。现有 氧化铁 $80\\ \\text{g}$ 完全反应，生成 铁 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "62"
+        },
+        {
+          "key": "B",
+          "label": "56"
+        },
+        {
+          "key": "C",
+          "label": "50"
+        },
+        {
+          "key": "D",
+          "label": "71"
+        }
+      ],
+      "answer": "B",
+      "explanation": "【解答过程】由化学方程式，160 份 氧化铁 对应 112 份 铁（质量比 $160:112$）。$80\\ \\text{g}$ 氧化铁 生成 铁 $=80\\times\\dfrac{112}{160}=56\\ \\text{g}$。"
+    }
+  ]
+}

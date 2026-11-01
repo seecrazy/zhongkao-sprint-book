@@ -8,6 +8,11 @@ import englishContent from "./english.json";
 import englishExamContent from "./english-exams.json";
 import chineseContent from "./chinese.json";
 import chineseExamContent from "./chinese-exams.json";
+import mathGenerated from "./math-generated.json";
+import physicsGenerated from "./physics-generated.json";
+import chemistryGenerated from "./chemistry-generated.json";
+import englishGenerated from "./english-generated.json";
+import chineseGenerated from "./chinese-generated.json";
 import type { ExamPaper, KnowledgePoint, Question, Subject } from "../types";
 
 export interface SubjectContent {
@@ -26,7 +31,10 @@ const math: SubjectContent = {
   contentVersion: mathContent.version,
   examVersion: mathExamContent.version,
   knowledgePoints: mathContent.knowledgePoints as KnowledgePoint[],
-  questions: mathContent.questions as Question[],
+  questions: [
+    ...(mathContent.questions as Question[]),
+    ...(mathGenerated.questions as Question[]),
+  ],
   exams: mathExamContent.exams as ExamPaper[],
 };
 
@@ -36,7 +44,10 @@ const physics: SubjectContent = {
   contentVersion: physicsContent.version,
   examVersion: physicsExamContent.version,
   knowledgePoints: physicsContent.knowledgePoints as KnowledgePoint[],
-  questions: physicsContent.questions as Question[],
+  questions: [
+    ...(physicsContent.questions as Question[]),
+    ...(physicsGenerated.questions as Question[]),
+  ],
   exams: physicsExamContent.exams as ExamPaper[],
 };
 
@@ -46,7 +57,10 @@ const chemistry: SubjectContent = {
   contentVersion: chemistryContent.version,
   examVersion: chemistryExamContent.version,
   knowledgePoints: chemistryContent.knowledgePoints as KnowledgePoint[],
-  questions: chemistryContent.questions as Question[],
+  questions: [
+    ...(chemistryContent.questions as Question[]),
+    ...(chemistryGenerated.questions as Question[]),
+  ],
   exams: chemistryExamContent.exams as ExamPaper[],
 };
 
@@ -56,7 +70,10 @@ const english: SubjectContent = {
   contentVersion: englishContent.version,
   examVersion: englishExamContent.version,
   knowledgePoints: englishContent.knowledgePoints as KnowledgePoint[],
-  questions: englishContent.questions as Question[],
+  questions: [
+    ...(englishContent.questions as Question[]),
+    ...(englishGenerated.questions as Question[]),
+  ],
   exams: englishExamContent.exams as ExamPaper[],
 };
 
@@ -66,7 +83,10 @@ const chinese: SubjectContent = {
   contentVersion: chineseContent.version,
   examVersion: chineseExamContent.version,
   knowledgePoints: chineseContent.knowledgePoints as KnowledgePoint[],
-  questions: chineseContent.questions as Question[],
+  questions: [
+    ...(chineseContent.questions as Question[]),
+    ...(chineseGenerated.questions as Question[]),
+  ],
   exams: chineseExamContent.exams as ExamPaper[],
 };
 

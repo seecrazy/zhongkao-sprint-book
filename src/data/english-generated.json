@@ -1,0 +1,3898 @@
+{
+  "version": "gen-english-v0.15",
+  "questions": [
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0605",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (go) TV every day.",
+      "acceptedAnswers": [
+        "goes"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 goes。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0606",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (go) TV yesterday.",
+      "acceptedAnswers": [
+        "went"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 went。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0607",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (go) TV now.",
+      "acceptedAnswers": [
+        "is going"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is going。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0608",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (go) TV since 2010.",
+      "acceptedAnswers": [
+        "has gone"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has gone。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0609",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (watch) TV every day.",
+      "acceptedAnswers": [
+        "watches"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 watches。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0610",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (watch) TV yesterday.",
+      "acceptedAnswers": [
+        "watched"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 watched。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0611",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (watch) TV now.",
+      "acceptedAnswers": [
+        "is watching"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is watching。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0612",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (watch) TV since 2010.",
+      "acceptedAnswers": [
+        "has watched"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has watched。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0613",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (play) TV every day.",
+      "acceptedAnswers": [
+        "plays"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 plays。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0614",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (play) TV yesterday.",
+      "acceptedAnswers": [
+        "played"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 played。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0615",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (play) TV now.",
+      "acceptedAnswers": [
+        "is playing"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is playing。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0616",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (play) TV since 2010.",
+      "acceptedAnswers": [
+        "has played"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has played。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0617",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (study) TV every day.",
+      "acceptedAnswers": [
+        "studies"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 studies。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0618",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (study) TV yesterday.",
+      "acceptedAnswers": [
+        "studied"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 studied。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0619",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (study) TV now.",
+      "acceptedAnswers": [
+        "is studying"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is studying。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0620",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (study) TV since 2010.",
+      "acceptedAnswers": [
+        "has studied"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has studied。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0621",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (live) TV every day.",
+      "acceptedAnswers": [
+        "lives"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 lives。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0622",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (live) TV yesterday.",
+      "acceptedAnswers": [
+        "lived"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 lived。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0623",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (live) TV now.",
+      "acceptedAnswers": [
+        "is living"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is living。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0624",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (live) TV since 2010.",
+      "acceptedAnswers": [
+        "has lived"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has lived。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0625",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (stop) TV every day.",
+      "acceptedAnswers": [
+        "stops"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 stops。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0626",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (stop) TV yesterday.",
+      "acceptedAnswers": [
+        "stopped"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 stopped。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0627",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (stop) TV now.",
+      "acceptedAnswers": [
+        "is stopping"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is stopping。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0628",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (stop) TV since 2010.",
+      "acceptedAnswers": [
+        "has stopped"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has stopped。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0629",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (buy) TV every day.",
+      "acceptedAnswers": [
+        "buys"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 buys。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0630",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (buy) TV yesterday.",
+      "acceptedAnswers": [
+        "bought"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 bought。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0631",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (buy) TV now.",
+      "acceptedAnswers": [
+        "is buying"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is buying。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0632",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (buy) TV since 2010.",
+      "acceptedAnswers": [
+        "has bought"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has bought。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0633",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (eat) TV every day.",
+      "acceptedAnswers": [
+        "eats"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 eats。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0634",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (eat) TV yesterday.",
+      "acceptedAnswers": [
+        "ate"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 ate。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0635",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (eat) TV now.",
+      "acceptedAnswers": [
+        "is eating"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is eating。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0636",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (eat) TV since 2010.",
+      "acceptedAnswers": [
+        "has eaten"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has eaten。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0637",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (do) TV every day.",
+      "acceptedAnswers": [
+        "does"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 does。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0638",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (do) TV yesterday.",
+      "acceptedAnswers": [
+        "did"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 did。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0639",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (do) TV now.",
+      "acceptedAnswers": [
+        "is doing"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is doing。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0640",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (do) TV since 2010.",
+      "acceptedAnswers": [
+        "has done"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has done。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0641",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (have) TV every day.",
+      "acceptedAnswers": [
+        "has"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 has。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0642",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (have) TV yesterday.",
+      "acceptedAnswers": [
+        "had"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 had。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0643",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (have) TV now.",
+      "acceptedAnswers": [
+        "is having"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is having。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0644",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (have) TV since 2010.",
+      "acceptedAnswers": [
+        "has had"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has had。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0645",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (see) TV every day.",
+      "acceptedAnswers": [
+        "sees"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 sees。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0646",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (see) TV yesterday.",
+      "acceptedAnswers": [
+        "saw"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 saw。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0647",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (see) TV now.",
+      "acceptedAnswers": [
+        "is seeing"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is seeing。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0648",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (see) TV since 2010.",
+      "acceptedAnswers": [
+        "has seen"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has seen。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0649",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (take) TV every day.",
+      "acceptedAnswers": [
+        "takes"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 takes。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0650",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (take) TV yesterday.",
+      "acceptedAnswers": [
+        "took"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 took。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0651",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (take) TV now.",
+      "acceptedAnswers": [
+        "is taking"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is taking。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0652",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (take) TV since 2010.",
+      "acceptedAnswers": [
+        "has taken"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has taken。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0653",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (write) TV every day.",
+      "acceptedAnswers": [
+        "writes"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 writes。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0654",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (write) TV yesterday.",
+      "acceptedAnswers": [
+        "wrote"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 wrote。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0655",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (write) TV now.",
+      "acceptedAnswers": [
+        "is writing"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is writing。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0656",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (write) TV since 2010.",
+      "acceptedAnswers": [
+        "has written"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has written。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0657",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (clean) TV every day.",
+      "acceptedAnswers": [
+        "cleans"
+      ],
+      "answerKind": "text",
+      "explanation": "every day 是一般现在时标志词，动词用 cleans。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0658",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (clean) TV yesterday.",
+      "acceptedAnswers": [
+        "cleaned"
+      ],
+      "answerKind": "text",
+      "explanation": "yesterday 是一般过去时标志词，动词用 cleaned。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0659",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (clean) TV now.",
+      "acceptedAnswers": [
+        "is cleaning"
+      ],
+      "answerKind": "text",
+      "explanation": "now 是现在进行时标志词，动词用 is cleaning。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0660",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：He ___ (clean) TV since 2010.",
+      "acceptedAnswers": [
+        "has cleaned"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，动词用 has cleaned。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0661",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The room ___ (clean) every day.",
+      "acceptedAnswers": [
+        "is cleaned"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：is cleaned。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0662",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The English ___ (speak) around the world.",
+      "acceptedAnswers": [
+        "is spoken"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：is spoken。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0663",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The tree ___ (plant) in spring.",
+      "acceptedAnswers": [
+        "are planted"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：are planted。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0664",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The car ___ (make) in this factory.",
+      "acceptedAnswers": [
+        "is made"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：is made。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0665",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The book ___ (write) by Lu Xun.",
+      "acceptedAnswers": [
+        "was written"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：was written。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0666",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The bike ___ (sell) last week.",
+      "acceptedAnswers": [
+        "was sold"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：was sold。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0667",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The bridge ___ (build) in 1990.",
+      "acceptedAnswers": [
+        "was built"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：was built。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0668",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The window ___ (break) by the boy.",
+      "acceptedAnswers": [
+        "was broken"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：was broken。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0669",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The door ___ (lock) every evening.",
+      "acceptedAnswers": [
+        "is locked"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：is locked。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0670",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The food ___ (eat) by animals.",
+      "acceptedAnswers": [
+        "was eaten"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：was eaten。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0671",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The letter ___ (send) yesterday.",
+      "acceptedAnswers": [
+        "was sent"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：was sent。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0672",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The homework ___ (finish) already.",
+      "acceptedAnswers": [
+        "has been finished"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：has been finished。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0673",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The flowers ___ (water) every morning.",
+      "acceptedAnswers": [
+        "are watered"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：are watered。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0674",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The problems ___ (discuss) at the meeting.",
+      "acceptedAnswers": [
+        "were discussed"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：were discussed。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0675",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The stamps ___ (collect) by him.",
+      "acceptedAnswers": [
+        "are collected"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：are collected。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0676",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The the thief ___ (catch) last night.",
+      "acceptedAnswers": [
+        "was caught"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：was caught。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0677",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：The rice ___ (grow) in the south.",
+      "acceptedAnswers": [
+        "is grown"
+      ],
+      "answerKind": "text",
+      "explanation": "主语是动作承受者，用被动语态 be + done：is grown。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0678",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "I want to know ___ he lives.",
+      "options": [
+        {
+          "key": "A",
+          "label": "where"
+        },
+        {
+          "key": "B",
+          "label": "what"
+        },
+        {
+          "key": "C",
+          "label": "who"
+        },
+        {
+          "key": "D",
+          "label": "when"
+        }
+      ],
+      "answer": "A",
+      "explanation": "疑问副词 where 引导宾语从句，表示地点。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0679",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "He said that he ___ come the next day.",
+      "options": [
+        {
+          "key": "A",
+          "label": "will"
+        },
+        {
+          "key": "B",
+          "label": "would"
+        },
+        {
+          "key": "C",
+          "label": "does"
+        },
+        {
+          "key": "D",
+          "label": "has"
+        }
+      ],
+      "answer": "B",
+      "explanation": "主句过去时，从句用过去将来时 would come。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0680",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "This is the book ___ I bought yesterday.",
+      "options": [
+        {
+          "key": "A",
+          "label": "who"
+        },
+        {
+          "key": "B",
+          "label": "which"
+        },
+        {
+          "key": "C",
+          "label": "what"
+        },
+        {
+          "key": "D",
+          "label": "whose"
+        }
+      ],
+      "answer": "B",
+      "explanation": "先行词是物，用 which/that。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0681",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "Do you know ___ she is waiting for?",
+      "options": [
+        {
+          "key": "A",
+          "label": "who"
+        },
+        {
+          "key": "B",
+          "label": "which"
+        },
+        {
+          "key": "C",
+          "label": "when"
+        },
+        {
+          "key": "D",
+          "label": "where"
+        }
+      ],
+      "answer": "A",
+      "explanation": "等待的是人，用 who。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0682",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "I will tell you ___ the meeting begins — at nine.",
+      "options": [
+        {
+          "key": "A",
+          "label": "when"
+        },
+        {
+          "key": "B",
+          "label": "where"
+        },
+        {
+          "key": "C",
+          "label": "why"
+        },
+        {
+          "key": "D",
+          "label": "how"
+        }
+      ],
+      "answer": "A",
+      "explanation": "答语是时间，用 when。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0683",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "The girl ___ is standing there is my sister.",
+      "options": [
+        {
+          "key": "A",
+          "label": "who"
+        },
+        {
+          "key": "B",
+          "label": "which"
+        },
+        {
+          "key": "C",
+          "label": "what"
+        },
+        {
+          "key": "D",
+          "label": "whose"
+        }
+      ],
+      "answer": "A",
+      "explanation": "先行词 the girl 是人，关系词作主语用 who。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0684",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "He asked me ___ I liked the film.",
+      "options": [
+        {
+          "key": "A",
+          "label": "if"
+        },
+        {
+          "key": "B",
+          "label": "what"
+        },
+        {
+          "key": "C",
+          "label": "when"
+        },
+        {
+          "key": "D",
+          "label": "where"
+        }
+      ],
+      "answer": "A",
+      "explanation": "表示“是否”用 if/whether。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0685",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "This is the house ___ we visited last year.",
+      "options": [
+        {
+          "key": "A",
+          "label": "who"
+        },
+        {
+          "key": "B",
+          "label": "which"
+        },
+        {
+          "key": "C",
+          "label": "whose"
+        },
+        {
+          "key": "D",
+          "label": "whom only"
+        }
+      ],
+      "answer": "B",
+      "explanation": "先行词是物，用 which。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0686",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "I don't know ___ book this is.",
+      "options": [
+        {
+          "key": "A",
+          "label": "who"
+        },
+        {
+          "key": "B",
+          "label": "whose"
+        },
+        {
+          "key": "C",
+          "label": "which"
+        },
+        {
+          "key": "D",
+          "label": "that"
+        }
+      ],
+      "answer": "B",
+      "explanation": "表示“谁的”，用 whose。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0687",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "Could you tell me ___ the library is? — Over there.",
+      "options": [
+        {
+          "key": "A",
+          "label": "where"
+        },
+        {
+          "key": "B",
+          "label": "what"
+        },
+        {
+          "key": "C",
+          "label": "who"
+        },
+        {
+          "key": "D",
+          "label": "why"
+        }
+      ],
+      "answer": "A",
+      "explanation": "答语是地点，用 where。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0688",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "He is the man ___ helped me.",
+      "options": [
+        {
+          "key": "A",
+          "label": "who"
+        },
+        {
+          "key": "B",
+          "label": "which"
+        },
+        {
+          "key": "C",
+          "label": "whose"
+        },
+        {
+          "key": "D",
+          "label": "what"
+        }
+      ],
+      "answer": "A",
+      "explanation": "先行词是人且作主语，用 who。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0689",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "I wonder ___ he will come tomorrow or not.",
+      "options": [
+        {
+          "key": "A",
+          "label": "whether"
+        },
+        {
+          "key": "B",
+          "label": "when"
+        },
+        {
+          "key": "C",
+          "label": "who"
+        },
+        {
+          "key": "D",
+          "label": "which"
+        }
+      ],
+      "answer": "A",
+      "explanation": "whether...or not 是固定搭配。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0690",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "Do you remember ___ we first met? — In 2018.",
+      "options": [
+        {
+          "key": "A",
+          "label": "when"
+        },
+        {
+          "key": "B",
+          "label": "where"
+        },
+        {
+          "key": "C",
+          "label": "why"
+        },
+        {
+          "key": "D",
+          "label": "what"
+        }
+      ],
+      "answer": "A",
+      "explanation": "答语是时间，用 when。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0691",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "The story ___ he told us is very interesting.",
+      "options": [
+        {
+          "key": "A",
+          "label": "who"
+        },
+        {
+          "key": "B",
+          "label": "which"
+        },
+        {
+          "key": "C",
+          "label": "whose"
+        },
+        {
+          "key": "D",
+          "label": "whom only"
+        }
+      ],
+      "answer": "B",
+      "explanation": "先行词是物，用 which。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0692",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "I hear ___ a new hotel will be built here soon.",
+      "options": [
+        {
+          "key": "A",
+          "label": "that"
+        },
+        {
+          "key": "B",
+          "label": "what"
+        },
+        {
+          "key": "C",
+          "label": "when"
+        },
+        {
+          "key": "D",
+          "label": "where"
+        }
+      ],
+      "answer": "A",
+      "explanation": "陈述内容用 that 引导。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0693",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "Do you know the woman ___ son is a doctor?",
+      "options": [
+        {
+          "key": "A",
+          "label": "who"
+        },
+        {
+          "key": "B",
+          "label": "which"
+        },
+        {
+          "key": "C",
+          "label": "whose"
+        },
+        {
+          "key": "D",
+          "label": "what"
+        }
+      ],
+      "answer": "C",
+      "explanation": "表示“……的”，用 whose。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 55,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0694",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "This is the place ___ we first met.",
+      "options": [
+        {
+          "key": "A",
+          "label": "where"
+        },
+        {
+          "key": "B",
+          "label": "which"
+        },
+        {
+          "key": "C",
+          "label": "who"
+        },
+        {
+          "key": "D",
+          "label": "what"
+        }
+      ],
+      "answer": "A",
+      "explanation": "先行词是地点，且在从句中作状语，用 where。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0695",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“moon”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "房子"
+        },
+        {
+          "key": "B",
+          "label": "雨"
+        },
+        {
+          "key": "C",
+          "label": "窗户"
+        },
+        {
+          "key": "D",
+          "label": "月亮"
+        }
+      ],
+      "answer": "D",
+      "explanation": "moon 意为“月亮”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0696",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“queen”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "教师"
+        },
+        {
+          "key": "B",
+          "label": "月亮"
+        },
+        {
+          "key": "C",
+          "label": "女王"
+        },
+        {
+          "key": "D",
+          "label": "动物园"
+        }
+      ],
+      "answer": "C",
+      "explanation": "queen 意为“女王”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0697",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“egg”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "鸡蛋"
+        },
+        {
+          "key": "B",
+          "label": "雨"
+        },
+        {
+          "key": "C",
+          "label": "医院"
+        },
+        {
+          "key": "D",
+          "label": "果汁"
+        }
+      ],
+      "answer": "A",
+      "explanation": "egg 意为“鸡蛋”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0698",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“rain”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "雨"
+        },
+        {
+          "key": "B",
+          "label": "国王"
+        },
+        {
+          "key": "C",
+          "label": "果汁"
+        },
+        {
+          "key": "D",
+          "label": "树"
+        }
+      ],
+      "answer": "A",
+      "explanation": "rain 意为“雨”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0699",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“apple”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "月亮"
+        },
+        {
+          "key": "B",
+          "label": "太阳"
+        },
+        {
+          "key": "C",
+          "label": "苹果"
+        },
+        {
+          "key": "D",
+          "label": "窗户"
+        }
+      ],
+      "answer": "C",
+      "explanation": "apple 意为“苹果”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0700",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“house”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "房子"
+        },
+        {
+          "key": "B",
+          "label": "雨"
+        },
+        {
+          "key": "C",
+          "label": "树"
+        },
+        {
+          "key": "D",
+          "label": "钢笔"
+        }
+      ],
+      "answer": "A",
+      "explanation": "house 意为“房子”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0701",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“dog”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "狗"
+        },
+        {
+          "key": "B",
+          "label": "果汁"
+        },
+        {
+          "key": "C",
+          "label": "窗户"
+        },
+        {
+          "key": "D",
+          "label": "房子"
+        }
+      ],
+      "answer": "A",
+      "explanation": "dog 意为“狗”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0702",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“girl”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "教师"
+        },
+        {
+          "key": "B",
+          "label": "橙子"
+        },
+        {
+          "key": "C",
+          "label": "女孩"
+        },
+        {
+          "key": "D",
+          "label": "太阳"
+        }
+      ],
+      "answer": "C",
+      "explanation": "girl 意为“女孩”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0703",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“pen”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "钢笔"
+        },
+        {
+          "key": "B",
+          "label": "国王"
+        },
+        {
+          "key": "C",
+          "label": "果汁"
+        },
+        {
+          "key": "D",
+          "label": "狗"
+        }
+      ],
+      "answer": "A",
+      "explanation": "pen 意为“钢笔”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0704",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“hospital”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "教师"
+        },
+        {
+          "key": "B",
+          "label": "钢笔"
+        },
+        {
+          "key": "C",
+          "label": "医院"
+        },
+        {
+          "key": "D",
+          "label": "女王"
+        }
+      ],
+      "answer": "C",
+      "explanation": "hospital 意为“医院”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0705",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“fish”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "橙子"
+        },
+        {
+          "key": "B",
+          "label": "水"
+        },
+        {
+          "key": "C",
+          "label": "夜晚"
+        },
+        {
+          "key": "D",
+          "label": "鱼"
+        }
+      ],
+      "answer": "D",
+      "explanation": "fish 意为“鱼”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0706",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“book”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "狮子"
+        },
+        {
+          "key": "B",
+          "label": "书"
+        },
+        {
+          "key": "C",
+          "label": "月亮"
+        },
+        {
+          "key": "D",
+          "label": "橙子"
+        }
+      ],
+      "answer": "B",
+      "explanation": "book 意为“书”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0707",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“orange”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "窗户"
+        },
+        {
+          "key": "B",
+          "label": "橙子"
+        },
+        {
+          "key": "C",
+          "label": "女孩"
+        },
+        {
+          "key": "D",
+          "label": "雨"
+        }
+      ],
+      "answer": "B",
+      "explanation": "orange 意为“橙子”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0708",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“window”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "医院"
+        },
+        {
+          "key": "B",
+          "label": "窗户"
+        },
+        {
+          "key": "C",
+          "label": "果汁"
+        },
+        {
+          "key": "D",
+          "label": "夜晚"
+        }
+      ],
+      "answer": "B",
+      "explanation": "window 意为“窗户”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0709",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“water”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "水"
+        },
+        {
+          "key": "B",
+          "label": "医院"
+        },
+        {
+          "key": "C",
+          "label": "钢笔"
+        },
+        {
+          "key": "D",
+          "label": "房子"
+        }
+      ],
+      "answer": "A",
+      "explanation": "water 意为“水”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0710",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“tree”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "树"
+        },
+        {
+          "key": "B",
+          "label": "女孩"
+        },
+        {
+          "key": "C",
+          "label": "猫"
+        },
+        {
+          "key": "D",
+          "label": "鸡蛋"
+        }
+      ],
+      "answer": "A",
+      "explanation": "tree 意为“树”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0711",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“lion”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "窗户"
+        },
+        {
+          "key": "B",
+          "label": "房子"
+        },
+        {
+          "key": "C",
+          "label": "橙子"
+        },
+        {
+          "key": "D",
+          "label": "狮子"
+        }
+      ],
+      "answer": "D",
+      "explanation": "lion 意为“狮子”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0712",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“night”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "树"
+        },
+        {
+          "key": "B",
+          "label": "夜晚"
+        },
+        {
+          "key": "C",
+          "label": "水"
+        },
+        {
+          "key": "D",
+          "label": "狮子"
+        }
+      ],
+      "answer": "B",
+      "explanation": "night 意为“夜晚”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0713",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“cat”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "月亮"
+        },
+        {
+          "key": "B",
+          "label": "猫"
+        },
+        {
+          "key": "C",
+          "label": "果汁"
+        },
+        {
+          "key": "D",
+          "label": "橙子"
+        }
+      ],
+      "answer": "B",
+      "explanation": "cat 意为“猫”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0714",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“juice”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "夜晚"
+        },
+        {
+          "key": "B",
+          "label": "鸡蛋"
+        },
+        {
+          "key": "C",
+          "label": "月亮"
+        },
+        {
+          "key": "D",
+          "label": "果汁"
+        }
+      ],
+      "answer": "D",
+      "explanation": "juice 意为“果汁”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0715",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—How are you?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "Fine, thank you. And you?"
+        },
+        {
+          "key": "B",
+          "label": "I'm fifteen."
+        },
+        {
+          "key": "C",
+          "label": "How do you do?"
+        }
+      ],
+      "answer": "A",
+      "explanation": "情景应答：How are you? 的习惯应答是 Fine, thank you. And you?。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0716",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—What's your name?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "He is Li Ming."
+        },
+        {
+          "key": "B",
+          "label": "I'm fine, thanks."
+        },
+        {
+          "key": "C",
+          "label": "My name is Li Ming."
+        }
+      ],
+      "answer": "C",
+      "explanation": "情景应答：What's your name? 的习惯应答是 My name is Li Ming.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0717",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—Thank you for your help.　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "Good idea."
+        },
+        {
+          "key": "B",
+          "label": "You're welcome."
+        },
+        {
+          "key": "C",
+          "label": "That's right."
+        }
+      ],
+      "answer": "B",
+      "explanation": "情景应答：Thank you for your help. 的习惯应答是 You're welcome.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0718",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—I'm sorry I'm late.　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "Yes, please."
+        },
+        {
+          "key": "B",
+          "label": "You're welcome."
+        },
+        {
+          "key": "C",
+          "label": "It doesn't matter."
+        }
+      ],
+      "answer": "C",
+      "explanation": "情景应答：I'm sorry I'm late. 的习惯应答是 It doesn't matter.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0719",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—Would you like some tea?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "Yes, I would."
+        },
+        {
+          "key": "B",
+          "label": "No, I don't."
+        },
+        {
+          "key": "C",
+          "label": "Yes, please."
+        }
+      ],
+      "answer": "C",
+      "explanation": "情景应答：Would you like some tea? 的习惯应答是 Yes, please.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0720",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—What does your mother do?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "She is at home."
+        },
+        {
+          "key": "B",
+          "label": "She is a nurse."
+        },
+        {
+          "key": "C",
+          "label": "She is fine."
+        }
+      ],
+      "answer": "B",
+      "explanation": "情景应答：What does your mother do? 的习惯应答是 She is a nurse.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0721",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—How do you do?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "How are you?"
+        },
+        {
+          "key": "B",
+          "label": "How do you do?"
+        },
+        {
+          "key": "C",
+          "label": "Fine, thanks."
+        }
+      ],
+      "answer": "B",
+      "explanation": "情景应答：How do you do? 的习惯应答是 How do you do?。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0722",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—Shall we go to the park?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "Good idea!"
+        },
+        {
+          "key": "B",
+          "label": "Not at all."
+        },
+        {
+          "key": "C",
+          "label": "Yes, I do."
+        }
+      ],
+      "answer": "A",
+      "explanation": "情景应答：Shall we go to the park? 的习惯应答是 Good idea!。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0723",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—What's the weather like today?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "It's Monday."
+        },
+        {
+          "key": "B",
+          "label": "It's five o'clock."
+        },
+        {
+          "key": "C",
+          "label": "It's sunny."
+        }
+      ],
+      "answer": "C",
+      "explanation": "情景应答：What's the weather like today? 的习惯应答是 It's sunny.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0724",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—Happy birthday to you!　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "The same to me only."
+        },
+        {
+          "key": "B",
+          "label": "Thank you!"
+        },
+        {
+          "key": "C",
+          "label": "You're right."
+        }
+      ],
+      "answer": "B",
+      "explanation": "情景应答：Happy birthday to you! 的习惯应答是 Thank you!。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0725",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—Could I borrow your pen?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "Thank you."
+        },
+        {
+          "key": "B",
+          "label": "Certainly. Here you are."
+        },
+        {
+          "key": "C",
+          "label": "You're welcome."
+        }
+      ],
+      "answer": "B",
+      "explanation": "情景应答：Could I borrow your pen? 的习惯应答是 Certainly. Here you are.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0726",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—Where are you from?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "I'm fine."
+        },
+        {
+          "key": "B",
+          "label": "I'm from Beijing."
+        },
+        {
+          "key": "C",
+          "label": "I like it."
+        }
+      ],
+      "answer": "B",
+      "explanation": "情景应答：Where are you from? 的习惯应答是 I'm from Beijing.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0727",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—What time is it now?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "It's Sunday."
+        },
+        {
+          "key": "B",
+          "label": "It's half past seven."
+        },
+        {
+          "key": "C",
+          "label": "It's cold."
+        }
+      ],
+      "answer": "B",
+      "explanation": "情景应答：What time is it now? 的习惯应答是 It's half past seven.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0728",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—Let's play basketball after school.　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "That sounds great."
+        },
+        {
+          "key": "B",
+          "label": "You're welcome."
+        },
+        {
+          "key": "C",
+          "label": "It doesn't matter."
+        }
+      ],
+      "answer": "A",
+      "explanation": "情景应答：Let's play basketball after school. 的习惯应答是 That sounds great.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0729",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—How was your trip?　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "Next week."
+        },
+        {
+          "key": "B",
+          "label": "It was wonderful."
+        },
+        {
+          "key": "C",
+          "label": "By train."
+        }
+      ],
+      "answer": "B",
+      "explanation": "情景应答：How was your trip? 的习惯应答是 It was wonderful.。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0730",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "—See you tomorrow!　—___",
+      "options": [
+        {
+          "key": "A",
+          "label": "How are you?"
+        },
+        {
+          "key": "B",
+          "label": "Hello!"
+        },
+        {
+          "key": "C",
+          "label": "See you!"
+        }
+      ],
+      "answer": "C",
+      "explanation": "情景应答：See you tomorrow! 的习惯应答是 See you!。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0731",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：This box is ___ (tall) than that one.",
+      "acceptedAnswers": [
+        "taller"
+      ],
+      "answerKind": "text",
+      "explanation": "than 引出比较对象，用比较级 taller。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0732",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：This box is ___ (big) than that one.",
+      "acceptedAnswers": [
+        "bigger"
+      ],
+      "answerKind": "text",
+      "explanation": "than 引出比较对象，用比较级 bigger。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0733",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：She is ___ (hot) student in our class.",
+      "acceptedAnswers": [
+        "the hottest",
+        "hottest"
+      ],
+      "answerKind": "text",
+      "explanation": "in our class 表示范围超过两者，用最高级 the hottest。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0734",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：She is ___ (early) student in our class.",
+      "acceptedAnswers": [
+        "the earliest",
+        "earliest"
+      ],
+      "answerKind": "text",
+      "explanation": "in our class 表示范围超过两者，用最高级 the earliest。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0735",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：This box is ___ (happy) than that one.",
+      "acceptedAnswers": [
+        "happier"
+      ],
+      "answerKind": "text",
+      "explanation": "than 引出比较对象，用比较级 happier。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0736",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：This box is ___ (heavy) than that one.",
+      "acceptedAnswers": [
+        "heavier"
+      ],
+      "answerKind": "text",
+      "explanation": "than 引出比较对象，用比较级 heavier。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0737",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：This box is ___ (thin) than that one.",
+      "acceptedAnswers": [
+        "thinner"
+      ],
+      "answerKind": "text",
+      "explanation": "than 引出比较对象，用比较级 thinner。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0738",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：She is ___ (easy) student in our class.",
+      "acceptedAnswers": [
+        "the easiest",
+        "easiest"
+      ],
+      "answerKind": "text",
+      "explanation": "in our class 表示范围超过两者，用最高级 the easiest。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0739",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：She is ___ (good) student in our class.",
+      "acceptedAnswers": [
+        "the best",
+        "best"
+      ],
+      "answerKind": "text",
+      "explanation": "in our class 表示范围超过两者，用最高级 the best。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0740",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：She is ___ (bad) student in our class.",
+      "acceptedAnswers": [
+        "the worst",
+        "worst"
+      ],
+      "answerKind": "text",
+      "explanation": "in our class 表示范围超过两者，用最高级 the worst。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0741",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：She is ___ (many) student in our class.",
+      "acceptedAnswers": [
+        "the most",
+        "most"
+      ],
+      "answerKind": "text",
+      "explanation": "in our class 表示范围超过两者，用最高级 the most。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0742",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：She is ___ (little) student in our class.",
+      "acceptedAnswers": [
+        "the least",
+        "least"
+      ],
+      "answerKind": "text",
+      "explanation": "in our class 表示范围超过两者，用最高级 the least。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0743",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：She is ___ (far) student in our class.",
+      "acceptedAnswers": [
+        "the farthest",
+        "farthest"
+      ],
+      "answerKind": "text",
+      "explanation": "in our class 表示范围超过两者，用最高级 the farthest。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0744",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：This box is ___ (interesting) than that one.",
+      "acceptedAnswers": [
+        "more interesting"
+      ],
+      "answerKind": "text",
+      "explanation": "than 引出比较对象，用比较级 more interesting。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0745",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：This box is ___ (beautiful) than that one.",
+      "acceptedAnswers": [
+        "more beautiful"
+      ],
+      "answerKind": "text",
+      "explanation": "than 引出比较对象，用比较级 more beautiful。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0746",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：This box is ___ (careful) than that one.",
+      "acceptedAnswers": [
+        "more careful"
+      ],
+      "answerKind": "text",
+      "explanation": "than 引出比较对象，用比较级 more careful。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0747",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：She is ___ (cold) student in our class.",
+      "acceptedAnswers": [
+        "the coldest",
+        "coldest"
+      ],
+      "answerKind": "text",
+      "explanation": "in our class 表示范围超过两者，用最高级 the coldest。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0748",
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "用所给词的适当形式填空：This box is ___ (strong) than that one.",
+      "acceptedAnswers": [
+        "stronger"
+      ],
+      "answerKind": "text",
+      "explanation": "than 引出比较对象，用比较级 stronger。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0749",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "You ___ be quiet in the library.",
+      "options": [
+        {
+          "key": "A",
+          "label": "must"
+        },
+        {
+          "key": "B",
+          "label": "can"
+        },
+        {
+          "key": "C",
+          "label": "may"
+        },
+        {
+          "key": "D",
+          "label": "would"
+        }
+      ],
+      "answer": "A",
+      "explanation": "图书馆必须安静，表义务用 must。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0750",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "___ I hand in my homework now? — No, you needn't.",
+      "options": [
+        {
+          "key": "A",
+          "label": "Must"
+        },
+        {
+          "key": "B",
+          "label": "Can"
+        },
+        {
+          "key": "C",
+          "label": "May"
+        },
+        {
+          "key": "D",
+          "label": "Should"
+        }
+      ],
+      "answer": "A",
+      "explanation": "must 提问的否定回答用 needn't。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0751",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "He ___ swim when he was five.",
+      "options": [
+        {
+          "key": "A",
+          "label": "can"
+        },
+        {
+          "key": "B",
+          "label": "could"
+        },
+        {
+          "key": "C",
+          "label": "may"
+        },
+        {
+          "key": "D",
+          "label": "must"
+        }
+      ],
+      "answer": "B",
+      "explanation": "表示过去的能力用 could。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0752",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "You ___ not smoke here. It's dangerous.",
+      "options": [
+        {
+          "key": "A",
+          "label": "must"
+        },
+        {
+          "key": "B",
+          "label": "can"
+        },
+        {
+          "key": "C",
+          "label": "need"
+        },
+        {
+          "key": "D",
+          "label": "would"
+        }
+      ],
+      "answer": "A",
+      "explanation": "mustn't 表示强烈禁止。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0753",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "___ you like some coffee?",
+      "options": [
+        {
+          "key": "A",
+          "label": "Would"
+        },
+        {
+          "key": "B",
+          "label": "Could"
+        },
+        {
+          "key": "C",
+          "label": "Must"
+        },
+        {
+          "key": "D",
+          "label": "Should"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Would you like...? 是固定邀请句型。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0754",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "Students ___ finish their homework on time.",
+      "options": [
+        {
+          "key": "A",
+          "label": "should"
+        },
+        {
+          "key": "B",
+          "label": "would"
+        },
+        {
+          "key": "C",
+          "label": "could"
+        },
+        {
+          "key": "D",
+          "label": "might"
+        }
+      ],
+      "answer": "A",
+      "explanation": "表示建议、责任用 should。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0755",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "___ I use your phone? — Sure, go ahead.",
+      "options": [
+        {
+          "key": "A",
+          "label": "May"
+        },
+        {
+          "key": "B",
+          "label": "Must"
+        },
+        {
+          "key": "C",
+          "label": "Should"
+        },
+        {
+          "key": "D",
+          "label": "Would"
+        }
+      ],
+      "answer": "A",
+      "explanation": "may 表示请求许可。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0756",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "She ___ speak three languages.",
+      "options": [
+        {
+          "key": "A",
+          "label": "can"
+        },
+        {
+          "key": "B",
+          "label": "must"
+        },
+        {
+          "key": "C",
+          "label": "should"
+        },
+        {
+          "key": "D",
+          "label": "would"
+        }
+      ],
+      "answer": "A",
+      "explanation": "表示能力用 can。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0757",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "The light is on. He ___ be at home.",
+      "options": [
+        {
+          "key": "A",
+          "label": "must"
+        },
+        {
+          "key": "B",
+          "label": "can't"
+        },
+        {
+          "key": "C",
+          "label": "need"
+        },
+        {
+          "key": "D",
+          "label": "shall"
+        }
+      ],
+      "answer": "A",
+      "explanation": "must 可表示有把握的推测。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0758",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "You ___ worry. Everything will be fine.",
+      "options": [
+        {
+          "key": "A",
+          "label": "needn't"
+        },
+        {
+          "key": "B",
+          "label": "mustn't"
+        },
+        {
+          "key": "C",
+          "label": "can't"
+        },
+        {
+          "key": "D",
+          "label": "shouldn't"
+        }
+      ],
+      "answer": "A",
+      "explanation": "表示“不必担心”用 needn't。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0759",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "We ___ wear uniforms at school every day.",
+      "options": [
+        {
+          "key": "A",
+          "label": "have to"
+        },
+        {
+          "key": "B",
+          "label": "would"
+        },
+        {
+          "key": "C",
+          "label": "could"
+        },
+        {
+          "key": "D",
+          "label": "might"
+        }
+      ],
+      "answer": "A",
+      "explanation": "have to 表示客观必须。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0760",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "___ we go now? — Yes, let's.",
+      "options": [
+        {
+          "key": "A",
+          "label": "Shall"
+        },
+        {
+          "key": "B",
+          "label": "Will"
+        },
+        {
+          "key": "C",
+          "label": "Must"
+        },
+        {
+          "key": "D",
+          "label": "Need"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Shall we...? 表示建议。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0761",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "I ___ like some noodles.",
+      "options": [
+        {
+          "key": "A",
+          "label": "would"
+        },
+        {
+          "key": "B",
+          "label": "must"
+        },
+        {
+          "key": "C",
+          "label": "should"
+        },
+        {
+          "key": "D",
+          "label": "need"
+        }
+      ],
+      "answer": "A",
+      "explanation": "would like 表示“想要”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0762",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "He ___ come tomorrow, but I'm not sure.",
+      "options": [
+        {
+          "key": "A",
+          "label": "might"
+        },
+        {
+          "key": "B",
+          "label": "must"
+        },
+        {
+          "key": "C",
+          "label": "should"
+        },
+        {
+          "key": "D",
+          "label": "can't"
+        }
+      ],
+      "answer": "A",
+      "explanation": "might 表示不确定的推测。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0763",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "___ I ask you a question? — Of course.",
+      "options": [
+        {
+          "key": "A",
+          "label": "May"
+        },
+        {
+          "key": "B",
+          "label": "Must"
+        },
+        {
+          "key": "C",
+          "label": "Shall"
+        },
+        {
+          "key": "D",
+          "label": "Need"
+        }
+      ],
+      "answer": "A",
+      "explanation": "may 表示请求许可。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0764",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "We ___ obey the school rules.",
+      "options": [
+        {
+          "key": "A",
+          "label": "should"
+        },
+        {
+          "key": "B",
+          "label": "would"
+        },
+        {
+          "key": "C",
+          "label": "could"
+        },
+        {
+          "key": "D",
+          "label": "might"
+        }
+      ],
+      "answer": "A",
+      "explanation": "表示应该遵守的规范用 should。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0765",
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "___ you pass me the salt? — Sure.",
+      "options": [
+        {
+          "key": "A",
+          "label": "Could"
+        },
+        {
+          "key": "B",
+          "label": "Must"
+        },
+        {
+          "key": "C",
+          "label": "Need"
+        },
+        {
+          "key": "D",
+          "label": "Shall"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Could you...? 表示委婉请求。"
+    }
+  ]
+}

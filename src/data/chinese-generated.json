@@ -1,0 +1,4470 @@
+{
+  "version": "gen-chinese-v0.15",
+  "questions": [
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0766",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“角色”中加点的字（取“角”字）读音接近正确的一项是（　）——考查词语“角色”中“角”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "角（chù）"
+        },
+        {
+          "key": "B",
+          "label": "角（jué）"
+        },
+        {
+          "key": "C",
+          "label": "角（xù）"
+        },
+        {
+          "key": "D",
+          "label": "角（pán）"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“角色”的“角”读 jué。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0767",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“处理”中加点的字（取“处”字）读音接近正确的一项是（　）——考查词语“处理”中“处”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "处（chǔ）"
+        },
+        {
+          "key": "B",
+          "label": "处（chóu）"
+        },
+        {
+          "key": "C",
+          "label": "处（jí）"
+        },
+        {
+          "key": "D",
+          "label": "处（jí）"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“处理”的“处”读 chǔ。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0768",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“到处”中加点的字（取“到”字）读音接近正确的一项是（　）——考查词语“到处”中“到”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "到（jí）"
+        },
+        {
+          "key": "B",
+          "label": "到（hái）"
+        },
+        {
+          "key": "C",
+          "label": "到（jǔ）"
+        },
+        {
+          "key": "D",
+          "label": "到（chù）"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“到处”的“到”读 chù。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0769",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“载歌载舞”中加点的字（取“载”字）读音接近正确的一项是（　）——考查词语“载歌载舞”中“载”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "载（pán）"
+        },
+        {
+          "key": "B",
+          "label": "载（jí）"
+        },
+        {
+          "key": "C",
+          "label": "载（chóu）"
+        },
+        {
+          "key": "D",
+          "label": "载（zài）"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“载歌载舞”的“载”读 zài。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0770",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“酗酒”中加点的字（取“酗”字）读音接近正确的一项是（　）——考查词语“酗酒”中“酗”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "酗（jī）"
+        },
+        {
+          "key": "B",
+          "label": "酗（xù）"
+        },
+        {
+          "key": "C",
+          "label": "酗（yīn）"
+        },
+        {
+          "key": "D",
+          "label": "酗（chóu）"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“酗酒”的“酗”读 xù。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0771",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“一筹莫展”中加点的字（取“一”字）读音接近正确的一项是（　）——考查词语“一筹莫展”中“一”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "一（chóu）"
+        },
+        {
+          "key": "B",
+          "label": "一（jí）"
+        },
+        {
+          "key": "C",
+          "label": "一（chǔ）"
+        },
+        {
+          "key": "D",
+          "label": "一（pán）"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“一筹莫展”的“一”读 chóu。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0772",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“魁梧”中加点的字（取“魁”字）读音接近正确的一项是（　）——考查词语“魁梧”中“魁”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "魁（chóu）"
+        },
+        {
+          "key": "B",
+          "label": "魁（wú）"
+        },
+        {
+          "key": "C",
+          "label": "魁（pán）"
+        },
+        {
+          "key": "D",
+          "label": "魁（yīn）"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“魁梧”的“魁”读 wú。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0773",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“惬意”中加点的字（取“惬”字）读音接近正确的一项是（　）——考查词语“惬意”中“惬”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "惬（chéng）"
+        },
+        {
+          "key": "B",
+          "label": "惬（qiè）"
+        },
+        {
+          "key": "C",
+          "label": "惬（hái）"
+        },
+        {
+          "key": "D",
+          "label": "惬（chóu）"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“惬意”的“惬”读 qiè。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0774",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“咀嚼”中加点的字（取“咀”字）读音接近正确的一项是（　）——考查词语“咀嚼”中“咀”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "咀（jǔ）"
+        },
+        {
+          "key": "B",
+          "label": "咀（jí）"
+        },
+        {
+          "key": "C",
+          "label": "咀（pán）"
+        },
+        {
+          "key": "D",
+          "label": "咀（chóu）"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“咀嚼”的“咀”读 jǔ。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0775",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“惩戒”中加点的字（取“惩”字）读音接近正确的一项是（　）——考查词语“惩戒”中“惩”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "惩（kàng）"
+        },
+        {
+          "key": "B",
+          "label": "惩（chóu）"
+        },
+        {
+          "key": "C",
+          "label": "惩（chéng）"
+        },
+        {
+          "key": "D",
+          "label": "惩（jī）"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“惩戒”的“惩”读 chéng。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0776",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“骸骨”中加点的字（取“骸”字）读音接近正确的一项是（　）——考查词语“骸骨”中“骸”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "骸（hái）"
+        },
+        {
+          "key": "B",
+          "label": "骸（huái）"
+        },
+        {
+          "key": "C",
+          "label": "骸（chǔ）"
+        },
+        {
+          "key": "D",
+          "label": "骸（chéng）"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“骸骨”的“骸”读 hái。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0777",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“嫉妒”中加点的字（取“嫉”字）读音接近正确的一项是（　）——考查词语“嫉妒”中“嫉”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "嫉（qiè）"
+        },
+        {
+          "key": "B",
+          "label": "嫉（chóu）"
+        },
+        {
+          "key": "C",
+          "label": "嫉（kàng）"
+        },
+        {
+          "key": "D",
+          "label": "嫉（jí）"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“嫉妒”的“嫉”读 jí。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0778",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“滑稽”中加点的字（取“滑”字）读音接近正确的一项是（　）——考查词语“滑稽”中“滑”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "滑（kàng）"
+        },
+        {
+          "key": "B",
+          "label": "滑（chéng）"
+        },
+        {
+          "key": "C",
+          "label": "滑（jǔ）"
+        },
+        {
+          "key": "D",
+          "label": "滑（jī）"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“滑稽”的“滑”读 jī。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0779",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“踌躇”中加点的字（取“踌”字）读音接近正确的一项是（　）——考查词语“踌躇”中“踌”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "踌（chóu）"
+        },
+        {
+          "key": "B",
+          "label": "踌（chéng）"
+        },
+        {
+          "key": "C",
+          "label": "踌（zài）"
+        },
+        {
+          "key": "D",
+          "label": "踌（xù）"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“踌躇”的“踌”读 chóu。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0780",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“徘徊”中加点的字（取“徘”字）读音接近正确的一项是（　）——考查词语“徘徊”中“徘”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "徘（jī）"
+        },
+        {
+          "key": "B",
+          "label": "徘（yīn）"
+        },
+        {
+          "key": "C",
+          "label": "徘（huái）"
+        },
+        {
+          "key": "D",
+          "label": "徘（chéng）"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“徘徊”的“徘”读 huái。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0781",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“蹒跚”中加点的字（取“蹒”字）读音接近正确的一项是（　）——考查词语“蹒跚”中“蹒”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "蹒（yīn）"
+        },
+        {
+          "key": "B",
+          "label": "蹒（jué）"
+        },
+        {
+          "key": "C",
+          "label": "蹒（huái）"
+        },
+        {
+          "key": "D",
+          "label": "蹒（pán）"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“蹒跚”的“蹒”读 pán。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0782",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“皎洁”中加点的字（取“皎”字）读音接近正确的一项是（　）——考查词语“皎洁”中“皎”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "皎（chóu）"
+        },
+        {
+          "key": "B",
+          "label": "皎（chǔ）"
+        },
+        {
+          "key": "C",
+          "label": "皎（jiǎo）"
+        },
+        {
+          "key": "D",
+          "label": "皎（jué）"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“皎洁”的“皎”读 jiǎo。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0783",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“汲取”中加点的字（取“汲”字）读音接近正确的一项是（　）——考查词语“汲取”中“汲”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "汲（hái）"
+        },
+        {
+          "key": "B",
+          "label": "汲（jí）"
+        },
+        {
+          "key": "C",
+          "label": "汲（jiǎo）"
+        },
+        {
+          "key": "D",
+          "label": "汲（yīn）"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“汲取”的“汲”读 jí。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0784",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“亢奋”中加点的字（取“亢”字）读音接近正确的一项是（　）——考查词语“亢奋”中“亢”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "亢（jī）"
+        },
+        {
+          "key": "B",
+          "label": "亢（hái）"
+        },
+        {
+          "key": "C",
+          "label": "亢（chóu）"
+        },
+        {
+          "key": "D",
+          "label": "亢（kàng）"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“亢奋”的“亢”读 kàng。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0785",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“荫蔽”中加点的字（取“荫”字）读音接近正确的一项是（　）——考查词语“荫蔽”中“荫”的读音",
+      "options": [
+        {
+          "key": "A",
+          "label": "荫（chéng）"
+        },
+        {
+          "key": "B",
+          "label": "荫（pán）"
+        },
+        {
+          "key": "C",
+          "label": "荫（yīn）"
+        },
+        {
+          "key": "D",
+          "label": "荫（jí）"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“荫蔽”的“荫”读 yīn。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0786",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：一chóu莫展（填括号处的字）",
+      "acceptedAnswers": [
+        "筹"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“筹”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0787",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：迫不jí待（填括号处的字）",
+      "acceptedAnswers": [
+        "及"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“及”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0788",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：走tóu无路（填括号处的字）",
+      "acceptedAnswers": [
+        "投"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“投”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0789",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：xián慕（填括号处的字）",
+      "acceptedAnswers": [
+        "羡"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“羡”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0790",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：jiǎo健（填括号处的字）",
+      "acceptedAnswers": [
+        "矫"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“矫”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0791",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：áo游（填括号处的字）",
+      "acceptedAnswers": [
+        "遨"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“遨”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0792",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：yín诵（填括号处的字）",
+      "acceptedAnswers": [
+        "吟"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“吟”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0793",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：xié带（填括号处的字）",
+      "acceptedAnswers": [
+        "携"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“携”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0794",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：松xiè（填括号处的字）",
+      "acceptedAnswers": [
+        "懈"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“懈”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0795",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：juàn恋（填括号处的字）",
+      "acceptedAnswers": [
+        "眷"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“眷”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0796",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：屏zhàng（填括号处的字）",
+      "acceptedAnswers": [
+        "障"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“障”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0797",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "根据拼音写汉字：zhù立（填括号处的字）",
+      "acceptedAnswers": [
+        "伫"
+      ],
+      "answerKind": "text",
+      "explanation": "应写作“伫”。据义定形，先理解词义再写字。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0798",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“一丝不苟”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "根据当地情况制定办法"
+        },
+        {
+          "key": "B",
+          "label": "做事认真细致毫不马虎"
+        },
+        {
+          "key": "C",
+          "label": "不用说就可以明白"
+        },
+        {
+          "key": "D",
+          "label": "温习旧知识获得新的理解"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“一丝不苟”：做事认真细致毫不马虎。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0799",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“胸有成竹”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "向地位低的人请教不感到羞耻"
+        },
+        {
+          "key": "B",
+          "label": "长久坚持下去"
+        },
+        {
+          "key": "C",
+          "label": "互相配合更显各自长处"
+        },
+        {
+          "key": "D",
+          "label": "做事之前已有通盘考虑"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“胸有成竹”：做事之前已有通盘考虑。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0800",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“半途而废”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "中途停止不坚持到底"
+        },
+        {
+          "key": "B",
+          "label": "随随便便不放在心上"
+        },
+        {
+          "key": "C",
+          "label": "基础牢固不易动摇"
+        },
+        {
+          "key": "D",
+          "label": "家家户户都知道"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“半途而废”：中途停止不坚持到底。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0801",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“相得益彰”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "互相配合更显各自长处"
+        },
+        {
+          "key": "B",
+          "label": "过分看轻自己"
+        },
+        {
+          "key": "C",
+          "label": "家家户户都知道"
+        },
+        {
+          "key": "D",
+          "label": "全世界都在注视"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“相得益彰”：互相配合更显各自长处。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0802",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“因地制宜”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "长久坚持下去"
+        },
+        {
+          "key": "B",
+          "label": "根据当地情况制定办法"
+        },
+        {
+          "key": "C",
+          "label": "基础牢固不易动摇"
+        },
+        {
+          "key": "D",
+          "label": "做事认真细致毫不马虎"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“因地制宜”：根据当地情况制定办法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0803",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“妄自菲薄”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "做事之前已有通盘考虑"
+        },
+        {
+          "key": "B",
+          "label": "过分看轻自己"
+        },
+        {
+          "key": "C",
+          "label": "中途停止不坚持到底"
+        },
+        {
+          "key": "D",
+          "label": "人声嘈杂如锅水沸腾"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“妄自菲薄”：过分看轻自己。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0804",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“随声附和”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "有恒心有毅力坚持到底"
+        },
+        {
+          "key": "B",
+          "label": "没有主见跟着别人说"
+        },
+        {
+          "key": "C",
+          "label": "做事之前已有通盘考虑"
+        },
+        {
+          "key": "D",
+          "label": "全世界都在注视"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“随声附和”：没有主见跟着别人说。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0805",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“人声鼎沸”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "不用说就可以明白"
+        },
+        {
+          "key": "B",
+          "label": "人声嘈杂如锅水沸腾"
+        },
+        {
+          "key": "C",
+          "label": "中途停止不坚持到底"
+        },
+        {
+          "key": "D",
+          "label": "长久坚持下去"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“人声鼎沸”：人声嘈杂如锅水沸腾。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0806",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“持之以恒”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "集中注意力"
+        },
+        {
+          "key": "B",
+          "label": "长久坚持下去"
+        },
+        {
+          "key": "C",
+          "label": "没有主见跟着别人说"
+        },
+        {
+          "key": "D",
+          "label": "精神高度集中"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“持之以恒”：长久坚持下去。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0807",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“脍炙人口”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "好诗文被人称赞传诵"
+        },
+        {
+          "key": "B",
+          "label": "有恒心有毅力坚持到底"
+        },
+        {
+          "key": "C",
+          "label": "中途停止不坚持到底"
+        },
+        {
+          "key": "D",
+          "label": "人声嘈杂如锅水沸腾"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“脍炙人口”：好诗文被人称赞传诵。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0808",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“全神贯注”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "没有主见跟着别人说"
+        },
+        {
+          "key": "B",
+          "label": "精神高度集中"
+        },
+        {
+          "key": "C",
+          "label": "全世界都在注视"
+        },
+        {
+          "key": "D",
+          "label": "集中注意力"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“全神贯注”：精神高度集中。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0809",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“家喻户晓”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "家家户户都知道"
+        },
+        {
+          "key": "B",
+          "label": "温习旧知识获得新的理解"
+        },
+        {
+          "key": "C",
+          "label": "好诗文被人称赞传诵"
+        },
+        {
+          "key": "D",
+          "label": "过分看轻自己"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“家喻户晓”：家家户户都知道。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0810",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“与日俱增”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "向地位低的人请教不感到羞耻"
+        },
+        {
+          "key": "B",
+          "label": "随着时间的推移不断增长"
+        },
+        {
+          "key": "C",
+          "label": "过分看轻自己"
+        },
+        {
+          "key": "D",
+          "label": "勤奋努力不知疲倦"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“与日俱增”：随着时间的推移不断增长。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0811",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“孜孜不倦”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "做事认真细致毫不马虎"
+        },
+        {
+          "key": "B",
+          "label": "勤奋努力不知疲倦"
+        },
+        {
+          "key": "C",
+          "label": "人声嘈杂如锅水沸腾"
+        },
+        {
+          "key": "D",
+          "label": "有恒心有毅力坚持到底"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“孜孜不倦”：勤奋努力不知疲倦。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0812",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“漫不经心”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "好诗文被人称赞传诵"
+        },
+        {
+          "key": "B",
+          "label": "随随便便不放在心上"
+        },
+        {
+          "key": "C",
+          "label": "根据当地情况制定办法"
+        },
+        {
+          "key": "D",
+          "label": "向地位低的人请教不感到羞耻"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“漫不经心”：随随便便不放在心上。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0813",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“聚精会神”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "做事之前已有通盘考虑"
+        },
+        {
+          "key": "B",
+          "label": "集中注意力"
+        },
+        {
+          "key": "C",
+          "label": "家家户户都知道"
+        },
+        {
+          "key": "D",
+          "label": "不用说就可以明白"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“聚精会神”：集中注意力。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0814",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“根深蒂固”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "勤奋努力不知疲倦"
+        },
+        {
+          "key": "B",
+          "label": "随随便便不放在心上"
+        },
+        {
+          "key": "C",
+          "label": "好诗文被人称赞传诵"
+        },
+        {
+          "key": "D",
+          "label": "基础牢固不易动摇"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“根深蒂固”：基础牢固不易动摇。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0815",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“锲而不舍”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "有恒心有毅力坚持到底"
+        },
+        {
+          "key": "B",
+          "label": "随随便便不放在心上"
+        },
+        {
+          "key": "C",
+          "label": "随着时间的推移不断增长"
+        },
+        {
+          "key": "D",
+          "label": "做事认真细致毫不马虎"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“锲而不舍”：有恒心有毅力坚持到底。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0816",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“举世瞩目”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "做事认真细致毫不马虎"
+        },
+        {
+          "key": "B",
+          "label": "人声嘈杂如锅水沸腾"
+        },
+        {
+          "key": "C",
+          "label": "没有主见跟着别人说"
+        },
+        {
+          "key": "D",
+          "label": "全世界都在注视"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“举世瞩目”：全世界都在注视。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0817",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“不言而喻”的意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "互相配合更显各自长处"
+        },
+        {
+          "key": "B",
+          "label": "向地位低的人请教不感到羞耻"
+        },
+        {
+          "key": "C",
+          "label": "温习旧知识获得新的理解"
+        },
+        {
+          "key": "D",
+          "label": "不用说就可以明白"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“不言而喻”：不用说就可以明白。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0818",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：成语“不耻下问”可以用于老师向学生学习",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0819",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "判断下列说法是否正确：成语“妄自菲薄”是贬义成语",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "该说法正确。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0820",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：成语“人声鼎沸”形容非常安静",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0821",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "判断下列说法是否正确：成语“半途而废”是褒义成语",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "该说法错误。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0822",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：通过这次活动，使我明白了团结的重要性。",
+      "options": [
+        {
+          "key": "A",
+          "label": "结构混乱"
+        },
+        {
+          "key": "B",
+          "label": "成分残缺"
+        },
+        {
+          "key": "C",
+          "label": "前后矛盾"
+        },
+        {
+          "key": "D",
+          "label": "否定不当"
+        }
+      ],
+      "answer": "B",
+      "explanation": "病因：成分残缺。修改方法：删去“通过”或“使”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0823",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：我们要养成讲文明。",
+      "options": [
+        {
+          "key": "A",
+          "label": "成分残缺"
+        },
+        {
+          "key": "B",
+          "label": "搭配不当"
+        },
+        {
+          "key": "C",
+          "label": "成分赘余"
+        },
+        {
+          "key": "D",
+          "label": "结构混乱"
+        }
+      ],
+      "answer": "A",
+      "explanation": "病因：成分残缺。修改方法：补上宾语中心语“的好习惯”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0824",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：他的写作水平明显改进了。",
+      "options": [
+        {
+          "key": "A",
+          "label": "搭配不当"
+        },
+        {
+          "key": "B",
+          "label": "结构混乱"
+        },
+        {
+          "key": "C",
+          "label": "成分残缺"
+        },
+        {
+          "key": "D",
+          "label": "语序不当"
+        }
+      ],
+      "answer": "A",
+      "explanation": "病因：搭配不当。修改方法：把“改进”改为“提高”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0825",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：为了避免今后不再发生类似事故，学校加强了安全教育。",
+      "options": [
+        {
+          "key": "A",
+          "label": "成分残缺"
+        },
+        {
+          "key": "B",
+          "label": "成分赘余"
+        },
+        {
+          "key": "C",
+          "label": "语序不当"
+        },
+        {
+          "key": "D",
+          "label": "否定不当"
+        }
+      ],
+      "answer": "D",
+      "explanation": "病因：否定不当。修改方法：删去“不再”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0826",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：我们讨论并听取了校长的报告。",
+      "options": [
+        {
+          "key": "A",
+          "label": "成分残缺"
+        },
+        {
+          "key": "B",
+          "label": "成分赘余"
+        },
+        {
+          "key": "C",
+          "label": "搭配不当"
+        },
+        {
+          "key": "D",
+          "label": "语序不当"
+        }
+      ],
+      "answer": "D",
+      "explanation": "病因：语序不当。修改方法：改为“听取并讨论”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0827",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：能否刻苦学习，是取得好成绩的关键。",
+      "options": [
+        {
+          "key": "A",
+          "label": "成分残缺"
+        },
+        {
+          "key": "B",
+          "label": "搭配不当"
+        },
+        {
+          "key": "C",
+          "label": "一面对两面"
+        },
+        {
+          "key": "D",
+          "label": "前后矛盾"
+        }
+      ],
+      "answer": "C",
+      "explanation": "病因：一面对两面。修改方法：删去“能否”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0828",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：他的家乡是山东济南人。",
+      "options": [
+        {
+          "key": "A",
+          "label": "成分残缺"
+        },
+        {
+          "key": "B",
+          "label": "语序不当"
+        },
+        {
+          "key": "C",
+          "label": "搭配不当"
+        },
+        {
+          "key": "D",
+          "label": "结构混乱"
+        }
+      ],
+      "answer": "D",
+      "explanation": "病因：结构混乱。修改方法：删去“人”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0829",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：他首先第一个发言。",
+      "options": [
+        {
+          "key": "A",
+          "label": "成分残缺"
+        },
+        {
+          "key": "B",
+          "label": "前后矛盾"
+        },
+        {
+          "key": "C",
+          "label": "搭配不当"
+        },
+        {
+          "key": "D",
+          "label": "成分赘余"
+        }
+      ],
+      "answer": "D",
+      "explanation": "病因：成分赘余。修改方法：删去“首先”或“第一个”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0830",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：公园里盛开着五颜六色的红花。",
+      "options": [
+        {
+          "key": "A",
+          "label": "搭配不当"
+        },
+        {
+          "key": "B",
+          "label": "前后矛盾"
+        },
+        {
+          "key": "C",
+          "label": "否定不当"
+        },
+        {
+          "key": "D",
+          "label": "成分残缺"
+        }
+      ],
+      "answer": "B",
+      "explanation": "病因：前后矛盾。修改方法：删去“红”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0831",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：听了报告，受到了深刻的教育。",
+      "options": [
+        {
+          "key": "A",
+          "label": "成分残缺"
+        },
+        {
+          "key": "B",
+          "label": "语序不当"
+        },
+        {
+          "key": "C",
+          "label": "否定不当"
+        },
+        {
+          "key": "D",
+          "label": "搭配不当"
+        }
+      ],
+      "answer": "A",
+      "explanation": "病因：成分残缺。修改方法：句首加“同学们”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0832",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：这篇文章的内容和语句都很精美。",
+      "options": [
+        {
+          "key": "A",
+          "label": "搭配不当"
+        },
+        {
+          "key": "B",
+          "label": "前后矛盾"
+        },
+        {
+          "key": "C",
+          "label": "成分残缺"
+        },
+        {
+          "key": "D",
+          "label": "结构混乱"
+        }
+      ],
+      "answer": "A",
+      "explanation": "病因：搭配不当。修改方法：“语句精美”改为“语句流畅”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0833",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：各行各业大批有志青年纷纷报名。",
+      "options": [
+        {
+          "key": "A",
+          "label": "结构混乱"
+        },
+        {
+          "key": "B",
+          "label": "成分残缺"
+        },
+        {
+          "key": "C",
+          "label": "前后矛盾"
+        },
+        {
+          "key": "D",
+          "label": "成分赘余"
+        }
+      ],
+      "answer": "D",
+      "explanation": "病因：成分赘余。修改方法：“大批”与“纷纷”删去其一。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0834",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：我们要认真克服并发现工作中的问题。",
+      "options": [
+        {
+          "key": "A",
+          "label": "搭配不当"
+        },
+        {
+          "key": "B",
+          "label": "语序不当"
+        },
+        {
+          "key": "C",
+          "label": "否定不当"
+        },
+        {
+          "key": "D",
+          "label": "前后矛盾"
+        }
+      ],
+      "answer": "B",
+      "explanation": "病因：语序不当。修改方法：改为“发现并克服”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0835",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：为了防止不再发生安全事故，学校采取了多项措施。",
+      "options": [
+        {
+          "key": "A",
+          "label": "语序不当"
+        },
+        {
+          "key": "B",
+          "label": "成分残缺"
+        },
+        {
+          "key": "C",
+          "label": "成分赘余"
+        },
+        {
+          "key": "D",
+          "label": "否定不当"
+        }
+      ],
+      "answer": "D",
+      "explanation": "病因：否定不当。修改方法：删去“不再”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0836",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：通过老师的帮助，使他改正了缺点。",
+      "options": [
+        {
+          "key": "A",
+          "label": "语序不当"
+        },
+        {
+          "key": "B",
+          "label": "前后矛盾"
+        },
+        {
+          "key": "C",
+          "label": "否定不当"
+        },
+        {
+          "key": "D",
+          "label": "成分残缺"
+        }
+      ],
+      "answer": "D",
+      "explanation": "病因：成分残缺。修改方法：删去“通过”或“使”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0837",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：两个新旧社会真是天壤之别。",
+      "options": [
+        {
+          "key": "A",
+          "label": "搭配不当"
+        },
+        {
+          "key": "B",
+          "label": "否定不当"
+        },
+        {
+          "key": "C",
+          "label": "表意不明"
+        },
+        {
+          "key": "D",
+          "label": "成分残缺"
+        }
+      ],
+      "answer": "C",
+      "explanation": "病因：表意不明。修改方法：改为“新社会与旧社会”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0838",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "stem": "下列句子有语病，病因是（　）：杭州的春天是一年中最美的季节。",
+      "options": [
+        {
+          "key": "A",
+          "label": "成分残缺"
+        },
+        {
+          "key": "B",
+          "label": "前后矛盾"
+        },
+        {
+          "key": "C",
+          "label": "否定不当"
+        },
+        {
+          "key": "D",
+          "label": "搭配不当"
+        }
+      ],
+      "answer": "B",
+      "explanation": "病因：前后矛盾。修改方法：改为“春天的杭州”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0839",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：海内存知己，______。",
+      "acceptedAnswers": [
+        "天涯若比邻",
+        "天涯若比邻。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“天涯若比邻”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0840",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：会当凌绝顶，______。",
+      "acceptedAnswers": [
+        "一览众山小",
+        "一览众山小。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“一览众山小”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0841",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：感时花溅泪，______。",
+      "acceptedAnswers": [
+        "恨别鸟惊心",
+        "恨别鸟惊心。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“恨别鸟惊心”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0842",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：采菊东篱下，______。",
+      "acceptedAnswers": [
+        "悠然见南山",
+        "悠然见南山。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“悠然见南山”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0843",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：大漠孤烟直，______。",
+      "acceptedAnswers": [
+        "长河落日圆",
+        "长河落日圆。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“长河落日圆”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0844",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：落红不是无情物，______。",
+      "acceptedAnswers": [
+        "化作春泥更护花",
+        "化作春泥更护花。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“化作春泥更护花”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0845",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：沉舟侧畔千帆过，______。",
+      "acceptedAnswers": [
+        "病树前头万木春",
+        "病树前头万木春。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“病树前头万木春”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0846",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：春蚕到死丝方尽，______。",
+      "acceptedAnswers": [
+        "蜡炬成灰泪始干",
+        "蜡炬成灰泪始干。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“蜡炬成灰泪始干”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0847",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：长风破浪会有时，______。",
+      "acceptedAnswers": [
+        "直挂云帆济沧海",
+        "直挂云帆济沧海。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“直挂云帆济沧海”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0848",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：欲穷千里目，______。",
+      "acceptedAnswers": [
+        "更上一层楼",
+        "更上一层楼。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“更上一层楼”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0849",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：不畏浮云遮望眼，______。",
+      "acceptedAnswers": [
+        "自缘身在最高层",
+        "自缘身在最高层。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“自缘身在最高层”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0850",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：山重水复疑无路，______。",
+      "acceptedAnswers": [
+        "柳暗花明又一村",
+        "柳暗花明又一村。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“柳暗花明又一村”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0851",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：纸上得来终觉浅，______。",
+      "acceptedAnswers": [
+        "绝知此事要躬行",
+        "绝知此事要躬行。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“绝知此事要躬行”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0852",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：问渠那得清如许，______。",
+      "acceptedAnswers": [
+        "为有源头活水来",
+        "为有源头活水来。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“为有源头活水来”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0853",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：人生自古谁无死，______。",
+      "acceptedAnswers": [
+        "留取丹心照汗青",
+        "留取丹心照汗青。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“留取丹心照汗青”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0854",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：了却君王天下事，______。",
+      "acceptedAnswers": [
+        "赢得生前身后名",
+        "赢得生前身后名。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“赢得生前身后名”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0855",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：两岸猿声啼不住，______。",
+      "acceptedAnswers": [
+        "轻舟已过万重山",
+        "轻舟已过万重山。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“轻舟已过万重山”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0856",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：忽如一夜春风来，______。",
+      "acceptedAnswers": [
+        "千树万树梨花开",
+        "千树万树梨花开。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“千树万树梨花开”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0857",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：但愿人长久，______。",
+      "acceptedAnswers": [
+        "千里共婵娟",
+        "千里共婵娟。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“千里共婵娟”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0858",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：东风不与周郎便，______。",
+      "acceptedAnswers": [
+        "铜雀春深锁二乔",
+        "铜雀春深锁二乔。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“铜雀春深锁二乔”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0859",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：商女不知亡国恨，______。",
+      "acceptedAnswers": [
+        "隔江犹唱后庭花",
+        "隔江犹唱后庭花。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“隔江犹唱后庭花”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0860",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：何当共剪西窗烛，______。",
+      "acceptedAnswers": [
+        "却话巴山夜雨时",
+        "却话巴山夜雨时。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“却话巴山夜雨时”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0861",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：潮平两岸阔，______。",
+      "acceptedAnswers": [
+        "风正一帆悬",
+        "风正一帆悬。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“风正一帆悬”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0862",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：绿树村边合，______。",
+      "acceptedAnswers": [
+        "青山郭外斜",
+        "青山郭外斜。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“青山郭外斜”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0863",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：几处早莺争暖树，______。",
+      "acceptedAnswers": [
+        "谁家新燕啄春泥",
+        "谁家新燕啄春泥。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“谁家新燕啄春泥”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0864",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "stem": "补写名句：乱花渐欲迷人眼，______。",
+      "acceptedAnswers": [
+        "浅草才能没马蹄",
+        "浅草才能没马蹄。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“浅草才能没马蹄”。注意易错字的写法。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0865",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "春望的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "奥斯特洛夫斯基"
+        },
+        {
+          "key": "B",
+          "label": "杜甫"
+        },
+        {
+          "key": "C",
+          "label": "屈原"
+        },
+        {
+          "key": "D",
+          "label": "老舍"
+        }
+      ],
+      "answer": "B",
+      "explanation": "《春望》的作者是杜甫。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0866",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "城南旧事的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "李白"
+        },
+        {
+          "key": "B",
+          "label": "白居易"
+        },
+        {
+          "key": "C",
+          "label": "关汉卿"
+        },
+        {
+          "key": "D",
+          "label": "林海音"
+        }
+      ],
+      "answer": "D",
+      "explanation": "《城南旧事》的作者是林海音。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0867",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "静夜思的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "吴敬梓"
+        },
+        {
+          "key": "B",
+          "label": "屈原"
+        },
+        {
+          "key": "C",
+          "label": "李白"
+        },
+        {
+          "key": "D",
+          "label": "施耐庵"
+        }
+      ],
+      "answer": "C",
+      "explanation": "《静夜思》的作者是李白。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0868",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "聊斋志异的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "冰心"
+        },
+        {
+          "key": "B",
+          "label": "高尔基"
+        },
+        {
+          "key": "C",
+          "label": "蒲松龄"
+        },
+        {
+          "key": "D",
+          "label": "老舍"
+        }
+      ],
+      "answer": "C",
+      "explanation": "《聊斋志异》的作者是蒲松龄。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0869",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "童年的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "高尔基"
+        },
+        {
+          "key": "B",
+          "label": "杜甫"
+        },
+        {
+          "key": "C",
+          "label": "李白"
+        },
+        {
+          "key": "D",
+          "label": "屈原"
+        }
+      ],
+      "answer": "A",
+      "explanation": "《童年》的作者是高尔基。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0870",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "繁星·春水的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "吴敬梓"
+        },
+        {
+          "key": "B",
+          "label": "奥斯特洛夫斯基"
+        },
+        {
+          "key": "C",
+          "label": "冰心"
+        },
+        {
+          "key": "D",
+          "label": "关汉卿"
+        }
+      ],
+      "answer": "C",
+      "explanation": "《繁星·春水》的作者是冰心。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0871",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "骆驼祥子的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "林海音"
+        },
+        {
+          "key": "B",
+          "label": "鲁迅"
+        },
+        {
+          "key": "C",
+          "label": "蒲松龄"
+        },
+        {
+          "key": "D",
+          "label": "老舍"
+        }
+      ],
+      "answer": "D",
+      "explanation": "《骆驼祥子》的作者是老舍。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0872",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "朝花夕拾的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "鲁迅"
+        },
+        {
+          "key": "B",
+          "label": "蒲松龄"
+        },
+        {
+          "key": "C",
+          "label": "海明威"
+        },
+        {
+          "key": "D",
+          "label": "李白"
+        }
+      ],
+      "answer": "A",
+      "explanation": "《朝花夕拾》的作者是鲁迅。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0873",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "红楼梦的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "罗贯中"
+        },
+        {
+          "key": "B",
+          "label": "屈原"
+        },
+        {
+          "key": "C",
+          "label": "海明威"
+        },
+        {
+          "key": "D",
+          "label": "曹雪芹"
+        }
+      ],
+      "answer": "D",
+      "explanation": "《红楼梦》的作者是曹雪芹。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0874",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "三国演义的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "施耐庵"
+        },
+        {
+          "key": "B",
+          "label": "海明威"
+        },
+        {
+          "key": "C",
+          "label": "罗贯中"
+        },
+        {
+          "key": "D",
+          "label": "奥斯特洛夫斯基"
+        }
+      ],
+      "answer": "C",
+      "explanation": "《三国演义》的作者是罗贯中。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0875",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "窦娥冤的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "施耐庵"
+        },
+        {
+          "key": "B",
+          "label": "鲁迅"
+        },
+        {
+          "key": "C",
+          "label": "杜甫"
+        },
+        {
+          "key": "D",
+          "label": "关汉卿"
+        }
+      ],
+      "answer": "D",
+      "explanation": "《窦娥冤》的作者是关汉卿。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0876",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "钢铁是怎样炼成的的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "吴敬梓"
+        },
+        {
+          "key": "B",
+          "label": "奥斯特洛夫斯基"
+        },
+        {
+          "key": "C",
+          "label": "吴承恩"
+        },
+        {
+          "key": "D",
+          "label": "屈原"
+        }
+      ],
+      "answer": "B",
+      "explanation": "《钢铁是怎样炼成的》的作者是奥斯特洛夫斯基。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0877",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "水浒传的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "高尔基"
+        },
+        {
+          "key": "B",
+          "label": "老舍"
+        },
+        {
+          "key": "C",
+          "label": "施耐庵"
+        },
+        {
+          "key": "D",
+          "label": "杜甫"
+        }
+      ],
+      "answer": "C",
+      "explanation": "《水浒传》的作者是施耐庵。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0878",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "儒林外史的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "吴敬梓"
+        },
+        {
+          "key": "B",
+          "label": "冰心"
+        },
+        {
+          "key": "C",
+          "label": "关汉卿"
+        },
+        {
+          "key": "D",
+          "label": "蒲松龄"
+        }
+      ],
+      "answer": "A",
+      "explanation": "《儒林外史》的作者是吴敬梓。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0879",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "钱塘湖春行的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "白居易"
+        },
+        {
+          "key": "B",
+          "label": "林海音"
+        },
+        {
+          "key": "C",
+          "label": "海明威"
+        },
+        {
+          "key": "D",
+          "label": "李白"
+        }
+      ],
+      "answer": "A",
+      "explanation": "《钱塘湖春行》的作者是白居易。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0880",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "老人与海的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "白居易"
+        },
+        {
+          "key": "B",
+          "label": "施耐庵"
+        },
+        {
+          "key": "C",
+          "label": "海明威"
+        },
+        {
+          "key": "D",
+          "label": "屈原"
+        }
+      ],
+      "answer": "C",
+      "explanation": "《老人与海》的作者是海明威。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0881",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "离骚的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "冰心"
+        },
+        {
+          "key": "B",
+          "label": "屈原"
+        },
+        {
+          "key": "C",
+          "label": "关汉卿"
+        },
+        {
+          "key": "D",
+          "label": "林海音"
+        }
+      ],
+      "answer": "B",
+      "explanation": "《离骚》的作者是屈原。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 35,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0882",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "西游记的作者是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "冰心"
+        },
+        {
+          "key": "B",
+          "label": "林海音"
+        },
+        {
+          "key": "C",
+          "label": "吴承恩"
+        },
+        {
+          "key": "D",
+          "label": "鲁迅"
+        }
+      ],
+      "answer": "C",
+      "explanation": "《西游记》的作者是吴承恩。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0883",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“走”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "跑"
+        },
+        {
+          "key": "B",
+          "label": "狡猾"
+        },
+        {
+          "key": "C",
+          "label": "睡着"
+        },
+        {
+          "key": "D",
+          "label": "眼泪"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“走”在文言中常作“跑”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0884",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“去”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "离开"
+        },
+        {
+          "key": "B",
+          "label": "跑"
+        },
+        {
+          "key": "C",
+          "label": "竟然"
+        },
+        {
+          "key": "D",
+          "label": "于是、就"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“去”在文言中常作“离开”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0885",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“汤”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "热水"
+        },
+        {
+          "key": "B",
+          "label": "离开"
+        },
+        {
+          "key": "C",
+          "label": "狡猾"
+        },
+        {
+          "key": "D",
+          "label": "痛心遗憾"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“汤”在文言中常作“热水”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0886",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“妻子”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "妻子和儿女"
+        },
+        {
+          "key": "B",
+          "label": "跑"
+        },
+        {
+          "key": "C",
+          "label": "眼泪"
+        },
+        {
+          "key": "D",
+          "label": "热水"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“妻子”在文言中常作“妻子和儿女”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0887",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“池”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "只"
+        },
+        {
+          "key": "B",
+          "label": "鞭打"
+        },
+        {
+          "key": "C",
+          "label": "护城河"
+        },
+        {
+          "key": "D",
+          "label": "痛心遗憾"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“池”在文言中常作“护城河”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0888",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“卑鄙”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "鞭打"
+        },
+        {
+          "key": "B",
+          "label": "感动奋激"
+        },
+        {
+          "key": "C",
+          "label": "身份低微、见识短浅"
+        },
+        {
+          "key": "D",
+          "label": "于是、就"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“卑鄙”在文言中常作“身份低微、见识短浅”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0889",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“感激”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "扛"
+        },
+        {
+          "key": "B",
+          "label": "眼泪"
+        },
+        {
+          "key": "C",
+          "label": "感动奋激"
+        },
+        {
+          "key": "D",
+          "label": "护城河"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“感激”在文言中常作“感动奋激”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0890",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“痛恨”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "感动奋激"
+        },
+        {
+          "key": "B",
+          "label": "护城河"
+        },
+        {
+          "key": "C",
+          "label": "痛心遗憾"
+        },
+        {
+          "key": "D",
+          "label": "妻子和儿女"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“痛恨”在文言中常作“痛心遗憾”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0891",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“涕”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "眼泪"
+        },
+        {
+          "key": "B",
+          "label": "跑"
+        },
+        {
+          "key": "C",
+          "label": "竟然"
+        },
+        {
+          "key": "D",
+          "label": "护城河"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“涕”在文言中常作“眼泪”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0892",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“股”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "护城河"
+        },
+        {
+          "key": "B",
+          "label": "只"
+        },
+        {
+          "key": "C",
+          "label": "离开"
+        },
+        {
+          "key": "D",
+          "label": "大腿"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“股”在文言中常作“大腿”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0893",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“遂”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "跑"
+        },
+        {
+          "key": "B",
+          "label": "于是、就"
+        },
+        {
+          "key": "C",
+          "label": "睡着"
+        },
+        {
+          "key": "D",
+          "label": "大腿"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“遂”在文言中常作“于是、就”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0894",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“顾”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "感动奋激"
+        },
+        {
+          "key": "B",
+          "label": "回头看"
+        },
+        {
+          "key": "C",
+          "label": "跑"
+        },
+        {
+          "key": "D",
+          "label": "买"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“顾”在文言中常作“回头看”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0895",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“黠”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "于是、就"
+        },
+        {
+          "key": "B",
+          "label": "跑"
+        },
+        {
+          "key": "C",
+          "label": "狡猾"
+        },
+        {
+          "key": "D",
+          "label": "回头看"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“黠”在文言中常作“狡猾”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0896",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“寐”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "眼泪"
+        },
+        {
+          "key": "B",
+          "label": "感动奋激"
+        },
+        {
+          "key": "C",
+          "label": "喜欢"
+        },
+        {
+          "key": "D",
+          "label": "睡着"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“寐”在文言中常作“睡着”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0897",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“好”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "狡猾"
+        },
+        {
+          "key": "B",
+          "label": "热水"
+        },
+        {
+          "key": "C",
+          "label": "妻子和儿女"
+        },
+        {
+          "key": "D",
+          "label": "喜欢"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“好”在文言中常作“喜欢”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0898",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“市”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "离开"
+        },
+        {
+          "key": "B",
+          "label": "买"
+        },
+        {
+          "key": "C",
+          "label": "热水"
+        },
+        {
+          "key": "D",
+          "label": "跑"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“市”在文言中常作“买”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0899",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“荷”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "扛"
+        },
+        {
+          "key": "B",
+          "label": "于是、就"
+        },
+        {
+          "key": "C",
+          "label": "护城河"
+        },
+        {
+          "key": "D",
+          "label": "狡猾"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“荷”在文言中常作“扛”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0900",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“策”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "热水"
+        },
+        {
+          "key": "B",
+          "label": "鞭打"
+        },
+        {
+          "key": "C",
+          "label": "跑"
+        },
+        {
+          "key": "D",
+          "label": "离开"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“策”在文言中常作“鞭打”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0901",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“但”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "只"
+        },
+        {
+          "key": "B",
+          "label": "狡猾"
+        },
+        {
+          "key": "C",
+          "label": "跑"
+        },
+        {
+          "key": "D",
+          "label": "护城河"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“但”在文言中常作“只”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0902",
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "解释下列文言加点词：“曾”在文言中的常见意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "竟然"
+        },
+        {
+          "key": "B",
+          "label": "于是、就"
+        },
+        {
+          "key": "C",
+          "label": "热水"
+        },
+        {
+          "key": "D",
+          "label": "买"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“曾”在文言中常作“竟然”讲（古今异义）。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0903",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“令尊”的意思或用法是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "敬辞，指对方的父亲"
+        },
+        {
+          "key": "B",
+          "label": "谦辞，指自己的父亲"
+        },
+        {
+          "key": "C",
+          "label": "谦辞，指自己的意见"
+        },
+        {
+          "key": "D",
+          "label": "敬辞，指对方到来"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“令尊”：敬辞，指对方的父亲。敬辞用于对方。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0904",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“家父”的意思或用法是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "敬辞，指对方的父亲"
+        },
+        {
+          "key": "B",
+          "label": "谦辞，指自己的父亲"
+        },
+        {
+          "key": "C",
+          "label": "谦辞，指自己的意见"
+        },
+        {
+          "key": "D",
+          "label": "敬辞，指对方到来"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“家父”：谦辞，指自己的父亲。谦辞用于自己。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0905",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“惠顾”的意思或用法是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "敬辞，指对方的父亲"
+        },
+        {
+          "key": "B",
+          "label": "谦辞，指自己的父亲"
+        },
+        {
+          "key": "C",
+          "label": "谦辞，指自己的意见"
+        },
+        {
+          "key": "D",
+          "label": "敬辞，指对方到来"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“惠顾”：敬辞，指对方到来。敬辞用于对方。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0906",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“抛砖引玉”的意思或用法是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "谦辞，指自己的父亲"
+        },
+        {
+          "key": "B",
+          "label": "谦辞，用自己粗浅的意见引出别人高明的见解"
+        },
+        {
+          "key": "C",
+          "label": "敬辞，指对方的父亲"
+        },
+        {
+          "key": "D",
+          "label": "敬辞，指对方到来"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“抛砖引玉”：谦辞，用自己粗浅的意见引出别人高明的见解。谦辞用于自己。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0907",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“鼎力相助”的意思或用法是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "敬辞，感谢别人对自己的帮助"
+        },
+        {
+          "key": "B",
+          "label": "敬辞，指对方的父亲"
+        },
+        {
+          "key": "C",
+          "label": "谦辞，指自己的父亲"
+        },
+        {
+          "key": "D",
+          "label": "敬辞，指对方到来"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“鼎力相助”：敬辞，感谢别人对自己的帮助。敬辞用于对方。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0908",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“拙见”的意思或用法是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "敬辞，指对方到来"
+        },
+        {
+          "key": "B",
+          "label": "谦辞，指自己的意见"
+        },
+        {
+          "key": "C",
+          "label": "敬辞，指对方的父亲"
+        },
+        {
+          "key": "D",
+          "label": "谦辞，指自己的父亲"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“拙见”：谦辞，指自己的意见。谦辞用于自己。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0909",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“大驾光临”的意思或用法是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "敬辞，指对方的父亲"
+        },
+        {
+          "key": "B",
+          "label": "敬辞，指对方到来"
+        },
+        {
+          "key": "C",
+          "label": "谦辞，指自己的父亲"
+        },
+        {
+          "key": "D",
+          "label": "谦辞，指自己的意见"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“大驾光临”：敬辞，指对方到来。敬辞用于对方。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0910",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“寒舍”的意思或用法是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "谦辞，指自己的家"
+        },
+        {
+          "key": "B",
+          "label": "谦辞，指自己的意见"
+        },
+        {
+          "key": "C",
+          "label": "敬辞，指对方的父亲"
+        },
+        {
+          "key": "D",
+          "label": "敬辞，指对方到来"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“寒舍”：谦辞，指自己的家。谦辞用于自己。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0911",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“高见”的意思或用法是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "敬辞，指对方的见解"
+        },
+        {
+          "key": "B",
+          "label": "谦辞，指自己的意见"
+        },
+        {
+          "key": "C",
+          "label": "谦辞，指自己的父亲"
+        },
+        {
+          "key": "D",
+          "label": "敬辞，指对方的父亲"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“高见”：敬辞，指对方的见解。敬辞用于对方。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0912",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "“拜读”的意思或用法是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "谦辞，指自己的意见"
+        },
+        {
+          "key": "B",
+          "label": "谦辞，指自己的父亲"
+        },
+        {
+          "key": "C",
+          "label": "谦辞，指阅读对方的作品"
+        },
+        {
+          "key": "D",
+          "label": "敬辞，指对方到来"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“拜读”：谦辞，指阅读对方的作品。谦辞用于自己。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0913",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "补写名句：书山有路勤为径，______。",
+      "acceptedAnswers": [
+        "学海无涯苦作舟",
+        "学海无涯苦作舟。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“学海无涯苦作舟”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0914",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "补写名句：少壮不努力，______。",
+      "acceptedAnswers": [
+        "老大徒伤悲",
+        "老大徒伤悲。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“老大徒伤悲”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0915",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "补写名句：宝剑锋从磨砺出，______。",
+      "acceptedAnswers": [
+        "梅花香自苦寒来",
+        "梅花香自苦寒来。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“梅花香自苦寒来”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0916",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "补写名句：千里之行，______。",
+      "acceptedAnswers": [
+        "始于足下",
+        "始于足下。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“始于足下”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0917",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "补写名句：不积跬步，______。",
+      "acceptedAnswers": [
+        "无以至千里",
+        "无以至千里。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“无以至千里”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0918",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "补写名句：业精于勤，______。",
+      "acceptedAnswers": [
+        "荒于嬉",
+        "荒于嬉。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“荒于嬉”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0919",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "补写名句：读书破万卷，______。",
+      "acceptedAnswers": [
+        "下笔如有神",
+        "下笔如有神。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“下笔如有神”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0920",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "补写名句：黑发不知勤学早，______。",
+      "acceptedAnswers": [
+        "白首方悔读书迟",
+        "白首方悔读书迟。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“白首方悔读书迟”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0921",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "补写名句：路漫漫其修远兮，______。",
+      "acceptedAnswers": [
+        "吾将上下而求索",
+        "吾将上下而求索。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“吾将上下而求索”。"
+    },
+    {
+      "subject": "chinese",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-cn-0922",
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "stem": "补写名句：勿以恶小而为之，______。",
+      "acceptedAnswers": [
+        "勿以善小而不为",
+        "勿以善小而不为。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“勿以善小而不为”。"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "version": "chemistry-exams-v0.10",
+  "exams": [
+    {
+      "id": "chem-mock-001",
+      "subject": "chemistry",
+      "title": "化学基础冲刺摸底卷",
+      "description": "覆盖变化与性质、空气氧气、物质构成、水溶液和质量守恒的分区摸底卷。",
+      "durationMinutes": 25,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "change-air",
+          "title": "基本概念与空气",
+          "description": "变化与性质的辨析、空气组成和氧气性质。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "chem-change-001",
+            "chem-change-002",
+            "chem-change-003",
+            "chem-air-001",
+            "chem-air-002",
+            "chem-air-003"
+          ]
+        },
+        {
+          "id": "matter-water",
+          "title": "物质构成与水溶液",
+          "description": "分子原子元素、电解水与溶液计算。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "chem-matter-001",
+            "chem-matter-002",
+            "chem-matter-003",
+            "chem-water-001",
+            "chem-water-002",
+            "chem-water-003"
+          ]
+        },
+        {
+          "id": "equations",
+          "title": "质量守恒与计算",
+          "description": "质量守恒定律和化学方程式计算，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "chem-equation-001",
+            "chem-equation-002",
+            "chem-equation-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chem-topic-precision-001",
+      "subject": "chemistry",
+      "title": "化学薄弱考点精准卷",
+      "description": "快速诊断化学薄弱考点的短卷，适合每天 15 分钟定向修补。",
+      "durationMinutes": 15,
+      "level": "topic",
+      "sections": [
+        {
+          "id": "quick-diagnosis",
+          "title": "快速诊断",
+          "description": "五个考点的核心题各若干。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "chem-change-001",
+            "chem-air-001",
+            "chem-air-002",
+            "chem-matter-002",
+            "chem-water-001",
+            "chem-water-002",
+            "chem-equation-001",
+            "chem-equation-002"
+          ]
+        }
+      ]
+    }
+  ]
+}

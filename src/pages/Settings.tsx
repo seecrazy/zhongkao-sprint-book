@@ -48,7 +48,7 @@ export default function Settings({
 
       <div className="panel">
         <h2>当前版本</h2>
-        <p>SprintBook v0.9 · 多学科试点，掌握度与错题间隔复习已接入。</p>
+        <p>SprintBook v0.10 · 多学科试点（数学 / 物理 / 化学），掌握度与错题间隔复习已接入。</p>
       </div>
     </section>
   );

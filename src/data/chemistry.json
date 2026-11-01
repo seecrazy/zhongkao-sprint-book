@@ -1,0 +1,819 @@
+{
+  "version": "chemistry-v0.10",
+  "knowledgePoints": [
+    {
+      "id": "chemistry-change-properties",
+      "name": "物质的变化与性质",
+      "subject": "chemistry",
+      "summary": "会区分物理变化与化学变化、物理性质与化学性质。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "能区分物理变化与化学变化，理解判断依据是有无新物质生成。",
+          "能区分物理性质与化学性质。",
+          "能区分描述“变化过程”与“性质属性”的语句。"
+        ],
+        "keyIdea": "有没有新物质生成是判断化学变化的唯一标准；性质是物质固有的能力或属性，变化是一个过程。",
+        "concepts": [
+          {
+            "title": "物质的变化",
+            "content": [
+              "没有新物质生成的变化叫物理变化，如冰的融化、酒精的挥发、灯泡发光。",
+              "有新物质生成的变化叫化学变化（化学反应），如木炭燃烧、铁生锈、食物腐败。",
+              "化学变化常伴随发光、放热、变色、放出气体、生成沉淀等现象，但现象只是辅助证据，不是判断依据。"
+            ]
+          },
+          {
+            "title": "物质的性质",
+            "content": [
+              "不需要发生化学变化就表现出来的性质叫物理性质，如颜色、状态、气味、熔点、沸点、硬度、密度、溶解性。",
+              "需要通过化学变化才能表现出来的性质叫化学性质，如可燃性、氧化性、稳定性、酸碱性。",
+              "描述性质常用“能、会、可以、容易、易于”等词；描述变化只陈述过程本身。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "化学变化判断标准",
+            "expression": "有新物质生成 $\\Rightarrow$ 化学变化"
+          },
+          {
+            "name": "性质判断标志词",
+            "expression": "语句含“能、会、可以、易”$\\Rightarrow$ 描述性质"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "判断变化类型",
+            "problem": "木炭燃烧和冰融化分别是什么变化？",
+            "steps": [
+              "木炭燃烧生成二氧化碳，有新物质生成，是化学变化。",
+              "冰融化只是水的状态改变，没有新物质生成，是物理变化。"
+            ],
+            "answer": "木炭燃烧是化学变化，冰融化是物理变化",
+            "takeaway": "先问“有没有新物质”，再下结论。"
+          },
+          {
+            "title": "区分性质与变化",
+            "problem": "“酒精挥发”和“酒精容易挥发”有什么区别？",
+            "steps": [
+              "“酒精挥发”描述的是一个过程，是物理变化。",
+              "“酒精容易挥发”中的“容易”描述的是固有属性，是物理性质。"
+            ],
+            "answer": "前者是物理变化，后者是物理性质"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为发光放热的变化一定是化学变化。",
+            "correction": "灯泡通电发光放热但没有新物质生成，是物理变化。"
+          },
+          {
+            "mistake": "认为爆炸都是化学变化。",
+            "correction": "火药爆炸是化学变化，但气球爆炸、轮胎爆炸只是形状改变，是物理变化。"
+          }
+        ],
+        "strategy": "判断变化只看一条：有没有新物质生成；判断性质找“能、会、可以、易”这类词；不确定时先想反应后生成了什么。"
+      }
+    },
+    {
+      "id": "chemistry-air-oxygen",
+      "name": "空气与氧气",
+      "subject": "chemistry",
+      "summary": "掌握空气的组成、氧气的性质与常见物质在氧气中燃烧的现象。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "记住空气的主要成分及各成分的体积分数。",
+          "掌握氧气的性质和常见物质在氧气中燃烧的现象。",
+          "了解实验室制取氧气的常用原理。"
+        ],
+        "keyIdea": "氧气支持燃烧（助燃性）但本身不可燃；不同物质在氧气中燃烧的现象要逐一记准。",
+        "concepts": [
+          {
+            "title": "空气的组成",
+            "content": [
+              "空气按体积分数计算：氮气约 $78\\%$，氧气约 $21\\%$，稀有气体约 $0.94\\%$，二氧化碳约 $0.03\\%$。",
+              "测定空气中氧气含量常用红磷燃烧：红磷燃烧消耗氧气，冷却后进入集气瓶的水约占瓶内空气体积的 $\\dfrac{1}{5}$。"
+            ]
+          },
+          {
+            "title": "氧气的性质",
+            "content": [
+              "氧气无色无味，不易溶于水，密度比空气略大。",
+              "氧气支持燃烧（助燃性），是常用的氧化剂，但氧气本身不可燃，不能作燃料。",
+              "铁丝在氧气中剧烈燃烧、火星四射，生成黑色固体（四氧化三铁）；木炭在氧气中发出白光；硫在氧气中发出明亮的蓝紫色火焰。"
+            ]
+          },
+          {
+            "title": "氧气的实验室制法",
+            "content": [
+              "常用方法：加热高锰酸钾、加热氯酸钾（二氧化锰作催化剂）、分解过氧化氢溶液（二氧化锰作催化剂）。",
+              "过氧化氢分解：$2\\text{H}_2\\text{O}_2\\xrightarrow{\\text{MnO}_2}2\\text{H}_2\\text{O}+\\text{O}_2\\uparrow$。",
+              "铁丝在氧气中燃烧的集气瓶底要预先放少量水或细沙，防止溅落的熔融物炸裂瓶底。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "空气体积分数",
+            "expression": "$\\text{N}_2\\ 78\\%,\\quad \\text{O}_2\\ 21\\%$"
+          },
+          {
+            "name": "过氧化氢分解",
+            "expression": "$2\\text{H}_2\\text{O}_2\\xrightarrow{\\text{MnO}_2}2\\text{H}_2\\text{O}+\\text{O}_2\\uparrow$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "红磷燃烧测氧气含量",
+            "problem": "红磷在密闭容器中燃烧测定氧气含量，冷却后进入瓶内的水约占多少？",
+            "steps": [
+              "红磷燃烧消耗瓶内的氧气。",
+              "氧气约占空气体积的 $\\dfrac{1}{5}$。",
+              "瓶内压强减小，进入的水约占瓶内空气体积的 $\\dfrac{1}{5}$。"
+            ],
+            "answer": "约 $\\dfrac{1}{5}$",
+            "takeaway": "该实验成功的关键：红磷足量、装置气密性好、冷却后再读数。"
+          },
+          {
+            "title": "铁丝燃烧",
+            "problem": "细铁丝在氧气中燃烧有什么现象？",
+            "steps": [
+              "铁丝剧烈燃烧、火星四射。",
+              "放出大量热。",
+              "生成黑色固体（四氧化三铁）。"
+            ],
+            "answer": "剧烈燃烧、火星四射、生成黑色固体"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为氧气可以作燃料。",
+            "correction": "氧气只有助燃性，本身不可燃；可燃物才是燃料。"
+          },
+          {
+            "mistake": "认为铁丝在空气中也能像在氧气中一样燃烧。",
+            "correction": "空气中氧气浓度低，铁丝在空气中只能红热，不能燃烧。"
+          }
+        ],
+        "strategy": "空气成分记“氮七八氧二一”；燃烧现象按“光或火焰、放热、生成什么”三要素记；判断氧气用途先分清“助燃”和“可燃”。"
+      }
+    },
+    {
+      "id": "chemistry-matter-structure",
+      "name": "分子、原子与元素",
+      "subject": "chemistry",
+      "summary": "掌握分子和原子的基本性质与区别，记住地壳中元素的含量顺序。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "知道分子、原子、离子是构成物质的基本粒子，了解它们的基本性质。",
+          "理解分子与原子在化学变化中的区别。",
+          "记住地壳中元素含量居前几位的元素。"
+        ],
+        "keyIdea": "化学变化中分子可分、原子不可分，原子是化学变化中的最小粒子。",
+        "concepts": [
+          {
+            "title": "微观粒子的基本性质",
+            "content": [
+              "分子的质量和体积都很小，肉眼看不见。",
+              "微观粒子在不停地运动，温度越高运动越快（闻到花香说明分子在运动）。",
+              "微观粒子之间有间隔，热胀冷缩、气体易压缩都与此有关。"
+            ]
+          },
+          {
+            "title": "分子与原子",
+            "content": [
+              "分子由原子构成，如一个水分子由 $2$ 个氢原子和 $1$ 个氧原子构成。",
+              "在化学变化中，分子可以分成原子，原子重新组合成新的分子。",
+              "原子在化学变化中不可再分，是化学变化中的最小粒子；分子和原子都能直接构成物质。"
+            ]
+          },
+          {
+            "title": "元素",
+            "content": [
+              "元素是具有相同质子数的一类原子的总称。",
+              "地壳中元素含量（质量分数）由高到低：氧、硅、铝、铁。",
+              "地壳中含量最多的元素是氧，含量最多的金属元素是铝。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "水分子构成",
+            "expression": "$1$ 个水分子 $=2$ 个氢原子 $+1$ 个氧原子"
+          },
+          {
+            "name": "地壳元素含量",
+            "expression": "$\\text{O}>\\text{Si}>\\text{Al}>\\text{Fe}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "数原子个数",
+            "problem": "一个水分子中含有多少个原子？",
+            "steps": [
+              "水的化学式是 $\\text{H}_2\\text{O}$。",
+              "一个水分子由 $2$ 个氢原子和 $1$ 个氧原子构成。",
+              "共 $2+1=3$ 个原子。"
+            ],
+            "answer": "$3$ 个",
+            "takeaway": "化学式中元素符号右下角的数字就是每个分子中该原子的个数。"
+          },
+          {
+            "title": "地壳中的元素",
+            "problem": "地壳中含量最多的元素和最多的金属元素分别是什么？",
+            "steps": [
+              "地壳元素含量顺序：氧、硅、铝、铁。",
+              "排第一的是氧元素。",
+              "排第一的金属元素是铝。"
+            ],
+            "answer": "最多的元素是氧，最多的金属元素是铝"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为原子在一切变化中都不可再分。",
+            "correction": "准确说法是：原子在化学变化中不可再分；核变化中原子核可以再分。"
+          },
+          {
+            "mistake": "认为分子一定比原子大。",
+            "correction": "分子由原子构成，但不同种类的分子与原子无法笼统比较大小。"
+          }
+        ],
+        "strategy": "分子与原子的区别抓住“化学变化中是否可分”；元素含量题记口诀“养闺女贴（氧硅铝铁）”；微观粒子题先想“小、动、隔”三个性质。"
+      }
+    },
+    {
+      "id": "chemistry-water-solution",
+      "name": "水与溶液",
+      "subject": "chemistry",
+      "summary": "掌握电解水实验、溶液的组成和溶质质量分数的计算。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握电解水实验的现象和结论。",
+          "理解溶液的特征和组成。",
+          "会用溶质质量分数公式进行计算。"
+        ],
+        "keyIdea": "电解水“正氧负氢、氢二氧一”；溶质质量分数的计算基数是溶液质量，不是溶剂质量。",
+        "concepts": [
+          {
+            "title": "电解水实验",
+            "content": [
+              "通电分解水时，正极产生氧气，负极产生氢气，体积比约为 $1:2$，口诀“正氧负氢、氢二氧一”。",
+              "电解水生成氢气和氧气，证明水是由氢元素和氧元素组成的。",
+              "为了增强导电性，实验中常加入少量氢氧化钠或稀硫酸。"
+            ]
+          },
+          {
+            "title": "溶液",
+            "content": [
+              "溶液是均一、稳定的混合物，由溶质和溶剂组成。",
+              "溶质是被溶解的物质，溶剂是能溶解其他物质的物质，水是最常用的溶剂。",
+              "溶液质量 $=$ 溶质质量 $+$ 溶剂质量；溶液体积一般不等于溶质与溶剂体积之和。"
+            ]
+          },
+          {
+            "title": "溶解度与质量分数",
+            "content": [
+              "溶解度指在一定温度下，某固体物质在 $100\\ \\text{g}$ 溶剂里达到饱和状态时所溶解的质量。",
+              "溶质质量分数 $=\\dfrac{\\text{溶质质量}}{\\text{溶液质量}}\\times100\\%$。",
+              "一定温度下的饱和溶液中，质量分数 $=\\dfrac{S}{100+S}\\times100\\%$（$S$ 为溶解度）。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "溶质质量分数",
+            "expression": "$w=\\dfrac{\\text{溶质质量}}{\\text{溶液质量}}\\times100\\%$"
+          },
+          {
+            "name": "饱和溶液质量分数",
+            "expression": "$w=\\dfrac{S}{100+S}\\times100\\%$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "配制溶液",
+            "problem": "配制 $50\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+            "steps": [
+              "氯化钠质量 $=50\\times10\\%=5\\ \\text{g}$。",
+              "水的质量 $=50-5=45\\ \\text{g}$。",
+              "注意溶剂质量用减法求，最不容易错。"
+            ],
+            "answer": "氯化钠 $5\\ \\text{g}$，水 $45\\ \\text{g}$",
+            "takeaway": "溶质 $=$ 溶液 $\\times$ 质量分数；溶剂 $=$ 溶液 $-$ 溶质。"
+          },
+          {
+            "title": "饱和溶液的质量分数",
+            "problem": "$20\\ ^\\circ\\text{C}$ 时硝酸钾的溶解度为 $31.6\\ \\text{g}$，该温度下饱和溶液的溶质质量分数约是多少？",
+            "steps": [
+              "溶解度 $S$ 对应 $100\\ \\text{g}$ 水，溶液质量 $=100+31.6=131.6\\ \\text{g}$。",
+              "$w=\\dfrac{31.6}{131.6}\\times100\\%\\approx24\\%$。"
+            ],
+            "answer": "约 $24\\%$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "计算质量分数时分母用溶剂质量。",
+            "correction": "分母必须是溶液质量（溶质 $+$ 溶剂）。"
+          },
+          {
+            "mistake": "认为饱和溶液一定是浓溶液。",
+            "correction": "饱和与浓稀没有必然联系，如氢氧化钙的饱和溶液就是稀溶液。"
+          }
+        ],
+        "strategy": "电解水题背口诀“正氧负氢、氢二氧一”；质量分数计算先分清“溶质、溶剂、溶液”三个量再代入；溶解度题一律以 $100\\ \\text{g}$ 溶剂为基准。"
+      }
+    },
+    {
+      "id": "chemistry-chemical-equations",
+      "name": "质量守恒定律与化学方程式",
+      "subject": "chemistry",
+      "summary": "掌握质量守恒定律及其微观解释，会进行化学方程式的基本计算。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "理解质量守恒定律的内容和微观解释。",
+          "会利用质量守恒定律计算某生成物或反应物的质量。",
+          "会根据化学方程式进行基本计算。"
+        ],
+        "keyIdea": "化学反应前后原子的种类、数目、质量都不变，所以反应物总质量等于生成物总质量。",
+        "concepts": [
+          {
+            "title": "质量守恒定律",
+            "content": [
+              "参加化学反应的各物质的质量总和，等于反应后生成的各物质的质量总和。",
+              "注意“参加化学反应”六个字：没有参加反应的剩余物质的质量不能计入。",
+              "所有化学反应都遵守质量守恒定律。"
+            ]
+          },
+          {
+            "title": "微观解释（六不变、两变）",
+            "content": [
+              "六不变：原子的种类、数目、质量不变；元素的种类、质量不变；物质的总质量不变。",
+              "两一定变：物质的种类一定变，分子的种类一定变。",
+              "两可能变：分子的数目可能变，元素的化合价可能变。"
+            ]
+          },
+          {
+            "title": "化学方程式计算",
+            "content": [
+              "化学方程式表示反应物、生成物及其质量比、粒子个数比。",
+              "计算步骤：设未知数、写化学方程式、找相关物质相对分子质量和已知量、列比例式、求解。",
+              "代入计算的必须是纯净物的质量，混合物要先换算。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "质量守恒",
+            "expression": "$\\sum m(\\text{反应物})=\\sum m(\\text{生成物})$"
+          },
+          {
+            "name": "水的生成",
+            "expression": "$2\\text{H}_2+\\text{O}_2\\xrightarrow{\\text{点燃}}2\\text{H}_2\\text{O}$"
+          },
+          {
+            "name": "相对分子质量",
+            "expression": "$\\text{H}_2\\text{O}$ 的相对分子质量 $=1\\times2+16=18$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "质量守恒求生成物质量",
+            "problem": "$10\\ \\text{g}$ 某物质与 $20\\ \\text{g}$ 另一物质恰好完全反应，生成 $25\\ \\text{g}$ 某生成物和另一种生成物，求另一种生成物的质量。",
+            "steps": [
+              "反应物总质量 $=10+20=30\\ \\text{g}$。",
+              "根据质量守恒，生成物总质量也是 $30\\ \\text{g}$。",
+              "另一种生成物质量 $=30-25=5\\ \\text{g}$。"
+            ],
+            "answer": "$5\\ \\text{g}$",
+            "takeaway": "质量守恒就是“反应前后总账不变”，缺多少补多少。"
+          },
+          {
+            "title": "燃烧计算",
+            "problem": "$4\\ \\text{g}$ 氢气在氧气中完全燃烧，生成水的质量是多少？",
+            "steps": [
+              "化学方程式：$2\\text{H}_2+\\text{O}_2\\xrightarrow{\\text{点燃}}2\\text{H}_2\\text{O}$。",
+              "$4\\ \\text{g}$ 氢气的相对质量份数为 $4$（即 $2\\times2$），对应水的相对质量份数为 $36$（即 $2\\times18$）。",
+              "所以生成水 $36\\ \\text{g}$。"
+            ],
+            "answer": "$36\\ \\text{g}$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把没有参加反应的剩余物质量计入反应物总量。",
+            "correction": "质量守恒只对“参加化学反应”的物质成立，过量部分不算。"
+          },
+          {
+            "mistake": "用混合物质量直接代入化学方程式计算。",
+            "correction": "先求出纯净物质量（乘以纯度或质量分数），再代入比例式。"
+          }
+        ],
+        "strategy": "求某物质质量先想质量守恒的“总账平衡”；方程式计算严格按“设、写、找、列、算”五步走，相对分子质量别算错。"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "chem-change-001",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "下列变化中，属于化学变化的是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "冰雪融化"
+        },
+        {
+          "key": "B",
+          "label": "酒精挥发"
+        },
+        {
+          "key": "C",
+          "label": "木炭燃烧"
+        },
+        {
+          "key": "D",
+          "label": "灯泡通电发光"
+        }
+      ],
+      "answer": "C",
+      "explanation": "木炭燃烧生成二氧化碳，有新物质生成，属于化学变化；A、B、D 都没有新物质生成，属于物理变化。",
+      "optimalSolution": "只看一条：有没有新物质生成。",
+      "commonMistake": "看到灯泡发光就选，发光放热不一定有新物质生成。"
+    },
+    {
+      "id": "chem-change-002",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "汽油能溶解油污，这属于汽油的 ______。（填“物理性质”或“化学性质”）",
+      "source": "性质与变化辨析",
+      "acceptedAnswers": [
+        "物理性质"
+      ],
+      "answerKind": "text",
+      "explanation": "溶解性不需要通过化学变化就能表现，属于物理性质。",
+      "optimalSolution": "溶解性、密度、熔沸点都是物理性质。",
+      "commonMistake": "把“溶解”误解为化学变化。"
+    },
+    {
+      "id": "chem-air-001",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 30,
+      "stem": "空气中体积分数约占 $21\\%$ 的气体是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "氮气"
+        },
+        {
+          "key": "B",
+          "label": "氧气"
+        },
+        {
+          "key": "C",
+          "label": "二氧化碳"
+        },
+        {
+          "key": "D",
+          "label": "稀有气体"
+        }
+      ],
+      "answer": "B",
+      "explanation": "空气按体积分数计算：氮气约 $78\\%$，氧气约 $21\\%$。",
+      "optimalSolution": "口诀“氮七八氧二一”。",
+      "commonMistake": "把质量分数和体积分数混淆。"
+    },
+    {
+      "id": "chem-air-002",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "空气中氧气的体积分数约为 ______ $\\%$。",
+      "source": "空气组成",
+      "answer": 21,
+      "explanation": "氧气约占空气体积的 $21\\%$（约 $\\dfrac{1}{5}$）。",
+      "optimalSolution": "记住约数 $\\dfrac{1}{5}$，对应 $21\\%$。",
+      "commonMistake": "填成 $78\\%$（氮气的体积分数）。"
+    },
+    {
+      "id": "chem-air-003",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "下列关于氧气的说法中，正确的是（　）",
+      "source": "氧气性质综合",
+      "options": [
+        {
+          "key": "A",
+          "label": "氧气能支持燃烧，可作燃料"
+        },
+        {
+          "key": "B",
+          "label": "鱼类能在水中生存，说明氧气易溶于水"
+        },
+        {
+          "key": "C",
+          "label": "铁丝在氧气中剧烈燃烧，火星四射，生成黑色固体"
+        },
+        {
+          "key": "D",
+          "label": "木炭在氧气中燃烧发出红光"
+        }
+      ],
+      "answer": "C",
+      "explanation": "C 正确。A 错误：氧气只有助燃性，不可燃；B 错误：氧气不易溶于水；D 错误：木炭在氧气中发出白光，在空气中才是红热。",
+      "optimalSolution": "逐项核对：助燃不可燃、不易溶于水、燃烧现象三要素。",
+      "commonMistake": "误认为“水中生存”说明氧气易溶，其实只是能溶解少量。"
+    },
+    {
+      "id": "chem-matter-001",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "在化学变化中，能够保持物质化学性质的最小粒子与化学变化中的最小粒子分别是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "分子、原子"
+        },
+        {
+          "key": "B",
+          "label": "原子、分子"
+        },
+        {
+          "key": "C",
+          "label": "原子、原子"
+        },
+        {
+          "key": "D",
+          "label": "分子、分子"
+        }
+      ],
+      "answer": "A",
+      "explanation": "由分子构成的物质中，分子是保持其化学性质的最小粒子；原子是化学变化中的最小粒子。",
+      "optimalSolution": "两个“最小粒子”的定义要分清对象。",
+      "commonMistake": "两个都填原子。"
+    },
+    {
+      "id": "chem-matter-002",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "一个水分子（$\\text{H}_2\\text{O}$）中含有 ______ 个原子。",
+      "source": "分子构成",
+      "answer": 3,
+      "explanation": "一个水分子由 $2$ 个氢原子和 $1$ 个氧原子构成，共 $3$ 个原子。",
+      "optimalSolution": "化学式中各元素符号右下角数字相加（没有下标按 $1$ 计）。",
+      "commonMistake": "只数氢原子或只数氧原子。"
+    },
+    {
+      "id": "chem-matter-003",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "地壳中含量最多的元素是 ______。（填元素名称或元素符号）",
+      "source": "元素含量",
+      "acceptedAnswers": [
+        "氧",
+        "氧元素",
+        "O"
+      ],
+      "answerKind": "text",
+      "explanation": "地壳中元素含量由高到低为：氧、硅、铝、铁，最多的是氧元素。",
+      "optimalSolution": "口诀“养闺女贴（氧硅铝铁）”。",
+      "commonMistake": "误填“硅”或“铝”。"
+    },
+    {
+      "id": "chem-water-001",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "电解水实验中，正极产生的气体是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "氢气"
+        },
+        {
+          "key": "B",
+          "label": "氧气"
+        },
+        {
+          "key": "C",
+          "label": "二氧化碳"
+        },
+        {
+          "key": "D",
+          "label": "氮气"
+        }
+      ],
+      "answer": "B",
+      "explanation": "电解水时正极产生氧气，负极产生氢气，体积比约为 $1:2$，口诀“正氧负氢”。",
+      "optimalSolution": "口诀“正氧负氢、氢二氧一”。",
+      "commonMistake": "正负极记反。"
+    },
+    {
+      "id": "chem-water-002",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "配制 $50\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "source": "溶液配制计算",
+      "answer": 5,
+      "explanation": "氯化钠质量 $=50\\times10\\%=5\\ \\text{g}$，水 $=50-5=45\\ \\text{g}$。",
+      "optimalSolution": "溶质 $=$ 溶液质量 $\\times$ 质量分数。",
+      "commonMistake": "把 $10\\%$ 当成水的质量，算成 $45\\ \\text{g}$。"
+    },
+    {
+      "id": "chem-water-003",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 100,
+      "stem": "$20\\ ^\\circ\\text{C}$ 时硝酸钾的溶解度为 $31.6\\ \\text{g}$。该温度下硝酸钾饱和溶液的溶质质量分数约为 ______ $\\%$。（结果取整数）",
+      "source": "溶解度与质量分数综合",
+      "answer": 24,
+      "tolerance": 0.5,
+      "explanation": "饱和溶液质量 $=100+31.6=131.6\\ \\text{g}$，质量分数 $=\\dfrac{31.6}{131.6}\\times100\\%\\approx24\\%$。",
+      "optimalSolution": "直接套 $w=\\dfrac{S}{100+S}\\times100\\%$。",
+      "commonMistake": "分母只用 $100\\ \\text{g}$ 水，算出 $31.6\\%$。"
+    },
+    {
+      "id": "chem-equation-001",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "化学反应前后，一定不变的是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "分子的种类"
+        },
+        {
+          "key": "B",
+          "label": "原子的种类和数目"
+        },
+        {
+          "key": "C",
+          "label": "物质的种类"
+        },
+        {
+          "key": "D",
+          "label": "分子的数目"
+        }
+      ],
+      "answer": "B",
+      "explanation": "化学反应前后原子种类和数目不变（六不变之一）；分子种类、物质种类一定变，分子数目可能变。",
+      "optimalSolution": "记“六不变、两变、两可能变”。",
+      "commonMistake": "误选分子数目不变。"
+    },
+    {
+      "id": "chem-equation-002",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "$10\\ \\text{g}$ 甲物质与 $20\\ \\text{g}$ 乙物质恰好完全反应，生成 $25\\ \\text{g}$ 丙物质和另一种物质丁，则丁物质的质量是 ______ $\\text{g}$。",
+      "source": "质量守恒计算",
+      "answer": 5,
+      "explanation": "反应物总质量 $=10+20=30\\ \\text{g}$，由质量守恒定律，丁的质量 $=30-25=5\\ \\text{g}$。",
+      "optimalSolution": "总账平衡：反应物总和 $-$ 已知生成物 $=$ 待求生成物。",
+      "commonMistake": "忘记把两种反应物都加起来。"
+    },
+    {
+      "id": "chem-equation-003",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 100,
+      "stem": "$4\\ \\text{g}$ 氢气在氧气中完全燃烧，生成水的质量是 ______ $\\text{g}$。（$2\\text{H}_2+\\text{O}_2\\xrightarrow{\\text{点燃}}2\\text{H}_2\\text{O}$）",
+      "source": "化学方程式计算",
+      "answer": 36,
+      "explanation": "$4\\ \\text{g}$ 恰好是方程式中 $2\\text{H}_2$ 的相对质量（$2\\times2=4$），对应 $2\\text{H}_2\\text{O}$ 的相对质量 $2\\times18=36$，即生成 $36\\ \\text{g}$ 水。",
+      "optimalSolution": "利用相对质量份数直接对比：$4\\ \\text{g}$ 对应 $4$ 份，水是 $36$ 份。",
+      "commonMistake": "相对分子质量算错，或忘记方程式系数。"
+    },
+    {
+      "id": "chem-change-003",
+      "subject": "chemistry",
+      "knowledgePointIds": [
+        "chemistry-change-properties"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "下列描述中，属于化学性质的是（　）",
+      "source": "性质与变化辨析",
+      "options": [
+        {
+          "key": "A",
+          "label": "铁在潮湿的空气中生锈"
+        },
+        {
+          "key": "B",
+          "label": "氧气是无色无味的气体"
+        },
+        {
+          "key": "C",
+          "label": "镁能燃烧"
+        },
+        {
+          "key": "D",
+          "label": "水结成了冰"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“能燃烧”描述的是可燃性，需要通过化学变化才能表现，属于化学性质。A、D 是变化的描述，B 是物理性质。",
+      "optimalSolution": "找“能、会、可以、易”这类词；生锈、结冰是变化过程的陈述。",
+      "commonMistake": "把“铁生锈”这一变化误当作性质。"
+    }
+  ]
+}

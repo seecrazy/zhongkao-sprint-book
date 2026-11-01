@@ -261,7 +261,7 @@ function LessonBody({ point, stats }: LessonBodyProps) {
             <article key={pitfall.mistake} className="lesson-card warning-card">
               <p>
                 <strong>易错：</strong>
-                {pitfall.mistake}
+                <MathText text={pitfall.mistake}/>
               </p>
               <p className="optimal">
                 <strong>纠正：</strong>

@@ -1,0 +1,365 @@
+{
+  "version": "reference-v0.13",
+  "subjects": [
+    {
+      "subject": "math",
+      "groups": [
+        {
+          "title": "方程与不等式",
+          "items": [
+            {
+              "name": "求根公式",
+              "expression": "$x=\\dfrac{-b\\pm\\sqrt{b^2-4ac}}{2a}$（$a\\ne0$）",
+              "note": "先算判别式再代入"
+            },
+            {
+              "name": "根的判别式",
+              "expression": "$\\Delta=b^2-4ac$：$\\Delta>0$ 两不等实根；$=0$ 两相等；$<0$ 无实根",
+              "note": "“有实根”含相等"
+            },
+            {
+              "name": "根与系数（韦达定理）",
+              "expression": "$x_1+x_2=-\\dfrac{b}{a},\\quad x_1x_2=\\dfrac{c}{a}$",
+              "note": "检验答案、构造方程"
+            },
+            {
+              "name": "不等式性质",
+              "expression": "两边同乘（除）负数 $\\Rightarrow$ 不等号方向改变",
+              "note": "去分母时最易错"
+            }
+          ]
+        },
+        {
+          "title": "函数",
+          "items": [
+            {
+              "name": "一次函数",
+              "expression": "$y=kx+b$（$k\\ne0$）；$k>0$ 增，$k<0$ 减",
+              "note": "两点求解析式"
+            },
+            {
+              "name": "二次函数顶点",
+              "expression": "$y=a(x-h)^2+k$，顶点 $(h,k)$；$x=-\\dfrac{b}{2a}$",
+              "note": "$a>0$ 开口向上取最小"
+            },
+            {
+              "name": "两点间距离",
+              "expression": "$d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$",
+              "note": "勾股定理的坐标形式"
+            }
+          ]
+        },
+        {
+          "title": "三角形与四边形",
+          "items": [
+            {
+              "name": "勾股定理",
+              "expression": "$a^2+b^2=c^2$（$c$ 为斜边）",
+              "note": "逆定理判直角"
+            },
+            {
+              "name": "斜边上的高",
+              "expression": "$h=\\dfrac{ab}{c}$",
+              "note": "面积法"
+            },
+            {
+              "name": "相似三角形",
+              "expression": "对应边成比例；面积比 $=$ 相似比的平方",
+              "note": "母子相似 $AC^2=AD\\cdot AB$"
+            },
+            {
+              "name": "平行线判定",
+              "expression": "同位角相等 / 内错角相等 / 同旁内角互补 $\\Rightarrow$ 平行",
+              "note": "判定推平行，性质推角度"
+            },
+            {
+              "name": "特殊四边形",
+              "expression": "菱形面积 $S=\\dfrac{1}{2}d_1d_2$；中位线 $=$ 第三边的一半",
+              "note": "对角线互相垂直用菱形公式"
+            },
+            {
+              "name": "平行线拐点模型",
+              "expression": "$\\angle$拐角 $=\\angle$左角 $+\\angle$右角",
+              "note": "过拐点作平行线"
+            }
+          ]
+        },
+        {
+          "title": "圆",
+          "items": [
+            {
+              "name": "垂径定理",
+              "expression": "$r^2=d^2+a^2$（$r$ 半径、$d$ 弦心距、$a$ 半弦）",
+              "note": "弦心距垂直平分弦"
+            },
+            {
+              "name": "圆周角定理",
+              "expression": "圆周角 $=\\dfrac{1}{2}$ 同弧圆心角；直径所对圆周角 $=90^\\circ$",
+              "note": "见直径找直角"
+            },
+            {
+              "name": "弧长与扇形面积",
+              "expression": "$l=\\dfrac{n\\pi r}{180}$；$S=\\dfrac{n\\pi r^2}{360}=\\dfrac{1}{2}lr$",
+              "note": "分母 180 / 360 勿混"
+            },
+            {
+              "name": "圆内接四边形",
+              "expression": "对角互补",
+              "note": "对边之和也等于直径相关量"
+            }
+          ]
+        },
+        {
+          "title": "统计与概率",
+          "items": [
+            {
+              "name": "平均数与加权平均数",
+              "expression": "$\\bar{x}=\\dfrac{x_1+\\cdots+x_n}{n}$；$\\bar{x}=\\dfrac{\\sum fx}{\\sum f}$",
+              "note": "权重看出现次数"
+            },
+            {
+              "name": "概率",
+              "expression": "$P(A)=\\dfrac{m}{n}$（等可能事件）",
+              "note": "列表法 / 树状图数 $m$、$n$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "physics",
+      "groups": [
+        {
+          "title": "运动与密度",
+          "items": [
+            {
+              "name": "速度",
+              "expression": "$v=\\dfrac{s}{t}$；$1\\ \\text{m/s}=3.6\\ \\text{km/h}$",
+              "note": "先统一单位"
+            },
+            {
+              "name": "平均速度",
+              "expression": "$\\bar{v}=\\dfrac{s_{总}}{t_{总}}$；等路程变速 $=\\dfrac{2v_1v_2}{v_1+v_2}$",
+              "note": "不是速度平均"
+            },
+            {
+              "name": "过桥（隧道）",
+              "expression": "$s=$ 桥长 $+$ 车长",
+              "note": "完全通过要加车长"
+            },
+            {
+              "name": "密度",
+              "expression": "$\\rho=\\dfrac{m}{V}$；$1\\ \\text{g/cm}^3=10^3\\ \\text{kg/m}^3$",
+              "note": "空心：$V_{实}=m/\\rho$"
+            }
+          ]
+        },
+        {
+          "title": "压强",
+          "items": [
+            {
+              "name": "固体压强",
+              "expression": "$p=\\dfrac{F}{S}$；水平面 $F=G=mg$",
+              "note": "$S$ 取接触面积"
+            },
+            {
+              "name": "液体压强",
+              "expression": "$p=\\rho gh$（$h$ 为到液面竖直深度）",
+              "note": "与容器形状无关"
+            },
+            {
+              "name": "柱体压强",
+              "expression": "$p=\\rho gh$（$h$ 为柱体高度）",
+              "note": "实心均匀柱体直接用"
+            }
+          ]
+        },
+        {
+          "title": "热学",
+          "items": [
+            {
+              "name": "吸放热",
+              "expression": "$Q=cm\\Delta t$；$c_{水}=4.2\\times10^3\\ \\text{J/(kg}\\cdot^\\circ\\text{C)}$",
+              "note": "质量用 kg"
+            },
+            {
+              "name": "燃料热值",
+              "expression": "$Q=mq$",
+              "note": "完全燃烧；热值是特性"
+            },
+            {
+              "name": "热传递条件",
+              "expression": "存在温度差",
+              "note": "高温→低温"
+            }
+          ]
+        },
+        {
+          "title": "电学",
+          "items": [
+            {
+              "name": "欧姆定律",
+              "expression": "$I=\\dfrac{U}{R}$",
+              "note": "同一导体同一时刻"
+            },
+            {
+              "name": "串联电路",
+              "expression": "$I=I_1=I_2$；$U=U_1+U_2$；$R=R_1+R_2$；分压 $\\dfrac{U_1}{U_2}=\\dfrac{R_1}{R_2}$",
+              "note": "串联分压"
+            },
+            {
+              "name": "并联电路",
+              "expression": "$U=U_1=U_2$；$I=I_1+I_2$；分流与电阻成反比",
+              "note": "并联分流"
+            },
+            {
+              "name": "电功率",
+              "expression": "$P=UI$；$W=Pt$；$1\\ \\text{kW}\\cdot\\text{h}=3.6\\times10^6\\ \\text{J}$",
+              "note": "计算电能时 $P$ 用 kW、$t$ 用 h"
+            }
+          ]
+        },
+        {
+          "title": "功与能",
+          "items": [
+            {
+              "name": "功",
+              "expression": "$W=Fs$；提升重物 $W=Gh$",
+              "note": "力与距离同方向"
+            },
+            {
+              "name": "功率",
+              "expression": "$P=\\dfrac{W}{t}=Fv$",
+              "note": "匀速提升 $P=\\dfrac{Gh}{t}$"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "chemistry",
+      "groups": [
+        {
+          "title": "构成与结构",
+          "items": [
+            {
+              "name": "原子构成",
+              "expression": "原子 $=$ 原子核（质子 $+$ 中子）$+$ 核外电子",
+              "note": "质子带正电、中子不带、电子带负"
+            },
+            {
+              "name": "原子中的等量关系",
+              "expression": "质子数 $=$ 核电荷数 $=$ 核外电子数 $=$ 原子序数",
+              "note": "原子不显电性"
+            },
+            {
+              "name": "相对原子质量",
+              "expression": "$\\approx$ 质子数 $+$ 中子数",
+              "note": "单位为 1"
+            },
+            {
+              "name": "离子形成",
+              "expression": "失电子 $\\rightarrow$ 阳离子；得电子 $\\rightarrow$ 阴离子",
+              "note": "符号先数字后正负"
+            },
+            {
+              "name": "元素",
+              "expression": "质子数相同的一类原子的总称；原子序数 $=$ 质子数",
+              "note": "只讲种类不讲个数"
+            },
+            {
+              "name": "地壳元素含量",
+              "expression": "$\\text{O}>\\text{Si}>\\text{Al}>\\text{Fe}$",
+              "note": "养闺女贴"
+            }
+          ]
+        },
+        {
+          "title": "化学用语与质量守恒",
+          "items": [
+            {
+              "name": "元素符号书写",
+              "expression": "一大二小（$\\text{Ca}$、$\\text{Fe}$、$\\text{Cl}$）",
+              "note": "符号前数字只表原子个数"
+            },
+            {
+              "name": "常见化合价口诀",
+              "expression": "一价钾钠氯氢银，二价氧钙钡镁锌；三铝四硅五价磷，二三铁、二四碳；二四六硫都齐全，铜汞二价最常见",
+              "note": "单质为零，代数和为零"
+            },
+            {
+              "name": "质量守恒定律",
+              "expression": "$\\sum m(反应物)=\\sum m(生成物)$",
+              "note": "“参加”反应，剩余不算"
+            },
+            {
+              "name": "微观六不变",
+              "expression": "原子种类 / 数目 / 质量，元素种类 / 质量不变，总质量不变",
+              "note": "分子种类一定变"
+            },
+            {
+              "name": "方程式计算五步",
+              "expression": "设 → 写 → 找（相对质量）→ 列 → 算",
+              "note": "只能代纯净物质量"
+            }
+          ]
+        },
+        {
+          "title": "溶液",
+          "items": [
+            {
+              "name": "溶质质量分数",
+              "expression": "$w=\\dfrac{m_{溶质}}{m_{溶液}}\\times100\\%$",
+              "note": "分母是溶液"
+            },
+            {
+              "name": "饱和溶液",
+              "expression": "$w=\\dfrac{S}{100+S}\\times100\\%$",
+              "note": "$S$ 对应 100 g 溶剂"
+            },
+            {
+              "name": "稀释守恒",
+              "expression": "$m_1w_1=m_2w_2$（溶质不变）",
+              "note": "加水 $=m_2-m_1$"
+            }
+          ]
+        },
+        {
+          "title": "金属与酸碱盐",
+          "items": [
+            {
+              "name": "金属活动性顺序",
+              "expression": "K Ca Na Mg Al Zn Fe Sn Pb (H) Cu Hg Ag Pt Au",
+              "note": "钾钙钠镁铝、锌铁锡铅氢、铜汞银铂金"
+            },
+            {
+              "name": "铁生锈条件",
+              "expression": "氧气 $+$ 水（同时接触）",
+              "note": "防锈＝隔绝其一"
+            },
+            {
+              "name": "炼铁原理",
+              "expression": "$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$",
+              "note": "质量比 160:112 = 10:7"
+            },
+            {
+              "name": "中和反应",
+              "expression": "酸 $+$ 碱 $\\rightarrow$ 盐 $+$ 水",
+              "note": "熟石灰改良酸性土壤"
+            },
+            {
+              "name": "酸碱判断",
+              "expression": "石蕊：酸红碱蓝；酚酞：酸无碱红；$\\text{pH}<7$ 酸",
+              "note": "pH 0~14"
+            },
+            {
+              "name": "二氧化碳检验",
+              "expression": "$\\text{CO}_2+\\text{Ca(OH)}_2=\\text{CaCO}_3\\downarrow+\\text{H}_2\\text{O}$",
+              "note": "澄清石灰水变浑浊"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

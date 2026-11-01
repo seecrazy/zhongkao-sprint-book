@@ -12,6 +12,7 @@ export type PageKey =
   | "practice"
   | "exam"
   | "mistakes"
+  | "reference"
   | "settings";
 
 interface LayoutProps {
@@ -28,6 +29,7 @@ const navItems: Array<{ key: PageKey; label: string }> = [
   { key: "practice", label: "专题练习" },
   { key: "exam", label: "限时模考" },
   { key: "mistakes", label: "错题本" },
+  { key: "reference", label: "速查表" },
   { key: "settings", label: "设置" },
 ];
 

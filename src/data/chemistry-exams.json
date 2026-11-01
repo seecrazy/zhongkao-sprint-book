@@ -1,5 +1,5 @@
 {
-  "version": "chemistry-exams-v0.11",
+  "version": "chemistry-exams-v0.13",
   "exams": [
     {
       "id": "chem-mock-001",
@@ -34,7 +34,11 @@
             "chem-matter-003",
             "chem-water-001",
             "chem-water-002",
-            "chem-water-003"
+            "chem-water-003",
+            "chem-atom-001",
+            "chem-atom-002",
+            "chem-elem-001",
+            "chem-matter-004"
           ]
         },
         {
@@ -69,7 +73,7 @@
       "subject": "chemistry",
       "title": "化学薄弱考点精准卷",
       "description": "快速诊断化学薄弱考点的短卷，适合每天 15 分钟定向修补。",
-      "durationMinutes": 20,
+      "durationMinutes": 25,
       "level": "topic",
       "sections": [
         {
@@ -88,7 +92,9 @@
             "chem-equation-002",
             "chem-carbon-002",
             "chem-metal-002",
-            "chem-acidbase-001"
+            "chem-acidbase-001",
+            "chem-atom-003",
+            "chem-elem-002"
           ]
         }
       ]
@@ -121,7 +127,9 @@
           "questionIds": [
             "chem-carbon-003",
             "chem-acidbase-003",
-            "chem-acidbase-004"
+            "chem-acidbase-004",
+            "chem-atom-004",
+            "chem-elem-003"
           ]
         }
       ]

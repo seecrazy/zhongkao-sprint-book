@@ -246,3 +246,19 @@ export interface ExamResult {
   topicReports: ExamTopicReport[];
   sectionReports: ExamSectionReport[];
 }
+
+export interface ReferenceItem {
+  name: string;
+  expression: string;
+  note?: string;
+}
+
+export interface ReferenceGroup {
+  title: string;
+  items: ReferenceItem[];
+}
+
+export interface ReferenceSubject {
+  subject: Subject;
+  groups: ReferenceGroup[];
+}

@@ -15,6 +15,7 @@ let questionCount = 0;
 let knowledgePointCount = 0;
 let lessonCount = 0;
 let examCount = 0;
+let referenceCount = 0;
 
 function isObject(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -323,6 +324,12 @@ async function main() {
 
     if (!content.version) errors.push(`${file} 缺少 version`);
 
+    // 速查表等辅助数据文件：不含题库结构，只校验版本号。
+    if (Array.isArray(content.subjects)) {
+      referenceCount += 1;
+      continue;
+    }
+
     const isExamFile = Array.isArray(content.exams);
 
     if (!isExamFile) {
@@ -392,6 +399,7 @@ async function main() {
   console.log(`考点讲解：${lessonCount}`);
   console.log(`题目：${questionCount}`);
   console.log(`试卷：${examCount}`);
+  console.log(`速查表文件：${referenceCount}`);
 
   if (warnings.length > 0) {
     console.log("\n警告：");

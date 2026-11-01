@@ -5,6 +5,7 @@ import Topics from "./pages/Topics";
 import Practice from "./pages/Practice";
 import Exam from "./pages/Exam";
 import Mistakes from "./pages/Mistakes";
+import Reference from "./pages/Reference";
 import Settings from "./pages/Settings";
 import { loadProgress, saveProgress } from "./lib/storage";
 import { isAvailableSubject } from "./data/sample-content";
@@ -16,6 +17,7 @@ const pageKeys = [
   "practice",
   "exam",
   "mistakes",
+  "reference",
   "settings",
 ] as const;
 
@@ -160,6 +162,7 @@ export default function App() {
           }
         />
       )}
+      {page === "reference" && <Reference subject={subject} key={subject} />}
       {page === "settings" && (
         <Settings
           key={subject}

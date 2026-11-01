@@ -1,0 +1,805 @@
+{
+  "version": "physics-v0.9",
+  "knowledgePoints": [
+    {
+      "id": "physics-motion-speed",
+      "name": "机械运动与速度",
+      "subject": "physics",
+      "summary": "掌握速度公式、单位换算和平均速度的计算方法。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "会用速度公式及其变形计算路程、速度和时间。",
+          "能熟练进行 $\\text{m/s}$ 与 $\\text{km/h}$ 的单位换算。",
+          "会计算平均速度，并能读懂 $s$-$t$ 图像。"
+        ],
+        "keyIdea": "速度描述运动快慢，核心是 $v=\\dfrac{s}{t}$；计算前先统一单位，平均速度必须用总路程除以总时间。",
+        "concepts": [
+          {
+            "title": "长度与时间的测量",
+            "content": [
+              "长度单位换算：$1\\ \\text{m}=100\\ \\text{cm}$，$1\\ \\text{km}=1000\\ \\text{m}$。",
+              "时间单位换算：$1\\ \\text{h}=60\\ \\text{min}=3600\\ \\text{s}$。",
+              "刻度尺读数要估读到分度值的下一位。"
+            ]
+          },
+          {
+            "title": "速度",
+            "content": [
+              "速度表示物体运动的快慢，等于单位时间内通过的路程。",
+              "国际单位是 $\\text{m/s}$，常用单位是 $\\text{km/h}$，$1\\ \\text{m/s}=3.6\\ \\text{km/h}$。",
+              "匀速直线运动的速度大小和方向都不变。"
+            ]
+          },
+          {
+            "title": "平均速度",
+            "content": [
+              "变速运动用平均速度粗略描述快慢。",
+              "平均速度 $=$ 总路程 $\\div$ 总时间，不是速度的算术平均。",
+              "$s$-$t$ 图像中，倾斜直线表示匀速运动，直线越陡速度越大。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "速度定义式",
+            "expression": "$v=\\dfrac{s}{t}$"
+          },
+          {
+            "name": "变形公式",
+            "expression": "$s=vt,\\quad t=\\dfrac{s}{v}$"
+          },
+          {
+            "name": "单位换算",
+            "expression": "$1\\ \\text{m/s}=3.6\\ \\text{km/h}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "基础求速度",
+            "problem": "骑自行车用 $3\\ \\text{min}$ 通过了 $900\\ \\text{m}$ 路程，速度是多少？",
+            "steps": [
+              "统一单位：$3\\ \\text{min}=180\\ \\text{s}$。",
+              "代入公式：$v=\\dfrac{s}{t}=\\dfrac{900}{180}=5\\ \\text{m/s}$。",
+              "如需换算：$5\\times3.6=18\\ \\text{km/h}$。"
+            ],
+            "answer": "$5\\ \\text{m/s}$",
+            "takeaway": "先统一单位再代入公式，可以避免绝大多数计算错误。"
+          },
+          {
+            "title": "平均速度",
+            "problem": "汽车前一半路程速度为 $30\\ \\text{km/h}$，后一半路程速度为 $60\\ \\text{km/h}$，求全程平均速度。",
+            "steps": [
+              "设总路程为 $2s$，前半程用时 $t_1=\\dfrac{s}{30}$。",
+              "后半程用时 $t_2=\\dfrac{s}{60}$。",
+              "总时间 $=\\dfrac{s}{30}+\\dfrac{s}{60}=\\dfrac{s}{20}$。",
+              "平均速度 $=\\dfrac{2s}{s/20}=40\\ \\text{km/h}$。"
+            ],
+            "answer": "$40\\ \\text{km/h}$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "平均速度直接取 $(30+60)\\div2=45\\ \\text{km/h}$。",
+            "correction": "平均速度等于总路程除以总时间，等路程变速必须用调和结构计算。"
+          },
+          {
+            "mistake": "$\\text{km/h}$ 和 $\\text{m/s}$ 不换算就代入公式。",
+            "correction": "换算口诀：$\\text{km/h}\\div3.6=\\text{m/s}$，$\\text{m/s}\\times3.6=\\text{km/h}$。"
+          }
+        ],
+        "strategy": "运动计算题第一步统一单位；求平均速度先分别写出总路程和总时间，再做除法，千万不要把速度直接平均。"
+      }
+    },
+    {
+      "id": "physics-mass-density",
+      "name": "质量与密度",
+      "subject": "physics",
+      "summary": "掌握质量属性、密度公式及空心问题的判断方法。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "理解质量是物体的基本属性，不随形状、状态、位置改变。",
+          "会用密度公式及其变形计算质量、体积和密度。",
+          "会用密度鉴别物质、判断物体是否空心。"
+        ],
+        "keyIdea": "密度是物质本身的特性，$\\rho=\\dfrac{m}{V}$ 是定义式而不是决定式；空心问题抓住“实心部分体积”。",
+        "concepts": [
+          {
+            "title": "质量",
+            "content": [
+              "质量表示物体所含物质的多少，基本单位是千克（$\\text{kg}$）。",
+              "质量不随物体的形状、状态、温度和位置改变。",
+              "实验室用天平测质量，操作时“左物右码”。"
+            ]
+          },
+          {
+            "title": "密度",
+            "content": [
+              "单位体积某种物质的质量叫做这种物质的密度，$\\rho=\\dfrac{m}{V}$。",
+              "常用单位 $\\text{g/cm}^3$ 与 $\\text{kg/m}^3$，$1\\ \\text{g/cm}^3=1.0\\times10^3\\ \\text{kg/m}^3$。",
+              "水的密度是 $1.0\\times10^3\\ \\text{kg/m}^3$，表示 $1\\ \\text{m}^3$ 的水质量为 $1000\\ \\text{kg}$。"
+            ]
+          },
+          {
+            "title": "密度的应用",
+            "content": [
+              "鉴别物质：测出密度后对照密度表。",
+              "判断空心：用 $\\dfrac{m}{\\rho}$ 算出实心部分体积，再与实际体积比较。",
+              "间接测量：不便直接测质量或体积时，用 $m=\\rho V$ 或 $V=\\dfrac{m}{\\rho}$ 换算。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "密度定义式",
+            "expression": "$\\rho=\\dfrac{m}{V}$"
+          },
+          {
+            "name": "变形公式",
+            "expression": "$m=\\rho V,\\quad V=\\dfrac{m}{\\rho}$"
+          },
+          {
+            "name": "单位换算",
+            "expression": "$1\\ \\text{g/cm}^3=1.0\\times10^3\\ \\text{kg/m}^3$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "求质量",
+            "problem": "一个体积为 $20\\ \\text{cm}^3$ 的铝块，密度为 $2.7\\ \\text{g/cm}^3$，质量是多少？",
+            "steps": [
+              "单位统一为 $\\text{g}$ 与 $\\text{cm}^3$。",
+              "$m=\\rho V=2.7\\times20$。",
+              "$m=54\\ \\text{g}$。"
+            ],
+            "answer": "$54\\ \\text{g}$",
+            "takeaway": "先统一单位制，再代入密度公式。"
+          },
+          {
+            "title": "判断空心",
+            "problem": "一个铁球质量为 $316\\ \\text{g}$，体积为 $60\\ \\text{cm}^3$，$\\rho_{铁}=7.9\\ \\text{g/cm}^3$，它是空心的吗？空心体积多大？",
+            "steps": [
+              "实心部分体积 $V_{铁}=\\dfrac{m}{\\rho}=\\dfrac{316}{7.9}=40\\ \\text{cm}^3$。",
+              "$40<60$，实际体积更大，所以是空心的。",
+              "空心体积 $=60-40=20\\ \\text{cm}^3$。"
+            ],
+            "answer": "空心的，空心体积 $20\\ \\text{cm}^3$",
+            "takeaway": "空心题固定套路：先算“实心该有多大”，再与实际体积比较。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为水结冰后密度变小、质量也变小。",
+            "correction": "状态变化时密度改变，但质量不变。"
+          },
+          {
+            "mistake": "$\\text{g/cm}^3$ 与 $\\text{kg/m}^3$ 混用，结果差 $1000$ 倍。",
+            "correction": "统一到 $\\text{g}$ 与 $\\text{cm}^3$，或统一到 $\\text{kg}$ 与 $\\text{m}^3$，两者只选一组。"
+          }
+        ],
+        "strategy": "密度计算先选定单位制；空心题直接写 $V_{实心}=\\dfrac{m}{\\rho}$，与实际体积比较；鉴别物质题核心都是“测密度、查表”。"
+      }
+    },
+    {
+      "id": "physics-pressure",
+      "name": "压强",
+      "subject": "physics",
+      "summary": "掌握固体压强与液体压强的计算及增大减小压强的方法。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "理解压力和压强的概念，会用 $p=\\dfrac{F}{S}$ 计算。",
+          "掌握液体压强特点，会用 $p=\\rho g h$ 计算。",
+          "能说明增大、减小压强的实际方法。"
+        ],
+        "keyIdea": "压强表示压力的作用效果，由压力和受力面积共同决定；液体压强只与液体密度和深度有关。",
+        "concepts": [
+          {
+            "title": "压力与压强",
+            "content": [
+              "压力是垂直作用在物体表面上的力。",
+              "压强 $p=\\dfrac{F}{S}$，单位是帕斯卡（$\\text{Pa}$），$1\\ \\text{Pa}=1\\ \\text{N/m}^2$。",
+              "受力面积是两个物体实际接触的面积，不是物体表面积。"
+            ]
+          },
+          {
+            "title": "液体压强",
+            "content": [
+              "液体对容器底和侧壁都有压强，且随深度增大而增大。",
+              "$p=\\rho g h$，$h$ 是研究点到自由液面的竖直深度。",
+              "同一深度，液体向各个方向的压强相等；液体压强与容器形状无关。"
+            ]
+          },
+          {
+            "title": "增大与减小压强",
+            "content": [
+              "增大压强：增大压力（如压路机加重）或减小受力面积（如刀刃磨薄）。",
+              "减小压强：减小压力或增大受力面积（如书包带做宽、坦克装履带）。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "压强定义式",
+            "expression": "$p=\\dfrac{F}{S}$"
+          },
+          {
+            "name": "液体压强",
+            "expression": "$p=\\rho g h$"
+          },
+          {
+            "name": "常用取值",
+            "expression": "$g=10\\ \\text{N/kg}$，$\\rho_{水}=1.0\\times10^3\\ \\text{kg/m}^3$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "固体压强",
+            "problem": "质量为 $45\\ \\text{kg}$ 的学生双脚站立在水平地面上，每只脚与地面接触面积为 $150\\ \\text{cm}^2$，求他对地面的压强。（$g=10\\ \\text{N/kg}$）",
+            "steps": [
+              "水平面上压力等于重力：$F=G=mg=45\\times10=450\\ \\text{N}$。",
+              "双脚站立，受力面积 $S=2\\times150\\ \\text{cm}^2=300\\ \\text{cm}^2=0.03\\ \\text{m}^2$。",
+              "$p=\\dfrac{F}{S}=\\dfrac{450}{0.03}=15000\\ \\text{Pa}$。"
+            ],
+            "answer": "$15000\\ \\text{Pa}$",
+            "takeaway": "固体压强三步：求压力、统一面积单位、代入 $p=\\dfrac{F}{S}$。"
+          },
+          {
+            "title": "液体压强",
+            "problem": "水池中水深 $0.5\\ \\text{m}$ 处水产生的压强是多少？",
+            "steps": [
+              "直接用液体压强公式。",
+              "$p=\\rho g h=1000\\times10\\times0.5$。",
+              "$p=5000\\ \\text{Pa}$。"
+            ],
+            "answer": "$5000\\ \\text{Pa}$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "站立与行走时受力面积搞错。",
+            "correction": "双脚站立按两只脚算面积，行走时只有一只脚着地。"
+          },
+          {
+            "mistake": "深度 $h$ 从容器底往上算。",
+            "correction": "$h$ 是从自由液面竖直向下到研究点的距离。"
+          }
+        ],
+        "strategy": "固体压强先求压力再统一单位；液体压强直接用 $\\rho g h$，不要先算液体重量；判断增大减小压强就看“力、面积”两个变量谁变。"
+      }
+    },
+    {
+      "id": "physics-ohm-law",
+      "name": "欧姆定律",
+      "subject": "physics",
+      "summary": "掌握欧姆定律及串并联电路的电流、电压规律。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "理解电流、电压、电阻的概念及其单位。",
+          "会用欧姆定律 $I=\\dfrac{U}{R}$ 及其变形进行计算。",
+          "掌握串联、并联电路的电流和电压规律。"
+        ],
+        "keyIdea": "欧姆定律描述的是同一导体在同一时刻的规律；串联分压、并联分流。",
+        "concepts": [
+          {
+            "title": "电路三要素",
+            "content": [
+              "电流 $I$ 单位安培（$\\text{A}$），电压 $U$ 单位伏特（$\\text{V}$），电阻 $R$ 单位欧姆（$\\Omega$）。",
+              "电阻是导体本身的性质，由材料、长度、横截面积决定，与是否通电无关。"
+            ]
+          },
+          {
+            "title": "欧姆定律",
+            "content": [
+              "导体中的电流与导体两端的电压成正比，与导体的电阻成反比。",
+              "$I=\\dfrac{U}{R}$；$R=\\dfrac{U}{I}$ 只是测量计算式，不能说“电阻与电压成正比”。"
+            ]
+          },
+          {
+            "title": "串并联规律",
+            "content": [
+              "串联：电流处处相等，总电压等于各部分电压之和，总电阻 $R=R_1+R_2$。",
+              "并联：各支路两端电压相等，干路电流等于各支路电流之和。",
+              "串联分压：电压比等于电阻比；并联分流：电流比等于电阻的反比。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "欧姆定律",
+            "expression": "$I=\\dfrac{U}{R}$"
+          },
+          {
+            "name": "变形公式",
+            "expression": "$U=IR,\\quad R=\\dfrac{U}{I}$"
+          },
+          {
+            "name": "串联总电阻与分压",
+            "expression": "$R=R_1+R_2,\\quad \\dfrac{U_1}{U_2}=\\dfrac{R_1}{R_2}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "基础计算",
+            "problem": "一个 $12\\ \\Omega$ 的定值电阻接在 $6\\ \\text{V}$ 电源上，通过它的电流是多少？",
+            "steps": [
+              "直接用欧姆定律。",
+              "$I=\\dfrac{U}{R}=\\dfrac{6}{12}$。",
+              "$I=0.5\\ \\text{A}$。"
+            ],
+            "answer": "$0.5\\ \\text{A}$",
+            "takeaway": "单个导体问题直接 $I=\\dfrac{U}{R}$，注意三个量必须属于同一导体。"
+          },
+          {
+            "title": "串联分压",
+            "problem": "$12\\ \\text{V}$ 电源与 $R_1=10\\ \\Omega$、$R_2=20\\ \\Omega$ 串联，求 $R_2$ 两端的电压。",
+            "steps": [
+              "总电阻 $R=R_1+R_2=30\\ \\Omega$。",
+              "电路电流 $I=\\dfrac{U}{R}=\\dfrac{12}{30}=0.4\\ \\text{A}$。",
+              "$R_2$ 两端电压 $U_2=IR_2=0.4\\times20=8\\ \\text{V}$。"
+            ],
+            "answer": "$8\\ \\text{V}$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "串联电路中用电源电压直接除以某一个电阻求电流。",
+            "correction": "串联必须先用总电阻求总电流。"
+          },
+          {
+            "mistake": "由 $R=\\dfrac{U}{I}$ 认为电阻随电压增大而增大。",
+            "correction": "电阻是导体本身的性质，公式只是提供了一种测量方法。"
+          }
+        ],
+        "strategy": "串联电路按“总电阻 → 总电流 → 分压”三步走；动态电路按“变阻器电阻变化 → 总电阻 → 总电流 → 各部分电压”的链条逐步分析。"
+      }
+    },
+    {
+      "id": "physics-sound-light",
+      "name": "声与光现象",
+      "subject": "physics",
+      "summary": "掌握声的产生传播、光的反射折射和平面镜成像特点。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握声音的产生、传播条件和声音的三特性。",
+          "掌握光的直线传播、反射和折射规律。",
+          "掌握平面镜成像特点，会用回声测距。"
+        ],
+        "keyIdea": "声音靠介质传播，光可以在真空中传播；平面镜成等大正立的虚像，像和物关于镜面对称。",
+        "concepts": [
+          {
+            "title": "声现象",
+            "content": [
+              "声音由物体振动产生，传播需要介质，真空不能传声。",
+              "$15\\ ^\\circ\\text{C}$ 空气中声速约为 $340\\ \\text{m/s}$。",
+              "音调由频率决定，响度由振幅决定，音色由发声体本身决定。"
+            ]
+          },
+          {
+            "title": "光的传播",
+            "content": [
+              "光在均匀介质中沿直线传播，影子、日食、小孔成像都是例证。",
+              "光在真空中的速度约为 $3\\times10^8\\ \\text{m/s}$，远大于声速，所以先见闪电后闻雷。",
+              "反射定律：反射角等于入射角；光从空气斜射入水中时，折射角小于入射角。"
+            ]
+          },
+          {
+            "title": "平面镜成像",
+            "content": [
+              "像与物大小相等，到镜面距离相等，连线与镜面垂直。",
+              "平面镜成的是虚像，不能用光屏承接。",
+              "像和物关于镜面对称。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "空气中的声速",
+            "expression": "$v_{声}\\approx340\\ \\text{m/s}$（$15\\ ^\\circ\\text{C}$）"
+          },
+          {
+            "name": "回声测距",
+            "expression": "$s=\\dfrac{v t}{2}$"
+          },
+          {
+            "name": "真空光速",
+            "expression": "$c\\approx3\\times10^8\\ \\text{m/s}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "回声测距",
+            "problem": "对着山崖喊话，$2\\ \\text{s}$ 后听到回声，人到山崖的距离是多少？",
+            "steps": [
+              "声音传播的总路程 $=340\\times2=680\\ \\text{m}$。",
+              "声音走了一个来回，距离要除以 $2$。",
+              "$s=\\dfrac{680}{2}=340\\ \\text{m}$。"
+            ],
+            "answer": "$340\\ \\text{m}$",
+            "takeaway": "回声测距必须除以 $2$，因为声音走了来回。"
+          },
+          {
+            "title": "先见闪电后闻雷",
+            "problem": "为什么总是先看到闪电，后听到雷声？",
+            "steps": [
+              "闪电和雷声同时发生。",
+              "光速约为 $3\\times10^8\\ \\text{m/s}$，声速只有约 $340\\ \\text{m/s}$。",
+              "光速远大于声速，所以光先到达。"
+            ],
+            "answer": "因为光速远大于声速"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "回声测距忘记除以 $2$。",
+            "correction": "公式 $s=\\dfrac{vt}{2}$ 中的 $\\div2$ 不能丢。"
+          },
+          {
+            "mistake": "认为平面镜“近大远小”，像会变大变小。",
+            "correction": "像始终与物等大，视觉上的大小变化是视角造成的。"
+          }
+        ],
+        "strategy": "回声测距记住“除以 $2$”；光学判断题先分清是反射还是折射；平面镜作图抓住“对称”两个字。"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "physics-motion-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 30,
+      "stem": "下列换算正确的是：$72\\ \\text{km/h} = $（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "$20\\ \\text{m/s}$"
+        },
+        {
+          "key": "B",
+          "label": "$7.2\\ \\text{m/s}$"
+        },
+        {
+          "key": "C",
+          "label": "$200\\ \\text{m/s}$"
+        },
+        {
+          "key": "D",
+          "label": "$36\\ \\text{m/s}$"
+        }
+      ],
+      "answer": "A",
+      "explanation": "$72\\ \\text{km/h} = \\dfrac{72}{3.6}\\ \\text{m/s} = 20\\ \\text{m/s}$。",
+      "optimalSolution": "$\\text{km/h}$ 换 $\\text{m/s}$ 除以 $3.6$。",
+      "commonMistake": "乘 $3.6$ 而不是除以 $3.6$。"
+    },
+    {
+      "id": "physics-motion-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "骑自行车用 $3\\ \\text{min}$ 通过了 $900\\ \\text{m}$ 的路程，则骑行的速度是 ______ $\\text{m/s}$。",
+      "source": "运动学基础",
+      "answer": 5,
+      "explanation": "$t = 3\\ \\text{min} = 180\\ \\text{s}$，$v = \\dfrac{s}{t} = \\dfrac{900}{180} = 5\\ \\text{m/s}$。",
+      "optimalSolution": "先把分钟换算成秒，再代入 $v=\\dfrac{s}{t}$。",
+      "commonMistake": "不换算时间单位，直接用 $900\\div3$。"
+    },
+    {
+      "id": "physics-motion-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-motion-speed"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 100,
+      "stem": "一辆汽车在前一半路程中的速度为 $30\\ \\text{km/h}$，在后一半路程中的速度为 $60\\ \\text{km/h}$，则全程的平均速度是 ______ $\\text{km/h}$。",
+      "source": "平均速度压轴基础",
+      "answer": 40,
+      "explanation": "设总路程为 $2s$。$t_1=\\dfrac{s}{30}$，$t_2=\\dfrac{s}{60}$，总时间 $=\\dfrac{s}{30}+\\dfrac{s}{60}=\\dfrac{s}{20}$。平均速度 $=\\dfrac{2s}{s/20}=40\\ \\text{km/h}$。",
+      "optimalSolution": "等路程变速的平均速度用 $\\dfrac{2v_1v_2}{v_1+v_2}$ 快速求解：$\\dfrac{2\\times30\\times60}{90}=40$。",
+      "commonMistake": "把速度直接平均，得出 $45\\ \\text{km/h}$。"
+    },
+    {
+      "id": "physics-density-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "一杯水全部结成冰后（$\\rho_{冰}<\\rho_{水}$），不变的物理量是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "质量"
+        },
+        {
+          "key": "B",
+          "label": "体积"
+        },
+        {
+          "key": "C",
+          "label": "密度"
+        },
+        {
+          "key": "D",
+          "label": "质量和密度"
+        }
+      ],
+      "answer": "A",
+      "explanation": "质量是物体的属性，状态变化时不变；水结冰密度变小、体积变大，只有质量不变。",
+      "optimalSolution": "记住“质量与形状、状态、位置无关”。",
+      "commonMistake": "误以为物质变少了，质量改变。"
+    },
+    {
+      "id": "physics-density-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "一个体积为 $20\\ \\text{cm}^3$ 的铝块，密度为 $2.7\\ \\text{g/cm}^3$，它的质量是 ______ $\\text{g}$。",
+      "source": "密度基础计算",
+      "answer": 54,
+      "explanation": "$m = \\rho V = 2.7 \\times 20 = 54\\ \\text{g}$。",
+      "optimalSolution": "单位已经是 $\\text{g}$ 和 $\\text{cm}^3$，直接相乘。",
+      "commonMistake": "用 $V\\div\\rho$ 反着算。"
+    },
+    {
+      "id": "physics-density-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 110,
+      "stem": "一个铁球质量为 $316\\ \\text{g}$，体积为 $60\\ \\text{cm}^3$，$\\rho_{铁}=7.9\\ \\text{g/cm}^3$。它是空心的，则空心部分的体积是 ______ $\\text{cm}^3$。",
+      "source": "空心问题压轴基础",
+      "answer": 20,
+      "explanation": "实心部分体积 $V_{铁}=\\dfrac{m}{\\rho}=\\dfrac{316}{7.9}=40\\ \\text{cm}^3$。空心体积 $=60-40=20\\ \\text{cm}^3$。",
+      "optimalSolution": "先算实心体积 $\\dfrac{m}{\\rho}$，再用总体积减去它。",
+      "commonMistake": "用总体积除以密度，把空心部分和实心部分混在一起。"
+    },
+    {
+      "id": "physics-pressure-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "下列做法中，属于增大压强的是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "书包带做得较宽"
+        },
+        {
+          "key": "B",
+          "label": "刀刃磨得很薄"
+        },
+        {
+          "key": "C",
+          "label": "坦克装有宽履带"
+        },
+        {
+          "key": "D",
+          "label": "骆驼长着大脚掌"
+        }
+      ],
+      "answer": "B",
+      "explanation": "刀刃磨薄是减小受力面积，在压力一定时增大压强。A、C、D 都是增大受力面积来减小压强。",
+      "optimalSolution": "判断方向：看是增大面积（减压强）还是减小面积（增压强）。",
+      "commonMistake": "把“减小压强”的实际应用误判为增大压强。"
+    },
+    {
+      "id": "physics-pressure-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 80,
+      "stem": "质量为 $45\\ \\text{kg}$ 的中学生双脚站立在水平地面上，每只脚与地面的接触面积为 $150\\ \\text{cm}^2$。他对地面的压强是 ______ $\\text{Pa}$。（$g=10\\ \\text{N/kg}$）",
+      "source": "固体压强计算",
+      "answer": 15000,
+      "explanation": "$F=G=mg=45\\times10=450\\ \\text{N}$。双脚站立 $S=2\\times150\\ \\text{cm}^2=0.03\\ \\text{m}^2$。$p=\\dfrac{F}{S}=\\dfrac{450}{0.03}=15000\\ \\text{Pa}$。",
+      "optimalSolution": "先求压力，再把面积换算成 $\\text{m}^2$，最后代入 $p=\\dfrac{F}{S}$。",
+      "commonMistake": "忘记双脚站立要乘 $2$，或忘记 $\\text{cm}^2$ 换 $\\text{m}^2$。"
+    },
+    {
+      "id": "physics-pressure-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-pressure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "水池中水深 $0.5\\ \\text{m}$ 处水产生的压强是 ______ $\\text{Pa}$。（$\\rho_{水}=1.0\\times10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "液体压强计算",
+      "answer": 5000,
+      "explanation": "$p=\\rho g h=1000\\times10\\times0.5=5000\\ \\text{Pa}$。",
+      "optimalSolution": "液体压强直接用 $p=\\rho g h$，不需要算水的重量。",
+      "commonMistake": "深度从容器底算起，或先算水重再除面积，绕远且易错。"
+    },
+    {
+      "id": "physics-ohm-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "导体电阻一定时，加在它两端的电压增大到原来的 $2$ 倍，则通过它的电流（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "增大到原来的 $2$ 倍"
+        },
+        {
+          "key": "B",
+          "label": "增大到原来的 $4$ 倍"
+        },
+        {
+          "key": "C",
+          "label": "减小为原来的 $\\dfrac{1}{2}$"
+        },
+        {
+          "key": "D",
+          "label": "保持不变"
+        }
+      ],
+      "answer": "A",
+      "explanation": "电阻一定时，电流与电压成正比，电压加倍则电流加倍。",
+      "optimalSolution": "记住正比关系：$R$ 不变，$I\\propto U$。",
+      "commonMistake": "误以为电阻会随电压变化。"
+    },
+    {
+      "id": "physics-ohm-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "一个 $12\\ \\Omega$ 的定值电阻接在 $6\\ \\text{V}$ 电源上，通过它的电流是 ______ $\\text{A}$。",
+      "source": "欧姆定律基础",
+      "answer": 0.5,
+      "tolerance": 0.01,
+      "explanation": "$I=\\dfrac{U}{R}=\\dfrac{6}{12}=0.5\\ \\text{A}$。",
+      "optimalSolution": "直接代入欧姆定律。",
+      "commonMistake": "把公式记成 $I=\\dfrac{R}{U}$。"
+    },
+    {
+      "id": "physics-ohm-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 100,
+      "stem": "$12\\ \\text{V}$ 电源与 $R_1=10\\ \\Omega$、$R_2=20\\ \\Omega$ 串联，则 $R_2$ 两端的电压是 ______ $\\text{V}$。",
+      "source": "串联分压压轴基础",
+      "answer": 8,
+      "explanation": "总电阻 $R=10+20=30\\ \\Omega$，电流 $I=\\dfrac{12}{30}=0.4\\ \\text{A}$，$U_2=IR_2=0.4\\times20=8\\ \\text{V}$。",
+      "optimalSolution": "串联分压：$\\dfrac{U_2}{U}=\\dfrac{R_2}{R_1+R_2}=\\dfrac{20}{30}$，$U_2=12\\times\\dfrac{2}{3}=8\\ \\text{V}$。",
+      "commonMistake": "用 $12\\div20$ 直接求电流再乘电压，概念混乱。"
+    },
+    {
+      "id": "physics-soundlight-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "关于平面镜成像的特点，下列说法正确的是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "像与物大小相等，是虚像"
+        },
+        {
+          "key": "B",
+          "label": "像是放大的实像"
+        },
+        {
+          "key": "C",
+          "label": "像是缩小的虚像"
+        },
+        {
+          "key": "D",
+          "label": "像是等大的实像"
+        }
+      ],
+      "answer": "A",
+      "explanation": "平面镜成等大、正立的虚像，像和物到镜面的距离相等。",
+      "optimalSolution": "平面镜成像八字诀：等大、等距、垂直、虚像。",
+      "commonMistake": "受“近大远小”视觉误导，认为像会变大。"
+    },
+    {
+      "id": "physics-soundlight-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "对着山崖喊话，经过 $3\\ \\text{s}$ 听到回声。人到山崖的距离约是 ______ $\\text{m}$。（声速取 $340\\ \\text{m/s}$）",
+      "source": "回声测距",
+      "answer": 510,
+      "explanation": "声音总路程 $=340\\times3=1020\\ \\text{m}$，人崖距离 $=\\dfrac{1020}{2}=510\\ \\text{m}$。",
+      "optimalSolution": "回声测距用 $s=\\dfrac{vt}{2}$，直接得 $510\\ \\text{m}$。",
+      "commonMistake": "忘记除以 $2$，得出 $1020\\ \\text{m}$。"
+    },
+    {
+      "id": "physics-soundlight-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "光从空气斜射入水中时，折射角 ______ 入射角。（填“大于”“等于”或“小于”）",
+      "source": "光的折射",
+      "acceptedAnswers": [
+        "小于"
+      ],
+      "answerKind": "text",
+      "explanation": "光从空气斜射入水（或其他介质）时，折射光线向法线偏折，折射角小于入射角。",
+      "optimalSolution": "口诀：空气中的角总是最大的。",
+      "commonMistake": "垂直入射（折射角等于入射角，均为 $0^\\circ$）的特殊情况与斜射混淆。"
+    }
+  ]
+}

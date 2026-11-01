@@ -1,0 +1,80 @@
+{
+  "version": "physics-exams-v0.9",
+  "exams": [
+    {
+      "id": "physics-mock-001",
+      "subject": "physics",
+      "title": "物理基础冲刺摸底卷",
+      "description": "覆盖力学、压强声光和电学的分区摸底卷，检查物理基础概念的稳定性和计算速度。",
+      "durationMinutes": 25,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "mechanics",
+          "title": "力学基础",
+          "description": "机械运动与密度，共 6 道基础过关题。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "physics-motion-001",
+            "physics-motion-002",
+            "physics-motion-003",
+            "physics-density-001",
+            "physics-density-002",
+            "physics-density-003"
+          ]
+        },
+        {
+          "id": "pressure-sound-light",
+          "title": "压强与声光",
+          "description": "压强计算和声光现象，共 6 题。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "physics-pressure-001",
+            "physics-pressure-002",
+            "physics-pressure-003",
+            "physics-soundlight-001",
+            "physics-soundlight-002",
+            "physics-soundlight-003"
+          ]
+        },
+        {
+          "id": "electricity",
+          "title": "电学初步",
+          "description": "欧姆定律与串联分压，每题 2 分。",
+          "scorePerQuestion": 2,
+          "questionIds": [
+            "physics-ohm-001",
+            "physics-ohm-002",
+            "physics-ohm-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics-topic-precision-001",
+      "subject": "physics",
+      "title": "物理薄弱考点精准卷",
+      "description": "快速诊断物理薄弱考点的短卷，适合每天 15 分钟定向修补。",
+      "durationMinutes": 15,
+      "level": "topic",
+      "sections": [
+        {
+          "id": "quick-diagnosis",
+          "title": "快速诊断",
+          "description": "运动、密度、压强、欧姆定律的核心题各若干。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "physics-motion-001",
+            "physics-motion-002",
+            "physics-density-001",
+            "physics-density-002",
+            "physics-pressure-001",
+            "physics-pressure-002",
+            "physics-ohm-001",
+            "physics-ohm-002"
+          ]
+        }
+      ]
+    }
+  ]
+}

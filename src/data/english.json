@@ -1,5 +1,5 @@
 {
-  "version": "english-v0.12",
+  "version": "english-v0.14",
   "knowledgePoints": [
     {
       "id": "english-grammar-tenses",
@@ -398,6 +398,167 @@
           }
         ],
         "strategy": "交际题先看答语反推问句情景；把课本每个单元的 Functional Sentences 整理成情景卡片记忆。"
+      }
+    },
+    {
+      "id": "english-comparison",
+      "name": "比较级与最高级",
+      "subject": "english",
+      "summary": "掌握形容词、副词比较级和最高级的构成与句型。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握比较级和最高级的规则变化与不规则变化。",
+          "掌握“比较级 + than”和“the + 最高级 + 范围”句型。",
+          "能在语境中正确选用原级、比较级或最高级。"
+        ],
+        "keyIdea": "两者比较用比较级 + than；三者以上比较用 the + 最高级 + in/of 短语；不规则变化单独记忆。",
+        "concepts": [
+          {
+            "title": "规则变化",
+            "content": [
+              "单音节词一般在词尾加 -er / -est：tall → taller → tallest。",
+              "以重读闭音节结尾且末尾只有一个辅音字母，双写该字母再加：big → bigger → biggest，hot → hotter → hottest。",
+              "以“辅音字母 + y”结尾，变 y 为 i 再加：early → earlier → earliest。",
+              "多音节词和部分双音节词在前面加 more / most：interesting → more interesting → most interesting。"
+            ]
+          },
+          {
+            "title": "不规则变化与句型",
+            "content": [
+              "good / well → better → best；bad / badly → worse → worst；many / much → more → most；little → less → least；far → farther / further。",
+              "两者比较：A + 比较级 + than + B。",
+              "三者及以上：A + the + 最高级 + in / of 短语。",
+              "同级比较用 as + 原级 + as（否定 not as/so + 原级 + as）。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "比较级句型",
+            "expression": "A + V + 比较级 + than + B"
+          },
+          {
+            "name": "最高级句型",
+            "expression": "A + V + the + 最高级 + in/of + 范围"
+          },
+          {
+            "name": "不规则变化",
+            "expression": "good→better→best；bad→worse→worst；many→more→most"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "选比较级",
+            "problem": "Tom is ___ (tall) than his brother.",
+            "steps": [
+              "句中有 than，两者比较用比较级。",
+              "tall 的比较级是 taller。"
+            ],
+            "answer": "taller",
+            "takeaway": "看到 than，先想比较级。"
+          },
+          {
+            "title": "选最高级",
+            "problem": "She is ___ (good) student in our class.",
+            "steps": [
+              "in our class 表示比较范围超过两者。",
+              "用最高级：the best。",
+              "good 的最高级是 best。"
+            ],
+            "answer": "the best"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "比较级与 more 连用：more taller。",
+            "correction": "单音节词直接加 -er，不加 more。"
+          },
+          {
+            "mistake": "最高级漏掉 the。",
+            "correction": "形容词最高级前一般要加 the。"
+          }
+        ],
+        "strategy": "解题三步：数比较对象（两个用比较级，三个以上用最高级）→ 判断规则或不规则变化 → 核对句型标志词 than / in / of。"
+      }
+    },
+    {
+      "id": "english-modal-verbs",
+      "name": "情态动词",
+      "subject": "english",
+      "summary": "掌握 can、must、should 等情态动词的用法。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握情态动词后接动词原形的规则。",
+          "掌握 must、should、can 等词的基本意义。",
+          "记住 must 提问的否定回答用 needn't。"
+        ],
+        "keyIdea": "情态动词无人称和数的变化，后面必须接动词原形；情态动词不能单独作谓语。",
+        "concepts": [
+          {
+            "title": "基本特征与常用词",
+            "content": [
+              "情态动词后接动词原形；没有人称和数的变化；否定式直接在后面加 not。",
+              "can 表示能力或许可；must 表示必须（主观义务）；should 表示建议、应该；may 表示许可或可能。",
+              "mustn't 表示“禁止”，而 needn't 表示“没有必要”。"
+            ]
+          },
+          {
+            "title": "must 提问的回答",
+            "content": [
+              "—Must I finish the work today? —Yes, you must. / No, you needn't.（不必）",
+              "must 的否定式 mustn't 表示“千万不要”，不是“不必”。",
+              "表示“不必”用 needn't 或 don't have to。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "基本结构",
+            "expression": "主语 + 情态动词 + 动词原形"
+          },
+          {
+            "name": "must 提问应答",
+            "expression": "Must I...? —Yes, you must. / No, you needn't."
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "选情态动词",
+            "problem": "Students ___ keep quiet in the library.",
+            "steps": [
+              "图书馆保持安静是义务要求。",
+              "用 must（必须）。",
+              "must 后接动词原形 keep。"
+            ],
+            "answer": "must",
+            "takeaway": "表示规则义务用 must / have to。"
+          },
+          {
+            "title": "must 提问应答",
+            "problem": "—Must I hand in my homework now? —No, you ___.",
+            "steps": [
+              "must 提问的否定回答用 needn't。",
+              "mustn't 是“禁止”，不符合语境。",
+              "填 needn't。"
+            ],
+            "answer": "needn't"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "情态动词后接 to do 或三单形式。",
+            "correction": "情态动词后一律接动词原形。"
+          },
+          {
+            "mistake": "把 mustn't 当作“不必”回答 Must 提问。",
+            "correction": "mustn't 是“禁止”；“不必”用 needn't。"
+          }
+        ],
+        "strategy": "情态动词题先看语气（能力用 can、义务用 must、建议用 should）；回答 Must 提问锁定 needn't。"
       }
     }
   ],
@@ -888,6 +1049,223 @@
       "explanation": "对感谢的应答是 You're welcome.（不客气）。",
       "optimalSolution": "感谢 → You're welcome. / Not at all.",
       "commonMistake": "拼写错误，如写成 welcom。"
+    },
+    {
+      "id": "en-comp-001",
+      "subject": null,
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "Tom is ___ than his brother.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "tall"
+        },
+        {
+          "key": "B",
+          "label": "taller"
+        },
+        {
+          "key": "C",
+          "label": "tallest"
+        },
+        {
+          "key": "D",
+          "label": "the tallest"
+        }
+      ],
+      "answer": "B",
+      "explanation": "句中有 than，两者比较用比较级 taller。"
+    },
+    {
+      "id": "en-comp-002",
+      "subject": null,
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "关于比较级和最高级，下列说法正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "tall 的比较级是 taller"
+        },
+        {
+          "key": "B",
+          "label": "big 的最高级是 biggest"
+        },
+        {
+          "key": "C",
+          "label": "interesting 的最高级是 most interesting"
+        },
+        {
+          "key": "D",
+          "label": "good 的比较级是 gooder"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "good 是不规则变化：better → best，D 错；A、B、C 的变化规则均正确。"
+    },
+    {
+      "id": "en-comp-003",
+      "subject": null,
+      "knowledgePointIds": [
+        "english-comparison"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "用所给词的适当形式填空：She is ___ (good) student in our class.",
+      "source": "专项填空",
+      "acceptedAnswers": [
+        "the best",
+        "best"
+      ],
+      "answerKind": "text",
+      "explanation": "in our class 表示比较范围超过两者，用最高级 the best。"
+    },
+    {
+      "id": "en-modal-001",
+      "subject": null,
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "Students ___ keep quiet in the library.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "can"
+        },
+        {
+          "key": "B",
+          "label": "must"
+        },
+        {
+          "key": "C",
+          "label": "may"
+        },
+        {
+          "key": "D",
+          "label": "would"
+        }
+      ],
+      "answer": "B",
+      "explanation": "图书馆保持安静是规则义务，用 must 表示“必须”。"
+    },
+    {
+      "id": "en-modal-002",
+      "subject": null,
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "关于情态动词，下列说法正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "情态动词后接动词原形"
+        },
+        {
+          "key": "B",
+          "label": "情态动词没有人称和数的变化"
+        },
+        {
+          "key": "C",
+          "label": "情态动词的否定式直接在其后加 not"
+        },
+        {
+          "key": "D",
+          "label": "情态动词可以单独作谓语"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "情态动词不能单独作谓语，必须与动词原形连用，D 错；A、B、C 正确。"
+    },
+    {
+      "id": "en-modal-003",
+      "subject": null,
+      "knowledgePointIds": [
+        "english-modal-verbs"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "—Must I finish the work today? —No, you ___.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "mustn't"
+        },
+        {
+          "key": "B",
+          "label": "can't"
+        },
+        {
+          "key": "C",
+          "label": "needn't"
+        },
+        {
+          "key": "D",
+          "label": "shouldn't"
+        }
+      ],
+      "answer": "C",
+      "explanation": "must 提问的否定回答用 needn't（不必）；mustn't 表示“禁止”。"
+    },
+    {
+      "id": "en-tense-004",
+      "subject": null,
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "下列时态与其标志词对应正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "every day → 一般现在时"
+        },
+        {
+          "key": "B",
+          "label": "yesterday → 一般过去时"
+        },
+        {
+          "key": "C",
+          "label": "Look! → 现在进行时"
+        },
+        {
+          "key": "D",
+          "label": "since 2010 → 一般将来时"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "since 2010 是现在完成时标志词，D 错；A、B、C 对应正确。"
     }
   ]
 }

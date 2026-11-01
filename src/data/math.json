@@ -1,5 +1,5 @@
 {
-  "version": "math-v0.8",
+  "version": "math-v0.14",
   "knowledgePoints": [
     {
       "id": "math-equation-quadratic",
@@ -1263,6 +1263,161 @@
         ],
         "strategy": "概率题先写“所有等可能结果”，再数符合条件的结果；两步实验优先画树状图。"
       }
+    },
+    {
+      "id": "math-function-inverse",
+      "name": "反比例函数",
+      "subject": "math",
+      "summary": "掌握反比例函数的图象、性质和待定系数法。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "理解反比例函数 $y=\\dfrac{k}{x}$（$k\\ne0$）的定义。",
+          "掌握图象的位置和增减性与 $k$ 的关系。",
+          "会用待定系数法求反比例函数解析式。"
+        ],
+        "keyIdea": "$k$ 的符号决定图象位置与增减性；图象上任一点的横纵坐标之积恒等于 $k$。",
+        "concepts": [
+          {
+            "title": "定义与图象",
+            "content": [
+              "形如 $y=\\dfrac{k}{x}$（$k$ 为常数，$k\\ne0$）的函数叫反比例函数，图象是双曲线。",
+              "$k>0$：图象在一、三象限，在每个象限内 $y$ 随 $x$ 增大而减小。",
+              "$k<0$：图象在二、四象限，在每个象限内 $y$ 随 $x$ 增大而增大。",
+              "双曲线无限接近坐标轴但永远不相交。"
+            ]
+          },
+          {
+            "title": "$k$ 的意义与应用",
+            "content": [
+              "图象上任一点 $(x,y)$ 满足 $k=xy$，即横纵坐标之积为定值。",
+              "过图象上任一点向两坐标轴作垂线，围成的矩形面积为 $|k|$。",
+              "比较函数值大小时，先判断点所在象限，再在同一象限内用增减性。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "反比例函数",
+            "expression": "$y=\\dfrac{k}{x}$（$k\\ne0$）"
+          },
+          {
+            "name": "$k$ 的意义",
+            "expression": "$k=xy$（图象上点的横纵坐标之积）"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "求解析式",
+            "problem": "反比例函数图象经过点 $(2,3)$，求解析式。",
+            "steps": [
+              "设 $y=\\dfrac{k}{x}$。",
+              "代入点：$k=2\\times3=6$。",
+              "解析式为 $y=\\dfrac{6}{x}$。"
+            ],
+            "answer": "$y=\\dfrac{6}{x}$",
+            "takeaway": "一个点即可确定反比例函数。"
+          },
+          {
+            "title": "比较大小",
+            "problem": "$y=\\dfrac{4}{x}$ 中，$A(-1,y_1)$、$B(2,y_2)$，比较 $y_1$ 与 $y_2$。",
+            "steps": [
+              "$k=4>0$，图象在一、三象限。",
+              "$A$ 在第三象限，$y_1<0$；$B$ 在第一象限，$y_2>0$。",
+              "$y_1<y_2$。"
+            ],
+            "answer": "$y_1<y_2$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "说“$k>0$ 时 $y$ 随 $x$ 增大而减小”不加强调范围。",
+            "correction": "必须说“在每一象限内”，跨象限不能直接比较。"
+          },
+          {
+            "mistake": "忽略 $k\\ne0$。",
+            "correction": "$k=0$ 时函数无意义。"
+          }
+        ],
+        "strategy": "反比例函数题先看 $k$ 的符号定象限；比较函数值先定点所在象限；求解析式用 $k=xy$ 一步到位。"
+      }
+    },
+    {
+      "id": "math-trigonometry",
+      "name": "锐角三角函数",
+      "subject": "math",
+      "summary": "掌握锐角三角函数定义、特殊角函数值和解直角三角形。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握 $\\sin A$、$\\cos A$、$\\tan A$ 的定义。",
+          "熟记特殊角 $30^\\circ$、$45^\\circ$、$60^\\circ$ 的三角函数值。",
+          "会用解直角三角形解决仰角、坡度等实际问题。"
+        ],
+        "keyIdea": "三角函数的本质是直角三角形中边的比值；先找准参考角，再分清对边、邻边、斜边。",
+        "concepts": [
+          {
+            "title": "三角函数定义",
+            "content": [
+              "在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle C=90^\\circ$：$\\sin A=\\dfrac{\\angle A \\text{ 对边}}{\\text{斜边}}$，$\\cos A=\\dfrac{\\angle A \\text{ 邻边}}{\\text{斜边}}$，$\\tan A=\\dfrac{\\angle A \\text{ 对边}}{\\angle A \\text{ 邻边}}$。",
+              "对边、邻边是相对参考角而言的：角变了，对边邻边也变。"
+            ]
+          },
+          {
+            "title": "特殊角与实际应用",
+            "content": [
+              "$\\sin30^\\circ=\\dfrac{1}{2}$，$\\sin45^\\circ=\\dfrac{\\sqrt2}{2}$，$\\sin60^\\circ=\\dfrac{\\sqrt3}{2}$；$\\cos$ 值与 $\\sin$ 互余对应（$\\cos A=\\sin(90^\\circ-A)$）；$\\tan30^\\circ=\\dfrac{\\sqrt3}{3}$，$\\tan45^\\circ=1$，$\\tan60^\\circ=\\sqrt3$。",
+              "仰角、俯角：视线与水平线的夹角；坡度：铅直高度与水平宽度的比（$i=\\tan$ 坡角）。",
+              "解题时把实际问题抽象成直角三角形，缺边求边、缺角求角。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "定义",
+            "expression": "$\\sin A=\\dfrac{a}{c},\\ \\cos A=\\dfrac{b}{c},\\ \\tan A=\\dfrac{a}{b}$"
+          },
+          {
+            "name": "特殊角值",
+            "expression": "$\\sin30^\\circ=\\dfrac{1}{2},\\ \\sin45^\\circ=\\dfrac{\\sqrt2}{2},\\ \\sin60^\\circ=\\dfrac{\\sqrt3}{2};\\ \\tan45^\\circ=1,\\ \\tan60^\\circ=\\sqrt3$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "求坡面上升高度",
+            "problem": "沿坡角为 $30^\\circ$ 的斜坡前进 $20\\ \\text{m}$，上升的高度是多少？",
+            "steps": [
+              "上升高度是 $30^\\circ$ 角的对边，$20\\ \\text{m}$ 是斜边。",
+              "$h=20\\sin30^\\circ$。",
+              "$h=20\\times\\dfrac{1}{2}=10\\ \\text{m}$。"
+            ],
+            "answer": "$10\\ \\text{m}$",
+            "takeaway": "先画直角三角形标出已知边和角，再选函数。"
+          },
+          {
+            "title": "特殊角求值",
+            "problem": "计算：$\\sin30^\\circ+\\tan45^\\circ$。",
+            "steps": [
+              "$\\sin30^\\circ=\\dfrac{1}{2}$，$\\tan45^\\circ=1$。",
+              "原式 $=\\dfrac{1}{2}+1=\\dfrac{3}{2}$。"
+            ],
+            "answer": "$\\dfrac{3}{2}$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "邻边对边不分，$\\sin$ 与 $\\cos$ 混用。",
+            "correction": "先定参考角，再找对边、邻边。"
+          },
+          {
+            "mistake": "特殊值记错，如 $\\sin60^\\circ=\\dfrac{1}{2}$。",
+            "correction": "口诀“一二三，三二一”对应 $30$、$45$、$60$ 的正弦值分子。"
+          }
+        ],
+        "strategy": "解直角三角形应用题第一步画图建三角形，把实际词（仰角、坡度）翻译成数学元素；特殊值默写三遍保准确。"
+      }
     }
   ],
   "questions": [
@@ -2399,6 +2554,205 @@
       "explanation": "第一步右移 $2$：$(1+2, 2) = (3, 2)$；第二步关于 $y$ 轴对称：横坐标变号得 $(-3, 2)$；第三步上移 $3$：纵坐标加 $3$ 得 $(-3, 5)$。",
       "optimalSolution": "按变换顺序逐步写坐标，每步只改一个坐标，最后合并。",
       "commonMistake": "变换顺序执行错误，例如先对称后平移导致横坐标算成 $-1$。"
+    },
+    {
+      "id": "math-inverse-001",
+      "subject": null,
+      "knowledgePointIds": [
+        "math-function-inverse"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "反比例函数 $y=\\dfrac{3}{x}$ 的图象位于（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "第一、二象限"
+        },
+        {
+          "key": "B",
+          "label": "第一、三象限"
+        },
+        {
+          "key": "C",
+          "label": "第二、四象限"
+        },
+        {
+          "key": "D",
+          "label": "第三、四象限"
+        }
+      ],
+      "answer": "B",
+      "explanation": "$k=3>0$，图象位于第一、三象限，在每个象限内 $y$ 随 $x$ 增大而减小。"
+    },
+    {
+      "id": "math-inverse-002",
+      "subject": null,
+      "knowledgePointIds": [
+        "math-function-inverse"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "关于反比例函数 $y=\\dfrac{6}{x}$，下列说法正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "图象位于第一、三象限"
+        },
+        {
+          "key": "B",
+          "label": "在每个象限内，$y$ 随 $x$ 增大而减小"
+        },
+        {
+          "key": "C",
+          "label": "图象经过点 $(2,3)$"
+        },
+        {
+          "key": "D",
+          "label": "图象经过原点"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "$k=6>0$，图象在一、三象限且每一象限内 $y$ 随 $x$ 增大而减小；$2\\times3=6$，图象经过 $(2,3)$；双曲线无限接近坐标轴但不过原点，D 错。故选 ABC。"
+    },
+    {
+      "id": "math-inverse-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-function-inverse"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "点 $P(2, 3)$ 在反比例函数 $y=\\dfrac{k}{x}$ 的图象上，则 $k = $ ______。",
+      "source": "待定系数法",
+      "answer": 6,
+      "explanation": "$k = xy = 2 \\times 3 = 6$。",
+      "optimalSolution": "图象上点的横纵坐标之积恒等于 $k$。",
+      "commonMistake": "代入成 $k = x + y$。"
+    },
+    {
+      "id": "math-trig-001",
+      "subject": null,
+      "knowledgePointIds": [
+        "math-trigonometry"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle C = 90^\\circ$，则 $\\sin A = $（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "$\\dfrac{a}{c}$"
+        },
+        {
+          "key": "B",
+          "label": "$\\dfrac{b}{c}$"
+        },
+        {
+          "key": "C",
+          "label": "$\\dfrac{a}{b}$"
+        },
+        {
+          "key": "D",
+          "label": "$\\dfrac{c}{a}$"
+        }
+      ],
+      "answer": "A",
+      "explanation": "正弦等于参考角 $A$ 的对边 $a$ 与斜边 $c$ 的比。"
+    },
+    {
+      "id": "math-trig-002",
+      "subject": null,
+      "knowledgePointIds": [
+        "math-trigonometry"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "下列三角函数值正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "$\\sin30^\\circ=\\dfrac{1}{2}$"
+        },
+        {
+          "key": "B",
+          "label": "$\\cos60^\\circ=\\dfrac{\\sqrt3}{2}$"
+        },
+        {
+          "key": "C",
+          "label": "$\\tan45^\\circ=1$"
+        },
+        {
+          "key": "D",
+          "label": "$\\sin60^\\circ=\\dfrac{\\sqrt3}{2}$"
+        }
+      ],
+      "answer": "ACD",
+      "explanation": "$\\cos60^\\circ=\\dfrac{1}{2}$ 而非 $\\dfrac{\\sqrt3}{2}$，B 错；A、C、D 均正确。"
+    },
+    {
+      "id": "math-trig-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-trigonometry"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 80,
+      "stem": "某人沿坡角为 $30^\\circ$ 的斜坡前进 $20\\ \\text{m}$，则他上升的高度是 ______ $\\text{m}$。",
+      "source": "解直角三角形应用",
+      "answer": 10,
+      "explanation": "上升高度是对边：$h = 20\\sin30^\\circ = 20 \\times \\dfrac{1}{2} = 10\\ \\text{m}$。",
+      "optimalSolution": "画直角三角形：斜边 20、坡角 30°，求对边用正弦。",
+      "commonMistake": "用余弦算成水平距离。"
+    },
+    {
+      "id": "math-quadratic-004",
+      "subject": null,
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 80,
+      "stem": "关于方程 $x^2 - 5x + 6 = 0$，下列说法正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "两根之和为 $5$"
+        },
+        {
+          "key": "B",
+          "label": "两根之积为 $6$"
+        },
+        {
+          "key": "C",
+          "label": "$x=2$ 是它的根"
+        },
+        {
+          "key": "D",
+          "label": "判别式小于零"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "$\\Delta = 25-24=1>0$，D 错；由韦达定理两根之和 $5$、两根之积 $6$；代入 $x=2$：$4-10+6=0$ 成立。故 ABC 正确。"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "physics-v0.11",
+  "version": "physics-v0.14",
   "knowledgePoints": [
     {
       "id": "physics-motion-speed",
@@ -711,6 +711,167 @@
         ],
         "strategy": "电能表（度数）问题用 $W=Pt$，单位选 $\\text{kW}\\cdot\\text{h}$ 最方便；灯泡亮度由实际功率决定，不是由额定功率决定。"
       }
+    },
+    {
+      "id": "physics-buoyancy",
+      "name": "浮力",
+      "subject": "physics",
+      "summary": "掌握浮力的方向、阿基米德原理和物体沉浮条件。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "知道浮力的方向和产生原因。",
+          "掌握阿基米德原理并会计算浮力。",
+          "理解物体的浮沉条件。"
+        ],
+        "keyIdea": "浸在液体（气体）中的物体都受到浮力，$F_{浮}=\\rho_{液}gV_{排}$；沉浮取决于浮力与重力的关系。",
+        "concepts": [
+          {
+            "title": "浮力与阿基米德原理",
+            "content": [
+              "浸在液体中的物体受到液体竖直向上托的力叫浮力，方向竖直向上。",
+              "沉入底部的物体同样受浮力（浮力小于重力所以下沉）。",
+              "阿基米德原理：$F_{浮}=\\rho_{液}gV_{排}$，$V_{排}$ 是物体浸入液体部分的体积。",
+              "物体漂浮时 $V_{排}<V_{物}$，浸没时 $V_{排}=V_{物}$。"
+            ]
+          },
+          {
+            "title": "物体的浮沉条件",
+            "content": [
+              "浸没在液体中：$F_{浮}>G$ 上浮，最终漂浮；$F_{浮}=G$ 悬浮；$F_{浮}<G$ 下沉。",
+              "实心物体也可比较密度：$\\rho_{物}<\\rho_{液}$ 漂浮，$\\rho_{物}=\\rho_{液}$ 悬浮，$\\rho_{物}>\\rho_{液}$ 下沉。",
+              "漂浮和悬浮时浮力都等于重力。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "阿基米德原理",
+            "expression": "$F_{浮}=\\rho_{液}gV_{排}$"
+          },
+          {
+            "name": "漂浮 / 悬浮",
+            "expression": "$F_{浮}=G$"
+          },
+          {
+            "name": "沉浮密度判据",
+            "expression": "$\\rho_{物}<\\rho_{液}\\Rightarrow$ 漂浮"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "求浮力",
+            "problem": "物体排开水的体积为 $100\\ \\text{cm}^3$，求它在水中受到的浮力。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+            "steps": [
+              "$V_{排}=100\\ \\text{cm}^3=10^{-4}\\ \\text{m}^3$。",
+              "$F_{浮}=\\rho_{液}gV_{排}=10^3\\times10\\times10^{-4}$。",
+              "$F_{浮}=1\\ \\text{N}$。"
+            ],
+            "answer": "$1\\ \\text{N}$",
+            "takeaway": "体积必须化成立方米再代入。"
+          },
+          {
+            "title": "判断沉浮",
+            "problem": "实心铁球放入水银中（$\\rho_{铁}<\\rho_{水银}$），会怎样？",
+            "steps": [
+              "比较密度：铁的密度小于水银。",
+              "浸没时浮力大于重力。",
+              "铁球上浮，最终漂浮在水银面。"
+            ],
+            "answer": "上浮并最终漂浮"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为下沉的物体不受浮力。",
+            "correction": "下沉只是浮力小于重力，浮力仍然存在。"
+          },
+          {
+            "mistake": "把 $V_{物}$ 当 $V_{排}$。",
+            "correction": "$V_{排}$ 只算浸入液体部分的体积，漂浮时小于物体体积。"
+          }
+        ],
+        "strategy": "浮力计算优先用阿基米德原理；沉浮判断用“比较浮力与重力”或“比较密度”两条路；计算时先统一单位。"
+      }
+    },
+    {
+      "id": "physics-force-motion",
+      "name": "力与运动",
+      "subject": "physics",
+      "summary": "掌握牛顿第一定律、惯性和二力平衡条件。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "理解牛顿第一定律的内容。",
+          "理解惯性是物体的固有属性并能解释现象。",
+          "掌握二力平衡的条件。"
+        ],
+        "keyIdea": "力是改变物体运动状态的原因，不是维持运动的原因；惯性只与质量有关；二力平衡“同体、等大、反向、共线”。",
+        "concepts": [
+          {
+            "title": "牛顿第一定律与惯性",
+            "content": [
+              "一切物体在没有受到力的作用时，总保持静止状态或匀速直线运动状态。",
+              "物体保持原来运动状态不变的性质叫惯性，一切物体在任何时候都有惯性，惯性只与质量有关。",
+              "急刹车时乘客向前倾，是乘客下半身随车减速、上身由于惯性保持原来运动状态。"
+            ]
+          },
+          {
+            "title": "二力平衡",
+            "content": [
+              "物体保持静止或匀速直线运动状态，称为平衡状态，受平衡力作用。",
+              "二力平衡条件（四字诀）：同体、等大、反向、共线，四个条件缺一不可。",
+              "平衡力作用在同一物体上；相互作用力作用在两个物体上。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "二力平衡条件",
+            "expression": "同体 · 等大 · 反向 · 共线"
+          },
+          {
+            "name": "匀速提升 / 水平匀速",
+            "expression": "拉力 $F=G$ / $F=f$（摩擦力）"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "解释惯性现象",
+            "problem": "锤头松了，向下撞击锤柄，锤头就套紧了，为什么？",
+            "steps": [
+              "锤柄和锤头一起向下运动。",
+              "锤柄突然停止，锤头由于惯性继续向下运动。",
+              "于是锤头紧套在柄上。"
+            ],
+            "answer": "锤头由于惯性保持运动状态",
+            "takeaway": "解释惯性现象三步：原状态 → 突变 → 惯性保持。"
+          },
+          {
+            "title": "判断平衡力",
+            "problem": "静止在水平桌面上的书受哪对平衡力？",
+            "steps": [
+              "书受重力和桌面支持力。",
+              "两力都作用在书上，等大、反向、共线。",
+              "是一对平衡力。"
+            ],
+            "answer": "重力与支持力"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "说“物体受到惯性的作用”“惯性力”。",
+            "correction": "惯性是属性不是力，只能说“具有惯性”。"
+          },
+          {
+            "mistake": "把平衡力与相互作用力混淆。",
+            "correction": "平衡力在同一物体上；相互作用力分别在两个物体上。"
+          }
+        ],
+        "strategy": "惯性解释题套“原来怎样 → 突变 → 由于惯性保持”三段式；二力平衡题按四条件逐一核对。"
+      }
     }
   ],
   "questions": [
@@ -1323,6 +1484,221 @@
       "explanation": "$P=100\\ \\text{W}=0.1\\ \\text{kW}$，$W=Pt=0.1\\times10=1\\ \\text{kW}\\cdot\\text{h}$。",
       "optimalSolution": "用“度”（$\\text{kW}\\cdot\\text{h}$）计算时功率化成 $\\text{kW}$。",
       "commonMistake": "单位混用，忘记把瓦换算成千瓦。"
+    },
+    {
+      "id": "physics-buoy-001",
+      "subject": null,
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "浸在液体中的物体所受浮力的方向是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "竖直向下"
+        },
+        {
+          "key": "B",
+          "label": "竖直向上"
+        },
+        {
+          "key": "C",
+          "label": "水平方向"
+        },
+        {
+          "key": "D",
+          "label": "任意方向"
+        }
+      ],
+      "answer": "B",
+      "explanation": "浮力是液体对物体竖直向上托的力，方向竖直向上。"
+    },
+    {
+      "id": "physics-buoy-002",
+      "subject": null,
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "关于浮力，下列说法正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "浸在液体中的物体都受到浮力"
+        },
+        {
+          "key": "B",
+          "label": "浮力的方向竖直向上"
+        },
+        {
+          "key": "C",
+          "label": "沉入水底的物体不受浮力"
+        },
+        {
+          "key": "D",
+          "label": "$F_{浮}=\\rho_{液}gV_{排}$"
+        }
+      ],
+      "answer": "ABD",
+      "explanation": "沉底的物体同样受浮力，只是浮力小于重力，C 错；A、B、D 正确。"
+    },
+    {
+      "id": "physics-buoy-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-buoyancy"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 70,
+      "stem": "一物体浸在水中，排开水的体积为 $100\\ \\text{cm}^3$，它受到的浮力是 ______ $\\text{N}$。（$\\rho_{水}=10^3\\ \\text{kg/m}^3$，$g=10\\ \\text{N/kg}$）",
+      "source": "阿基米德原理计算",
+      "answer": 1,
+      "explanation": "$V_{排}=100\\ \\text{cm}^3=10^{-4}\\ \\text{m}^3$，$F_{浮}=\\rho gV_{排}=10^3\\times10\\times10^{-4}=1\\ \\text{N}$。",
+      "optimalSolution": "体积化成立方米，直接套阿基米德原理。",
+      "commonMistake": "忘记单位换算，算出 $10^5\\ \\text{N}$。"
+    },
+    {
+      "id": "physics-force-001",
+      "subject": null,
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "牛顿第一定律告诉我们：一切物体在没有受到力的作用时，总保持（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "静止状态"
+        },
+        {
+          "key": "B",
+          "label": "匀速直线运动状态"
+        },
+        {
+          "key": "C",
+          "label": "静止或匀速直线运动状态"
+        },
+        {
+          "key": "D",
+          "label": "加速运动状态"
+        }
+      ],
+      "answer": "C",
+      "explanation": "原来静止的保持静止，原来运动的保持匀速直线运动。"
+    },
+    {
+      "id": "physics-force-002",
+      "subject": null,
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "汽车急刹车时，乘客身体向前倾，这是因为（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "乘客受到向前的力"
+        },
+        {
+          "key": "B",
+          "label": "乘客具有惯性"
+        },
+        {
+          "key": "C",
+          "label": "汽车受到向前的力"
+        },
+        {
+          "key": "D",
+          "label": "乘客没有惯性"
+        }
+      ],
+      "answer": "B",
+      "explanation": "刹车时下半身随车减速，上身由于惯性保持原来的运动状态，所以向前倾。"
+    },
+    {
+      "id": "physics-force-003",
+      "subject": null,
+      "knowledgePointIds": [
+        "physics-force-motion"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "二力平衡的条件包括（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "作用在同一物体上"
+        },
+        {
+          "key": "B",
+          "label": "大小相等"
+        },
+        {
+          "key": "C",
+          "label": "方向相反且作用在同一直线上"
+        },
+        {
+          "key": "D",
+          "label": "分别作用在两个物体上"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "二力平衡四条件：同体、等大、反向、共线；D 描述的是相互作用力。"
+    },
+    {
+      "id": "physics-ohm-005",
+      "subject": null,
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "关于欧姆定律，下列说法正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "$I=\\dfrac{U}{R}$"
+        },
+        {
+          "key": "B",
+          "label": "$R=\\dfrac{U}{I}$ 可用于计算电阻"
+        },
+        {
+          "key": "C",
+          "label": "导体电阻随电压增大而增大"
+        },
+        {
+          "key": "D",
+          "label": "电阻一定时，导体中的电流与电压成正比"
+        }
+      ],
+      "answer": "ABD",
+      "explanation": "电阻是导体本身的性质，不随电压变化，C 错；A、B、D 正确。"
     }
   ]
 }

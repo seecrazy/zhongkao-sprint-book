@@ -1,5 +1,5 @@
 {
-  "version": "chemistry-v0.13",
+  "version": "chemistry-v0.14",
   "knowledgePoints": [
     {
       "id": "chemistry-change-properties",
@@ -887,6 +887,172 @@
           }
         ],
         "strategy": "酸碱判断题先想指示剂或 pH；中和反应应用题本质都是“酸+碱→盐+水”；写生成物时盐的名称要准确（如氯化钠、氯化钙）。"
+      }
+    },
+    {
+      "id": "chemistry-lab-experiment",
+      "name": "化学实验基础",
+      "subject": "chemistry",
+      "summary": "掌握药品取用、加热操作和常见实验安全规则。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握固体和液体药品的取用方法。",
+          "掌握给物质加热的规范操作。",
+          "记住常见实验安全规则和事故处理方法。"
+        ],
+        "keyIdea": "实验安全“三不”：不能用手接触药品、不能把鼻孔凑到瓶口闻气味、不能尝任何药品的味道。",
+        "concepts": [
+          {
+            "title": "药品的取用",
+            "content": [
+              "粉末状药品用药匙或纸槽，试管倾斜、药匙送到底部再直立（“一斜二送三直立”）。",
+              "块状药品用镊子，试管横放、药品放管口再慢慢竖立（“一横二放三慢竖”）。",
+              "液体药品：瓶塞倒放，标签向着手心，瓶口紧挨试管口。",
+              "剩余药品：不放回原瓶、不随意丢弃、不带出实验室，放入指定容器。"
+            ]
+          },
+          {
+            "title": "加热与安全操作",
+            "content": [
+              "给试管中液体加热：液体不超过试管容积的 $\\dfrac{1}{3}$，用外焰加热，试管夹夹在中上部，管口不对着自己和他人。",
+              "闻气体气味用扇闻法，让少量气体飘进鼻孔。",
+              "熄灭酒精灯必须用灯帽盖灭，不可用嘴吹；酒精洒出燃烧用湿抹布盖灭。",
+              "稀释浓硫酸：把浓硫酸沿器壁慢慢注入水中，并不断搅拌（酸入水），切不可把水倒入浓硫酸。",
+              "量筒读数：视线与凹液面最低处保持水平。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "加热液体的量",
+            "expression": "液体 $\\le$ 试管容积的 $\\dfrac{1}{3}$"
+          },
+          {
+            "name": "安全三不",
+            "expression": "不触 · 不尝 · 不凑闻（扇闻）"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "规范操作判断",
+            "problem": "给试管里的液体加热时，试管口为什么不能对着人？",
+            "steps": [
+              "液体沸腾时可能暴沸溅出。",
+              "管口对人会造成烫伤。",
+              "所以管口应朝向无人处。"
+            ],
+            "answer": "防止液体暴沸溅出伤人"
+          },
+          {
+            "title": "事故处理",
+            "problem": "酒精灯打翻着火，应如何处理？",
+            "steps": [
+              "用湿抹布盖灭，隔绝氧气并降温。",
+              "不能用水冲或用嘴吹。"
+            ],
+            "answer": "用湿抹布盖灭"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "稀释浓硫酸时把水倒入浓硫酸。",
+            "correction": "必须酸入水并不断搅拌，水入酸会剧烈放热引起酸液飞溅。"
+          },
+          {
+            "mistake": "用嘴吹灭酒精灯。",
+            "correction": "用灯帽盖灭，防止引燃灯内酒精。"
+          }
+        ],
+        "strategy": "实验题逐项核对规范操作；判断题抓“三不”原则和“酸入水”等关键词；错误选项往往在细节（瓶塞正放、直接闻）。"
+      }
+    },
+    {
+      "id": "chemistry-combustion",
+      "name": "燃烧与燃料",
+      "subject": "chemistry",
+      "summary": "掌握燃烧的条件、灭火的原理和燃料与环境的知识。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握燃烧的三个条件。",
+          "理解灭火的原理并解释常见灭火方法。",
+          "了解化石燃料与新能源。"
+        ],
+        "keyIdea": "燃烧三条件缺一不可：可燃物、氧气（助燃物）、温度达到着火点；灭火就是破坏任意一个条件。",
+        "concepts": [
+          {
+            "title": "燃烧的条件",
+            "content": [
+              "可燃物；与氧气（或空气）接触；温度达到着火点。",
+              "三者必须同时满足，缺一不可。",
+              "着火点是物质的固有属性，一般不能改变，只能说“降温到着火点以下”。"
+            ]
+          },
+          {
+            "title": "灭火原理与应用",
+            "content": [
+              "清除可燃物（森林火灾开辟隔离带）。",
+              "隔绝氧气（油锅着火盖锅盖、酒精灯用灯帽盖灭）。",
+              "降温到着火点以下（用水浇灭）。",
+              "爆炸：可燃物在有限空间内急剧燃烧；煤气泄漏不能开灯、不能打电话，先开窗通风。"
+            ]
+          },
+          {
+            "title": "燃料与环境",
+            "content": [
+              "三大化石燃料：煤、石油、天然气，均不可再生。",
+              "化石燃料燃烧产生 $\\text{SO}_2$、$\\text{NO}_2$ 会形成酸雨，$\\text{CO}_2$ 过多加剧温室效应。",
+              "新能源：太阳能、风能、氢能等；氢能是最清洁的燃料（燃烧产物只有水）。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "燃烧三条件",
+            "expression": "可燃物 $+$ 氧气 $+$ 温度达着火点"
+          },
+          {
+            "name": "碳的燃烧",
+            "expression": "$\\text{C}+\\text{O}_2\\xrightarrow{\\text{点燃}}\\text{CO}_2$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "灭火方法分析",
+            "problem": "油锅着火时用锅盖盖上，火为什么熄灭？",
+            "steps": [
+              "锅盖隔绝了氧气（空气）。",
+              "破坏了燃烧条件之一。",
+              "火熄灭。"
+            ],
+            "answer": "隔绝氧气灭火",
+            "takeaway": "解释灭火方法先指出破坏了哪个燃烧条件。"
+          },
+          {
+            "title": "煤气泄漏处理",
+            "problem": "家中闻到煤气泄漏的气味，第一步应该做什么？",
+            "steps": [
+              "不能开灯、不能打电话（电火花可能引爆）。",
+              "应立即开窗通风，关闭阀门。",
+              "到室外拨打求救电话。"
+            ],
+            "answer": "开窗通风并关闭阀门"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "说灭火要“降低可燃物的着火点”。",
+            "correction": "着火点是物质的固有属性，不能降低，只能“降温到着火点以下”。"
+          },
+          {
+            "mistake": "煤气泄漏后先开灯查看。",
+            "correction": "开灯产生的电火花可能引起爆炸，应先通风。"
+          }
+        ],
+        "strategy": "灭火题对号入座三原理；判断题抓“着火点不可降”；安全题记住“先通风、后断气、不点火”。"
       }
     }
   ],
@@ -1871,6 +2037,224 @@
       "explanation": "水电解是化学变化，水分子分解成原子并重新组合成氢分子和氧分子，分子种类改变。A 是物理变化，分子不变；C 中保持化学性质的最小粒子是分子（由分子构成的物质）；D 中离子、原子也能直接构成物质。",
       "optimalSolution": "抓本质：化学变化中分子种类一定变，原子种类不变。",
       "commonMistake": "认为物理变化中分子也改变。"
+    },
+    {
+      "id": "chem-lab-001",
+      "subject": null,
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "给试管中的液体加热时，液体体积不能超过试管容积的（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "$\\dfrac{1}{2}$"
+        },
+        {
+          "key": "B",
+          "label": "$\\dfrac{1}{3}$"
+        },
+        {
+          "key": "C",
+          "label": "$\\dfrac{2}{3}$"
+        },
+        {
+          "key": "D",
+          "label": "不限"
+        }
+      ],
+      "answer": "B",
+      "explanation": "液体超过试管容积 $\\dfrac{1}{3}$，沸腾时容易溅出伤人。"
+    },
+    {
+      "id": "chem-lab-002",
+      "subject": null,
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "下列实验操作正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "用药匙取用粉末状药品"
+        },
+        {
+          "key": "B",
+          "label": "把鼻孔凑到瓶口闻气味"
+        },
+        {
+          "key": "C",
+          "label": "稀释浓硫酸时把水倒入浓硫酸"
+        },
+        {
+          "key": "D",
+          "label": "熄灭酒精灯时用灯帽盖灭"
+        }
+      ],
+      "answer": "AD",
+      "explanation": "闻气味应用扇闻法，B 错；稀释浓硫酸应把酸沿器壁注入水中，C 错；A、D 正确。"
+    },
+    {
+      "id": "chem-lab-003",
+      "subject": null,
+      "knowledgePointIds": [
+        "chemistry-lab-experiment"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "准确量取 $10\\ \\text{mL}$ 液体，应选用的仪器是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "$100\\ \\text{mL}$ 量筒"
+        },
+        {
+          "key": "B",
+          "label": "$10\\ \\text{mL}$ 量筒"
+        },
+        {
+          "key": "C",
+          "label": "烧杯"
+        },
+        {
+          "key": "D",
+          "label": "试管"
+        }
+      ],
+      "answer": "B",
+      "explanation": "量取液体应选用量程略大于所需体积的量筒，量程越小误差越小。"
+    },
+    {
+      "id": "chem-comb-001",
+      "subject": null,
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "下列不属于燃烧必要条件的是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "可燃物"
+        },
+        {
+          "key": "B",
+          "label": "氧气（或空气）"
+        },
+        {
+          "key": "C",
+          "label": "温度达到着火点"
+        },
+        {
+          "key": "D",
+          "label": "一定要点燃"
+        }
+      ],
+      "answer": "D",
+      "explanation": "燃烧需要可燃物、与氧气接触、温度达到着火点；“点燃”只是使温度达到着火点的一种方式。"
+    },
+    {
+      "id": "chem-comb-002",
+      "subject": null,
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "下列灭火措施与其原理对应正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "油锅着火盖锅盖——隔绝氧气"
+        },
+        {
+          "key": "B",
+          "label": "用水浇灭柴火——降温到着火点以下"
+        },
+        {
+          "key": "C",
+          "label": "森林火灾开辟隔离带——清除可燃物"
+        },
+        {
+          "key": "D",
+          "label": "向燃烧的木材上撒沙子——降低木材的着火点"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "着火点是物质的固有属性，不能被降低，D 的原理表述错误；A、B、C 对应关系正确。"
+    },
+    {
+      "id": "chem-comb-003",
+      "subject": null,
+      "knowledgePointIds": [
+        "chemistry-combustion"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 80,
+      "stem": "用化学方程式表示：碳在氧气中充分燃烧。（写化学方程式，如 $\\text{S}+\\text{O}_2\\xrightarrow{\\text{点燃}}\\text{SO}_2$ 的格式）",
+      "source": "专项填空",
+      "acceptedAnswers": [
+        "C+O2=CO2",
+        "C+O₂=CO₂",
+        "C+O2=CO2↑"
+      ],
+      "answerKind": "text",
+      "explanation": "碳充分燃烧生成二氧化碳：$\\text{C}+\\text{O}_2\\xrightarrow{\\text{点燃}}\\text{CO}_2$，注意配平和条件“点燃”。"
+    },
+    {
+      "id": "chem-air-005",
+      "subject": null,
+      "knowledgePointIds": [
+        "chemistry-air-oxygen"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "关于氧气，下列说法正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "氧气能支持燃烧"
+        },
+        {
+          "key": "B",
+          "label": "氧气可以作燃料"
+        },
+        {
+          "key": "C",
+          "label": "氧气不易溶于水"
+        },
+        {
+          "key": "D",
+          "label": "氧气约占空气体积的 $78\\%$"
+        }
+      ],
+      "answer": "AC",
+      "explanation": "氧气有助燃性但不可燃，不能作燃料，B 错；氧气约占空气体积的 $21\\%$，D 错；A、C 正确。"
     }
   ]
 }

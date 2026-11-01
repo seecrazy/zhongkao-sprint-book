@@ -49,25 +49,60 @@ export default function QuestionCard({
         <MathText text={question.stem} />
       </h2>
 
-      {question.type === "single-choice" ? (
+      {question.type === "single-choice" || question.type === "multi-choice" ? (
         <div className="option-list">
           {question.options.map((option) => (
-            <label
-              key={option.key}
-              className={value === option.key ? "selected" : ""}
-            >
-              <input
-                type="radio"
-                name={question.id}
-                value={option.key}
-                checked={value === option.key}
-                onChange={() => handleAnswer(option.key)}
-              />
-              <strong>{option.key}.</strong>
-              <span>
-                <MathText text={option.label} />
-              </span>
-            </label>
+            question.type === "single-choice" ? (
+              <label
+                key={option.key}
+                className={value === option.key ? "selected" : ""}
+              >
+                <input
+                  type="radio"
+                  name={question.id}
+                  value={option.key}
+                  checked={value === option.key}
+                  onChange={() => handleAnswer(option.key)}
+                />
+                <strong>{option.key}.</strong>
+                <span>
+                  <MathText text={option.label} />
+                </span>
+              </label>
+            ) : (
+              (() => {
+                const selectedKeys = value
+                  .toUpperCase()
+                  .replace(/[^A-Z]/g, "")
+                  .split("")
+                  .filter(Boolean);
+                const checked = selectedKeys.includes(option.key);
+
+                return (
+                  <label
+                    key={option.key}
+                    className={checked ? "selected" : ""}
+                  >
+                    <input
+                      type="checkbox"
+                      name={question.id}
+                      value={option.key}
+                      checked={checked}
+                      onChange={() => {
+                        const next = checked
+                          ? selectedKeys.filter((key) => key !== option.key)
+                          : [...selectedKeys, option.key];
+                        handleAnswer(next.sort().join(""));
+                      }}
+                    />
+                    <strong>{option.key}.</strong>
+                    <span>
+                      <MathText text={option.label} />
+                    </span>
+                  </label>
+                );
+              })()
+            )
           ))}
         </div>
       ) : (

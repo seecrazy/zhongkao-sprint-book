@@ -73,6 +73,20 @@ skipped：score = 0
 
 ## 当前题型判分
 
+### 多选题（multi-choice）
+
+规则（v0.14 新增，全对才得分）：
+
+```text
+normalize(user) = 去除非字母 → 大写 → 去重 → 字母序排列
+normalize(answer) 同上
+两者完全一致 → correct
+否则（少选 / 多选 / 错选）→ wrong
+未答 → skipped
+```
+
+答题卡以 checkbox 勾选，作答值按字母序合并（如 `ABD`）。
+
 ### 单选题
 
 规则：

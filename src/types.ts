@@ -71,6 +71,12 @@ export interface ChoiceQuestion extends BaseQuestion {
   answer: string;
 }
 
+export interface MultiChoiceQuestion extends BaseQuestion {
+  type: "multi-choice";
+  options: ChoiceOption[];
+  answer: string;
+}
+
 export interface NumericQuestion extends BaseQuestion {
   type: "numeric";
   answer: number;
@@ -84,7 +90,11 @@ export interface ExpressionQuestion extends BaseQuestion {
   answerKind?: "solution-set" | "text";
 }
 
-export type Question = ChoiceQuestion | NumericQuestion | ExpressionQuestion;
+export type Question =
+  | ChoiceQuestion
+  | MultiChoiceQuestion
+  | NumericQuestion
+  | ExpressionQuestion;
 
 export type QuestionResultStatus = "correct" | "wrong" | "skipped";
 

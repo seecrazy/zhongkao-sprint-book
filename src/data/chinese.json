@@ -1,5 +1,5 @@
 {
-  "version": "chinese-v0.12",
+  "version": "chinese-v0.14",
   "knowledgePoints": [
     {
       "id": "chinese-characters",
@@ -383,6 +383,162 @@
           }
         ],
         "strategy": "用表格整理“作者—朝代—称号—代表作”；文化常识按类别（称谓、科举、节气、书籍）归纳，每周抽查一次。"
+      }
+    },
+    {
+      "id": "chinese-classical-chinese",
+      "name": "文言文基础",
+      "subject": "chinese",
+      "summary": "掌握常见文言实词、虚词、通假字和翻译方法。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握教材中常见的文言实词和虚词的意义与用法。",
+          "能识别常见的通假字。",
+          "能用“留、替、调、补、删”的方法翻译文言语句。"
+        ],
+        "keyIdea": "文言词义要“回到语境”；翻译五字诀：留（专名保留）、替（古今替换）、调（语序调整）、补（成分补全）、删（虚词删除）。",
+        "concepts": [
+          {
+            "title": "常见实词与通假字",
+            "content": [
+              "古今异义重点记：“走”古义为跑；“去”古义为离开；“汤”古义为热水；“妻子”古义为妻子和儿女。",
+              "通假字：\"说\"通\"悦\"（不亦说乎）、\"反\"通\"返\"（寒暑易节，始一反焉）、\"坐\"通\"座\"。",
+              "常见虚词“之”：代词（代人或物）、结构助词“的”、用在主谓间取消句子独立性。"
+            ]
+          },
+          {
+            "title": "文言翻译",
+            "content": [
+              "翻译以直译为主，字字落实，再求通顺。",
+              "补出省略的成分：文言文常省略主语和宾语，翻译时补全。",
+              "调整语序：倒装句（如宾语前置）要按现代汉语顺序调整。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "翻译五字诀",
+            "expression": "留 · 替 · 调 · 补 · 删"
+          },
+          {
+            "name": "常见通假字",
+            "expression": "说通悦 · 反通返 · 坐通座"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "通假字识别",
+            "problem": "\"学而时习之，不亦说乎\"中\"说\"的意思。",
+            "steps": [
+              "\"说\"在这里通\"悦\"。",
+              "意思是愉快、高兴。",
+              "句意：学了并按时温习，不也很愉快吗？"
+            ],
+            "answer": "\"说\"通\"悦\"，愉快",
+            "takeaway": "通假字按本字解释。"
+          },
+          {
+            "title": "古今异义",
+            "problem": "文言文中\"走马观花\"的\"走\"是什么意思？",
+            "steps": [
+              "文言文中\"走\"是跑的意思。",
+              "\"走马\"即骑着马跑。",
+              "现在\"走\"是步行，古今义不同。"
+            ],
+            "answer": "跑"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "用现代义解释文言词，如把\"妻子\"理解为“男人的配偶”。",
+            "correction": "文言中\"妻子\"指妻子和儿女，要注意古今异义。"
+          },
+          {
+            "mistake": "翻译时漏译省略成分。",
+            "correction": "按\"补\"字诀补出省略的主语或宾语。"
+          }
+        ],
+        "strategy": "文言文考试词句都在课内，先回归课本文句；翻译题逐字对应再连缀成句，最后补全成分。"
+      }
+    },
+    {
+      "id": "chinese-language-use",
+      "name": "语言运用与得体",
+      "subject": "chinese",
+      "summary": "掌握语言得体、敬辞谦辞和句子衔接补写。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "能根据对象和场合选择得体的语言。",
+          "正确区分和使用常见敬辞与谦辞。",
+          "能根据语境补写衔接自然的句子。"
+        ],
+        "keyIdea": "得体看“对象、场合、身份”三要素；敬辞用于对方，谦辞留给自己。",
+        "concepts": [
+          {
+            "title": "敬辞与谦辞",
+            "content": [
+              "敬辞（用于对方）：令尊、令堂（对方的父母）、惠顾、恭候、鼎力相助、大驾光临。",
+              "谦辞（用于自己）：家父、家母（自己的父母）、拙见、抛砖引玉、寒舍。",
+              "常见误用：\"鼎力相助\"是敬辞，不能说\"我鼎力相助你\"；\"抛砖引玉\"是谦辞，不能评价别人。"
+            ]
+          },
+          {
+            "title": "语言得体与补写",
+            "content": [
+              "得体三看：看对象（身份地位）、看场合（正式或随意）、看目的（请求或拒绝）。",
+              "对长辈、师长避免命令语气；公共场合避免粗俗表达。",
+              "补写句子先看前后的话题和句式，保持话题一致、结构相应。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "敬谦分工",
+            "expression": "敬辞用于人（对方）· 谦辞用于己"
+          },
+          {
+            "name": "得体三看",
+            "expression": "看对象 · 看场合 · 看目的"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "敬辞辨析",
+            "problem": "\"令尊\"指谁？",
+            "steps": [
+              "\"令\"是敬辞，用于称呼对方的亲属。",
+              "\"令尊\"指对方的父亲。",
+              "称呼自己的父亲用\"家父\"。"
+            ],
+            "answer": "对方的父亲",
+            "takeaway": "令尊—对方父亲，家父—自己父亲。"
+          },
+          {
+            "title": "语言得体",
+            "problem": "邀请老师参加活动，下面哪种说法最得体？",
+            "steps": [
+              "对师长要使用尊敬、商量的语气。",
+              "\"请您务必参加\"带命令语气，不得体。",
+              "\"诚邀您莅临指导\"尊敬又礼貌，最得体。"
+            ],
+            "answer": "\"诚邀您莅临指导\""
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把\"鼎力相助\"用在自己身上。",
+            "correction": "\"鼎力相助\"是敬辞，用于感谢或称赞别人帮助自己。"
+          },
+          {
+            "mistake": "补写句子只顾内容不看句式。",
+            "correction": "补写要与前后句结构相应、话题一致。"
+          }
+        ],
+        "strategy": "得体题先看说话对象和场合；敬谦题把常见敬辞谦辞分两栏记忆；补写题读前后句找话题和句式。"
       }
     }
   ],
@@ -862,6 +1018,208 @@
       "explanation": "《西游记》是明代小说家吴承恩创作的长篇神魔小说。",
       "optimalSolution": "四大名著作者口诀：三国罗贯中、水浒施耐庵、西游吴承恩、红楼曹雪芹。",
       "commonMistake": "与《红楼梦》作者曹雪芹混淆。"
+    },
+    {
+      "id": "cn-wen-001",
+      "subject": null,
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "下列句子中加点词解释正确的一项是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "元方入门不顾（照顾）"
+        },
+        {
+          "key": "B",
+          "label": "学而时习之（温习）"
+        },
+        {
+          "key": "C",
+          "label": "太丘舍去（前往）"
+        },
+        {
+          "key": "D",
+          "label": "出门看火伴（火焰）"
+        }
+      ],
+      "answer": "B",
+      "explanation": "B 正确，“习”是温习。A“顾”是回头看；C“去”是离开；D“火伴”指同伴。"
+    },
+    {
+      "id": "cn-wen-002",
+      "subject": null,
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "关于文言词句的理解，正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "文言文中“走”常指“跑”"
+        },
+        {
+          "key": "B",
+          "label": "文言文中“妻子”指妻子和儿女"
+        },
+        {
+          "key": "C",
+          "label": "文言文中“汤”常指“菜汤”"
+        },
+        {
+          "key": "D",
+          "label": "文言文中“去”常指“前往”"
+        }
+      ],
+      "answer": "AB",
+      "explanation": "“汤”在文言中指热水（如“赴汤蹈火”），“去”指离开，C、D 错；A、B 正确。"
+    },
+    {
+      "id": "cn-wen-003",
+      "subject": null,
+      "knowledgePointIds": [
+        "chinese-classical-chinese"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "\"学而时习之，不亦说乎\"中，\"说\"通 ______。（填本字）",
+      "source": "专项填空",
+      "acceptedAnswers": [
+        "悦"
+      ],
+      "answerKind": "text",
+      "explanation": "“说”通“悦”，意思是愉快。"
+    },
+    {
+      "id": "cn-lang-001",
+      "subject": null,
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "邀请老师参加班级活动，下列说法最得体的一项是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "老师，你必须来参加。"
+        },
+        {
+          "key": "B",
+          "label": "老师，诚邀您莅临指导。"
+        },
+        {
+          "key": "C",
+          "label": "老师，来不来随你。"
+        },
+        {
+          "key": "D",
+          "label": "老师，赶紧报名吧。"
+        }
+      ],
+      "answer": "B",
+      "explanation": "对师长应用尊敬、商量的语气，“诚邀您莅临指导”礼貌得体；A、C、D 语气生硬失礼。"
+    },
+    {
+      "id": "cn-lang-002",
+      "subject": null,
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "下列敬辞谦辞的使用，正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "“令尊”用于称呼对方的父亲"
+        },
+        {
+          "key": "B",
+          "label": "“家父”用于称呼自己的父亲"
+        },
+        {
+          "key": "C",
+          "label": "“恭候”用于表示恭敬地等候对方"
+        },
+        {
+          "key": "D",
+          "label": "“鼎力相助”用于说自己帮助了别人"
+        }
+      ],
+      "answer": "ABC",
+      "explanation": "“鼎力相助”是敬辞，用于感谢别人对自己的帮助，不能用于自己，D 错；A、B、C 正确。"
+    },
+    {
+      "id": "cn-lang-003",
+      "subject": null,
+      "knowledgePointIds": [
+        "chinese-language-use"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "补写名句：书山有路勤为径，______。",
+      "source": "专项填空",
+      "acceptedAnswers": [
+        "学海无涯苦作舟",
+        "学海无涯苦作舟。"
+      ],
+      "answerKind": "text",
+      "explanation": "下句是“学海无涯苦作舟”，与上句对仗：书山对学海、勤为径对苦作舟。"
+    },
+    {
+      "id": "cn-word-004",
+      "subject": null,
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "下列句子中成语使用正确的有（　）",
+      "source": "多选题专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "这次比赛他准备充分，显得胸有成竹。"
+        },
+        {
+          "key": "B",
+          "label": "他向老师请教问题，真是不耻下问。"
+        },
+        {
+          "key": "C",
+          "label": "节日的大街人声鼎沸，热闹非凡。"
+        },
+        {
+          "key": "D",
+          "label": "他的演讲滔滔不绝，十分沉默寡言。"
+        }
+      ],
+      "answer": "AC",
+      "explanation": "“不耻下问”指向地位比自己低、知识比自己少的人请教，B 用错对象；D“滔滔不绝”与“沉默寡言”自相矛盾；A、C 正确。"
     }
   ]
 }

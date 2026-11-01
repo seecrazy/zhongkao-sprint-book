@@ -69,6 +69,30 @@ export function gradeQuestion(
     };
   }
 
+  if (question.type === "multi-choice") {
+    const normalizedUser = [
+      ...new Set(userAnswer.toUpperCase().replace(/[^A-Z]/g, "").split("")),
+    ]
+      .sort()
+      .join("");
+    const normalizedAnswer = [
+      ...new Set(question.answer.toUpperCase().replace(/[^A-Z]/g, "").split("")),
+    ]
+      .sort()
+      .join("");
+
+    const status =
+      normalizedUser && normalizedUser === normalizedAnswer ? "correct" : "wrong";
+
+    return {
+      ...base,
+      status,
+      score: status === "correct" ? 1 : 0,
+      correctAnswer: normalizedAnswer,
+      errorType: status === "correct" ? "none" : "concept",
+    };
+  }
+
   if (question.type === "numeric") {
     const numeric = Number(userAnswer.replace(/[^\d.+-]/g, ""));
     const tolerance = question.tolerance ?? 0.0001;
@@ -137,6 +161,9 @@ export function gradeQuestions(
 
 export function getCorrectAnswerText(question: Question): string {
   if (question.type === "single-choice") return question.answer;
+  if (question.type === "multi-choice") {
+    return [...question.answer.toUpperCase()].sort().join("");
+  }
   if (question.type === "numeric") return String(question.answer);
   return question.acceptedAnswers[0];
 }

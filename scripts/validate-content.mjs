@@ -144,7 +144,7 @@ function validateQuestion(question, file, index) {
     });
   }
 
-  if (!["single-choice", "numeric", "expression"].includes(question.type)) {
+    if (!["single-choice", "multi-choice", "numeric", "expression"].includes(question.type)) {
     errors.push(`${location} 当前不支持题型：${question.type}`);
   }
 
@@ -153,6 +153,31 @@ function validateQuestion(question, file, index) {
       errors.push(`${location} 单选题至少需要 2 个选项`);
     }
     if (!question.answer) errors.push(`${location} 单选题缺少 answer`);
+  }
+
+  if (question.type === "multi-choice") {
+    if (!Array.isArray(question.options) || question.options.length < 3) {
+      errors.push(`${location} 多选题至少需要 3 个选项`);
+    }
+    if (!question.answer) {
+      errors.push(`${location} 多选题缺少 answer`);
+    } else {
+      const answerKeys = String(question.answer)
+        .toUpperCase()
+        .replace(/[^A-Z]/g, "")
+        .split("");
+      if (new Set(answerKeys).size < 2) {
+        errors.push(`${location} 多选题正确项至少需要 2 个`);
+      }
+      const optionKeys = new Set(
+        (question.options ?? []).map((option) => option.key)
+      );
+      answerKeys.forEach((key) => {
+        if (!optionKeys.has(key)) {
+          errors.push(`${location} 多选题 answer 引用了不存在的选项：${key}`);
+        }
+      });
+    }
   }
 
   if (question.type === "numeric" && !Number.isFinite(question.answer)) {

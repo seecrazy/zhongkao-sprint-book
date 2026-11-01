@@ -1,11 +1,11 @@
 {
-  "version": "gen-english-v0.16",
+  "version": "gen-english-v0.17",
   "questions": [
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0605",
+      "id": "gen-e-0804",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -23,7 +23,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0606",
+      "id": "gen-e-0805",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -41,7 +41,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0607",
+      "id": "gen-e-0806",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -59,7 +59,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0608",
+      "id": "gen-e-0807",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -77,7 +77,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0609",
+      "id": "gen-e-0808",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -95,7 +95,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0610",
+      "id": "gen-e-0809",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -113,7 +113,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0611",
+      "id": "gen-e-0810",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -131,7 +131,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0612",
+      "id": "gen-e-0811",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -149,7 +149,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0613",
+      "id": "gen-e-0812",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -167,7 +167,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0614",
+      "id": "gen-e-0813",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -185,7 +185,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0615",
+      "id": "gen-e-0814",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -203,7 +203,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0616",
+      "id": "gen-e-0815",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -221,7 +221,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0617",
+      "id": "gen-e-0816",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -239,7 +239,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0618",
+      "id": "gen-e-0817",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -257,7 +257,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0619",
+      "id": "gen-e-0818",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -275,7 +275,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0620",
+      "id": "gen-e-0819",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -293,7 +293,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0621",
+      "id": "gen-e-0820",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -311,7 +311,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0622",
+      "id": "gen-e-0821",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -329,7 +329,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0623",
+      "id": "gen-e-0822",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -347,7 +347,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0624",
+      "id": "gen-e-0823",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -365,7 +365,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0625",
+      "id": "gen-e-0824",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -383,7 +383,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0626",
+      "id": "gen-e-0825",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -401,7 +401,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0627",
+      "id": "gen-e-0826",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -419,7 +419,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0628",
+      "id": "gen-e-0827",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -437,7 +437,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0629",
+      "id": "gen-e-0828",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -455,7 +455,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0630",
+      "id": "gen-e-0829",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -473,7 +473,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0631",
+      "id": "gen-e-0830",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -491,7 +491,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0632",
+      "id": "gen-e-0831",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -509,7 +509,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0633",
+      "id": "gen-e-0832",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -527,7 +527,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0634",
+      "id": "gen-e-0833",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -545,7 +545,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0635",
+      "id": "gen-e-0834",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -563,7 +563,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0636",
+      "id": "gen-e-0835",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -581,7 +581,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0637",
+      "id": "gen-e-0836",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -599,7 +599,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0638",
+      "id": "gen-e-0837",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -617,7 +617,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0639",
+      "id": "gen-e-0838",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -635,7 +635,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0640",
+      "id": "gen-e-0839",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -653,7 +653,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0641",
+      "id": "gen-e-0840",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -671,7 +671,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0642",
+      "id": "gen-e-0841",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -689,7 +689,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0643",
+      "id": "gen-e-0842",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -707,7 +707,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0644",
+      "id": "gen-e-0843",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -725,7 +725,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0645",
+      "id": "gen-e-0844",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -743,7 +743,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0646",
+      "id": "gen-e-0845",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -761,7 +761,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0647",
+      "id": "gen-e-0846",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -779,7 +779,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0648",
+      "id": "gen-e-0847",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -797,7 +797,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0649",
+      "id": "gen-e-0848",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -815,7 +815,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0650",
+      "id": "gen-e-0849",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -833,7 +833,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0651",
+      "id": "gen-e-0850",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -851,7 +851,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0652",
+      "id": "gen-e-0851",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -869,7 +869,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0653",
+      "id": "gen-e-0852",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -887,7 +887,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0654",
+      "id": "gen-e-0853",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -905,7 +905,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0655",
+      "id": "gen-e-0854",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -923,7 +923,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0656",
+      "id": "gen-e-0855",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -941,7 +941,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0657",
+      "id": "gen-e-0856",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -959,7 +959,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0658",
+      "id": "gen-e-0857",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -977,7 +977,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0659",
+      "id": "gen-e-0858",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -995,7 +995,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0660",
+      "id": "gen-e-0859",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -1013,7 +1013,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0661",
+      "id": "gen-e-0860",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1031,7 +1031,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0662",
+      "id": "gen-e-0861",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1049,7 +1049,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0663",
+      "id": "gen-e-0862",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1067,7 +1067,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0664",
+      "id": "gen-e-0863",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1085,7 +1085,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0665",
+      "id": "gen-e-0864",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1103,7 +1103,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0666",
+      "id": "gen-e-0865",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1121,7 +1121,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0667",
+      "id": "gen-e-0866",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1139,7 +1139,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0668",
+      "id": "gen-e-0867",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1157,7 +1157,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0669",
+      "id": "gen-e-0868",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1175,7 +1175,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0670",
+      "id": "gen-e-0869",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1193,7 +1193,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0671",
+      "id": "gen-e-0870",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1211,7 +1211,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0672",
+      "id": "gen-e-0871",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1229,7 +1229,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0673",
+      "id": "gen-e-0872",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1247,7 +1247,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0674",
+      "id": "gen-e-0873",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1265,7 +1265,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0675",
+      "id": "gen-e-0874",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1283,7 +1283,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0676",
+      "id": "gen-e-0875",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1301,7 +1301,7 @@
       "subject": "english",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0677",
+      "id": "gen-e-0876",
       "knowledgePointIds": [
         "english-grammar-passive"
       ],
@@ -1319,7 +1319,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0678",
+      "id": "gen-e-0877",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1352,7 +1352,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0679",
+      "id": "gen-e-0878",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1385,7 +1385,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0680",
+      "id": "gen-e-0879",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1418,7 +1418,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0681",
+      "id": "gen-e-0880",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1451,7 +1451,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0682",
+      "id": "gen-e-0881",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1484,7 +1484,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0683",
+      "id": "gen-e-0882",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1517,7 +1517,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0684",
+      "id": "gen-e-0883",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1550,7 +1550,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0685",
+      "id": "gen-e-0884",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1583,7 +1583,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0686",
+      "id": "gen-e-0885",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1616,7 +1616,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0687",
+      "id": "gen-e-0886",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1649,7 +1649,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0688",
+      "id": "gen-e-0887",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1682,7 +1682,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0689",
+      "id": "gen-e-0888",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1715,7 +1715,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0690",
+      "id": "gen-e-0889",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1748,7 +1748,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0691",
+      "id": "gen-e-0890",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1781,7 +1781,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0692",
+      "id": "gen-e-0891",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1814,7 +1814,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0693",
+      "id": "gen-e-0892",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1847,7 +1847,7 @@
       "subject": "english",
       "estimatedSeconds": 55,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0694",
+      "id": "gen-e-0893",
       "knowledgePointIds": [
         "english-grammar-clauses"
       ],
@@ -1880,40 +1880,40 @@
       "subject": "english",
       "estimatedSeconds": 30,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0695",
+      "id": "gen-e-0894",
       "knowledgePointIds": [
         "english-vocabulary"
       ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 1,
-      "stem": "“moon”的中文意思是（　）",
+      "stem": "“king”的中文意思是（　）",
       "options": [
         {
           "key": "A",
-          "label": "房子"
+          "label": "国王"
         },
         {
           "key": "B",
-          "label": "雨"
+          "label": "月亮"
         },
         {
           "key": "C",
-          "label": "窗户"
+          "label": "苹果"
         },
         {
           "key": "D",
-          "label": "月亮"
+          "label": "水"
         }
       ],
-      "answer": "D",
-      "explanation": "moon 意为“月亮”。"
+      "answer": "A",
+      "explanation": "king 意为“国王”。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 30,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0696",
+      "id": "gen-e-0895",
       "knowledgePointIds": [
         "english-vocabulary"
       ],
@@ -1924,458 +1924,29 @@
       "options": [
         {
           "key": "A",
-          "label": "教师"
+          "label": "鱼"
         },
         {
           "key": "B",
-          "label": "月亮"
+          "label": "夜晚"
         },
         {
           "key": "C",
-          "label": "女王"
+          "label": "书"
         },
         {
           "key": "D",
-          "label": "动物园"
+          "label": "女王"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "queen 意为“女王”。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 30,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0697",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“egg”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "鸡蛋"
-        },
-        {
-          "key": "B",
-          "label": "雨"
-        },
-        {
-          "key": "C",
-          "label": "医院"
-        },
-        {
-          "key": "D",
-          "label": "果汁"
-        }
-      ],
-      "answer": "A",
-      "explanation": "egg 意为“鸡蛋”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0698",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“rain”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "雨"
-        },
-        {
-          "key": "B",
-          "label": "国王"
-        },
-        {
-          "key": "C",
-          "label": "果汁"
-        },
-        {
-          "key": "D",
-          "label": "树"
-        }
-      ],
-      "answer": "A",
-      "explanation": "rain 意为“雨”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0699",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“apple”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "月亮"
-        },
-        {
-          "key": "B",
-          "label": "太阳"
-        },
-        {
-          "key": "C",
-          "label": "苹果"
-        },
-        {
-          "key": "D",
-          "label": "窗户"
-        }
-      ],
-      "answer": "C",
-      "explanation": "apple 意为“苹果”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0700",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“house”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "房子"
-        },
-        {
-          "key": "B",
-          "label": "雨"
-        },
-        {
-          "key": "C",
-          "label": "树"
-        },
-        {
-          "key": "D",
-          "label": "钢笔"
-        }
-      ],
-      "answer": "A",
-      "explanation": "house 意为“房子”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0701",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“dog”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "狗"
-        },
-        {
-          "key": "B",
-          "label": "果汁"
-        },
-        {
-          "key": "C",
-          "label": "窗户"
-        },
-        {
-          "key": "D",
-          "label": "房子"
-        }
-      ],
-      "answer": "A",
-      "explanation": "dog 意为“狗”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0702",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“girl”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "教师"
-        },
-        {
-          "key": "B",
-          "label": "橙子"
-        },
-        {
-          "key": "C",
-          "label": "女孩"
-        },
-        {
-          "key": "D",
-          "label": "太阳"
-        }
-      ],
-      "answer": "C",
-      "explanation": "girl 意为“女孩”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0703",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“pen”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "钢笔"
-        },
-        {
-          "key": "B",
-          "label": "国王"
-        },
-        {
-          "key": "C",
-          "label": "果汁"
-        },
-        {
-          "key": "D",
-          "label": "狗"
-        }
-      ],
-      "answer": "A",
-      "explanation": "pen 意为“钢笔”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0704",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“hospital”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "教师"
-        },
-        {
-          "key": "B",
-          "label": "钢笔"
-        },
-        {
-          "key": "C",
-          "label": "医院"
-        },
-        {
-          "key": "D",
-          "label": "女王"
-        }
-      ],
-      "answer": "C",
-      "explanation": "hospital 意为“医院”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0705",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“fish”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "橙子"
-        },
-        {
-          "key": "B",
-          "label": "水"
-        },
-        {
-          "key": "C",
-          "label": "夜晚"
-        },
-        {
-          "key": "D",
-          "label": "鱼"
-        }
-      ],
-      "answer": "D",
-      "explanation": "fish 意为“鱼”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0706",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“book”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "狮子"
-        },
-        {
-          "key": "B",
-          "label": "书"
-        },
-        {
-          "key": "C",
-          "label": "月亮"
-        },
-        {
-          "key": "D",
-          "label": "橙子"
-        }
-      ],
-      "answer": "B",
-      "explanation": "book 意为“书”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0707",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“orange”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "窗户"
-        },
-        {
-          "key": "B",
-          "label": "橙子"
-        },
-        {
-          "key": "C",
-          "label": "女孩"
-        },
-        {
-          "key": "D",
-          "label": "雨"
-        }
-      ],
-      "answer": "B",
-      "explanation": "orange 意为“橙子”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0708",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“window”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "医院"
-        },
-        {
-          "key": "B",
-          "label": "窗户"
-        },
-        {
-          "key": "C",
-          "label": "果汁"
-        },
-        {
-          "key": "D",
-          "label": "夜晚"
-        }
-      ],
-      "answer": "B",
-      "explanation": "window 意为“窗户”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0709",
-      "knowledgePointIds": [
-        "english-vocabulary"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 1,
-      "stem": "“water”的中文意思是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "水"
-        },
-        {
-          "key": "B",
-          "label": "医院"
-        },
-        {
-          "key": "C",
-          "label": "钢笔"
-        },
-        {
-          "key": "D",
-          "label": "房子"
-        }
-      ],
-      "answer": "A",
-      "explanation": "water 意为“水”。"
-    },
-    {
-      "subject": "english",
-      "estimatedSeconds": 30,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-e-0710",
+      "id": "gen-e-0896",
       "knowledgePointIds": [
         "english-vocabulary"
       ],
@@ -2390,15 +1961,15 @@
         },
         {
           "key": "B",
-          "label": "女孩"
+          "label": "钢笔"
         },
         {
           "key": "C",
-          "label": "猫"
+          "label": "水"
         },
         {
           "key": "D",
-          "label": "鸡蛋"
+          "label": "苹果"
         }
       ],
       "answer": "A",
@@ -2408,18 +1979,150 @@
       "subject": "english",
       "estimatedSeconds": 30,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0711",
+      "id": "gen-e-0897",
       "knowledgePointIds": [
         "english-vocabulary"
       ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 1,
-      "stem": "“lion”的中文意思是（　）",
+      "stem": "“girl”的中文意思是（　）",
       "options": [
         {
           "key": "A",
-          "label": "窗户"
+          "label": "雨"
+        },
+        {
+          "key": "B",
+          "label": "猫"
+        },
+        {
+          "key": "C",
+          "label": "女孩"
+        },
+        {
+          "key": "D",
+          "label": "树"
+        }
+      ],
+      "answer": "C",
+      "explanation": "girl 意为“女孩”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0898",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“sun”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "教师"
+        },
+        {
+          "key": "B",
+          "label": "雨"
+        },
+        {
+          "key": "C",
+          "label": "夜晚"
+        },
+        {
+          "key": "D",
+          "label": "太阳"
+        }
+      ],
+      "answer": "D",
+      "explanation": "sun 意为“太阳”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0899",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“house”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "房子"
+        },
+        {
+          "key": "B",
+          "label": "太阳"
+        },
+        {
+          "key": "C",
+          "label": "鱼"
+        },
+        {
+          "key": "D",
+          "label": "女孩"
+        }
+      ],
+      "answer": "A",
+      "explanation": "house 意为“房子”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0900",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“zoo”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "月亮"
+        },
+        {
+          "key": "B",
+          "label": "苹果"
+        },
+        {
+          "key": "C",
+          "label": "果汁"
+        },
+        {
+          "key": "D",
+          "label": "动物园"
+        }
+      ],
+      "answer": "D",
+      "explanation": "zoo 意为“动物园”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0901",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“juice”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "猫"
         },
         {
           "key": "B",
@@ -2427,54 +2130,285 @@
         },
         {
           "key": "C",
-          "label": "橙子"
+          "label": "狗"
         },
         {
           "key": "D",
-          "label": "狮子"
+          "label": "果汁"
         }
       ],
       "answer": "D",
-      "explanation": "lion 意为“狮子”。"
+      "explanation": "juice 意为“果汁”。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 30,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0712",
+      "id": "gen-e-0902",
       "knowledgePointIds": [
         "english-vocabulary"
       ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 1,
-      "stem": "“night”的中文意思是（　）",
+      "stem": "“rain”的中文意思是（　）",
       "options": [
         {
           "key": "A",
-          "label": "树"
+          "label": "狗"
         },
         {
           "key": "B",
-          "label": "夜晚"
+          "label": "雨"
         },
         {
           "key": "C",
-          "label": "水"
+          "label": "苹果"
         },
         {
           "key": "D",
-          "label": "狮子"
+          "label": "树"
         }
       ],
       "answer": "B",
-      "explanation": "night 意为“夜晚”。"
+      "explanation": "rain 意为“雨”。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 30,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0713",
+      "id": "gen-e-0903",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“moon”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "钢笔"
+        },
+        {
+          "key": "B",
+          "label": "医院"
+        },
+        {
+          "key": "C",
+          "label": "月亮"
+        },
+        {
+          "key": "D",
+          "label": "果汁"
+        }
+      ],
+      "answer": "C",
+      "explanation": "moon 意为“月亮”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0904",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“window”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "窗户"
+        },
+        {
+          "key": "B",
+          "label": "狗"
+        },
+        {
+          "key": "C",
+          "label": "鱼"
+        },
+        {
+          "key": "D",
+          "label": "动物园"
+        }
+      ],
+      "answer": "A",
+      "explanation": "window 意为“窗户”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0905",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“orange”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "橙子"
+        },
+        {
+          "key": "B",
+          "label": "女王"
+        },
+        {
+          "key": "C",
+          "label": "月亮"
+        },
+        {
+          "key": "D",
+          "label": "水"
+        }
+      ],
+      "answer": "A",
+      "explanation": "orange 意为“橙子”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0906",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“apple”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "狗"
+        },
+        {
+          "key": "B",
+          "label": "国王"
+        },
+        {
+          "key": "C",
+          "label": "女孩"
+        },
+        {
+          "key": "D",
+          "label": "苹果"
+        }
+      ],
+      "answer": "D",
+      "explanation": "apple 意为“苹果”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0907",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“water”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "国王"
+        },
+        {
+          "key": "B",
+          "label": "水"
+        },
+        {
+          "key": "C",
+          "label": "女孩"
+        },
+        {
+          "key": "D",
+          "label": "书"
+        }
+      ],
+      "answer": "B",
+      "explanation": "water 意为“水”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0908",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“pen”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "动物园"
+        },
+        {
+          "key": "B",
+          "label": "橙子"
+        },
+        {
+          "key": "C",
+          "label": "钢笔"
+        },
+        {
+          "key": "D",
+          "label": "夜晚"
+        }
+      ],
+      "answer": "C",
+      "explanation": "pen 意为“钢笔”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0909",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“egg”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "钢笔"
+        },
+        {
+          "key": "B",
+          "label": "雨"
+        },
+        {
+          "key": "C",
+          "label": "橙子"
+        },
+        {
+          "key": "D",
+          "label": "鸡蛋"
+        }
+      ],
+      "answer": "D",
+      "explanation": "egg 意为“鸡蛋”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0910",
       "knowledgePointIds": [
         "english-vocabulary"
       ],
@@ -2489,58 +2423,124 @@
         },
         {
           "key": "B",
-          "label": "猫"
-        },
-        {
-          "key": "C",
           "label": "果汁"
         },
         {
+          "key": "C",
+          "label": "猫"
+        },
+        {
           "key": "D",
-          "label": "橙子"
+          "label": "狮子"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "cat 意为“猫”。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 30,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0714",
+      "id": "gen-e-0911",
       "knowledgePointIds": [
         "english-vocabulary"
       ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 1,
-      "stem": "“juice”的中文意思是（　）",
+      "stem": "“hospital”的中文意思是（　）",
       "options": [
         {
           "key": "A",
-          "label": "夜晚"
-        },
-        {
-          "key": "B",
           "label": "鸡蛋"
         },
         {
+          "key": "B",
+          "label": "医院"
+        },
+        {
           "key": "C",
-          "label": "月亮"
+          "label": "动物园"
         },
         {
           "key": "D",
-          "label": "果汁"
+          "label": "鱼"
         }
       ],
-      "answer": "D",
-      "explanation": "juice 意为“果汁”。"
+      "answer": "B",
+      "explanation": "hospital 意为“医院”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0912",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“lion”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "水"
+        },
+        {
+          "key": "B",
+          "label": "狮子"
+        },
+        {
+          "key": "C",
+          "label": "苹果"
+        },
+        {
+          "key": "D",
+          "label": "动物园"
+        }
+      ],
+      "answer": "B",
+      "explanation": "lion 意为“狮子”。"
+    },
+    {
+      "subject": "english",
+      "estimatedSeconds": 30,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-e-0913",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "stem": "“teacher”的中文意思是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "狗"
+        },
+        {
+          "key": "B",
+          "label": "月亮"
+        },
+        {
+          "key": "C",
+          "label": "教师"
+        },
+        {
+          "key": "D",
+          "label": "钢笔"
+        }
+      ],
+      "answer": "C",
+      "explanation": "teacher 意为“教师”。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0715",
+      "id": "gen-e-0914",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2551,7 +2551,7 @@
       "options": [
         {
           "key": "A",
-          "label": "Fine, thank you. And you?"
+          "label": "How do you do?"
         },
         {
           "key": "B",
@@ -2559,17 +2559,17 @@
         },
         {
           "key": "C",
-          "label": "How do you do?"
+          "label": "Fine, thank you. And you?"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "情景应答：How are you? 的习惯应答是 Fine, thank you. And you?。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0716",
+      "id": "gen-e-0915",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2598,7 +2598,7 @@
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0717",
+      "id": "gen-e-0916",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2627,7 +2627,7 @@
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0718",
+      "id": "gen-e-0917",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2638,25 +2638,25 @@
       "options": [
         {
           "key": "A",
-          "label": "Yes, please."
+          "label": "It doesn't matter."
         },
         {
           "key": "B",
-          "label": "You're welcome."
+          "label": "Yes, please."
         },
         {
           "key": "C",
-          "label": "It doesn't matter."
+          "label": "You're welcome."
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "情景应答：I'm sorry I'm late. 的习惯应答是 It doesn't matter.。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0719",
+      "id": "gen-e-0918",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2671,21 +2671,21 @@
         },
         {
           "key": "B",
-          "label": "No, I don't."
+          "label": "Yes, please."
         },
         {
           "key": "C",
-          "label": "Yes, please."
+          "label": "No, I don't."
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "情景应答：Would you like some tea? 的习惯应答是 Yes, please.。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0720",
+      "id": "gen-e-0919",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2696,25 +2696,25 @@
       "options": [
         {
           "key": "A",
-          "label": "She is at home."
+          "label": "She is fine."
         },
         {
           "key": "B",
-          "label": "She is a nurse."
+          "label": "She is at home."
         },
         {
           "key": "C",
-          "label": "She is fine."
+          "label": "She is a nurse."
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "情景应答：What does your mother do? 的习惯应答是 She is a nurse.。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0721",
+      "id": "gen-e-0920",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2743,7 +2743,7 @@
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0722",
+      "id": "gen-e-0921",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2772,7 +2772,7 @@
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0723",
+      "id": "gen-e-0922",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2783,11 +2783,11 @@
       "options": [
         {
           "key": "A",
-          "label": "It's Monday."
+          "label": "It's five o'clock."
         },
         {
           "key": "B",
-          "label": "It's five o'clock."
+          "label": "It's Monday."
         },
         {
           "key": "C",
@@ -2801,7 +2801,7 @@
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0724",
+      "id": "gen-e-0923",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2812,25 +2812,25 @@
       "options": [
         {
           "key": "A",
-          "label": "The same to me only."
-        },
-        {
-          "key": "B",
           "label": "Thank you!"
         },
         {
-          "key": "C",
+          "key": "B",
           "label": "You're right."
+        },
+        {
+          "key": "C",
+          "label": "The same to me only."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "情景应答：Happy birthday to you! 的习惯应答是 Thank you!。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0725",
+      "id": "gen-e-0924",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2859,7 +2859,7 @@
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0726",
+      "id": "gen-e-0925",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2870,25 +2870,25 @@
       "options": [
         {
           "key": "A",
-          "label": "I'm fine."
+          "label": "I'm from Beijing."
         },
         {
           "key": "B",
-          "label": "I'm from Beijing."
+          "label": "I'm fine."
         },
         {
           "key": "C",
           "label": "I like it."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "情景应答：Where are you from? 的习惯应答是 I'm from Beijing.。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0727",
+      "id": "gen-e-0926",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2917,7 +2917,7 @@
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0728",
+      "id": "gen-e-0927",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2946,7 +2946,7 @@
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0729",
+      "id": "gen-e-0928",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2957,25 +2957,25 @@
       "options": [
         {
           "key": "A",
-          "label": "Next week."
+          "label": "It was wonderful."
         },
         {
           "key": "B",
-          "label": "It was wonderful."
+          "label": "Next week."
         },
         {
           "key": "C",
           "label": "By train."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "情景应答：How was your trip? 的习惯应答是 It was wonderful.。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0730",
+      "id": "gen-e-0929",
       "knowledgePointIds": [
         "english-communicative"
       ],
@@ -2986,25 +2986,25 @@
       "options": [
         {
           "key": "A",
-          "label": "How are you?"
-        },
-        {
-          "key": "B",
           "label": "Hello!"
         },
         {
-          "key": "C",
+          "key": "B",
           "label": "See you!"
+        },
+        {
+          "key": "C",
+          "label": "How are you?"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "情景应答：See you tomorrow! 的习惯应答是 See you!。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0731",
+      "id": "gen-e-0930",
       "knowledgePointIds": [
         "english-comparison"
       ],
@@ -3022,63 +3022,62 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0732",
+      "id": "gen-e-0931",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：This box is ___ (big) than that one.",
+      "stem": "用所给词的适当形式填空：She is ___ (big) student in our class.",
       "acceptedAnswers": [
-        "bigger"
+        "the biggest",
+        "biggest"
       ],
       "answerKind": "text",
-      "explanation": "than 引出比较对象，用比较级 bigger。"
+      "explanation": "in our class 表示范围超过两者，用最高级 the biggest。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0733",
+      "id": "gen-e-0932",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：She is ___ (hot) student in our class.",
+      "stem": "用所给词的适当形式填空：This box is ___ (hot) than that one.",
       "acceptedAnswers": [
-        "the hottest",
-        "hottest"
+        "hotter"
       ],
       "answerKind": "text",
-      "explanation": "in our class 表示范围超过两者，用最高级 the hottest。"
+      "explanation": "than 引出比较对象，用比较级 hotter。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0734",
+      "id": "gen-e-0933",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：She is ___ (early) student in our class.",
+      "stem": "用所给词的适当形式填空：This box is ___ (early) than that one.",
       "acceptedAnswers": [
-        "the earliest",
-        "earliest"
+        "earlier"
       ],
       "answerKind": "text",
-      "explanation": "in our class 表示范围超过两者，用最高级 the earliest。"
+      "explanation": "than 引出比较对象，用比较级 earlier。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0735",
+      "id": "gen-e-0934",
       "knowledgePointIds": [
         "english-comparison"
       ],
@@ -3096,25 +3095,26 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0736",
+      "id": "gen-e-0935",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：This box is ___ (heavy) than that one.",
+      "stem": "用所给词的适当形式填空：She is ___ (heavy) student in our class.",
       "acceptedAnswers": [
-        "heavier"
+        "the heaviest",
+        "heaviest"
       ],
       "answerKind": "text",
-      "explanation": "than 引出比较对象，用比较级 heavier。"
+      "explanation": "in our class 表示范围超过两者，用最高级 the heaviest。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0737",
+      "id": "gen-e-0936",
       "knowledgePointIds": [
         "english-comparison"
       ],
@@ -3132,7 +3132,7 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0738",
+      "id": "gen-e-0937",
       "knowledgePointIds": [
         "english-comparison"
       ],
@@ -3151,64 +3151,61 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0739",
+      "id": "gen-e-0938",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：She is ___ (good) student in our class.",
+      "stem": "用所给词的适当形式填空：This box is ___ (good) than that one.",
       "acceptedAnswers": [
-        "the best",
-        "best"
+        "better"
       ],
       "answerKind": "text",
-      "explanation": "in our class 表示范围超过两者，用最高级 the best。"
+      "explanation": "than 引出比较对象，用比较级 better。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0740",
+      "id": "gen-e-0939",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：She is ___ (bad) student in our class.",
+      "stem": "用所给词的适当形式填空：This box is ___ (bad) than that one.",
       "acceptedAnswers": [
-        "the worst",
-        "worst"
+        "worse"
       ],
       "answerKind": "text",
-      "explanation": "in our class 表示范围超过两者，用最高级 the worst。"
+      "explanation": "than 引出比较对象，用比较级 worse。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0741",
+      "id": "gen-e-0940",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：She is ___ (many) student in our class.",
+      "stem": "用所给词的适当形式填空：This box is ___ (many) than that one.",
       "acceptedAnswers": [
-        "the most",
-        "most"
+        "more"
       ],
       "answerKind": "text",
-      "explanation": "in our class 表示范围超过两者，用最高级 the most。"
+      "explanation": "than 引出比较对象，用比较级 more。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0742",
+      "id": "gen-e-0941",
       "knowledgePointIds": [
         "english-comparison"
       ],
@@ -3227,26 +3224,25 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0743",
+      "id": "gen-e-0942",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：She is ___ (far) student in our class.",
+      "stem": "用所给词的适当形式填空：This box is ___ (far) than that one.",
       "acceptedAnswers": [
-        "the farthest",
-        "farthest"
+        "farther"
       ],
       "answerKind": "text",
-      "explanation": "in our class 表示范围超过两者，用最高级 the farthest。"
+      "explanation": "than 引出比较对象，用比较级 farther。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0744",
+      "id": "gen-e-0943",
       "knowledgePointIds": [
         "english-comparison"
       ],
@@ -3264,43 +3260,45 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0745",
+      "id": "gen-e-0944",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：This box is ___ (beautiful) than that one.",
+      "stem": "用所给词的适当形式填空：She is ___ (beautiful) student in our class.",
       "acceptedAnswers": [
-        "more beautiful"
+        "the most beautiful",
+        "most beautiful"
       ],
       "answerKind": "text",
-      "explanation": "than 引出比较对象，用比较级 more beautiful。"
+      "explanation": "in our class 表示范围超过两者，用最高级 the most beautiful。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0746",
+      "id": "gen-e-0945",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：This box is ___ (careful) than that one.",
+      "stem": "用所给词的适当形式填空：She is ___ (careful) student in our class.",
       "acceptedAnswers": [
-        "more careful"
+        "the most careful",
+        "most careful"
       ],
       "answerKind": "text",
-      "explanation": "than 引出比较对象，用比较级 more careful。"
+      "explanation": "in our class 表示范围超过两者，用最高级 the most careful。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0747",
+      "id": "gen-e-0946",
       "knowledgePointIds": [
         "english-comparison"
       ],
@@ -3319,25 +3317,26 @@
       "subject": "english",
       "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0748",
+      "id": "gen-e-0947",
       "knowledgePointIds": [
         "english-comparison"
       ],
       "displayType": "填空题",
       "type": "expression",
       "difficulty": 2,
-      "stem": "用所给词的适当形式填空：This box is ___ (strong) than that one.",
+      "stem": "用所给词的适当形式填空：She is ___ (strong) student in our class.",
       "acceptedAnswers": [
-        "stronger"
+        "the strongest",
+        "strongest"
       ],
       "answerKind": "text",
-      "explanation": "than 引出比较对象，用比较级 stronger。"
+      "explanation": "in our class 表示范围超过两者，用最高级 the strongest。"
     },
     {
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0749",
+      "id": "gen-e-0948",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3370,7 +3369,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0750",
+      "id": "gen-e-0949",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3403,7 +3402,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0751",
+      "id": "gen-e-0950",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3436,7 +3435,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0752",
+      "id": "gen-e-0951",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3469,7 +3468,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0753",
+      "id": "gen-e-0952",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3502,7 +3501,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0754",
+      "id": "gen-e-0953",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3535,7 +3534,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0755",
+      "id": "gen-e-0954",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3568,7 +3567,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0756",
+      "id": "gen-e-0955",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3601,7 +3600,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0757",
+      "id": "gen-e-0956",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3634,7 +3633,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0758",
+      "id": "gen-e-0957",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3667,7 +3666,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0759",
+      "id": "gen-e-0958",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3700,7 +3699,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0760",
+      "id": "gen-e-0959",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3733,7 +3732,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0761",
+      "id": "gen-e-0960",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3766,7 +3765,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0762",
+      "id": "gen-e-0961",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3799,7 +3798,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0763",
+      "id": "gen-e-0962",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3832,7 +3831,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0764",
+      "id": "gen-e-0963",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -3865,7 +3864,7 @@
       "subject": "english",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-e-0765",
+      "id": "gen-e-0964",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],

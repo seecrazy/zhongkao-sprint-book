@@ -47,6 +47,13 @@ function q(subject, o) {
 }
 const JR = (o) => o; // marker
 
+// ============ 手写题库并入题池（模拟卷可覆盖手写 + 生成全池） ============
+const handFiles = { math: "math.json", physics: "physics.json", chemistry: "chemistry.json", english: "english.json", chinese: "chinese.json" };
+for (const [subject, file] of Object.entries(handFiles)) {
+  const data = JSON.parse(readFileSync(path.join(DIR, file), "utf8"));
+  for (const qz of data.questions) add(subject, qz);
+}
+
 // ============ 数学 ============
 const M = "math";
 const JR_M = null;
@@ -589,6 +596,25 @@ function factMulti(subject, kp, rows, tag) {
   }
   return out;
 }
+function factMC(subject, kp, rows, tag) {
+  const trues = rows.filter(r => r[1]).map(r => r[0]);
+  const falses = rows.filter(r => !r[1]).map(r => r[0]);
+  const out = [];
+  for (let i = 0; i < trues.length && falses.length >= 3; i++) {
+    const correct = trues[i % trues.length];
+    const d = shuffle(falses).slice(0, 3);
+    const opts = shuffle([correct, ...d]);
+    out.push({
+      id: genId(tag), knowledgePointIds: [kp],
+      displayType: "单选题", type: "single-choice", difficulty: 2, estimatedSeconds: 45,
+      stem: "下列说法中正确的是（　）",
+      options: opts.map((o, idx) => ({ key: ["A","B","C","D"][idx], label: o })),
+      answer: ["A","B","C","D"][opts.indexOf(correct)],
+      explanation: `只有“${correct}”是正确的说法，其余说法均错误。`,
+    });
+  }
+  return out;
+}
 function pairMC(subject, kp, rows, stemFn, optFn) {
   return rows.map(([entity, value], i) => {
     const distractors = shuffle(rows.filter(r => r[0] !== entity).map(r => r[1])).slice(0, 3);
@@ -612,7 +638,7 @@ function fillFacts(subject, data, kp, rows) {
   const judges = factJudge(subject, kp, rows, tag);
   const multis = factMulti(subject, kp, rows, tag);
   let added = 0;
-  for (const qz of [...judges, ...multis]) {
+  for (const qz of [...judges, ...multis, ...factMC(subject, kp, rows, tag)]) {
     if (added >= need) break;
     if (q(subject, qz)) added += 1;
   }
@@ -834,6 +860,119 @@ fillFacts(C, load('chemistry.json'), "chemistry-combustion", [
   ["把柴火架空燃烧更旺，是因为增大了与氧气的接触面积", true],
   ["乙醇（酒精）是可再生能源", true],
   ["石油直接烧掉是最合理的利用方式", false],
+]);
+
+// ============ 物理事实表（判断/多选池） ============
+const physFacts = load("physics.json");
+fillFacts(P, physFacts, "physics-motion-speed", [
+  ["1 m/s = 3.6 km/h", true],
+  ["平均速度等于各段速度的平均值", false],
+  ["匀速直线运动的速度大小和方向都不变", true],
+  ["物体运动的路程越长，速度越大", false],
+  ["火车过桥时通过的路程等于桥长加车长", true],
+]);
+fillFacts(P, physFacts, "physics-mass-density", [
+  ["密度是物质本身的特性，与质量和体积无关", true],
+  ["一杯水倒掉一半后，密度减小", false],
+  ["铁的密度比铝大", true],
+  ["水结成冰后密度不变", false],
+  ["氧气瓶用去一半氧气后，瓶内氧气密度变小", true],
+]);
+fillFacts(P, physFacts, "physics-pressure", [
+  ["液体内部的压强随深度的增加而增大", true],
+  ["同一深度，液体向各个方向的压强相等", true],
+  ["压强公式 p = F/S 中的 S 是物体的表面积", false],
+  ["连通器静止时各容器中的液面总保持相平", true],
+  ["铁轨铺在枕木上是为了减小对地面的压强", true],
+]);
+fillFacts(P, physFacts, "physics-ohm-law", [
+  ["欧姆定律中的 I、U、R 必须对应同一导体", true],
+  ["导体电阻随电压增大而增大", false],
+  ["串联电路中电流处处相等", true],
+  ["并联电路的干路电流等于各支路电流之和", true],
+  ["电阻一定时，导体中的电流与它两端的电压成正比", true],
+  ["电压表可以直接接在电源两端", true],
+]);
+fillFacts(P, physFacts, "physics-electric-power", [
+  ["电功率表示电流做功的快慢", true],
+  ["千瓦时（kW·h）是电功率的单位", false],
+  ["用电器在额定电压下工作时，实际功率等于额定功率", true],
+  ["灯泡的亮度由它的实际功率决定", true],
+  ["电能表测量的是用电器消耗的电能", true],
+]);
+fillFacts(P, physFacts, "physics-thermal", [
+  ["热传递时热量从高温物体传向低温物体", true],
+  ["温度高的物体内能一定大", false],
+  ["水的比热容比较大", true],
+  ["燃料的热值与是否完全燃烧有关", false],
+  ["物体吸收热量，温度一定升高", false],
+]);
+fillFacts(P, physFacts, "physics-work-energy", [
+  ["只要有力作用在物体上，这个力就一定做功", false],
+  ["功率越大，做功越快", true],
+  ["匀速提升重物时，拉力做的功等于克服重力做的功", true],
+  ["动能的大小只与物体的质量有关", false],
+  ["匀速上升的货物，它的重力势能在增大", true],
+]);
+fillFacts(P, physFacts, "physics-buoyancy", [
+  ["浸在液体中的物体都受到浮力", true],
+  ["沉入水底的物体不受浮力", false],
+  ["浮力的方向竖直向上", true],
+  ["浸没在液体中的物体，浮力大小与深度无关", true],
+  ["漂浮的物体，浮力等于重力", true],
+]);
+fillFacts(P, physFacts, "physics-force-motion", [
+  ["惯性是物体保持原来运动状态不变的性质", true],
+  ["物体可以说受到了“惯性力”的作用", false],
+  ["物体的运动状态改变，一定受到了力的作用", true],
+  ["不受力的物体一定处于静止状态", false],
+  ["二力平衡的两个力作用在同一个物体上", true],
+]);
+fillFacts(P, physFacts, "physics-circuit-basics", [
+  ["串联电路中电流只有一条路径", true],
+  ["并联电路中各支路互不影响", true],
+  ["电源短路时电流过大，会烧坏电源", true],
+  ["串联电路中一个用电器断路，其余用电器仍能工作", false],
+  ["并联电路中，干路开关控制整个电路", true],
+  ["家庭电路中的用电器都是串联的", false],
+  ["电流表应串联在被测电路中", true],
+  ["电压表应并联在被测电路两端", true],
+  ["串联电路中开关位置改变，其控制作用不变", true],
+  ["并联电路的干路电流等于各支路电流之和", true],
+  ["用导线直接连接电源两极是允许的", false],
+  ["串联电路中通过各用电器的电流处处相等", true],
+]);
+fillFacts(P, physFacts, "physics-home-circuit", [
+  ["家庭电路的电压是 220 V", true],
+  ["控制电灯的开关应接在零线上", false],
+  ["三孔插座的“上孔”接地线", true],
+  ["测电笔氖管发光，说明接触的是零线", false],
+  ["家庭电路电流过大的原因可能是短路或总功率过大", true],
+  ["发现有人触电时，应先切断电源", true],
+  ["保险丝由电阻率较大、熔点较低的合金制成", true],
+  ["空气开关跳闸后可以直接推回去，无需检查原因", false],
+  ["家庭电路中各用电器都是并联的", true],
+  ["高压线只要不触碰就不会发生触电事故", false],
+  ["家庭电路中用电器总功率越大，干路电流越大", true],
+  ["保险丝熔断后可以用铜丝代替", false],
+  ["对人体来说，安全电压是不高于 36 V 的电压", true],
+  ["雷雨天可以在大树下避雨", false],
+]);
+fillFacts(P, physFacts, "physics-magnetism", [
+  ["奥斯特实验说明通电导线周围存在磁场", true],
+  ["磁体可以吸引铜、铝等所有金属", false],
+  ["同名磁极相互排斥，异名磁极相互吸引", true],
+  ["磁感线是真实存在的曲线", false],
+  ["发电机利用电磁感应原理发电", true],
+  ["电动机把机械能转化为电能", false],
+  ["通电螺线管的磁极方向与电流方向有关", true],
+  ["电磁起重机通电时能吸起废钢铁", true],
+  ["通电螺线管外部的磁场与条形磁铁相似", true],
+  ["电磁继电器的核心元件是电磁铁", true],
+  ["我国宋代学者沈括最早记述了地磁偏角", true],
+  ["磁浮列车利用了磁极间相互作用规律", true],
+  ["导体在磁场中切割磁感线就一定能产生感应电流", false],
+  ["磁体上两个磁极的磁性最弱", false],
 ]);
 
 // ============ 英语 ============
@@ -1241,7 +1380,7 @@ for (const subject of ["math", "physics", "chemistry"]) {
       if (cands.size === 3) {
         const opts = shuffle([ans, ...cands]);
         b.push({
-          subject, id: `${qz.id}c`, knowledgePointIds: qz.knowledgePointIds,
+          subject, id: `${qz.id}c`, _generated: true, knowledgePointIds: qz.knowledgePointIds,
           displayType: "选择题", type: "single-choice", difficulty: qz.difficulty,
           estimatedSeconds: Math.max(35, Math.round(qz.estimatedSeconds * 0.6)),
           stem: `${qz.stem.replace("______", "（　）").replace(/（填数值）/, "").replace(/（保留一位小数）/, "").replace(/（保留两位小数）/, "").replace(/（结果取整数）/, "")}`,
@@ -1381,10 +1520,12 @@ const blueprints = {
     { title: "三、解答题", filter: qz => ["解答题", "计算题"].includes(qz.displayType) || qz.type === "solution", scores: [6, 6, 8, 8, 10, 10, 10, 12], sortByDifficulty: true },
   ],
   physics: [
-    { title: "一、单项选择题", filter: qz => qz.type === "single-choice", scores: Array(12).fill(2) },
-    { title: "二、多项选择题", filter: qz => qz.type === "multi-choice", scores: Array(3).fill(3) },
+    { title: "一、单项选择题", filter: qz => qz.type === "single-choice" && !["作图题", "实验题"].includes(qz.displayType), scores: Array(11).fill(2) },
+    { title: "二、多项选择题", filter: qz => qz.type === "multi-choice", scores: Array(2).fill(3), shared: true },
     { title: "三、填空题", filter: qz => (qz.type === "numeric" || qz.type === "expression") && qz.displayType !== "计算题", scores: Array(8).fill(2) },
-    { title: "四、计算与实验题", filter: qz => qz.displayType === "计算题" || qz.type === "solution", scores: [7, 7, 8, 8, 11], sortByDifficulty: true },
+    { title: "四、作图题", filter: qz => qz.displayType === "作图题", scores: [2, 2], shared: true },
+    { title: "五、实验探究题", filter: qz => qz.displayType === "实验题", scores: [3, 3, 2, 2], shared: true },
+    { title: "六、计算题", filter: qz => qz.displayType === "计算题" || qz.type === "solution", scores: [8, 9, 11], sortByDifficulty: true },
   ],
   chemistry: [
     { title: "一、选择题", filter: qz => ["single-choice", "multi-choice"].includes(qz.type), scores: Array(12).fill(2) },
@@ -1424,12 +1565,15 @@ for (const subject of Object.keys(blueprints)) {
       if (spec.sortByDifficulty) {
         candidates.sort((a, b) => (a.difficulty || 3) - (b.difficulty || 3));
       }
-      // 降级规则：题池不足时按 floor(池/卷数) 缩减
+      // 降级规则：普通分区按 floor(池/卷数) 缩减；稀有题型分区（shared）跨卷轮换复用
       let scores = [...spec.scores];
-      let count = Math.min(scores.length, candidates.length, Math.floor(candidates.length / PAPER_N));
+      let count = spec.shared
+        ? Math.min(scores.length, candidates.length)
+        : Math.min(scores.length, candidates.length, Math.floor(candidates.length / PAPER_N));
       if (count === 0) continue;
       scores = scores.slice(0, count);
-      const picked = candidates.slice(0, count);
+      const rotated = candidates.slice(pi * count).concat(candidates.slice(0, pi * count));
+      const picked = rotated.slice(0, count);
       picked.forEach(qz => used.add(qz.id));
 
       // 按分值分组成小节（同分值统一 scorePerQuestion）
@@ -1468,10 +1612,11 @@ for (const subject of Object.keys(blueprints)) {
   const examData = JSON.parse(readFileSync(examPath, "utf8"));
   examData.exams = examData.exams.filter(e => !e.id.startsWith(`${subject}-sim-`));
   examData.exams.push(...papers);
-  examData.version = `${subject}-exams-v0.16`;
+  examData.version = `${subject}-exams-v0.17`;
   writeFileSync(examPath, JSON.stringify(examData, null, 2) + "\n");
 
-  const out = { version: `gen-${subject}-v0.16`, questions: pool };
+  const genOnly = pool.filter(qz => qz.id.startsWith("gen-") || qz._generated);
+  const out = { version: `gen-${subject}-v0.17`, questions: genOnly };
   writeFileSync(path.join(DIR, `${subject}-generated.json`), JSON.stringify(out, null, 2) + "\n");
 
   const real = papers.reduce((sum, p) => sum + p.sections.reduce((s, sec) => s + sec.questionIds.length, 0), 0);

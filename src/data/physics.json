@@ -1,5 +1,5 @@
 {
-  "version": "physics-v0.14",
+  "version": "physics-v0.17",
   "knowledgePoints": [
     {
       "id": "physics-motion-speed",
@@ -448,6 +448,275 @@
           }
         ],
         "strategy": "回声测距记住“除以 $2$”；光学判断题先分清是反射还是折射；平面镜作图抓住“对称”两个字。"
+      }
+    },
+    {
+      "id": "physics-circuit-basics",
+      "name": "电路与电路图",
+      "subject": "physics",
+      "summary": "掌握电路的组成、三种状态、串并联的识别与电路图符号。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "知道电路的基本组成及各部分的作用，认识常见电路图符号。",
+          "能区分通路、断路和短路，知道短路的危害。",
+          "会根据电流路径识别串联和并联，能分析开关的控制作用。"
+        ],
+        "keyIdea": "判断串并联用“电流路径法”：从电源正极出发，电流只有一条路径是串联，有分支是并联；串联互相影响，并联互不影响。",
+        "concepts": [
+          {
+            "title": "电路的构成与电路图",
+            "content": [
+              "电路由电源（提供电能）、用电器（消耗电能）、开关（控制电路通断）和导线（输送电能）组成。",
+              "常见电路图符号：灯泡 ⊗、电源 ⊕、开关 /、电流表 Ⓐ、电压表 Ⓥ、电阻 [R]。",
+              "用统一符号代替实物画出的图叫电路图，画图时导线要横平竖直、拐直角弯。"
+            ]
+          },
+          {
+            "title": "电路的三种状态",
+            "content": [
+              "通路：电路接通，电路中有电流，用电器工作。",
+              "断路（开路）：电路某处断开，电路中没有电流，用电器不工作。",
+              "短路：不经过用电器，直接用导线把电源两极连接起来，电流过大，会烧坏电源和导线，甚至引起火灾，绝对不允许。",
+              "部分短路（局部短路）：用电器被导线直接跨接，该用电器不工作但电路其他部分可能仍工作。"
+            ]
+          },
+          {
+            "title": "串联和并联",
+            "content": [
+              "串联：用电器逐个顺次连接，电流只有一条路径；一个用电器断路，其他用电器都停止工作；开关控制整个电路，开关位置改变控制作用不变。",
+              "并联：用电器并列连接，电流有多条路径（干路和支路）；各支路互不影响；干路开关控制整个电路，支路开关只控制它所在的支路。",
+              "家庭电路中的用电器都是并联的，这样各用电器才能独立工作。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "串联识别",
+            "expression": "电流路径只有一条 $\\Rightarrow$ 串联"
+          },
+          {
+            "name": "并联识别",
+            "expression": "电流有分支（干路与支路）$\\Rightarrow$ 并联"
+          },
+          {
+            "name": "串联控制特点",
+            "expression": "一个用电器断路 $\\Rightarrow$ 全部停止工作"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "判断连接方式",
+            "problem": "节日里装饰用的小彩灯，一个灯坏了整串灯都不亮，这是什么连接方式？",
+            "steps": [
+              "一个灯坏了，其他灯也不能工作。",
+              "说明各灯互相影响，电流只有一条路径。",
+              "所以是串联。"
+            ],
+            "answer": "串联",
+            "takeaway": "互相影响是串联的标志。"
+          },
+          {
+            "title": "开关的控制作用",
+            "problem": "并联电路中，干路开关断开时，各支路灯的亮暗情况如何？",
+            "steps": [
+              "干路在分支点之前，干路断开则所有支路都没有电流。",
+              "所以两盏灯都不亮。"
+            ],
+            "answer": "都不亮"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为并联电路中干路开关只控制一条支路。",
+            "correction": "干路开关控制整个电路，支路开关才只控制本支路。"
+          },
+          {
+            "mistake": "认为发生短路时用电器正常工作。",
+            "correction": "电源短路电流过大，会烧坏电源，绝对不允许。"
+          }
+        ],
+        "strategy": "串并联判断画“电流路径图”：从正极出发沿电路走，遇到分支就是并联；分析开关作用先看它在干路还是支路。"
+      }
+    },
+    {
+      "id": "physics-home-circuit",
+      "name": "家庭电路与安全用电",
+      "subject": "physics",
+      "summary": "了解家庭电路的组成，掌握测电笔、三孔插座和安全用电常识。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "了解家庭电路的组成和各部分作用。",
+          "会用测电笔辨别火线和零线，知道三孔插座接地的意义。",
+          "知道家庭电路电流过大的原因，掌握安全用电常识。"
+        ],
+        "keyIdea": "家庭电路电压 220 V；开关必须接在火线上；电流过大的原因只有两个：短路或用电器总功率过大。",
+        "concepts": [
+          {
+            "title": "家庭电路的组成",
+            "content": [
+              "家庭电路由进户线（火线 L、零线 N）、电能表、总开关、保险丝（或空气开关）、插座和用电器组成。",
+              "火线和零线之间的电压是 $220\\ \\text{V}$；各用电器并联接入电路，插座与用电器也是并联。",
+              "控制电灯的开关必须接在火线和电灯之间：断开开关后灯座不带电，更换灯泡才安全。"
+            ]
+          },
+          {
+            "title": "测电笔与三孔插座",
+            "content": [
+              "测电笔辨别火线：笔尖接触电线，手按笔尾金属体，氖管发光的是火线，不发光的是零线。",
+              "三孔插座接线：“左零右火上接地”；地线把金属外壳的用电器与大地连接。",
+              "外壳接地的意义：万一外壳带电，电流经地线流入大地，避免人触电。"
+            ]
+          },
+          {
+            "title": "电流过大与安全用电",
+            "content": [
+              "家庭电路电流过大的原因：一是短路，二是用电器总功率过大。",
+              "保险丝由电阻率大、熔点低的铅锑合金制成，电流过大时自动熔断；空气开关会自动跳闸。",
+              "安全用电原则：不接触低压带电体，不靠近高压带电体；更换灯泡、搬动电器前先断开开关。",
+              "发现有人触电：先切断电源（或用干木棒挑开电线），再施救，不能直接用手拉。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "家庭电路电压",
+            "expression": "火线与零线间 $U=220\\ \\text{V}$"
+          },
+          {
+            "name": "电流过大原因",
+            "expression": "短路 或 用电器总功率过大"
+          },
+          {
+            "name": "三孔插座",
+            "expression": "左零 · 右火 · 上接地"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "跳闸原因分析",
+            "problem": "家里同时使用空调、电磁炉和电热水器时空气开关跳闸，最可能的原因是什么？",
+            "steps": [
+              "几个大功率用电器同时使用。",
+              "由 $I=\\dfrac{P}{U}$，总功率越大干路电流越大。",
+              "总功率过大导致电流超过空气开关的限额，跳闸。"
+            ],
+            "answer": "用电器总功率过大",
+            "takeaway": "跳闸只有两个方向：查短路、查总功率。"
+          },
+          {
+            "title": "测电笔使用",
+            "problem": "测电笔的氖管发光，说明笔尖接触的是什么线？",
+            "steps": [
+              "氖管发光说明接触的是火线。",
+              "使用时手必须按住笔尾金属体，但绝不能接触笔尖。"
+            ],
+            "answer": "火线"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把控制电灯的开关接在零线上。",
+            "correction": "开关接零线时，断开开关灯虽不亮，但灯座仍与火线相连带电，不安全。"
+          },
+          {
+            "mistake": "认为用电器功率越大，消耗的电能一定越多。",
+            "correction": "电能 $W=Pt$ 还与时间有关；但功率越大，干路电流越大，越容易跳闸。"
+          }
+        ],
+        "strategy": "家庭电路题抓“火线—开关—用电器—零线”的顺序和“左零右火上接地”口诀；安全选择题逐项对照“不接触低压带电体、不靠近高压带电体”。"
+      }
+    },
+    {
+      "id": "physics-magnetism",
+      "name": "电与磁",
+      "subject": "physics",
+      "summary": "掌握磁现象、电流的磁效应、电磁铁以及电动机与发电机的原理区分。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "知道磁体的基本性质和磁极间的相互作用规律。",
+          "理解电流的磁效应（奥斯特实验）和电磁铁的工作原理。",
+          "能区分电磁感应（发电机）与磁场对电流的作用（电动机）。"
+        ],
+        "keyIdea": "奥斯特实验证明通电导线周围存在磁场；电动机“电生动”（磁场对电流的作用），发电机“磁动电”（电磁感应）。",
+        "concepts": [
+          {
+            "title": "磁现象",
+            "content": [
+              "磁体能够吸引铁、钴、镍等物质（不能吸引铜、铝）；磁体上磁性最强的部位叫磁极，分为 N 极和 S 极。",
+              "磁极间相互作用：同名磁极相互排斥，异名磁极相互吸引。",
+              "磁体周围存在磁场，磁感线从 N 极出发回到 S 极（磁体外部），磁感线越密的地方磁性越强；地磁场使小磁针静止时 N 极指向地理北极附近。"
+            ]
+          },
+          {
+            "title": "电流的磁效应与电磁铁",
+            "content": [
+              "奥斯特实验说明：通电导线周围存在磁场（电流的磁效应）。",
+              "通电螺线管的磁场与条形磁铁相似，磁极方向与电流方向有关（安培定则/右手螺旋定则）。",
+              "电磁铁：带铁芯的通电螺线管；磁性强弱由电流大小、线圈匝数和有无铁芯决定；磁性与极性可通过通断电和电流方向控制，应用有电磁起重机、电磁继电器。"
+            ]
+          },
+          {
+            "title": "电动机与发电机",
+            "content": [
+              "磁场对电流的作用：通电导体在磁场中受力运动，把电能转化为机械能——电动机的原理。",
+              "电磁感应：闭合电路的一部分导体在磁场中做切割磁感线运动时产生感应电流，把机械能转化为电能——发电机的原理（法拉第发现）。",
+              "区分口诀：先有电后动是电动机（电生动），先动后有电是发电机（磁动电）。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "磁极相互作用",
+            "expression": "同名磁极相互排斥，异名磁极相互吸引"
+          },
+          {
+            "name": "电动机原理",
+            "expression": "通电导体在磁场中受力（电能 $\\rightarrow$ 机械能）"
+          },
+          {
+            "name": "发电机原理",
+            "expression": "电磁感应（机械能 $\\rightarrow$ 电能）"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "区分电动机与发电机",
+            "problem": "电动机和发电机分别利用什么原理工作？",
+            "steps": [
+              "电动机通电后转动：利用磁场对电流的作用，电能转化为机械能。",
+              "发电机转动后发电：利用电磁感应，机械能转化为电能。"
+            ],
+            "answer": "电动机用“磁场对电流的作用”，发电机用“电磁感应”",
+            "takeaway": "口诀：电生动、磁动电。"
+          },
+          {
+            "title": "电磁铁的应用",
+            "problem": "电磁起重机为什么能吸起废钢铁，又能随时放下？",
+            "steps": [
+              "通电时线圈产生磁性，吸起废钢铁。",
+              "断电时磁性消失，废钢铁落下。",
+              "电磁铁的磁有无可以由电流通断控制。"
+            ],
+            "answer": "利用电磁铁通电有磁性、断电无磁性"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为磁体可以吸引所有金属。",
+            "correction": "磁体只吸引铁、钴、镍等磁性材料，不能吸引铜、铝、金。"
+          },
+          {
+            "mistake": "把发电机和电动机的原理互换。",
+            "correction": "电动机：通电导体在磁场中受力；发电机：电磁感应。用“电生动、磁动电”区分。"
+          }
+        ],
+        "strategy": "电与磁选择题先用口诀“电生动、磁动电”定原理；电磁铁题抓“电流通断控磁性、电流大小控强弱”；磁感线方向外部 N 到 S。"
       }
     },
     {
@@ -1699,6 +1968,1133 @@
       ],
       "answer": "ABD",
       "explanation": "电阻是导体本身的性质，不随电压变化，C 错；A、B、D 正确。"
+    },
+    {
+      "id": "ckt-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "分析下图所示电路中两盏灯的连接方式：（　）\n\n提示：⊕ 为电源，⊗ 为灯泡",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "串联"
+        },
+        {
+          "key": "B",
+          "label": "并联"
+        },
+        {
+          "key": "C",
+          "label": "串联和并联"
+        },
+        {
+          "key": "D",
+          "label": "无法确定"
+        }
+      ],
+      "answer": "A",
+      "explanation": "图中电流从电源正极出发，依次经过两盏灯，只有一条路径，所以是串联。",
+      "diagram": " ┌───⊕───┐\n │       │\n ├──⊗──⊗─┤\n │       │\n └───────┘"
+    },
+    {
+      "id": "ckt-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "分析下图所示电路中两盏灯的连接方式：（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "串联"
+        },
+        {
+          "key": "B",
+          "label": "并联"
+        },
+        {
+          "key": "C",
+          "label": "混联"
+        },
+        {
+          "key": "D",
+          "label": "无法确定"
+        }
+      ],
+      "answer": "B",
+      "explanation": "图中电流有两条支路，分别经过两盏灯，所以是并联。",
+      "diagram": " ┌───⊕───┐\n │       │\n ├──⊗────┤\n │       │\n ├──⊗────┤\n │       │\n └───────┘"
+    },
+    {
+      "id": "ckt-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 80,
+      "stem": "如下图，开关 S 接在干路上。当 S 断开时，两盏灯的情况是（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "L1 亮，L2 不亮"
+        },
+        {
+          "key": "B",
+          "label": "L1 不亮，L2 亮"
+        },
+        {
+          "key": "C",
+          "label": "两灯都不亮"
+        },
+        {
+          "key": "D",
+          "label": "两灯都亮"
+        }
+      ],
+      "answer": "C",
+      "explanation": "S 接在干路上，干路开关控制整个电路：S 断开时所有支路都没有电流，两灯都不亮。",
+      "diagram": " ┌───⊕───┐\n │       │\n ├──/────┤  ← 开关 S（干路）\n │       │\n ├──⊗────┤\n │       │\n ├──⊗────┤\n │       │\n └───────┘"
+    },
+    {
+      "id": "ckt-004",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 80,
+      "stem": "关于串联和并联，下列说法正确的有（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "串联电路中电流只有一条路径"
+        },
+        {
+          "key": "B",
+          "label": "并联电路中各支路互不影响"
+        },
+        {
+          "key": "C",
+          "label": "串联电路中一个用电器断路，其余用电器仍能工作"
+        },
+        {
+          "key": "D",
+          "label": "家庭电路中的用电器都是并联的"
+        }
+      ],
+      "answer": "ABD",
+      "explanation": "串联电路互相影响，一个断路全部停止工作，C 错；A、B、D 正确。"
+    },
+    {
+      "id": "ckt-005",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 30,
+      "stem": "电路图中，符号 ⊗ 表示的是（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "灯泡"
+        },
+        {
+          "key": "B",
+          "label": "电源"
+        },
+        {
+          "key": "C",
+          "label": "开关"
+        },
+        {
+          "key": "D",
+          "label": "电流表"
+        }
+      ],
+      "answer": "A",
+      "explanation": "⊗ 是灯泡（用电器）的电路图符号；⊕ 表示电源。"
+    },
+    {
+      "id": "ckt-006",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 35,
+      "stem": "用导线直接连接电源两极，会造成电源短路。下列关于短路危害的说法，正确的是（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "短路时电流过大，会烧坏电源和导线"
+        },
+        {
+          "key": "B",
+          "label": "短路时用电器正常工作"
+        },
+        {
+          "key": "C",
+          "label": "短路没有危害"
+        },
+        {
+          "key": "D",
+          "label": "短路时电路中没有电流"
+        }
+      ],
+      "answer": "A",
+      "explanation": "短路时电流很大，产生大量的热，会烧坏电源和导线，甚至引起火灾，绝对不允许。"
+    },
+    {
+      "id": "home-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-home-circuit"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "家庭电路中，三孔插座多出的“上孔”接地的目的是（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "美观"
+        },
+        {
+          "key": "B",
+          "label": "防止用电器外壳带电时发生触电事故"
+        },
+        {
+          "key": "C",
+          "label": "节约用电"
+        },
+        {
+          "key": "D",
+          "label": "增大电流"
+        }
+      ],
+      "answer": "B",
+      "explanation": "地线把用电器金属外壳与大地连接，外壳带电时电流经地线流入大地，保护人身安全。"
+    },
+    {
+      "id": "home-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-home-circuit"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "使用测电笔辨别火线和零线时，若氖管发光，说明笔尖接触的是（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "零线"
+        },
+        {
+          "key": "B",
+          "label": "火线"
+        },
+        {
+          "key": "C",
+          "label": "地线"
+        },
+        {
+          "key": "D",
+          "label": "无法判断"
+        }
+      ],
+      "answer": "B",
+      "explanation": "氖管发光说明接触的是火线；测电笔使用时手要按住笔尾金属体。"
+    },
+    {
+      "id": "home-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-home-circuit"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "下列做法中，符合安全用电原则的有（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "更换灯泡前先断开总开关"
+        },
+        {
+          "key": "B",
+          "label": "用湿手触摸开关和插座"
+        },
+        {
+          "key": "C",
+          "label": "多个大功率用电器同时使用一个插座"
+        },
+        {
+          "key": "D",
+          "label": "发现有人触电，先切断电源再施救"
+        }
+      ],
+      "answer": "AD",
+      "explanation": "湿手触电危险，B 错；大功率电器共用插座会使电流过大，C 错；A、D 符合安全用电原则。"
+    },
+    {
+      "id": "home-004",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-home-circuit"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "家庭电路中空气开关“跳闸”的可能原因是（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "电路发生短路"
+        },
+        {
+          "key": "B",
+          "label": "用电器总功率过大"
+        },
+        {
+          "key": "C",
+          "label": "A 和 B 都有可能"
+        },
+        {
+          "key": "D",
+          "label": "电压过低"
+        }
+      ],
+      "answer": "C",
+      "explanation": "短路或用电器总功率过大都会使干路电流过大，导致空气开关跳闸。"
+    },
+    {
+      "id": "home-005",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-home-circuit"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "家庭电路中，控制电灯的开关应该接在（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "火线和电灯之间"
+        },
+        {
+          "key": "B",
+          "label": "零线和电灯之间"
+        },
+        {
+          "key": "C",
+          "label": "任意位置"
+        },
+        {
+          "key": "D",
+          "label": "地线和电灯之间"
+        }
+      ],
+      "answer": "A",
+      "explanation": "开关接在火线上，断开开关后灯座不带电，更换灯泡才安全。"
+    },
+    {
+      "id": "mag-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "奥斯特实验（导线通电时附近的小磁针发生偏转）说明了（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "通电导线周围存在磁场"
+        },
+        {
+          "key": "B",
+          "label": "导线本身有磁性"
+        },
+        {
+          "key": "C",
+          "label": "小磁针发生了故障"
+        },
+        {
+          "key": "D",
+          "label": "磁场对电流没有作用"
+        }
+      ],
+      "answer": "A",
+      "explanation": "奥斯特实验证明了电流的磁效应：通电导线周围存在磁场。"
+    },
+    {
+      "id": "mag-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "电动机的正常工作利用的原理是（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "电磁感应"
+        },
+        {
+          "key": "B",
+          "label": "通电导体在磁场中受力运动"
+        },
+        {
+          "key": "C",
+          "label": "摩擦起电"
+        },
+        {
+          "key": "D",
+          "label": "同种电荷相互排斥"
+        }
+      ],
+      "answer": "B",
+      "explanation": "电动机利用通电导体在磁场中受力转动，把电能转化为机械能；电磁感应是发电机的原理。"
+    },
+    {
+      "id": "mag-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "多选题",
+      "type": "multi-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 80,
+      "stem": "关于电与磁，下列说法正确的有（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "电磁铁磁性的强弱可以通过改变电流大小来控制"
+        },
+        {
+          "key": "B",
+          "label": "电磁继电器是利用电磁铁工作的"
+        },
+        {
+          "key": "C",
+          "label": "发电机把电能转化为机械能"
+        },
+        {
+          "key": "D",
+          "label": "磁感线是真实存在的曲线"
+        }
+      ],
+      "answer": "AB",
+      "explanation": "发电机利用电磁感应，把机械能转化为电能，C 错；磁感线是为了描述磁场而假想的曲线，并不真实存在，D 错；A、B 正确。"
+    },
+    {
+      "id": "mag-004",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 35,
+      "stem": "把条形磁铁的 N 极靠近另一条条形磁铁的 N 极，它们会（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "相互吸引"
+        },
+        {
+          "key": "B",
+          "label": "相互排斥"
+        },
+        {
+          "key": "C",
+          "label": "没有作用"
+        },
+        {
+          "key": "D",
+          "label": "先吸引后排斥"
+        }
+      ],
+      "answer": "B",
+      "explanation": "同名磁极相互排斥，异名磁极相互吸引。"
+    },
+    {
+      "id": "mag-005",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "用磁体去靠近下列金属，不能被吸引的是（　）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "铁"
+        },
+        {
+          "key": "B",
+          "label": "钴"
+        },
+        {
+          "key": "C",
+          "label": "镍"
+        },
+        {
+          "key": "D",
+          "label": "铜"
+        }
+      ],
+      "answer": "D",
+      "explanation": "磁体能够吸引铁、钴、镍等磁性材料，铜不能被磁体吸引。"
+    },
+    {
+      "id": "exp-ohm-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "实验题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 90,
+      "stem": "在“伏安法测电阻”实验中，电路如下图。实验中滑动变阻器的主要作用是（　）",
+      "diagram": " ┌───⊕───┐\n │       │\n ├──/────┤\n │       │\n ├──[R]──┤\n │   │   │\n │  Ⓥ    │\n │       │\n ├──Ⓐ────┤\n │       │\n └───────┘",
+      "source": "中考实验探究",
+      "options": [
+        {
+          "key": "A",
+          "label": "保护电路，并能改变电阻 R 两端的电压"
+        },
+        {
+          "key": "B",
+          "label": "只起保护电路的作用"
+        },
+        {
+          "key": "C",
+          "label": "改变电源电压"
+        },
+        {
+          "key": "D",
+          "label": "没有实际作用"
+        }
+      ],
+      "answer": "A",
+      "explanation": "滑动变阻器既能保护电路（闭合开关前调到阻值最大），又能改变 R 两端电压实现多次测量。",
+      "optimalSolution": "伏安法实验中滑动变阻器两大作用：保护电路 + 改变电压多测几组。",
+      "commonMistake": "忽略“改变电压”这一作用。"
+    },
+    {
+      "id": "exp-ohm-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-ohm-law"
+      ],
+      "displayType": "实验题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 90,
+      "stem": "伏安法测电阻实验中，电压表示数为 $2.4\\ \\text{V}$，电流表示数为 $0.3\\ \\text{A}$，则被测电阻为 ______ $\\Omega$。",
+      "source": "实验与计算专项",
+      "answer": 8,
+      "explanation": "【解答过程】$R=\\dfrac{U}{I}=\\dfrac{2.4}{0.3}=8\\ \\Omega$。"
+    },
+    {
+      "id": "exp-den-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "实验题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 70,
+      "stem": "用排水法测石块体积：量筒中水的体积为 $30\\ \\text{mL}$，放入石块后总体积为 $50\\ \\text{mL}$，石块的体积是 ______ $\\text{cm}^3$。",
+      "source": "实验与计算专项",
+      "answer": 20,
+      "explanation": "【解答过程】$V=50-30=20\\ \\text{cm}^3$。"
+    },
+    {
+      "id": "exp-den-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-mass-density"
+      ],
+      "displayType": "实验题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 90,
+      "stem": "用天平测得石块质量为 $54\\ \\text{g}$，体积为 $20\\ \\text{cm}^3$，则石块的密度是 ______ $\\text{g/cm}^3$。",
+      "source": "实验与计算专项",
+      "answer": 2.7,
+      "explanation": "【解答过程】$\\rho=\\dfrac{m}{V}=\\dfrac{54}{20}=2.7\\ \\text{g/cm}^3$。",
+      "tolerance": 0.05
+    },
+    {
+      "id": "exp-pow-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "实验题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 70,
+      "stem": "测小灯泡电功率实验中，电压表示数为 $2.5\\ \\text{V}$，电流表示数为 $0.3\\ \\text{A}$，则灯泡的实际功率是 ______ $\\text{W}$。（保留两位小数）",
+      "source": "实验与计算专项",
+      "answer": 0.75,
+      "explanation": "【解答过程】$P=UI=2.5\\times0.3=0.75\\ \\text{W}$。",
+      "tolerance": 0.01
+    },
+    {
+      "id": "draw-001",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-sound-light"
+      ],
+      "displayType": "作图题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 120,
+      "stem": "作图题：一束光斜射向平面镜，入射光线如图所示。请在图中画出法线和反射光线，完成后对照解析自评。（按你的实际作答情况选择）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "已按要求完成作图，与解析一致"
+        },
+        {
+          "key": "B",
+          "label": "未完成或作图有误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "参考作图：过入射点画垂直于镜面的虚线作为法线；在法线另一侧画反射光线，使反射角等于入射角，并标箭头。",
+      "diagram": "        入射光线\n          ↘\n           │\n ──────────┼──────────  平面镜\n           ↓（法线）"
+    },
+    {
+      "id": "draw-002",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "作图题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 100,
+      "stem": "作图题：条形磁铁如下图。请在磁体外部磁感线上用箭头标出方向，完成后对照解析自评。（按你的实际作答情况选择）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "已按要求完成作图，与解析一致"
+        },
+        {
+          "key": "B",
+          "label": "未完成或作图有误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "参考作图：磁体外部磁感线从 N 极出发指向 S 极（图中磁感线箭头应指向左侧 S 端）。",
+      "diagram": "   ┌───────────┐\n   │  S      N  │\n   └───────────┘\n  （外部磁感线方向待标注）"
+    },
+    {
+      "id": "draw-003",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "作图题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 120,
+      "stem": "作图题：按下列要求完成电路图——在图中再并联接入一盏灯 L2，使开关 S 同时控制两盏灯。完成后对照解析自评。（按你的实际作答情况选择）",
+      "source": "电学专项",
+      "options": [
+        {
+          "key": "A",
+          "label": "已按要求完成作图，与解析一致"
+        },
+        {
+          "key": "B",
+          "label": "未完成或作图有误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "参考作图：在 L1 支路下方再画一条与 L1 相同的支路接入 L2，S 保持接在干路上（参考图见解析：干路开关 + 两灯各在一条支路）。",
+      "diagram": " ┌───⊕───┐\n │       │\n ├──/────┤\n │       │\n ├──⊗ L1─┤\n │       │\n └───────┘\n（再并联接入一盏灯 L2，使开关 S 同时控制两灯）"
+    },
+    {
+      "id": "ckt-007",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "在串联电路中再串联接入一盏灯，原来那盏灯的亮度将（　）",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "变亮"
+        },
+        {
+          "key": "B",
+          "label": "变暗"
+        },
+        {
+          "key": "C",
+          "label": "不变"
+        },
+        {
+          "key": "D",
+          "label": "烧毁"
+        }
+      ],
+      "answer": "B",
+      "explanation": "再串联一盏灯，电路总电阻增大，电流减小，原灯的实际功率减小，亮度变暗。"
+    },
+    {
+      "id": "ckt-008",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "判断下列说法是否正确：一个开关同时控制两盏灯，说明这两盏灯一定是串联的。",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "并联时若开关接在干路上，也能同时控制两盏灯，所以不能确定是串联。"
+    },
+    {
+      "id": "ckt-009",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "街道路灯傍晚同时亮起、清晨同时熄灭，但任何一盏灯坏了其余灯仍能正常亮。路灯之间是（　）",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "串联"
+        },
+        {
+          "key": "B",
+          "label": "并联"
+        },
+        {
+          "key": "C",
+          "label": "无法确定"
+        },
+        {
+          "key": "D",
+          "label": "先串联后并联"
+        }
+      ],
+      "answer": "B",
+      "explanation": "一盏坏其余仍亮说明各灯互不影响（并联）；同时亮灭是因为干路上有总开关（光控开关）。"
+    },
+    {
+      "id": "ckt-010",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": null,
+      "type": "numeric",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "两灯串联在电路中，通过灯 L1 的电流为 $0.3\\ \\text{A}$，则通过灯 L2 的电流是 ______ $\\text{A}$。",
+      "source": "电学专项 · 补题",
+      "answer": 0.3,
+      "explanation": "【解答过程】串联电路中电流处处相等，所以通过 L2 的电流也是 $0.3\\ \\text{A}$。",
+      "tolerance": 0.01
+    },
+    {
+      "id": "ckt-011",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 80,
+      "stem": "教室里一个开关可以同时控制两排日光灯的亮与灭。据此判断，两排日光灯（　）",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "一定是串联的"
+        },
+        {
+          "key": "B",
+          "label": "一定是并联且开关在支路上"
+        },
+        {
+          "key": "C",
+          "label": "可能并联且开关在干路上"
+        },
+        {
+          "key": "D",
+          "label": "一定是并联且开关在干路上"
+        }
+      ],
+      "answer": "C",
+      "explanation": "同时亮灭有两种可能：串联，或并联加干路开关。实际教室两排灯互不影响，是并联且开关在干路。"
+    },
+    {
+      "id": "ckt-012",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-circuit-basics"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 35,
+      "stem": "判断下列说法是否正确：电路发生断路时，电路中仍然有电流。",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "断路（开路）时电路某处断开，电路中没有电流。"
+    },
+    {
+      "id": "home-006",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-home-circuit"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "家庭电路各组成部分的正确安装顺序是（　）",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "进户线 → 电能表 → 总开关 → 保险丝 → 用电器"
+        },
+        {
+          "key": "B",
+          "label": "进户线 → 总开关 → 电能表 → 保险丝 → 用电器"
+        },
+        {
+          "key": "C",
+          "label": "进户线 → 保险丝 → 电能表 → 总开关 → 用电器"
+        },
+        {
+          "key": "D",
+          "label": "电能表 → 进户线 → 总开关 → 保险丝 → 用电器"
+        }
+      ],
+      "answer": "A",
+      "explanation": "正确顺序：进户线 → 电能表 → 总开关 → 保险丝 → 用电器（插座）。"
+    },
+    {
+      "id": "home-007",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-home-circuit"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "判断下列说法是否正确：高压线断落在地上时，应快速迈大步跑离现场。",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "跨步电压会触电，应双脚并拢跳离（或单脚跳离），千万不能大步奔跑。"
+    },
+    {
+      "id": "home-008",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-home-circuit"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 100,
+      "stem": "家庭电路电压为 $220\\ \\text{V}$，电能表允许通过的最大电流为 $10\\ \\text{A}$。若家中已用电器总功率为 $1000\\ \\text{W}$，则还能接入用电器的最大总功率是 ______ $\\text{W}$。",
+      "source": "电学专项 · 补题",
+      "answer": 1200,
+      "explanation": "【解答过程】允许的最大总功率 $P=UI=220\\times10=2200\\ \\text{W}$；还能接入 $2200-1000=1200\\ \\text{W}$。"
+    },
+    {
+      "id": "home-009",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-home-circuit"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "制作保险丝应选用（　）",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "电阻率较大、熔点较低的合金丝"
+        },
+        {
+          "key": "B",
+          "label": "电阻率较小、熔点较高的钢丝"
+        },
+        {
+          "key": "C",
+          "label": "电阻率较小、熔点较低的铜丝"
+        },
+        {
+          "key": "D",
+          "label": "超导材料"
+        }
+      ],
+      "answer": "A",
+      "explanation": "保险丝利用电流的热效应：电阻率大、熔点低，电流过大时先熔断从而保护电路。"
+    },
+    {
+      "id": "mag-006",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "判断下列说法是否正确：地磁的北极在地理的南极附近。",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "A",
+      "explanation": "地磁场两极与地理两极正好相反：地磁北极在地理南极附近。"
+    },
+    {
+      "id": "mag-007",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "下列因素中，与电磁铁磁性强弱无关的是（　）",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "电流的大小"
+        },
+        {
+          "key": "B",
+          "label": "线圈的匝数"
+        },
+        {
+          "key": "C",
+          "label": "电流的方向"
+        },
+        {
+          "key": "D",
+          "label": "有无铁芯"
+        }
+      ],
+      "answer": "C",
+      "explanation": "电流方向只影响电磁铁的磁极方向（N/S），不影响磁性强弱。"
+    },
+    {
+      "id": "mag-008",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "实验室电铃通电后铃盖被反复敲响，其核心工作部件是（　）",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "电磁铁"
+        },
+        {
+          "key": "B",
+          "label": "发光二极管"
+        },
+        {
+          "key": "C",
+          "label": "发电机"
+        },
+        {
+          "key": "D",
+          "label": "电动机"
+        }
+      ],
+      "answer": "A",
+      "explanation": "电铃通电时电磁铁吸引衔铁敲击铃盖，利用了电磁铁通电有磁性、断电无磁性的特点。"
+    },
+    {
+      "id": "mag-009",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "判断题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "判断下列说法是否正确：交流发电机线圈中产生的是直流电。",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "正确"
+        },
+        {
+          "key": "B",
+          "label": "错误"
+        }
+      ],
+      "answer": "B",
+      "explanation": "交流发电机线圈中产生的是交流电，经过换向器（或外接整流）后才可能变为直流电。"
+    },
+    {
+      "id": "mag-010",
+      "subject": "physics",
+      "knowledgePointIds": [
+        "physics-magnetism"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "关于磁感线，下列说法正确的是（　）",
+      "source": "电学专项 · 补题",
+      "options": [
+        {
+          "key": "A",
+          "label": "磁感线是真实存在的曲线"
+        },
+        {
+          "key": "B",
+          "label": "磁感线是为了描述磁场而假想的曲线"
+        },
+        {
+          "key": "C",
+          "label": "磁感线可以相交"
+        },
+        {
+          "key": "D",
+          "label": "磁感线只存在于磁体内部"
+        }
+      ],
+      "answer": "B",
+      "explanation": "磁感线是为了形象描述磁场而假想的曲线，实际并不存在，且任意两条磁感线不相交。"
     }
   ]
 }

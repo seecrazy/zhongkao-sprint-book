@@ -240,7 +240,10 @@ export function getLocalDateString(date = new Date()): string {
   return new Date(date.getTime() - offset).toISOString().slice(0, 10);
 }
 
-export function calculateLearningStreak(attempts: AttemptRecord[]): number {
+export function calculateLearningStreak(
+  attempts: AttemptRecord[],
+  now = new Date()
+): number {
   const days = new Set(
     attempts.map((attempt) =>
       getLocalDateString(new Date(attempt.attemptedAt))
@@ -248,7 +251,7 @@ export function calculateLearningStreak(attempts: AttemptRecord[]): number {
   );
 
   let streak = 0;
-  const cursor = new Date();
+  const cursor = new Date(now);
 
   if (!days.has(getLocalDateString(cursor))) {
     cursor.setDate(cursor.getDate() - 1);

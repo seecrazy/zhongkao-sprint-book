@@ -1,5 +1,5 @@
 {
-  "version": "gen-chemistry-v0.16",
+  "version": "gen-chemistry-v0.17",
   "questions": [
     {
       "subject": "chemistry",
@@ -438,7 +438,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0413",
+      "id": "gen-c-0423",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -463,7 +463,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0414",
+      "id": "gen-c-0424",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -488,7 +488,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0415",
+      "id": "gen-c-0425",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -513,7 +513,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0416",
+      "id": "gen-c-0426",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -538,7 +538,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0417",
+      "id": "gen-c-0427",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -563,7 +563,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0418",
+      "id": "gen-c-0428",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -588,7 +588,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0419",
+      "id": "gen-c-0429",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -613,7 +613,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0420",
+      "id": "gen-c-0430",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -638,7 +638,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0421",
+      "id": "gen-c-0431",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -663,7 +663,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0422",
+      "id": "gen-c-0432",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -688,7 +688,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0423",
+      "id": "gen-c-0433",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -713,7 +713,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0424",
+      "id": "gen-c-0434",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -738,7 +738,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0425",
+      "id": "gen-c-0435",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -763,7 +763,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0426",
+      "id": "gen-c-0436",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -788,7 +788,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0427",
+      "id": "gen-c-0437",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],
@@ -813,7 +813,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0431",
+      "id": "gen-c-0452",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -838,7 +838,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0432",
+      "id": "gen-c-0453",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -863,7 +863,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0433",
+      "id": "gen-c-0454",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -888,7 +888,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0434",
+      "id": "gen-c-0455",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -913,7 +913,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0435",
+      "id": "gen-c-0456",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -938,7 +938,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0436",
+      "id": "gen-c-0457",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -963,7 +963,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0437",
+      "id": "gen-c-0458",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -988,7 +988,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0438",
+      "id": "gen-c-0459",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -1013,7 +1013,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 80,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0439",
+      "id": "gen-c-0460",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -1024,11 +1024,11 @@
       "options": [
         {
           "key": "A",
-          "label": "原子在化学变化中不可再分"
+          "label": "温度越高，分子运动越慢"
         },
         {
           "key": "B",
-          "label": "温度越高，分子运动越慢"
+          "label": "原子在化学变化中不可再分"
         },
         {
           "key": "C",
@@ -1039,51 +1039,216 @@
           "label": "水是由氢元素和氧元素组成的"
         }
       ],
-      "answer": "ACD",
+      "answer": "BCD",
       "explanation": "逐项判断：错误的说法是“温度越高，分子运动越慢”，其余均正确。"
     },
     {
       "subject": "chemistry",
-      "estimatedSeconds": 50,
+      "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0440",
+      "id": "gen-c-0461",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
-      "displayType": "计算题",
-      "type": "numeric",
+      "displayType": "单选题",
+      "type": "single-choice",
       "difficulty": 2,
-      "stem": "计算题：一个 $\\text{H}_2\\text{O}$ 分子中含有 ______ 个原子。",
-      "answer": 3,
-      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
+      "stem": "下列说法中正确的是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "冰水混合物属于混合物"
+        },
+        {
+          "key": "B",
+          "label": "温度越高，分子运动越慢"
+        },
+        {
+          "key": "C",
+          "label": "分子之间没有间隔"
+        },
+        {
+          "key": "D",
+          "label": "分子在不停地运动"
+        }
+      ],
+      "answer": "D",
+      "explanation": "只有“分子在不停地运动”是正确的说法，其余说法均错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0462",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "下列说法中正确的是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "原子在化学变化中不可再分"
+        },
+        {
+          "key": "B",
+          "label": "分子之间没有间隔"
+        },
+        {
+          "key": "C",
+          "label": "温度越高，分子运动越慢"
+        },
+        {
+          "key": "D",
+          "label": "冰水混合物属于混合物"
+        }
+      ],
+      "answer": "A",
+      "explanation": "只有“原子在化学变化中不可再分”是正确的说法，其余说法均错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0463",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "下列说法中正确的是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "水是由氢元素和氧元素组成的"
+        },
+        {
+          "key": "B",
+          "label": "温度越高，分子运动越慢"
+        },
+        {
+          "key": "C",
+          "label": "分子之间没有间隔"
+        },
+        {
+          "key": "D",
+          "label": "冰水混合物属于混合物"
+        }
+      ],
+      "answer": "A",
+      "explanation": "只有“水是由氢元素和氧元素组成的”是正确的说法，其余说法均错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0464",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "下列说法中正确的是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "分子是保持物质化学性质的最小粒子（由分子构成的物质）"
+        },
+        {
+          "key": "B",
+          "label": "温度越高，分子运动越慢"
+        },
+        {
+          "key": "C",
+          "label": "分子之间没有间隔"
+        },
+        {
+          "key": "D",
+          "label": "冰水混合物属于混合物"
+        }
+      ],
+      "answer": "A",
+      "explanation": "只有“分子是保持物质化学性质的最小粒子（由分子构成的物质）”是正确的说法，其余说法均错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0465",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "下列说法中正确的是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "温度越高，分子运动越慢"
+        },
+        {
+          "key": "B",
+          "label": "在化学变化中分子可以再分"
+        },
+        {
+          "key": "C",
+          "label": "冰水混合物属于混合物"
+        },
+        {
+          "key": "D",
+          "label": "分子之间没有间隔"
+        }
+      ],
+      "answer": "B",
+      "explanation": "只有“在化学变化中分子可以再分”是正确的说法，其余说法均错误。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0441",
-      "knowledgePointIds": [
-        "chemistry-matter-structure"
-      ],
-      "displayType": "计算题",
-      "type": "numeric",
-      "difficulty": 2,
-      "stem": "计算题：一个 $\\text{CO}_2$ 分子中含有 ______ 个原子。",
-      "answer": 3,
-      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 50,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-c-0442",
+      "id": "gen-c-0466",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "一个 $\\text{O}_2$ 分子中含有 ______ 个原子。",
+      "stem": "一个 $\\text{H}_2\\text{O}$ 分子中含有 ______ 个原子。",
+      "answer": 3,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0467",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "一个 $\\text{CO}_2$ 分子中含有 ______ 个原子。",
+      "answer": 3,
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 50,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0468",
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：一个 $\\text{O}_2$ 分子中含有 ______ 个原子。",
       "answer": 2,
       "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
     },
@@ -1091,14 +1256,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0443",
+      "id": "gen-c-0469",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
-      "displayType": "填空题",
+      "displayType": "计算题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "一个 $\\text{NH}_3$ 分子中含有 ______ 个原子。",
+      "stem": "计算题：一个 $\\text{NH}_3$ 分子中含有 ______ 个原子。",
       "answer": 4,
       "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：4 个。"
     },
@@ -1106,7 +1271,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0444",
+      "id": "gen-c-0470",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -1121,14 +1286,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0445",
+      "id": "gen-c-0471",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
-      "displayType": "计算题",
+      "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "计算题：一个 $\\text{CO}$ 分子中含有 ______ 个原子。",
+      "stem": "一个 $\\text{CO}$ 分子中含有 ______ 个原子。",
       "answer": 2,
       "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
     },
@@ -1136,14 +1301,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0446",
+      "id": "gen-c-0472",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
-      "displayType": "计算题",
+      "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "计算题：一个 $\\text{CH}_4$ 分子中含有 ______ 个原子。",
+      "stem": "一个 $\\text{CH}_4$ 分子中含有 ______ 个原子。",
       "answer": 5,
       "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：5 个。"
     },
@@ -1151,14 +1316,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0447",
+      "id": "gen-c-0473",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
-      "displayType": "填空题",
+      "displayType": "计算题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "一个 $\\text{SO}_2$ 分子中含有 ______ 个原子。",
+      "stem": "计算题：一个 $\\text{SO}_2$ 分子中含有 ______ 个原子。",
       "answer": 3,
       "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
     },
@@ -1166,14 +1331,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0448",
+      "id": "gen-c-0474",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
-      "displayType": "填空题",
+      "displayType": "计算题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "一个 $\\text{HCl}$ 分子中含有 ______ 个原子。",
+      "stem": "计算题：一个 $\\text{HCl}$ 分子中含有 ______ 个原子。",
       "answer": 2,
       "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
     },
@@ -1181,7 +1346,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0449",
+      "id": "gen-c-0475",
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -1196,7 +1361,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0450",
+      "id": "gen-c-0476",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -1221,7 +1386,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0451",
+      "id": "gen-c-0477",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -1246,7 +1411,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0452",
+      "id": "gen-c-0478",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -1271,7 +1436,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0453",
+      "id": "gen-c-0479",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -1296,7 +1461,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0454",
+      "id": "gen-c-0480",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -1321,7 +1486,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0455",
+      "id": "gen-c-0481",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -1346,7 +1511,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0456",
+      "id": "gen-c-0482",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -1371,7 +1536,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 80,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0457",
+      "id": "gen-c-0483",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -1382,36 +1547,36 @@
       "options": [
         {
           "key": "A",
-          "label": "钠原子易失去一个电子形成带正电的钠离子"
-        },
-        {
-          "key": "B",
-          "label": "原子中质子数等于核外电子数"
-        },
-        {
-          "key": "C",
           "label": "原子核由质子和中子构成"
         },
         {
-          "key": "D",
+          "key": "B",
+          "label": "钠原子易失去一个电子形成带正电的钠离子"
+        },
+        {
+          "key": "C",
           "label": "原子中质子数一定等于中子数"
+        },
+        {
+          "key": "D",
+          "label": "原子中质子数等于核外电子数"
         }
       ],
-      "answer": "ABC",
+      "answer": "ABD",
       "explanation": "逐项判断：错误的说法是“原子中质子数一定等于中子数”，其余均正确。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0458",
+      "id": "gen-c-0484",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
-      "displayType": "计算题",
+      "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "计算题：某原子的质子数为 $8$，中子数为 $8$，它的相对原子质量约为 ______。",
+      "stem": "某原子的质子数为 $8$，中子数为 $8$，它的相对原子质量约为 ______。",
       "answer": 16,
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=8+8=16$。"
     },
@@ -1419,14 +1584,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0459",
+      "id": "gen-c-0485",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
-      "displayType": "计算题",
+      "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "计算题：某原子的质子数为 $11$，中子数为 $12$，它的相对原子质量约为 ______。",
+      "stem": "某原子的质子数为 $11$，中子数为 $12$，它的相对原子质量约为 ______。",
       "answer": 23,
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=11+12=23$。"
     },
@@ -1434,14 +1599,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0460",
+      "id": "gen-c-0486",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
-      "displayType": "填空题",
+      "displayType": "计算题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "某原子的质子数为 $6$，中子数为 $6$，它的相对原子质量约为 ______。",
+      "stem": "计算题：某原子的质子数为 $6$，中子数为 $6$，它的相对原子质量约为 ______。",
       "answer": 12,
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=6+6=12$。"
     },
@@ -1449,14 +1614,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0461",
+      "id": "gen-c-0487",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
-      "displayType": "填空题",
+      "displayType": "计算题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "某原子的质子数为 $13$，中子数为 $14$，它的相对原子质量约为 ______。",
+      "stem": "计算题：某原子的质子数为 $13$，中子数为 $14$，它的相对原子质量约为 ______。",
       "answer": 27,
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=13+14=27$。"
     },
@@ -1464,7 +1629,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0462",
+      "id": "gen-c-0488",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -1479,14 +1644,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0463",
+      "id": "gen-c-0489",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
-      "displayType": "计算题",
+      "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "计算题：某原子的质子数为 $19$，中子数为 $20$，它的相对原子质量约为 ______。",
+      "stem": "某原子的质子数为 $19$，中子数为 $20$，它的相对原子质量约为 ______。",
       "answer": 39,
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=19+20=39$。"
     },
@@ -1494,14 +1659,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0464",
+      "id": "gen-c-0490",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
-      "displayType": "计算题",
+      "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "计算题：某原子的质子数为 $16$，中子数为 $16$，它的相对原子质量约为 ______。",
+      "stem": "某原子的质子数为 $16$，中子数为 $16$，它的相对原子质量约为 ______。",
       "answer": 32,
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=16+16=32$。"
     },
@@ -1509,14 +1674,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0465",
+      "id": "gen-c-0491",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
-      "displayType": "填空题",
+      "displayType": "计算题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "某原子的质子数为 $2$，中子数为 $2$，它的相对原子质量约为 ______。",
+      "stem": "计算题：某原子的质子数为 $2$，中子数为 $2$，它的相对原子质量约为 ______。",
       "answer": 4,
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=2+2=4$。"
     },
@@ -1524,14 +1689,14 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0466",
+      "id": "gen-c-0492",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
-      "displayType": "填空题",
+      "displayType": "计算题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "某原子的质子数为 $12$，中子数为 $12$，它的相对原子质量约为 ______。",
+      "stem": "计算题：某原子的质子数为 $12$，中子数为 $12$，它的相对原子质量约为 ______。",
       "answer": 24,
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=12+12=24$。"
     },
@@ -1539,7 +1704,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 50,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0467",
+      "id": "gen-c-0493",
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -1554,7 +1719,106 @@
       "subject": "chemistry",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0468",
+      "id": "gen-c-0494",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 钾 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "F"
+        },
+        {
+          "key": "B",
+          "label": "Li"
+        },
+        {
+          "key": "C",
+          "label": "Si"
+        },
+        {
+          "key": "D",
+          "label": "K"
+        }
+      ],
+      "answer": "D",
+      "explanation": "钾 的元素符号是 K，原子序数为 19。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0495",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 磷 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "P"
+        },
+        {
+          "key": "B",
+          "label": "S"
+        },
+        {
+          "key": "C",
+          "label": "Al"
+        },
+        {
+          "key": "D",
+          "label": "C"
+        }
+      ],
+      "answer": "A",
+      "explanation": "磷 的元素符号是 P，原子序数为 15。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0496",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 碳 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "He"
+        },
+        {
+          "key": "B",
+          "label": "F"
+        },
+        {
+          "key": "C",
+          "label": "C"
+        },
+        {
+          "key": "D",
+          "label": "Cl"
+        }
+      ],
+      "answer": "C",
+      "explanation": "碳 的元素符号是 C，原子序数为 6。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0497",
       "knowledgePointIds": [
         "chemistry-elements"
       ],
@@ -1565,11 +1829,11 @@
       "options": [
         {
           "key": "A",
-          "label": "Na"
+          "label": "He"
         },
         {
           "key": "B",
-          "label": "K"
+          "label": "B"
         },
         {
           "key": "C",
@@ -1577,7 +1841,7 @@
         },
         {
           "key": "D",
-          "label": "Al"
+          "label": "Li"
         }
       ],
       "answer": "C",
@@ -1587,7 +1851,40 @@
       "subject": "chemistry",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0469",
+      "id": "gen-c-0498",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 氩 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "K"
+        },
+        {
+          "key": "B",
+          "label": "Na"
+        },
+        {
+          "key": "C",
+          "label": "Ar"
+        },
+        {
+          "key": "D",
+          "label": "Be"
+        }
+      ],
+      "answer": "C",
+      "explanation": "氩 的元素符号是 Ar，原子序数为 18。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0499",
       "knowledgePointIds": [
         "chemistry-elements"
       ],
@@ -1598,7 +1895,7 @@
       "options": [
         {
           "key": "A",
-          "label": "S"
+          "label": "Ne"
         },
         {
           "key": "B",
@@ -1606,7 +1903,7 @@
         },
         {
           "key": "C",
-          "label": "P"
+          "label": "Ca"
         },
         {
           "key": "D",
@@ -1620,205 +1917,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0470",
-      "knowledgePointIds": [
-        "chemistry-elements"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "stem": "元素 铍 的元素符号是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "Be"
-        },
-        {
-          "key": "B",
-          "label": "F"
-        },
-        {
-          "key": "C",
-          "label": "B"
-        },
-        {
-          "key": "D",
-          "label": "Mg"
-        }
-      ],
-      "answer": "A",
-      "explanation": "铍 的元素符号是 Be，原子序数为 4。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 40,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-c-0471",
-      "knowledgePointIds": [
-        "chemistry-elements"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "stem": "元素 铝 的元素符号是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "Si"
-        },
-        {
-          "key": "B",
-          "label": "Mg"
-        },
-        {
-          "key": "C",
-          "label": "F"
-        },
-        {
-          "key": "D",
-          "label": "Al"
-        }
-      ],
-      "answer": "D",
-      "explanation": "铝 的元素符号是 Al，原子序数为 13。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 40,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-c-0472",
-      "knowledgePointIds": [
-        "chemistry-elements"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "stem": "元素 钙 的元素符号是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "Mg"
-        },
-        {
-          "key": "B",
-          "label": "Ca"
-        },
-        {
-          "key": "C",
-          "label": "Ne"
-        },
-        {
-          "key": "D",
-          "label": "C"
-        }
-      ],
-      "answer": "B",
-      "explanation": "钙 的元素符号是 Ca，原子序数为 20。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 40,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-c-0473",
-      "knowledgePointIds": [
-        "chemistry-elements"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "stem": "元素 钾 的元素符号是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "C"
-        },
-        {
-          "key": "B",
-          "label": "O"
-        },
-        {
-          "key": "C",
-          "label": "K"
-        },
-        {
-          "key": "D",
-          "label": "Be"
-        }
-      ],
-      "answer": "C",
-      "explanation": "钾 的元素符号是 K，原子序数为 19。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 40,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-c-0474",
-      "knowledgePointIds": [
-        "chemistry-elements"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "stem": "元素 氩 的元素符号是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "N"
-        },
-        {
-          "key": "B",
-          "label": "Be"
-        },
-        {
-          "key": "C",
-          "label": "Ar"
-        },
-        {
-          "key": "D",
-          "label": "K"
-        }
-      ],
-      "answer": "C",
-      "explanation": "氩 的元素符号是 Ar，原子序数为 18。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 40,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-c-0475",
-      "knowledgePointIds": [
-        "chemistry-elements"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "stem": "元素 镁 的元素符号是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "Li"
-        },
-        {
-          "key": "B",
-          "label": "Be"
-        },
-        {
-          "key": "C",
-          "label": "Mg"
-        },
-        {
-          "key": "D",
-          "label": "Ne"
-        }
-      ],
-      "answer": "C",
-      "explanation": "镁 的元素符号是 Mg，原子序数为 12。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 40,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-c-0476",
+      "id": "gen-c-0500",
       "knowledgePointIds": [
         "chemistry-elements"
       ],
@@ -1829,29 +1928,29 @@
       "options": [
         {
           "key": "A",
-          "label": "O"
+          "label": "Ar"
         },
         {
           "key": "B",
-          "label": "F"
-        },
-        {
-          "key": "C",
           "label": "Li"
         },
         {
+          "key": "C",
+          "label": "O"
+        },
+        {
           "key": "D",
-          "label": "K"
+          "label": "He"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "锂 的元素符号是 Li，原子序数为 3。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0477",
+      "id": "gen-c-0501",
       "knowledgePointIds": [
         "chemistry-elements"
       ],
@@ -1866,15 +1965,15 @@
         },
         {
           "key": "B",
-          "label": "Ca"
+          "label": "Na"
         },
         {
           "key": "C",
-          "label": "He"
+          "label": "P"
         },
         {
           "key": "D",
-          "label": "O"
+          "label": "B"
         }
       ],
       "answer": "A",
@@ -1884,7 +1983,106 @@
       "subject": "chemistry",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0478",
+      "id": "gen-c-0502",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 氟 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "F"
+        },
+        {
+          "key": "B",
+          "label": "H"
+        },
+        {
+          "key": "C",
+          "label": "B"
+        },
+        {
+          "key": "D",
+          "label": "Na"
+        }
+      ],
+      "answer": "A",
+      "explanation": "氟 的元素符号是 F，原子序数为 9。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0503",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 钙 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "Al"
+        },
+        {
+          "key": "B",
+          "label": "Si"
+        },
+        {
+          "key": "C",
+          "label": "S"
+        },
+        {
+          "key": "D",
+          "label": "Ca"
+        }
+      ],
+      "answer": "D",
+      "explanation": "钙 的元素符号是 Ca，原子序数为 20。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0504",
+      "knowledgePointIds": [
+        "chemistry-elements"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "元素 铝 的元素符号是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "N"
+        },
+        {
+          "key": "B",
+          "label": "F"
+        },
+        {
+          "key": "C",
+          "label": "Al"
+        },
+        {
+          "key": "D",
+          "label": "He"
+        }
+      ],
+      "answer": "C",
+      "explanation": "铝 的元素符号是 Al，原子序数为 13。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 40,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0505",
       "knowledgePointIds": [
         "chemistry-elements"
       ],
@@ -1895,11 +2093,11 @@
       "options": [
         {
           "key": "A",
-          "label": "Ca"
+          "label": "O"
         },
         {
           "key": "B",
-          "label": "Ne"
+          "label": "F"
         },
         {
           "key": "C",
@@ -1907,7 +2105,7 @@
         },
         {
           "key": "D",
-          "label": "He"
+          "label": "Li"
         }
       ],
       "answer": "C",
@@ -1917,73 +2115,40 @@
       "subject": "chemistry",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0479",
+      "id": "gen-c-0506",
       "knowledgePointIds": [
         "chemistry-elements"
       ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 2,
-      "stem": "元素 磷 的元素符号是（　）",
+      "stem": "元素 氧 的元素符号是（　）",
       "options": [
         {
           "key": "A",
-          "label": "Be"
+          "label": "C"
         },
         {
           "key": "B",
-          "label": "P"
+          "label": "N"
         },
         {
           "key": "C",
-          "label": "Li"
-        },
-        {
-          "key": "D",
-          "label": "B"
-        }
-      ],
-      "answer": "B",
-      "explanation": "磷 的元素符号是 P，原子序数为 15。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 40,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-c-0480",
-      "knowledgePointIds": [
-        "chemistry-elements"
-      ],
-      "displayType": "单选题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "stem": "元素 氢 的元素符号是（　）",
-      "options": [
-        {
-          "key": "A",
-          "label": "H"
-        },
-        {
-          "key": "B",
-          "label": "O"
-        },
-        {
-          "key": "C",
-          "label": "Si"
-        },
-        {
-          "key": "D",
           "label": "Cl"
+        },
+        {
+          "key": "D",
+          "label": "O"
         }
       ],
-      "answer": "A",
-      "explanation": "氢 的元素符号是 H，原子序数为 1。"
+      "answer": "D",
+      "explanation": "氧 的元素符号是 O，原子序数为 8。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0481",
+      "id": "gen-c-0507",
       "knowledgePointIds": [
         "chemistry-elements"
       ],
@@ -1994,95 +2159,95 @@
       "options": [
         {
           "key": "A",
-          "label": "K"
-        },
-        {
-          "key": "B",
-          "label": "P"
-        },
-        {
-          "key": "C",
           "label": "He"
         },
         {
+          "key": "B",
+          "label": "B"
+        },
+        {
+          "key": "C",
+          "label": "Si"
+        },
+        {
           "key": "D",
-          "label": "S"
+          "label": "Li"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "氦 的元素符号是 He，原子序数为 2。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0482",
+      "id": "gen-c-0508",
       "knowledgePointIds": [
         "chemistry-elements"
       ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 2,
-      "stem": "元素 氖 的元素符号是（　）",
+      "stem": "元素 氮 的元素符号是（　）",
       "options": [
         {
           "key": "A",
-          "label": "B"
+          "label": "Ca"
         },
         {
           "key": "B",
-          "label": "N"
+          "label": "S"
         },
         {
           "key": "C",
-          "label": "Ne"
+          "label": "F"
         },
         {
           "key": "D",
-          "label": "Na"
+          "label": "N"
         }
       ],
-      "answer": "C",
-      "explanation": "氖 的元素符号是 Ne，原子序数为 10。"
+      "answer": "D",
+      "explanation": "氮 的元素符号是 N，原子序数为 7。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 40,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0483",
+      "id": "gen-c-0509",
       "knowledgePointIds": [
         "chemistry-elements"
       ],
       "displayType": "单选题",
       "type": "single-choice",
       "difficulty": 2,
-      "stem": "元素 碳 的元素符号是（　）",
+      "stem": "元素 氯 的元素符号是（　）",
       "options": [
         {
           "key": "A",
-          "label": "C"
+          "label": "Cl"
         },
         {
           "key": "B",
-          "label": "Na"
+          "label": "Si"
         },
         {
           "key": "C",
-          "label": "Li"
+          "label": "Ca"
         },
         {
           "key": "D",
-          "label": "Ne"
+          "label": "Al"
         }
       ],
       "answer": "A",
-      "explanation": "碳 的元素符号是 C，原子序数为 6。"
+      "explanation": "氯 的元素符号是 Cl，原子序数为 17。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0484",
+      "id": "gen-c-0510",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -2107,7 +2272,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0485",
+      "id": "gen-c-0511",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -2132,7 +2297,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0486",
+      "id": "gen-c-0512",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -2157,7 +2322,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0487",
+      "id": "gen-c-0513",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -2182,7 +2347,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0488",
+      "id": "gen-c-0514",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -2207,7 +2372,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0489",
+      "id": "gen-c-0515",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -2230,99 +2395,168 @@
     },
     {
       "subject": "chemistry",
-      "estimatedSeconds": 60,
+      "estimatedSeconds": 45,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0490",
+      "id": "gen-c-0516",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
-      "displayType": "计算题",
-      "type": "numeric",
+      "displayType": "单选题",
+      "type": "single-choice",
       "difficulty": 2,
-      "stem": "计算题：配制 $200\\ \\text{g}$ 质量分数为 $25\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
-      "answer": 50,
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=200\\times25\\%=50\\ \\text{g}$。"
+      "stem": "下列说法中正确的是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "电解水时负极产生氧气"
+        },
+        {
+          "key": "B",
+          "label": "饱和溶液一定是浓溶液"
+        },
+        {
+          "key": "C",
+          "label": "溶液都是无色的"
+        },
+        {
+          "key": "D",
+          "label": "溶液质量等于溶质质量与溶剂质量之和"
+        }
+      ],
+      "answer": "D",
+      "explanation": "只有“溶液质量等于溶质质量与溶剂质量之和”是正确的说法，其余说法均错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0517",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "下列说法中正确的是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "饱和溶液一定是浓溶液"
+        },
+        {
+          "key": "B",
+          "label": "电解水时正极产生氧气"
+        },
+        {
+          "key": "C",
+          "label": "电解水时负极产生氧气"
+        },
+        {
+          "key": "D",
+          "label": "溶液都是无色的"
+        }
+      ],
+      "answer": "B",
+      "explanation": "只有“电解水时正极产生氧气”是正确的说法，其余说法均错误。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 45,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0518",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "stem": "下列说法中正确的是（　）",
+      "options": [
+        {
+          "key": "A",
+          "label": "溶液都是无色的"
+        },
+        {
+          "key": "B",
+          "label": "电解水时负极产生氧气"
+        },
+        {
+          "key": "C",
+          "label": "饱和溶液一定是浓溶液"
+        },
+        {
+          "key": "D",
+          "label": "洗涤剂去油污是乳化作用"
+        }
+      ],
+      "answer": "D",
+      "explanation": "只有“洗涤剂去油污是乳化作用”是正确的说法，其余说法均错误。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 60,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0491",
-      "knowledgePointIds": [
-        "chemistry-water-solution"
-      ],
-      "displayType": "计算题",
-      "type": "numeric",
-      "difficulty": 2,
-      "stem": "计算题：配制 $50\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
-      "answer": 2.5,
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=50\\times5\\%=2.5\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 60,
-      "source": "题库生成 · 变式训练",
-      "id": "gen-c-0492",
+      "id": "gen-c-0519",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "配制 $40\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
-      "answer": 2,
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=40\\times5\\%=2\\ \\text{g}$。"
+      "stem": "配制 $50\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 5,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=50\\times10\\%=5\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 60,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0493",
+      "id": "gen-c-0520",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "配制 $80\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
-      "answer": 16,
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times20\\%=16\\ \\text{g}$。"
+      "stem": "配制 $40\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 4,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=40\\times10\\%=4\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 60,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0494",
+      "id": "gen-c-0521",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
       "displayType": "计算题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "计算题：配制 $100\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
-      "answer": 20,
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times20\\%=20\\ \\text{g}$。"
+      "stem": "计算题：配制 $60\\ \\text{g}$ 质量分数为 $25\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 15,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=60\\times25\\%=15\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 60,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0495",
+      "id": "gen-c-0522",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
       "displayType": "计算题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "计算题：配制 $100\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "stem": "计算题：配制 $200\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
       "answer": 20,
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times20\\%=20\\ \\text{g}$。"
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=200\\times10\\%=20\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 60,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0496",
+      "id": "gen-c-0523",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -2337,52 +2571,82 @@
       "subject": "chemistry",
       "estimatedSeconds": 60,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0497",
+      "id": "gen-c-0524",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "配制 $80\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
-      "answer": 8,
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times10\\%=8\\ \\text{g}$。"
+      "stem": "配制 $200\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 20,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=200\\times10\\%=20\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 60,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0498",
+      "id": "gen-c-0525",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
       "displayType": "填空题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "配制 $60\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
-      "answer": 6,
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=60\\times10\\%=6\\ \\text{g}$。"
+      "stem": "配制 $150\\ \\text{g}$ 质量分数为 $25\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 37.5,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=150\\times25\\%=37.5\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 60,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0499",
+      "id": "gen-c-0526",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
       "displayType": "计算题",
       "type": "numeric",
       "difficulty": 2,
-      "stem": "计算题：配制 $50\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
-      "answer": 2.5,
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=50\\times5\\%=2.5\\ \\text{g}$。"
+      "stem": "计算题：配制 $100\\ \\text{g}$ 质量分数为 $25\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 25,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times25\\%=25\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0527",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：配制 $100\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 5,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times5\\%=5\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 60,
+      "source": "题库生成 · 变式训练",
+      "id": "gen-c-0528",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "计算题",
+      "type": "numeric",
+      "difficulty": 2,
+      "stem": "计算题：配制 $100\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 ______ $\\text{g}$。",
+      "answer": 20,
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times20\\%=20\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0500",
+      "id": "gen-c-0529",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2407,7 +2671,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0501",
+      "id": "gen-c-0530",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2432,7 +2696,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0502",
+      "id": "gen-c-0531",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2457,7 +2721,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0503",
+      "id": "gen-c-0532",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2482,7 +2746,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0504",
+      "id": "gen-c-0533",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2508,7 +2772,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0505",
+      "id": "gen-c-0534",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2525,7 +2789,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0506",
+      "id": "gen-c-0535",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2542,7 +2806,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0507",
+      "id": "gen-c-0536",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2559,7 +2823,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0508",
+      "id": "gen-c-0537",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2576,7 +2840,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0509",
+      "id": "gen-c-0538",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2593,7 +2857,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0510",
+      "id": "gen-c-0539",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2610,7 +2874,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0511",
+      "id": "gen-c-0540",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2627,7 +2891,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0512",
+      "id": "gen-c-0541",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2644,7 +2908,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0513",
+      "id": "gen-c-0542",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2661,7 +2925,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0514",
+      "id": "gen-c-0543",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2678,7 +2942,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0515",
+      "id": "gen-c-0544",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2695,7 +2959,7 @@
       "estimatedSeconds": 110,
       "source": "题库生成 · 变式训练",
       "commonMistake": "忘记化学计量数导致比例错误。",
-      "id": "gen-c-0516",
+      "id": "gen-c-0545",
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -2711,7 +2975,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0517",
+      "id": "gen-c-0546",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2736,7 +3000,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0518",
+      "id": "gen-c-0547",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2761,7 +3025,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0519",
+      "id": "gen-c-0548",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2786,7 +3050,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0520",
+      "id": "gen-c-0549",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2811,7 +3075,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0521",
+      "id": "gen-c-0550",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2836,7 +3100,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0522",
+      "id": "gen-c-0551",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2861,7 +3125,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0523",
+      "id": "gen-c-0552",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2886,7 +3150,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0524",
+      "id": "gen-c-0553",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2911,7 +3175,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0525",
+      "id": "gen-c-0554",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2936,7 +3200,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0526",
+      "id": "gen-c-0555",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2961,7 +3225,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0527",
+      "id": "gen-c-0556",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -2986,7 +3250,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0528",
+      "id": "gen-c-0557",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -3011,7 +3275,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0529",
+      "id": "gen-c-0558",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -3036,7 +3300,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0530",
+      "id": "gen-c-0559",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -3061,7 +3325,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0531",
+      "id": "gen-c-0560",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -3086,7 +3350,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0532",
+      "id": "gen-c-0561",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -3111,7 +3375,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 80,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0533",
+      "id": "gen-c-0562",
       "knowledgePointIds": [
         "chemistry-carbon-family"
       ],
@@ -3122,7 +3386,7 @@
       "options": [
         {
           "key": "A",
-          "label": "干冰是固态二氧化碳，升华吸热"
+          "label": "石墨具有良好的导电性"
         },
         {
           "key": "B",
@@ -3130,7 +3394,7 @@
         },
         {
           "key": "C",
-          "label": "石墨具有良好的导电性"
+          "label": "干冰是固态二氧化碳，升华吸热"
         },
         {
           "key": "D",
@@ -3144,7 +3408,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0534",
+      "id": "gen-c-0575",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3169,7 +3433,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0535",
+      "id": "gen-c-0576",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3194,7 +3458,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0536",
+      "id": "gen-c-0577",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3219,7 +3483,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0537",
+      "id": "gen-c-0578",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3244,7 +3508,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0538",
+      "id": "gen-c-0579",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3269,7 +3533,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0539",
+      "id": "gen-c-0580",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3294,7 +3558,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0540",
+      "id": "gen-c-0581",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3319,7 +3583,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0541",
+      "id": "gen-c-0582",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3344,7 +3608,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0542",
+      "id": "gen-c-0583",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3369,7 +3633,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0543",
+      "id": "gen-c-0584",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3394,7 +3658,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0544",
+      "id": "gen-c-0585",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3419,7 +3683,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0545",
+      "id": "gen-c-0586",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3444,7 +3708,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0546",
+      "id": "gen-c-0587",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3469,7 +3733,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0547",
+      "id": "gen-c-0588",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3494,7 +3758,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0548",
+      "id": "gen-c-0589",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3519,7 +3783,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0549",
+      "id": "gen-c-0590",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3544,7 +3808,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 80,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0550",
+      "id": "gen-c-0591",
       "knowledgePointIds": [
         "chemistry-metal-iron"
       ],
@@ -3559,25 +3823,25 @@
         },
         {
           "key": "B",
-          "label": "铁生锈是铁与氧气、水共同作用的结果"
-        },
-        {
-          "key": "C",
           "label": "在铁栏杆表面刷漆可以防止生锈"
         },
         {
-          "key": "D",
+          "key": "C",
           "label": "铁生锈只需要氧气"
+        },
+        {
+          "key": "D",
+          "label": "铁生锈是铁与氧气、水共同作用的结果"
         }
       ],
-      "answer": "ABC",
+      "answer": "ABD",
       "explanation": "逐项判断：错误的说法是“铁生锈只需要氧气”，其余均正确。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0551",
+      "id": "gen-c-0592",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3602,7 +3866,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0552",
+      "id": "gen-c-0593",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3627,7 +3891,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0553",
+      "id": "gen-c-0594",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3652,7 +3916,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0554",
+      "id": "gen-c-0595",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3677,7 +3941,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0555",
+      "id": "gen-c-0596",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3702,7 +3966,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0556",
+      "id": "gen-c-0597",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3727,7 +3991,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0557",
+      "id": "gen-c-0598",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3752,7 +4016,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0558",
+      "id": "gen-c-0599",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3777,7 +4041,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0559",
+      "id": "gen-c-0600",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3802,7 +4066,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0560",
+      "id": "gen-c-0601",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3827,7 +4091,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0561",
+      "id": "gen-c-0602",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3852,7 +4116,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0562",
+      "id": "gen-c-0603",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3877,7 +4141,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0563",
+      "id": "gen-c-0604",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3902,7 +4166,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0564",
+      "id": "gen-c-0605",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3927,7 +4191,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0565",
+      "id": "gen-c-0606",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3952,7 +4216,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 80,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0566",
+      "id": "gen-c-0607",
       "knowledgePointIds": [
         "chemistry-acid-base-salt"
       ],
@@ -3963,29 +4227,29 @@
       "options": [
         {
           "key": "A",
-          "label": "pH 小于 7 的溶液呈酸性"
-        },
-        {
-          "key": "B",
-          "label": "紫色石蕊溶液遇酸变红"
-        },
-        {
-          "key": "C",
           "label": "无色酚酞溶液遇酸变红"
         },
         {
-          "key": "D",
+          "key": "B",
           "label": "无色酚酞溶液遇碱变红"
+        },
+        {
+          "key": "C",
+          "label": "紫色石蕊溶液遇酸变红"
+        },
+        {
+          "key": "D",
+          "label": "pH 小于 7 的溶液呈酸性"
         }
       ],
-      "answer": "ABD",
+      "answer": "BCD",
       "explanation": "逐项判断：错误的说法是“无色酚酞溶液遇酸变红”，其余均正确。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0567",
+      "id": "gen-c-0620",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4010,7 +4274,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0568",
+      "id": "gen-c-0621",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4035,7 +4299,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0569",
+      "id": "gen-c-0622",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4060,7 +4324,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0570",
+      "id": "gen-c-0623",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4085,7 +4349,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0571",
+      "id": "gen-c-0624",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4110,7 +4374,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0572",
+      "id": "gen-c-0625",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4135,7 +4399,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0573",
+      "id": "gen-c-0626",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4160,7 +4424,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0574",
+      "id": "gen-c-0627",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4185,7 +4449,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0575",
+      "id": "gen-c-0628",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4210,7 +4474,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0576",
+      "id": "gen-c-0629",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4235,7 +4499,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0577",
+      "id": "gen-c-0630",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4260,7 +4524,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0578",
+      "id": "gen-c-0631",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4285,7 +4549,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0579",
+      "id": "gen-c-0632",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4310,7 +4574,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0580",
+      "id": "gen-c-0633",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4335,7 +4599,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0581",
+      "id": "gen-c-0634",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4360,7 +4624,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0582",
+      "id": "gen-c-0635",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4385,7 +4649,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0583",
+      "id": "gen-c-0636",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -4410,7 +4674,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0588",
+      "id": "gen-c-0654",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4435,7 +4699,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0589",
+      "id": "gen-c-0655",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4460,7 +4724,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0590",
+      "id": "gen-c-0656",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4485,7 +4749,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0591",
+      "id": "gen-c-0657",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4510,7 +4774,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0592",
+      "id": "gen-c-0658",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4535,7 +4799,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0593",
+      "id": "gen-c-0659",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4560,7 +4824,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0594",
+      "id": "gen-c-0660",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4585,7 +4849,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0595",
+      "id": "gen-c-0661",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4610,7 +4874,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0596",
+      "id": "gen-c-0662",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4635,7 +4899,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0597",
+      "id": "gen-c-0663",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4660,7 +4924,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0598",
+      "id": "gen-c-0664",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4685,7 +4949,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0599",
+      "id": "gen-c-0665",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4710,7 +4974,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0600",
+      "id": "gen-c-0666",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4735,7 +4999,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0601",
+      "id": "gen-c-0667",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4760,7 +5024,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 35,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0602",
+      "id": "gen-c-0668",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4785,7 +5049,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 80,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0603",
+      "id": "gen-c-0669",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4800,15 +5064,15 @@
         },
         {
           "key": "B",
-          "label": "煤气泄漏时应先开窗通风"
+          "label": "油锅着火可以盖上锅盖灭火"
         },
         {
           "key": "C",
-          "label": "燃烧需要可燃物、氧气和温度达到着火点"
+          "label": "煤气泄漏时应先开窗通风"
         },
         {
           "key": "D",
-          "label": "油锅着火可以盖上锅盖灭火"
+          "label": "燃烧需要可燃物、氧气和温度达到着火点"
         }
       ],
       "answer": "BCD",
@@ -4818,7 +5082,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 80,
       "source": "题库生成 · 变式训练",
-      "id": "gen-c-0604",
+      "id": "gen-c-0670",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -4829,27 +5093,233 @@
       "options": [
         {
           "key": "A",
-          "label": "温度低于着火点，可燃物不能燃烧"
-        },
-        {
-          "key": "B",
-          "label": "天然气的主要成分是甲烷"
-        },
-        {
-          "key": "C",
           "label": "煤、石油、天然气是可再生能源"
         },
         {
-          "key": "D",
+          "key": "B",
+          "label": "温度低于着火点，可燃物不能燃烧"
+        },
+        {
+          "key": "C",
           "label": "燃烧一定伴有发光、放热现象"
+        },
+        {
+          "key": "D",
+          "label": "天然气的主要成分是甲烷"
         }
       ],
-      "answer": "ABD",
+      "answer": "BCD",
       "explanation": "逐项判断：错误的说法是“煤、石油、天然气是可再生能源”，其余均正确。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0440c",
+      "id": "chem-matter-002c",
+      "_generated": true,
+      "knowledgePointIds": [
+        "chemistry-matter-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "一个水分子（$\\text{H}_2\\text{O}$）中含有 （　） 个原子。",
+      "source": "分子构成",
+      "options": [
+        {
+          "key": "A",
+          "label": "13"
+        },
+        {
+          "key": "B",
+          "label": "6"
+        },
+        {
+          "key": "C",
+          "label": "3"
+        },
+        {
+          "key": "D",
+          "label": "8"
+        }
+      ],
+      "answer": "C",
+      "explanation": "一个水分子由 $2$ 个氢原子和 $1$ 个氧原子构成，共 $3$ 个原子。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "chem-water-002c",
+      "_generated": true,
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 36,
+      "stem": "配制 $50\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "source": "溶液配制计算",
+      "options": [
+        {
+          "key": "A",
+          "label": "5"
+        },
+        {
+          "key": "B",
+          "label": "0"
+        },
+        {
+          "key": "C",
+          "label": "10"
+        },
+        {
+          "key": "D",
+          "label": "3"
+        }
+      ],
+      "answer": "A",
+      "explanation": "氯化钠质量 $=50\\times10\\%=5\\ \\text{g}$，水 $=50-5=45\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "chem-water-004c",
+      "_generated": true,
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 4,
+      "estimatedSeconds": 72,
+      "stem": "把 $50\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液稀释成质量分数为 $10\\%$ 的溶液，需要加水 （　） $\\text{g}$。",
+      "source": "中考压轴模型：溶液稀释",
+      "options": [
+        {
+          "key": "A",
+          "label": "40"
+        },
+        {
+          "key": "B",
+          "label": "50"
+        },
+        {
+          "key": "C",
+          "label": "25"
+        },
+        {
+          "key": "D",
+          "label": "62"
+        }
+      ],
+      "answer": "B",
+      "explanation": "稀释前后溶质质量不变：$50\\times20\\%=10\\ \\text{g}$。稀释后溶液质量 $=10\\div10\\%=100\\ \\text{g}$，需加水 $100-50=50\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "chem-equation-004c",
+      "_generated": true,
+      "knowledgePointIds": [
+        "chemistry-chemical-equations",
+        "chemistry-water-solution"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 4,
+      "estimatedSeconds": 72,
+      "stem": "通电分解 $18\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），生成氢气的质量是 （　） $\\text{g}$。",
+      "source": "中考压轴模型：方程式计算",
+      "options": [
+        {
+          "key": "A",
+          "label": "7"
+        },
+        {
+          "key": "B",
+          "label": "2"
+        },
+        {
+          "key": "C",
+          "label": "12"
+        },
+        {
+          "key": "D",
+          "label": "0"
+        }
+      ],
+      "answer": "B",
+      "explanation": "$18\\ \\text{g}$ 水对应相对质量份数 $36$（$2\\times18$），即 $0.5$ 份。氢气对应份数 $4$（$2\\times2$），质量 $=4\\times0.5=2\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "chem-carbon-002c",
+      "_generated": true,
+      "knowledgePointIds": [
+        "chemistry-carbon-family"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "二氧化碳（$\\text{CO}_2$）的相对分子质量是 （　）。",
+      "source": "化学式计算",
+      "options": [
+        {
+          "key": "A",
+          "label": "44"
+        },
+        {
+          "key": "B",
+          "label": "59"
+        },
+        {
+          "key": "C",
+          "label": "38"
+        },
+        {
+          "key": "D",
+          "label": "74"
+        }
+      ],
+      "answer": "A",
+      "explanation": "碳的相对原子质量为 $12$，氧为 $16$，$12+16\\times2=44$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "chem-atom-002c",
+      "_generated": true,
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "某氧原子的质子数为 $8$，中子数为 $8$，则该原子的相对原子质量约为 （　）。",
+      "source": "相对原子质量计算",
+      "options": [
+        {
+          "key": "A",
+          "label": "16"
+        },
+        {
+          "key": "B",
+          "label": "21"
+        },
+        {
+          "key": "C",
+          "label": "15"
+        },
+        {
+          "key": "D",
+          "label": "14"
+        }
+      ],
+      "answer": "A",
+      "explanation": "相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=8+8=16$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0466c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -4862,27 +5332,28 @@
       "options": [
         {
           "key": "A",
-          "label": "13"
-        },
-        {
-          "key": "B",
           "label": "3"
         },
         {
+          "key": "B",
+          "label": "8"
+        },
+        {
           "key": "C",
-          "label": "4"
+          "label": "1"
         },
         {
           "key": "D",
-          "label": "0"
+          "label": "6"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0441c",
+      "id": "gen-c-0467c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -4895,27 +5366,28 @@
       "options": [
         {
           "key": "A",
-          "label": "5"
+          "label": "13"
         },
         {
           "key": "B",
-          "label": "3"
+          "label": "1"
         },
         {
           "key": "C",
-          "label": "8"
+          "label": "3"
         },
         {
           "key": "D",
-          "label": "2"
+          "label": "8"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0442c",
+      "id": "gen-c-0471c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -4923,86 +5395,20 @@
       "type": "single-choice",
       "difficulty": 2,
       "estimatedSeconds": 35,
-      "stem": "一个 $\\text{O}_2$ 分子中含有 （　） 个原子。",
+      "stem": "一个 $\\text{CO}$ 分子中含有 （　） 个原子。",
       "source": "题库生成 · 变式训练",
       "options": [
         {
           "key": "A",
-          "label": "3"
-        },
-        {
-          "key": "B",
-          "label": "2"
-        },
-        {
-          "key": "C",
           "label": "1"
         },
         {
-          "key": "D",
-          "label": "5"
-        }
-      ],
-      "answer": "B",
-      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
-    },
-    {
-      "subject": "chemistry",
-      "id": "gen-c-0443c",
-      "knowledgePointIds": [
-        "chemistry-matter-structure"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "estimatedSeconds": 35,
-      "stem": "一个 $\\text{NH}_3$ 分子中含有 （　） 个原子。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
-          "label": "2"
-        },
-        {
           "key": "B",
-          "label": "7"
-        },
-        {
-          "key": "C",
-          "label": "9"
-        },
-        {
-          "key": "D",
-          "label": "4"
-        }
-      ],
-      "answer": "D",
-      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：4 个。"
-    },
-    {
-      "subject": "chemistry",
-      "id": "gen-c-0444c",
-      "knowledgePointIds": [
-        "chemistry-matter-structure"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "estimatedSeconds": 35,
-      "stem": "一个 $\\text{H}_2$ 分子中含有 （　） 个原子。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
           "label": "0"
         },
         {
-          "key": "B",
-          "label": "7"
-        },
-        {
           "key": "C",
-          "label": "1"
+          "label": "3"
         },
         {
           "key": "D",
@@ -5014,7 +5420,8 @@
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0447c",
+      "id": "gen-c-0472c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -5022,16 +5429,16 @@
       "type": "single-choice",
       "difficulty": 2,
       "estimatedSeconds": 35,
-      "stem": "一个 $\\text{SO}_2$ 分子中含有 （　） 个原子。",
+      "stem": "一个 $\\text{CH}_4$ 分子中含有 （　） 个原子。",
       "source": "题库生成 · 变式训练",
       "options": [
         {
           "key": "A",
-          "label": "2"
+          "label": "15"
         },
         {
           "key": "B",
-          "label": "1"
+          "label": "10"
         },
         {
           "key": "C",
@@ -5042,45 +5449,13 @@
           "label": "3"
         }
       ],
-      "answer": "D",
-      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：3 个。"
+      "answer": "C",
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：5 个。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0448c",
-      "knowledgePointIds": [
-        "chemistry-matter-structure"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "estimatedSeconds": 35,
-      "stem": "一个 $\\text{HCl}$ 分子中含有 （　） 个原子。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
-          "label": "5"
-        },
-        {
-          "key": "B",
-          "label": "1"
-        },
-        {
-          "key": "C",
-          "label": "12"
-        },
-        {
-          "key": "D",
-          "label": "2"
-        }
-      ],
-      "answer": "D",
-      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：2 个。"
-    },
-    {
-      "subject": "chemistry",
-      "id": "gen-c-0449c",
+      "id": "gen-c-0475c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-matter-structure"
       ],
@@ -5093,93 +5468,28 @@
       "options": [
         {
           "key": "A",
-          "label": "8"
-        },
-        {
-          "key": "B",
-          "label": "5"
-        },
-        {
-          "key": "C",
-          "label": "7"
-        },
-        {
-          "key": "D",
-          "label": "9"
-        }
-      ],
-      "answer": "C",
-      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：7 个。"
-    },
-    {
-      "subject": "chemistry",
-      "id": "gen-c-0458c",
-      "knowledgePointIds": [
-        "chemistry-atomic-structure"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "estimatedSeconds": 35,
-      "stem": "某原子的质子数为 $8$，中子数为 $8$，它的相对原子质量约为 （　）。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
-          "label": "16"
-        },
-        {
-          "key": "B",
-          "label": "21"
-        },
-        {
-          "key": "C",
-          "label": "15"
-        },
-        {
-          "key": "D",
-          "label": "26"
-        }
-      ],
-      "answer": "A",
-      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=8+8=16$。"
-    },
-    {
-      "subject": "chemistry",
-      "id": "gen-c-0460c",
-      "knowledgePointIds": [
-        "chemistry-atomic-structure"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "estimatedSeconds": 35,
-      "stem": "某原子的质子数为 $6$，中子数为 $6$，它的相对原子质量约为 （　）。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
           "label": "12"
         },
         {
           "key": "B",
-          "label": "17"
+          "label": "7"
         },
         {
           "key": "C",
-          "label": "15"
+          "label": "2"
         },
         {
           "key": "D",
-          "label": "14"
+          "label": "6"
         }
       ],
-      "answer": "A",
-      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=6+6=12$。"
+      "answer": "B",
+      "explanation": "【解答过程】化学式中各元素符号右下角数字之和（无下标按 1）即为该分子中的原子个数：7 个。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0461c",
+      "id": "gen-c-0487c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -5192,27 +5502,62 @@
       "options": [
         {
           "key": "A",
-          "label": "22"
+          "label": "27"
         },
         {
           "key": "B",
-          "label": "7"
+          "label": "32"
         },
         {
           "key": "C",
-          "label": "39"
+          "label": "18"
         },
         {
           "key": "D",
-          "label": "27"
+          "label": "47"
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=13+14=27$。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0463c",
+      "id": "gen-c-0488c",
+      "_generated": true,
+      "knowledgePointIds": [
+        "chemistry-atomic-structure"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 35,
+      "stem": "某原子的质子数为 $17$，中子数为 $18$，它的相对原子质量约为 （　）。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "10"
+        },
+        {
+          "key": "B",
+          "label": "30"
+        },
+        {
+          "key": "C",
+          "label": "35"
+        },
+        {
+          "key": "D",
+          "label": "25"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=17+18=35$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0489c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -5225,27 +5570,28 @@
       "options": [
         {
           "key": "A",
-          "label": "43"
+          "label": "30"
         },
         {
           "key": "B",
-          "label": "37"
-        },
-        {
-          "key": "C",
           "label": "39"
         },
         {
+          "key": "C",
+          "label": "59"
+        },
+        {
           "key": "D",
-          "label": "49"
+          "label": "33"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=19+20=39$。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0465c",
+      "id": "gen-c-0491c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-atomic-structure"
       ],
@@ -5258,60 +5604,28 @@
       "options": [
         {
           "key": "A",
-          "label": "6"
+          "label": "5"
         },
         {
           "key": "B",
-          "label": "14"
+          "label": "4"
         },
         {
           "key": "C",
-          "label": "1"
+          "label": "2"
         },
         {
           "key": "D",
-          "label": "4"
+          "label": "6"
         }
       ],
-      "answer": "D",
+      "answer": "B",
       "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=2+2=4$。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0466c",
-      "knowledgePointIds": [
-        "chemistry-atomic-structure"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "estimatedSeconds": 35,
-      "stem": "某原子的质子数为 $12$，中子数为 $12$，它的相对原子质量约为 （　）。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
-          "label": "84"
-        },
-        {
-          "key": "B",
-          "label": "20"
-        },
-        {
-          "key": "C",
-          "label": "27"
-        },
-        {
-          "key": "D",
-          "label": "24"
-        }
-      ],
-      "answer": "D",
-      "explanation": "【解答过程】相对原子质量 $\\approx$ 质子数 $+$ 中子数 $=12+12=24$。"
-    },
-    {
-      "subject": "chemistry",
-      "id": "gen-c-0492c",
+      "id": "gen-c-0521c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -5319,115 +5633,16 @@
       "type": "single-choice",
       "difficulty": 2,
       "estimatedSeconds": 36,
-      "stem": "配制 $40\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "stem": "配制 $60\\ \\text{g}$ 质量分数为 $25\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
       "source": "题库生成 · 变式训练",
       "options": [
         {
           "key": "A",
-          "label": "1"
+          "label": "10"
         },
         {
           "key": "B",
-          "label": "2"
-        },
-        {
-          "key": "C",
-          "label": "0"
-        },
-        {
-          "key": "D",
-          "label": "3"
-        }
-      ],
-      "answer": "B",
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=40\\times5\\%=2\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
-      "id": "gen-c-0493c",
-      "knowledgePointIds": [
-        "chemistry-water-solution"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "estimatedSeconds": 36,
-      "stem": "配制 $80\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
-          "label": "11"
-        },
-        {
-          "key": "B",
-          "label": "16"
-        },
-        {
-          "key": "C",
-          "label": "14"
-        },
-        {
-          "key": "D",
-          "label": "18"
-        }
-      ],
-      "answer": "B",
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times20\\%=16\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
-      "id": "gen-c-0494c",
-      "knowledgePointIds": [
-        "chemistry-water-solution"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "estimatedSeconds": 36,
-      "stem": "配制 $100\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
           "label": "15"
-        },
-        {
-          "key": "B",
-          "label": "25"
-        },
-        {
-          "key": "C",
-          "label": "21"
-        },
-        {
-          "key": "D",
-          "label": "20"
-        }
-      ],
-      "answer": "D",
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times20\\%=20\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
-      "id": "gen-c-0495c",
-      "knowledgePointIds": [
-        "chemistry-water-solution"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 2,
-      "estimatedSeconds": 36,
-      "stem": "配制 $100\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
-          "label": "20"
-        },
-        {
-          "key": "B",
-          "label": "19"
         },
         {
           "key": "C",
@@ -5435,15 +5650,16 @@
         },
         {
           "key": "D",
-          "label": "15"
+          "label": "20"
         }
       ],
-      "answer": "A",
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times20\\%=20\\ \\text{g}$。"
+      "answer": "B",
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=60\\times25\\%=15\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0496c",
+      "id": "gen-c-0523c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -5456,27 +5672,28 @@
       "options": [
         {
           "key": "A",
-          "label": "19"
+          "label": "30"
         },
         {
           "key": "B",
-          "label": "15"
-        },
-        {
-          "key": "C",
           "label": "22"
         },
         {
-          "key": "D",
+          "key": "C",
           "label": "20"
+        },
+        {
+          "key": "D",
+          "label": "21"
         }
       ],
-      "answer": "D",
+      "answer": "C",
       "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times25\\%=20\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0497c",
+      "id": "gen-c-0525c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -5484,32 +5701,33 @@
       "type": "single-choice",
       "difficulty": 2,
       "estimatedSeconds": 36,
-      "stem": "配制 $80\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "stem": "配制 $150\\ \\text{g}$ 质量分数为 $25\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
       "source": "题库生成 · 变式训练",
       "options": [
         {
           "key": "A",
-          "label": "18"
+          "label": "37.5"
         },
         {
           "key": "B",
-          "label": "8"
+          "label": "67.5"
         },
         {
           "key": "C",
-          "label": "9"
+          "label": "19.5"
         },
         {
           "key": "D",
-          "label": "7"
+          "label": "34.5"
         }
       ],
-      "answer": "B",
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=80\\times10\\%=8\\ \\text{g}$。"
+      "answer": "A",
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=150\\times25\\%=37.5\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0498c",
+      "id": "gen-c-0526c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -5517,32 +5735,33 @@
       "type": "single-choice",
       "difficulty": 2,
       "estimatedSeconds": 36,
-      "stem": "配制 $60\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
+      "stem": "配制 $100\\ \\text{g}$ 质量分数为 $25\\%$ 的氯化钠溶液，需要氯化钠 （　） $\\text{g}$。",
       "source": "题库生成 · 变式训练",
       "options": [
         {
           "key": "A",
-          "label": "1"
+          "label": "25"
         },
         {
           "key": "B",
-          "label": "6"
+          "label": "10"
         },
         {
           "key": "C",
-          "label": "7"
+          "label": "23"
         },
         {
           "key": "D",
-          "label": "11"
+          "label": "13"
         }
       ],
-      "answer": "B",
-      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=60\\times10\\%=6\\ \\text{g}$。"
+      "answer": "A",
+      "explanation": "【解答过程】$m_{溶质}=M_{溶液}\\times w=100\\times25\\%=25\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0505c",
+      "id": "gen-c-0534c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -5555,11 +5774,11 @@
       "options": [
         {
           "key": "A",
-          "label": "1"
+          "label": "0"
         },
         {
           "key": "B",
-          "label": "5"
+          "label": "7"
         },
         {
           "key": "C",
@@ -5575,7 +5794,8 @@
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0506c",
+      "id": "gen-c-0535c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -5588,11 +5808,11 @@
       "options": [
         {
           "key": "A",
-          "label": "14"
+          "label": "6"
         },
         {
           "key": "B",
-          "label": "5"
+          "label": "7"
         },
         {
           "key": "C",
@@ -5600,7 +5820,7 @@
         },
         {
           "key": "D",
-          "label": "7"
+          "label": "1"
         }
       ],
       "answer": "C",
@@ -5608,7 +5828,8 @@
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0507c",
+      "id": "gen-c-0536c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -5621,7 +5842,7 @@
       "options": [
         {
           "key": "A",
-          "label": "3"
+          "label": "16"
         },
         {
           "key": "B",
@@ -5629,7 +5850,7 @@
         },
         {
           "key": "C",
-          "label": "1"
+          "label": "4"
         },
         {
           "key": "D",
@@ -5641,7 +5862,8 @@
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0510c",
+      "id": "gen-c-0537c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -5649,32 +5871,67 @@
       "type": "single-choice",
       "difficulty": 3,
       "estimatedSeconds": 66,
-      "stem": "计算题：$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$。现有 氯酸钾 $49\\ \\text{g}$ 完全反应，生成 氧气 （　） $\\text{g}$。",
+      "stem": "计算题：$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$。现有 水 $72\\ \\text{g}$ 完全反应，生成 氢气 （　） $\\text{g}$。",
       "source": "题库生成 · 变式训练",
       "options": [
         {
           "key": "A",
-          "label": "18.2"
+          "label": "6"
         },
         {
           "key": "B",
-          "label": "29.2"
+          "label": "8"
         },
         {
           "key": "C",
-          "label": "20.2"
+          "label": "3"
         },
         {
           "key": "D",
-          "label": "19.2"
+          "label": "18"
         }
       ],
-      "answer": "D",
-      "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$49\\ \\text{g}$ 氯酸钾 生成 氧气 $=49\\times\\dfrac{96}{245}=19.2\\ \\text{g}$。"
+      "answer": "B",
+      "explanation": "【解答过程】由化学方程式，36 份 水 对应 4 份 氢气（质量比 $36:4$）。$72\\ \\text{g}$ 水 生成 氢气 $=72\\times\\dfrac{4}{36}=8\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0511c",
+      "id": "gen-c-0538c",
+      "_generated": true,
+      "knowledgePointIds": [
+        "chemistry-chemical-equations"
+      ],
+      "displayType": "选择题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 66,
+      "stem": "计算题：$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$。现有 氯酸钾 $24.5\\ \\text{g}$ 完全反应，生成 氧气 （　） $\\text{g}$。",
+      "source": "题库生成 · 变式训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "8.6"
+        },
+        {
+          "key": "B",
+          "label": "7.6"
+        },
+        {
+          "key": "C",
+          "label": "9.6"
+        },
+        {
+          "key": "D",
+          "label": "11.6"
+        }
+      ],
+      "answer": "C",
+      "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$24.5\\ \\text{g}$ 氯酸钾 生成 氧气 $=24.5\\times\\dfrac{96}{245}=9.6\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "id": "gen-c-0540c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -5687,60 +5944,28 @@
       "options": [
         {
           "key": "A",
-          "label": "78.8"
+          "label": "28.8"
         },
         {
           "key": "B",
-          "label": "34.8"
+          "label": "48.8"
         },
         {
           "key": "C",
-          "label": "24.8"
+          "label": "46.8"
         },
         {
           "key": "D",
-          "label": "28.8"
+          "label": "34.8"
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$73.5\\ \\text{g}$ 氯酸钾 生成 氧气 $=73.5\\times\\dfrac{96}{245}=28.8\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0512c",
-      "knowledgePointIds": [
-        "chemistry-chemical-equations"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 3,
-      "estimatedSeconds": 66,
-      "stem": "计算题：$2\\text{KClO}_3\\xrightarrow[\\Delta]{\\text{MnO}_2}2\\text{KCl}+3\\text{O}_2\\uparrow$。现有 氯酸钾 $98\\ \\text{g}$ 完全反应，生成 氧气 （　） $\\text{g}$。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
-          "label": "8.4"
-        },
-        {
-          "key": "B",
-          "label": "33.4"
-        },
-        {
-          "key": "C",
-          "label": "38.4"
-        },
-        {
-          "key": "D",
-          "label": "98.4"
-        }
-      ],
-      "answer": "C",
-      "explanation": "【解答过程】由化学方程式，245 份 氯酸钾 对应 96 份 氧气（质量比 $245:96$）。$98\\ \\text{g}$ 氯酸钾 生成 氧气 $=98\\times\\dfrac{96}{245}=38.4\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
-      "id": "gen-c-0514c",
+      "id": "gen-c-0543c",
+      "_generated": true,
       "knowledgePointIds": [
         "chemistry-chemical-equations"
       ],
@@ -5753,91 +5978,29 @@
       "options": [
         {
           "key": "A",
-          "label": "37.4"
+          "label": "12.4"
         },
         {
           "key": "B",
-          "label": "42.4"
+          "label": "18.4"
         },
         {
           "key": "C",
-          "label": "26.4"
+          "label": "22.4"
         },
         {
           "key": "D",
-          "label": "22.4"
+          "label": "16.4"
         }
       ],
-      "answer": "D",
+      "answer": "C",
       "explanation": "【解答过程】由化学方程式，160 份 氧化铁 对应 112 份 铁（质量比 $160:112$）。$32\\ \\text{g}$ 氧化铁 生成 铁 $=32\\times\\dfrac{112}{160}=22.4\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
-      "id": "gen-c-0516c",
-      "knowledgePointIds": [
-        "chemistry-chemical-equations"
-      ],
-      "displayType": "选择题",
-      "type": "single-choice",
-      "difficulty": 3,
-      "estimatedSeconds": 66,
-      "stem": "计算题：$\\text{Fe}_2\\text{O}_3+3\\text{CO}\\xrightarrow{\\text{高温}}2\\text{Fe}+3\\text{CO}_2$。现有 氧化铁 $80\\ \\text{g}$ 完全反应，生成 铁 （　） $\\text{g}$。",
-      "source": "题库生成 · 变式训练",
-      "options": [
-        {
-          "key": "A",
-          "label": "62"
-        },
-        {
-          "key": "B",
-          "label": "56"
-        },
-        {
-          "key": "C",
-          "label": "50"
-        },
-        {
-          "key": "D",
-          "label": "71"
-        }
-      ],
-      "answer": "B",
-      "explanation": "【解答过程】由化学方程式，160 份 氧化铁 对应 112 份 铁（质量比 $160:112$）。$80\\ \\text{g}$ 氧化铁 生成 铁 $=80\\times\\dfrac{112}{160}=56\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
       "estimatedSeconds": 180,
       "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0947",
-      "knowledgePointIds": [
-        "chemistry-chemical-equations",
-        "chemistry-water-solution"
-      ],
-      "displayType": "解答题",
-      "type": "solution",
-      "difficulty": 4,
-      "stem": "解答题：通电分解 $36\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
-      "steps": [
-        {
-          "prompt": "第一步：生成氢气的质量（g）",
-          "answer": 4,
-          "tolerance": 0.05,
-          "score": 5
-        },
-        {
-          "prompt": "第二步：生成氧气的质量（g）",
-          "answer": 32,
-          "tolerance": 0.05,
-          "score": 5
-        }
-      ],
-      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$36\\ \\text{g}$ 水生成氢气 $4\\ \\text{g}$、氧气 $32\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 180,
-      "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0948",
+      "id": "gen-c-1146",
       "knowledgePointIds": [
         "chemistry-chemical-equations",
         "chemistry-water-solution"
@@ -5866,7 +6029,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 180,
       "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0949",
+      "id": "gen-c-1147",
       "knowledgePointIds": [
         "chemistry-chemical-equations",
         "chemistry-water-solution"
@@ -5895,36 +6058,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 180,
       "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0950",
-      "knowledgePointIds": [
-        "chemistry-chemical-equations",
-        "chemistry-water-solution"
-      ],
-      "displayType": "解答题",
-      "type": "solution",
-      "difficulty": 4,
-      "stem": "解答题：通电分解 $18\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
-      "steps": [
-        {
-          "prompt": "第一步：生成氢气的质量（g）",
-          "answer": 2,
-          "tolerance": 0.05,
-          "score": 5
-        },
-        {
-          "prompt": "第二步：生成氧气的质量（g）",
-          "answer": 16,
-          "tolerance": 0.05,
-          "score": 5
-        }
-      ],
-      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$18\\ \\text{g}$ 水生成氢气 $2\\ \\text{g}$、氧气 $16\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 180,
-      "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0951",
+      "id": "gen-c-1148",
       "knowledgePointIds": [
         "chemistry-chemical-equations",
         "chemistry-water-solution"
@@ -5953,7 +6087,7 @@
       "subject": "chemistry",
       "estimatedSeconds": 180,
       "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0952",
+      "id": "gen-c-1149",
       "knowledgePointIds": [
         "chemistry-chemical-equations",
         "chemistry-water-solution"
@@ -5961,80 +6095,190 @@
       "displayType": "解答题",
       "type": "solution",
       "difficulty": 4,
-      "stem": "解答题：通电分解 $18\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
+      "stem": "解答题：通电分解 $72\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
       "steps": [
         {
           "prompt": "第一步：生成氢气的质量（g）",
-          "answer": 2,
-          "tolerance": 0.05,
-          "score": 5
-        },
-        {
-          "prompt": "第二步：生成氧气的质量（g）",
-          "answer": 16,
-          "tolerance": 0.05,
-          "score": 5
-        }
-      ],
-      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$18\\ \\text{g}$ 水生成氢气 $2\\ \\text{g}$、氧气 $16\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 160,
-      "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0953",
-      "knowledgePointIds": [
-        "chemistry-water-solution"
-      ],
-      "displayType": "解答题",
-      "type": "solution",
-      "difficulty": 4,
-      "stem": "解答题：配制 $80\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
-      "steps": [
-        {
-          "prompt": "第一步：需要氯化钠的质量（g）",
           "answer": 8,
+          "tolerance": 0.05,
           "score": 5
         },
         {
-          "prompt": "第二步：需要水的质量（g）",
-          "answer": 72,
+          "prompt": "第二步：生成氧气的质量（g）",
+          "answer": 64,
+          "tolerance": 0.05,
           "score": 5
         }
       ],
-      "explanation": "【解答过程】$m_{溶质}=80\\times10\\%=8\\ \\text{g}$；$m_{水}=80-8=72\\ \\text{g}$。"
+      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$72\\ \\text{g}$ 水生成氢气 $8\\ \\text{g}$、氧气 $64\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-1150",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations",
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：通电分解 $36\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
+      "steps": [
+        {
+          "prompt": "第一步：生成氢气的质量（g）",
+          "answer": 4,
+          "tolerance": 0.05,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：生成氧气的质量（g）",
+          "answer": 32,
+          "tolerance": 0.05,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$36\\ \\text{g}$ 水生成氢气 $4\\ \\text{g}$、氧气 $32\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-1151",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations",
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：通电分解 $72\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
+      "steps": [
+        {
+          "prompt": "第一步：生成氢气的质量（g）",
+          "answer": 8,
+          "tolerance": 0.05,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：生成氧气的质量（g）",
+          "answer": 64,
+          "tolerance": 0.05,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$72\\ \\text{g}$ 水生成氢气 $8\\ \\text{g}$、氧气 $64\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 160,
       "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0954",
+      "id": "gen-c-1152",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
       "displayType": "解答题",
       "type": "solution",
       "difficulty": 4,
-      "stem": "解答题：配制 $150\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "stem": "解答题：配制 $50\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
       "steps": [
         {
           "prompt": "第一步：需要氯化钠的质量（g）",
-          "answer": 7.5,
+          "answer": 5,
           "score": 5
         },
         {
           "prompt": "第二步：需要水的质量（g）",
-          "answer": 142.5,
+          "answer": 45,
           "score": 5
         }
       ],
-      "explanation": "【解答过程】$m_{溶质}=150\\times5\\%=7.5\\ \\text{g}$；$m_{水}=150-7.5=142.5\\ \\text{g}$。"
+      "explanation": "【解答过程】$m_{溶质}=50\\times10\\%=5\\ \\text{g}$；$m_{水}=50-5=45\\ \\text{g}$。"
     },
     {
       "subject": "chemistry",
       "estimatedSeconds": 160,
       "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0955",
+      "id": "gen-c-1153",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：配制 $100\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "steps": [
+        {
+          "prompt": "第一步：需要氯化钠的质量（g）",
+          "answer": 20,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：需要水的质量（g）",
+          "answer": 80,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$m_{溶质}=100\\times20\\%=20\\ \\text{g}$；$m_{水}=100-20=80\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 160,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-1154",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：配制 $50\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "steps": [
+        {
+          "prompt": "第一步：需要氯化钠的质量（g）",
+          "answer": 5,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：需要水的质量（g）",
+          "answer": 45,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$m_{溶质}=50\\times10\\%=5\\ \\text{g}$；$m_{水}=50-5=45\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 160,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-1155",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：配制 $200\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "steps": [
+        {
+          "prompt": "第一步：需要氯化钠的质量（g）",
+          "answer": 10,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：需要水的质量（g）",
+          "answer": 190,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$m_{溶质}=200\\times5\\%=10\\ \\text{g}$；$m_{水}=200-10=190\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 160,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-1156",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
@@ -6060,79 +6304,27 @@
       "subject": "chemistry",
       "estimatedSeconds": 160,
       "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0956",
+      "id": "gen-c-1157",
       "knowledgePointIds": [
         "chemistry-water-solution"
       ],
       "displayType": "解答题",
       "type": "solution",
       "difficulty": 4,
-      "stem": "解答题：配制 $150\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "stem": "解答题：配制 $200\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
       "steps": [
         {
           "prompt": "第一步：需要氯化钠的质量（g）",
-          "answer": 30,
+          "answer": 10,
           "score": 5
         },
         {
           "prompt": "第二步：需要水的质量（g）",
-          "answer": 120,
+          "answer": 190,
           "score": 5
         }
       ],
-      "explanation": "【解答过程】$m_{溶质}=150\\times20\\%=30\\ \\text{g}$；$m_{水}=150-30=120\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 160,
-      "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0957",
-      "knowledgePointIds": [
-        "chemistry-water-solution"
-      ],
-      "displayType": "解答题",
-      "type": "solution",
-      "difficulty": 4,
-      "stem": "解答题：配制 $100\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
-      "steps": [
-        {
-          "prompt": "第一步：需要氯化钠的质量（g）",
-          "answer": 5,
-          "score": 5
-        },
-        {
-          "prompt": "第二步：需要水的质量（g）",
-          "answer": 95,
-          "score": 5
-        }
-      ],
-      "explanation": "【解答过程】$m_{溶质}=100\\times5\\%=5\\ \\text{g}$；$m_{水}=100-5=95\\ \\text{g}$。"
-    },
-    {
-      "subject": "chemistry",
-      "estimatedSeconds": 160,
-      "source": "中考解答题 · 分步判分",
-      "id": "gen-c-0958",
-      "knowledgePointIds": [
-        "chemistry-water-solution"
-      ],
-      "displayType": "解答题",
-      "type": "solution",
-      "difficulty": 4,
-      "stem": "解答题：配制 $150\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
-      "steps": [
-        {
-          "prompt": "第一步：需要氯化钠的质量（g）",
-          "answer": 7.5,
-          "score": 5
-        },
-        {
-          "prompt": "第二步：需要水的质量（g）",
-          "answer": 142.5,
-          "score": 5
-        }
-      ],
-      "explanation": "【解答过程】$m_{溶质}=150\\times5\\%=7.5\\ \\text{g}$；$m_{水}=150-7.5=142.5\\ \\text{g}$。"
+      "explanation": "【解答过程】$m_{溶质}=200\\times5\\%=10\\ \\text{g}$；$m_{水}=200-10=190\\ \\text{g}$。"
     }
   ]
 }

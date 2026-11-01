@@ -1,5 +1,5 @@
 {
-  "version": "chinese-exams-v0.16",
+  "version": "chinese-exams-v0.17",
   "exams": [
     {
       "id": "chinese-mock-001",
@@ -72,23 +72,24 @@
       "id": "chinese-sim-001",
       "subject": "chinese",
       "title": "语文冲刺模拟卷（一）",
-      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 32 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 36 分。",
       "durationMinutes": 120,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、积累与运用（7 题，每题 2 分）",
-          "description": "7 题，每题 2 分，共 14 分。",
+          "title": "一、积累与运用（8 题，每题 2 分）",
+          "description": "8 题，每题 2 分，共 16 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0811",
-            "gen-cn-0822",
-            "gen-cn-0804",
-            "gen-cn-0771",
-            "gen-cn-0808",
-            "gen-cn-0809",
-            "gen-cn-0787"
+            "cn-word-004",
+            "gen-cn-1005",
+            "gen-cn-1004",
+            "gen-cn-1032",
+            "gen-cn-1008",
+            "gen-cn-1027",
+            "gen-cn-1021",
+            "gen-cn-0979"
           ]
         },
         {
@@ -97,8 +98,8 @@
           "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0863",
-            "gen-cn-0854"
+            "gen-cn-1057",
+            "gen-cn-1053"
           ]
         },
         {
@@ -107,17 +108,18 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0901",
-            "gen-cn-0900"
+            "gen-cn-1083",
+            "gen-cn-1082"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、文学文化常识（1 题，每题 2 分）",
-          "description": "1 题，每题 2 分，共 2 分。",
+          "title": "四、文学文化常识（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0869"
+            "gen-cn-1080",
+            "gen-cn-1075"
           ]
         },
         {
@@ -126,8 +128,8 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0917",
-            "gen-cn-0922"
+            "cn-lang-002",
+            "gen-cn-1106"
           ]
         }
       ]
@@ -136,23 +138,24 @@
       "id": "chinese-sim-002",
       "subject": "chinese",
       "title": "语文冲刺模拟卷（二）",
-      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 32 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 36 分。",
       "durationMinutes": 120,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、积累与运用（7 题，每题 2 分）",
-          "description": "7 题，每题 2 分，共 14 分。",
+          "title": "一、积累与运用（8 题，每题 2 分）",
+          "description": "8 题，每题 2 分，共 16 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0767",
-            "gen-cn-0788",
-            "gen-cn-0805",
-            "gen-cn-0835",
-            "gen-cn-0797",
-            "gen-cn-0789",
-            "gen-cn-0800"
+            "gen-cn-0981",
+            "gen-cn-1022",
+            "gen-cn-0988",
+            "gen-cn-0971",
+            "gen-cn-0994",
+            "gen-cn-0997",
+            "gen-cn-1017",
+            "gen-cn-0992"
           ]
         },
         {
@@ -161,8 +164,8 @@
           "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0840",
-            "gen-cn-0839"
+            "gen-cn-1061",
+            "gen-cn-1044"
           ]
         },
         {
@@ -171,17 +174,18 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0901",
-            "gen-cn-0884"
+            "gen-cn-1098",
+            "gen-cn-1082"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、文学文化常识（1 题，每题 2 分）",
-          "description": "1 题，每题 2 分，共 2 分。",
+          "title": "四、文学文化常识（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0879"
+            "gen-cn-1066",
+            "gen-cn-1069"
           ]
         },
         {
@@ -190,8 +194,8 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0917",
-            "gen-cn-0912"
+            "gen-cn-1102",
+            "gen-cn-1105"
           ]
         }
       ]
@@ -200,23 +204,24 @@
       "id": "chinese-sim-003",
       "subject": "chinese",
       "title": "语文冲刺模拟卷（三）",
-      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 32 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 36 分。",
       "durationMinutes": 120,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、积累与运用（7 题，每题 2 分）",
-          "description": "7 题，每题 2 分，共 14 分。",
+          "title": "一、积累与运用（8 题，每题 2 分）",
+          "description": "8 题，每题 2 分，共 16 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0793",
-            "gen-cn-0819",
-            "gen-cn-0810",
-            "gen-cn-0831",
-            "gen-cn-0808",
-            "gen-cn-0809",
-            "gen-cn-0780"
+            "gen-cn-1003",
+            "cn-word-003",
+            "gen-cn-1023",
+            "gen-cn-0982",
+            "gen-cn-0968",
+            "gen-cn-0996",
+            "gen-cn-0973",
+            "gen-cn-1024"
           ]
         },
         {
@@ -225,8 +230,8 @@
           "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0861",
-            "gen-cn-0858"
+            "gen-cn-1054",
+            "gen-cn-1038"
           ]
         },
         {
@@ -235,17 +240,18 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0895",
-            "gen-cn-0885"
+            "gen-cn-1089",
+            "gen-cn-1097"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、文学文化常识（1 题，每题 2 分）",
-          "description": "1 题，每题 2 分，共 2 分。",
+          "title": "四、文学文化常识（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0881"
+            "gen-cn-1079",
+            "gen-cn-1066"
           ]
         },
         {
@@ -254,8 +260,8 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0903",
-            "gen-cn-0916"
+            "gen-cn-1114",
+            "gen-cn-1117"
           ]
         }
       ]
@@ -264,23 +270,24 @@
       "id": "chinese-sim-004",
       "subject": "chinese",
       "title": "语文冲刺模拟卷（四）",
-      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 32 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 36 分。",
       "durationMinutes": 120,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、积累与运用（7 题，每题 2 分）",
-          "description": "7 题，每题 2 分，共 14 分。",
+          "title": "一、积累与运用（8 题，每题 2 分）",
+          "description": "8 题，每题 2 分，共 16 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0811",
-            "gen-cn-0805",
-            "gen-cn-0768",
-            "gen-cn-0824",
-            "gen-cn-0780",
-            "gen-cn-0817",
-            "gen-cn-0776"
+            "gen-cn-0981",
+            "gen-cn-1007",
+            "cn-word-004",
+            "gen-cn-0992",
+            "cn-sent-002",
+            "gen-cn-1017",
+            "gen-cn-1002",
+            "gen-cn-0965"
           ]
         },
         {
@@ -289,8 +296,8 @@
           "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0843",
-            "gen-cn-0859"
+            "cn-poem-002",
+            "cn-poem-001"
           ]
         },
         {
@@ -299,17 +306,18 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0887",
-            "gen-cn-0897"
+            "gen-cn-1096",
+            "gen-cn-1085"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、文学文化常识（1 题，每题 2 分）",
-          "description": "1 题，每题 2 分，共 2 分。",
+          "title": "四、文学文化常识（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0871"
+            "cn-lit-004",
+            "gen-cn-1070"
           ]
         },
         {
@@ -318,8 +326,8 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0921",
-            "gen-cn-0918"
+            "gen-cn-1117",
+            "gen-cn-1119"
           ]
         }
       ]
@@ -328,23 +336,24 @@
       "id": "chinese-sim-005",
       "subject": "chinese",
       "title": "语文冲刺模拟卷（五）",
-      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 32 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 36 分。",
       "durationMinutes": 120,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、积累与运用（7 题，每题 2 分）",
-          "description": "7 题，每题 2 分，共 14 分。",
+          "title": "一、积累与运用（8 题，每题 2 分）",
+          "description": "8 题，每题 2 分，共 16 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0766",
-            "gen-cn-0828",
-            "gen-cn-0837",
-            "gen-cn-0806",
-            "gen-cn-0776",
-            "gen-cn-0838",
-            "gen-cn-0790"
+            "gen-cn-0972",
+            "cn-word-001",
+            "gen-cn-0987",
+            "cn-word-003",
+            "cn-sent-001",
+            "gen-cn-0989",
+            "gen-cn-0968",
+            "gen-cn-1002"
           ]
         },
         {
@@ -353,8 +362,8 @@
           "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0849",
-            "gen-cn-0864"
+            "gen-cn-1063",
+            "gen-cn-1041"
           ]
         },
         {
@@ -363,17 +372,18 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0894",
-            "gen-cn-0885"
+            "gen-cn-1090",
+            "gen-cn-1098"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、文学文化常识（1 题，每题 2 分）",
-          "description": "1 题，每题 2 分，共 2 分。",
+          "title": "四、文学文化常识（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0879"
+            "gen-cn-1081",
+            "gen-cn-1078"
           ]
         },
         {
@@ -382,8 +392,8 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0922",
-            "gen-cn-0913"
+            "cn-lang-003",
+            "cn-lang-002"
           ]
         }
       ]
@@ -392,23 +402,24 @@
       "id": "chinese-sim-006",
       "subject": "chinese",
       "title": "语文冲刺模拟卷（六）",
-      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 32 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 36 分。",
       "durationMinutes": 120,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、积累与运用（7 题，每题 2 分）",
-          "description": "7 题，每题 2 分，共 14 分。",
+          "title": "一、积累与运用（8 题，每题 2 分）",
+          "description": "8 题，每题 2 分，共 16 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0807",
-            "gen-cn-0817",
-            "gen-cn-0782",
-            "gen-cn-0818",
-            "gen-cn-0797",
-            "gen-cn-0774",
-            "gen-cn-0791"
+            "gen-cn-0965",
+            "gen-cn-0970",
+            "gen-cn-0985",
+            "cn-sent-002",
+            "cn-word-002",
+            "gen-cn-0969",
+            "gen-cn-1003",
+            "gen-cn-0967"
           ]
         },
         {
@@ -417,8 +428,8 @@
           "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0859",
-            "gen-cn-0849"
+            "cn-poem-003",
+            "gen-cn-1063"
           ]
         },
         {
@@ -427,17 +438,18 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0899",
-            "gen-cn-0902"
+            "gen-cn-1088",
+            "gen-cn-1099"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、文学文化常识（1 题，每题 2 分）",
-          "description": "1 题，每题 2 分，共 2 分。",
+          "title": "四、文学文化常识（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0880"
+            "gen-cn-1064",
+            "gen-cn-1070"
           ]
         },
         {
@@ -446,8 +458,8 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0910",
-            "gen-cn-0904"
+            "gen-cn-1104",
+            "gen-cn-1107"
           ]
         }
       ]
@@ -456,23 +468,24 @@
       "id": "chinese-sim-007",
       "subject": "chinese",
       "title": "语文冲刺模拟卷（七）",
-      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 32 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 36 分。",
       "durationMinutes": 120,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、积累与运用（7 题，每题 2 分）",
-          "description": "7 题，每题 2 分，共 14 分。",
+          "title": "一、积累与运用（8 题，每题 2 分）",
+          "description": "8 题，每题 2 分，共 16 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0770",
-            "gen-cn-0794",
-            "gen-cn-0809",
-            "gen-cn-0825",
-            "gen-cn-0803",
-            "gen-cn-0767",
-            "gen-cn-0795"
+            "gen-cn-1027",
+            "gen-cn-1001",
+            "gen-cn-1033",
+            "gen-cn-0975",
+            "gen-cn-1034",
+            "cn-char-003",
+            "cn-word-004",
+            "gen-cn-1009"
           ]
         },
         {
@@ -481,8 +494,8 @@
           "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0855",
-            "gen-cn-0846"
+            "cn-poem-001",
+            "gen-cn-1045"
           ]
         },
         {
@@ -491,17 +504,18 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0895",
-            "gen-cn-0886"
+            "gen-cn-1100",
+            "gen-cn-1083"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、文学文化常识（1 题，每题 2 分）",
-          "description": "1 题，每题 2 分，共 2 分。",
+          "title": "四、文学文化常识（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0867"
+            "gen-cn-1072",
+            "gen-cn-1075"
           ]
         },
         {
@@ -510,8 +524,8 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0913",
-            "gen-cn-0906"
+            "gen-cn-1106",
+            "gen-cn-1116"
           ]
         }
       ]
@@ -520,23 +534,24 @@
       "id": "chinese-sim-008",
       "subject": "chinese",
       "title": "语文冲刺模拟卷（八）",
-      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 32 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 36 分。",
       "durationMinutes": 120,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、积累与运用（7 题，每题 2 分）",
-          "description": "7 题，每题 2 分，共 14 分。",
+          "title": "一、积累与运用（8 题，每题 2 分）",
+          "description": "8 题，每题 2 分，共 16 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0768",
-            "gen-cn-0796",
-            "gen-cn-0816",
-            "gen-cn-0815",
-            "gen-cn-0829",
-            "gen-cn-0805",
-            "gen-cn-0771"
+            "gen-cn-0996",
+            "gen-cn-1005",
+            "gen-cn-1022",
+            "cn-sent-003",
+            "gen-cn-0985",
+            "gen-cn-0998",
+            "gen-cn-0986",
+            "gen-cn-0984"
           ]
         },
         {
@@ -545,8 +560,8 @@
           "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0853",
-            "gen-cn-0864"
+            "gen-cn-1038",
+            "gen-cn-1043"
           ]
         },
         {
@@ -555,17 +570,18 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0897",
-            "gen-cn-0884"
+            "gen-cn-1089",
+            "gen-cn-1083"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、文学文化常识（1 题，每题 2 分）",
-          "description": "1 题，每题 2 分，共 2 分。",
+          "title": "四、文学文化常识（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0874"
+            "gen-cn-1081",
+            "gen-cn-1074"
           ]
         },
         {
@@ -574,8 +590,8 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0918",
-            "gen-cn-0917"
+            "gen-cn-1106",
+            "gen-cn-1119"
           ]
         }
       ]
@@ -584,23 +600,24 @@
       "id": "chinese-sim-009",
       "subject": "chinese",
       "title": "语文冲刺模拟卷（九）",
-      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 32 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 36 分。",
       "durationMinutes": 120,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、积累与运用（7 题，每题 2 分）",
-          "description": "7 题，每题 2 分，共 14 分。",
+          "title": "一、积累与运用（8 题，每题 2 分）",
+          "description": "8 题，每题 2 分，共 16 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0837",
-            "gen-cn-0800",
-            "gen-cn-0830",
-            "gen-cn-0789",
-            "gen-cn-0781",
-            "gen-cn-0817",
-            "gen-cn-0803"
+            "gen-cn-1004",
+            "gen-cn-1013",
+            "gen-cn-1036",
+            "gen-cn-0974",
+            "cn-char-003",
+            "gen-cn-1026",
+            "gen-cn-0993",
+            "gen-cn-0980"
           ]
         },
         {
@@ -609,8 +626,8 @@
           "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0839",
-            "gen-cn-0861"
+            "gen-cn-1045",
+            "gen-cn-1060"
           ]
         },
         {
@@ -619,17 +636,18 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0894",
-            "gen-cn-0892"
+            "gen-cn-1092",
+            "gen-cn-1099"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、文学文化常识（1 题，每题 2 分）",
-          "description": "1 题，每题 2 分，共 2 分。",
+          "title": "四、文学文化常识（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0865"
+            "gen-cn-1068",
+            "gen-cn-1081"
           ]
         },
         {
@@ -638,8 +656,8 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0906",
-            "gen-cn-0903"
+            "gen-cn-1111",
+            "gen-cn-1102"
           ]
         }
       ]
@@ -648,23 +666,24 @@
       "id": "chinese-sim-010",
       "subject": "chinese",
       "title": "语文冲刺模拟卷（十）",
-      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 32 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 120 分，按可用题池自适应缩减）。满分 36 分。",
       "durationMinutes": 120,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、积累与运用（7 题，每题 2 分）",
-          "description": "7 题，每题 2 分，共 14 分。",
+          "title": "一、积累与运用（8 题，每题 2 分）",
+          "description": "8 题，每题 2 分，共 16 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0819",
-            "gen-cn-0808",
-            "gen-cn-0796",
-            "gen-cn-0806",
-            "gen-cn-0801",
-            "gen-cn-0769",
-            "gen-cn-0778"
+            "gen-cn-1005",
+            "gen-cn-0972",
+            "cn-char-001",
+            "gen-cn-1006",
+            "gen-cn-1000",
+            "gen-cn-1007",
+            "gen-cn-1021",
+            "gen-cn-0992"
           ]
         },
         {
@@ -673,8 +692,8 @@
           "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0864",
-            "gen-cn-0851"
+            "gen-cn-1053",
+            "gen-cn-1051"
           ]
         },
         {
@@ -683,17 +702,18 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0891",
-            "gen-cn-0900"
+            "gen-cn-1083",
+            "gen-cn-1091"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、文学文化常识（1 题，每题 2 分）",
-          "description": "1 题，每题 2 分，共 2 分。",
+          "title": "四、文学文化常识（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-cn-0880"
+            "gen-cn-1073",
+            "gen-cn-1066"
           ]
         },
         {
@@ -702,8 +722,8 @@
           "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-cn-0906",
-            "gen-cn-0917"
+            "gen-cn-1111",
+            "gen-cn-1107"
           ]
         }
       ]

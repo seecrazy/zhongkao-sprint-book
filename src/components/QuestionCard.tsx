@@ -49,6 +49,10 @@ export default function QuestionCard({
         <MathText text={question.stem} />
       </h2>
 
+      {question.diagram && (
+        <pre className="question-diagram">{question.diagram}</pre>
+      )}
+
       {question.type === "solution" ? (
         <div className="solution-steps">
           {question.steps.map((step, index) => {

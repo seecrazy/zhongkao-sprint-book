@@ -71,6 +71,6 @@ describe("mastery model", () => {
       attempt("today", "correct", 0),
       attempt("yesterday", "wrong", 1),
     ];
-    expect(calculateLearningStreak(attempts)).toBeGreaterThanOrEqual(1);
+    expect(calculateLearningStreak(attempts, now)).toBeGreaterThanOrEqual(1);
   });
 });

@@ -59,6 +59,7 @@ export interface BaseQuestion {
   difficulty: 1 | 2 | 3 | 4 | 5;
   estimatedSeconds: number;
   stem: string;
+  diagram?: string;
   source: string;
   explanation: string;
   optimalSolution?: string;

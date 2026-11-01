@@ -1,5 +1,5 @@
 {
-  "version": "chemistry-exams-v0.16",
+  "version": "chemistry-exams-v0.17",
   "exams": [
     {
       "id": "chem-mock-001",
@@ -138,7 +138,7 @@
       "id": "chemistry-sim-001",
       "subject": "chemistry",
       "title": "化学冲刺模拟卷（一）",
-      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 53 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 56 分。",
       "durationMinutes": 60,
       "level": "mock",
       "sections": [
@@ -148,27 +148,28 @@
           "description": "12 题，每题 2 分，共 24 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-c-0424",
-            "gen-c-0417",
             "gen-c-0396",
-            "gen-c-0477",
-            "gen-c-0545",
-            "gen-c-0405",
-            "gen-c-0550",
-            "gen-c-0418",
-            "gen-c-0576",
-            "gen-c-0463c",
-            "gen-c-0577",
-            "gen-c-0494c"
+            "gen-c-0432",
+            "chem-carbon-001",
+            "gen-c-0511",
+            "gen-c-0547",
+            "gen-c-0402",
+            "gen-c-0466c",
+            "gen-c-0525c",
+            "gen-c-0404",
+            "gen-c-0535c",
+            "gen-c-0478",
+            "gen-c-0625"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、填空题（1 题，每题 3 分）",
-          "description": "1 题，每题 3 分，共 3 分。",
+          "title": "二、填空题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-c-0466"
+            "gen-c-0466",
+            "gen-c-0519"
           ]
         },
         {
@@ -177,7 +178,7 @@
           "description": "1 题，每题 6 分，共 6 分。",
           "scorePerQuestion": 6,
           "questionIds": [
-            "gen-c-0573"
+            "gen-c-0621"
           ]
         },
         {
@@ -186,8 +187,8 @@
           "description": "2 题，每题 10 分，共 20 分。",
           "scorePerQuestion": 10,
           "questionIds": [
-            "gen-c-0445",
-            "gen-c-0440"
+            "chem-air-002",
+            "gen-c-0491"
           ]
         }
       ]
@@ -196,7 +197,7 @@
       "id": "chemistry-sim-002",
       "subject": "chemistry",
       "title": "化学冲刺模拟卷（二）",
-      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 53 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 56 分。",
       "durationMinutes": 60,
       "level": "mock",
       "sections": [
@@ -206,27 +207,28 @@
           "description": "12 题，每题 2 分，共 24 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-c-0469",
-            "gen-c-0406",
-            "gen-c-0411",
-            "gen-c-0602",
-            "gen-c-0540",
-            "gen-c-0564",
-            "gen-c-0528",
-            "gen-c-0471",
-            "gen-c-0551",
-            "gen-c-0546",
-            "gen-c-0526",
-            "gen-c-0596"
+            "gen-c-0635",
+            "gen-c-0655",
+            "gen-c-0552",
+            "gen-c-0497",
+            "gen-c-0526c",
+            "chem-metal-001",
+            "chem-carbon-003",
+            "gen-c-0496",
+            "gen-c-0395",
+            "gen-c-0594",
+            "gen-c-0550",
+            "gen-c-0577"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、填空题（1 题，每题 3 分）",
-          "description": "1 题，每题 3 分，共 3 分。",
+          "title": "二、填空题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-c-0460"
+            "chem-water-003",
+            "chem-comb-003"
           ]
         },
         {
@@ -235,7 +237,7 @@
           "description": "1 题，每题 6 分，共 6 分。",
           "scorePerQuestion": 6,
           "questionIds": [
-            "gen-c-0578"
+            "chem-lab-003"
           ]
         },
         {
@@ -244,8 +246,8 @@
           "description": "2 题，每题 10 分，共 20 分。",
           "scorePerQuestion": 10,
           "questionIds": [
-            "gen-c-0458",
-            "gen-c-0495"
+            "gen-c-0486",
+            "gen-c-0522"
           ]
         }
       ]
@@ -254,7 +256,7 @@
       "id": "chemistry-sim-003",
       "subject": "chemistry",
       "title": "化学冲刺模拟卷（三）",
-      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 53 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 56 分。",
       "durationMinutes": 60,
       "level": "mock",
       "sections": [
@@ -264,27 +266,28 @@
           "description": "12 题，每题 2 分，共 24 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-c-0418",
-            "gen-c-0400",
-            "gen-c-0450",
-            "gen-c-0453",
-            "gen-c-0565",
-            "gen-c-0489",
-            "gen-c-0601",
-            "gen-c-0417",
-            "gen-c-0575",
-            "gen-c-0588",
-            "gen-c-0426",
-            "gen-c-0401"
+            "gen-c-0457",
+            "chem-comb-002",
+            "gen-c-0655",
+            "gen-c-0656",
+            "chem-carbon-001",
+            "chem-carbon-003",
+            "gen-c-0529",
+            "gen-c-0506",
+            "chem-lab-003",
+            "gen-c-0660",
+            "gen-c-0604",
+            "gen-c-0579"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、填空题（1 题，每题 3 分）",
-          "description": "1 题，每题 3 分，共 3 分。",
+          "title": "二、填空题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-c-0460"
+            "chem-elem-002",
+            "gen-c-0525"
           ]
         },
         {
@@ -293,7 +296,7 @@
           "description": "1 题，每题 6 分，共 6 分。",
           "scorePerQuestion": 6,
           "questionIds": [
-            "gen-c-0583"
+            "gen-c-0624"
           ]
         },
         {
@@ -302,8 +305,8 @@
           "description": "2 题，每题 10 分，共 20 分。",
           "scorePerQuestion": 10,
           "questionIds": [
-            "gen-c-0463",
-            "gen-c-0496"
+            "gen-c-0493",
+            "gen-c-0527"
           ]
         }
       ]
@@ -312,7 +315,7 @@
       "id": "chemistry-sim-004",
       "subject": "chemistry",
       "title": "化学冲刺模拟卷（四）",
-      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 53 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 56 分。",
       "durationMinutes": 60,
       "level": "mock",
       "sections": [
@@ -322,27 +325,28 @@
           "description": "12 题，每题 2 分，共 24 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-c-0526",
-            "gen-c-0421",
-            "gen-c-0442c",
-            "gen-c-0479",
-            "gen-c-0551",
-            "gen-c-0456",
-            "gen-c-0476",
-            "gen-c-0571",
-            "gen-c-0504",
-            "gen-c-0548",
-            "gen-c-0489",
-            "gen-c-0437"
+            "gen-c-0518",
+            "gen-c-0502",
+            "chem-water-004c",
+            "chem-carbon-003",
+            "gen-c-0580",
+            "gen-c-0595",
+            "gen-c-0557",
+            "chem-elem-001",
+            "gen-c-0607",
+            "gen-c-0499",
+            "gen-c-0513",
+            "gen-c-0633"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、填空题（1 题，每题 3 分）",
-          "description": "1 题，每题 3 分，共 3 分。",
+          "title": "二、填空题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-c-0442"
+            "gen-c-0525",
+            "gen-c-0489"
           ]
         },
         {
@@ -351,7 +355,7 @@
           "description": "1 题，每题 6 分，共 6 分。",
           "scorePerQuestion": 6,
           "questionIds": [
-            "gen-c-0579"
+            "gen-c-0629"
           ]
         },
         {
@@ -360,8 +364,8 @@
           "description": "2 题，每题 10 分，共 20 分。",
           "scorePerQuestion": 10,
           "questionIds": [
-            "gen-c-0499",
-            "gen-c-0495"
+            "gen-c-0473",
+            "chem-equation-002"
           ]
         }
       ]
@@ -370,7 +374,7 @@
       "id": "chemistry-sim-005",
       "subject": "chemistry",
       "title": "化学冲刺模拟卷（五）",
-      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 53 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 56 分。",
       "durationMinutes": 60,
       "level": "mock",
       "sections": [
@@ -380,27 +384,28 @@
           "description": "12 题，每题 2 分，共 24 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-c-0590",
-            "gen-c-0443c",
-            "gen-c-0407",
-            "gen-c-0502",
-            "gen-c-0545",
-            "gen-c-0477",
-            "gen-c-0444c",
-            "gen-c-0546",
-            "gen-c-0399",
-            "gen-c-0415",
+            "gen-c-0503",
+            "gen-c-0510",
+            "gen-c-0482",
+            "gen-c-0432",
+            "gen-c-0661",
+            "gen-c-0620",
+            "gen-c-0583",
             "gen-c-0575",
-            "gen-c-0512c"
+            "chem-matter-001",
+            "gen-c-0399",
+            "gen-c-0424",
+            "gen-c-0581"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、填空题（1 题，每题 3 分）",
-          "description": "1 题，每题 3 分，共 3 分。",
+          "title": "二、填空题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-c-0461"
+            "gen-c-0489",
+            "gen-c-0467"
           ]
         },
         {
@@ -409,7 +414,7 @@
           "description": "1 题，每题 6 分，共 6 分。",
           "scorePerQuestion": 6,
           "questionIds": [
-            "gen-c-0581"
+            "gen-c-0625"
           ]
         },
         {
@@ -418,8 +423,8 @@
           "description": "2 题，每题 10 分，共 20 分。",
           "scorePerQuestion": 10,
           "questionIds": [
-            "gen-c-0463",
-            "gen-c-0462"
+            "gen-c-0469",
+            "gen-c-0523"
           ]
         }
       ]
@@ -428,7 +433,7 @@
       "id": "chemistry-sim-006",
       "subject": "chemistry",
       "title": "化学冲刺模拟卷（六）",
-      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 53 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 62 分。",
       "durationMinutes": 60,
       "level": "mock",
       "sections": [
@@ -438,36 +443,38 @@
           "description": "12 题，每题 2 分，共 24 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-c-0555",
-            "gen-c-0548",
-            "gen-c-0573",
-            "gen-c-0521",
-            "gen-c-0472",
-            "gen-c-0531",
-            "gen-c-0524",
+            "gen-c-0589",
             "gen-c-0504",
-            "gen-c-0480",
-            "gen-c-0488",
-            "gen-c-0535",
-            "gen-c-0564"
+            "gen-c-0398",
+            "gen-c-0549",
+            "gen-c-0550",
+            "gen-c-0590",
+            "gen-c-0667",
+            "gen-c-0437",
+            "gen-c-0511",
+            "chem-metal-002",
+            "gen-c-0403",
+            "gen-c-0604"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、填空题（1 题，每题 3 分）",
-          "description": "1 题，每题 3 分，共 3 分。",
+          "title": "二、填空题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-c-0447"
+            "chem-comb-003",
+            "chem-water-002"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、实验探究题（1 题，每题 6 分）",
-          "description": "1 题，每题 6 分，共 6 分。",
+          "title": "三、实验探究题（2 题，每题 6 分）",
+          "description": "2 题，每题 6 分，共 12 分。",
           "scorePerQuestion": 6,
           "questionIds": [
-            "gen-c-0577"
+            "gen-c-0624",
+            "gen-c-0632"
           ]
         },
         {
@@ -476,8 +483,8 @@
           "description": "2 题，每题 10 分，共 20 分。",
           "scorePerQuestion": 10,
           "questionIds": [
-            "gen-c-0491",
-            "gen-c-0490"
+            "gen-c-0528",
+            "gen-c-0523"
           ]
         }
       ]
@@ -486,7 +493,7 @@
       "id": "chemistry-sim-007",
       "subject": "chemistry",
       "title": "化学冲刺模拟卷（七）",
-      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 53 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 56 分。",
       "durationMinutes": 60,
       "level": "mock",
       "sections": [
@@ -496,27 +503,28 @@
           "description": "12 题，每题 2 分，共 24 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-c-0553",
-            "gen-c-0506c",
-            "gen-c-0422",
-            "gen-c-0457",
-            "gen-c-0487",
-            "gen-c-0425",
-            "gen-c-0579",
-            "gen-c-0398",
-            "gen-c-0556",
-            "gen-c-0541",
-            "gen-c-0566",
-            "gen-c-0496c"
+            "gen-c-0530",
+            "gen-c-0662",
+            "gen-c-0577",
+            "chem-lab-001",
+            "gen-c-0487c",
+            "gen-c-0433",
+            "gen-c-0578",
+            "gen-c-0426",
+            "gen-c-0406",
+            "gen-c-0595",
+            "gen-c-0536c",
+            "gen-c-0622"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、填空题（1 题，每题 3 分）",
-          "description": "1 题，每题 3 分，共 3 分。",
+          "title": "二、填空题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-c-0498"
+            "gen-c-0525",
+            "gen-c-0520"
           ]
         },
         {
@@ -525,7 +533,7 @@
           "description": "1 题，每题 6 分，共 6 分。",
           "scorePerQuestion": 6,
           "questionIds": [
-            "gen-c-0580"
+            "chem-lab-003"
           ]
         },
         {
@@ -534,8 +542,8 @@
           "description": "2 题，每题 10 分，共 20 分。",
           "scorePerQuestion": 10,
           "questionIds": [
-            "gen-c-0459",
-            "gen-c-0441"
+            "gen-c-0522",
+            "chem-atom-002"
           ]
         }
       ]
@@ -544,7 +552,7 @@
       "id": "chemistry-sim-008",
       "subject": "chemistry",
       "title": "化学冲刺模拟卷（八）",
-      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 53 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 56 分。",
       "durationMinutes": 60,
       "level": "mock",
       "sections": [
@@ -554,27 +562,28 @@
           "description": "12 题，每题 2 分，共 24 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-c-0553",
-            "gen-c-0411",
-            "gen-c-0488",
-            "gen-c-0397",
-            "gen-c-0483",
-            "gen-c-0399",
-            "gen-c-0548",
-            "gen-c-0571",
-            "gen-c-0514c",
-            "gen-c-0492c",
-            "gen-c-0432",
-            "gen-c-0589"
+            "gen-c-0455",
+            "gen-c-0464",
+            "gen-c-0496",
+            "gen-c-0430",
+            "gen-c-0604",
+            "chem-change-001",
+            "gen-c-0592",
+            "gen-c-0627",
+            "gen-c-0538c",
+            "chem-atom-002c",
+            "gen-c-0590",
+            "gen-c-0488c"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、填空题（1 题，每题 3 分）",
-          "description": "1 题，每题 3 分，共 3 分。",
+          "title": "二、填空题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-c-0466"
+            "gen-c-0467",
+            "chem-change-002"
           ]
         },
         {
@@ -583,7 +592,7 @@
           "description": "1 题，每题 6 分，共 6 分。",
           "scorePerQuestion": 6,
           "questionIds": [
-            "gen-c-0567"
+            "gen-c-0624"
           ]
         },
         {
@@ -592,8 +601,8 @@
           "description": "2 题，每题 10 分，共 20 分。",
           "scorePerQuestion": 10,
           "questionIds": [
-            "gen-c-0458",
-            "gen-c-0490"
+            "gen-c-0488",
+            "chem-carbon-002"
           ]
         }
       ]
@@ -602,7 +611,7 @@
       "id": "chemistry-sim-009",
       "subject": "chemistry",
       "title": "化学冲刺模拟卷（九）",
-      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 53 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 56 分。",
       "durationMinutes": 60,
       "level": "mock",
       "sections": [
@@ -612,27 +621,28 @@
           "description": "12 题，每题 2 分，共 24 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-c-0582",
-            "gen-c-0577",
-            "gen-c-0405",
-            "gen-c-0457",
-            "gen-c-0558",
-            "gen-c-0590",
-            "gen-c-0472",
-            "gen-c-0476",
-            "gen-c-0432",
-            "gen-c-0541",
-            "gen-c-0574",
-            "gen-c-0524"
+            "gen-c-0496",
+            "gen-c-0525c",
+            "gen-c-0406",
+            "chem-elem-003",
+            "gen-c-0407",
+            "gen-c-0628",
+            "gen-c-0562",
+            "gen-c-0512",
+            "gen-c-0411",
+            "gen-c-0540c",
+            "gen-c-0437",
+            "gen-c-0632"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、填空题（1 题，每题 3 分）",
-          "description": "1 题，每题 3 分，共 3 分。",
+          "title": "二、填空题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-c-0493"
+            "chem-water-003",
+            "chem-equation-004"
           ]
         },
         {
@@ -641,7 +651,7 @@
           "description": "1 题，每题 6 分，共 6 分。",
           "scorePerQuestion": 6,
           "questionIds": [
-            "gen-c-0570"
+            "gen-c-0623"
           ]
         },
         {
@@ -650,8 +660,8 @@
           "description": "2 题，每题 10 分，共 20 分。",
           "scorePerQuestion": 10,
           "questionIds": [
-            "gen-c-0491",
-            "gen-c-0444"
+            "gen-c-0468",
+            "gen-c-0486"
           ]
         }
       ]
@@ -660,7 +670,7 @@
       "id": "chemistry-sim-010",
       "subject": "chemistry",
       "title": "化学冲刺模拟卷（十）",
-      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 53 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 80 分，按可用题池自适应缩减）。满分 56 分。",
       "durationMinutes": 60,
       "level": "mock",
       "sections": [
@@ -670,27 +680,28 @@
           "description": "12 题，每题 2 分，共 24 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-c-0496c",
-            "gen-c-0427",
-            "gen-c-0600",
-            "gen-c-0456",
-            "gen-c-0560",
-            "gen-c-0504",
-            "gen-c-0480",
-            "gen-c-0447c",
-            "gen-c-0531",
-            "gen-c-0536",
-            "gen-c-0598",
-            "gen-c-0569"
+            "chem-carbon-003",
+            "gen-c-0482",
+            "gen-c-0636",
+            "gen-c-0463",
+            "gen-c-0561",
+            "gen-c-0521c",
+            "gen-c-0403",
+            "gen-c-0591",
+            "gen-c-0604",
+            "gen-c-0498",
+            "chem-water-001",
+            "gen-c-0582"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、填空题（1 题，每题 3 分）",
-          "description": "1 题，每题 3 分，共 3 分。",
+          "title": "二、填空题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
           "scorePerQuestion": 3,
           "questionIds": [
-            "gen-c-0492"
+            "chem-change-002",
+            "chem-comb-003"
           ]
         },
         {
@@ -699,7 +710,7 @@
           "description": "1 题，每题 6 分，共 6 分。",
           "scorePerQuestion": 6,
           "questionIds": [
-            "gen-c-0572"
+            "gen-c-0634"
           ]
         },
         {
@@ -708,8 +719,8 @@
           "description": "2 题，每题 10 分，共 20 分。",
           "scorePerQuestion": 10,
           "questionIds": [
-            "gen-c-0494",
-            "gen-c-0445"
+            "gen-c-0488",
+            "chem-atom-002"
           ]
         }
       ]

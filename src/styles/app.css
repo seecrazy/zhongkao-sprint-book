@@ -1165,3 +1165,17 @@ button.danger {
   font-size: 0.82rem;
   color: #6c7889;
 }
+
+/* 电路图等字符画 */
+.question-diagram {
+  font-family: "SFMono-Regular", Menlo, Consolas, "Courier New", monospace;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #2c3a52;
+  background: #f7f9fc;
+  border: 1px solid #e6ebf3;
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin: 0 0 14px;
+  overflow-x: auto;
+}

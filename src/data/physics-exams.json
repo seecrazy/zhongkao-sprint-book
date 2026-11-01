@@ -1,5 +1,5 @@
 {
-  "version": "physics-exams-v0.16",
+  "version": "physics-exams-v0.17",
   "exams": [
     {
       "id": "physics-mock-001",
@@ -126,64 +126,96 @@
       "id": "physics-sim-001",
       "subject": "physics",
       "title": "物理冲刺模拟卷（一）",
-      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 63 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 74 分。",
       "durationMinutes": 90,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、单项选择题（8 题，每题 2 分）",
-          "description": "8 题，每题 2 分，共 16 分。",
+          "title": "一、单项选择题（11 题，每题 2 分）",
+          "description": "11 题，每题 2 分，共 22 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0378c",
-            "gen-p-0354c",
-            "gen-p-0275c",
-            "gen-p-0303c",
-            "gen-p-0364c",
-            "gen-p-0289c",
-            "gen-p-0386c",
-            "gen-p-0347c"
+            "ckt-009",
+            "gen-p-0723",
+            "gen-p-0730",
+            "gen-p-0731",
+            "ckt-008",
+            "gen-p-0359c",
+            "gen-p-0309c",
+            "gen-p-0319c",
+            "gen-p-0348c",
+            "physics-heat-001",
+            "gen-p-0345c"
           ]
         },
         {
           "id": "sec-2",
-          "title": "三、填空题（3 题，每题 2 分）",
-          "description": "3 题，每题 2 分，共 6 分。",
-          "scorePerQuestion": 2,
+          "title": "二、多项选择题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
           "questionIds": [
-            "gen-p-0362",
-            "gen-p-0267",
-            "gen-p-0271"
+            "physics-force-003",
+            "gen-p-0703"
           ]
         },
         {
           "id": "sec-3",
-          "title": "四、计算与实验题（2 题，每题 7 分）",
-          "description": "2 题，每题 7 分，共 14 分。",
-          "scorePerQuestion": 7,
+          "title": "三、填空题（4 题，每题 2 分）",
+          "description": "4 题，每题 2 分，共 8 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0369",
-            "gen-p-0296"
+            "physics-density-003",
+            "gen-p-0351",
+            "gen-p-0286",
+            "gen-p-0297"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、计算与实验题（2 题，每题 8 分）",
-          "description": "2 题，每题 8 分，共 16 分。",
-          "scorePerQuestion": 8,
+          "title": "四、作图题（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0374",
-            "gen-p-0298"
+            "draw-001",
+            "draw-002"
           ]
         },
         {
           "id": "sec-5",
-          "title": "四、计算与实验题（1 题，每题 11 分）",
+          "title": "五、实验探究题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "exp-ohm-001",
+            "exp-pow-001"
+          ]
+        },
+        {
+          "id": "sec-6",
+          "title": "六、计算题（1 题，每题 8 分）",
+          "description": "1 题，每题 8 分，共 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0393"
+          ]
+        },
+        {
+          "id": "sec-7",
+          "title": "六、计算题（1 题，每题 9 分）",
+          "description": "1 题，每题 9 分，共 9 分。",
+          "scorePerQuestion": 9,
+          "questionIds": [
+            "gen-p-0383"
+          ]
+        },
+        {
+          "id": "sec-8",
+          "title": "六、计算题（1 题，每题 11 分）",
           "description": "1 题，每题 11 分，共 11 分。",
           "scorePerQuestion": 11,
           "questionIds": [
-            "gen-p-0390"
+            "physics-ohm-002"
           ]
         }
       ]
@@ -192,64 +224,96 @@
       "id": "physics-sim-002",
       "subject": "physics",
       "title": "物理冲刺模拟卷（二）",
-      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 63 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 74 分。",
       "durationMinutes": 90,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、单项选择题（8 题，每题 2 分）",
-          "description": "8 题，每题 2 分，共 16 分。",
+          "title": "一、单项选择题（11 题，每题 2 分）",
+          "description": "11 题，每题 2 分，共 22 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0360c",
-            "gen-p-0385c",
-            "gen-p-0334c",
-            "gen-p-0304c",
-            "gen-p-0384c",
-            "gen-p-0351c",
-            "gen-p-0307c",
-            "gen-p-0347c"
+            "ckt-009",
+            "gen-p-0329c",
+            "gen-p-0266c",
+            "exp-den-001c",
+            "gen-p-0261c",
+            "gen-p-0365c",
+            "home-002",
+            "gen-p-0722",
+            "physics-density-001",
+            "gen-p-0310c",
+            "gen-p-0723"
           ]
         },
         {
           "id": "sec-2",
-          "title": "三、填空题（3 题，每题 2 分）",
-          "description": "3 题，每题 2 分，共 6 分。",
-          "scorePerQuestion": 2,
+          "title": "二、多项选择题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
           "questionIds": [
-            "gen-p-0267",
-            "gen-p-0271",
-            "gen-p-0381"
+            "physics-ohm-005",
+            "gen-p-0703"
           ]
         },
         {
           "id": "sec-3",
-          "title": "四、计算与实验题（2 题，每题 7 分）",
-          "description": "2 题，每题 7 分，共 14 分。",
-          "scorePerQuestion": 7,
+          "title": "三、填空题（4 题，每题 2 分）",
+          "description": "4 题，每题 2 分，共 8 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0369",
-            "gen-p-0325"
+            "gen-p-0377",
+            "gen-p-0287",
+            "gen-p-0261",
+            "physics-buoy-003"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、计算与实验题（2 题，每题 8 分）",
-          "description": "2 题，每题 8 分，共 16 分。",
-          "scorePerQuestion": 8,
+          "title": "四、作图题（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0263",
-            "gen-p-0269"
+            "draw-001",
+            "draw-003"
           ]
         },
         {
           "id": "sec-5",
-          "title": "四、计算与实验题（1 题，每题 11 分）",
+          "title": "五、实验探究题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "exp-pow-001",
+            "exp-ohm-001"
+          ]
+        },
+        {
+          "id": "sec-6",
+          "title": "六、计算题（1 题，每题 8 分）",
+          "description": "1 题，每题 8 分，共 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0389"
+          ]
+        },
+        {
+          "id": "sec-7",
+          "title": "六、计算题（1 题，每题 9 分）",
+          "description": "1 题，每题 9 分，共 9 分。",
+          "scorePerQuestion": 9,
+          "questionIds": [
+            "gen-p-0345"
+          ]
+        },
+        {
+          "id": "sec-8",
+          "title": "六、计算题（1 题，每题 11 分）",
           "description": "1 题，每题 11 分，共 11 分。",
           "scorePerQuestion": 11,
           "questionIds": [
-            "gen-p-0305"
+            "gen-p-0280"
           ]
         }
       ]
@@ -258,64 +322,96 @@
       "id": "physics-sim-003",
       "subject": "physics",
       "title": "物理冲刺模拟卷（三）",
-      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 63 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 74 分。",
       "durationMinutes": 90,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、单项选择题（8 题，每题 2 分）",
-          "description": "8 题，每题 2 分，共 16 分。",
+          "title": "一、单项选择题（11 题，每题 2 分）",
+          "description": "11 题，每题 2 分，共 22 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0313c",
-            "gen-p-0355c",
-            "gen-p-0266c",
-            "gen-p-0298c",
-            "gen-p-0349c",
-            "gen-p-0391c",
-            "gen-p-0289c",
-            "gen-p-0359c"
+            "gen-p-0372c",
+            "ckt-001",
+            "gen-p-0779",
+            "gen-p-0726",
+            "gen-p-0736",
+            "ckt-007",
+            "ckt-006",
+            "gen-p-0325c",
+            "gen-p-0783",
+            "gen-p-0284c",
+            "gen-p-0708"
           ]
         },
         {
           "id": "sec-2",
-          "title": "三、填空题（3 题，每题 2 分）",
-          "description": "3 题，每题 2 分，共 6 分。",
-          "scorePerQuestion": 2,
+          "title": "二、多项选择题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
           "questionIds": [
-            "gen-p-0347",
-            "gen-p-0321",
-            "gen-p-0331"
+            "physics-force-003",
+            "gen-p-0696"
           ]
         },
         {
           "id": "sec-3",
-          "title": "四、计算与实验题（2 题，每题 7 分）",
-          "description": "2 题，每题 7 分，共 14 分。",
-          "scorePerQuestion": 7,
+          "title": "三、填空题（4 题，每题 2 分）",
+          "description": "4 题，每题 2 分，共 8 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0275",
-            "gen-p-0293"
+            "gen-p-0377",
+            "physics-density-002",
+            "gen-p-0331",
+            "gen-p-0307"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、计算与实验题（2 题，每题 8 分）",
-          "description": "2 题，每题 8 分，共 16 分。",
-          "scorePerQuestion": 8,
+          "title": "四、作图题（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0309",
-            "gen-p-0390"
+            "draw-001",
+            "draw-002"
           ]
         },
         {
           "id": "sec-5",
-          "title": "四、计算与实验题（1 题，每题 11 分）",
+          "title": "五、实验探究题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "exp-pow-001",
+            "exp-ohm-001"
+          ]
+        },
+        {
+          "id": "sec-6",
+          "title": "六、计算题（1 题，每题 8 分）",
+          "description": "1 题，每题 8 分，共 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0369"
+          ]
+        },
+        {
+          "id": "sec-7",
+          "title": "六、计算题（1 题，每题 9 分）",
+          "description": "1 题，每题 9 分，共 9 分。",
+          "scorePerQuestion": 9,
+          "questionIds": [
+            "gen-p-0315"
+          ]
+        },
+        {
+          "id": "sec-8",
+          "title": "六、计算题（1 题，每题 11 分）",
           "description": "1 题，每题 11 分，共 11 分。",
           "scorePerQuestion": 11,
           "questionIds": [
-            "gen-p-0378"
+            "gen-p-0335"
           ]
         }
       ]
@@ -324,64 +420,96 @@
       "id": "physics-sim-004",
       "subject": "physics",
       "title": "物理冲刺模拟卷（四）",
-      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 63 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 74 分。",
       "durationMinutes": 90,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、单项选择题（8 题，每题 2 分）",
-          "description": "8 题，每题 2 分，共 16 分。",
+          "title": "一、单项选择题（11 题，每题 2 分）",
+          "description": "11 题，每题 2 分，共 22 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0350c",
-            "gen-p-0324c",
             "gen-p-0362c",
-            "gen-p-0304c",
-            "gen-p-0352c",
-            "gen-p-0367c",
-            "gen-p-0266c",
-            "gen-p-0311c"
+            "gen-p-0283c",
+            "gen-p-0730",
+            "gen-p-0350c",
+            "gen-p-0692",
+            "gen-p-0704",
+            "physics-heat-003c",
+            "gen-p-0326c",
+            "gen-p-0358c",
+            "gen-p-0700",
+            "gen-p-0787"
           ]
         },
         {
           "id": "sec-2",
-          "title": "三、填空题（3 题，每题 2 分）",
-          "description": "3 题，每题 2 分，共 6 分。",
-          "scorePerQuestion": 2,
+          "title": "二、多项选择题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
           "questionIds": [
-            "gen-p-0271",
-            "gen-p-0362",
-            "gen-p-0261"
+            "gen-p-0709",
+            "ckt-004"
           ]
         },
         {
           "id": "sec-3",
-          "title": "四、计算与实验题（2 题，每题 7 分）",
-          "description": "2 题，每题 7 分，共 14 分。",
-          "scorePerQuestion": 7,
+          "title": "三、填空题（4 题，每题 2 分）",
+          "description": "4 题，每题 2 分，共 8 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0280",
-            "gen-p-0294"
+            "physics-work-003",
+            "gen-p-0271",
+            "gen-p-0367",
+            "gen-p-0317"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、计算与实验题（2 题，每题 8 分）",
-          "description": "2 题，每题 8 分，共 16 分。",
-          "scorePerQuestion": 8,
+          "title": "四、作图题（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0289",
-            "gen-p-0296"
+            "draw-003",
+            "draw-001"
           ]
         },
         {
           "id": "sec-5",
-          "title": "四、计算与实验题（1 题，每题 11 分）",
+          "title": "五、实验探究题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "exp-ohm-001",
+            "exp-pow-001"
+          ]
+        },
+        {
+          "id": "sec-6",
+          "title": "六、计算题（1 题，每题 8 分）",
+          "description": "1 题，每题 8 分，共 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0359"
+          ]
+        },
+        {
+          "id": "sec-7",
+          "title": "六、计算题（1 题，每题 9 分）",
+          "description": "1 题，每题 9 分，共 9 分。",
+          "scorePerQuestion": 9,
+          "questionIds": [
+            "gen-p-0369"
+          ]
+        },
+        {
+          "id": "sec-8",
+          "title": "六、计算题（1 题，每题 11 分）",
           "description": "1 题，每题 11 分，共 11 分。",
           "scorePerQuestion": 11,
           "questionIds": [
-            "gen-p-0369"
+            "gen-p-0290"
           ]
         }
       ]
@@ -390,64 +518,96 @@
       "id": "physics-sim-005",
       "subject": "physics",
       "title": "物理冲刺模拟卷（五）",
-      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 63 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 74 分。",
       "durationMinutes": 90,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、单项选择题（8 题，每题 2 分）",
-          "description": "8 题，每题 2 分，共 16 分。",
+          "title": "一、单项选择题（11 题，每题 2 分）",
+          "description": "11 题，每题 2 分，共 22 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0362c",
-            "gen-p-0263c",
-            "gen-p-0353c",
-            "gen-p-0368c",
-            "gen-p-0367c",
-            "gen-p-0356c",
-            "gen-p-0317c",
-            "gen-p-0363c"
+            "gen-p-0722",
+            "physics-buoy-001",
+            "gen-p-0724",
+            "gen-p-0365c",
+            "gen-p-0384c",
+            "home-007",
+            "ckt-003",
+            "gen-p-0282c",
+            "gen-p-0323c",
+            "gen-p-0279c",
+            "physics-force-001"
           ]
         },
         {
           "id": "sec-2",
-          "title": "三、填空题（3 题，每题 2 分）",
-          "description": "3 题，每题 2 分，共 6 分。",
-          "scorePerQuestion": 2,
+          "title": "二、多项选择题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
           "questionIds": [
-            "gen-p-0267",
-            "gen-p-0357",
-            "gen-p-0331"
+            "home-003",
+            "physics-ohm-005"
           ]
         },
         {
           "id": "sec-3",
-          "title": "四、计算与实验题（2 题，每题 7 分）",
-          "description": "2 题，每题 7 分，共 14 分。",
-          "scorePerQuestion": 7,
+          "title": "三、填空题（4 题，每题 2 分）",
+          "description": "4 题，每题 2 分，共 8 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0294",
-            "gen-p-0359"
+            "gen-p-0311",
+            "gen-p-0391",
+            "gen-p-0267",
+            "gen-p-0261"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、计算与实验题（2 题，每题 8 分）",
-          "description": "2 题，每题 8 分，共 16 分。",
-          "scorePerQuestion": 8,
+          "title": "四、作图题（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0300",
-            "gen-p-0369"
+            "draw-002",
+            "draw-001"
           ]
         },
         {
           "id": "sec-5",
-          "title": "四、计算与实验题（1 题，每题 11 分）",
+          "title": "五、实验探究题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "exp-pow-001",
+            "exp-ohm-001"
+          ]
+        },
+        {
+          "id": "sec-6",
+          "title": "六、计算题（1 题，每题 8 分）",
+          "description": "1 题，每题 8 分，共 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0302"
+          ]
+        },
+        {
+          "id": "sec-7",
+          "title": "六、计算题（1 题，每题 9 分）",
+          "description": "1 题，每题 9 分，共 9 分。",
+          "scorePerQuestion": 9,
+          "questionIds": [
+            "gen-p-0319"
+          ]
+        },
+        {
+          "id": "sec-8",
+          "title": "六、计算题（1 题，每题 11 分）",
           "description": "1 题，每题 11 分，共 11 分。",
           "scorePerQuestion": 11,
           "questionIds": [
-            "gen-p-0280"
+            "gen-p-0335"
           ]
         }
       ]
@@ -456,64 +616,96 @@
       "id": "physics-sim-006",
       "subject": "physics",
       "title": "物理冲刺模拟卷（六）",
-      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 63 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 74 分。",
       "durationMinutes": 90,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、单项选择题（8 题，每题 2 分）",
-          "description": "8 题，每题 2 分，共 16 分。",
+          "title": "一、单项选择题（11 题，每题 2 分）",
+          "description": "11 题，每题 2 分，共 22 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0275c",
-            "gen-p-0300c",
-            "gen-p-0276c",
-            "gen-p-0394c",
-            "gen-p-0323c",
-            "gen-p-0385c",
-            "gen-p-0378c",
-            "gen-p-0342c"
+            "gen-p-0722",
+            "gen-p-0280c",
+            "gen-p-0693",
+            "gen-p-0262c",
+            "gen-p-0683",
+            "gen-p-0681",
+            "ckt-006",
+            "gen-p-0325c",
+            "gen-p-0390c",
+            "gen-p-0723",
+            "gen-p-0705"
           ]
         },
         {
           "id": "sec-2",
-          "title": "三、填空题（3 题，每题 2 分）",
-          "description": "3 题，每题 2 分，共 6 分。",
-          "scorePerQuestion": 2,
+          "title": "二、多项选择题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
           "questionIds": [
-            "gen-p-0311",
-            "gen-p-0341",
-            "gen-p-0377"
+            "mag-003",
+            "physics-buoy-002"
           ]
         },
         {
           "id": "sec-3",
-          "title": "四、计算与实验题（2 题，每题 7 分）",
-          "description": "2 题，每题 7 分，共 14 分。",
-          "scorePerQuestion": 7,
+          "title": "三、填空题（4 题，每题 2 分）",
+          "description": "4 题，每题 2 分，共 8 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0363",
-            "gen-p-0316"
+            "physics-work-003",
+            "physics-epower-003",
+            "gen-p-0327",
+            "gen-p-0301"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、计算与实验题（2 题，每题 8 分）",
-          "description": "2 题，每题 8 分，共 16 分。",
-          "scorePerQuestion": 8,
+          "title": "四、作图题（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0298",
-            "gen-p-0289"
+            "draw-001",
+            "draw-002"
           ]
         },
         {
           "id": "sec-5",
-          "title": "四、计算与实验题（1 题，每题 11 分）",
+          "title": "五、实验探究题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "exp-pow-001",
+            "exp-ohm-001"
+          ]
+        },
+        {
+          "id": "sec-6",
+          "title": "六、计算题（1 题，每题 8 分）",
+          "description": "1 题，每题 8 分，共 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0389"
+          ]
+        },
+        {
+          "id": "sec-7",
+          "title": "六、计算题（1 题，每题 9 分）",
+          "description": "1 题，每题 9 分，共 9 分。",
+          "scorePerQuestion": 9,
+          "questionIds": [
+            "gen-p-0316"
+          ]
+        },
+        {
+          "id": "sec-8",
+          "title": "六、计算题（1 题，每题 11 分）",
           "description": "1 题，每题 11 分，共 11 分。",
           "scorePerQuestion": 11,
           "questionIds": [
-            "gen-p-0259"
+            "gen-p-0343"
           ]
         }
       ]
@@ -522,64 +714,96 @@
       "id": "physics-sim-007",
       "subject": "physics",
       "title": "物理冲刺模拟卷（七）",
-      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 63 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 74 分。",
       "durationMinutes": 90,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、单项选择题（8 题，每题 2 分）",
-          "description": "8 题，每题 2 分，共 16 分。",
+          "title": "一、单项选择题（11 题，每题 2 分）",
+          "description": "11 题，每题 2 分，共 22 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0363c",
-            "gen-p-0272c",
-            "gen-p-0355c",
-            "gen-p-0303c",
-            "gen-p-0285c",
-            "gen-p-0275c",
-            "gen-p-0300c",
-            "gen-p-0353c"
+            "gen-p-0276c",
+            "physics-buoy-001",
+            "gen-p-0699",
+            "gen-p-0707",
+            "gen-p-0259c",
+            "physics-heat-003c",
+            "ckt-003",
+            "mag-010",
+            "gen-p-0319c",
+            "gen-p-0686",
+            "gen-p-0718"
           ]
         },
         {
           "id": "sec-2",
-          "title": "三、填空题（3 题，每题 2 分）",
-          "description": "3 题，每题 2 分，共 6 分。",
-          "scorePerQuestion": 2,
+          "title": "二、多项选择题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
           "questionIds": [
-            "gen-p-0382",
-            "gen-p-0351",
-            "gen-p-0381"
+            "gen-p-0696",
+            "gen-p-0709"
           ]
         },
         {
           "id": "sec-3",
-          "title": "四、计算与实验题（2 题，每题 7 分）",
-          "description": "2 题，每题 7 分，共 14 分。",
-          "scorePerQuestion": 7,
+          "title": "三、填空题（4 题，每题 2 分）",
+          "description": "4 题，每题 2 分，共 8 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0289",
-            "gen-p-0329"
+            "gen-p-0391",
+            "gen-p-0381",
+            "physics-buoy-003",
+            "gen-p-0297"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、计算与实验题（2 题，每题 8 分）",
-          "description": "2 题，每题 8 分，共 16 分。",
-          "scorePerQuestion": 8,
+          "title": "四、作图题（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0296",
-            "gen-p-0363"
+            "draw-002",
+            "draw-001"
           ]
         },
         {
           "id": "sec-5",
-          "title": "四、计算与实验题（1 题，每题 11 分）",
+          "title": "五、实验探究题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "exp-ohm-001",
+            "exp-pow-001"
+          ]
+        },
+        {
+          "id": "sec-6",
+          "title": "六、计算题（1 题，每题 8 分）",
+          "description": "1 题，每题 8 分，共 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0296"
+          ]
+        },
+        {
+          "id": "sec-7",
+          "title": "六、计算题（1 题，每题 9 分）",
+          "description": "1 题，每题 9 分，共 9 分。",
+          "scorePerQuestion": 9,
+          "questionIds": [
+            "gen-p-0380"
+          ]
+        },
+        {
+          "id": "sec-8",
+          "title": "六、计算题（1 题，每题 11 分）",
           "description": "1 题，每题 11 分，共 11 分。",
           "scorePerQuestion": 11,
           "questionIds": [
-            "gen-p-0353"
+            "gen-p-0339"
           ]
         }
       ]
@@ -588,64 +812,96 @@
       "id": "physics-sim-008",
       "subject": "physics",
       "title": "物理冲刺模拟卷（八）",
-      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 63 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 74 分。",
       "durationMinutes": 90,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、单项选择题（8 题，每题 2 分）",
-          "description": "8 题，每题 2 分，共 16 分。",
+          "title": "一、单项选择题（11 题，每题 2 分）",
+          "description": "11 题，每题 2 分，共 22 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0272c",
-            "gen-p-0342c",
-            "gen-p-0267c",
-            "gen-p-0353c",
-            "gen-p-0332c",
-            "gen-p-0277c",
-            "gen-p-0275c",
-            "gen-p-0359c"
+            "ckt-002",
+            "gen-p-0289c",
+            "gen-p-0719",
+            "gen-p-0707",
+            "gen-p-0334c",
+            "gen-p-0714",
+            "gen-p-0688",
+            "physics-work-002",
+            "gen-p-0692",
+            "gen-p-0761",
+            "gen-p-0337c"
           ]
         },
         {
           "id": "sec-2",
-          "title": "三、填空题（3 题，每题 2 分）",
-          "description": "3 题，每题 2 分，共 6 分。",
-          "scorePerQuestion": 2,
+          "title": "二、多项选择题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
           "questionIds": [
-            "gen-p-0276",
-            "gen-p-0386",
-            "gen-p-0286"
+            "ckt-004",
+            "physics-buoy-002"
           ]
         },
         {
           "id": "sec-3",
-          "title": "四、计算与实验题（2 题，每题 7 分）",
-          "description": "2 题，每题 7 分，共 14 分。",
-          "scorePerQuestion": 7,
+          "title": "三、填空题（4 题，每题 2 分）",
+          "description": "4 题，每题 2 分，共 8 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0325",
-            "gen-p-0300"
+            "gen-p-0321",
+            "gen-p-0282",
+            "physics-work-001",
+            "physics-density-003"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、计算与实验题（2 题，每题 8 分）",
-          "description": "2 题，每题 8 分，共 16 分。",
-          "scorePerQuestion": 8,
+          "title": "四、作图题（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0284",
-            "gen-p-0383"
+            "draw-001",
+            "draw-002"
           ]
         },
         {
           "id": "sec-5",
-          "title": "四、计算与实验题（1 题，每题 11 分）",
+          "title": "五、实验探究题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "exp-pow-001",
+            "exp-ohm-001"
+          ]
+        },
+        {
+          "id": "sec-6",
+          "title": "六、计算题（1 题，每题 8 分）",
+          "description": "1 题，每题 8 分，共 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0325"
+          ]
+        },
+        {
+          "id": "sec-7",
+          "title": "六、计算题（1 题，每题 9 分）",
+          "description": "1 题，每题 9 分，共 9 分。",
+          "scorePerQuestion": 9,
+          "questionIds": [
+            "gen-p-0304"
+          ]
+        },
+        {
+          "id": "sec-8",
+          "title": "六、计算题（1 题，每题 11 分）",
           "description": "1 题，每题 11 分，共 11 分。",
           "scorePerQuestion": 11,
           "questionIds": [
-            "gen-p-0345"
+            "gen-p-0302"
           ]
         }
       ]
@@ -654,64 +910,96 @@
       "id": "physics-sim-009",
       "subject": "physics",
       "title": "物理冲刺模拟卷（九）",
-      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 63 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 74 分。",
       "durationMinutes": 90,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、单项选择题（8 题，每题 2 分）",
-          "description": "8 题，每题 2 分，共 16 分。",
+          "title": "一、单项选择题（11 题，每题 2 分）",
+          "description": "11 题，每题 2 分，共 22 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0338c",
-            "gen-p-0327c",
-            "gen-p-0368c",
+            "gen-p-0735",
+            "gen-p-0682",
+            "gen-p-0352c",
             "gen-p-0310c",
-            "gen-p-0386c",
-            "gen-p-0324c",
-            "gen-p-0323c",
-            "gen-p-0360c"
+            "gen-p-0722",
+            "gen-p-0292c",
+            "gen-p-0719",
+            "gen-p-0327c",
+            "home-002",
+            "gen-p-0329c",
+            "mag-009"
           ]
         },
         {
           "id": "sec-2",
-          "title": "三、填空题（3 题，每题 2 分）",
-          "description": "3 题，每题 2 分，共 6 分。",
-          "scorePerQuestion": 2,
+          "title": "二、多项选择题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
           "questionIds": [
-            "gen-p-0261",
-            "gen-p-0376",
-            "gen-p-0271"
+            "physics-force-003",
+            "gen-p-0709"
           ]
         },
         {
           "id": "sec-3",
-          "title": "四、计算与实验题（2 题，每题 7 分）",
-          "description": "2 题，每题 7 分，共 14 分。",
-          "scorePerQuestion": 7,
+          "title": "三、填空题（4 题，每题 2 分）",
+          "description": "4 题，每题 2 分，共 8 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0375",
-            "gen-p-0263"
+            "gen-p-0351",
+            "gen-p-0276",
+            "gen-p-0271",
+            "gen-p-0307"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、计算与实验题（2 题，每题 8 分）",
-          "description": "2 题，每题 8 分，共 16 分。",
-          "scorePerQuestion": 8,
+          "title": "四、作图题（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0273",
-            "gen-p-0284"
+            "draw-002",
+            "draw-001"
           ]
         },
         {
           "id": "sec-5",
-          "title": "四、计算与实验题（1 题，每题 11 分）",
+          "title": "五、实验探究题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "exp-ohm-001",
+            "exp-pow-001"
+          ]
+        },
+        {
+          "id": "sec-6",
+          "title": "六、计算题（1 题，每题 8 分）",
+          "description": "1 题，每题 8 分，共 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0269"
+          ]
+        },
+        {
+          "id": "sec-7",
+          "title": "六、计算题（1 题，每题 9 分）",
+          "description": "1 题，每题 9 分，共 9 分。",
+          "scorePerQuestion": 9,
+          "questionIds": [
+            "gen-p-0353"
+          ]
+        },
+        {
+          "id": "sec-8",
+          "title": "六、计算题（1 题，每题 11 分）",
           "description": "1 题，每题 11 分，共 11 分。",
           "scorePerQuestion": 11,
           "questionIds": [
-            "gen-p-0269"
+            "physics-ohm-002"
           ]
         }
       ]
@@ -720,64 +1008,96 @@
       "id": "physics-sim-010",
       "subject": "physics",
       "title": "物理冲刺模拟卷（十）",
-      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 63 分。",
+      "description": "卷面结构参考真实中考（满分蓝图 90 分，按可用题池自适应缩减）。满分 74 分。",
       "durationMinutes": 90,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、单项选择题（8 题，每题 2 分）",
-          "description": "8 题，每题 2 分，共 16 分。",
+          "title": "一、单项选择题（11 题，每题 2 分）",
+          "description": "11 题，每题 2 分，共 22 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0301c",
-            "gen-p-0289c",
-            "gen-p-0305c",
-            "gen-p-0277c",
-            "gen-p-0323c",
-            "gen-p-0298c",
-            "gen-p-0353c",
-            "gen-p-0361c"
+            "gen-p-0273c",
+            "gen-p-0372c",
+            "ckt-009",
+            "home-005",
+            "gen-p-0261c",
+            "gen-p-0342c",
+            "gen-p-0266c",
+            "mag-001",
+            "physics-ohm-003c",
+            "gen-p-0303c",
+            "physics-ohm-002c"
           ]
         },
         {
           "id": "sec-2",
-          "title": "三、填空题（3 题，每题 2 分）",
-          "description": "3 题，每题 2 分，共 6 分。",
-          "scorePerQuestion": 2,
+          "title": "二、多项选择题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
           "questionIds": [
-            "gen-p-0367",
-            "gen-p-0362",
-            "gen-p-0357"
+            "gen-p-0703",
+            "gen-p-0709"
           ]
         },
         {
           "id": "sec-3",
-          "title": "四、计算与实验题（2 题，每题 7 分）",
-          "description": "2 题，每题 7 分，共 14 分。",
-          "scorePerQuestion": 7,
+          "title": "三、填空题（4 题，每题 2 分）",
+          "description": "4 题，每题 2 分，共 8 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0292",
-            "gen-p-0280"
+            "ckt-010",
+            "gen-p-0301",
+            "gen-p-0271",
+            "gen-p-0311"
           ]
         },
         {
           "id": "sec-4",
-          "title": "四、计算与实验题（2 题，每题 8 分）",
-          "description": "2 题，每题 8 分，共 16 分。",
-          "scorePerQuestion": 8,
+          "title": "四、作图题（2 题，每题 2 分）",
+          "description": "2 题，每题 2 分，共 4 分。",
+          "scorePerQuestion": 2,
           "questionIds": [
-            "gen-p-0349",
-            "gen-p-0319"
+            "draw-001",
+            "draw-002"
           ]
         },
         {
           "id": "sec-5",
-          "title": "四、计算与实验题（1 题，每题 11 分）",
+          "title": "五、实验探究题（2 题，每题 3 分）",
+          "description": "2 题，每题 3 分，共 6 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "exp-pow-001",
+            "exp-ohm-001"
+          ]
+        },
+        {
+          "id": "sec-6",
+          "title": "六、计算题（1 题，每题 8 分）",
+          "description": "1 题，每题 8 分，共 8 分。",
+          "scorePerQuestion": 8,
+          "questionIds": [
+            "gen-p-0365"
+          ]
+        },
+        {
+          "id": "sec-7",
+          "title": "六、计算题（1 题，每题 9 分）",
+          "description": "1 题，每题 9 分，共 9 分。",
+          "scorePerQuestion": 9,
+          "questionIds": [
+            "gen-p-0333"
+          ]
+        },
+        {
+          "id": "sec-8",
+          "title": "六、计算题（1 题，每题 11 分）",
           "description": "1 题，每题 11 分，共 11 分。",
           "scorePerQuestion": 11,
           "questionIds": [
-            "gen-p-0308"
+            "gen-p-0353"
           ]
         }
       ]

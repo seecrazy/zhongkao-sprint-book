@@ -5,7 +5,7 @@ import type { ExamPaper } from "../types";
 
 describe("math content", () => {
   it("has a stable content version", () => {
-    expect(mathContent.version).toBe("math-v0.6");
+    expect(mathContent.version).toBe("math-v0.7");
   });
 
   it("provides a complete structured lesson for every knowledge point", () => {

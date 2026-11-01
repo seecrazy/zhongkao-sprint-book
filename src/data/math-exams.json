@@ -1,5 +1,5 @@
 {
-  "version": "math-exams-v0.5",
+  "version": "math-exams-v0.7",
   "exams": [
     {
       "id": "math-mock-001",
@@ -108,6 +108,52 @@
             "math-congruence-001",
             "math-congruence-003",
             "math-similarity-002"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-geometry-precision-001",
+      "subject": "math",
+      "title": "几何基础专项卷",
+      "description": "覆盖相交线与平行线、三角形与全等相似、四边形圆与变换的分区专项卷，适合每周做一次几何体检。",
+      "durationMinutes": 20,
+      "level": "topic",
+      "sections": [
+        {
+          "id": "lines-angles",
+          "title": "线段、角与平行线",
+          "description": "对顶角、同旁内角与余角补角的计算。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "math-lines-001",
+            "math-lines-002",
+            "math-lines-003"
+          ]
+        },
+        {
+          "id": "triangles",
+          "title": "三角形、全等与相似",
+          "description": "全等判定、相似性质与勾股定理。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "math-congruence-002",
+            "math-similarity-001",
+            "math-right-triangle-001",
+            "math-right-triangle-002"
+          ]
+        },
+        {
+          "id": "quads-circles-transform",
+          "title": "四边形、圆、勾股与变换",
+          "description": "平行四边形判定、垂径定理与坐标变换。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "math-quadrilateral-001",
+            "math-quadrilateral-002",
+            "math-circle-001",
+            "math-circle-002",
+            "math-transformation-001"
           ]
         }
       ]

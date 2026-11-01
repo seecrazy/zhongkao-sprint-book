@@ -1,5 +1,5 @@
 {
-  "version": "math-v0.6",
+  "version": "math-v0.7",
   "knowledgePoints": [
     {
       "id": "math-equation-quadratic",
@@ -737,6 +737,467 @@
       }
     },
     {
+      "id": "math-geometry-lines-angles",
+      "name": "相交线与平行线",
+      "subject": "math",
+      "summary": "掌握对顶角、余补角、三线八角与平行线的判定和性质。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "会识别对顶角、邻补角，并用互余互补关系计算角度。",
+          "能在三线八角中准确找出同位角、内错角和同旁内角。",
+          "会用平行线的判定与性质进行简单的角度推理。"
+        ],
+        "keyIdea": "判定与性质方向相反：由角的关系推出平行用判定，由平行推出角的关系用性质；计算前先在图上标出已知角。",
+        "concepts": [
+          {
+            "title": "相交线中的角",
+            "content": [
+              "两直线相交得到四对邻补角、两对对顶角，对顶角相等。",
+              "如果两个角的和为 $90^\\circ$，称它们互为余角；和为 $180^\\circ$ 称互为补角。",
+              "同角（或等角）的余角相等，同角（或等角）的补角相等。"
+            ]
+          },
+          {
+            "title": "垂直与垂线段",
+            "content": [
+              "过一点有且只有一条直线与已知直线垂直。",
+              "直线外一点与直线上各点连接的所有线段中，垂线段最短。",
+              "点到直线的距离就是垂线段的长度。"
+            ]
+          },
+          {
+            "title": "三线八角",
+            "content": [
+              "两条直线被第三条直线所截，形成同位角（$F$ 型）、内错角（$Z$ 型）和同旁内角（$U$ 型）。",
+              "这些角本身没有数量关系，只有在两直线平行时才产生相等或互补关系。"
+            ]
+          },
+          {
+            "title": "平行线的判定与性质",
+            "content": [
+              "判定：同位角相等，或内错角相等，或同旁内角互补，则两直线平行。",
+              "性质：两直线平行，则同位角相等、内错角相等、同旁内角互补。",
+              "判定是由角推平行，性质是由平行推角，考试中最容易混用。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "对顶角性质",
+            "expression": "$\\angle 1=\\angle 2$（对顶角相等）"
+          },
+          {
+            "name": "互余与互补",
+            "expression": "$\\angle 1+\\angle 2=90^\\circ$（互余），$\\angle 1+\\angle 2=180^\\circ$（互补）"
+          },
+          {
+            "name": "平行线性质",
+            "expression": "两直线平行$\\Rightarrow$同位角相等、内错角相等、同旁内角互补"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "对顶角求角",
+            "problem": "直线 $AB$、$CD$ 相交于点 $O$，$\\angle AOC=40^\\circ$，求 $\\angle BOD$。",
+            "steps": [
+              "$\\angle AOC$ 与 $\\angle BOD$ 是对顶角。",
+              "对顶角相等，所以 $\\angle BOD=\\angle AOC$。",
+              "得出 $\\angle BOD=40^\\circ$。"
+            ],
+            "answer": "$40^\\circ$",
+            "takeaway": "看到两直线相交，先找对顶角和邻补角，角度会成对出现。"
+          },
+          {
+            "title": "同旁内角互补",
+            "problem": "$AB\\parallel CD$，$\\angle 1=65^\\circ$，$\\angle 1$ 与 $\\angle 2$ 是同旁内角，求 $\\angle 2$。",
+            "steps": [
+              "两直线平行，同旁内角互补。",
+              "$\\angle 1+\\angle 2=180^\\circ$。",
+              "$\\angle 2=180^\\circ-65^\\circ=115^\\circ$。"
+            ],
+            "answer": "$115^\\circ$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把性质当判定用，例如“内错角相等（未证平行）所以两直线平行”方向写反。",
+            "correction": "先分清推理方向：由角推平行是判定，由平行推角是性质。"
+          },
+          {
+            "mistake": "未证明平行就直接使用内错角相等。",
+            "correction": "任意两线被第三线所截的内错角不一定相等，必须先有平行条件。"
+          }
+        ],
+        "strategy": "角度计算先标图：对顶角相等、邻补角互补可以快速转移角度；证明平行时在 $F$、$Z$、$U$ 三种模型中找一个关系即可。"
+      }
+    },
+    {
+      "id": "math-geometry-quadrilateral",
+      "name": "四边形与特殊平行四边形",
+      "subject": "math",
+      "summary": "掌握平行四边形、矩形、菱形、正方形的判定与性质及中位线定理。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握平行四边形的定义、性质和常用判定方法。",
+          "理解矩形、菱形、正方形之间的联系与区别。",
+          "会用菱形面积公式和三角形中位线定理进行计算。"
+        ],
+        "keyIdea": "特殊四边形是逐级加条件得到的：平行四边形加“一个角是直角”成矩形，加“一组邻边相等”成菱形，两者兼备成正方形。",
+        "concepts": [
+          {
+            "title": "平行四边形",
+            "content": [
+              "两组对边分别平行的四边形是平行四边形。",
+              "性质：对边平行且相等，对角相等，对角线互相平分。",
+              "常用判定：两组对边分别平行（或分别相等）、一组对边平行且相等、对角线互相平分。"
+            ]
+          },
+          {
+            "title": "矩形与菱形",
+            "content": [
+              "有一个角是直角的平行四边形是矩形；矩形的四个角都是直角，对角线相等。",
+              "有一组邻边相等的平行四边形是菱形；菱形四条边相等，对角线互相垂直，且每条对角线平分一组对角。",
+              "对角线的差异是区分两者的关键：矩形对角线相等，菱形对角线垂直。"
+            ]
+          },
+          {
+            "title": "正方形",
+            "content": [
+              "正方形既是矩形又是菱形，同时具备两者的全部性质。",
+              "四边相等、四角为直角、对角线相等且互相垂直平分。"
+            ]
+          },
+          {
+            "title": "中位线定理",
+            "content": [
+              "连接三角形两边中点的线段叫三角形的中位线。",
+              "中位线平行于第三边，且等于第三边的一半。",
+              "三角形三条中位线把原三角形分成四个全等的小三角形。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "平行四边形面积",
+            "expression": "$S=\\text{底}\\times\\text{高}$"
+          },
+          {
+            "name": "菱形面积",
+            "expression": "$S=\\dfrac{1}{2}d_1 d_2$（$d_1$、$d_2$ 为两条对角线长）"
+          },
+          {
+            "name": "三角形中位线",
+            "expression": "$\\text{中位线}=\\dfrac{1}{2}\\times\\text{第三边}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "矩形对角线求边",
+            "problem": "矩形的对角线长为 $10$，一条边长为 $6$，求另一条边长。",
+            "steps": [
+              "矩形四个角是直角，边与对角线构成直角三角形。",
+              "用勾股定理：另一边 $=\\sqrt{10^2-6^2}$。",
+              "$=\\sqrt{64}=8$。"
+            ],
+            "answer": "$8$",
+            "takeaway": "矩形对角线与两边组成直角三角形，常与勾股定理结合出题。"
+          },
+          {
+            "title": "菱形面积",
+            "problem": "菱形两条对角线长分别为 $6$ 和 $8$，求它的面积。",
+            "steps": [
+              "菱形对角线互相垂直。",
+              "直接用公式 $S=\\dfrac{1}{2}d_1 d_2$。",
+              "$S=\\dfrac{1}{2}\\times 6\\times 8=24$。"
+            ],
+            "answer": "$24$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "认为“对角线相等的四边形是矩形”。",
+            "correction": "还必须是平行四边形才成立；判定特殊四边形通常先证平行四边形，再加条件升级。"
+          },
+          {
+            "mistake": "菱形面积忘记除以 $2$，直接用对角线乘积。",
+            "correction": "对角线垂直时面积等于对角线乘积的一半。"
+          }
+        ],
+        "strategy": "判定题按“先平行四边形、再升级特殊形”的顺序写；计算题先看对角线是否垂直，垂直则优先用菱形面积公式。"
+      }
+    },
+    {
+      "id": "math-geometry-circle",
+      "name": "圆的基本性质与计算",
+      "subject": "math",
+      "summary": "掌握圆周角定理、垂径定理及弧长、扇形面积公式。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握圆心角与圆周角的关系，会用直径所对圆周角是直角。",
+          "会用垂径定理求弦长、弦心距和半径。",
+          "会计算弧长和扇形面积。"
+        ],
+        "keyIdea": "圆中计算常“连半径、造直角”：垂径定理构造半弦与弦心距的直角三角形，直径所对圆周角是现成的直角。",
+        "concepts": [
+          {
+            "title": "圆心角与圆周角",
+            "content": [
+              "顶点在圆心的角是圆心角，顶点在圆上、两边与圆相交的角是圆周角。",
+              "圆周角定理：同弧所对的圆周角等于它所对圆心角的一半。",
+              "直径所对的圆周角是直角；$90^\\circ$ 的圆周角所对的弦是直径。"
+            ]
+          },
+          {
+            "title": "垂径定理",
+            "content": [
+              "垂直于弦的直径平分这条弦，并且平分弦所对的两条弧。",
+              "设半径为 $r$，弦心距为 $d$，半弦长为 $a$，则 $r^2=d^2+a^2$。",
+              "解题时把半径、弦心距、半弦长放进同一个直角三角形。"
+            ]
+          },
+          {
+            "title": "弧长与扇形面积",
+            "content": [
+              "$n^\\circ$ 的圆心角所对弧长 $l=\\dfrac{n\\pi r}{180}$。",
+              "扇形面积 $S=\\dfrac{n\\pi r^2}{360}$，也可以写成 $S=\\dfrac{1}{2}lr$。",
+              "弧长公式分母是 $180$，扇形面积公式分母是 $360$，注意区分。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "圆周角定理",
+            "expression": "$\\angle\\text{圆周角}=\\dfrac{1}{2}\\angle\\text{同弧圆心角}$"
+          },
+          {
+            "name": "垂径定理勾股关系",
+            "expression": "$r^2=d^2+a^2$（$r$ 半径、$d$ 弦心距、$a$ 半弦长）"
+          },
+          {
+            "name": "弧长与扇形面积",
+            "expression": "$l=\\dfrac{n\\pi r}{180},\\quad S=\\dfrac{n\\pi r^2}{360}=\\dfrac{1}{2}lr$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "垂径定理求弦心距",
+            "problem": "$\\odot O$ 半径为 $5$，弦 $AB=8$，求圆心 $O$ 到 $AB$ 的距离。",
+            "steps": [
+              "过 $O$ 作 $OD\\perp AB$ 于 $D$，由垂径定理 $AD=\\dfrac{1}{2}AB=4$。",
+              "在 $\\mathrm{Rt}\\triangle OAD$ 中，$OA=5$，$AD=4$。",
+              "$OD=\\sqrt{5^2-4^2}=\\sqrt{9}=3$。"
+            ],
+            "answer": "$3$",
+            "takeaway": "“半径、弦心距、半弦长”三个量知道任意两个就能求第三个。"
+          },
+          {
+            "title": "求弧长",
+            "problem": "半径为 $3$ 的圆中，$120^\\circ$ 圆心角所对的弧长是多少？",
+            "steps": [
+              "代入弧长公式 $l=\\dfrac{n\\pi r}{180}$。",
+              "$l=\\dfrac{120\\times\\pi\\times 3}{180}$。",
+              "$l=2\\pi$。"
+            ],
+            "answer": "$2\\pi$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "垂径定理使用时忘记取半弦，直接把整条弦代入勾股。",
+            "correction": "垂径定理平分弦，直角三角形中的直角边是半弦长。"
+          },
+          {
+            "mistake": "弧长与扇形面积公式混用，分母写错。",
+            "correction": "弧长分母 $180$，扇形面积分母 $360$；也可用 $S=\\dfrac{1}{2}lr$ 反向检查。"
+          }
+        ],
+        "strategy": "见“弦长 + 半径”想垂径定理；见“角度 + 半径”想弧长或扇形面积；圆周角问题优先找同弧或直径。"
+      }
+    },
+    {
+      "id": "math-geometry-right-triangle",
+      "name": "直角三角形与勾股定理",
+      "subject": "math",
+      "summary": "掌握勾股定理及其逆定理、常见勾股数和斜边上的高的求法。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "会用勾股定理求直角三角形的边长。",
+          "会用勾股定理的逆定理判断直角三角形。",
+          "熟记常见勾股数，会用面积法求斜边上的高。"
+        ],
+        "keyIdea": "勾股定理只在直角三角形中成立；先确认直角或找出最长边，再套 $a^2+b^2=c^2$。",
+        "concepts": [
+          {
+            "title": "勾股定理",
+            "content": [
+              "直角三角形两直角边为 $a$、$b$，斜边为 $c$，则 $a^2+b^2=c^2$。",
+              "已知任意两边可求第三边；斜边一定是直角所对的边，也是最长边。"
+            ]
+          },
+          {
+            "title": "逆定理",
+            "content": [
+              "若三角形三边满足 $a^2+b^2=c^2$（$c$ 为最长边），则这个三角形是直角三角形，且 $c$ 所对的角是直角。",
+              "判断时先把三边按大小排序，验证较小两边的平方和是否等于最大边的平方。"
+            ]
+          },
+          {
+            "title": "常见勾股数",
+            "content": [
+              "$(3,4,5)$、$(5,12,13)$、$(6,8,10)$、$(7,24,25)$。",
+              "把每组数同时扩大相同倍数仍是勾股数，例如 $(9,12,15)$。"
+            ]
+          },
+          {
+            "title": "斜边上的高",
+            "content": [
+              "直角三角形面积为 $\\dfrac{1}{2}ab$（两直角边），也等于 $\\dfrac{1}{2}ch$（斜边与斜边上的高）。",
+              "所以斜边上的高 $h=\\dfrac{ab}{c}$。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "勾股定理",
+            "expression": "$a^2+b^2=c^2$（$c$ 为斜边）"
+          },
+          {
+            "name": "逆定理",
+            "expression": "$a^2+b^2=c^2\\Rightarrow\\triangle$ 是直角三角形"
+          },
+          {
+            "name": "斜边上的高",
+            "expression": "$h=\\dfrac{ab}{c}$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "求斜边",
+            "problem": "直角三角形两直角边分别为 $6$ 和 $8$，求斜边长。",
+            "steps": [
+              "识别勾股数：$6,8$ 是 $(3,4,5)$ 的 $2$ 倍。",
+              "斜边 $c=\\sqrt{6^2+8^2}$。",
+              "$c=\\sqrt{100}=10$。"
+            ],
+            "answer": "$10$",
+            "takeaway": "先试勾股数再动笔开方，速度更快。"
+          },
+          {
+            "title": "求斜边上的高",
+            "problem": "直角三角形两直角边为 $6$ 和 $8$，求斜边上的高。",
+            "steps": [
+              "斜边 $c=10$。",
+              "用面积法 $h=\\dfrac{ab}{c}$。",
+              "$h=\\dfrac{6\\times 8}{10}=4.8$。"
+            ],
+            "answer": "$4.8$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "不确定哪条边是斜边就乱套公式。",
+            "correction": "先找直角或最长边，最长边才是斜边 $c$。"
+          },
+          {
+            "mistake": "逆定理条件写成 $a+b=c$。",
+            "correction": "必须验证平方和关系 $a^2+b^2=c^2$。"
+          }
+        ],
+        "strategy": "求边先背勾股数；求斜边上的高直接用 $h=\\dfrac{ab}{c}$；证明直角先把三边排序再验证平方和。"
+      }
+    },
+    {
+      "id": "math-geometry-transformation",
+      "name": "图形变换：平移、旋转与轴对称",
+      "subject": "math",
+      "summary": "掌握平移、旋转、轴对称的性质及坐标系中的坐标变换规律。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握轴对称、平移、旋转的共同性质与各自特征。",
+          "能在平面直角坐标系中写出对称点和平移后的坐标。",
+          "能利用变换前后图形全等解决简单的计算问题。"
+        ],
+        "keyIdea": "三种变换都是全等变换：形状、大小不变，改变的是位置（平移、轴对称）或方向（旋转、轴对称）。",
+        "concepts": [
+          {
+            "title": "轴对称",
+            "content": [
+              "对应点连线被对称轴垂直平分；对应线段、对应角相等。",
+              "点 $(x,y)$ 关于 $x$ 轴对称得 $(x,-y)$；关于 $y$ 轴对称得 $(-x,y)$。"
+            ]
+          },
+          {
+            "title": "平移",
+            "content": [
+              "平移前后对应点连线平行（或在同一直线上）且相等。",
+              "向右平移 $a$ 个单位：横坐标加 $a$；向上平移 $b$ 个单位：纵坐标加 $b$。",
+              "口诀：左减右加，下减上加。"
+            ]
+          },
+          {
+            "title": "旋转",
+            "content": [
+              "对应点到旋转中心的距离相等，对应点与旋转中心连线所成的角都等于旋转角。",
+              "旋转前后图形全等，对应线段相等、对应角相等。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "轴对称坐标",
+            "expression": "$(x,y)\\xrightarrow{x\\text{ 轴}}(x,-y),\\quad(x,y)\\xrightarrow{y\\text{ 轴}}(-x,y)$"
+          },
+          {
+            "name": "平移坐标",
+            "expression": "$(x,y)\\xrightarrow{\\text{右移 }a,\\text{ 上移 }b}(x+a,y+b)$"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "求对称点",
+            "problem": "求点 $P(2,-3)$ 关于 $y$ 轴对称的点的坐标。",
+            "steps": [
+              "关于 $y$ 轴对称：横坐标变相反数，纵坐标不变。",
+              "$P(2,-3)\\to(-2,-3)$。"
+            ],
+            "answer": "$(-2,-3)$",
+            "takeaway": "关于哪个轴对称，哪个轴对应的坐标不变，另一个变号。"
+          },
+          {
+            "title": "平移变换",
+            "problem": "点 $A(1,2)$ 向右平移 $3$ 个单位，再向上平移 $1$ 个单位，求得到点的坐标。",
+            "steps": [
+              "向右平移 $3$：横坐标 $1+3=4$。",
+              "向上平移 $1$：纵坐标 $2+1=3$。",
+              "得到点 $(4,3)$。"
+            ],
+            "answer": "$(4,3)$"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "关于 $x$ 轴对称时把横坐标变号。",
+            "correction": "关于 $x$ 轴对称是纵坐标变号；关于 $y$ 轴对称才是横坐标变号。"
+          },
+          {
+            "mistake": "平移方向与加减弄反，例如向右平移却减。",
+            "correction": "记住口诀“左减右加、下减上加”。"
+          }
+        ],
+        "strategy": "坐标变换题先把口诀写在草稿上再代入数值；几何图形变换题抓“全等 + 对应关系”两条线索。"
+      }
+    },
+    {
       "id": "math-probability-basic",
       "name": "概率初步",
       "subject": "math",
@@ -1467,6 +1928,366 @@
       "explanation": "配方得 $y=-(x-2)^2+5$。因为 $a=-1<0$，抛物线开口向下，最大值为 $5$。",
       "optimalSolution": "求最值优先配方或使用顶点公式，先确认开口方向。",
       "commonMistake": "只求顶点横坐标，忘记代入求最大值。"
+    },
+    {
+      "id": "math-lines-001",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-lines-angles"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "直线 $AB$、$CD$ 相交于点 $O$，$\\angle AOC = 40^\\circ$，则 $\\angle BOD$ 的度数是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "$40^\\circ$"
+        },
+        {
+          "key": "B",
+          "label": "$50^\\circ$"
+        },
+        {
+          "key": "C",
+          "label": "$140^\\circ$"
+        },
+        {
+          "key": "D",
+          "label": "$160^\\circ$"
+        }
+      ],
+      "answer": "A",
+      "explanation": "$\\angle AOC$ 与 $\\angle BOD$ 是对顶角，对顶角相等，所以 $\\angle BOD = 40^\\circ$。",
+      "optimalSolution": "两直线相交直接找对顶角，相等关系秒出答案。",
+      "commonMistake": "把对顶角与邻补角混淆，误选 $140^\\circ$。"
+    },
+    {
+      "id": "math-lines-002",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-lines-angles"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "已知 $AB \\parallel CD$，$\\angle 1 = 65^\\circ$，$\\angle 1$ 与 $\\angle 2$ 是同旁内角，则 $\\angle 2 = $ ______ $^\\circ$。",
+      "source": "平行线性质专项",
+      "answer": 115,
+      "explanation": "两直线平行，同旁内角互补，所以 $\\angle 2 = 180^\\circ - 65^\\circ = 115^\\circ$。",
+      "optimalSolution": "看到平行线 + 同旁内角，直接互补相减。",
+      "commonMistake": "误用内错角相等，得出 $65^\\circ$。"
+    },
+    {
+      "id": "math-lines-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-lines-angles"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 90,
+      "stem": "一个角的补角是它的余角的 $3$ 倍，求这个角的度数。（用角度作答，如 $60^\\circ$）",
+      "source": "余角补角综合题",
+      "acceptedAnswers": [
+        "45°",
+        "45",
+        "x=45°",
+        "45度",
+        "这个角是45°",
+        "45 °"
+      ],
+      "explanation": "设这个角为 $x$，则补角为 $180-x$，余角为 $90-x$。由题意 $180 - x = 3(90 - x)$，解得 $x = 45$，即 $45^\\circ$。",
+      "optimalSolution": "直接设未知数列方程：补角 $=3\\times$ 余角，一步解出。",
+      "commonMistake": "把“补角是余角的 3 倍”写成 $90 - x = 3(180 - x)$，方向写反。"
+    },
+    {
+      "id": "math-quadrilateral-001",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-quadrilateral"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 45,
+      "stem": "下列条件中，能判定四边形 $ABCD$ 是平行四边形的是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "一组对边相等"
+        },
+        {
+          "key": "B",
+          "label": "两组对边分别平行"
+        },
+        {
+          "key": "C",
+          "label": "对角线相等"
+        },
+        {
+          "key": "D",
+          "label": "一组邻角互补"
+        }
+      ],
+      "answer": "B",
+      "explanation": "平行四边形的定义是两组对边分别平行的四边形，故 B 正确。A 缺少“另一组对边也相等（或平行）”的条件；C、D 均不能推出两组对边平行。",
+      "optimalSolution": "判定平行四边形优先回忆定义：两组对边分别平行。",
+      "commonMistake": "误认为一组对边相等就够了。"
+    },
+    {
+      "id": "math-quadrilateral-002",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-quadrilateral"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "菱形的两条对角线长分别为 $6$ 和 $8$，则它的面积是 ______。",
+      "source": "特殊四边形计算",
+      "answer": 24,
+      "explanation": "菱形对角线互相垂直，面积 $S = \\dfrac{1}{2} \\times 6 \\times 8 = 24$。",
+      "optimalSolution": "对角线已知且垂直，直接用 $\\dfrac{1}{2}d_1 d_2$。",
+      "commonMistake": "忘记除以 $2$，得出 $48$。"
+    },
+    {
+      "id": "math-quadrilateral-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-quadrilateral"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 75,
+      "stem": "三角形的三边长分别为 $6$、$8$、$10$，连接三边中点所得的三角形的周长是 ______。",
+      "source": "中位线定理应用",
+      "answer": 12,
+      "explanation": "中位线三角形各边等于原三角形对应边的一半，周长 $= \\dfrac{1}{2}(6+8+10) = 12$。",
+      "optimalSolution": "中位线三角形周长恒等于原三角形周长的一半。",
+      "commonMistake": "只把某一条边取一半，其余照抄。"
+    },
+    {
+      "id": "math-circle-001",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-circle"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "在 $\\odot O$ 中，一条弧所对的圆心角为 $80^\\circ$，则这条弧所对的圆周角为（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "$40^\\circ$"
+        },
+        {
+          "key": "B",
+          "label": "$80^\\circ$"
+        },
+        {
+          "key": "C",
+          "label": "$160^\\circ$"
+        },
+        {
+          "key": "D",
+          "label": "$20^\\circ$"
+        }
+      ],
+      "answer": "A",
+      "explanation": "圆周角定理：同弧所对的圆周角等于圆心角的一半，$80^\\circ \\div 2 = 40^\\circ$。",
+      "optimalSolution": "同弧条件下直接取圆心角的一半。",
+      "commonMistake": "忘记除以 $2$，误选 $80^\\circ$。"
+    },
+    {
+      "id": "math-circle-002",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-circle"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 70,
+      "stem": "$\\odot O$ 的半径为 $5$，弦 $AB = 8$，则圆心 $O$ 到弦 $AB$ 的距离是 ______。",
+      "source": "垂径定理专项",
+      "answer": 3,
+      "explanation": "过 $O$ 作 $OD \\perp AB$，由垂径定理 $AD = 4$。在 $\\mathrm{Rt}\\triangle OAD$ 中，$OD = \\sqrt{5^2 - 4^2} = 3$。",
+      "optimalSolution": "“半径、弦心距、半弦长”构成直角三角形，勾股定理一步求解。",
+      "commonMistake": "忘记取半弦，把 $8$ 直接代入勾股。"
+    },
+    {
+      "id": "math-circle-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-circle"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 80,
+      "stem": "扇形的半径为 $6$，圆心角为 $60^\\circ$，则扇形的面积是 ______ $\\pi$。（结果用 $\\pi$ 的系数表示，如 $2\\pi$ 填 $2$，保留两位小数）",
+      "source": "弧长与扇形面积",
+      "answer": 6,
+      "tolerance": 0.01,
+      "explanation": "$S = \\dfrac{n\\pi r^2}{360} = \\dfrac{60 \\times \\pi \\times 36}{360} = 6\\pi$，系数为 $6$。",
+      "optimalSolution": "扇形面积 = 圆面积 × $\\dfrac{60}{360} = 36\\pi \\times \\dfrac{1}{6} = 6\\pi$。",
+      "commonMistake": "分母用成 $180$（弧长公式），得出 $12\\pi$。"
+    },
+    {
+      "id": "math-right-triangle-001",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-right-triangle"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "下列各组数中，是勾股数的是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "$1, 2, 3$"
+        },
+        {
+          "key": "B",
+          "label": "$4, 5, 6$"
+        },
+        {
+          "key": "C",
+          "label": "$6, 8, 10$"
+        },
+        {
+          "key": "D",
+          "label": "$5, 11, 12$"
+        }
+      ],
+      "answer": "C",
+      "explanation": "$6^2 + 8^2 = 36 + 64 = 100 = 10^2$，满足勾股数定义，故选 C。其余各组平方和关系不成立。",
+      "optimalSolution": "先看是否是常见勾股数的倍数：$(6,8,10)$ 是 $(3,4,5)$ 的 $2$ 倍。",
+      "commonMistake": "只验证 $a + b > c$ 就选，没验证平方和。"
+    },
+    {
+      "id": "math-right-triangle-002",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-right-triangle"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "直角三角形的两条直角边分别为 $5$ 和 $12$，则斜边长为 ______。",
+      "source": "勾股定理基础",
+      "answer": 13,
+      "explanation": "$c = \\sqrt{5^2 + 12^2} = \\sqrt{169} = 13$，即勾股数 $(5, 12, 13)$。",
+      "optimalSolution": "直接识别勾股数 $(5,12,13)$。",
+      "commonMistake": "把较长直角边当斜边。"
+    },
+    {
+      "id": "math-right-triangle-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-right-triangle"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 3,
+      "estimatedSeconds": 80,
+      "stem": "直角三角形的两直角边分别为 $6$ 和 $8$，则斜边上的高等于 ______。（保留一位小数）",
+      "source": "面积法求高",
+      "answer": 4.8,
+      "tolerance": 0.05,
+      "explanation": "斜边 $c = 10$。由等面积法 $\\dfrac{1}{2} \\times 6 \\times 8 = \\dfrac{1}{2} \\times 10 \\times h$，得 $h = 4.8$。",
+      "optimalSolution": "直接用公式 $h = \\dfrac{ab}{c} = \\dfrac{48}{10} = 4.8$。",
+      "commonMistake": "求出斜边后忘记面积法，无从下手。"
+    },
+    {
+      "id": "math-transformation-001",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-transformation"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "点 $P(3, -2)$ 关于 $x$ 轴对称的点的坐标是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "$(-3, -2)$"
+        },
+        {
+          "key": "B",
+          "label": "$(3, 2)$"
+        },
+        {
+          "key": "C",
+          "label": "$(-3, 2)$"
+        },
+        {
+          "key": "D",
+          "label": "$(2, -3)$"
+        }
+      ],
+      "answer": "B",
+      "explanation": "关于 $x$ 轴对称：横坐标不变，纵坐标变号，得 $(3, 2)$。",
+      "optimalSolution": "口诀：关于谁对称谁不变，另一个变号。",
+      "commonMistake": "误把横坐标变号，选 A。"
+    },
+    {
+      "id": "math-transformation-002",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-transformation"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 2,
+      "estimatedSeconds": 50,
+      "stem": "点 $A(1, 2)$ 向右平移 $3$ 个单位，再向下平移 $5$ 个单位，得到点 $A'$，则 $A'$ 的横坐标是 ______。",
+      "source": "平移变换",
+      "answer": 4,
+      "explanation": "向右平移 $3$ 个单位：横坐标 $1 + 3 = 4$（向下平移只改变纵坐标）。",
+      "optimalSolution": "口诀“左减右加、下减上加”，横坐标只看左右。",
+      "commonMistake": "受“向下平移 $5$”干扰，误把横坐标减 $5$。"
+    },
+    {
+      "id": "math-transformation-003",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-transformation"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "点 $P(2, -5)$ 关于 $y$ 轴对称的点的坐标是 ______。（按 $(x, y)$ 格式作答）",
+      "source": "轴对称坐标变换",
+      "acceptedAnswers": [
+        "(-2,-5)",
+        "(-2, -5)",
+        "（-2，-5）",
+        "（-2,-5）",
+        "(-2，-5)"
+      ],
+      "explanation": "关于 $y$ 轴对称：横坐标变号，纵坐标不变，得 $(-2, -5)$。",
+      "optimalSolution": "关于 $y$ 轴对称，$x$ 变号、$y$ 不变。",
+      "commonMistake": "误对纵坐标变号，得出 $(2, 5)$。"
     }
   ]
 }

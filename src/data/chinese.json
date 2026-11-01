@@ -1,0 +1,867 @@
+{
+  "version": "chinese-v0.12",
+  "knowledgePoints": [
+    {
+      "id": "chinese-characters",
+      "name": "字音与字形",
+      "subject": "chinese",
+      "summary": "掌握常用字的读音和常见易错字的书写。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握常用易错字的读音，注意多音字和形声字。",
+          "辨析形近字和同音字，正确书写常用词语。",
+          "能根据拼音写出正确的汉字。"
+        ],
+        "keyIdea": "字音靠积累（重点记多音字和习惯性误读字），字形靠理解（据义定形，形声字看声旁表音、形旁表义）。",
+        "concepts": [
+          {
+            "title": "字音辨析方法",
+            "content": [
+              "多音字按义定音：如“处”（chǔ 理-football处理动词读 chǔ，chù 名词如“到处”）。",
+              "警惕习惯性误读：“角（jué）色”不读 jiǎo，“载（zài）歌载舞”不读 zǎi。",
+              "形声字声旁不一定读原音：“酗（xù）酒”不读 xiōng。"
+            ]
+          },
+          {
+            "title": "字形辨析方法",
+            "content": [
+              "据义定形：“一筹莫展”的“筹”是筹码，不是“愁”。",
+              "形近字区分：“崇（chóng）高”与“祟（suì）”，“躁（急躁，足字旁）”与“燥（干燥，火字旁）”。",
+              "成语中的字要按成语本义记：“走投无路”不是“走头无路”。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "据义定音",
+            "expression": "多音字：先定义项，再定读音"
+          },
+          {
+            "name": "据义定形",
+            "expression": "成语字形：先懂本义，再定用字"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "多音字定音",
+            "problem": "“处理”和“到处”中的“处”分别读什么？",
+            "steps": [
+              "“处理”中“处”是动词，读 chǔ。",
+              "“到处”中“处”是名词，读 chù。"
+            ],
+            "answer": "chǔ；chù",
+            "takeaway": "多音字按义定音。"
+          },
+          {
+            "title": "据义定形",
+            "problem": "“迫不（jí）待”应写作什么？",
+            "steps": [
+              "意思是急迫得不能再等待。",
+              "对应的字是“及”（达到）。",
+              "写作“迫不及待”。"
+            ],
+            "answer": "迫不及待"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把“一筹莫展”写成“一愁莫展”。",
+            "correction": "“筹”是筹码，据义定形。"
+          },
+          {
+            "mistake": "把“角色”读成 jiǎosè。",
+            "correction": "“角”在“角色”中读 jué。"
+          }
+        ],
+        "strategy": "字音字形靠日常积累，把每次考试中做错的字整理成“错字本”，考前集中复习；答题时先用排除法缩小范围。"
+      }
+    },
+    {
+      "id": "chinese-words-idioms",
+      "name": "词语与成语运用",
+      "subject": "chinese",
+      "summary": "掌握选词填空的方法和成语的正确使用。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "能根据语境选择恰当的词语。",
+          "能判断成语使用是否正确。",
+          "能根据意思写出正确的成语。"
+        ],
+        "keyIdea": "选词看语境搭配和程度轻重；成语看对象、褒贬和语境是否矛盾。",
+        "concepts": [
+          {
+            "title": "选词填空",
+            "content": [
+              "关注词语的搭配对象：如“维持秩序”“保持安静”。",
+              "关注程度轻重和感情色彩：如“扼守”程度重于“把守”。",
+              "代入通读，看语意是否连贯。"
+            ]
+          },
+          {
+            "title": "成语运用",
+            "content": [
+              "看对象：如“美轮美奂”多形容建筑，不能形容风景随口乱用。",
+              "看褒贬：如“处心积虑”是贬义，“殚精竭虑”是褒义。",
+              "看语境：如“曾几何时”表示时间过去不久，不能当“曾经”用。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "选词三查",
+            "expression": "查搭配 · 查色彩 · 查语境"
+          },
+          {
+            "name": "成语三看",
+            "expression": "看对象 · 看褒贬 · 看语境"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "选词填空",
+            "problem": "科学家们经过反复（　），终于攻克了难题。（A. 实验 B. 试验 C. 实践）",
+            "steps": [
+              "“反复”修饰验证性操作。",
+              "“试验”指尝试验证，“实验”指科学操作验证，二者均可时再看搭配。",
+              "与“反复”和“攻克难题”搭配最贴切的是“试验”。"
+            ],
+            "answer": "B",
+            "takeaway": "拿不准时全部代入通读一遍。"
+          },
+          {
+            "title": "成语正误",
+            "problem": "判断：他做的诗毫无韵味，真是妙笔生花。",
+            "steps": [
+              "“妙笔生花”是褒义，形容文笔好。",
+              "语境说“毫无韵味”，前后矛盾。",
+              "成语使用错误。"
+            ],
+            "answer": "使用错误"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "只看成语字面意思，不看整体含义。",
+            "correction": "成语有整体义和典故义，如“文不加点”的“点”是涂改，形容文思敏捷。"
+          },
+          {
+            "mistake": "忽视词语的感情色彩。",
+            "correction": "贬义成语不能用于褒扬语境。"
+          }
+        ],
+        "strategy": "成语题先判断“对象对不对、色彩对不对、语境矛不矛盾”；选词题把选项逐一代入通读，选最通顺的。"
+      }
+    },
+    {
+      "id": "chinese-sentences",
+      "name": "病句辨析",
+      "subject": "chinese",
+      "summary": "掌握常见病句类型的判断和修改方法。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "了解病句的六大基本类型。",
+          "能判断句子是否有语病并说明病因。",
+          "能用补写、删减、替换等方法修改病句。"
+        ],
+        "keyIdea": "病句六大类型：语序不当、搭配不当、成分残缺或赘余、结构混乱、表意不明、不合逻辑。",
+        "concepts": [
+          {
+            "title": "常见病句类型",
+            "content": [
+              "成分残缺：常见的是缺主语（如“通过……使……”连用）或缺宾语。",
+              "搭配不当：主谓搭配（“ eyes 眼神变得炯炯有神”应说“眼睛变得炯炯有神”）、动宾搭配（“提高水平”不说“增加水平”）。",
+              "语序不当：定语状语位置错误、逻辑顺序颠倒。"
+            ]
+          },
+          {
+            "title": "修改方法",
+            "content": [
+              "缺主语：删去“通过/由于/在……下”，或删去“使/让/令”。",
+              "缺宾语：补出宾语中心语，如“养成讲文明的好习惯”。",
+              "搭配不当：更换词语，保留正确一方。",
+              "前后矛盾：删去矛盾的词语。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "病句六类型",
+            "expression": "语序不当 · 搭配不当 · 成分残缺或赘余 · 结构混乱 · 表意不明 · 不合逻辑"
+          },
+          {
+            "name": "缺主语标志",
+            "expression": "“通过……使……”“由于……让……”连用 → 滥用介词缺主语"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "成分残缺",
+            "problem": "通过这次社会实践活动，使我对劳动的意义有了更深的理解。",
+            "steps": [
+              "“通过……”是介词短语，“使……”又带出了兼语。",
+              "整个句子没有主语。",
+              "修改：删去“通过”或删去“使”。"
+            ],
+            "answer": "删去“通过”或“使”",
+            "takeaway": "看到“通过……使……”连用，先想缺主语。"
+          },
+          {
+            "title": "搭配不当",
+            "problem": "我们要不断改进学习方法，提高学习质量与效率。（判断正误）",
+            "steps": [
+              "“改进方法”“提高质量与效率”搭配都正确。",
+              "没有语病。"
+            ],
+            "answer": "没有语病"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把语感当唯一标准，读着顺就认为没错。",
+            "correction": "要用类型去套：先查主谓宾是否齐全，再查搭配。"
+          },
+          {
+            "mistake": "修改病句时改变了句子原意。",
+            "correction": "修改只动“病灶”，尽量少改、保持原意。"
+          }
+        ],
+        "strategy": "病句题按顺序排查：先看介词开头是否缺主语，再看主谓宾搭配，最后看语序和逻辑；判断“没有语病”的选项要逐项核对成分。"
+      }
+    },
+    {
+      "id": "chinese-poetry-memorize",
+      "name": "古诗文默写",
+      "subject": "chinese",
+      "summary": "掌握课标要求古诗文的准确默写和理解性默写。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "准确默写课标要求的古诗文名句，不写错别字。",
+          "能根据上句写出下句（直接默写）。",
+          "能根据提示内容写出对应的诗句（理解性默写）。"
+        ],
+        "keyIdea": "默写的丢分点全是错别字：先理解句意，再按义记字；理解性默写先抓题干中的意象和情感关键词。",
+        "concepts": [
+          {
+            "title": "直接默写",
+            "content": [
+              "易错字重点记：如“天涯若比邻”的“涯”、“一览众山小”的“览”。",
+              "同音字辨析：如“海日生残夜”的“生”不是“升”。",
+              "书写规范：字体工整，不连笔、不涂改。"
+            ]
+          },
+          {
+            "title": "理解性默写",
+            "content": [
+              "抓题干关键词：意象（月、雁、柳）、情感（思乡、壮志）、手法（比喻、用典）。",
+              "例：题干出现“望远怀人”→ 对应“海内存知己，天涯若比邻”。",
+              "平时按主题归类整理名句：爱国、思乡、励志、送别。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "理解性默写步骤",
+            "expression": "抓意象 → 定主题 → 想名句 → 查错字"
+          },
+          {
+            "name": "易错字清单",
+            "expression": "涯 · 览 · 雁 · 蜡炬 · 燕然"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "直接默写",
+            "problem": "海内存知己，______。（王勃《送杜少府之任蜀州》）",
+            "steps": [
+              "下句是“天涯若比邻”。",
+              "注意“涯”是三点水旁，不写成“崖”。"
+            ],
+            "answer": "天涯若比邻"
+          },
+          {
+            "title": "理解性默写",
+            "problem": "杜甫《望岳》中表达不畏艰难、勇攀高峰的雄心壮志的句子是：______，______。",
+            "steps": [
+              "抓关键词“不畏艰难、勇攀高峰”。",
+              "对应“会当凌绝顶，一览众山小”。",
+              "检查“凌”“览”的写法。"
+            ],
+            "answer": "会当凌绝顶，一览众山小"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把“天涯若比邻”写成“天涯若比邻”以外的同音字（如“崖”），或把“一览众山小”写成“揽”。",
+            "correction": "默写丢分全是错别字，理解字义再记字形。"
+          },
+          {
+            "mistake": "理解性默写只凭印象，不核对题干关键词。",
+            "correction": "逐字核对题干意象和情感词，确保句子对应准确。"
+          }
+        ],
+        "strategy": "把名句按主题分类晨读；每次默写后同桌互查错别字；理解性默写先在题干圈出意象和情感关键词。"
+      }
+    },
+    {
+      "id": "chinese-literature-culture",
+      "name": "文学文化常识",
+      "subject": "chinese",
+      "summary": "掌握重要作家作品、四大名著和文化常识。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握教材涉及的重要作家及其代表作品。",
+          "了解四大名著的基本信息和主要人物。",
+          "掌握常见文化常识（称谓、科举、节气等）。"
+        ],
+        "keyIdea": "文学常识记忆抓“作者—朝代—作品—特点”四位一体，做成表格横向记忆。",
+        "concepts": [
+          {
+            "title": "重要作家作品",
+            "content": [
+              "李白，字太白，号青莲居士，被誉为“诗仙”，代表作《望岳》是其早期作品（注：《望岳》为杜甫作品，李白代表作为《将进酒》《望庐山瀑布》）。",
+              "杜甫被誉为“诗圣”，其诗被称为“诗史”，代表作“三吏”“三别”。",
+              "四大名著：《三国演义》（罗贯中）、《水浒传》（施耐庵）、《西游记》（吴承恩）、《红楼梦》（曹雪芹）。"
+            ]
+          },
+          {
+            "title": "文化常识",
+            "content": [
+              "年龄称谓：而立（三十）、不惑（四十）、知天命（五十）、花甲（六十）。",
+              "科举制度：乡试→会试→殿试，殿试第一名称状元。",
+              "四书：《大学》《中庸》《论语》《孟子》。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "四大名著口诀",
+            "expression": "三国演义罗贯中 · 水浒施耐庵 · 西游吴承恩 · 红楼曹雪芹"
+          },
+          {
+            "name": "年龄称谓",
+            "expression": "三十而立 · 四十不惑 · 五十知天命 · 六十花甲"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "作者对应",
+            "problem": "《西游记》的作者是谁？",
+            "steps": [
+              "《西游记》是明代神魔小说。",
+              "作者是吴承恩。"
+            ],
+            "answer": "吴承恩"
+          },
+          {
+            "title": "文化常识",
+            "problem": "“而立之年”指多少岁？",
+            "steps": [
+              "出自《论语》“三十而立”。",
+              "指三十岁。"
+            ],
+            "answer": "三十岁"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "把《望岳》的作者记成李白。",
+            "correction": "《望岳》是杜甫的作品，注意区分“诗仙”李白与“诗圣”杜甫。"
+          },
+          {
+            "mistake": "把“花甲”记成五十岁。",
+            "correction": "花甲是六十岁，五十是知天命。"
+          }
+        ],
+        "strategy": "用表格整理“作者—朝代—称号—代表作”；文化常识按类别（称谓、科举、节气、书籍）归纳，每周抽查一次。"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cn-char-001",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "下列词语中加点字的读音完全正确的一项是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "角色（jiǎo）"
+        },
+        {
+          "key": "B",
+          "label": "处理（chù）"
+        },
+        {
+          "key": "C",
+          "label": "载歌载舞（zài）"
+        },
+        {
+          "key": "D",
+          "label": "酗酒（xiōng）"
+        }
+      ],
+      "answer": "C",
+      "explanation": "“载歌载舞”的“载”读 zài。A 中“角色”应读 jué；B 中“处理”应读 chǔ；D 中“酗酒”应读 xù。",
+      "optimalSolution": "多音字按义定音，习惯误读字重点积累。",
+      "commonMistake": "受声旁影响误读“酗”为 xiōng。"
+    },
+    {
+      "id": "cn-char-002",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "下列词语中没有错别字的一项是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "走投无路"
+        },
+        {
+          "key": "B",
+          "label": "一愁莫展"
+        },
+        {
+          "key": "C",
+          "label": "迫不急待"
+        },
+        {
+          "key": "D",
+          "label": "走头无路"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“走投无路”正确。B 应为“一筹莫展”；C 应为“迫不及待”；D 应为“走投无路”（与 A 相同字面但此处指错误写法干扰项）。",
+      "optimalSolution": "成语按本义记字：投是投奔，筹是筹码。",
+      "commonMistake": "把“一筹莫展”写成“一愁莫展”。"
+    },
+    {
+      "id": "cn-char-003",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-characters"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "根据拼音写汉字：一 chóu 莫展（　）",
+      "source": "看拼音写汉字",
+      "acceptedAnswers": [
+        "筹"
+      ],
+      "answerKind": "text",
+      "explanation": "“一筹莫展”的“筹”指筹码，古代用于计数计算。",
+      "optimalSolution": "据义定形：一点办法也想不出，如同没有筹码可算。",
+      "commonMistake": "误写成“愁”。"
+    },
+    {
+      "id": "cn-word-001",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "依次填入下列横线处的词语，最恰当的一项是：读书能______人的心灵，______人的情操，让人变得宁静而丰盈。（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "滋润　陶冶"
+        },
+        {
+          "key": "B",
+          "label": "滋润　熏陶"
+        },
+        {
+          "key": "C",
+          "label": "滋养　熏陶"
+        },
+        {
+          "key": "D",
+          "label": "滋养　陶冶"
+        }
+      ],
+      "answer": "D",
+      "explanation": "“滋养”强调供给养分，与“心灵”搭配；“陶冶”与“情操”是固定搭配。“熏陶”多用于环境的影响。",
+      "optimalSolution": "抓固定搭配：陶冶情操。",
+      "commonMistake": "忽略搭配对象，凭语感乱选。"
+    },
+    {
+      "id": "cn-word-002",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "下列句子中成语使用恰当的一项是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "他做题时全神贯注，连门铃响了都没听见。"
+        },
+        {
+          "key": "B",
+          "label": "考试前夕，同学们处心积虑地复习功课。"
+        },
+        {
+          "key": "C",
+          "label": "这幅山水画布局精巧，真是妄自菲薄。"
+        },
+        {
+          "key": "D",
+          "label": "他上课总是无精打采，听得津津有味。"
+        }
+      ],
+      "answer": "A",
+      "explanation": "“全神贯注”形容精神高度集中，使用正确。B“处心积虑”是贬义；C“妄自菲薄”指过分看轻自己，与语境无关；D 前后矛盾。",
+      "optimalSolution": "成语三看：对象、褒贬、语境。",
+      "commonMistake": "没注意“处心积虑”的贬义色彩。"
+    },
+    {
+      "id": "cn-word-003",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-words-idioms"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "根据意思写成语：形容精神高度集中。______",
+      "source": "成语积累",
+      "acceptedAnswers": [
+        "全神贯注",
+        "聚精会神",
+        "专心致志"
+      ],
+      "answerKind": "text",
+      "explanation": "形容注意力高度集中的成语有“全神贯注”“聚精会神”“专心致志”等，注意“注”“神”等字的写法。",
+      "optimalSolution": "按主题归类积累成语（神情专注类、品格类、景色类）。",
+      "commonMistake": "写成非成语的普通短语。"
+    },
+    {
+      "id": "cn-sent-001",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "下列句子有语病，病因是（　）：通过开展经典诵读活动，使同学们更加热爱传统文化。",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "搭配不当"
+        },
+        {
+          "key": "B",
+          "label": "成分残缺（缺主语）"
+        },
+        {
+          "key": "C",
+          "label": "语序不当"
+        },
+        {
+          "key": "D",
+          "label": "前后矛盾"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“通过……”是介词短语，“使”又引出兼语，整个句子缺少主语。应删去“通过”或“使”。",
+      "optimalSolution": "“通过……使……”连用是缺主语的典型标志。",
+      "commonMistake": "读起来顺口，看不出缺主语。"
+    },
+    {
+      "id": "cn-sent-002",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 50,
+      "stem": "下列句子中没有语病的一项是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "我们要养成讲文明。"
+        },
+        {
+          "key": "B",
+          "label": "他的写作水平明显改进了。"
+        },
+        {
+          "key": "C",
+          "label": "为了避免此类事故不再发生，学校加强了安全教育。"
+        },
+        {
+          "key": "D",
+          "label": "同学们积极参加课外活动，锻炼了身体。"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A 缺宾语中心语（应加“的好习惯”）；B“水平”与“改进”搭配不当（应为“提高”）；C 否定不当，“避免不再发生”表意相反。",
+      "optimalSolution": "逐项排查：残缺 → 搭配 → 否定滥用。",
+      "commonMistake": "C 项的“避免不再”双重否定看不出反义。"
+    },
+    {
+      "id": "cn-sent-003",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-sentences"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 70,
+      "stem": "病句“我们要养成讲文明”的主要毛病是缺宾语中心语，请把修改后的句子写出来。（补全宾语即可）",
+      "source": "病句修改",
+      "acceptedAnswers": [
+        "我们要养成讲文明的好习惯",
+        "我们要养成讲文明礼貌的好习惯",
+        "补上宾语"
+      ],
+      "answerKind": "text",
+      "explanation": "“养成”缺少宾语中心语，应补出“……的好习惯”，如“我们要养成讲文明的好习惯”。",
+      "optimalSolution": "成分残缺的修改原则：缺什么补什么，且不改变原意。",
+      "commonMistake": "改动了句子的原意。"
+    },
+    {
+      "id": "cn-poem-001",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "补写名句：海内存知己，______。（王勃《送杜少府之任蜀州》）",
+      "source": "古诗默写",
+      "acceptedAnswers": [
+        "天涯若比邻",
+        "天涯若比邻。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“天涯若比邻”，注意“涯”是三点水旁。",
+      "optimalSolution": "送别名句，按主题积累。",
+      "commonMistake": "把“涯”写成“崖”。"
+    },
+    {
+      "id": "cn-poem-002",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "补写名句：会当凌绝顶，______。（杜甫《望岳》）",
+      "source": "古诗默写",
+      "acceptedAnswers": [
+        "一览众山小",
+        "一览众山小。"
+      ],
+      "answerKind": "text",
+      "explanation": "下一句是“一览众山小”，注意“览”的写法。",
+      "optimalSolution": "理解句意：登上山顶俯瞰群山。",
+      "commonMistake": "把“览”写成“揽”。"
+    },
+    {
+      "id": "cn-poem-003",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-poetry-memorize"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 50,
+      "stem": "下列对理解性默写的判断，正确的一项是：表达诗人不畏艰难、勇攀高峰雄心的诗句是（　）",
+      "source": "理解性默写",
+      "options": [
+        {
+          "key": "A",
+          "label": "海内存知己，天涯若比邻"
+        },
+        {
+          "key": "B",
+          "label": "会当凌绝顶，一览众山小"
+        },
+        {
+          "key": "C",
+          "label": "感时花溅泪，恨别鸟惊心"
+        },
+        {
+          "key": "D",
+          "label": "采菊东篱下，悠然见南山"
+        }
+      ],
+      "answer": "B",
+      "explanation": "“会当凌绝顶，一览众山小”出自杜甫《望岳》，表达了不畏艰难、俯瞰一切的雄心壮志。A 是送别；C 是忧国伤时；D 是闲适恬淡。",
+      "optimalSolution": "理解性默写抓题干中的情感关键词“不畏艰难、勇攀高峰”。",
+      "commonMistake": "对诗句主题归类不清。"
+    },
+    {
+      "id": "cn-lit-001",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "下列作品与作者对应不正确的一项是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "《三国演义》——罗贯中"
+        },
+        {
+          "key": "B",
+          "label": "《水浒传》——施耐庵"
+        },
+        {
+          "key": "C",
+          "label": "《西游记》——曹雪芹"
+        },
+        {
+          "key": "D",
+          "label": "《红楼梦》——曹雪芹"
+        }
+      ],
+      "answer": "C",
+      "explanation": "《西游记》的作者是吴承恩，《红楼梦》才是曹雪芹的作品。",
+      "optimalSolution": "四大名著作者口诀：三国罗贯中、水浒施耐庵、西游吴承恩、红楼曹雪芹。",
+      "commonMistake": "把《西游记》与《红楼梦》的作者记混。"
+    },
+    {
+      "id": "cn-lit-002",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "下列文学常识表述正确的一项是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "李白被称为“诗圣”"
+        },
+        {
+          "key": "B",
+          "label": "杜甫被称为“诗仙”"
+        },
+        {
+          "key": "C",
+          "label": "李白被称为“诗仙”，杜甫被称为“诗圣”"
+        },
+        {
+          "key": "D",
+          "label": "李白和杜甫并称“李杜”，都是唐代政治家"
+        }
+      ],
+      "answer": "C",
+      "explanation": "李白是“诗仙”，杜甫是“诗圣”，二人并称“李杜”，都是唐代诗人而非政治家。",
+      "optimalSolution": "称号与人物一一对应记忆。",
+      "commonMistake": "“诗仙”“诗圣”张冠李戴。"
+    },
+    {
+      "id": "cn-lit-003",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "文化常识：下列关于年龄称谓的说法，不正确的一项是（　）",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "而立之年指三十岁"
+        },
+        {
+          "key": "B",
+          "label": "不惑之年指四十岁"
+        },
+        {
+          "key": "C",
+          "label": "花甲之年指五十岁"
+        },
+        {
+          "key": "D",
+          "label": "知天命之年指五十岁"
+        }
+      ],
+      "answer": "C",
+      "explanation": "花甲指六十岁，五十岁称知天命。A、B、D 均正确。",
+      "optimalSolution": "按顺序记：而立 30 → 不惑 40 → 知天命 50 → 花甲 60。",
+      "commonMistake": "把花甲当成五十岁。"
+    },
+    {
+      "id": "cn-lit-004",
+      "subject": "chinese",
+      "knowledgePointIds": [
+        "chinese-literature-culture"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "文学常识填空：《西游记》的作者是 ______。",
+      "source": "文学常识积累",
+      "acceptedAnswers": [
+        "吴承恩"
+      ],
+      "answerKind": "text",
+      "explanation": "《西游记》是明代小说家吴承恩创作的长篇神魔小说。",
+      "optimalSolution": "四大名著作者口诀：三国罗贯中、水浒施耐庵、西游吴承恩、红楼曹雪芹。",
+      "commonMistake": "与《红楼梦》作者曹雪芹混淆。"
+    }
+  ]
+}

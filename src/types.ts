@@ -1,4 +1,4 @@
-export type Subject = "math" | "english" | "physics" | "chemistry";
+export type Subject = "math" | "english" | "physics" | "chemistry" | "chinese";
 
 export type KnowledgePointStatus = "not-started" | "learning" | "stable" | "mastered";
 

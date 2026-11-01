@@ -1,0 +1,893 @@
+{
+  "version": "english-v0.12",
+  "knowledgePoints": [
+    {
+      "id": "english-grammar-tenses",
+      "name": "动词时态",
+      "subject": "english",
+      "summary": "掌握一般现在时、现在进行时、一般过去时和现在完成时的构成与标志词。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握四种基本时态的构成和用法。",
+          "能根据时间标志词判断句子时态。",
+          "会用所给动词的适当形式填空。"
+        ],
+        "keyIdea": "先找时间标志词，再定时态：every day 用一般现在时，look/now 用现在进行时，yesterday 用一般过去时，since/already 用现在完成时。",
+        "concepts": [
+          {
+            "title": "一般现在时与现在进行时",
+            "content": [
+              "一般现在时表示经常性、习惯性的动作，标志词：every day、often、usually、always。主语三单时动词加 -s/-es。",
+              "现在进行时表示此刻正在进行的动作，构成 be + doing，标志词：now、look、listen。",
+              "Look! The children are playing football. 中 Look 是进行时的强信号。"
+            ]
+          },
+          {
+            "title": "一般过去时与现在完成时",
+            "content": [
+              "一般过去时表示过去发生的动作，动词用过去式，标志词：yesterday、last week、in 2010、two days ago。",
+              "现在完成时表示过去发生、对现在有影响的动作，构成 have/has + done，标志词：already、yet、just、ever、since、for。",
+              "since + 时间点，for + 时间段：He has lived here since 2010. / He has lived here for over ten years."
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "现在进行时",
+            "expression": "be (am/is/are) + V-ing"
+          },
+          {
+            "name": "现在完成时",
+            "expression": "have/has + 过去分词 + since + 时间点 / for + 时间段"
+          },
+          {
+            "name": "三单变化",
+            "expression": "主语三单 + V-s/-es（一般现在时）"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "标志词定时态",
+            "problem": "My father ___ (watch) TV every evening.",
+            "steps": [
+              "every evening 是一般现在时标志词。",
+              "主语 my father 是第三人称单数。",
+              "动词用 watches。"
+            ],
+            "answer": "watches",
+            "takeaway": "标志词 + 主语人称，两步定时态。"
+          },
+          {
+            "title": "完成时填空",
+            "problem": "He ___ (live) here since 2010.",
+            "steps": [
+              "since 2010 是现在完成时标志词。",
+              "主语 he 用 has。",
+              "live 的过去分词是 lived。"
+            ],
+            "answer": "has lived"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "三单主语忘记给动词加 -s。",
+            "correction": "一般现在时中 he/she/it 作主语，动词必须用三单形式。"
+          },
+          {
+            "mistake": "since 和 for 混用。",
+            "correction": "since 接时间点（since 2010），for 接时间段（for ten years）。"
+          }
+        ],
+        "strategy": "做时态题第一步圈出时间标志词；没有标志词就看上下文动作是否正在进行；填空题注意主语人称和数。"
+      }
+    },
+    {
+      "id": "english-grammar-passive",
+      "name": "被动语态",
+      "subject": "english",
+      "summary": "掌握一般现在时和一般过去时的被动语态构成与使用场景。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握被动语态的构成 be + 过去分词。",
+          "能判断句子该用主动还是被动。",
+          "会用所给动词的适当形式（被动）填空。"
+        ],
+        "keyIdea": "主语是动作的承受者时用被动语态：be + done。时态体现在 be 上。",
+        "concepts": [
+          {
+            "title": "被动语态的构成",
+            "content": [
+              "一般现在时被动：am/is/are + 过去分词。English is spoken by many people.",
+              "一般过去时被动：was/were + 过去分词。The bike was repaired yesterday.",
+              "含情态动词的被动：情态动词 + be + 过去分词。Trees should be planted in spring."
+            ]
+          },
+          {
+            "title": "主动与被动的判断",
+            "content": [
+              "主语是动作执行者用主动，主语是动作承受者用被动。",
+              "English is spoken（英语被说）——主语 English 是承受者，用被动。",
+              "by + 执行者是被动句的常见标志，但没有 by 不代表不能用被动。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "被动语态通式",
+            "expression": "be + 过去分词（done）"
+          },
+          {
+            "name": "情态动词被动",
+            "expression": "情态动词 + be + 过去分词"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "一般现在时被动",
+            "problem": "The room ___ (clean) every day.",
+            "steps": [
+              "主语 the room 是被清扫的对象，用被动。",
+              "every day 表一般现在时。",
+              "is cleaned。"
+            ],
+            "answer": "is cleaned",
+            "takeaway": "先判断主被动，再定时态，最后套 be + done。"
+          },
+          {
+            "title": "情态动词被动",
+            "problem": "Flowers ___ (water) every day, or they will die.",
+            "steps": [
+              "花是被浇水的对象，用被动。",
+              "must 情态动词 + be + done。",
+              "must be watered。"
+            ],
+            "answer": "must be watered"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "被动语态漏掉 be 动词，只写过去分词。",
+            "correction": "be + done 缺一不可，be 负责体现时态和人称。"
+          },
+          {
+            "mistake": "把不及物动词用于被动。",
+            "correction": "happen、take place 等不及物动词没有被动语态。"
+          }
+        ],
+        "strategy": "看到主语是物、谓语是及物动词，优先考虑被动；填空题三步走：定主被动 → 定时态 → 检查过去分词拼写。"
+      }
+    },
+    {
+      "id": "english-grammar-clauses",
+      "name": "从句基础",
+      "subject": "english",
+      "summary": "掌握宾语从句的语序、时态和引导词，了解定语从句的关系词。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握宾语从句用陈述语序的规则。",
+          "掌握宾语从句主现从任、主过从过的时态规则。",
+          "能根据句意选择宾语从句和定语从句的引导词。"
+        ],
+        "keyIdea": "宾语从句三要素：引导词、语序（一律陈述语序）、时态（主现从任、主过从过）。",
+        "concepts": [
+          {
+            "title": "宾语从句",
+            "content": [
+              "语序：宾语从句一律用陈述语序。I want to know where he lives.（不说 where does he live）",
+              "时态：主句现在时，从句按实际时态；主句过去时，从句用相应过去时态。",
+              "引导词：陈述内容用 that；问是否用 if/whether；特殊疑问用疑问词本身。"
+            ]
+          },
+          {
+            "title": "定语从句",
+            "content": [
+              "先行词是人用 who/that，先行词是物用 which/that。",
+              "This is the book that I bought yesterday. 先行词是物，作宾语可用 that。",
+              "关系词在从句中作主语时不可省略。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "宾语从句时态口诀",
+            "expression": "主现从任，主过从过"
+          },
+          {
+            "name": "宾语从句语序",
+            "expression": "引导词 + 主语 + 谓语（陈述语序）"
+          },
+          {
+            "name": "定语从句关系词",
+            "expression": "人 → who/that；物 → which/that"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "宾语从句语序",
+            "problem": "I want to know ___. A. where does he live B. where he lives",
+            "steps": [
+              "宾语从句必须用陈述语序。",
+              "B 选项是主语 + 谓语的陈述语序。",
+              "选 B。"
+            ],
+            "answer": "B",
+            "takeaway": "看到疑问词后紧跟助动词（does/do/did），多半是语序错误。"
+          },
+          {
+            "title": "主过从过",
+            "problem": "He said that he ___ (finish) the work the next day.",
+            "steps": [
+              "主句 he said 是过去时。",
+              "按主过从过，从句用过去将来时 would finish。",
+              "也可以理解为过去时态范围内的相应形式。"
+            ],
+            "answer": "would finish"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "宾语从句用疑问语序。",
+            "correction": "无论引导词是什么，从句一律陈述语序。"
+          },
+          {
+            "mistake": "主句过去时从句仍用现在时。",
+            "correction": "主过从过；但客观真理除外。"
+          }
+        ],
+        "strategy": "宾语从句题目按“引导词 → 语序 → 时态”三步检查；定语从句先找先行词，人用 who 物用 which。"
+      }
+    },
+    {
+      "id": "english-vocabulary",
+      "name": "词汇辨析",
+      "subject": "english",
+      "summary": "掌握常见近义词和词形变化的核心区别。",
+      "examWeight": "high",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握 borrow/lend、spend/cost/pay/take 等常见易混词的区别。",
+          "掌握名词、动词、形容词之间的词形变化。",
+          "能在语境中选用正确的词形。"
+        ],
+        "keyIdea": "易混词抓住各自的固定搭配和主语特征；词形转化题先判断句中缺什么成分。",
+        "concepts": [
+          {
+            "title": "易混动词",
+            "content": [
+              "borrow（借入）与 lend（借出）：Can you lend me your pen? / I borrowed a book from the library.",
+              "spend（人花费，spend...on/doing）、cost（物花费，sth costs sb...）、pay（人付款，pay for）、take（it takes sb... to do）。",
+              "reach 及物直接接地点；get to + 地点；arrive in + 大地点 / arrive at + 小地点。"
+            ]
+          },
+          {
+            "title": "词形转化",
+            "content": [
+              "动词变名词：invent → invention；形容词变副词：careful → carefully。",
+              "缺主语或宾语用名词形式，缺谓语用动词，修饰动词或形容词用副词。",
+              "先分析句子成分，再决定词形。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "花费句型",
+            "expression": "sb spends...(on/doing)；sth costs...；sb pays...for；It takes sb...to do"
+          },
+          {
+            "name": "到达三兄弟",
+            "expression": "reach + 地点；get to + 地点；arrive in/at + 地点"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "cost 与 spend",
+            "problem": "The book ___ me ten yuan. A. spent B. cost C. paid D. took",
+            "steps": [
+              "主语是 the book（物）。",
+              "物作主语用 cost。",
+              "选 B。"
+            ],
+            "answer": "B",
+            "takeaway": "主语是物用 cost，主语是人用 spend/pay。"
+          },
+          {
+            "title": "词形转化",
+            "problem": "Tom is a careful boy and he does everything ___. (careful)",
+            "steps": [
+              "修饰动词 does 需要副词。",
+              "careful 的副词是 carefully。",
+              "填 carefully。"
+            ],
+            "answer": "carefully"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "borrow 和 lend 方向混淆。",
+            "correction": "borrow 借入（from），lend 借出（to）。"
+          },
+          {
+            "mistake": "修饰动词时仍用形容词。",
+            "correction": "修饰实义动词要用副词形式。"
+          }
+        ],
+        "strategy": "辨析题先看主语（人还是物）和介词搭配；词形转化题先分析句子缺什么成分再填。"
+      }
+    },
+    {
+      "id": "english-communicative",
+      "name": "情景交际",
+      "subject": "english",
+      "summary": "掌握常见日常交际情景的习惯表达。",
+      "examWeight": "medium",
+      "status": "not-started",
+      "lesson": {
+        "objectives": [
+          "掌握问候、感谢、道歉、邀请等情景的常用应答。",
+          "能根据上下文选择符合英语习惯的表达。",
+          "避免中式英语。"
+        ],
+        "keyIdea": "交际题不看语法对错，看是否符合英语情景习惯；问什么答什么。",
+        "concepts": [
+          {
+            "title": "常见情景应答",
+            "content": [
+              "问候：How are you? → Fine, thank you. And you?",
+              "感谢：Thank you (for...). → You're welcome. / Not at all. / It's a pleasure.",
+              "道歉：I'm sorry. → It doesn't matter. / Never mind.",
+              "邀请：Would you like...? → Yes, I'd love to. / I'd love to, but..."
+            ]
+          },
+          {
+            "title": "易错情景",
+            "content": [
+              "问职业：What do you do? / What does your mother do?（不用 Who is your mother?）",
+              "接受帮助说 Yes, please.，拒绝说 No, thanks.（注意 thanks 与 please 的区别）。",
+              "对 Would you mind...? 的否定回答用 Of course not. / Not at all. 表示不介意。"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "感谢应答",
+            "expression": "You're welcome. = Not at all. = My pleasure."
+          },
+          {
+            "name": "邀请应答",
+            "expression": "接受：Yes, I'd love to. 拒绝：I'd love to, but..."
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "拒绝邀请",
+            "problem": "—Would you like some more rice? —___. I'm full. A. Yes, please B. No, thanks",
+            "steps": [
+              "后面说 I'm full（我饱了）。",
+              "表示拒绝用 No, thanks。",
+              "选 B。"
+            ],
+            "answer": "B",
+            "takeaway": "拒绝提供的东西用 No, thanks；拒绝邀请用 I'd love to, but..."
+          },
+          {
+            "title": "问职业",
+            "problem": "—___? —She is a nurse. A. Who is the woman B. What does the woman do",
+            "steps": [
+              "答语回答的是职业。",
+              "问职业用 What do/does sb. do?",
+              "选 B。"
+            ],
+            "answer": "B"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "回答 Would you like...? 时说 Yes, I would.",
+            "correction": "习惯表达是 Yes, please.（接受物品）或 Yes, I'd love to.（接受邀请）。"
+          },
+          {
+            "mistake": "把中文习惯直译成英语。",
+            "correction": "交际题以英语习惯为准，逐个情景记忆固定表达。"
+          }
+        ],
+        "strategy": "交际题先看答语反推问句情景；把课本每个单元的 Functional Sentences 整理成情景卡片记忆。"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "en-tense-001",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "Look! The children ___ football on the playground.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "play"
+        },
+        {
+          "key": "B",
+          "label": "played"
+        },
+        {
+          "key": "C",
+          "label": "are playing"
+        },
+        {
+          "key": "D",
+          "label": "were playing"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Look! 提示动作正在发生，用现在进行时 are playing。",
+      "optimalSolution": "Look! / Listen! / now 是现在进行时的强标志。",
+      "commonMistake": "忽略 Look! 选成一般现在时。"
+    },
+    {
+      "id": "en-tense-002",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "My father ___ to Beijing on business last week.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "goes"
+        },
+        {
+          "key": "B",
+          "label": "went"
+        },
+        {
+          "key": "C",
+          "label": "will go"
+        },
+        {
+          "key": "D",
+          "label": "has gone"
+        }
+      ],
+      "answer": "B",
+      "explanation": "last week 是一般过去时标志词，动词用过去式 went。",
+      "optimalSolution": "last week / yesterday / in 2010 都是一般过去时标志词。",
+      "commonMistake": "受汉语影响误选 has gone。"
+    },
+    {
+      "id": "en-tense-003",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-grammar-tenses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "用所给词的适当形式填空：He ___ (live) here since 2010.",
+      "source": "词形填空专项",
+      "acceptedAnswers": [
+        "has lived",
+        "has lived here",
+        "hasliv ed"
+      ],
+      "answerKind": "text",
+      "explanation": "since 2010 是现在完成时标志词，主语 he 用 has + 过去分词，即 has lived。",
+      "optimalSolution": "since + 时间点 → 现在完成时 have/has + done。",
+      "commonMistake": "只写 lived，忽略 since 引出的完成时。"
+    },
+    {
+      "id": "en-passive-001",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "English ___ by many people around the world.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "speaks"
+        },
+        {
+          "key": "B",
+          "label": "is spoken"
+        },
+        {
+          "key": "C",
+          "label": "spoke"
+        },
+        {
+          "key": "D",
+          "label": "speaking"
+        }
+      ],
+      "answer": "B",
+      "explanation": "English 是被说的对象，用一般现在时被动语态 is spoken。",
+      "optimalSolution": "主语是物且是动作承受者 → be + done。",
+      "commonMistake": "选 speaks，忽略主语是承受者。"
+    },
+    {
+      "id": "en-passive-002",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "The classroom ___ yesterday, so it is clean now.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "cleaned"
+        },
+        {
+          "key": "B",
+          "label": "is cleaned"
+        },
+        {
+          "key": "C",
+          "label": "was cleaned"
+        },
+        {
+          "key": "D",
+          "label": "cleans"
+        }
+      ],
+      "answer": "C",
+      "explanation": "教室是被打扫的对象，yesterday 表过去，用 was cleaned。",
+      "optimalSolution": "先定被动，再由 yesterday 定一般过去时。",
+      "commonMistake": "时态错选 is cleaned。"
+    },
+    {
+      "id": "en-passive-003",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-grammar-passive"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "用所给词的适当形式填空：Trees ___ (plant) in spring every year.",
+      "source": "词形填空专项",
+      "acceptedAnswers": [
+        "are planted"
+      ],
+      "answerKind": "text",
+      "explanation": "树是被种的对象，every year 表一般现在时，主语 trees 复数，用 are planted。",
+      "optimalSolution": "被动 + 一般现在时 + 复数主语 → are done。",
+      "commonMistake": "漏掉 are 或把 planted 写成 planting。"
+    },
+    {
+      "id": "en-clause-001",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "I want to know ___.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "where does he live"
+        },
+        {
+          "key": "B",
+          "label": "where he lives"
+        },
+        {
+          "key": "C",
+          "label": "where he live"
+        },
+        {
+          "key": "D",
+          "label": "where did he live"
+        }
+      ],
+      "answer": "B",
+      "explanation": "宾语从句用陈述语序，主语 he 是三单，谓语用 lives，故选 B。",
+      "optimalSolution": "疑问词后出现助动词就是语序错误。",
+      "commonMistake": "选 A，用疑问语序。"
+    },
+    {
+      "id": "en-clause-002",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 50,
+      "stem": "This is the book ___ I bought yesterday.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "who"
+        },
+        {
+          "key": "B",
+          "label": "whose"
+        },
+        {
+          "key": "C",
+          "label": "which"
+        },
+        {
+          "key": "D",
+          "label": "what"
+        }
+      ],
+      "answer": "C",
+      "explanation": "先行词 the book 是物，关系词在从句中作宾语，用 which 或 that。",
+      "optimalSolution": "先行词是物 → which/that。",
+      "commonMistake": "选 who（先行词应为人）。"
+    },
+    {
+      "id": "en-clause-003",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-grammar-clauses"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "填入合适的引导词：—Do you know ___ the meeting will begin? —At nine o'clock.",
+      "source": "宾语从句引导词",
+      "acceptedAnswers": [
+        "when"
+      ],
+      "answerKind": "text",
+      "explanation": "答语 At nine o'clock 表示时间，引导词用 when。",
+      "optimalSolution": "从答语反推引导词：答时间用 when，答地点用 where。",
+      "commonMistake": "填 what 或 that。"
+    },
+    {
+      "id": "en-vocab-001",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 40,
+      "stem": "Can you ___ me your dictionary? I left mine at home.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "borrow"
+        },
+        {
+          "key": "B",
+          "label": "lend"
+        },
+        {
+          "key": "C",
+          "label": "keep"
+        },
+        {
+          "key": "D",
+          "label": "buy"
+        }
+      ],
+      "answer": "B",
+      "explanation": "lend 表示“借出”，lend sb. sth. 是固定搭配；borrow 表示“借入”。",
+      "optimalSolution": "借出用 lend，借入用 borrow。",
+      "commonMistake": "borrow/lend 方向不分。"
+    },
+    {
+      "id": "en-vocab-002",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "The dictionary ___ me fifty yuan.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "spent"
+        },
+        {
+          "key": "B",
+          "label": "paid"
+        },
+        {
+          "key": "C",
+          "label": "cost"
+        },
+        {
+          "key": "D",
+          "label": "took"
+        }
+      ],
+      "answer": "C",
+      "explanation": "主语是物（the dictionary），表示“花费”用 cost。",
+      "optimalSolution": "物作主语用 cost，人作主语用 spend/pay。",
+      "commonMistake": "主语是人还是物没看清。"
+    },
+    {
+      "id": "en-vocab-003",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-vocabulary"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "用所给词的适当形式填空：Tom did his homework very ___ (careful).",
+      "source": "词形填空专项",
+      "acceptedAnswers": [
+        "carefully"
+      ],
+      "answerKind": "text",
+      "explanation": "修饰动词 did 要用副词，careful 的副词是 carefully。",
+      "optimalSolution": "修饰实义动词用副词形式。",
+      "commonMistake": "直接填形容词 careful。"
+    },
+    {
+      "id": "en-comm-001",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 30,
+      "stem": "—Thank you for helping me with my English. —___",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "You're welcome."
+        },
+        {
+          "key": "B",
+          "label": "That's right."
+        },
+        {
+          "key": "C",
+          "label": "It doesn't matter."
+        },
+        {
+          "key": "D",
+          "label": "Good idea."
+        }
+      ],
+      "answer": "A",
+      "explanation": "对感谢的应答用 You're welcome.（不客气）。",
+      "optimalSolution": "感谢 → You're welcome. / Not at all.",
+      "commonMistake": "误选 C（道歉应答）。"
+    },
+    {
+      "id": "en-comm-002",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "—Would you like some more rice? —___. I'm full.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "Yes, please"
+        },
+        {
+          "key": "B",
+          "label": "No, thanks"
+        },
+        {
+          "key": "C",
+          "label": "I'd love to"
+        },
+        {
+          "key": "D",
+          "label": "That's all right"
+        }
+      ],
+      "answer": "B",
+      "explanation": "后面说 I'm full（饱了），表示委婉拒绝用 No, thanks.",
+      "optimalSolution": "拒绝提供的食物用 No, thanks.",
+      "commonMistake": "误选 A，与后文矛盾。"
+    },
+    {
+      "id": "en-comm-003",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "单选题",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 40,
+      "stem": "—___? —She is a nurse in a hospital.",
+      "source": "中考基础训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "Who is the woman"
+        },
+        {
+          "key": "B",
+          "label": "What does the woman do"
+        },
+        {
+          "key": "C",
+          "label": "Where is the woman"
+        },
+        {
+          "key": "D",
+          "label": "How is the woman"
+        }
+      ],
+      "answer": "B",
+      "explanation": "答语回答职业，问职业用 What do/does sb. do?",
+      "optimalSolution": "从答语反推问句：答职业 → 问职业。",
+      "commonMistake": "误选 A（问身份）。"
+    },
+    {
+      "id": "en-comm-004",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-communicative"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 2,
+      "estimatedSeconds": 40,
+      "stem": "补全对话：—Thank you for your help. —You're w_______. （填出应答单词）",
+      "source": "情景交际填空",
+      "acceptedAnswers": [
+        "welcome"
+      ],
+      "answerKind": "text",
+      "explanation": "对感谢的应答是 You're welcome.（不客气）。",
+      "optimalSolution": "感谢 → You're welcome. / Not at all.",
+      "commonMistake": "拼写错误，如写成 welcom。"
+    }
+  ]
+}

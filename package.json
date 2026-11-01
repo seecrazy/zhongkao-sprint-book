@@ -1,7 +1,7 @@
 {
   "name": "zhongkao-sprint-book",
   "private": true,
-  "version": "0.11.0",
+  "version": "0.12.0",
   "type": "module",
   "description": "中考冲刺书 · SprintBook：中考冲刺阶段互动练习平台",
   "scripts": {

@@ -1,0 +1,72 @@
+{
+  "version": "chinese-exams-v0.12",
+  "exams": [
+    {
+      "id": "chinese-mock-001",
+      "subject": "chinese",
+      "title": "语文基础冲刺摸底卷",
+      "description": "覆盖积累运用与诗文文学常识的分区摸底卷（不含作文与阅读主观题）。",
+      "durationMinutes": 20,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "accumulation",
+          "title": "积累与运用",
+          "description": "字音字形、词语成语、病句辨析。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "cn-char-001",
+            "cn-char-002",
+            "cn-char-003",
+            "cn-word-001",
+            "cn-word-002",
+            "cn-word-003",
+            "cn-sent-001",
+            "cn-sent-002",
+            "cn-sent-003"
+          ]
+        },
+        {
+          "id": "poetry-literature",
+          "title": "诗文与文学常识",
+          "description": "古诗文默写与文学文化常识。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "cn-poem-001",
+            "cn-poem-002",
+            "cn-poem-003",
+            "cn-lit-001",
+            "cn-lit-002",
+            "cn-lit-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chinese-topic-precision-001",
+      "subject": "chinese",
+      "title": "语文薄弱考点精准卷",
+      "description": "快速诊断语文积累运用薄弱点的短卷。",
+      "durationMinutes": 15,
+      "level": "topic",
+      "sections": [
+        {
+          "id": "quick-diagnosis",
+          "title": "快速诊断",
+          "description": "各考点核心题。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "cn-char-002",
+            "cn-word-002",
+            "cn-sent-001",
+            "cn-sent-002",
+            "cn-poem-001",
+            "cn-poem-002",
+            "cn-lit-001",
+            "cn-lit-003"
+          ]
+        }
+      ]
+    }
+  ]
+}

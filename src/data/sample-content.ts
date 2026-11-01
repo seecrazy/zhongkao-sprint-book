@@ -4,6 +4,10 @@ import physicsContent from "./physics.json";
 import physicsExamContent from "./physics-exams.json";
 import chemistryContent from "./chemistry.json";
 import chemistryExamContent from "./chemistry-exams.json";
+import englishContent from "./english.json";
+import englishExamContent from "./english-exams.json";
+import chineseContent from "./chinese.json";
+import chineseExamContent from "./chinese-exams.json";
 import type { ExamPaper, KnowledgePoint, Question, Subject } from "../types";
 
 export interface SubjectContent {
@@ -46,22 +50,51 @@ const chemistry: SubjectContent = {
   exams: chemistryExamContent.exams as ExamPaper[],
 };
 
+const english: SubjectContent = {
+  subject: "english",
+  label: "英语",
+  contentVersion: englishContent.version,
+  examVersion: englishExamContent.version,
+  knowledgePoints: englishContent.knowledgePoints as KnowledgePoint[],
+  questions: englishContent.questions as Question[],
+  exams: englishExamContent.exams as ExamPaper[],
+};
+
+const chinese: SubjectContent = {
+  subject: "chinese",
+  label: "语文",
+  contentVersion: chineseContent.version,
+  examVersion: chineseExamContent.version,
+  knowledgePoints: chineseContent.knowledgePoints as KnowledgePoint[],
+  questions: chineseContent.questions as Question[],
+  exams: chineseExamContent.exams as ExamPaper[],
+};
+
 const registry: Partial<Record<Subject, SubjectContent>> = {
   math,
   physics,
   chemistry,
+  english,
+  chinese,
 };
 
-export const AVAILABLE_SUBJECTS: Subject[] = ["math", "physics", "chemistry"];
+export const AVAILABLE_SUBJECTS: Subject[] = [
+  "math",
+  "physics",
+  "chemistry",
+  "english",
+  "chinese",
+];
 
 export const SUBJECT_LABELS: Record<Subject, string> = {
   math: "数学",
   english: "英语",
   physics: "物理",
   chemistry: "化学",
+  chinese: "语文",
 };
 
-export const UPCOMING_SUBJECTS: Subject[] = ["english"];
+export const UPCOMING_SUBJECTS: Subject[] = [];
 
 export function isAvailableSubject(value: string): value is Subject {
   return (AVAILABLE_SUBJECTS as string[]).includes(value);

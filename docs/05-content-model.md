@@ -2,12 +2,14 @@
 
 ## 当前内容文件
 
-各学科试点内容位于（数学 / 物理 / 化学，结构完全一致）：
+各学科试点内容位于（数学 / 物理 / 化学 / 英语 / 语文，结构完全一致）：
 
 ```text
 src/data/math.json
 src/data/physics.json
 src/data/chemistry.json
+src/data/english.json
+src/data/chinese.json
 ```
 
 文件结构：
@@ -39,6 +41,8 @@ src/data/chemistry.json
 src/data/math-exams.json
 src/data/physics-exams.json
 src/data/chemistry-exams.json
+src/data/english-exams.json
+src/data/chinese-exams.json
 ```
 
 试卷结构：

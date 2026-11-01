@@ -1,0 +1,72 @@
+{
+  "version": "english-exams-v0.12",
+  "exams": [
+    {
+      "id": "english-mock-001",
+      "subject": "english",
+      "title": "英语基础冲刺摸底卷",
+      "description": "覆盖核心语法和词汇交际的分区摸底卷，检查语法规则的稳定性。",
+      "durationMinutes": 25,
+      "level": "mock",
+      "sections": [
+        {
+          "id": "grammar",
+          "title": "语法基础",
+          "description": "时态、被动语态与从句。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "en-tense-001",
+            "en-tense-002",
+            "en-tense-003",
+            "en-passive-001",
+            "en-passive-002",
+            "en-passive-003",
+            "en-clause-001",
+            "en-clause-002",
+            "en-clause-003"
+          ]
+        },
+        {
+          "id": "vocab-comm",
+          "title": "词汇与交际",
+          "description": "词义辨析与情景应答。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "en-vocab-001",
+            "en-vocab-002",
+            "en-vocab-003",
+            "en-comm-001",
+            "en-comm-002",
+            "en-comm-003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english-topic-precision-001",
+      "subject": "english",
+      "title": "英语薄弱考点精准卷",
+      "description": "快速诊断英语语法薄弱点的短卷。",
+      "durationMinutes": 15,
+      "level": "topic",
+      "sections": [
+        {
+          "id": "quick-diagnosis",
+          "title": "快速诊断",
+          "description": "各考点核心题。",
+          "scorePerQuestion": 1,
+          "questionIds": [
+            "en-tense-001",
+            "en-tense-003",
+            "en-passive-001",
+            "en-passive-003",
+            "en-clause-001",
+            "en-clause-002",
+            "en-vocab-002",
+            "en-comm-002"
+          ]
+        }
+      ]
+    }
+  ]
+}

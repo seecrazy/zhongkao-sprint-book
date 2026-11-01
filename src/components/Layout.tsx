@@ -88,7 +88,7 @@ export default function Layout({
       </header>
       <main className="app-main">{children}</main>
       <footer className="app-footer">
-        SprintBook v0.10 · 数学 + 物理 + 化学试点 · 每日计划 · 掌握度 · 模考复盘
+        SprintBook v0.12 · 五学科试点（数理理化英语文） · 每日计划 · 掌握度 · 模考复盘
       </footer>
     </div>
   );

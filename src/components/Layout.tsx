@@ -1,4 +1,10 @@
 import type { ReactNode } from "react";
+import {
+  AVAILABLE_SUBJECTS,
+  SUBJECT_LABELS,
+  UPCOMING_SUBJECTS,
+} from "../data/sample-content";
+import type { Subject } from "../types";
 
 export type PageKey =
   | "home"
@@ -9,8 +15,10 @@ export type PageKey =
   | "settings";
 
 interface LayoutProps {
+  subject: Subject;
   page: PageKey;
   onNavigate: (page: PageKey, query?: Record<string, string>) => void;
+  onSwitchSubject: (subject: Subject) => void;
   children: ReactNode;
 }
 
@@ -23,7 +31,13 @@ const navItems: Array<{ key: PageKey; label: string }> = [
   { key: "settings", label: "设置" },
 ];
 
-export default function Layout({ page, onNavigate, children }: LayoutProps) {
+export default function Layout({
+  subject,
+  page,
+  onNavigate,
+  onSwitchSubject,
+  children,
+}: LayoutProps) {
   return (
     <div className="app-shell">
       <header className="app-header">
@@ -33,6 +47,31 @@ export default function Layout({ page, onNavigate, children }: LayoutProps) {
             <strong>中考冲刺书</strong>
             <span>SprintBook MVP</span>
           </div>
+        </div>
+        <div className="subject-switcher" role="tablist" aria-label="学科切换">
+          {AVAILABLE_SUBJECTS.map((item) => (
+            <button
+              key={item}
+              type="button"
+              role="tab"
+              aria-selected={item === subject}
+              className={item === subject ? "active" : ""}
+              onClick={() => onSwitchSubject(item)}
+            >
+              {SUBJECT_LABELS[item]}
+            </button>
+          ))}
+          {UPCOMING_SUBJECTS.map((item) => (
+            <button
+              key={item}
+              type="button"
+              className="upcoming"
+              disabled
+              title="内容筹备中，敬请期待"
+            >
+              {SUBJECT_LABELS[item]}
+            </button>
+          ))}
         </div>
         <nav className="app-nav">
           {navItems.map((item) => (
@@ -49,7 +88,7 @@ export default function Layout({ page, onNavigate, children }: LayoutProps) {
       </header>
       <main className="app-main">{children}</main>
       <footer className="app-footer">
-        SprintBook v0.4 · 数学试点 · 每日计划 · 掌握度 · 模考复盘
+        SprintBook v0.9 · 数学 + 物理试点 · 每日计划 · 掌握度 · 模考复盘
       </footer>
     </div>
   );

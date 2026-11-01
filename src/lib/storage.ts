@@ -3,6 +3,7 @@ import type {
   DailyPlanRecord,
   MistakeRecord,
   ProgressState,
+  Subject,
 } from "../types";
 
 const STORAGE_KEY = "sprintbook-progress-v0.4";
@@ -97,13 +98,17 @@ function normalizeProgress(input: unknown): ProgressState {
   };
 }
 
-export function loadProgress(): ProgressState {
+export function loadProgress(subject: Subject = "math"): ProgressState {
   if (typeof window === "undefined") return defaultProgress;
 
   try {
     const raw =
-      window.localStorage.getItem(STORAGE_KEY) ??
-      window.localStorage.getItem(LEGACY_STORAGE_KEY);
+      window.localStorage.getItem(`${STORAGE_KEY}:${subject}`) ??
+      // 数学进度历史上存的是全局键，做一次迁移读取。
+      (subject === "math"
+        ? (window.localStorage.getItem(STORAGE_KEY) ??
+          window.localStorage.getItem(LEGACY_STORAGE_KEY))
+        : null);
     if (!raw) return defaultProgress;
 
     return normalizeProgress(JSON.parse(raw));
@@ -112,9 +117,12 @@ export function loadProgress(): ProgressState {
   }
 }
 
-export function saveProgress(progress: ProgressState): void {
+export function saveProgress(subject: Subject, progress: ProgressState): void {
   if (typeof window === "undefined") return;
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+  window.localStorage.setItem(
+    `${STORAGE_KEY}:${subject}`,
+    JSON.stringify(progress)
+  );
 }
 
 export function resetProgress(): ProgressState {

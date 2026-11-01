@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { sampleQuestions } from "../data/sample-content";
+import { getSubjectContent } from "../data/sample-content";
 import MathText from "../components/MathText";
 import { getCorrectAnswerText } from "../lib/grading";
 import {
@@ -7,9 +7,10 @@ import {
   isMistakeDue,
   isMistakeMastered,
 } from "../lib/storage";
-import type { MistakeRecord, ProgressState } from "../types";
+import type { MistakeRecord, ProgressState, Subject } from "../types";
 
 interface MistakesProps {
+  subject: Subject;
   progress: ProgressState;
   onNavigate: (page: "practice", query?: Record<string, string>) => void;
 }
@@ -40,8 +41,13 @@ function getMistakeStatus(mistake: MistakeRecord): {
   return { label: `巩固中 · 阶段 ${mistake.reviewStage}`, className: "skipped" };
 }
 
-export default function Mistakes({ progress, onNavigate }: MistakesProps) {
+export default function Mistakes({
+  subject,
+  progress,
+  onNavigate,
+}: MistakesProps) {
   const [filter, setFilter] = useState<MistakeFilter>("due");
+  const { questions } = getSubjectContent(subject);
   const dueMistakes = getDueMistakes(progress);
 
   const mistakes = useMemo(() => {
@@ -123,7 +129,7 @@ export default function Mistakes({ progress, onNavigate }: MistakesProps) {
       ) : (
         <div className="mistake-list">
           {mistakes.map((mistake) => {
-            const question = sampleQuestions.find(
+            const question = questions.find(
               (item) => item.id === mistake.questionId
             );
 

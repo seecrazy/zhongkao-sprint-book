@@ -1,10 +1,16 @@
 import { useMemo, useState } from "react";
-import { knowledgePoints, sampleQuestions } from "../data/sample-content";
+import { getSubjectContent } from "../data/sample-content";
 import { calculateTopicStats } from "../lib/mastery";
 import MathText from "../components/MathText";
-import type { KnowledgePoint, ProgressState, TopicStats } from "../types";
+import type {
+  KnowledgePoint,
+  ProgressState,
+  Subject,
+  TopicStats,
+} from "../types";
 
 interface TopicsProps {
+  subject: Subject;
   progress: ProgressState;
   onNavigate: (page: "practice", query?: Record<string, string>) => void;
 }
@@ -22,16 +28,22 @@ const statusLabel = {
   mastered: "已掌握",
 };
 
-export default function Topics({ progress, onNavigate }: TopicsProps) {
+export default function Topics({
+  subject,
+  progress,
+  onNavigate,
+}: TopicsProps) {
   const [selectedTopicId, setSelectedTopicId] = useState<string | null>(null);
+  const { knowledgePoints, questions } = getSubjectContent(subject);
 
   const rankedTopics = useMemo(
     () =>
       knowledgePoints.map((point) => ({
         point,
-        stats: calculateTopicStats(point.id, sampleQuestions, progress.attempts),
+        stats: calculateTopicStats(point.id, questions, progress.attempts),
       })),
-    [progress.attempts]
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [progress.attempts, subject]
   );
 
   const selected = rankedTopics.find(

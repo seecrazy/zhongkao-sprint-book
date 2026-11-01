@@ -1,12 +1,13 @@
 import { useMemo, useState } from "react";
-import { knowledgePoints, sampleQuestions } from "../data/sample-content";
+import { getSubjectContent } from "../data/sample-content";
 import { gradeQuestions } from "../lib/grading";
 import { getDueMistakes, recordAttempt } from "../lib/storage";
 import MathText from "../components/MathText";
 import QuestionCard from "../components/QuestionCard";
-import type { ProgressState, QuestionResult } from "../types";
+import type { ProgressState, QuestionResult, Subject } from "../types";
 
 interface PracticeProps {
+  subject: Subject;
   progress: ProgressState;
   setProgress: (progress: ProgressState) => void;
   initialTopicId?: string;
@@ -14,11 +15,14 @@ interface PracticeProps {
 }
 
 export default function Practice({
+  subject,
   progress,
   setProgress,
   initialTopicId = "all",
   initialReviewOnly = false,
 }: PracticeProps) {
+  const { knowledgePoints, questions: subjectQuestions } =
+    getSubjectContent(subject);
   const [topicId, setTopicId] = useState(initialTopicId);
   const [reviewOnly, setReviewOnly] = useState(initialReviewOnly);
   const [responses, setResponses] = useState<Record<string, string>>({});
@@ -36,7 +40,7 @@ export default function Practice({
   );
 
   const filteredQuestions = useMemo(() => {
-    let questions = sampleQuestions;
+    let questions = subjectQuestions;
 
     if (topicId !== "all") {
       questions = questions.filter((question) =>
@@ -51,7 +55,8 @@ export default function Practice({
     }
 
     return questions;
-  }, [topicId, reviewOnly, reviewQuestionIds]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topicId, reviewOnly, reviewQuestionIds, subject]);
 
   function resetSession(nextTopicId = topicId, nextReviewOnly = reviewOnly) {
     setTopicId(nextTopicId);

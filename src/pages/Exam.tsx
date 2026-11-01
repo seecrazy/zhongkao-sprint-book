@@ -1,9 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import {
-  examPapers,
-  knowledgePoints,
-  sampleQuestions,
-} from "../data/sample-content";
+import { getSubjectContent } from "../data/sample-content";
 import {
   buildExamTrend,
   formatExamClock,
@@ -28,12 +24,17 @@ import type {
   ExamSession,
   ProgressState,
   Question,
+  Subject,
 } from "../types";
 
 interface ExamProps {
+  subject: Subject;
   progress: ProgressState;
   setProgress: (progress: ProgressState) => void;
-  onNavigate: (page: "practice" | "mistakes" | "topics") => void;
+  onNavigate: (
+    page: "practice" | "mistakes" | "topics",
+    query?: Record<string, string>
+  ) => void;
 }
 
 type ExamStage = "list" | "active" | "report";
@@ -107,32 +108,35 @@ function TrendChart({ history }: { history: ExamResult[] }) {
 }
 
 export default function Exam({
+  subject,
   progress,
   setProgress,
   onNavigate,
 }: ExamProps) {
+  const content = getSubjectContent(subject);
   const [stage, setStage] = useState<ExamStage>("list");
   const [session, setSession] = useState<ExamSession | null>(() =>
-    loadActiveExam()
+    loadActiveExam(subject)
   );
   const [responses, setResponses] = useState<Record<string, string>>(
-    () => loadActiveExam()?.responses ?? {}
+    () => loadActiveExam(subject)?.responses ?? {}
   );
   const [currentIndex, setCurrentIndex] = useState(0);
   const [remainingSeconds, setRemainingSeconds] = useState(0);
   const [result, setResult] = useState<ExamResult | null>(null);
   const [history, setHistory] = useState<ExamResult[]>(() =>
-    loadExamHistory()
+    loadExamHistory(subject)
   );
   const submittedRef = useRef(false);
 
   const activePaper = useMemo(
-    () => examPapers.find((paper) => paper.id === session?.paperId) ?? null,
-    [session]
+    () => content.exams.find((paper) => paper.id === session?.paperId) ?? null,
+    [session, content]
   );
   const examQuestions = useMemo(
-    () => (activePaper ? getExamQuestions(activePaper, sampleQuestions) : []),
-    [activePaper]
+    () =>
+      activePaper ? getExamQuestions(activePaper, content.questions) : [],
+    [activePaper, content]
   );
 
   const submitExam = useCallback(
@@ -140,12 +144,12 @@ export default function Exam({
       if (submittedRef.current || !activePaper) return;
       submittedRef.current = true;
 
-      const paperQuestions = getExamQuestions(activePaper, sampleQuestions);
+      const paperQuestions = getExamQuestions(activePaper, content.questions);
       const submittedAt = new Date().toISOString();
       const examResult = gradeExamPaper({
         paper: activePaper,
-        topics: knowledgePoints,
-        questions: sampleQuestions,
+        topics: content.knowledgePoints,
+        questions: content.questions,
         responses: examSession.responses,
         startedAt: examSession.startedAt,
         submittedAt,
@@ -165,7 +169,7 @@ export default function Exam({
         });
       });
 
-      const nextHistory = saveExamResult(examResult);
+      const nextHistory = saveExamResult(subject, examResult);
       setProgress(nextProgress);
       setResult(
         autoSubmitted
@@ -176,11 +180,11 @@ export default function Exam({
           : examResult
       );
       setHistory(nextHistory);
-      saveActiveExam(null);
+      saveActiveExam(subject, null);
       setSession(null);
       setStage("report");
     },
-    [activePaper, progress, setProgress]
+    [activePaper, content, subject, progress, setProgress]
   );
 
   useEffect(() => {
@@ -214,7 +218,7 @@ export default function Exam({
 
   function startExam(paperId: string) {
     submittedRef.current = false;
-    const paper = examPapers.find((item) => item.id === paperId);
+    const paper = content.exams.find((item) => item.id === paperId);
     const now = new Date();
     const endsAt = new Date(
       now.getTime() + (paper?.durationMinutes ?? 25) * 60 * 1000
@@ -231,7 +235,7 @@ export default function Exam({
     setCurrentIndex(0);
     setResult(null);
     setStage("active");
-    saveActiveExam(nextSession);
+    saveActiveExam(subject, nextSession);
   }
 
   function updateResponse(questionId: string, value: string) {
@@ -247,7 +251,7 @@ export default function Exam({
 
     setSession(nextSession);
     setResponses(nextSession.responses);
-    saveActiveExam(nextSession);
+    saveActiveExam(subject, nextSession);
   }
 
   const currentQuestion: Question | undefined = examQuestions[currentIndex];
@@ -482,7 +486,7 @@ export default function Exam({
           <h2>逐题结果</h2>
           <div className="question-list">
             {result.results.map((questionResult, index) => {
-              const question = sampleQuestions.find(
+              const question = content.questions.find(
                 (item) => item.id === questionResult.questionId
               );
               if (!question) return null;
@@ -515,8 +519,8 @@ export default function Exam({
       </div>
 
       <div className="exam-list">
-        {examPapers.map((paper) => {
-          const questionCount = getExamQuestions(paper, sampleQuestions).length;
+        {content.exams.map((paper) => {
+          const questionCount = getExamQuestions(paper, content.questions).length;
           const maxScore = getExamMaxScore(paper);
           const hasSession = session?.paperId === paper.id;
           const sections = getExamSections(paper);
@@ -559,7 +563,7 @@ export default function Exam({
             <button
               className="ghost"
               type="button"
-              onClick={() => setHistory(clearExamHistory())}
+              onClick={() => setHistory(clearExamHistory(subject))}
             >
               清空成绩
             </button>

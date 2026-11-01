@@ -1,9 +1,5 @@
 import { useMemo } from "react";
-import {
-  knowledgePoints,
-  mathContentVersion,
-  sampleQuestions,
-} from "../data/sample-content";
+import { getSubjectContent } from "../data/sample-content";
 import {
   calculateLearningStreak,
   calculateOverallMastery,
@@ -14,9 +10,10 @@ import {
 } from "../lib/mastery";
 import { buildDailyTasks } from "../lib/planner";
 import { getDueMistakes, toggleDailyTask } from "../lib/storage";
-import type { DailyTask, ProgressState } from "../types";
+import type { DailyTask, ProgressState, Subject } from "../types";
 
 interface HomeProps {
+  subject: Subject;
   progress: ProgressState;
   setProgress: (progress: ProgressState) => void;
   onNavigate: (
@@ -39,28 +36,30 @@ const taskTypeLabel: Record<DailyTask["type"], string> = {
 };
 
 export default function Home({
+  subject,
   progress,
   setProgress,
   onNavigate,
 }: HomeProps) {
   const today = useMemo(() => new Date(), []);
   const todayKey = getLocalDateString(today);
+  const content = getSubjectContent(subject);
 
   const overallMastery = calculateOverallMastery(
-    knowledgePoints,
-    sampleQuestions,
+    content.knowledgePoints,
+    content.questions,
     progress.attempts
   );
   const dueMistakes = getDueMistakes(progress, today);
   const todayAttempts = getTodayAttemptCount(progress.attempts, today);
   const streak = calculateLearningStreak(progress.attempts);
   const totalSeconds = getTotalPracticeSeconds(progress.attempts);
-  const topicRanking = [...knowledgePoints]
+  const topicRanking = [...content.knowledgePoints]
     .map((topic) => ({
       topic,
       stats: calculateTopicStats(
         topic.id,
-        sampleQuestions,
+        content.questions,
         progress.attempts
       ),
     }))
@@ -70,11 +69,13 @@ export default function Home({
     () =>
       buildDailyTasks({
         date: today,
-        topics: knowledgePoints,
-        questions: sampleQuestions,
+        subjectLabel: content.label,
+        topics: content.knowledgePoints,
+        questions: content.questions,
         progress,
       }),
-    [progress, today]
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [progress, today, subject]
   );
   const completedTaskIds =
     progress.dailyPlans[todayKey]?.completedTaskIds ?? [];
@@ -94,7 +95,9 @@ export default function Home({
     <section className="page">
       <div className="hero">
         <div>
-          <span className="eyebrow">SprintBook v0.4 · {mathContentVersion}</span>
+          <span className="eyebrow">
+            SprintBook v0.9 · {content.label} {content.contentVersion}
+          </span>
           <h1>考点看得清，错题改得掉。</h1>
           <p>
             今日任务、掌握度、间隔复习和限时模考已经连成闭环，冲刺时先做最有价值的事。
@@ -121,7 +124,8 @@ export default function Home({
           <strong>综合掌握度</strong>
           <div className="big-number">{overallMastery}%</div>
           <span>
-            覆盖 {knowledgePoints.length} 个数学考点 · {sampleQuestions.length} 道题
+            覆盖 {content.knowledgePoints.length} 个{content.label}考点 ·{" "}
+            {content.questions.length} 道题
           </span>
         </div>
       </div>

@@ -9,6 +9,7 @@ import { getDueMistakes } from "./storage";
 
 interface PlannerInput {
   date?: Date;
+  subjectLabel?: string;
   topics: KnowledgePoint[];
   questions: Question[];
   progress: ProgressState;
@@ -21,6 +22,7 @@ function dateCode(date: Date): string {
 
 export function buildDailyTasks({
   date = new Date(),
+  subjectLabel = "数学",
   topics,
   questions,
   progress,
@@ -83,7 +85,7 @@ export function buildDailyTasks({
     tasks.push({
       id: `exam-${suffix}`,
       type: "exam",
-      title: "完成一次数学限时摸底",
+      title: `完成一次${subjectLabel}限时摸底`,
       description: "用整卷模式检查当前速度和准确率，交卷后查看分考点报告。",
       route: {
         page: "exam",

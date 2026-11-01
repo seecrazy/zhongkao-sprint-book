@@ -1,18 +1,29 @@
 import type { ProgressState } from "../types";
 import { resetProgress } from "../lib/storage";
 import { clearExamHistory, saveActiveExam } from "../lib/exam-storage";
+import type { Subject } from "../types";
 
 interface SettingsProps {
+  subject: Subject;
   progress: ProgressState;
   setProgress: (progress: ProgressState) => void;
 }
 
-export default function Settings({ progress, setProgress }: SettingsProps) {
+export default function Settings({
+  subject,
+  progress,
+  setProgress,
+}: SettingsProps) {
   function clearProgress() {
-    if (!window.confirm("确定要清空本地学习进度和错题本吗？")) return;
+    if (
+      !window.confirm(
+        "确定要清空当前学科的学习进度、错题本和模考记录吗？"
+      )
+    )
+      return;
 
-    clearExamHistory();
-    saveActiveExam(null);
+    clearExamHistory(subject);
+    saveActiveExam(subject, null);
     setProgress(resetProgress());
   }
 
@@ -37,7 +48,7 @@ export default function Settings({ progress, setProgress }: SettingsProps) {
 
       <div className="panel">
         <h2>当前版本</h2>
-        <p>SprintBook v0.3 · 数学试点，掌握度与错题间隔复习已接入。</p>
+        <p>SprintBook v0.9 · 多学科试点，掌握度与错题间隔复习已接入。</p>
       </div>
     </section>
   );

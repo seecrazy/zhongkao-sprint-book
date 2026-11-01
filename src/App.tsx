@@ -139,6 +139,7 @@ export default function App() {
           setProgress={setProgress}
           initialTopicId={query.get("topic") ?? "all"}
           initialReviewOnly={query.get("review") === "1"}
+          initialVariant={query.get("variant") === "1"}
         />
       )}
       {page === "exam" && (

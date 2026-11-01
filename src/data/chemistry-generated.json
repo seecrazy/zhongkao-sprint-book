@@ -1,5 +1,5 @@
 {
-  "version": "gen-chemistry-v0.15",
+  "version": "gen-chemistry-v0.16",
   "questions": [
     {
       "subject": "chemistry",
@@ -5803,6 +5803,336 @@
       ],
       "answer": "B",
       "explanation": "【解答过程】由化学方程式，160 份 氧化铁 对应 112 份 铁（质量比 $160:112$）。$80\\ \\text{g}$ 氧化铁 生成 铁 $=80\\times\\dfrac{112}{160}=56\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0947",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations",
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：通电分解 $36\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
+      "steps": [
+        {
+          "prompt": "第一步：生成氢气的质量（g）",
+          "answer": 4,
+          "tolerance": 0.05,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：生成氧气的质量（g）",
+          "answer": 32,
+          "tolerance": 0.05,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$36\\ \\text{g}$ 水生成氢气 $4\\ \\text{g}$、氧气 $32\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0948",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations",
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：通电分解 $72\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
+      "steps": [
+        {
+          "prompt": "第一步：生成氢气的质量（g）",
+          "answer": 8,
+          "tolerance": 0.05,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：生成氧气的质量（g）",
+          "answer": 64,
+          "tolerance": 0.05,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$72\\ \\text{g}$ 水生成氢气 $8\\ \\text{g}$、氧气 $64\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0949",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations",
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：通电分解 $54\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
+      "steps": [
+        {
+          "prompt": "第一步：生成氢气的质量（g）",
+          "answer": 6,
+          "tolerance": 0.05,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：生成氧气的质量（g）",
+          "answer": 48,
+          "tolerance": 0.05,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$54\\ \\text{g}$ 水生成氢气 $6\\ \\text{g}$、氧气 $48\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0950",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations",
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：通电分解 $18\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
+      "steps": [
+        {
+          "prompt": "第一步：生成氢气的质量（g）",
+          "answer": 2,
+          "tolerance": 0.05,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：生成氧气的质量（g）",
+          "answer": 16,
+          "tolerance": 0.05,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$18\\ \\text{g}$ 水生成氢气 $2\\ \\text{g}$、氧气 $16\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0951",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations",
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：通电分解 $54\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
+      "steps": [
+        {
+          "prompt": "第一步：生成氢气的质量（g）",
+          "answer": 6,
+          "tolerance": 0.05,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：生成氧气的质量（g）",
+          "answer": 48,
+          "tolerance": 0.05,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$54\\ \\text{g}$ 水生成氢气 $6\\ \\text{g}$、氧气 $48\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0952",
+      "knowledgePointIds": [
+        "chemistry-chemical-equations",
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：通电分解 $18\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。",
+      "steps": [
+        {
+          "prompt": "第一步：生成氢气的质量（g）",
+          "answer": 2,
+          "tolerance": 0.05,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：生成氧气的质量（g）",
+          "answer": 16,
+          "tolerance": 0.05,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$18\\ \\text{g}$ 水生成氢气 $2\\ \\text{g}$、氧气 $16\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 160,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0953",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：配制 $80\\ \\text{g}$ 质量分数为 $10\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "steps": [
+        {
+          "prompt": "第一步：需要氯化钠的质量（g）",
+          "answer": 8,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：需要水的质量（g）",
+          "answer": 72,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$m_{溶质}=80\\times10\\%=8\\ \\text{g}$；$m_{水}=80-8=72\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 160,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0954",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：配制 $150\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "steps": [
+        {
+          "prompt": "第一步：需要氯化钠的质量（g）",
+          "answer": 7.5,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：需要水的质量（g）",
+          "answer": 142.5,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$m_{溶质}=150\\times5\\%=7.5\\ \\text{g}$；$m_{水}=150-7.5=142.5\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 160,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0955",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：配制 $50\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "steps": [
+        {
+          "prompt": "第一步：需要氯化钠的质量（g）",
+          "answer": 10,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：需要水的质量（g）",
+          "answer": 40,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$m_{溶质}=50\\times20\\%=10\\ \\text{g}$；$m_{水}=50-10=40\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 160,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0956",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：配制 $150\\ \\text{g}$ 质量分数为 $20\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "steps": [
+        {
+          "prompt": "第一步：需要氯化钠的质量（g）",
+          "answer": 30,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：需要水的质量（g）",
+          "answer": 120,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$m_{溶质}=150\\times20\\%=30\\ \\text{g}$；$m_{水}=150-30=120\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 160,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0957",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：配制 $100\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "steps": [
+        {
+          "prompt": "第一步：需要氯化钠的质量（g）",
+          "answer": 5,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：需要水的质量（g）",
+          "answer": 95,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$m_{溶质}=100\\times5\\%=5\\ \\text{g}$；$m_{水}=100-5=95\\ \\text{g}$。"
+    },
+    {
+      "subject": "chemistry",
+      "estimatedSeconds": 160,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-c-0958",
+      "knowledgePointIds": [
+        "chemistry-water-solution"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：配制 $150\\ \\text{g}$ 质量分数为 $5\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？",
+      "steps": [
+        {
+          "prompt": "第一步：需要氯化钠的质量（g）",
+          "answer": 7.5,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：需要水的质量（g）",
+          "answer": 142.5,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$m_{溶质}=150\\times5\\%=7.5\\ \\text{g}$；$m_{水}=150-7.5=142.5\\ \\text{g}$。"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": "english-exams-v0.15",
+  "version": "english-exams-v0.16",
   "exams": [
     {
       "id": "english-mock-001",
@@ -72,51 +72,56 @@
       "id": "english-sim-001",
       "subject": "english",
       "title": "英语冲刺模拟卷（一）",
-      "description": "卷面结构参考真实中考：语法与词汇选择 / 词形与填空 / 情景交际。满分 28 分。",
-      "durationMinutes": 30,
+      "description": "卷面结构参考真实中考（满分蓝图 100 分，按可用题池自适应缩减）。满分 28 分。",
+      "durationMinutes": 100,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、语法与词汇选择",
-          "description": "10 题，每题 1 分。",
+          "title": "一、语法选择（5 题，每题 1 分）",
+          "description": "5 题，每题 1 分，共 5 分。",
           "scorePerQuestion": 1,
           "questionIds": [
-            "gen-e-0685",
-            "gen-e-0696",
-            "gen-e-0725",
-            "gen-e-0749",
-            "gen-e-0751",
-            "gen-e-0727",
-            "gen-e-0680",
+            "gen-e-0712",
+            "gen-e-0753",
+            "gen-e-0704",
             "gen-e-0683",
-            "gen-e-0719",
-            "gen-e-0687"
+            "gen-e-0750"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、词形与填空",
-          "description": "6 题，每题 2 分。",
+          "title": "二、词形与填空（9 题，每题 2 分）",
+          "description": "9 题，每题 2 分，共 18 分。",
           "scorePerQuestion": 2,
           "questionIds": [
+            "gen-e-0734",
+            "gen-e-0672",
+            "gen-e-0633",
+            "gen-e-0626",
             "gen-e-0607",
-            "gen-e-0731",
-            "gen-e-0648",
-            "gen-e-0673",
-            "gen-e-0662",
-            "gen-e-0659"
+            "gen-e-0646",
+            "gen-e-0622",
+            "gen-e-0655",
+            "gen-e-0654"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、情景交际",
-          "description": "3 题，每题 2 分。",
+          "title": "三、情景交际（1 题，每题 2 分）",
+          "description": "1 题，每题 2 分，共 2 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0726",
-            "gen-e-0730",
-            "gen-e-0722"
+            "gen-e-0725"
+          ]
+        },
+        {
+          "id": "sec-4",
+          "title": "四、词汇运用（1 题，每题 3 分）",
+          "description": "1 题，每题 3 分，共 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-e-0696"
           ]
         }
       ]
@@ -125,51 +130,56 @@
       "id": "english-sim-002",
       "subject": "english",
       "title": "英语冲刺模拟卷（二）",
-      "description": "卷面结构参考真实中考：语法与词汇选择 / 词形与填空 / 情景交际。满分 28 分。",
-      "durationMinutes": 30,
+      "description": "卷面结构参考真实中考（满分蓝图 100 分，按可用题池自适应缩减）。满分 28 分。",
+      "durationMinutes": 100,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、语法与词汇选择",
-          "description": "10 题，每题 1 分。",
+          "title": "一、语法选择（5 题，每题 1 分）",
+          "description": "5 题，每题 1 分，共 5 分。",
           "scorePerQuestion": 1,
           "questionIds": [
-            "gen-e-0709",
-            "gen-e-0706",
-            "gen-e-0751",
-            "gen-e-0724",
-            "gen-e-0679",
-            "gen-e-0682",
-            "gen-e-0764",
-            "gen-e-0759",
+            "gen-e-0755",
+            "gen-e-0699",
             "gen-e-0756",
-            "gen-e-0763"
+            "gen-e-0698",
+            "gen-e-0764"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、词形与填空",
-          "description": "6 题，每题 2 分。",
+          "title": "二、词形与填空（9 题，每题 2 分）",
+          "description": "9 题，每题 2 分，共 18 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0664",
-            "gen-e-0625",
-            "gen-e-0673",
-            "gen-e-0642",
-            "gen-e-0606",
-            "gen-e-0733"
+            "gen-e-0608",
+            "gen-e-0614",
+            "gen-e-0626",
+            "gen-e-0745",
+            "gen-e-0610",
+            "gen-e-0634",
+            "gen-e-0671",
+            "gen-e-0615",
+            "gen-e-0605"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、情景交际",
-          "description": "3 题，每题 2 分。",
+          "title": "三、情景交际（1 题，每题 2 分）",
+          "description": "1 题，每题 2 分，共 2 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0730",
-            "gen-e-0715",
-            "gen-e-0723"
+            "gen-e-0717"
+          ]
+        },
+        {
+          "id": "sec-4",
+          "title": "四、词汇运用（1 题，每题 3 分）",
+          "description": "1 题，每题 3 分，共 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-e-0695"
           ]
         }
       ]
@@ -178,51 +188,56 @@
       "id": "english-sim-003",
       "subject": "english",
       "title": "英语冲刺模拟卷（三）",
-      "description": "卷面结构参考真实中考：语法与词汇选择 / 词形与填空 / 情景交际。满分 28 分。",
-      "durationMinutes": 30,
+      "description": "卷面结构参考真实中考（满分蓝图 100 分，按可用题池自适应缩减）。满分 28 分。",
+      "durationMinutes": 100,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、语法与词汇选择",
-          "description": "10 题，每题 1 分。",
+          "title": "一、语法选择（5 题，每题 1 分）",
+          "description": "5 题，每题 1 分，共 5 分。",
           "scorePerQuestion": 1,
           "questionIds": [
-            "gen-e-0728",
-            "gen-e-0684",
-            "gen-e-0719",
-            "gen-e-0709",
-            "gen-e-0694",
-            "gen-e-0721",
-            "gen-e-0691",
-            "gen-e-0726",
-            "gen-e-0714",
-            "gen-e-0750"
+            "gen-e-0712",
+            "gen-e-0680",
+            "gen-e-0759",
+            "gen-e-0700",
+            "gen-e-0705"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、词形与填空",
-          "description": "6 题，每题 2 分。",
+          "title": "二、词形与填空（9 题，每题 2 分）",
+          "description": "9 题，每题 2 分，共 18 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0659",
-            "gen-e-0649",
             "gen-e-0606",
-            "gen-e-0620",
-            "gen-e-0614",
-            "gen-e-0605"
+            "gen-e-0650",
+            "gen-e-0617",
+            "gen-e-0735",
+            "gen-e-0660",
+            "gen-e-0744",
+            "gen-e-0642",
+            "gen-e-0605",
+            "gen-e-0613"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、情景交际",
-          "description": "3 题，每题 2 分。",
+          "title": "三、情景交际（1 题，每题 2 分）",
+          "description": "1 题，每题 2 分，共 2 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0718",
-            "gen-e-0720",
-            "gen-e-0723"
+            "gen-e-0729"
+          ]
+        },
+        {
+          "id": "sec-4",
+          "title": "四、词汇运用（1 题，每题 3 分）",
+          "description": "1 题，每题 3 分，共 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-e-0707"
           ]
         }
       ]
@@ -231,51 +246,56 @@
       "id": "english-sim-004",
       "subject": "english",
       "title": "英语冲刺模拟卷（四）",
-      "description": "卷面结构参考真实中考：语法与词汇选择 / 词形与填空 / 情景交际。满分 28 分。",
-      "durationMinutes": 30,
+      "description": "卷面结构参考真实中考（满分蓝图 100 分，按可用题池自适应缩减）。满分 28 分。",
+      "durationMinutes": 100,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、语法与词汇选择",
-          "description": "10 题，每题 1 分。",
+          "title": "一、语法选择（5 题，每题 1 分）",
+          "description": "5 题，每题 1 分，共 5 分。",
           "scorePerQuestion": 1,
           "questionIds": [
-            "gen-e-0702",
-            "gen-e-0721",
-            "gen-e-0750",
-            "gen-e-0720",
-            "gen-e-0686",
-            "gen-e-0726",
-            "gen-e-0703",
-            "gen-e-0722",
-            "gen-e-0687",
-            "gen-e-0706"
+            "gen-e-0701",
+            "gen-e-0710",
+            "gen-e-0756",
+            "gen-e-0684",
+            "gen-e-0696"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、词形与填空",
-          "description": "6 题，每题 2 分。",
+          "title": "二、词形与填空（9 题，每题 2 分）",
+          "description": "9 题，每题 2 分，共 18 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0628",
-            "gen-e-0655",
-            "gen-e-0609",
-            "gen-e-0640",
-            "gen-e-0647",
-            "gen-e-0620"
+            "gen-e-0739",
+            "gen-e-0666",
+            "gen-e-0624",
+            "gen-e-0667",
+            "gen-e-0746",
+            "gen-e-0608",
+            "gen-e-0614",
+            "gen-e-0615",
+            "gen-e-0630"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、情景交际",
-          "description": "3 题，每题 2 分。",
+          "title": "三、情景交际（1 题，每题 2 分）",
+          "description": "1 题，每题 2 分，共 2 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0719",
-            "gen-e-0723",
-            "gen-e-0730"
+            "gen-e-0721"
+          ]
+        },
+        {
+          "id": "sec-4",
+          "title": "四、词汇运用（1 题，每题 3 分）",
+          "description": "1 题，每题 3 分，共 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-e-0704"
           ]
         }
       ]
@@ -284,51 +304,56 @@
       "id": "english-sim-005",
       "subject": "english",
       "title": "英语冲刺模拟卷（五）",
-      "description": "卷面结构参考真实中考：语法与词汇选择 / 词形与填空 / 情景交际。满分 28 分。",
-      "durationMinutes": 30,
+      "description": "卷面结构参考真实中考（满分蓝图 100 分，按可用题池自适应缩减）。满分 28 分。",
+      "durationMinutes": 100,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、语法与词汇选择",
-          "description": "10 题，每题 1 分。",
+          "title": "一、语法选择（5 题，每题 1 分）",
+          "description": "5 题，每题 1 分，共 5 分。",
           "scorePerQuestion": 1,
           "questionIds": [
-            "gen-e-0756",
-            "gen-e-0708",
-            "gen-e-0683",
-            "gen-e-0718",
-            "gen-e-0678",
+            "gen-e-0709",
+            "gen-e-0698",
+            "gen-e-0753",
             "gen-e-0680",
-            "gen-e-0695",
-            "gen-e-0723",
-            "gen-e-0699",
-            "gen-e-0687"
+            "gen-e-0707"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、词形与填空",
-          "description": "6 题，每题 2 分。",
+          "title": "二、词形与填空（9 题，每题 2 分）",
+          "description": "9 题，每题 2 分，共 18 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0625",
-            "gen-e-0660",
-            "gen-e-0655",
+            "gen-e-0746",
+            "gen-e-0733",
+            "gen-e-0609",
+            "gen-e-0748",
+            "gen-e-0605",
+            "gen-e-0607",
             "gen-e-0611",
-            "gen-e-0621",
-            "gen-e-0656"
+            "gen-e-0613",
+            "gen-e-0649"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、情景交际",
-          "description": "3 题，每题 2 分。",
+          "title": "三、情景交际（1 题，每题 2 分）",
+          "description": "1 题，每题 2 分，共 2 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0730",
-            "gen-e-0726",
-            "gen-e-0717"
+            "gen-e-0716"
+          ]
+        },
+        {
+          "id": "sec-4",
+          "title": "四、词汇运用（1 题，每题 3 分）",
+          "description": "1 题，每题 3 分，共 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-e-0714"
           ]
         }
       ]
@@ -337,51 +362,56 @@
       "id": "english-sim-006",
       "subject": "english",
       "title": "英语冲刺模拟卷（六）",
-      "description": "卷面结构参考真实中考：语法与词汇选择 / 词形与填空 / 情景交际。满分 28 分。",
-      "durationMinutes": 30,
+      "description": "卷面结构参考真实中考（满分蓝图 100 分，按可用题池自适应缩减）。满分 28 分。",
+      "durationMinutes": 100,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、语法与词汇选择",
-          "description": "10 题，每题 1 分。",
+          "title": "一、语法选择（5 题，每题 1 分）",
+          "description": "5 题，每题 1 分，共 5 分。",
           "scorePerQuestion": 1,
           "questionIds": [
-            "gen-e-0692",
-            "gen-e-0755",
-            "gen-e-0707",
-            "gen-e-0763",
-            "gen-e-0759",
-            "gen-e-0684",
-            "gen-e-0715",
-            "gen-e-0698",
-            "gen-e-0716",
-            "gen-e-0764"
+            "gen-e-0702",
+            "gen-e-0756",
+            "gen-e-0708",
+            "gen-e-0687",
+            "gen-e-0754"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、词形与填空",
-          "description": "6 题，每题 2 分。",
+          "title": "二、词形与填空（9 题，每题 2 分）",
+          "description": "9 题，每题 2 分，共 18 分。",
           "scorePerQuestion": 2,
           "questionIds": [
+            "gen-e-0677",
+            "gen-e-0621",
+            "gen-e-0666",
+            "gen-e-0620",
+            "gen-e-0632",
+            "gen-e-0637",
             "gen-e-0748",
-            "gen-e-0667",
-            "gen-e-0747",
-            "gen-e-0740",
-            "gen-e-0670",
-            "gen-e-0647"
+            "gen-e-0630",
+            "gen-e-0640"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、情景交际",
-          "description": "3 题，每题 2 分。",
+          "title": "三、情景交际（1 题，每题 2 分）",
+          "description": "1 题，每题 2 分，共 2 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0724",
-            "gen-e-0722",
-            "gen-e-0726"
+            "gen-e-0715"
+          ]
+        },
+        {
+          "id": "sec-4",
+          "title": "四、词汇运用（1 题，每题 3 分）",
+          "description": "1 题，每题 3 分，共 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-e-0705"
           ]
         }
       ]
@@ -389,52 +419,57 @@
     {
       "id": "english-sim-007",
       "subject": "english",
-      "title": "英语冲刺模拟卷（undefined）",
-      "description": "卷面结构参考真实中考：语法与词汇选择 / 词形与填空 / 情景交际。满分 28 分。",
-      "durationMinutes": 30,
+      "title": "英语冲刺模拟卷（七）",
+      "description": "卷面结构参考真实中考（满分蓝图 100 分，按可用题池自适应缩减）。满分 28 分。",
+      "durationMinutes": 100,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、语法与词汇选择",
-          "description": "10 题，每题 1 分。",
+          "title": "一、语法选择（5 题，每题 1 分）",
+          "description": "5 题，每题 1 分，共 5 分。",
           "scorePerQuestion": 1,
           "questionIds": [
-            "gen-e-0698",
-            "gen-e-0679",
-            "gen-e-0710",
-            "gen-e-0720",
-            "gen-e-0723",
-            "gen-e-0729",
-            "gen-e-0682",
-            "gen-e-0689",
-            "gen-e-0694",
+            "gen-e-0701",
+            "gen-e-0763",
+            "gen-e-0678",
+            "gen-e-0680",
             "gen-e-0696"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、词形与填空",
-          "description": "6 题，每题 2 分。",
+          "title": "二、词形与填空（9 题，每题 2 分）",
+          "description": "9 题，每题 2 分，共 18 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0748",
-            "gen-e-0610",
-            "gen-e-0653",
-            "gen-e-0667",
-            "gen-e-0624",
-            "gen-e-0623"
+            "gen-e-0744",
+            "gen-e-0639",
+            "gen-e-0621",
+            "gen-e-0736",
+            "gen-e-0671",
+            "gen-e-0733",
+            "gen-e-0642",
+            "gen-e-0655",
+            "gen-e-0628"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、情景交际",
-          "description": "3 题，每题 2 分。",
+          "title": "三、情景交际（1 题，每题 2 分）",
+          "description": "1 题，每题 2 分，共 2 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0727",
-            "gen-e-0716",
-            "gen-e-0715"
+            "gen-e-0726"
+          ]
+        },
+        {
+          "id": "sec-4",
+          "title": "四、词汇运用（1 题，每题 3 分）",
+          "description": "1 题，每题 3 分，共 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-e-0698"
           ]
         }
       ]
@@ -442,52 +477,57 @@
     {
       "id": "english-sim-008",
       "subject": "english",
-      "title": "英语冲刺模拟卷（undefined）",
-      "description": "卷面结构参考真实中考：语法与词汇选择 / 词形与填空 / 情景交际。满分 28 分。",
-      "durationMinutes": 30,
+      "title": "英语冲刺模拟卷（八）",
+      "description": "卷面结构参考真实中考（满分蓝图 100 分，按可用题池自适应缩减）。满分 28 分。",
+      "durationMinutes": 100,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、语法与词汇选择",
-          "description": "10 题，每题 1 分。",
+          "title": "一、语法选择（5 题，每题 1 分）",
+          "description": "5 题，每题 1 分，共 5 分。",
           "scorePerQuestion": 1,
           "questionIds": [
-            "gen-e-0683",
-            "gen-e-0752",
-            "gen-e-0682",
-            "gen-e-0756",
-            "gen-e-0753",
-            "gen-e-0679",
-            "gen-e-0720",
-            "gen-e-0757",
-            "gen-e-0706",
-            "gen-e-0719"
+            "gen-e-0749",
+            "gen-e-0705",
+            "gen-e-0700",
+            "gen-e-0763",
+            "gen-e-0758"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、词形与填空",
-          "description": "6 题，每题 2 分。",
+          "title": "二、词形与填空（9 题，每题 2 分）",
+          "description": "9 题，每题 2 分，共 18 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0606",
+            "gen-e-0645",
             "gen-e-0633",
             "gen-e-0611",
+            "gen-e-0669",
+            "gen-e-0668",
+            "gen-e-0610",
             "gen-e-0662",
-            "gen-e-0640",
-            "gen-e-0612"
+            "gen-e-0743",
+            "gen-e-0609"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、情景交际",
-          "description": "3 题，每题 2 分。",
+          "title": "三、情景交际（1 题，每题 2 分）",
+          "description": "1 题，每题 2 分，共 2 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0728",
-            "gen-e-0721",
-            "gen-e-0716"
+            "gen-e-0727"
+          ]
+        },
+        {
+          "id": "sec-4",
+          "title": "四、词汇运用（1 题，每题 3 分）",
+          "description": "1 题，每题 3 分，共 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-e-0706"
           ]
         }
       ]
@@ -495,52 +535,57 @@
     {
       "id": "english-sim-009",
       "subject": "english",
-      "title": "英语冲刺模拟卷（undefined）",
-      "description": "卷面结构参考真实中考：语法与词汇选择 / 词形与填空 / 情景交际。满分 28 分。",
-      "durationMinutes": 30,
+      "title": "英语冲刺模拟卷（九）",
+      "description": "卷面结构参考真实中考（满分蓝图 100 分，按可用题池自适应缩减）。满分 28 分。",
+      "durationMinutes": 100,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、语法与词汇选择",
-          "description": "10 题，每题 1 分。",
+          "title": "一、语法选择（5 题，每题 1 分）",
+          "description": "5 题，每题 1 分，共 5 分。",
           "scorePerQuestion": 1,
           "questionIds": [
+            "gen-e-0704",
+            "gen-e-0756",
             "gen-e-0694",
-            "gen-e-0684",
-            "gen-e-0682",
-            "gen-e-0687",
-            "gen-e-0761",
-            "gen-e-0723",
-            "gen-e-0757",
-            "gen-e-0712",
-            "gen-e-0754",
-            "gen-e-0756"
+            "gen-e-0703",
+            "gen-e-0763"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、词形与填空",
-          "description": "6 题，每题 2 分。",
+          "title": "二、词形与填空（9 题，每题 2 分）",
+          "description": "9 题，每题 2 分，共 18 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0620",
-            "gen-e-0642",
-            "gen-e-0645",
+            "gen-e-0742",
+            "gen-e-0638",
+            "gen-e-0634",
             "gen-e-0606",
             "gen-e-0605",
-            "gen-e-0743"
+            "gen-e-0630",
+            "gen-e-0637",
+            "gen-e-0612",
+            "gen-e-0621"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、情景交际",
-          "description": "3 题，每题 2 分。",
+          "title": "三、情景交际（1 题，每题 2 分）",
+          "description": "1 题，每题 2 分，共 2 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0728",
-            "gen-e-0724",
-            "gen-e-0715"
+            "gen-e-0719"
+          ]
+        },
+        {
+          "id": "sec-4",
+          "title": "四、词汇运用（1 题，每题 3 分）",
+          "description": "1 题，每题 3 分，共 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-e-0708"
           ]
         }
       ]
@@ -548,52 +593,57 @@
     {
       "id": "english-sim-010",
       "subject": "english",
-      "title": "英语冲刺模拟卷（undefined）",
-      "description": "卷面结构参考真实中考：语法与词汇选择 / 词形与填空 / 情景交际。满分 28 分。",
-      "durationMinutes": 30,
+      "title": "英语冲刺模拟卷（十）",
+      "description": "卷面结构参考真实中考（满分蓝图 100 分，按可用题池自适应缩减）。满分 28 分。",
+      "durationMinutes": 100,
       "level": "mock",
       "sections": [
         {
           "id": "sec-1",
-          "title": "一、语法与词汇选择",
-          "description": "10 题，每题 1 分。",
+          "title": "一、语法选择（5 题，每题 1 分）",
+          "description": "5 题，每题 1 分，共 5 分。",
           "scorePerQuestion": 1,
           "questionIds": [
-            "gen-e-0728",
-            "gen-e-0722",
-            "gen-e-0687",
-            "gen-e-0762",
-            "gen-e-0696",
-            "gen-e-0763",
             "gen-e-0700",
-            "gen-e-0683",
-            "gen-e-0752",
-            "gen-e-0694"
+            "gen-e-0761",
+            "gen-e-0709",
+            "gen-e-0686",
+            "gen-e-0705"
           ]
         },
         {
           "id": "sec-2",
-          "title": "二、词形与填空",
-          "description": "6 题，每题 2 分。",
+          "title": "二、词形与填空（9 题，每题 2 分）",
+          "description": "9 题，每题 2 分，共 18 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0628",
-            "gen-e-0654",
-            "gen-e-0746",
-            "gen-e-0626",
-            "gen-e-0652",
-            "gen-e-0617"
+            "gen-e-0629",
+            "gen-e-0747",
+            "gen-e-0631",
+            "gen-e-0740",
+            "gen-e-0638",
+            "gen-e-0673",
+            "gen-e-0737",
+            "gen-e-0676",
+            "gen-e-0651"
           ]
         },
         {
           "id": "sec-3",
-          "title": "三、情景交际",
-          "description": "3 题，每题 2 分。",
+          "title": "三、情景交际（1 题，每题 2 分）",
+          "description": "1 题，每题 2 分，共 2 分。",
           "scorePerQuestion": 2,
           "questionIds": [
-            "gen-e-0719",
-            "gen-e-0727",
-            "gen-e-0725"
+            "gen-e-0721"
+          ]
+        },
+        {
+          "id": "sec-4",
+          "title": "四、词汇运用（1 题，每题 3 分）",
+          "description": "1 题，每题 3 分，共 3 分。",
+          "scorePerQuestion": 3,
+          "questionIds": [
+            "gen-e-0698"
           ]
         }
       ]

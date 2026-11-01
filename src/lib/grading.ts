@@ -93,6 +93,46 @@ export function gradeQuestion(
     };
   }
 
+  if (question.type === "solution") {
+    let stepAnswers: unknown[] = [];
+    try {
+      const parsed = JSON.parse(userAnswer);
+      stepAnswers = Array.isArray(parsed) ? parsed : [];
+    } catch {
+      stepAnswers = [];
+    }
+
+    const results = question.steps.map((step, index) => {
+      const raw = String(stepAnswers[index] ?? "").trim();
+      const numeric = Number(raw.replace(/[^\d.+-]/g, ""));
+      const tolerance = step.tolerance ?? 0.0001;
+      return {
+        raw,
+        correct: raw !== "" && Number.isFinite(numeric) && Math.abs(numeric - step.answer) <= tolerance,
+      };
+    });
+
+    const score = question.steps.reduce(
+      (sum, step, index) => sum + (results[index].correct ? step.score : 0),
+      0
+    );
+    const maxScore = question.steps.reduce((sum, step) => sum + step.score, 0);
+    const answeredCount = results.filter((r) => r.raw !== "").length;
+    const status =
+      answeredCount === 0 ? "skipped" : score === maxScore ? "correct" : "wrong";
+
+    return {
+      ...base,
+      status,
+      score,
+      maxScore,
+      correctAnswer: question.steps
+        .map((step, i) => `${"①②③④⑤⑥⑦⑧⑨⑩"[i] ?? ""}${step.prompt}：${step.answer}`)
+        .join("；"),
+      errorType: status === "correct" ? "none" : answeredCount === 0 ? "blank" : "calculation",
+    };
+  }
+
   if (question.type === "numeric") {
     const numeric = Number(userAnswer.replace(/[^\d.+-]/g, ""));
     const tolerance = question.tolerance ?? 0.0001;
@@ -163,6 +203,11 @@ export function getCorrectAnswerText(question: Question): string {
   if (question.type === "single-choice") return question.answer;
   if (question.type === "multi-choice") {
     return [...question.answer.toUpperCase()].sort().join("");
+  }
+  if (question.type === "solution") {
+    return question.steps
+      .map((step, i) => `${"①②③④⑤⑥⑦⑧⑨"[i] ?? ""}${step.answer}`)
+      .join("；");
   }
   if (question.type === "numeric") return String(question.answer);
   return question.acceptedAnswers[0];

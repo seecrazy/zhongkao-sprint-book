@@ -90,11 +90,24 @@ export interface ExpressionQuestion extends BaseQuestion {
   answerKind?: "solution-set" | "text";
 }
 
+export interface SolutionStep {
+  prompt: string;
+  answer: number;
+  tolerance?: number;
+  score: number;
+}
+
+export interface SolutionQuestion extends BaseQuestion {
+  type: "solution";
+  steps: SolutionStep[];
+}
+
 export type Question =
   | ChoiceQuestion
   | MultiChoiceQuestion
   | NumericQuestion
-  | ExpressionQuestion;
+  | ExpressionQuestion
+  | SolutionQuestion;
 
 export type QuestionResultStatus = "correct" | "wrong" | "skipped";
 

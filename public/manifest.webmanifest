@@ -1,0 +1,26 @@
+{
+  "name": "中考冲刺书 · SprintBook",
+  "short_name": "SprintBook",
+  "description": "中考冲刺书：考点看得清，错题改得掉，冲刺有计划。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#2F6FED",
+  "background_color": "#F5F7FB",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

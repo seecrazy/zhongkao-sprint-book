@@ -4,7 +4,12 @@ import { gradeQuestions } from "../lib/grading";
 import { getDueMistakes, recordAttempt } from "../lib/storage";
 import MathText from "../components/MathText";
 import QuestionCard from "../components/QuestionCard";
-import type { ProgressState, QuestionResult, Subject } from "../types";
+import type {
+  ProgressState,
+  Question,
+  QuestionResult,
+  Subject,
+} from "../types";
 
 interface PracticeProps {
   subject: Subject;
@@ -12,6 +17,7 @@ interface PracticeProps {
   setProgress: (progress: ProgressState) => void;
   initialTopicId?: string;
   initialReviewOnly?: boolean;
+  initialVariant?: boolean;
 }
 
 export default function Practice({
@@ -20,6 +26,7 @@ export default function Practice({
   setProgress,
   initialTopicId = "all",
   initialReviewOnly = false,
+  initialVariant = false,
 }: PracticeProps) {
   const { knowledgePoints, questions: subjectQuestions } =
     getSubjectContent(subject);
@@ -39,6 +46,46 @@ export default function Practice({
     [initialReviewOnly]
   );
 
+  // 变式重练：把每道到期错题替换为同考点、同题型的另一道题（优先生成题）
+  const variantMap = useMemo(() => {
+    const map = new Map<string, Question>();
+    if (!initialVariant || !initialReviewOnly) return map;
+
+    const used = new Set<string>();
+    const daySeed = Number(`${new Date().getFullYear()}${new Date().getMonth() + 1}${new Date().getDate()}`);
+
+    reviewQuestionIds.forEach((mistakeId) => {
+      const original = subjectQuestions.find((qz) => qz.id === mistakeId);
+      if (!original) return;
+
+      const primaryKp = original.knowledgePointIds[0];
+      const candidates = subjectQuestions.filter(
+        (qz) =>
+          qz.id !== mistakeId &&
+          qz.type === original.type &&
+          !used.has(qz.id) &&
+          !reviewQuestionIds.includes(qz.id) &&
+          qz.knowledgePointIds.includes(primaryKp)
+      );
+      if (candidates.length === 0) return;
+
+      let acc = daySeed + mistakeId.length;
+      for (const ch of mistakeId) acc = (acc * 31 + ch.charCodeAt(0)) % 100000;
+      const picked = candidates[acc % candidates.length];
+
+      map.set(mistakeId, picked);
+      used.add(picked.id);
+    });
+
+    return map;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initialVariant, initialReviewOnly, reviewQuestionIds, subject]);
+
+  const effectiveReviewIds = useMemo(() => {
+    if (!initialVariant) return reviewQuestionIds;
+    return reviewQuestionIds.map((id) => variantMap.get(id)?.id ?? id);
+  }, [initialVariant, reviewQuestionIds, variantMap]);
+
   const filteredQuestions = useMemo(() => {
     let questions = subjectQuestions;
 
@@ -50,13 +97,13 @@ export default function Practice({
 
     if (reviewOnly) {
       questions = questions.filter((question) =>
-        reviewQuestionIds.includes(question.id)
+        effectiveReviewIds.includes(question.id)
       );
     }
 
     return questions;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [topicId, reviewOnly, reviewQuestionIds, subject]);
+  }, [topicId, reviewOnly, effectiveReviewIds, subject]);
 
   function resetSession(nextTopicId = topicId, nextReviewOnly = reviewOnly) {
     setTopicId(nextTopicId);
@@ -118,7 +165,9 @@ export default function Practice({
           <h1>{reviewOnly ? "错题复习" : "专题练习"}</h1>
           <p>
             {reviewOnly
-              ? "本轮只复习进入页面时到期的错题。连续答对可以推进复习阶段。"
+              ? initialVariant
+                ? "变式重练：用同考点、同题型的其他题目替代原错题，检验是否真正掌握。连续答对可以推进复习阶段。"
+                : "本轮只复习进入页面时到期的错题。连续答对可以推进复习阶段。"
               : "选择考点，完成一组题目后点击“一键打分”。"}
           </p>
         </div>
@@ -151,8 +200,14 @@ export default function Practice({
 
       {reviewOnly && (
         <div className="review-banner">
-          <strong>复习模式</strong>
-          <span>本次复习队列包含 {reviewQuestionIds.length} 道到期错题。</span>
+          <strong>{initialVariant ? "变式重练模式" : "复习模式"}</strong>
+          <span>
+            本次复习队列包含 {reviewQuestionIds.length} 道到期错题
+            {initialVariant && variantMap.size > 0
+              ? `，其中 ${variantMap.size} 道已替换为同考点同类变式题`
+              : ""}
+            。
+          </span>
           <button
             className="ghost"
             type="button"

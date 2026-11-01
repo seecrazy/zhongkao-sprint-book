@@ -109,6 +109,14 @@ export default function Mistakes({
         >
           开始复习到期错题
         </button>
+        <button
+          className="ghost"
+          type="button"
+          disabled={dueMistakes.length === 0}
+          onClick={() => onNavigate("practice", { review: "1", variant: "1" })}
+        >
+          变式重练（同考点同类题）
+        </button>
       </div>
 
       {mistakes.length === 0 ? (

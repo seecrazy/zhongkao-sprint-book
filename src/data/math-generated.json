@@ -1,5 +1,5 @@
 {
-  "version": "gen-math-v0.15",
+  "version": "gen-math-v0.16",
   "questions": [
     {
       "subject": "math",
@@ -8373,6 +8373,316 @@
       ],
       "answer": "C",
       "explanation": "【解答过程】$h=d\\tan45^\\circ=11\\times1=11\\ \\text{m}$。"
+    },
+    {
+      "subject": "math",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-m-0923",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：解方程 $x^2 +3x +0 = 0$。（按步骤写出判别式与两个根）",
+      "steps": [
+        {
+          "prompt": "第一步：判别式 Δ = b² - 4ac 的值",
+          "answer": 9,
+          "score": 3
+        },
+        {
+          "prompt": "第二步：较小的根 x₁",
+          "answer": -3,
+          "score": 3
+        },
+        {
+          "prompt": "第三步：较大的根 x₂",
+          "answer": 0,
+          "score": 4
+        }
+      ],
+      "explanation": "【解答过程】Δ = (3)² - 4×1×(0) = 9 > 0，方程有两个不相等实数根；$x = \\dfrac{-3 \\pm \\sqrt{9}}{2}$，即 $x_1=-3$，$x_2=0$。"
+    },
+    {
+      "subject": "math",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-m-0924",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：解方程 $x^2 +7x +6 = 0$。（按步骤写出判别式与两个根）",
+      "steps": [
+        {
+          "prompt": "第一步：判别式 Δ = b² - 4ac 的值",
+          "answer": 25,
+          "score": 3
+        },
+        {
+          "prompt": "第二步：较小的根 x₁",
+          "answer": -6,
+          "score": 3
+        },
+        {
+          "prompt": "第三步：较大的根 x₂",
+          "answer": -1,
+          "score": 4
+        }
+      ],
+      "explanation": "【解答过程】Δ = (7)² - 4×1×(6) = 25 > 0，方程有两个不相等实数根；$x = \\dfrac{-7 \\pm \\sqrt{25}}{2}$，即 $x_1=-6$，$x_2=-1$。"
+    },
+    {
+      "subject": "math",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-m-0925",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：解方程 $x^2 -1x -30 = 0$。（按步骤写出判别式与两个根）",
+      "steps": [
+        {
+          "prompt": "第一步：判别式 Δ = b² - 4ac 的值",
+          "answer": 121,
+          "score": 3
+        },
+        {
+          "prompt": "第二步：较小的根 x₁",
+          "answer": -5,
+          "score": 3
+        },
+        {
+          "prompt": "第三步：较大的根 x₂",
+          "answer": 6,
+          "score": 4
+        }
+      ],
+      "explanation": "【解答过程】Δ = (-1)² - 4×1×(-30) = 121 > 0，方程有两个不相等实数根；$x = \\dfrac{1 \\pm \\sqrt{121}}{2}$，即 $x_1=-5$，$x_2=6$。"
+    },
+    {
+      "subject": "math",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-m-0926",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：解方程 $x^2 -4x -12 = 0$。（按步骤写出判别式与两个根）",
+      "steps": [
+        {
+          "prompt": "第一步：判别式 Δ = b² - 4ac 的值",
+          "answer": 64,
+          "score": 3
+        },
+        {
+          "prompt": "第二步：较小的根 x₁",
+          "answer": -2,
+          "score": 3
+        },
+        {
+          "prompt": "第三步：较大的根 x₂",
+          "answer": 6,
+          "score": 4
+        }
+      ],
+      "explanation": "【解答过程】Δ = (-4)² - 4×1×(-12) = 64 > 0，方程有两个不相等实数根；$x = \\dfrac{4 \\pm \\sqrt{64}}{2}$，即 $x_1=-2$，$x_2=6$。"
+    },
+    {
+      "subject": "math",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-m-0927",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：解方程 $x^2 -6x +0 = 0$。（按步骤写出判别式与两个根）",
+      "steps": [
+        {
+          "prompt": "第一步：判别式 Δ = b² - 4ac 的值",
+          "answer": 36,
+          "score": 3
+        },
+        {
+          "prompt": "第二步：较小的根 x₁",
+          "answer": 0,
+          "score": 3
+        },
+        {
+          "prompt": "第三步：较大的根 x₂",
+          "answer": 6,
+          "score": 4
+        }
+      ],
+      "explanation": "【解答过程】Δ = (-6)² - 4×1×(0) = 36 > 0，方程有两个不相等实数根；$x = \\dfrac{6 \\pm \\sqrt{36}}{2}$，即 $x_1=0$，$x_2=6$。"
+    },
+    {
+      "subject": "math",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-m-0928",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：解方程 $x^2 +2x +0 = 0$。（按步骤写出判别式与两个根）",
+      "steps": [
+        {
+          "prompt": "第一步：判别式 Δ = b² - 4ac 的值",
+          "answer": 4,
+          "score": 3
+        },
+        {
+          "prompt": "第二步：较小的根 x₁",
+          "answer": -2,
+          "score": 3
+        },
+        {
+          "prompt": "第三步：较大的根 x₂",
+          "answer": 0,
+          "score": 4
+        }
+      ],
+      "explanation": "【解答过程】Δ = (2)² - 4×1×(0) = 4 > 0，方程有两个不相等实数根；$x = \\dfrac{-2 \\pm \\sqrt{4}}{2}$，即 $x_1=-2$，$x_2=0$。"
+    },
+    {
+      "subject": "math",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-m-0929",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：解方程 $x^2 -1x +0 = 0$。（按步骤写出判别式与两个根）",
+      "steps": [
+        {
+          "prompt": "第一步：判别式 Δ = b² - 4ac 的值",
+          "answer": 1,
+          "score": 3
+        },
+        {
+          "prompt": "第二步：较小的根 x₁",
+          "answer": 0,
+          "score": 3
+        },
+        {
+          "prompt": "第三步：较大的根 x₂",
+          "answer": 1,
+          "score": 4
+        }
+      ],
+      "explanation": "【解答过程】Δ = (-1)² - 4×1×(0) = 1 > 0，方程有两个不相等实数根；$x = \\dfrac{1 \\pm \\sqrt{1}}{2}$，即 $x_1=0$，$x_2=1$。"
+    },
+    {
+      "subject": "math",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-m-0930",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：解方程 $x^2 +3x +2 = 0$。（按步骤写出判别式与两个根）",
+      "steps": [
+        {
+          "prompt": "第一步：判别式 Δ = b² - 4ac 的值",
+          "answer": 1,
+          "score": 3
+        },
+        {
+          "prompt": "第二步：较小的根 x₁",
+          "answer": -2,
+          "score": 3
+        },
+        {
+          "prompt": "第三步：较大的根 x₂",
+          "answer": -1,
+          "score": 4
+        }
+      ],
+      "explanation": "【解答过程】Δ = (3)² - 4×1×(2) = 1 > 0，方程有两个不相等实数根；$x = \\dfrac{-3 \\pm \\sqrt{1}}{2}$，即 $x_1=-2$，$x_2=-1$。"
+    },
+    {
+      "subject": "math",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-m-0931",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：解方程 $x^2 -4x +0 = 0$。（按步骤写出判别式与两个根）",
+      "steps": [
+        {
+          "prompt": "第一步：判别式 Δ = b² - 4ac 的值",
+          "answer": 16,
+          "score": 3
+        },
+        {
+          "prompt": "第二步：较小的根 x₁",
+          "answer": 0,
+          "score": 3
+        },
+        {
+          "prompt": "第三步：较大的根 x₂",
+          "answer": 4,
+          "score": 4
+        }
+      ],
+      "explanation": "【解答过程】Δ = (-4)² - 4×1×(0) = 16 > 0，方程有两个不相等实数根；$x = \\dfrac{4 \\pm \\sqrt{16}}{2}$，即 $x_1=0$，$x_2=4$。"
+    },
+    {
+      "subject": "math",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-m-0932",
+      "knowledgePointIds": [
+        "math-equation-quadratic"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：解方程 $x^2 +4x +0 = 0$。（按步骤写出判别式与两个根）",
+      "steps": [
+        {
+          "prompt": "第一步：判别式 Δ = b² - 4ac 的值",
+          "answer": 16,
+          "score": 3
+        },
+        {
+          "prompt": "第二步：较小的根 x₁",
+          "answer": -4,
+          "score": 3
+        },
+        {
+          "prompt": "第三步：较大的根 x₂",
+          "answer": 0,
+          "score": 4
+        }
+      ],
+      "explanation": "【解答过程】Δ = (4)² - 4×1×(0) = 16 > 0，方程有两个不相等实数根；$x = \\dfrac{-4 \\pm \\sqrt{16}}{2}$，即 $x_1=-4$，$x_2=0$。"
     }
   ]
 }

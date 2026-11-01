@@ -1262,7 +1262,106 @@ for (const subject of ["math", "physics", "chemistry"]) {
   }
 }
 
-// ============ 试卷组装 ============
+// ============ 解答题多步题（solution：步骤分） ============
+{
+  // 数学：解一元二次方程（判别式 → 两根）
+  for (let i = 0; i < 10; i++) {
+    const r1 = rint(-6, 6), r2 = rint(-6, 6);
+    if (r1 === r2) { i--; continue; }
+    const b = -(r1 + r2), c = r1 * r2;
+    const delta = b * b - 4 * c;
+    if (delta <= 0) { i--; continue; }
+    const small = Math.min(r1, r2), big = Math.max(r1, r2);
+    const bS = b >= 0 ? `+${b}` : b, cS = c >= 0 ? `+${c}` : c;
+    q(M, {
+      id: genId("m"), knowledgePointIds: ["math-equation-quadratic"],
+      displayType: "解答题", type: "solution", difficulty: 4, estimatedSeconds: 180,
+      stem: `解答题：解方程 $x^2 ${bS}x ${cS} = 0$。（按步骤写出判别式与两个根）`,
+      source: "中考解答题 · 分步判分",
+      steps: [
+        { prompt: "第一步：判别式 Δ = b² - 4ac 的值", answer: delta, score: 3 },
+        { prompt: "第二步：较小的根 x₁", answer: small, score: 3 },
+        { prompt: "第三步：较大的根 x₂", answer: big, score: 4 },
+      ],
+      explanation: `【解答过程】Δ = (${b})² - 4×1×(${c}) = ${delta} > 0，方程有两个不相等实数根；$x = \\dfrac{${-b} \\pm \\sqrt{${delta}}}{2}$，即 $x_1=${small}$，$x_2=${big}$。`,
+    });
+  }
+}
+{
+  // 物理：功与功率两问
+  for (let i = 0; i < 8; i++) {
+    const F = rint(2, 20) * 5, s = rint(2, 10), t = rint(5, 40);
+    const W = F * s, P = W / t;
+    q(P, {
+      id: genId("p"), knowledgePointIds: ["physics-work-energy"],
+      displayType: "解答题", type: "solution", difficulty: 4, estimatedSeconds: 180,
+      stem: `解答题：用 $${F}\\ \\text{N}$ 的水平拉力拉着物体沿力的方向前进 $${s}\\ \\text{m}$，用时 $${t}\\ \\text{s}$。求拉力做的功和功率。`,
+      source: "中考解答题 · 分步判分",
+      steps: [
+        { prompt: "第一步：拉力做的功 W（J）", answer: W, score: 5 },
+        { prompt: "第二步：拉力的功率 P（W）", answer: P, score: 5 },
+      ],
+      explanation: `【解答过程】$W=Fs=${F}\\times${s}=${W}\\ \\text{J}$；$P=\\dfrac{W}{t}=\\dfrac{${W}}{${t}}=${P}\\ \\text{W}$。`,
+    });
+  }
+}
+{
+  // 物理：电功率与电能两问
+  for (let i = 0; i < 6; i++) {
+    const U = 220, I = pick([0.2, 0.3, 0.45, 0.5, 0.8, 1]), t = rint(2, 10);
+    const Pw = Math.round(220 * I * 10) / 10;
+    const kWh = Math.round(((Pw / 1000) * t) * 100) / 100;
+    q(P, {
+      id: genId("p"), knowledgePointIds: ["physics-electric-power"],
+      displayType: "解答题", type: "solution", difficulty: 4, estimatedSeconds: 180,
+      stem: `解答题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $${I}\\ \\text{A}$，正常工作 $${t}\\ \\text{h}$。求它的电功率和消耗的电能。`,
+      source: "中考解答题 · 分步判分",
+      steps: [
+        { prompt: "第一步：电功率 P（W）", answer: Pw, score: 5 },
+        { prompt: "第二步：消耗的电能 W（kW·h）", answer: kWh, tolerance: 0.01, score: 5 },
+      ],
+      explanation: `【解答过程】$P=UI=220\\times${I}=${Pw}\\ \\text{W}=${Pw / 1000}\\ \\text{kW}$；$W=Pt=${Pw / 1000}\\times${t}=${kWh}\\ \\text{kW}\\cdot\\text{h}$。`,
+    });
+  }
+}
+{
+  // 化学：电解水两问
+  for (let i = 0; i < 6; i++) {
+    const water = pick([18, 36, 54, 72]);
+    const h2 = (water * 4) / 36, o2 = (water * 32) / 36;
+    q(C, {
+      id: genId("c"), knowledgePointIds: ["chemistry-chemical-equations", "chemistry-water-solution"],
+      displayType: "解答题", type: "solution", difficulty: 4, estimatedSeconds: 180,
+      stem: `解答题：通电分解 $${water}\\ \\text{g}$ 水（$2\\text{H}_2\\text{O}\\xrightarrow{\\text{通电}}2\\text{H}_2\\uparrow+\\text{O}_2\\uparrow$），求生成氢气和氧气的质量。`,
+      source: "中考解答题 · 分步判分",
+      steps: [
+        { prompt: "第一步：生成氢气的质量（g）", answer: Math.round(h2 * 100) / 100, tolerance: 0.05, score: 5 },
+        { prompt: "第二步：生成氧气的质量（g）", answer: Math.round(o2 * 100) / 100, tolerance: 0.05, score: 5 },
+      ],
+      explanation: `【解答过程】由方程式，$36$ 份水生成 $4$ 份氢气和 $32$ 份氧气。$${water}\\ \\text{g}$ 水生成氢气 $${Math.round(h2 * 100) / 100}\\ \\text{g}$、氧气 $${Math.round(o2 * 100) / 100}\\ \\text{g}$。`,
+    });
+  }
+}
+{
+  // 化学：溶液配制两问
+  for (let i = 0; i < 6; i++) {
+    const M0 = pick([50, 80, 100, 150, 200]), w = pick([5, 10, 20]);
+    const solute = (M0 * w) / 100, water = M0 - solute;
+    q(C, {
+      id: genId("c"), knowledgePointIds: ["chemistry-water-solution"],
+      displayType: "解答题", type: "solution", difficulty: 4, estimatedSeconds: 160,
+      stem: `解答题：配制 $${M0}\\ \\text{g}$ 质量分数为 $${w}\\%$ 的氯化钠溶液，需要氯化钠和水各多少克？`,
+      source: "中考解答题 · 分步判分",
+      steps: [
+        { prompt: "第一步：需要氯化钠的质量（g）", answer: solute, score: 5 },
+        { prompt: "第二步：需要水的质量（g）", answer: water, score: 5 },
+      ],
+      explanation: `【解答过程】$m_{溶质}=${M0}\\times${w}\\%=${solute}\\ \\text{g}$；$m_{水}=${M0}-${solute}=${water}\\ \\text{g}$。`,
+    });
+  }
+}
+
+// ============ 试卷组装（真实中考蓝图 v0.16） ============
 const examFiles = {
   math: "math-exams.json",
   physics: "physics-exams.json",
@@ -1271,85 +1370,112 @@ const examFiles = {
   chinese: "chinese-exams.json",
 };
 const labels = { math: "数学", physics: "物理", chemistry: "化学", english: "英语", chinese: "语文" };
-const durations = { math: 60, physics: 50, chemistry: 45, english: 30, chinese: 30 };
-const cnNums = ["一", "二", "三", "四", "五", "六"];
+const durations = { math: 120, physics: 90, chemistry: 60, english: 100, chinese: 120 };
+const fullScores = { math: 120, physics: 90, chemistry: 80, english: 100, chinese: 120 };
+const cnNums = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"];
 
-const specs = {
+const blueprints = {
   math: [
-    { title: "一、选择题", filter: qz => ["single-choice", "multi-choice"].includes(qz.type), count: 10, score: 3 },
-    { title: "二、填空题", filter: qz => (qz.type === "numeric" || qz.type === "expression") && !["解答题", "计算题"].includes(qz.displayType), count: 5, score: 3 },
-    { title: "三、解答题", filter: qz => ["解答题", "计算题"].includes(qz.displayType), count: 8, score: 10 },
+    { title: "一、选择题", filter: qz => ["single-choice", "multi-choice"].includes(qz.type), scores: Array(10).fill(3) },
+    { title: "二、填空题", filter: qz => (qz.type === "numeric" || qz.type === "expression") && !["解答题", "计算题"].includes(qz.displayType), scores: Array(5).fill(4) },
+    { title: "三、解答题", filter: qz => ["解答题", "计算题"].includes(qz.displayType) || qz.type === "solution", scores: [6, 6, 8, 8, 10, 10, 10, 12], sortByDifficulty: true },
   ],
   physics: [
-    { title: "一、选择题", filter: qz => qz.type === "single-choice" || qz.type === "multi-choice", count: 10, score: 3 },
-    { title: "二、填空题", filter: qz => (qz.type === "numeric" || qz.type === "expression") && qz.displayType !== "计算题", count: 6, score: 2 },
-    { title: "三、计算题", filter: qz => qz.displayType === "计算题", count: 4, score: 8 },
+    { title: "一、单项选择题", filter: qz => qz.type === "single-choice", scores: Array(12).fill(2) },
+    { title: "二、多项选择题", filter: qz => qz.type === "multi-choice", scores: Array(3).fill(3) },
+    { title: "三、填空题", filter: qz => (qz.type === "numeric" || qz.type === "expression") && qz.displayType !== "计算题", scores: Array(8).fill(2) },
+    { title: "四、计算与实验题", filter: qz => qz.displayType === "计算题" || qz.type === "solution", scores: [7, 7, 8, 8, 11], sortByDifficulty: true },
   ],
   chemistry: [
-    { title: "一、选择题", filter: qz => qz.type === "single-choice" || qz.type === "multi-choice", count: 10, score: 2 },
-    { title: "二、填空题", filter: qz => (qz.type === "numeric" || qz.type === "expression") && qz.displayType !== "计算题", count: 5, score: 3 },
-    { title: "三、实验与计算题", filter: qz => qz.displayType === "计算题", count: 3, score: 6 },
+    { title: "一、选择题", filter: qz => ["single-choice", "multi-choice"].includes(qz.type), scores: Array(12).fill(2) },
+    { title: "二、填空题", filter: qz => (qz.type === "numeric" || qz.type === "expression") && qz.displayType !== "计算题", scores: Array(6).fill(3) },
+    { title: "三、实验探究题", filter: qz => qz.knowledgePointIds.includes("chemistry-lab-experiment"), scores: [6, 6, 6] },
+    { title: "四、计算题", filter: qz => qz.displayType === "计算题" || qz.type === "solution", scores: [10, 10], sortByDifficulty: true },
   ],
   english: [
-    { title: "一、语法与词汇选择", filter: qz => qz.type === "single-choice", count: 10, score: 1 },
-    { title: "二、词形与填空", filter: qz => qz.type === "expression" || qz.type === "numeric", count: 6, score: 2 },
-    { title: "三、情景交际", filter: qz => qz.knowledgePointIds.includes("english-communicative"), count: 3, score: 2 },
+    { title: "一、语法选择", filter: qz => qz.type === "single-choice" && !qz.knowledgePointIds.includes("english-communicative"), scores: Array(20).fill(1) },
+    { title: "二、词形与填空", filter: qz => (qz.type === "expression" || qz.type === "numeric") && !qz.knowledgePointIds.includes("english-communicative"), scores: Array(15).fill(2) },
+    { title: "三、情景交际", filter: qz => qz.knowledgePointIds.includes("english-communicative"), scores: Array(10).fill(2) },
+    { title: "四、词汇运用", filter: qz => qz.type === "single-choice" && qz.knowledgePointIds.some(k => ["english-vocabulary", "english-comparison"].includes(k)), scores: Array(10).fill(3) },
   ],
   chinese: [
-    { title: "一、积累与运用", filter: qz => qz.knowledgePointIds.some(k => ["chinese-characters", "chinese-words-idioms", "chinese-sentences"].includes(k)), count: 6, score: 2 },
-    { title: "二、古诗文名句默写", filter: qz => qz.knowledgePointIds.includes("chinese-poetry-memorize"), count: 4, score: 2 },
-    { title: "三、文言文与文学常识", filter: qz => qz.knowledgePointIds.some(k => ["chinese-classical-chinese", "chinese-literature-culture", "chinese-language-use"].includes(k)), count: 4, score: 3 },
+    { title: "一、积累与运用", filter: qz => qz.knowledgePointIds.some(k => ["chinese-characters", "chinese-words-idioms", "chinese-sentences"].includes(k)), scores: Array(15).fill(2) },
+    { title: "二、古诗文默写", filter: qz => qz.knowledgePointIds.includes("chinese-poetry-memorize"), scores: Array(10).fill(2) },
+    { title: "三、文言文阅读", filter: qz => qz.knowledgePointIds.includes("chinese-classical-chinese"), scores: Array(8).fill(3) },
+    { title: "四、文学文化常识", filter: qz => qz.knowledgePointIds.includes("chinese-literature-culture"), scores: Array(8).fill(2) },
+    { title: "五、语言运用", filter: qz => qz.knowledgePointIds.includes("chinese-language-use"), scores: Array(10).fill(3) },
   ],
 };
 
-for (const subject of Object.keys(specs)) {
+for (const subject of Object.keys(blueprints)) {
   const pool = bank(subject);
   const papers = [];
   const PAPER_N = 10;
+
   for (let pi = 0; pi < PAPER_N; pi++) {
     seed = 20260101 + pi * 97 + subject.length * 131;
     const used = new Set();
     const sections = [];
     let secIdx = 0;
     let totalScore = 0;
-    for (const spec of specs[subject]) {
+
+    for (const spec of blueprints[subject]) {
       const candidates = shuffle(pool.filter(qz => !used.has(qz.id) && spec.filter(qz)));
-      const count = Math.min(spec.count, candidates.length);
+      if (spec.sortByDifficulty) {
+        candidates.sort((a, b) => (a.difficulty || 3) - (b.difficulty || 3));
+      }
+      // 降级规则：题池不足时按 floor(池/卷数) 缩减
+      let scores = [...spec.scores];
+      let count = Math.min(scores.length, candidates.length, Math.floor(candidates.length / PAPER_N));
+      if (count === 0) continue;
+      scores = scores.slice(0, count);
       const picked = candidates.slice(0, count);
       picked.forEach(qz => used.add(qz.id));
-      sections.push({
-        id: `sec-${secIdx + 1}`,
-        title: spec.title,
-        description: `${count} 题，每题 ${spec.score} 分。`,
-        scorePerQuestion: spec.score,
-        questionIds: picked.map(qz => qz.id),
+
+      // 按分值分组成小节（同分值统一 scorePerQuestion）
+      const groups = {};
+      scores.forEach((s, i) => {
+        (groups[s] = groups[s] || []).push(picked[i]);
       });
-      totalScore += count * spec.score;
-      secIdx += 1;
+      const uniq = Object.keys(groups).map(Number).sort((a, b) => a - b);
+      for (const s of uniq) {
+        const items = groups[s];
+        secIdx += 1;
+        const suffix = uniq.length > 1 ? `（${items.length} 题，每题 ${s} 分）` : `（${items.length} 题，每题 ${s} 分）`;
+        sections.push({
+          id: `sec-${secIdx}`,
+          title: `${spec.title}${suffix}`,
+          description: `${items.length} 题，每题 ${s} 分，共 ${items.length * s} 分。`,
+          scorePerQuestion: s,
+          questionIds: items.map(qz => qz.id),
+        });
+        totalScore += s * items.length;
+      }
     }
+
     papers.push({
       id: `${subject}-sim-${String(pi + 1).padStart(3, "0")}`,
       subject,
       title: `${labels[subject]}冲刺模拟卷（${cnNums[pi]}）`,
-      description: `卷面结构参考真实中考：${sections.map(s => s.title.replace(/^[一二三四五六]、/, "")).join(" / ")}。满分 ${totalScore} 分。`,
+      description: `卷面结构参考真实中考（满分蓝图 ${fullScores[subject]} 分，按可用题池自适应缩减）。满分 ${totalScore} 分。`,
       durationMinutes: durations[subject],
       level: "mock",
       sections,
     });
   }
+
   const examPath = path.join(DIR, examFiles[subject]);
   const examData = JSON.parse(readFileSync(examPath, "utf8"));
-  // 移除旧生成卷，追加新卷
   examData.exams = examData.exams.filter(e => !e.id.startsWith(`${subject}-sim-`));
   examData.exams.push(...papers);
-  examData.version = `${subject}-exams-v0.15`;
+  examData.version = `${subject}-exams-v0.16`;
   writeFileSync(examPath, JSON.stringify(examData, null, 2) + "\n");
 
-  // 输出生成题库
-  const out = { version: `gen-${subject}-v0.15`, questions: pool };
+  const out = { version: `gen-${subject}-v0.16`, questions: pool };
   writeFileSync(path.join(DIR, `${subject}-generated.json`), JSON.stringify(out, null, 2) + "\n");
 
-  console.log(`${subject}: 生成 ${pool.length} 题，试卷 ${papers.length} 套`);
+  const real = papers.reduce((sum, p) => sum + p.sections.reduce((s, sec) => s + sec.questionIds.length, 0), 0);
+  console.log(`${subject}: 题池 ${pool.length} 题，试卷 ${papers.length} 套（挂题 ${real}）`);
 }
 
 console.log("done");

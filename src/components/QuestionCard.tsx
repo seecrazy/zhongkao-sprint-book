@@ -49,7 +49,43 @@ export default function QuestionCard({
         <MathText text={question.stem} />
       </h2>
 
-      {question.type === "single-choice" || question.type === "multi-choice" ? (
+      {question.type === "solution" ? (
+        <div className="solution-steps">
+          {question.steps.map((step, index) => {
+            let stepAnswers: string[] = [];
+            try {
+              const parsed = JSON.parse(value);
+              if (Array.isArray(parsed)) stepAnswers = parsed.map(String);
+            } catch {
+              stepAnswers = [];
+            }
+            const stepValue = stepAnswers[index] ?? "";
+
+            return (
+              <div className="solution-step" key={index}>
+                <span className="solution-step-label">
+                  {"①②③④⑤⑥⑦⑧⑨"[index] ?? `第${index + 1}步`}
+                </span>
+                <span className="solution-step-prompt">
+                  <MathText text={step.prompt} />
+                </span>
+                <input
+                  className="answer-input"
+                  value={stepValue}
+                  placeholder={`第 ${index + 1} 步答案（数值）`}
+                  onChange={(event) => {
+                    const next = [...stepAnswers];
+                    while (next.length < question.steps.length) next.push("");
+                    next[index] = event.target.value;
+                    handleAnswer(JSON.stringify(next));
+                  }}
+                />
+              </div>
+            );
+          })}
+          <p className="solution-hint">解答题：请按步骤填入每步的数值结果，提交后可对照解析中的完整过程。</p>
+        </div>
+      ) : question.type === "single-choice" || question.type === "multi-choice" ? (
         <div className="option-list">
           {question.options.map((option) => (
             question.type === "single-choice" ? (

@@ -1,5 +1,5 @@
 {
-  "version": "gen-physics-v0.15",
+  "version": "gen-physics-v0.16",
   "questions": [
     {
       "subject": "physics",
@@ -4918,6 +4918,168 @@
       ],
       "answer": "A",
       "explanation": "【解答过程】反方向二力合成：$F=|F_1-F_2|=20-14=6\\ \\text{N}$，方向与较大力相同。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-p-0941",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $1\\ \\text{A}$，正常工作 $5\\ \\text{h}$。求它的电功率和消耗的电能。",
+      "steps": [
+        {
+          "prompt": "第一步：电功率 P（W）",
+          "answer": 220,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：消耗的电能 W（kW·h）",
+          "answer": 1.1,
+          "tolerance": 0.01,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$P=UI=220\\times1=220\\ \\text{W}=0.22\\ \\text{kW}$；$W=Pt=0.22\\times5=1.1\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-p-0942",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.3\\ \\text{A}$，正常工作 $8\\ \\text{h}$。求它的电功率和消耗的电能。",
+      "steps": [
+        {
+          "prompt": "第一步：电功率 P（W）",
+          "answer": 66,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：消耗的电能 W（kW·h）",
+          "answer": 0.53,
+          "tolerance": 0.01,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$P=UI=220\\times0.3=66\\ \\text{W}=0.066\\ \\text{kW}$；$W=Pt=0.066\\times8=0.53\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-p-0943",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.5\\ \\text{A}$，正常工作 $2\\ \\text{h}$。求它的电功率和消耗的电能。",
+      "steps": [
+        {
+          "prompt": "第一步：电功率 P（W）",
+          "answer": 110,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：消耗的电能 W（kW·h）",
+          "answer": 0.22,
+          "tolerance": 0.01,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$P=UI=220\\times0.5=110\\ \\text{W}=0.11\\ \\text{kW}$；$W=Pt=0.11\\times2=0.22\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-p-0944",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.8\\ \\text{A}$，正常工作 $5\\ \\text{h}$。求它的电功率和消耗的电能。",
+      "steps": [
+        {
+          "prompt": "第一步：电功率 P（W）",
+          "answer": 176,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：消耗的电能 W（kW·h）",
+          "answer": 0.88,
+          "tolerance": 0.01,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$P=UI=220\\times0.8=176\\ \\text{W}=0.176\\ \\text{kW}$；$W=Pt=0.176\\times5=0.88\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-p-0945",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.3\\ \\text{A}$，正常工作 $10\\ \\text{h}$。求它的电功率和消耗的电能。",
+      "steps": [
+        {
+          "prompt": "第一步：电功率 P（W）",
+          "answer": 66,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：消耗的电能 W（kW·h）",
+          "answer": 0.66,
+          "tolerance": 0.01,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$P=UI=220\\times0.3=66\\ \\text{W}=0.066\\ \\text{kW}$；$W=Pt=0.066\\times10=0.66\\ \\text{kW}\\cdot\\text{h}$。"
+    },
+    {
+      "subject": "physics",
+      "estimatedSeconds": 180,
+      "source": "中考解答题 · 分步判分",
+      "id": "gen-p-0946",
+      "knowledgePointIds": [
+        "physics-electric-power"
+      ],
+      "displayType": "解答题",
+      "type": "solution",
+      "difficulty": 4,
+      "stem": "解答题：一用电器接在 $220\\ \\text{V}$ 电路中，正常工作电流为 $0.3\\ \\text{A}$，正常工作 $7\\ \\text{h}$。求它的电功率和消耗的电能。",
+      "steps": [
+        {
+          "prompt": "第一步：电功率 P（W）",
+          "answer": 66,
+          "score": 5
+        },
+        {
+          "prompt": "第二步：消耗的电能 W（kW·h）",
+          "answer": 0.46,
+          "tolerance": 0.01,
+          "score": 5
+        }
+      ],
+      "explanation": "【解答过程】$P=UI=220\\times0.3=66\\ \\text{W}=0.066\\ \\text{kW}$；$W=Pt=0.066\\times7=0.46\\ \\text{kW}\\cdot\\text{h}$。"
     }
   ]
 }

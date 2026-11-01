@@ -145,9 +145,22 @@ function validateQuestion(question, file, index) {
     });
   }
 
-    if (!["single-choice", "multi-choice", "numeric", "expression"].includes(question.type)) {
+    if (!["single-choice", "multi-choice", "numeric", "expression", "solution"].includes(question.type)) {
     errors.push(`${location} 当前不支持题型：${question.type}`);
   }
+
+    if (question.type === "solution") {
+      if (!Array.isArray(question.steps) || question.steps.length < 2) {
+        errors.push(`${location} 解答题至少需要 2 个步骤`);
+      } else {
+        question.steps.forEach((step, index) => {
+          const stepLocation = `${location}.steps[${index}]`;
+          if (!step?.prompt) errors.push(`${stepLocation} 缺少 prompt`);
+          if (!Number.isFinite(step?.answer)) errors.push(`${stepLocation} 缺少合法 answer`);
+          if (!Number.isFinite(step?.score) || step.score < 1) errors.push(`${stepLocation} score 必须为 ≥1 的数值`);
+        });
+      }
+    }
 
   if (question.type === "single-choice") {
     if (!Array.isArray(question.options) || question.options.length < 2) {
@@ -297,8 +310,8 @@ function validateExamPaper(paper, file, index) {
       errors.push(`${sectionLocation} scorePerQuestion 必须是正数`);
     }
 
-    if (!Array.isArray(section.questionIds) || section.questionIds.length < 3) {
-      errors.push(`${sectionLocation} 分区至少需要 3 道题`);
+    if (!Array.isArray(section.questionIds) || section.questionIds.length < 1) {
+      errors.push(`${sectionLocation} 分区至少需要 1 道题`);
     } else {
       section.questionIds.forEach((questionId) => {
         examQuestionReferences.push({ file, location, questionId });

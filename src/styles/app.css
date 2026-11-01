@@ -1130,3 +1130,38 @@ button.danger {
     align-items: stretch;
   }
 }
+
+/* 解答题分步作答 */
+.solution-steps {
+  display: grid;
+  gap: 12px;
+}
+
+.solution-step {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 10px;
+  align-items: center;
+  padding: 12px 14px;
+  background: #f7f9fc;
+  border: 1px solid #e6ebf3;
+  border-radius: 12px;
+}
+
+.solution-step-label {
+  font-weight: 800;
+  color: #2f6fed;
+}
+
+.solution-step-prompt {
+  color: #2c3a52;
+}
+
+.solution-step .answer-input {
+  grid-column: 1 / -1;
+}
+
+.solution-hint {
+  font-size: 0.82rem;
+  color: #6c7889;
+}

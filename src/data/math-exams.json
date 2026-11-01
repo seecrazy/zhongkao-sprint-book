@@ -1,5 +1,5 @@
 {
-  "version": "math-exams-v0.7",
+  "version": "math-exams-v0.8",
   "exams": [
     {
       "id": "math-mock-001",
@@ -83,7 +83,7 @@
       "subject": "math",
       "title": "压轴题提速挑战卷",
       "description": "集中训练方程、函数和几何中的中高档题，重点看方法入口和时间。",
-      "durationMinutes": 20,
+      "durationMinutes": 25,
       "level": "challenge",
       "sections": [
         {
@@ -102,12 +102,15 @@
         {
           "id": "geometry-challenge",
           "title": "几何挑战",
-          "description": "全等判定、对应关系和相似性质的综合应用。",
+          "description": "全等判定、母子相似、垂径定理与勾股方程的压轴综合。",
           "scorePerQuestion": 2,
           "questionIds": [
             "math-congruence-001",
             "math-congruence-003",
-            "math-similarity-002"
+            "math-similarity-002",
+            "math-similarity-004",
+            "math-circle-004",
+            "math-right-triangle-004"
           ]
         }
       ]

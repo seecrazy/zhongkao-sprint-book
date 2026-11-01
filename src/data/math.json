@@ -1,5 +1,5 @@
 {
-  "version": "math-v0.7",
+  "version": "math-v0.8",
   "knowledgePoints": [
     {
       "id": "math-equation-quadratic",
@@ -2288,6 +2288,117 @@
       "explanation": "关于 $y$ 轴对称：横坐标变号，纵坐标不变，得 $(-2, -5)$。",
       "optimalSolution": "关于 $y$ 轴对称，$x$ 变号、$y$ 不变。",
       "commonMistake": "误对纵坐标变号，得出 $(2, 5)$。"
+    },
+    {
+      "id": "math-lines-004",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-lines-angles"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 100,
+      "stem": "已知 $AB \\parallel CD$，点 $P$ 在 $AB$ 与 $CD$ 之间，连接 $PA$、$PC$。若 $\\angle PAB = 30^\\circ$，$\\angle APC = 70^\\circ$，则 $\\angle PCD = $ ______ $^\\circ$。",
+      "source": "中考压轴模型：平行线拐点",
+      "answer": 40,
+      "explanation": "过 $P$ 作 $PQ \\parallel AB$。因为 $AB \\parallel CD$，所以 $PQ \\parallel CD$。于是 $\\angle APC = \\angle APQ + \\angle QPC = \\angle PAB + \\angle PCD$。所以 $\\angle PCD = 70^\\circ - 30^\\circ = 40^\\circ$。",
+      "optimalSolution": "拐点模型结论：拐角等于两端口角之和，$\\angle APC = \\angle PAB + \\angle PCD$，直接相减。",
+      "commonMistake": "没有作辅助平行线，把 $70^\\circ$ 直接当成 $\\angle PCD$。"
+    },
+    {
+      "id": "math-quadrilateral-004",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-quadrilateral",
+        "math-geometry-right-triangle"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 110,
+      "stem": "菱形 $ABCD$ 的两条对角线长分别为 $6$ 和 $8$，则这个菱形的高等于 ______。（保留一位小数）",
+      "source": "中考压轴模型：菱形面积双算",
+      "answer": 4.8,
+      "tolerance": 0.05,
+      "explanation": "菱形对角线互相垂直平分，半对角线为 $3$ 和 $4$，边长 $= \\sqrt{3^2+4^2} = 5$。面积 $S = \\dfrac{1}{2} \\times 6 \\times 8 = 24$。由 $S = \\text{边长} \\times \\text{高}$，得高 $= 24 \\div 5 = 4.8$。",
+      "optimalSolution": "面积双算：先由对角线求面积 $24$，再除以边长 $5$ 得高 $4.8$。",
+      "commonMistake": "忘记对角线互相平分，用整条对角线求边长；或求出面积后不知道高怎么求。"
+    },
+    {
+      "id": "math-circle-004",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-circle",
+        "math-geometry-right-triangle"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 120,
+      "stem": "$\\odot O$ 的半径为 $5$，弦 $AB \\parallel CD$，$AB = 8$，$CD = 6$，且 $AB$、$CD$ 在圆心 $O$ 的同侧，则两弦之间的距离等于 ______。",
+      "source": "中考压轴模型：平行弦与垂径定理",
+      "answer": 1,
+      "explanation": "分别过 $O$ 作 $OE \\perp AB$、$OF \\perp CD$。圆心到 $AB$ 的距离 $= \\sqrt{5^2-4^2} = 3$；到 $CD$ 的距离 $= \\sqrt{5^2-3^2} = 4$。两弦在同侧，距离 $= 4 - 3 = 1$。",
+      "optimalSolution": "平行弦问题分别对每条弦用垂径定理求弦心距，同侧相减、异侧相加。",
+      "commonMistake": "忽略“同侧”条件，误算成 $3 + 4 = 7$。"
+    },
+    {
+      "id": "math-right-triangle-004",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-right-triangle"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 110,
+      "stem": "直角三角形的周长为 $24$，斜边长为 $10$，则这个直角三角形的面积等于 ______。",
+      "source": "中考压轴模型：勾股 + 完全平方",
+      "answer": 24,
+      "explanation": "设两直角边为 $a$、$b$，则 $a + b = 24 - 10 = 14$，且 $a^2 + b^2 = 10^2 = 100$。由 $(a+b)^2 = a^2 + b^2 + 2ab$，得 $196 = 100 + 2ab$，所以 $ab = 48$。面积 $= \\dfrac{1}{2}ab = 24$。",
+      "optimalSolution": "不求出每条边：用 $a+b$ 与 $a^2+b^2$ 两个整体，通过完全平方公式直接求 $ab$。",
+      "commonMistake": "执着于解出 $a$、$b$ 的具体值（是无理数组合），陷入死胡同。"
+    },
+    {
+      "id": "math-similarity-004",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-similarity"
+      ],
+      "displayType": "填空题",
+      "type": "numeric",
+      "difficulty": 4,
+      "estimatedSeconds": 110,
+      "stem": "$\\triangle ABC$ 中，点 $D$ 在边 $AB$ 上，且 $\\angle ACD = \\angle B$。若 $AC = 4$，$AD = 2$，则 $AB = $ ______。",
+      "source": "中考压轴模型：母子相似",
+      "answer": 8,
+      "explanation": "因为 $\\angle A = \\angle A$，$\\angle ACD = \\angle B$，所以 $\\triangle ACD \\sim \\triangle ABC$。对应边成比例：$\\dfrac{AC}{AB} = \\dfrac{AD}{AC}$，即 $\\dfrac{4}{AB} = \\dfrac{2}{4}$，解得 $AB = 8$。",
+      "optimalSolution": "识别“母子相似”模型：公共角 + 等角，直接由 $AC^2 = AD \\cdot AB$ 得 $AB = 16 \\div 2 = 8$。",
+      "commonMistake": "对应关系写错，把 $\\dfrac{AC}{AB}$ 写成 $\\dfrac{AD}{CD}$。"
+    },
+    {
+      "id": "math-transformation-004",
+      "subject": "math",
+      "knowledgePointIds": [
+        "math-geometry-transformation"
+      ],
+      "displayType": "填空题",
+      "type": "expression",
+      "difficulty": 4,
+      "estimatedSeconds": 110,
+      "stem": "点 $P(1, 2)$ 先向右平移 $2$ 个单位，再关于 $y$ 轴对称，最后向上平移 $3$ 个单位，得到点 $P'$。则点 $P'$ 的坐标是 ______。（按 $(x, y)$ 格式作答）",
+      "source": "中考压轴模型：变换链",
+      "acceptedAnswers": [
+        "(-3,5)",
+        "(-3, 5)",
+        "（-3，5）",
+        "（-3,5）",
+        "(-3，5)"
+      ],
+      "explanation": "第一步右移 $2$：$(1+2, 2) = (3, 2)$；第二步关于 $y$ 轴对称：横坐标变号得 $(-3, 2)$；第三步上移 $3$：纵坐标加 $3$ 得 $(-3, 5)$。",
+      "optimalSolution": "按变换顺序逐步写坐标，每步只改一个坐标，最后合并。",
+      "commonMistake": "变换顺序执行错误，例如先对称后平移导致横坐标算成 $-1$。"
     }
   ]
 }

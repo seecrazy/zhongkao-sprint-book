@@ -2557,7 +2557,7 @@
     },
     {
       "id": "math-inverse-001",
-      "subject": null,
+      "subject": "math",
       "knowledgePointIds": [
         "math-function-inverse"
       ],
@@ -2590,7 +2590,7 @@
     },
     {
       "id": "math-inverse-002",
-      "subject": null,
+      "subject": "math",
       "knowledgePointIds": [
         "math-function-inverse"
       ],
@@ -2640,7 +2640,7 @@
     },
     {
       "id": "math-trig-001",
-      "subject": null,
+      "subject": "math",
       "knowledgePointIds": [
         "math-trigonometry"
       ],
@@ -2673,7 +2673,7 @@
     },
     {
       "id": "math-trig-002",
-      "subject": null,
+      "subject": "math",
       "knowledgePointIds": [
         "math-trigonometry"
       ],
@@ -2723,7 +2723,7 @@
     },
     {
       "id": "math-quadratic-004",
-      "subject": null,
+      "subject": "math",
       "knowledgePointIds": [
         "math-equation-quadratic"
       ],

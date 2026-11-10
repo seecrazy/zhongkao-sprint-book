@@ -2040,7 +2040,7 @@
     },
     {
       "id": "chem-lab-001",
-      "subject": null,
+      "subject": "chemistry",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -2073,7 +2073,7 @@
     },
     {
       "id": "chem-lab-002",
-      "subject": null,
+      "subject": "chemistry",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -2106,7 +2106,7 @@
     },
     {
       "id": "chem-lab-003",
-      "subject": null,
+      "subject": "chemistry",
       "knowledgePointIds": [
         "chemistry-lab-experiment"
       ],
@@ -2139,7 +2139,7 @@
     },
     {
       "id": "chem-comb-001",
-      "subject": null,
+      "subject": "chemistry",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -2172,7 +2172,7 @@
     },
     {
       "id": "chem-comb-002",
-      "subject": null,
+      "subject": "chemistry",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -2205,7 +2205,7 @@
     },
     {
       "id": "chem-comb-003",
-      "subject": null,
+      "subject": "chemistry",
       "knowledgePointIds": [
         "chemistry-combustion"
       ],
@@ -2225,7 +2225,7 @@
     },
     {
       "id": "chem-air-005",
-      "subject": null,
+      "subject": "chemistry",
       "knowledgePointIds": [
         "chemistry-air-oxygen"
       ],

@@ -1,5 +1,5 @@
 {
-  "version": "english-v0.14",
+  "version": "english-v1.1",
   "knowledgePoints": [
     {
       "id": "english-grammar-tenses",
@@ -560,6 +560,84 @@
         ],
         "strategy": "情态动词题先看语气（能力用 can、义务用 must、建议用 should）；回答 Must 提问锁定 needn't。"
       }
+    },
+    {
+      "id": "english-listening",
+      "name": "听力理解",
+      "subject": "english",
+      "summary": "短对话听力与听句填词：预读题目抓关键词，听转折与最后决定，练数字、时间、地点的速记。",
+      "examWeight": "high",
+      "status": "learning",
+      "lesson": {
+        "objectives": [
+          "掌握听前预读、预测题点的准备方法",
+          "学会抓关键词：数字、时间、地点、转折词后的信息",
+          "能听懂初中常见话题短对话并正确作答"
+        ],
+        "keyIdea": "听力不是逐字听懂，而是带着问题去'抓'关键信息：先读题预测，再听重点词，最后跟上'改主意'和'最后决定'。",
+        "concepts": [
+          {
+            "title": "听前预读与预测",
+            "content": [
+              "利用放音前的时间读题干和选项",
+              "圈出选项里的差异词（学科、时间、地点）",
+              "预测可能出现的词汇家族，如 weather → sunny / rainy / cloudy"
+            ]
+          },
+          {
+            "title": "抓关键词与速记",
+            "content": [
+              "数字与时间：边听边换算（half past nine = 9:30；20% off = 打 8 折）",
+              "地点与人物：who / where / what 速记首字母",
+              "转折词 but / however 之后往往是真正答案"
+            ]
+          },
+          {
+            "title": "同义转换与语气",
+            "content": [
+              "选项常把听力原文换一种说法：enjoy best = favorite",
+              "语调上扬的疑问、迟疑的 well/er 常暗示否定或改主意",
+              "最后一句 frequently 是结论句"
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "name": "听力三步法",
+            "expression": "预读预测 → 抓关键词 → 听最后决定",
+            "note": "拿到题先看选项差异，听时盯关键词，答案常在转折和结尾处。"
+          },
+          {
+            "name": "速记符号",
+            "expression": "数字记阿拉伯数字，↑=increase，↓=decrease，?=疑问"
+          }
+        ],
+        "workedExamples": [
+          {
+            "title": "例题：改主意型对话",
+            "problem": "W: Would you like coffee or tea? M: Coffee, please. Oh, wait — I'd better not drink coffee at night. Just water, thanks. 男士最后喝什么？",
+            "steps": [
+              "预读选项：coffee / tea / water / milk",
+              "听到 Coffee, please 时先标记 A",
+              "听到 Oh, wait — Just water 时改成 C",
+              "结论：改主意题跟到最后一刻"
+            ],
+            "answer": "Water.",
+            "takeaway": "Oh wait / but / well 出现时，前面的话要重新审视。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "mistake": "听到什么选什么，被先出现的干扰项带跑",
+            "correction": "先出现的名词常是铺垫，but / wait / however 后才是定论。"
+          },
+          {
+            "mistake": "数字题听完就算完，不做换算",
+            "correction": "价格打折、时间提前都要当场算完再选。"
+          }
+        ],
+        "strategy": "每段对话只读两遍：第一遍抓大意和关键词，第二遍核对细节。听完立刻作答，不要留到下一题还在回想上一题。"
+      }
     }
   ],
   "questions": [
@@ -1052,7 +1130,7 @@
     },
     {
       "id": "en-comp-001",
-      "subject": null,
+      "subject": "english",
       "knowledgePointIds": [
         "english-comparison"
       ],
@@ -1085,7 +1163,7 @@
     },
     {
       "id": "en-comp-002",
-      "subject": null,
+      "subject": "english",
       "knowledgePointIds": [
         "english-comparison"
       ],
@@ -1118,7 +1196,7 @@
     },
     {
       "id": "en-comp-003",
-      "subject": null,
+      "subject": "english",
       "knowledgePointIds": [
         "english-comparison"
       ],
@@ -1137,7 +1215,7 @@
     },
     {
       "id": "en-modal-001",
-      "subject": null,
+      "subject": "english",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -1170,7 +1248,7 @@
     },
     {
       "id": "en-modal-002",
-      "subject": null,
+      "subject": "english",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -1203,7 +1281,7 @@
     },
     {
       "id": "en-modal-003",
-      "subject": null,
+      "subject": "english",
       "knowledgePointIds": [
         "english-modal-verbs"
       ],
@@ -1236,7 +1314,7 @@
     },
     {
       "id": "en-tense-004",
-      "subject": null,
+      "subject": "english",
       "knowledgePointIds": [
         "english-grammar-tenses"
       ],
@@ -1266,6 +1344,611 @@
       ],
       "answer": "ABC",
       "explanation": "since 2010 是现在完成时标志词，D 错；A、B、C 对应正确。"
+    },
+    {
+      "id": "en-listen-001",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 60,
+      "stem": "What will the weather be like this afternoon?",
+      "listeningScript": "M: What's the weather like today? W: It's sunny now, but the radio says it will rain this afternoon.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "Sunny."
+        },
+        {
+          "key": "B",
+          "label": "Rainy."
+        },
+        {
+          "key": "C",
+          "label": "Cloudy."
+        },
+        {
+          "key": "D",
+          "label": "Windy."
+        }
+      ],
+      "answer": "B",
+      "explanation": "女士说 the radio says it will rain this afternoon，所以下午有雨。听力要点：转折词 but 后是重点。"
+    },
+    {
+      "id": "en-listen-002",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 60,
+      "stem": "Where is the city library?",
+      "listeningScript": "W: Excuse me, how can I get to the city library? M: Go straight and turn left at the second crossing. It's next to the post office.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "At the first crossing."
+        },
+        {
+          "key": "B",
+          "label": "Next to the post office."
+        },
+        {
+          "key": "C",
+          "label": "Behind the bank."
+        },
+        {
+          "key": "D",
+          "label": "Near the school."
+        }
+      ],
+      "answer": "B",
+      "explanation": "男士说 It's next to the post office。听方位词时最好在心里画一张简易地图。"
+    },
+    {
+      "id": "en-listen-003",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 60,
+      "stem": "Why is Lucy happy?",
+      "listeningScript": "M: Hi, Lucy. You look happy today. W: Yes, I got an A in my English exam. M: Congratulations!",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "She passed the math exam."
+        },
+        {
+          "key": "B",
+          "label": "She got an A in English."
+        },
+        {
+          "key": "C",
+          "label": "She won a game."
+        },
+        {
+          "key": "D",
+          "label": "She got a new bike."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Lucy 说 I got an A in my English exam。注意区分学科的干扰信息。"
+    },
+    {
+      "id": "en-listen-004",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "When does the train leave?",
+      "listeningScript": "W: What time does the train leave? M: At half past nine. And we should arrive at the station twenty minutes earlier.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "At 9:00."
+        },
+        {
+          "key": "B",
+          "label": "At 9:13."
+        },
+        {
+          "key": "C",
+          "label": "At 9:30."
+        },
+        {
+          "key": "D",
+          "label": "At 8:40."
+        }
+      ],
+      "answer": "C",
+      "explanation": "half past nine = 9:30；提前 20 分钟是到达时间（9:10），是干扰项。数字题要做简单换算。"
+    },
+    {
+      "id": "en-listen-005",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "What will the woman drink at last?",
+      "listeningScript": "M: Would you like some coffee or tea? W: Coffee, please. Oh, wait — the doctor says I'd better not drink coffee at night. Just a glass of water, thanks.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "Coffee."
+        },
+        {
+          "key": "B",
+          "label": "Tea."
+        },
+        {
+          "key": "C",
+          "label": "Water."
+        },
+        {
+          "key": "D",
+          "label": "Milk."
+        }
+      ],
+      "answer": "C",
+      "explanation": "女士先要咖啡又改主意：Just a glass of water。听力要跟到最后一刻，改主意的题非常常见。"
+    },
+    {
+      "id": "en-listen-006",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 60,
+      "stem": "What is Tom doing?",
+      "listeningScript": "W: Tom, it's time for dinner! M: Coming, Mom. Let me save my game first.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "Having dinner."
+        },
+        {
+          "key": "B",
+          "label": "Playing a game."
+        },
+        {
+          "key": "C",
+          "label": "Doing homework."
+        },
+        {
+          "key": "D",
+          "label": "Watching TV."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Tom 说 Let me save my game first，说明他正在打游戏。推断题要抓动作细节。"
+    },
+    {
+      "id": "en-listen-007",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 3,
+      "estimatedSeconds": 60,
+      "stem": "How much will the man pay for two T-shirts?",
+      "listeningScript": "M: How much is this T-shirt? W: It's 50 yuan, but there's a sale today — 20% off. M: Great, I'll take two.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "50 yuan."
+        },
+        {
+          "key": "B",
+          "label": "80 yuan."
+        },
+        {
+          "key": "C",
+          "label": "90 yuan."
+        },
+        {
+          "key": "D",
+          "label": "100 yuan."
+        }
+      ],
+      "answer": "B",
+      "explanation": "50 元打 8 折 = 40 元/件，两件 = 80 元。价格题要边听边算。"
+    },
+    {
+      "id": "en-listen-008",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 60,
+      "stem": "What did the man do last night?",
+      "listeningScript": "W: Did you watch the basketball match last night? M: No, I was busy preparing my speech. How was it? W: Amazing! Our team won by two points.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "He watched the match."
+        },
+        {
+          "key": "B",
+          "label": "He prepared a speech."
+        },
+        {
+          "key": "C",
+          "label": "He played basketball."
+        },
+        {
+          "key": "D",
+          "label": "He went to a party."
+        }
+      ],
+      "answer": "B",
+      "explanation": "男士说 I was busy preparing my speech。问'男的做了什么'时要盯紧男声内容。"
+    },
+    {
+      "id": "en-listen-009",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 60,
+      "stem": "What's the matter with the man?",
+      "listeningScript": "M: I'm not feeling well. I have a headache and a sore throat. W: You'd better see a doctor and drink more water. Don't worry — it's not serious.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "He has a stomachache."
+        },
+        {
+          "key": "B",
+          "label": "He has a headache and a sore throat."
+        },
+        {
+          "key": "C",
+          "label": "His leg hurts."
+        },
+        {
+          "key": "D",
+          "label": "He has a fever."
+        }
+      ],
+      "answer": "B",
+      "explanation": "a headache and a sore throat 是关键词。身体不适类对话要记准部位。"
+    },
+    {
+      "id": "en-listen-010",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 60,
+      "stem": "How will they go to the museum?",
+      "listeningScript": "W: Shall we go to the museum by bus or by bike? M: The museum is not far. Let's ride bikes — it's good for the environment.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "By bus."
+        },
+        {
+          "key": "B",
+          "label": "By bike."
+        },
+        {
+          "key": "C",
+          "label": "On foot."
+        },
+        {
+          "key": "D",
+          "label": "By car."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Let's ride bikes 直接给出答案。出行方式题注意 but/let's 后的最终决定。"
+    },
+    {
+      "id": "en-listen-011",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "What must the boy do before the party?",
+      "listeningScript": "M: Mom, can I go to Jim's birthday party this Saturday? W: Sure, but you must finish your homework first. And remember to come back before 9 p.m.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "Clean his room."
+        },
+        {
+          "key": "B",
+          "label": "Finish his homework."
+        },
+        {
+          "key": "C",
+          "label": "Buy a gift."
+        },
+        {
+          "key": "D",
+          "label": "Cook dinner."
+        }
+      ],
+      "answer": "B",
+      "explanation": "you must finish your homework first。条件句里 first 前的内容常是考点。"
+    },
+    {
+      "id": "en-listen-012",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "What will John do after he returns?",
+      "listeningScript": "W: Hello, this is Mary speaking. May I speak to John? M: Sorry, he's out playing football. Can I take a message? W: Yes, please tell him to call me back when he returns.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "Play football."
+        },
+        {
+          "key": "B",
+          "label": "Call Mary back."
+        },
+        {
+          "key": "C",
+          "label": "Go shopping."
+        },
+        {
+          "key": "D",
+          "label": "Do homework."
+        }
+      ],
+      "answer": "B",
+      "explanation": "tell him to call me back。电话场景记两件事：留言内容 + 回复动作。"
+    },
+    {
+      "id": "en-listen-013",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 2,
+      "estimatedSeconds": 60,
+      "stem": "What's Kate's favorite subject now?",
+      "listeningScript": "M: What's your favorite subject, Kate? W: I used to like art, but now I enjoy science best because it's full of fun experiments.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "Art."
+        },
+        {
+          "key": "B",
+          "label": "Science."
+        },
+        {
+          "key": "C",
+          "label": "Math."
+        },
+        {
+          "key": "D",
+          "label": "Music."
+        }
+      ],
+      "answer": "B",
+      "explanation": "used to like art 是过去，now I enjoy science best 是现在。时间对比题以'现在'为答案。"
+    },
+    {
+      "id": "en-listen-014",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 60,
+      "stem": "What will the man do in the sports meeting?",
+      "listeningScript": "W: The school sports meeting is coming. Will you take part in the long jump? M: No, I'll run the 800-meter race. What about you? W: I'll cheer for you!",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "The long jump."
+        },
+        {
+          "key": "B",
+          "label": "The 800-meter race."
+        },
+        {
+          "key": "C",
+          "label": "The 100-meter race."
+        },
+        {
+          "key": "D",
+          "label": "He will just watch."
+        }
+      ],
+      "answer": "B",
+      "explanation": "男士明确说 I'll run the 800-meter race。跳远是他不做的事，属干扰项。"
+    },
+    {
+      "id": "en-listen-015",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听力理解",
+      "type": "single-choice",
+      "difficulty": 1,
+      "estimatedSeconds": 60,
+      "stem": "What is the woman going to do during the vacation?",
+      "listeningScript": "M: Winter vacation is coming. Any plans? W: I'm going to visit my grandparents in the countryside and help on the farm. M: Sounds interesting! I'll just stay at home and read.",
+      "source": "中考听力训练",
+      "options": [
+        {
+          "key": "A",
+          "label": "Read at home."
+        },
+        {
+          "key": "B",
+          "label": "Visit her grandparents."
+        },
+        {
+          "key": "C",
+          "label": "Travel abroad."
+        },
+        {
+          "key": "D",
+          "label": "Study English."
+        }
+      ],
+      "answer": "B",
+      "explanation": "女士说 visit my grandparents in the countryside。计划类对话注意 be going to / will 后的动作。"
+    },
+    {
+      "id": "en-listen-016",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听句填空",
+      "type": "expression",
+      "answerKind": "text",
+      "difficulty": 1,
+      "estimatedSeconds": 45,
+      "stem": "听句子，写出句中你听到的动词短语（两个词）。",
+      "listeningScript": "Please turn off the lights when you leave the classroom.",
+      "source": "中考听力训练",
+      "acceptedAnswers": [
+        "turn off"
+      ],
+      "explanation": "turn off 关闭（灯/电器）。turn on 是打开，注意区分 on 和 off。"
+    },
+    {
+      "id": "en-listen-017",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听句填空",
+      "type": "expression",
+      "answerKind": "text",
+      "difficulty": 1,
+      "estimatedSeconds": 45,
+      "stem": "听句子，写出句中你听到的动词短语（be 动词 + 介词）。",
+      "listeningScript": "My father is good at cooking, and he often makes delicious noodles for us.",
+      "source": "中考听力训练",
+      "acceptedAnswers": [
+        "good at"
+      ],
+      "explanation": "be good at = 擅长。注意 at 不要漏写。"
+    },
+    {
+      "id": "en-listen-018",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听句填空",
+      "type": "expression",
+      "answerKind": "text",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "听句子，写出句中你听到的时间短语（三个词）。",
+      "listeningScript": "It took me half an hour to walk to school because the bus was late.",
+      "source": "中考听力训练",
+      "acceptedAnswers": [
+        "half an hour"
+      ],
+      "explanation": "half an hour 半小时。注意 an 不要写成 a。"
+    },
+    {
+      "id": "en-listen-019",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听句填空",
+      "type": "expression",
+      "answerKind": "text",
+      "difficulty": 1,
+      "estimatedSeconds": 45,
+      "stem": "听句子，写出句中你听到的动词短语（两个词）。",
+      "listeningScript": "Remember to put on your coat, it's getting colder and colder outside.",
+      "source": "中考听力训练",
+      "acceptedAnswers": [
+        "put on"
+      ],
+      "explanation": "put on 穿上。wear 是状态，put on 是动作。"
+    },
+    {
+      "id": "en-listen-020",
+      "subject": "english",
+      "knowledgePointIds": [
+        "english-listening"
+      ],
+      "displayType": "听句填空",
+      "type": "expression",
+      "answerKind": "text",
+      "difficulty": 2,
+      "estimatedSeconds": 45,
+      "stem": "听句子，写出句中你听到的动词短语（两个词，'照顾'）。",
+      "listeningScript": "We should look after the old and help each other in our daily life.",
+      "source": "中考听力训练",
+      "acceptedAnswers": [
+        "look after"
+      ],
+      "explanation": "look after = take care of 照顾。each other 互相。"
     }
   ]
 }

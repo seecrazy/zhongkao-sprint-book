@@ -145,7 +145,7 @@ function validateQuestion(question, file, index) {
     });
   }
 
-    if (!["single-choice", "multi-choice", "numeric", "expression", "solution"].includes(question.type)) {
+    if (!["single-choice", "multi-choice", "numeric", "expression", "solution", "short-answer", "essay"].includes(question.type)) {
     errors.push(`${location} 当前不支持题型：${question.type}`);
   }
 
@@ -202,9 +202,65 @@ function validateQuestion(question, file, index) {
     if (!Array.isArray(question.acceptedAnswers) || question.acceptedAnswers.length === 0) {
       errors.push(`${location} 表达式题缺少 acceptedAnswers`);
     }
-    if (question.answerKind && !["solution-set", "text"].includes(question.answerKind)) {
+    if (question.answerKind && !["solution-set", "text", "algebraic"].includes(question.answerKind)) {
       errors.push(`${location} answerKind 无效`);
     }
+  }
+
+  if (question.type === "short-answer") {
+    if (!Array.isArray(question.keyPoints) || question.keyPoints.length === 0) {
+      errors.push(`${location} 短答题至少需要 1 个得分要点`);
+    } else {
+      question.keyPoints.forEach((keyPoint, index) => {
+        const keyLocation = `${location}.keyPoints[${index}]`;
+        if (!keyPoint?.label) errors.push(`${keyLocation} 缺少 label`);
+        const hasPatterns = Array.isArray(keyPoint?.patterns) && keyPoint.patterns.length > 0;
+        const hasNotPatterns = Array.isArray(keyPoint?.notPatterns) && keyPoint.notPatterns.length > 0;
+        if (!hasPatterns && !hasNotPatterns) {
+          errors.push(`${keyLocation} 至少需要 1 个命中 pattern 或 notPattern`);
+        }
+        if (!Number.isFinite(keyPoint?.score) || keyPoint.score < 1) {
+          errors.push(`${keyLocation} score 必须为 ≥1 的数值`);
+        }
+      });
+    }
+    if (!question.referenceAnswer) errors.push(`${location} 短答题缺少 referenceAnswer`);
+  }
+
+  if (question.type === "essay") {
+    if (!question.genre) errors.push(`${location} 作文题缺少 genre`);
+    if (!Number.isFinite(question.minWords) || question.minWords < 50) {
+      errors.push(`${location} minWords 必须为 ≥50 的数值`);
+    }
+    if (!Array.isArray(question.outlineHints) || question.outlineHints.length < 2) {
+      errors.push(`${location} 作文题至少需要 2 条写作要点`);
+    }
+    if (!Array.isArray(question.rubric) || question.rubric.length < 2) {
+      errors.push(`${location} 作文题至少需要 2 个评分维度`);
+    } else {
+      question.rubric.forEach((dimension, index) => {
+        const dimLocation = `${location}.rubric[${index}]`;
+        if (!dimension?.id || !dimension?.label) {
+          errors.push(`${dimLocation} 缺少 id 或 label`);
+        }
+        if (!Number.isFinite(dimension?.maxScore) || dimension.maxScore < 1) {
+          errors.push(`${dimLocation} maxScore 必须为 ≥1 的数值`);
+        }
+        if (!Array.isArray(dimension?.levels) || dimension.levels.length < 2) {
+          errors.push(`${dimLocation} 每个维度至少需要 2 档评分`);
+        } else {
+          dimension.levels.forEach((level, levelIndex) => {
+            if (!level?.label || !Number.isFinite(level?.score)) {
+              errors.push(`${dimLocation}.levels[${levelIndex}] 结构不完整`);
+            }
+          });
+        }
+      });
+    }
+  }
+
+  if (question.listeningScript !== undefined && typeof question.listeningScript !== "string") {
+    errors.push(`${location} listeningScript 必须是字符串`);
   }
 
   if (question.difficulty && !/[1-5]/.test(String(question.difficulty))) {

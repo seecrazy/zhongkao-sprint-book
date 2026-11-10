@@ -1574,6 +1574,192 @@ button.danger {
   overflow-x: auto;
 }
 
+/* 英语听力 */
+.listening-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  background: var(--primary-soft);
+  border: 1px solid var(--ghost-border);
+  border-radius: 12px;
+}
+
+.listening-bar span {
+  font-size: 0.86rem;
+  color: var(--primary-deep);
+}
+
+.listening-script {
+  background: var(--surface-2);
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.listening-script p {
+  margin: 6px 0 0;
+  color: var(--text-body);
+  line-height: 1.7;
+}
+
+/* 短答题输入 */
+.answer-textarea {
+  width: 100%;
+  min-height: 84px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: var(--surface);
+  color: inherit;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.answer-textarea:disabled {
+  opacity: 0.75;
+}
+
+/* 作文题 */
+.essay-editor {
+  display: grid;
+  gap: 12px;
+}
+
+.essay-requirement {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 0.88rem;
+  color: var(--text-soft);
+}
+
+.essay-requirement .ok {
+  color: var(--success);
+  font-weight: 700;
+}
+
+.essay-requirement .warn {
+  color: var(--warn);
+  font-weight: 700;
+}
+
+.essay-textarea {
+  width: 100%;
+  min-height: 280px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  background: var(--surface);
+  color: inherit;
+  resize: vertical;
+  font-family: inherit;
+  line-height: 1.8;
+}
+
+.essay-textarea:disabled {
+  opacity: 0.75;
+}
+
+.essay-rubric {
+  border: 1px solid var(--border-soft);
+  border-radius: 14px;
+  padding: 14px;
+  display: grid;
+  gap: 12px;
+  background: var(--surface-2);
+}
+
+.essay-rubric-head {
+  display: grid;
+  gap: 2px;
+}
+
+.essay-rubric-head span {
+  font-size: 0.82rem;
+  color: var(--text-soft);
+}
+
+.rubric-dimension {
+  display: grid;
+  gap: 8px;
+}
+
+.rubric-dimension-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.rubric-dimension-head span {
+  color: var(--text-soft);
+  font-size: 0.84rem;
+}
+
+.rubric-levels {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.rubric-level {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  border-radius: 10px;
+  padding: 7px 11px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.rubric-level.active {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.rubric-level:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.essay-feedback {
+  display: grid;
+  gap: 10px;
+}
+
+.essay-auto-checks {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.essay-auto-checks span {
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.essay-auto-checks .ok {
+  background: var(--success-soft);
+  color: var(--success-deep);
+}
+
+.essay-auto-checks .warn {
+  background: var(--warn-soft);
+  color: var(--warn);
+}
+
+.sample-essay {
+  white-space: pre-wrap;
+  line-height: 1.8;
+  margin: 6px 0 0;
+}
+
 /* 打印：错题本打印视图 */
 .print-only {
   display: none;

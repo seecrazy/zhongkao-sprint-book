@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { AppSettings, ProgressState, Subject, ThemeMode } from "../types";
 import { resetProgress } from "../lib/storage";
 import { clearExamHistory, saveActiveExam } from "../lib/exam-storage";
@@ -7,6 +8,16 @@ import {
   daysUntilDate,
   getSprintStatus,
 } from "../lib/app-settings";
+import {
+  DEFAULT_TTS_RATE,
+  TTS_RATES,
+  TTS_RATE_LABELS,
+  isSpeechSupported,
+  loadTTSRate,
+  saveTTSRate,
+  speakEnglish,
+  type TTSRate,
+} from "../lib/tts";
 import { APP_NAME_EN, APP_VERSION } from "../lib/app-info";
 
 interface SettingsProps {
@@ -31,6 +42,13 @@ export default function Settings({
   onUpdateAppSettings,
 }: SettingsProps) {
   const sprint = getSprintStatus(appSettings);
+  const [ttsRate, setTtsRate] = useState<TTSRate>(() => loadTTSRate());
+  const speechSupported = isSpeechSupported();
+
+  function updateTTSRate(rate: TTSRate) {
+    setTtsRate(rate);
+    saveTTSRate(rate);
+  }
 
   function clearProgress() {
     if (
@@ -109,6 +127,42 @@ export default function Settings({
               {option.label}
             </button>
           ))}
+        </div>
+      </div>
+
+      <div className="panel">
+        <h2>英语听力朗读</h2>
+        <p>
+          听力题由浏览器内置语音合成朗读（SpeechSynthesis，离线可用，无需联网下载音频）。
+          {speechSupported
+            ? "当前浏览器支持朗读，可先试听再选择语速。"
+            : "当前浏览器不支持语音朗读，听力题仍可作答，提交后可查看听力原文。"}
+        </p>
+        <div className="theme-options">
+          {TTS_RATES.map((rate) => (
+            <button
+              key={rate}
+              type="button"
+              className={ttsRate === rate ? "active" : ""}
+              onClick={() => updateTTSRate(rate)}
+            >
+              {TTS_RATE_LABELS[rate]}
+              {rate === DEFAULT_TTS_RATE ? "（推荐）" : ""}
+            </button>
+          ))}
+          {speechSupported && (
+            <button
+              type="button"
+              onClick={() =>
+                void speakEnglish(
+                  "This is a listening test. You will hear each dialogue twice.",
+                  ttsRate
+                )
+              }
+            >
+              ▶ 试听
+            </button>
+          )}
         </div>
       </div>
 

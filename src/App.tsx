@@ -71,6 +71,20 @@ export default function App() {
     saveAppSettings(appSettings);
   }, [appSettings]);
 
+  // 开发模式：启动时对全部学科内容做运行时 Schema 校验，
+  // 生产构建里 import.meta.env.DEV 为常量 false，zod 不会进入产物。
+  useEffect(() => {
+    if (!import.meta.env.DEV) return;
+    void Promise.all([
+      import("./lib/content-schema"),
+      import("./data/sample-content"),
+    ]).then(([{ runContentSelfCheck }, content]) => {
+      runContentSelfCheck(
+        content.AVAILABLE_SUBJECTS.map(content.getSubjectContent)
+      );
+    });
+  }, []);
+
   function updateAppSettings(next: AppSettings) {
     setAppSettings(next);
   }

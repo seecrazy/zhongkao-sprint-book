@@ -75,6 +75,8 @@ export interface BaseQuestion {
   estimatedSeconds: number;
   stem: string;
   diagram?: string;
+  /** 听力题朗读文本（浏览器 TTS 播报）；提交前不向学生展示。 */
+  listeningScript?: string;
   source: string;
   explanation: string;
   optimalSolution?: string;
@@ -103,7 +105,47 @@ export interface NumericQuestion extends BaseQuestion {
 export interface ExpressionQuestion extends BaseQuestion {
   type: "expression";
   acceptedAnswers: string[];
-  answerKind?: "solution-set" | "text";
+  answerKind?: "solution-set" | "text" | "algebraic";
+}
+
+/** 短答 / 翻译题：按要点命中给分，部分正确得部分分。 */
+export interface ShortAnswerKeyPoint {
+  label: string;
+  /** 命中任一 pattern 即视为命中（子串匹配，忽略大小写/空白/标点）。 */
+  patterns: string[];
+  /** 禁用词：答案中出现任一 notPattern 则该要点不得分（如"不得使用'安静'一词"）。 */
+  notPatterns?: string[];
+  score: number;
+}
+
+export interface ShortAnswerQuestion extends BaseQuestion {
+  type: "short-answer";
+  keyPoints: ShortAnswerKeyPoint[];
+  referenceAnswer: string;
+}
+
+/** 作文题：本地可解释评分（客观数据自动分析 + 量表自评）。 */
+export interface EssayRubricLevel {
+  label: string;
+  score: number;
+}
+
+export interface EssayRubricDimension {
+  id: string;
+  label: string;
+  maxScore: number;
+  levels: EssayRubricLevel[];
+  hints?: string[];
+}
+
+export interface EssayQuestion extends BaseQuestion {
+  type: "essay";
+  genre: string;
+  minWords: number;
+  maxWords?: number;
+  outlineHints: string[];
+  rubric: EssayRubricDimension[];
+  sampleEssay?: string;
 }
 
 export interface SolutionStep {
@@ -123,7 +165,9 @@ export type Question =
   | MultiChoiceQuestion
   | NumericQuestion
   | ExpressionQuestion
-  | SolutionQuestion;
+  | SolutionQuestion
+  | ShortAnswerQuestion
+  | EssayQuestion;
 
 export type QuestionResultStatus = "correct" | "wrong" | "skipped";
 

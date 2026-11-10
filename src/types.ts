@@ -2,6 +2,21 @@ export type Subject = "math" | "english" | "physics" | "chemistry" | "chinese";
 
 export type KnowledgePointStatus = "not-started" | "learning" | "stable" | "mastered";
 
+export type ThemeMode = "auto" | "light" | "dark";
+
+export interface AppSettings {
+  examDate: string | null;
+  theme: ThemeMode;
+}
+
+export type SprintPhase = "foundation" | "specialized" | "sprint" | "final";
+
+export interface SprintStatus {
+  phase: SprintPhase;
+  daysLeft: number | null;
+  examDate: string | null;
+}
+
 export interface KnowledgePoint {
   id: string;
   name: string;
@@ -128,6 +143,16 @@ export interface UserResponse {
   value: string;
 }
 
+export type ErrorTag = "concept" | "calculation" | "careless" | "reading" | "unknown";
+
+export const ERROR_TAG_LABELS: Record<ErrorTag, string> = {
+  concept: "概念不清",
+  calculation: "计算失误",
+  careless: "粗心大意",
+  reading: "审题不清",
+  unknown: "未归类",
+};
+
 export interface MistakeRecord {
   questionId: string;
   firstSeenAt: string;
@@ -136,6 +161,8 @@ export interface MistakeRecord {
   reviewStage: number;
   consecutiveCorrect: number;
   nextReviewAt: string;
+  errorTag?: ErrorTag;
+  manualMastered?: boolean;
 }
 
 export interface ProgressState {
@@ -143,6 +170,7 @@ export interface ProgressState {
   mistakes: Record<string, MistakeRecord>;
   attempts: AttemptRecord[];
   dailyPlans: Record<string, DailyPlanRecord>;
+  readLessonIds: string[];
 }
 
 export type AttemptStatus = "correct" | "wrong" | "skipped";
@@ -168,6 +196,13 @@ export interface QuestionStats {
   lastAttemptAt?: string;
 }
 
+export interface TopicTypeStat {
+  displayType: string;
+  totalQuestions: number;
+  attemptedQuestions: number;
+  accuracy: number;
+}
+
 export interface TopicStats {
   totalQuestions: number;
   attemptedQuestions: number;
@@ -180,6 +215,7 @@ export interface TopicStats {
   stability: number;
   mastery: number;
   status: KnowledgePointStatus;
+  typeStats: TopicTypeStat[];
 }
 
 export type DailyTaskType = "review" | "topic" | "exam" | "summary";
@@ -254,6 +290,16 @@ export interface ExamTopicReport {
   maxScore: number;
 }
 
+export interface ExamTypeReport {
+  displayType: string;
+  questionCount: number;
+  correctCount: number;
+  wrongCount: number;
+  skippedCount: number;
+  score: number;
+  maxScore: number;
+}
+
 export interface ExamResult {
   id: string;
   paperId: string;
@@ -269,6 +315,18 @@ export interface ExamResult {
   results: QuestionResult[];
   topicReports: ExamTopicReport[];
   sectionReports: ExamSectionReport[];
+  typeReports: ExamTypeReport[];
+}
+
+export interface WeeklyReport {
+  attemptCount: number;
+  correctCount: number;
+  wrongCount: number;
+  accuracy: number;
+  totalSeconds: number;
+  activeDays: number;
+  previousAttemptCount: number;
+  previousAccuracy: number;
 }
 
 export interface ReferenceItem {

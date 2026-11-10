@@ -73,4 +73,49 @@ describe("mastery model", () => {
     ];
     expect(calculateLearningStreak(attempts, now)).toBeGreaterThanOrEqual(1);
   });
+
+  it("breaks topic accuracy down by question display type", () => {
+    const choiceQuestion = question;
+    const numericQuestion: Question = {
+      ...question,
+      id: "question-2",
+      type: "numeric",
+      displayType: "填空题",
+      answer: 5,
+    };
+
+    const attempts = [
+      attempt("a1", "correct", 1),
+      {
+        ...attempt("a2", "wrong", 1),
+        questionId: "question-2",
+      },
+    ];
+
+    const stats = calculateTopicStats(
+      "topic",
+      [choiceQuestion, numericQuestion],
+      attempts,
+      now
+    );
+
+    expect(stats.typeStats).toHaveLength(2);
+    const choiceType = stats.typeStats.find(
+      (item) => item.displayType === "测试题"
+    );
+    const numericType = stats.typeStats.find(
+      (item) => item.displayType === "填空题"
+    );
+
+    expect(choiceType).toMatchObject({
+      totalQuestions: 1,
+      attemptedQuestions: 1,
+      accuracy: 100,
+    });
+    expect(numericType).toMatchObject({
+      totalQuestions: 1,
+      attemptedQuestions: 1,
+      accuracy: 0,
+    });
+  });
 });

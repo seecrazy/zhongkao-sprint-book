@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { getSubjectContent } from "../data/sample-content";
 import { calculateTopicStats } from "../lib/mastery";
+import { toggleLessonRead } from "../lib/storage";
 import MathText from "../components/MathText";
 import type {
   KnowledgePoint,
@@ -12,6 +13,7 @@ import type {
 interface TopicsProps {
   subject: Subject;
   progress: ProgressState;
+  setProgress: (progress: ProgressState) => void;
   onNavigate: (page: "practice", query?: Record<string, string>) => void;
 }
 
@@ -31,6 +33,7 @@ const statusLabel = {
 export default function Topics({
   subject,
   progress,
+  setProgress,
   onNavigate,
 }: TopicsProps) {
   const [selectedTopicId, setSelectedTopicId] = useState<string | null>(null);
@@ -46,6 +49,11 @@ export default function Topics({
     [progress.attempts, subject]
   );
 
+  const lessonTotal = knowledgePoints.filter((point) => point.lesson).length;
+  const lessonRead = knowledgePoints.filter(
+    (point) => point.lesson && progress.readLessonIds.includes(point.id)
+  ).length;
+
   const selected = rankedTopics.find(
     (item) => item.point.id === selectedTopicId
   );
@@ -59,6 +67,9 @@ export default function Topics({
             每个考点都提供概念讲解、公式、例题、易错点和解题策略；掌握度用于判断当前冲刺优先级。
           </p>
         </div>
+        <span className="count-badge">
+          讲解已读 {lessonRead}/{lessonTotal}
+        </span>
       </div>
 
       {selected?.point.lesson && (
@@ -90,18 +101,39 @@ export default function Topics({
             >
               练习本考点
             </button>
+            <button
+              className="ghost"
+              type="button"
+              onClick={() =>
+                setProgress(toggleLessonRead(progress, selected.point.id))
+              }
+            >
+              {progress.readLessonIds.includes(selected.point.id)
+                ? "✓ 已读（点击取消）"
+                : "标记讲解已读"}
+            </button>
           </div>
         </article>
       )}
 
       <div className="topic-grid">
-        {rankedTopics.map(({ point, stats }) => (
-          <article key={point.id} className="topic-card">
+        {rankedTopics.map(({ point, stats }) => {
+          const hasRead = progress.readLessonIds.includes(point.id);
+
+          return (
+            <article key={point.id} className="topic-card">
             <div className="topic-top">
               <h2>{point.name}</h2>
-              <span className={`tag ${point.examWeight}`}>
-                {weightLabel[point.examWeight]}
-              </span>
+              <div className="topic-tags">
+                {point.lesson && (
+                  <span className={`tag ${hasRead ? "read" : "unread"}`}>
+                    {hasRead ? "讲解已读" : "讲解未读"}
+                  </span>
+                )}
+                <span className={`tag ${point.examWeight}`}>
+                  {weightLabel[point.examWeight]}
+                </span>
+              </div>
             </div>
             <p>
               <MathText text={point.summary} />
@@ -115,6 +147,32 @@ export default function Topics({
               <span>{statusLabel[stats.status]}</span>
               <span>掌握度 {stats.mastery}%</span>
             </div>
+
+            {stats.typeStats.length > 0 && (
+              <div className="type-breakdown">
+                {stats.typeStats.map((typeStat) => (
+                  <span
+                    key={typeStat.displayType}
+                    className={`type-chip ${
+                      typeStat.attemptedQuestions === 0
+                        ? "untouched"
+                        : typeStat.accuracy < 60
+                          ? "weak"
+                          : typeStat.accuracy < 85
+                            ? "ok"
+                            : "good"
+                    }`}
+                    title={`${typeStat.displayType}：${
+                      typeStat.attemptedQuestions
+                    }/${typeStat.totalQuestions} 题已做，正确率 ${
+                      typeStat.accuracy
+                    }%`}
+                  >
+                    {typeStat.displayType} {typeStat.accuracy}%
+                  </span>
+                ))}
+              </div>
+            )}
 
             <dl className="topic-stats">
               <div>
@@ -149,7 +207,8 @@ export default function Topics({
               {point.lesson ? "查看讲解" : "暂无讲解"}
             </button>
           </article>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

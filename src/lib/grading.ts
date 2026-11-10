@@ -1,15 +1,82 @@
 import type { Question, QuestionResult, UserResponse } from "../types";
 
-export function normalizeText(value: string): string {
+const SUPERSCRIPT_DIGITS = "⁰¹²³⁴⁵⁶⁷⁸⁹";
+
+function toHalfWidth(value: string): string {
   return value
+    .replace(/[\uFF01-\uFF5E]/g, (ch) =>
+      String.fromCharCode(ch.charCodeAt(0) - 0xfee0)
+    )
+    .replace(/\u3000/g, " ");
+}
+
+export function normalizeText(value: string): string {
+  return toHalfWidth(value)
     .trim()
     .toLowerCase()
     .replace(/\s+/g, "")
     .replace(/，/g, ",")
     .replace(/≥/g, ">=")
     .replace(/≤/g, "<=")
+    .replace(/≠/g, "!=")
     .replace(/或/g, "or")
-    .replace(/±/g, "+-");
+    .replace(/±/g, "+-")
+    .replace(/×/g, "*")
+    .replace(/÷/g, "/");
+}
+
+/**
+ * 解析学生输入的数值答案：
+ * 支持小数、分数（3/4）、科学计数法（1.2e3、1.2×10³、1.2×10^3）、
+ * 全角字符、千分位逗号和尾部单位（N、kg、% 等，单位里不允许再夹数字）。
+ * 无法解析为单一数值时返回 null。
+ */
+export function parseNumericValue(raw: string): number | null {
+  if (typeof raw !== "string" || raw.trim() === "") return null;
+
+  const normalized = toHalfWidth(raw)
+    .replace(/\s+/g, "")
+    .replace(/，/g, ",")
+    .replace(/,/g, "")
+    .replace(/[×·]10\^?([+-]?\d+)/g, "e$1")
+    .replace(
+      new RegExp(`[×·]10([⁺⁻]?[${SUPERSCRIPT_DIGITS}]+)`, "g"),
+      (_match, sup: string) =>
+        `e${[...sup]
+          .map((ch) => {
+            if (ch === "⁺") return "+";
+            if (ch === "⁻") return "-";
+            return String(SUPERSCRIPT_DIGITS.indexOf(ch));
+          })
+          .join("")}`
+    );
+
+  const fractionMatch = normalized.match(/^([+-]?\d*\.?\d+)\/(\d*\.?\d+)$/);
+  if (fractionMatch) {
+    const numerator = Number(fractionMatch[1]);
+    const denominator = Number(fractionMatch[2]);
+    if (
+      Number.isFinite(numerator) &&
+      Number.isFinite(denominator) &&
+      denominator !== 0
+    ) {
+      return numerator / denominator;
+    }
+    return null;
+  }
+
+  const numberMatch = normalized.match(
+    /^([+-]?(?:\d+\.?\d*|\.\d+)(?:[eE][+-]?\d+)?)(.*)$/
+  );
+  if (!numberMatch) return null;
+
+  const value = Number(numberMatch[1]);
+  if (!Number.isFinite(value)) return null;
+
+  // 尾部允许单位字符（字母、%℃°、中文单位），但不允许再出现数字。
+  if (/\d/.test(numberMatch[2])) return null;
+
+  return value;
 }
 
 function extractSolutionSet(value: string): number[] {
@@ -104,11 +171,12 @@ export function gradeQuestion(
 
     const results = question.steps.map((step, index) => {
       const raw = String(stepAnswers[index] ?? "").trim();
-      const numeric = Number(raw.replace(/[^\d.+-]/g, ""));
+      const numeric = parseNumericValue(raw);
       const tolerance = step.tolerance ?? 0.0001;
       return {
         raw,
-        correct: raw !== "" && Number.isFinite(numeric) && Math.abs(numeric - step.answer) <= tolerance,
+        correct:
+          numeric !== null && Math.abs(numeric - step.answer) <= tolerance,
       };
     });
 
@@ -134,10 +202,10 @@ export function gradeQuestion(
   }
 
   if (question.type === "numeric") {
-    const numeric = Number(userAnswer.replace(/[^\d.+-]/g, ""));
+    const numeric = parseNumericValue(userAnswer);
     const tolerance = question.tolerance ?? 0.0001;
     const status =
-      Number.isFinite(numeric) && Math.abs(numeric - question.answer) <= tolerance
+      numeric !== null && Math.abs(numeric - question.answer) <= tolerance
         ? "correct"
         : "wrong";
     return {

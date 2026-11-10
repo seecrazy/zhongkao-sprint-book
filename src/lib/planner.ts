@@ -3,6 +3,7 @@ import type {
   KnowledgePoint,
   ProgressState,
   Question,
+  SprintPhase,
 } from "../types";
 import { calculateTopicStats, getLocalDateString } from "./mastery";
 import { getDueMistakes } from "./storage";
@@ -14,6 +15,8 @@ interface PlannerInput {
   questions: Question[];
   progress: ProgressState;
   examsAvailable?: boolean;
+  sprintPhase?: SprintPhase;
+  daysLeft?: number | null;
 }
 
 function dateCode(date: Date): string {
@@ -27,23 +30,53 @@ export function buildDailyTasks({
   questions,
   progress,
   examsAvailable = true,
+  sprintPhase = "specialized",
+  daysLeft = null,
 }: PlannerInput): DailyTask[] {
   const dueMistakes = getDueMistakes(progress, date);
   const tasks: DailyTask[] = [];
   const suffix = dateCode(date);
+
+  const countdownNote =
+    typeof daysLeft === "number" && daysLeft >= 0 ? `距中考 ${daysLeft} 天 · ` : "";
 
   if (dueMistakes.length > 0) {
     tasks.push({
       id: `review-${suffix}`,
       type: "review",
       title: `复习 ${dueMistakes.length} 道到期错题`,
-      description: "优先清理到期间隔复习任务，连续答对可以推进复习阶段。",
+      description:
+        sprintPhase === "sprint"
+          ? `${countdownNote}冲刺期错题必须逐日清零，连续答对可以推进复习阶段。`
+          : "优先清理到期间隔复习任务，连续答对可以推进复习阶段。",
       targetQuestionCount: dueMistakes.length,
       route: {
         page: "practice",
         query: { review: "1" },
       },
     });
+  }
+
+  // 一轮基础期：把未读的考点讲解作为首要任务，先懂再练。
+  if (sprintPhase === "foundation") {
+    const unreadTopic = topics.find(
+      (topic) =>
+        topic.lesson && !progress.readLessonIds.includes(topic.id)
+    );
+    if (unreadTopic) {
+      tasks.push({
+        id: `lesson-${unreadTopic.id}-${suffix}`,
+        type: "topic",
+        title: `通读讲解：${unreadTopic.name}`,
+        description:
+          "基础期先读讲解再做题：过一遍概念、公式、例题和易错点，再进入练习。",
+        targetTopicId: unreadTopic.id,
+        route: {
+          page: "practice",
+          query: { topic: unreadTopic.id },
+        },
+      });
+    }
   }
 
   const topicRanking = topics
@@ -61,7 +94,10 @@ export function buildDailyTasks({
       return weightOrder[left.topic.examWeight] - weightOrder[right.topic.examWeight];
     });
 
-  topicRanking.slice(0, 2).forEach((item, index) => {
+  // 冲刺期聚焦整卷和错题，专项训练收敛为 1 个最薄弱考点。
+  const topicTaskCount = sprintPhase === "sprint" ? 1 : 2;
+
+  topicRanking.slice(0, topicTaskCount).forEach((item, index) => {
     const targetQuestionCount = Math.min(
       5,
       Math.max(3, item.stats.totalQuestions)
@@ -86,7 +122,10 @@ export function buildDailyTasks({
       id: `exam-${suffix}`,
       type: "exam",
       title: `完成一次${subjectLabel}限时摸底`,
-      description: "用整卷模式检查当前速度和准确率，交卷后查看分考点报告。",
+      description:
+        sprintPhase === "sprint"
+          ? `${countdownNote}冲刺期以整卷节奏训练为主，按中考时间要求完成并复盘。`
+          : "用整卷模式检查当前速度和准确率，交卷后查看分考点报告。",
       route: {
         page: "exam",
       },

@@ -26,6 +26,25 @@ function question(id: string, topicId = "topic"): Question {
   };
 }
 
+function solutionQuestion(id: string): Question {
+  return {
+    id,
+    subject: "math",
+    knowledgePointIds: ["topic"],
+    displayType: "解答题",
+    type: "solution",
+    difficulty: 3,
+    estimatedSeconds: 120,
+    stem: "stem",
+    source: "test",
+    explanation: "explanation",
+    steps: [
+      { prompt: "第一步", answer: 6, score: 2 },
+      { prompt: "第二步", answer: 12, score: 2 },
+    ],
+  };
+}
+
 const questions = [question("q1"), question("q2"), question("q3"), question("q4"), question("q5")];
 
 const paper: ExamPaper = {
@@ -88,6 +107,46 @@ describe("sectioned exams", () => {
       }),
     ]);
     expect(result.results.find((item) => item.questionId === "q1")?.score).toBe(3);
+    expect(result.typeReports).toEqual([
+      expect.objectContaining({
+        displayType: "测试",
+        questionCount: 4,
+        correctCount: 2,
+        wrongCount: 1,
+        skippedCount: 1,
+        score: 6,
+        maxScore: 10,
+      }),
+    ]);
+  });
+
+  it("scales solution step scores into the section score for partial credit", () => {
+    const solutionPaper: ExamPaper = {
+      ...paper,
+      sections: [
+        {
+          id: "solution-section",
+          title: "解答题",
+          scorePerQuestion: 8,
+          questionIds: ["s1"],
+        },
+      ],
+    };
+    const result = gradeExamPaper({
+      paper: solutionPaper,
+      topics,
+      questions: [solutionQuestion("s1"), ...questions],
+      responses: { s1: JSON.stringify(["6", "0"]) },
+      startedAt: "2026-10-31T10:00:00Z",
+      submittedAt: "2026-10-31T10:05:00Z",
+    });
+
+    // 两步各 2 分，答对一步：步骤分 2/4，折算到 8 分分区 = 4 分。
+    expect(result.score).toBe(4);
+    expect(result.sectionReports[0].score).toBe(4);
+    expect(result.typeReports[0]).toEqual(
+      expect.objectContaining({ displayType: "解答题", score: 4, maxScore: 8 })
+    );
   });
 });
 
@@ -109,6 +168,7 @@ describe("exam trend", () => {
         results: [],
         topicReports: [],
         sectionReports: [],
+        typeReports: [],
       },
       {
         id: "oldest",
@@ -125,6 +185,7 @@ describe("exam trend", () => {
         results: [],
         topicReports: [],
         sectionReports: [],
+        typeReports: [],
       },
     ];
 

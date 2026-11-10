@@ -5,6 +5,7 @@ import type {
   ExamSection,
   ExamSectionReport,
   ExamTopicReport,
+  ExamTypeReport,
   KnowledgePoint,
   Question,
   QuestionResult,
@@ -12,6 +13,10 @@ import type {
 
 function safeDivide(numerator: number, denominator: number): number {
   return denominator === 0 ? 0 : numerator / denominator;
+}
+
+function round2(value: number): number {
+  return Math.round(value * 100) / 100;
 }
 
 export function getExamSections(paper: ExamPaper): ExamSection[] {
@@ -56,10 +61,6 @@ export function getExamQuestions(
   });
 
   return result;
-}
-
-export function getExamQuestionCount(paper: ExamPaper): number {
-  return getExamQuestions(paper, []).length;
 }
 
 export function getExamMaxScore(paper: ExamPaper): number {
@@ -108,11 +109,22 @@ export function gradeExamPaper({
   sections.forEach((section) => {
     const sectionQuestions = getExamSectionQuestions(section, questions);
     const rawResults = gradeQuestions(sectionQuestions, responses);
-    const sectionScoredResults = rawResults.map((result) => ({
-      ...result,
-      score: result.status === "correct" ? section.scorePerQuestion : 0,
-      maxScore: section.scorePerQuestion,
-    }));
+    const sectionScoredResults = rawResults.map((result) => {
+      // 解答题按步骤得分比例折算到本区分值，部分正确可得部分分；
+      // 其余题型按分值全对全得。
+      const score =
+        result.maxScore > 1
+          ? round2((result.score / result.maxScore) * section.scorePerQuestion)
+          : result.status === "correct"
+            ? section.scorePerQuestion
+            : 0;
+
+      return {
+        ...result,
+        score,
+        maxScore: section.scorePerQuestion,
+      };
+    });
 
     sectionScoredResults.forEach((result) => {
       sectionResults.set(result.questionId, result);
@@ -121,7 +133,9 @@ export function gradeExamPaper({
     const correctCount = sectionScoredResults.filter(
       (result) => result.status === "correct"
     ).length;
-    const sectionScore = correctCount * section.scorePerQuestion;
+    const sectionScore = round2(
+      sectionScoredResults.reduce((total, result) => total + result.score, 0)
+    );
     const sectionMaxScore = sectionScoredResults.length * section.scorePerQuestion;
 
     sectionReports.push({
@@ -145,11 +159,43 @@ export function gradeExamPaper({
     .map((question) => sectionResults.get(question.id))
     .filter((result): result is QuestionResult => Boolean(result));
 
-  const score = results.reduce((total, result) => total + result.score, 0);
+  const score = round2(
+    results.reduce((total, result) => total + result.score, 0)
+  );
   const maxScore = results.reduce(
     (total, result) => total + result.maxScore,
     0
   );
+
+  const typeReports: ExamTypeReport[] = Object.values(
+    results.reduce<Record<string, ExamTypeReport>>((acc, result) => {
+      const question = examQuestions.find(
+        (item) => item.id === result.questionId
+      );
+      if (!question) return acc;
+
+      const report =
+        acc[question.displayType] ?? {
+          displayType: question.displayType,
+          questionCount: 0,
+          correctCount: 0,
+          wrongCount: 0,
+          skippedCount: 0,
+          score: 0,
+          maxScore: 0,
+        };
+
+      report.questionCount += 1;
+      report.score = round2(report.score + result.score);
+      report.maxScore = round2(report.maxScore + result.maxScore);
+      if (result.status === "correct") report.correctCount += 1;
+      else if (result.status === "wrong") report.wrongCount += 1;
+      else report.skippedCount += 1;
+
+      acc[question.displayType] = report;
+      return acc;
+    }, {})
+  ).sort((left, right) => right.questionCount - left.questionCount);
 
   const topicReports: ExamTopicReport[] = topics
     .map((topic) => {
@@ -160,9 +206,8 @@ export function gradeExamPaper({
         return question?.knowledgePointIds.includes(topic.id);
       });
 
-      const score = topicResults.reduce(
-        (total, result) => total + result.score,
-        0
+      const score = round2(
+        topicResults.reduce((total, result) => total + result.score, 0)
       );
       const topicMaxScore = topicResults.reduce(
         (total, result) => total + result.maxScore,
@@ -213,6 +258,7 @@ export function gradeExamPaper({
     results,
     topicReports,
     sectionReports,
+    typeReports,
   };
 }
 
@@ -276,6 +322,22 @@ export function getExamSuggestions(result: ExamResult): string[] {
         `复习「${report.topicName}」：本次得分率 ${Math.round(
           (report.score / report.maxScore) * 100
         )}%。`
+      );
+    });
+
+  result.typeReports
+    .filter(
+      (report) =>
+        report.maxScore > 0 &&
+        report.score / report.maxScore < 0.6 &&
+        report.questionCount > 0
+    )
+    .slice(0, 2)
+    .forEach((report) => {
+      suggestions.push(
+        `题型「${report.displayType}」得分率偏低（${Math.round(
+          (report.score / report.maxScore) * 100
+        )}%），建议集中训练该题型。`
       );
     });
 

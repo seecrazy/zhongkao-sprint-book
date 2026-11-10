@@ -9,15 +9,27 @@ import {
   getTotalPracticeSeconds,
 } from "../lib/mastery";
 import { buildDailyTasks } from "../lib/planner";
+import { buildWeeklyReport, formatTrend } from "../lib/report";
+import {
+  SPRINT_PHASE_LABELS,
+  getSprintStatus,
+} from "../lib/app-settings";
+import { APP_NAME_EN, APP_VERSION } from "../lib/app-info";
 import { getDueMistakes, toggleDailyTask } from "../lib/storage";
-import type { DailyTask, ProgressState, Subject } from "../types";
+import type {
+  AppSettings,
+  DailyTask,
+  ProgressState,
+  Subject,
+} from "../types";
 
 interface HomeProps {
   subject: Subject;
   progress: ProgressState;
   setProgress: (progress: ProgressState) => void;
+  appSettings: AppSettings;
   onNavigate: (
-    page: "topics" | "practice" | "exam" | "mistakes",
+    page: "topics" | "practice" | "exam" | "mistakes" | "settings",
     query?: Record<string, string>
   ) => void;
 }
@@ -39,11 +51,14 @@ export default function Home({
   subject,
   progress,
   setProgress,
+  appSettings,
   onNavigate,
 }: HomeProps) {
   const today = useMemo(() => new Date(), []);
   const todayKey = getLocalDateString(today);
   const content = getSubjectContent(subject);
+  const sprint = getSprintStatus(appSettings, today);
+  const phaseInfo = SPRINT_PHASE_LABELS[sprint.phase];
 
   const overallMastery = calculateOverallMastery(
     content.knowledgePoints,
@@ -54,6 +69,7 @@ export default function Home({
   const todayAttempts = getTodayAttemptCount(progress.attempts, today);
   const streak = calculateLearningStreak(progress.attempts);
   const totalSeconds = getTotalPracticeSeconds(progress.attempts);
+  const weekly = buildWeeklyReport(progress.attempts, today);
   const topicRanking = [...content.knowledgePoints]
     .map((topic) => ({
       topic,
@@ -73,9 +89,11 @@ export default function Home({
         topics: content.knowledgePoints,
         questions: content.questions,
         progress,
+        sprintPhase: sprint.phase,
+        daysLeft: sprint.daysLeft,
       }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [progress, today, subject]
+    [progress, today, subject, sprint.phase, sprint.daysLeft]
   );
   const completedTaskIds =
     progress.dailyPlans[todayKey]?.completedTaskIds ?? [];
@@ -96,12 +114,11 @@ export default function Home({
       <div className="hero">
         <div>
           <span className="eyebrow">
-            SprintBook v0.9 · {content.label} {content.contentVersion}
+            {APP_NAME_EN} v{APP_VERSION} · {content.label}{" "}
+            {content.contentVersion}
           </span>
           <h1>考点看得清，错题改得掉。</h1>
-          <p>
-            今日任务、掌握度、间隔复习和限时模考已经连成闭环，冲刺时先做最有价值的事。
-          </p>
+          <p>{phaseInfo.hint}</p>
           <div className="hero-actions">
             <button
               className="primary"
@@ -120,13 +137,32 @@ export default function Home({
             </button>
           </div>
         </div>
-        <div className="hero-card">
-          <strong>综合掌握度</strong>
-          <div className="big-number">{overallMastery}%</div>
-          <span>
-            覆盖 {content.knowledgePoints.length} 个{content.label}考点 ·{" "}
-            {content.questions.length} 道题
-          </span>
+        <div className="hero-cards">
+          <div className="hero-card countdown-card">
+            <strong>距中考</strong>
+            <div className="big-number">
+              {sprint.daysLeft ?? "—"}
+              <small>天</small>
+            </div>
+            <span>{phaseInfo.label}</span>
+            <button
+              className="countdown-edit"
+              type="button"
+              onClick={() => onNavigate("settings")}
+            >
+              {sprint.examDate
+                ? `考试日 ${sprint.examDate} · 修改`
+                : "设置考试日期"}
+            </button>
+          </div>
+          <div className="hero-card">
+            <strong>综合掌握度</strong>
+            <div className="big-number">{overallMastery}%</div>
+            <span>
+              覆盖 {content.knowledgePoints.length} 个{content.label}考点 ·{" "}
+              {content.questions.length} 道题
+            </span>
+          </div>
         </div>
       </div>
 
@@ -147,6 +183,43 @@ export default function Home({
           <span>累计用时</span>
           <strong>{formatDuration(totalSeconds)}</strong>
         </article>
+      </div>
+
+      <div className="panel">
+        <div className="section-head">
+          <div>
+            <h2>本周学习报告</h2>
+            <p>
+              近 7 天完成 {weekly.attemptCount} 次作答（{formatTrend(
+                weekly.attemptCount,
+                weekly.previousAttemptCount
+              )}
+              ），活跃 {weekly.activeDays} 天。
+            </p>
+          </div>
+          <span className="count-badge">周正确率 {weekly.accuracy}%</span>
+        </div>
+        <div className="meter plan-meter">
+          <span style={{ width: `${weekly.accuracy}%` }} />
+        </div>
+        <div className="weekly-summary">
+          <div>
+            <strong>{weekly.correctCount}</strong>
+            <span>答对</span>
+          </div>
+          <div>
+            <strong>{weekly.wrongCount}</strong>
+            <span>答错</span>
+          </div>
+          <div>
+            <strong>{formatTrend(weekly.accuracy, weekly.previousAccuracy)}</strong>
+            <span>正确率对比上周</span>
+          </div>
+          <div>
+            <strong>{formatDuration(weekly.totalSeconds)}</strong>
+            <span>本周用时</span>
+          </div>
+        </div>
       </div>
 
       <div className="panel">
@@ -230,7 +303,7 @@ export default function Home({
             <li>到期错题优先清零，避免旧错误反复出现。</li>
             <li>每天集中训练 1～2 个薄弱考点。</li>
             <li>用限时模考检查速度、准确率和考点漏洞。</li>
-            <li>交卷后按分考点报告回看解析。</li>
+            <li>交卷后按分题型、分考点报告回看解析。</li>
           </ol>
         </div>
       </div>

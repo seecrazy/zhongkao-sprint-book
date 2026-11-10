@@ -141,6 +141,7 @@ export default function Practice({
         status: result.status,
         userAnswer: result.userAnswer,
         timeSpentSeconds: result.timeSpentSeconds ?? 0,
+        errorType: result.errorType,
       });
     });
 

@@ -6,16 +6,33 @@ import {
   getDueMistakes,
   isMistakeDue,
   isMistakeMastered,
+  setMistakeErrorTag,
+  setMistakeManualMastered,
 } from "../lib/storage";
-import type { MistakeRecord, ProgressState, Subject } from "../types";
+import {
+  ERROR_TAG_LABELS,
+  type ErrorTag,
+  type MistakeRecord,
+  type ProgressState,
+  type Subject,
+} from "../types";
 
 interface MistakesProps {
   subject: Subject;
   progress: ProgressState;
+  setProgress: (progress: ProgressState) => void;
   onNavigate: (page: "practice", query?: Record<string, string>) => void;
 }
 
 type MistakeFilter = "due" | "all" | "mastered";
+
+const ERROR_TAG_ORDER: ErrorTag[] = [
+  "concept",
+  "calculation",
+  "careless",
+  "reading",
+  "unknown",
+];
 
 function formatDateTime(value: string): string {
   return new Date(value).toLocaleString("zh-CN", {
@@ -31,7 +48,10 @@ function getMistakeStatus(mistake: MistakeRecord): {
   className: string;
 } {
   if (isMistakeMastered(mistake)) {
-    return { label: "已掌握", className: "mastered" };
+    return {
+      label: mistake.manualMastered ? "已掌握（手动）" : "已掌握",
+      className: "mastered",
+    };
   }
 
   if (isMistakeDue(mistake)) {
@@ -44,9 +64,11 @@ function getMistakeStatus(mistake: MistakeRecord): {
 export default function Mistakes({
   subject,
   progress,
+  setProgress,
   onNavigate,
 }: MistakesProps) {
   const [filter, setFilter] = useState<MistakeFilter>("due");
+  const [errorTagFilter, setErrorTagFilter] = useState<ErrorTag | "all">("all");
   const { questions } = getSubjectContent(subject);
   const dueMistakes = getDueMistakes(progress);
 
@@ -57,12 +79,36 @@ export default function Mistakes({
         new Date(left.lastSeenAt).getTime()
     );
 
-    if (filter === "due") return dueMistakes;
-    if (filter === "mastered") {
-      return all.filter(isMistakeMastered);
+    let list: MistakeRecord[];
+    if (filter === "due") list = dueMistakes;
+    else if (filter === "mastered") list = all.filter(isMistakeMastered);
+    else list = all;
+
+    if (errorTagFilter !== "all") {
+      list = list.filter(
+        (mistake) => (mistake.errorTag ?? "unknown") === errorTagFilter
+      );
     }
-    return all;
-  }, [progress.mistakes, dueMistakes, filter]);
+
+    return list;
+  }, [progress.mistakes, dueMistakes, filter, errorTagFilter]);
+
+  const tagSummary = useMemo(() => {
+    const summary = new Map<ErrorTag, number>();
+    Object.values(progress.mistakes).forEach((mistake) => {
+      const tag = mistake.errorTag ?? "unknown";
+      summary.set(tag, (summary.get(tag) ?? 0) + 1);
+    });
+    return summary;
+  }, [progress.mistakes]);
+
+  function updateTag(questionId: string, tag: ErrorTag) {
+    setProgress(setMistakeErrorTag(progress, questionId, tag));
+  }
+
+  function toggleMastered(questionId: string, mastered: boolean) {
+    setProgress(setMistakeManualMastered(progress, questionId, mastered));
+  }
 
   return (
     <section className="page">
@@ -70,13 +116,23 @@ export default function Mistakes({
         <div>
           <h1>错题本</h1>
           <p>
-            错题会进入间隔复习队列：当天 → 1 天 → 2 天 → 4 天 → 7 天 → 15 天。连续答对可升级，再错会重置。
+            错题会进入间隔复习队列：当天 → 1 天 → 2 天 → 4 天 → 7 天 → 15 天。连续答对可升级，再错会重置；也可以给每道错题标注错因，按错因集中攻破。
           </p>
         </div>
-        <span className="count-badge">{dueMistakes.length} 题到期</span>
+        <div className="section-head-actions">
+          <button
+            className="ghost no-print"
+            type="button"
+            disabled={mistakes.length === 0}
+            onClick={() => window.print()}
+          >
+            打印当前列表
+          </button>
+          <span className="count-badge">{dueMistakes.length} 题到期</span>
+        </div>
       </div>
 
-      <div className="toolbar">
+      <div className="toolbar no-print">
         <div className="filter-tabs">
           <button
             type="button"
@@ -119,6 +175,29 @@ export default function Mistakes({
         </button>
       </div>
 
+      <div className="error-tag-panel no-print">
+        <strong>错因分布</strong>
+        <div className="error-tag-filters">
+          <button
+            type="button"
+            className={errorTagFilter === "all" ? "active" : ""}
+            onClick={() => setErrorTagFilter("all")}
+          >
+            全部（{Object.keys(progress.mistakes).length}）
+          </button>
+          {ERROR_TAG_ORDER.filter((tag) => tagSummary.has(tag)).map((tag) => (
+            <button
+              key={tag}
+              type="button"
+              className={errorTagFilter === tag ? "active" : ""}
+              onClick={() => setErrorTagFilter(tag)}
+            >
+              {ERROR_TAG_LABELS[tag]}（{tagSummary.get(tag)}）
+            </button>
+          ))}
+        </div>
+      </div>
+
       {mistakes.length === 0 ? (
         <div className="empty">
           <strong>
@@ -144,6 +223,7 @@ export default function Mistakes({
             if (!question) return null;
 
             const status = getMistakeStatus(mistake);
+            const currentTag = mistake.errorTag ?? "unknown";
 
             return (
               <article key={question.id} className="mistake-card">
@@ -173,6 +253,39 @@ export default function Mistakes({
                     <MathText text={question.commonMistake} />
                   </p>
                 )}
+
+                <div className="mistake-actions no-print">
+                  <label className="error-tag-editor">
+                    <span>错因</span>
+                    <select
+                      value={currentTag}
+                      onChange={(event) =>
+                        updateTag(question.id, event.target.value as ErrorTag)
+                      }
+                    >
+                      {ERROR_TAG_ORDER.map((tag) => (
+                        <option key={tag} value={tag}>
+                          {ERROR_TAG_LABELS[tag]}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  <button
+                    className="ghost"
+                    type="button"
+                    onClick={() =>
+                      toggleMastered(
+                        question.id,
+                        !mistake.manualMastered
+                      )
+                    }
+                  >
+                    {mistake.manualMastered ? "取消已掌握" : "标记已掌握"}
+                  </button>
+                </div>
+                <div className="print-only print-tag">
+                  错因：{ERROR_TAG_LABELS[currentTag]}
+                </div>
               </article>
             );
           })}

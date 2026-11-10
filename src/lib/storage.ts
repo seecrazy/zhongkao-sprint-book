@@ -1,6 +1,7 @@
 import type {
   AttemptStatus,
   DailyPlanRecord,
+  ErrorTag,
   MistakeRecord,
   ProgressState,
   Subject,
@@ -12,11 +13,26 @@ const MAX_ATTEMPTS = 1000;
 
 const REVIEW_INTERVAL_DAYS = [0, 1, 2, 4, 7, 15];
 
+const ERROR_TAGS: ErrorTag[] = ["concept", "calculation", "careless", "reading", "unknown"];
+
+export function normalizeErrorTag(value: unknown): ErrorTag | undefined {
+  return ERROR_TAGS.includes(value as ErrorTag) ? (value as ErrorTag) : undefined;
+}
+
+// 判分引擎的粗分类 → 错题本错因标签（审题不清只能手动标注）。
+const ERROR_TYPE_TO_TAG: Record<string, ErrorTag> = {
+  concept: "concept",
+  calculation: "calculation",
+  careless: "careless",
+  blank: "unknown",
+};
+
 export const defaultProgress: ProgressState = {
   completedQuestionIds: [],
   mistakes: {},
   attempts: [],
   dailyPlans: {},
+  readLessonIds: [],
 };
 
 function addDays(date: Date, days: number): Date {
@@ -48,6 +64,9 @@ function normalizeMistake(
     reviewStage: stage,
     consecutiveCorrect: Math.max(0, record.consecutiveCorrect ?? 0),
     nextReviewAt: record.nextReviewAt ?? lastSeenAt,
+    errorTag: normalizeErrorTag(record.errorTag),
+    manualMastered:
+      record.manualMastered === true ? true : undefined,
   };
 }
 
@@ -95,6 +114,9 @@ function normalizeProgress(input: unknown): ProgressState {
     mistakes,
     attempts,
     dailyPlans,
+    readLessonIds: Array.isArray(value.readLessonIds)
+      ? value.readLessonIds.filter((id): id is string => Boolean(id))
+      : [],
   };
 }
 
@@ -126,7 +148,13 @@ export function saveProgress(subject: Subject, progress: ProgressState): void {
 }
 
 export function resetProgress(): ProgressState {
-  return defaultProgress;
+  return {
+    completedQuestionIds: [],
+    mistakes: {},
+    attempts: [],
+    dailyPlans: {},
+    readLessonIds: [],
+  };
 }
 
 export function recordAttempt(
@@ -136,6 +164,7 @@ export function recordAttempt(
     status: AttemptStatus;
     userAnswer: string;
     timeSpentSeconds: number;
+    errorType?: "none" | "blank" | "concept" | "calculation" | "careless";
   }
 ): ProgressState {
   const now = new Date();
@@ -171,6 +200,7 @@ export function recordAttempt(
       reviewStage: 0,
       consecutiveCorrect: 0,
       nextReviewAt: now.toISOString(),
+      errorTag: ERROR_TYPE_TO_TAG[input.errorType ?? "concept"] ?? "unknown",
     };
 
     return {
@@ -233,7 +263,56 @@ export function isMistakeDue(mistake: MistakeRecord, now = new Date()): boolean 
 }
 
 export function isMistakeMastered(mistake: MistakeRecord): boolean {
+  if (mistake.manualMastered) return true;
   return mistake.consecutiveCorrect >= 3 && mistake.reviewStage >= 3;
+}
+
+export function setMistakeErrorTag(
+  progress: ProgressState,
+  questionId: string,
+  errorTag: ErrorTag
+): ProgressState {
+  const mistake = progress.mistakes[questionId];
+  if (!mistake) return progress;
+
+  return {
+    ...progress,
+    mistakes: {
+      ...progress.mistakes,
+      [questionId]: { ...mistake, errorTag },
+    },
+  };
+}
+
+export function setMistakeManualMastered(
+  progress: ProgressState,
+  questionId: string,
+  mastered: boolean
+): ProgressState {
+  const mistake = progress.mistakes[questionId];
+  if (!mistake) return progress;
+
+  return {
+    ...progress,
+    mistakes: {
+      ...progress.mistakes,
+      [questionId]: { ...mistake, manualMastered: mastered ? true : undefined },
+    },
+  };
+}
+
+export function toggleLessonRead(
+  progress: ProgressState,
+  topicId: string
+): ProgressState {
+  const hasRead = progress.readLessonIds.includes(topicId);
+
+  return {
+    ...progress,
+    readLessonIds: hasRead
+      ? progress.readLessonIds.filter((id) => id !== topicId)
+      : [...progress.readLessonIds, topicId],
+  };
 }
 
 export function getDueMistakes(

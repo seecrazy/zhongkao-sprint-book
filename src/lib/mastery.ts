@@ -5,6 +5,7 @@ import type {
   Question,
   QuestionStats,
   TopicStats,
+  TopicTypeStat,
 } from "../types";
 
 function round(value: number, digits = 0): number {
@@ -199,6 +200,36 @@ export function calculateTopicStats(
       100
   );
 
+  // 分题型统计：暴露“同一考点里某种题型特别弱”的情况。
+  const typeStatMap = new Map<string, TopicTypeStat>();
+  questionStats.forEach(({ question, stats }) => {
+    const existing = typeStatMap.get(question.displayType) ?? {
+      displayType: question.displayType,
+      totalQuestions: 0,
+      attemptedQuestions: 0,
+      accuracy: 0,
+    };
+
+    existing.totalQuestions += 1;
+    if (stats.attempts > 0) existing.attemptedQuestions += 1;
+    typeStatMap.set(question.displayType, existing);
+  });
+
+  typeStatMap.forEach((typeStat) => {
+    const typeQuestions = questionStats.filter(
+      ({ question }) => question.displayType === typeStat.displayType
+    );
+    const typeCorrect = typeQuestions.reduce(
+      (total, item) => total + item.stats.correct,
+      0
+    );
+    const typeAttempts = typeQuestions.reduce(
+      (total, item) => total + item.stats.attempts,
+      0
+    );
+    typeStat.accuracy = Math.round(safeDivide(typeCorrect, typeAttempts) * 100);
+  });
+
   return {
     totalQuestions: topicQuestions.length,
     attemptedQuestions: attemptedQuestions.length,
@@ -211,6 +242,9 @@ export function calculateTopicStats(
     stability: Math.min(100, Math.round(stability * 100)),
     mastery,
     status: getStatusFromMastery(mastery),
+    typeStats: [...typeStatMap.values()].sort(
+      (left, right) => right.totalQuestions - left.totalQuestions
+    ),
   };
 }
 

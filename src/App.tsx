@@ -9,7 +9,8 @@ import Reference from "./pages/Reference";
 import Settings from "./pages/Settings";
 import { loadProgress, saveProgress } from "./lib/storage";
 import { isAvailableSubject } from "./data/sample-content";
-import type { ProgressState, Subject } from "./types";
+import { applyTheme, loadAppSettings, saveAppSettings } from "./lib/app-settings";
+import type { AppSettings, ProgressState, Subject } from "./types";
 
 const pageKeys = [
   "home",
@@ -57,10 +58,22 @@ export default function App() {
   const [progress, setProgress] = useState<ProgressState>(() =>
     loadProgress(initialRoute.subject)
   );
+  const [appSettings, setAppSettings] = useState<AppSettings>(() =>
+    loadAppSettings()
+  );
 
   useEffect(() => {
     saveProgress(subject, progress);
   }, [subject, progress]);
+
+  useEffect(() => {
+    applyTheme(appSettings.theme);
+    saveAppSettings(appSettings);
+  }, [appSettings]);
+
+  function updateAppSettings(next: AppSettings) {
+    setAppSettings(next);
+  }
 
   useEffect(() => {
     function handleHashChange() {
@@ -107,6 +120,8 @@ export default function App() {
     <Layout
       subject={subject}
       page={page}
+      appSettings={appSettings}
+      onUpdateAppSettings={updateAppSettings}
       onNavigate={(nextPage, nextQuery) => navigate(subject, nextPage, nextQuery)}
       onSwitchSubject={switchSubject}
     >
@@ -116,6 +131,7 @@ export default function App() {
           subject={subject}
           progress={progress}
           setProgress={setProgress}
+          appSettings={appSettings}
           onNavigate={(nextPage, nextQuery) =>
             navigate(subject, nextPage, nextQuery)
           }
@@ -126,6 +142,7 @@ export default function App() {
           key={subject}
           subject={subject}
           progress={progress}
+          setProgress={setProgress}
           onNavigate={(nextPage, nextQuery) =>
             navigate(subject, nextPage, nextQuery)
           }
@@ -158,6 +175,7 @@ export default function App() {
           key={subject}
           subject={subject}
           progress={progress}
+          setProgress={setProgress}
           onNavigate={(nextPage, nextQuery) =>
             navigate(subject, nextPage, nextQuery)
           }
@@ -170,6 +188,8 @@ export default function App() {
           subject={subject}
           progress={progress}
           setProgress={setProgress}
+          appSettings={appSettings}
+          onUpdateAppSettings={updateAppSettings}
         />
       )}
     </Layout>

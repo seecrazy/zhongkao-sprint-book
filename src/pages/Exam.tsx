@@ -87,17 +87,17 @@ function TrendChart({ history }: { history: ExamResult[] }) {
         role="img"
         aria-label="模考得分率趋势图"
       >
-        <line x1={padding} y1={height - padding} x2={width - padding} y2={height - padding} stroke="#dfe5ee" />
-        <line x1={padding} y1={padding} x2={padding} y2={height - padding} stroke="#dfe5ee" />
-        <line x1={padding} y1={padding} x2={width - padding} y2={padding} stroke="#e9f0ff" strokeDasharray="5 5" />
-        <path d={linePath} fill="none" stroke="#2f6fed" strokeWidth="3" strokeLinecap="round" />
+        <line x1={padding} y1={height - padding} x2={width - padding} y2={height - padding} stroke="var(--border)" />
+        <line x1={padding} y1={padding} x2={padding} y2={height - padding} stroke="var(--border)" />
+        <line x1={padding} y1={padding} x2={width - padding} y2={padding} stroke="var(--trend-guide)" strokeDasharray="5 5" />
+        <path d={linePath} fill="none" stroke="var(--trend-line)" strokeWidth="3" strokeLinecap="round" />
         {points.map((point) => (
           <g key={point.id}>
-            <circle cx={point.x} cy={point.y} r="5" fill="#fff" stroke="#2f6fed" strokeWidth="3" />
-            <text x={point.x} y={point.y - 12} textAnchor="middle" fontSize="12" fill="#202b36">
+            <circle cx={point.x} cy={point.y} r="5" fill="var(--surface)" stroke="var(--trend-line)" strokeWidth="3" />
+            <text x={point.x} y={point.y - 12} textAnchor="middle" fontSize="12" fill="var(--text)">
               {Math.round(point.scorePercent)}%
             </text>
-            <text x={point.x} y={height - padding + 20} textAnchor="middle" fontSize="11" fill="#667487">
+            <text x={point.x} y={height - padding + 20} textAnchor="middle" fontSize="11" fill="var(--text-muted)">
               {point.label}
             </text>
           </g>
@@ -166,6 +166,7 @@ export default function Exam({
           status: questionResult.status,
           userAnswer: questionResult.userAnswer,
           timeSpentSeconds: averageTime,
+          errorType: questionResult.errorType,
         });
       });
 
@@ -447,6 +448,34 @@ export default function Exam({
             })}
           </div>
         </div>
+
+        {result.typeReports.length > 0 && (
+          <div className="panel">
+            <h2>分题型得分</h2>
+            <p className="panel-hint">
+              按题型拆解本次得分率，快速定位是选择、填空还是解答拖了后腿；解答题按步骤得分折算，部分正确也有部分分。
+            </p>
+            <div className="exam-report-table">
+              {result.typeReports.map((report) => {
+                const percent = Math.round((report.score / report.maxScore) * 100);
+                return (
+                  <div key={report.displayType} className="ranking-item">
+                    <div>
+                      <strong>{report.displayType}</strong>
+                      <span>
+                        {report.correctCount}/{report.questionCount} 对 · 错{" "}
+                        {report.wrongCount} · 未答 {report.skippedCount}
+                      </span>
+                    </div>
+                    <span className={`type-rate ${percent < 60 ? "low" : percent < 85 ? "mid" : "high"}`}>
+                      {report.score}/{report.maxScore} · {percent}%
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
 
         <div className="two-column">
           <div className="panel">

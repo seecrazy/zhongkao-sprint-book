@@ -4,7 +4,8 @@ import {
   SUBJECT_LABELS,
   UPCOMING_SUBJECTS,
 } from "../data/sample-content";
-import type { Subject } from "../types";
+import { APP_NAME, APP_NAME_EN, APP_TAGLINE, APP_VERSION } from "../lib/app-info";
+import type { AppSettings, Subject, ThemeMode } from "../types";
 
 export type PageKey =
   | "home"
@@ -18,6 +19,8 @@ export type PageKey =
 interface LayoutProps {
   subject: Subject;
   page: PageKey;
+  appSettings: AppSettings;
+  onUpdateAppSettings: (settings: AppSettings) => void;
   onNavigate: (page: PageKey, query?: Record<string, string>) => void;
   onSwitchSubject: (subject: Subject) => void;
   children: ReactNode;
@@ -33,47 +36,81 @@ const navItems: Array<{ key: PageKey; label: string }> = [
   { key: "settings", label: "设置" },
 ];
 
+const themeCycle: ThemeMode[] = ["auto", "light", "dark"];
+const themeLabel: Record<ThemeMode, string> = {
+  auto: "跟随系统",
+  light: "浅色",
+  dark: "深色",
+};
+const themeIcon: Record<ThemeMode, string> = {
+  auto: "◐",
+  light: "☀",
+  dark: "☾",
+};
+
 export default function Layout({
   subject,
   page,
+  appSettings,
+  onUpdateAppSettings,
   onNavigate,
   onSwitchSubject,
   children,
 }: LayoutProps) {
+  function toggleTheme() {
+    const next =
+      themeCycle[
+        (themeCycle.indexOf(appSettings.theme) + 1) % themeCycle.length
+      ];
+    onUpdateAppSettings({ ...appSettings, theme: next });
+  }
+
   return (
     <div className="app-shell">
       <header className="app-header">
         <div className="brand">
           <div className="brand-mark">S</div>
           <div>
-            <strong>中考冲刺书</strong>
-            <span>SprintBook MVP</span>
+            <strong>{APP_NAME}</strong>
+            <span>{APP_NAME_EN} v{APP_VERSION}</span>
           </div>
         </div>
-        <div className="subject-switcher" role="tablist" aria-label="学科切换">
-          {AVAILABLE_SUBJECTS.map((item) => (
-            <button
-              key={item}
-              type="button"
-              role="tab"
-              aria-selected={item === subject}
-              className={item === subject ? "active" : ""}
-              onClick={() => onSwitchSubject(item)}
-            >
-              {SUBJECT_LABELS[item]}
-            </button>
-          ))}
-          {UPCOMING_SUBJECTS.map((item) => (
-            <button
-              key={item}
-              type="button"
-              className="upcoming"
-              disabled
-              title="内容筹备中，敬请期待"
-            >
-              {SUBJECT_LABELS[item]}
-            </button>
-          ))}
+        <div className="header-controls">
+          <button
+            type="button"
+            className="theme-toggle"
+            onClick={toggleTheme}
+            title={`主题：${themeLabel[appSettings.theme]}（点击切换）`}
+            aria-label={`切换主题，当前${themeLabel[appSettings.theme]}`}
+          >
+            <span aria-hidden="true">{themeIcon[appSettings.theme]}</span>
+            {themeLabel[appSettings.theme]}
+          </button>
+          <div className="subject-switcher" role="tablist" aria-label="学科切换">
+            {AVAILABLE_SUBJECTS.map((item) => (
+              <button
+                key={item}
+                type="button"
+                role="tab"
+                aria-selected={item === subject}
+                className={item === subject ? "active" : ""}
+                onClick={() => onSwitchSubject(item)}
+              >
+                {SUBJECT_LABELS[item]}
+              </button>
+            ))}
+            {UPCOMING_SUBJECTS.map((item) => (
+              <button
+                key={item}
+                type="button"
+                className="upcoming"
+                disabled
+                title="内容筹备中，敬请期待"
+              >
+                {SUBJECT_LABELS[item]}
+              </button>
+            ))}
+          </div>
         </div>
         <nav className="app-nav">
           {navItems.map((item) => (
@@ -90,7 +127,7 @@ export default function Layout({
       </header>
       <main className="app-main">{children}</main>
       <footer className="app-footer">
-        SprintBook v0.12 · 五学科试点（数理理化英语文） · 每日计划 · 掌握度 · 模考复盘
+        {APP_NAME_EN} v{APP_VERSION} · {APP_TAGLINE}
       </footer>
     </div>
   );

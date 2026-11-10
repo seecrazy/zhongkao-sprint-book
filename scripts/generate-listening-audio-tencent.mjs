@@ -1,6 +1,7 @@
-// 腾讯云 TTS 版听力音频生成：与 Edge 版（generate-listening-audio.mjs）并列。
+// 腾讯云 TTS 听力音频生成（现役引擎，2026-11-10 用户 A/B 试听选定）。
 // 音色：WeJames 501008（男）/ WeWinny 501009（女），腾讯大模型英文音色。
-// 输出：public/audio/listening-tencent/{qid}-{nn}-{m|f}.mp3 + src/data/listening-audio-tencent.json
+// 写入正式目录与正式清单（public/audio/listening + src/data/listening-audio.json），
+// 跑本脚本即把听力切换为腾讯音色；Edge 版见 generate-listening-audio.mjs（跑它即切回）。
 // 依赖：pip3 install --user --upgrade tencentcloud-sdk-python-tts；.env.local 配置密钥
 // 用法：node scripts/generate-listening-audio-tencent.mjs [--force]
 import { readFile, writeFile, mkdir, access } from "node:fs/promises";
@@ -9,8 +10,8 @@ import { spawn } from "node:child_process";
 import path from "node:path";
 
 const FORCE = process.argv.includes("--force");
-const AUDIO_DIR = "public/audio/listening-tencent";
-const MANIFEST_PATH = "src/data/listening-audio-tencent.json";
+const AUDIO_DIR = "public/audio/listening";
+const MANIFEST_PATH = "src/data/listening-audio.json";
 
 const VOICES = {
   male: 501008,   // WeJames
@@ -92,13 +93,22 @@ async function main() {
   }
 
   let generated = 0, skipped = 0, failed = 0;
+  // 引擎防混：现役清单若声明别的引擎（如 Edge），同名文件必须重新生成，避免混血
+  let force = FORCE;
+  try {
+    const existing = JSON.parse(await readFile(MANIFEST_PATH, "utf8"));
+    if (!existing.engine?.includes("Tencent")) {
+      force = true;
+      console.log("检测到现役清单为其他引擎，自动全量重新生成");
+    }
+  } catch {}
   const queue = [...jobs];
   // 免费试用期并发限制 3 次/秒，保守串行 + 间隔
   const workers = Array.from({ length: 2 }, async () => {
     while (queue.length > 0) {
       const job = queue.shift();
       const outPath = path.join(AUDIO_DIR, job.file);
-      if (!FORCE && (await exists(outPath))) {
+      if (!force && (await exists(outPath))) {
         skipped += 1;
         continue;
       }

@@ -173,7 +173,7 @@ export default function Settings({
       <div className="panel">
         <h2>英语听力朗读</h2>
         <p>
-          听力题已内置<strong>真人级神经网络语音</strong>（微软 Edge Neural TTS 预生成，男女声对话，联网加载一次后离线可用）。下面的语速设置对真人语音同样生效；音色选择只在音频加载失败回退浏览器朗读时使用。系统里安装的浏览器语音质量差别很大：标着<strong>高清</strong>的接近真人，<strong>基础</strong>偏机械。
+          听力题已内置<strong>真人级神经网络语音</strong>（腾讯云大模型英文音色 WeJames/WeWinny 预生成，男女声对话，联网加载一次后离线可用）。下面的语速设置对真人语音同样生效；音色选择只在音频加载失败回退浏览器朗读时使用。系统里安装的浏览器语音质量差别很大：标着<strong>高清</strong>的接近真人，<strong>基础</strong>偏机械。
           {speechSupported
             ? "下面可以按质量挑一个顺耳的音色，先试听再保存。"
             : "当前浏览器不支持语音朗读，听力题仍可作答，提交后可查看听力原文。"}

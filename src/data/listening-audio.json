@@ -1,9 +1,9 @@
 {
-  "version": "listening-audio-v1",
-  "engine": "Microsoft Edge Neural TTS (edge-tts)",
+  "version": "listening-audio-v2",
+  "engine": "Tencent Cloud TTS 大模型音色（WeJames/WeWinny）",
   "voices": {
-    "male": "Guy",
-    "female": "Aria"
+    "male": "WeJames",
+    "female": "WeWinny"
   },
   "entries": {
     "en-listen-001": [

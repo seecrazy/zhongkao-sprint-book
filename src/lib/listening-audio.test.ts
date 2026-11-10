@@ -41,9 +41,10 @@ describe("listening audio manifest", () => {
     });
   });
 
-  it("manifest declares the neural voice engine", () => {
-    expect(audioManifest.engine).toContain("Neural");
-    expect(audioManifest.voices).toEqual({ male: "Guy", female: "Aria" });
+  it("manifest declares the active voice engine", () => {
+    // 现役引擎：腾讯大模型英文音色（2026-11-10 用户 A/B 试听选定，B 版）
+    expect(audioManifest.engine).toContain("Tencent");
+    expect(audioManifest.voices).toEqual({ male: "WeJames", female: "WeWinny" });
   });
 
   it("audio directory is non-empty and files are mp3", () => {

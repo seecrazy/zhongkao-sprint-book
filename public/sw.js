@@ -1,5 +1,5 @@
-/* SprintBook Service Worker：PWA 离线缓存（v1.3.1：听力音频换 Guy+Aria 音色重新生成） */
-const CACHE_VERSION = "sprintbook-v1.3.1";
+/* SprintBook Service Worker：PWA 离线缓存（v1.4：听力音频切换腾讯 WeJames+WeWinny） */
+const CACHE_VERSION = "sprintbook-v1.4";
 const CORE_ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./favicon.svg"];
 
 self.addEventListener("install", (event) => {

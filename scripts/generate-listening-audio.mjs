@@ -1,5 +1,6 @@
-// 英语听力真人级语音生成：调用 edge-tts（微软 Edge 神经网络语音）离线合成 MP3。
-// 产物：public/audio/listening/{qid}-{nn}-{m|f}.mp3 + src/data/listening-audio.json 清单。
+// 英语听力语音生成（Edge 神经网络版，备用引擎——现役为腾讯版，跑本脚本即切回 Edge 音色）。
+// 音色：Guy（男）/ Aria（女）播音级。写入正式目录与正式清单
+// （public/audio/listening + src/data/listening-audio.json）。
 // 依赖：pip3 install --user edge-tts
 // 用法：node scripts/generate-listening-audio.mjs [--force]
 import { readFile, writeFile, mkdir, access } from "node:fs/promises";
@@ -93,6 +94,15 @@ async function main() {
   let generated = 0;
   let skipped = 0;
   let failed = 0;
+  // 引擎防混：现役清单若声明别的引擎（如腾讯），同名文件必须重新生成
+  let force = FORCE;
+  try {
+    const existing = JSON.parse(await readFile(MANIFEST_PATH, "utf8"));
+    if (!existing.engine?.includes("Edge")) {
+      force = true;
+      console.log("检测到现役清单为其他引擎，自动全量重新生成");
+    }
+  } catch {}
 
   // 有界并发，避免边缘接口限流
   const queue = [...jobs];
@@ -100,7 +110,7 @@ async function main() {
     while (queue.length > 0) {
       const job = queue.shift();
       const outPath = path.join(AUDIO_DIR, job.file);
-      if (!FORCE && (await exists(outPath))) {
+      if (!force && (await exists(outPath))) {
         skipped += 1;
         continue;
       }

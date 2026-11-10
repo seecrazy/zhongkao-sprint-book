@@ -1,11 +1,11 @@
 import { useRef, useState } from "react";
 import MathText from "./MathText";
+import { isSpeechSupported, loadTTSRate } from "../lib/tts";
 import {
-  isSpeechSupported,
-  loadTTSRate,
-  loadTTSVoiceURI,
-  speakEnglish,
-} from "../lib/tts";
+  hasListeningAudio,
+  playListeningWithFallback,
+  stopListeningAudio,
+} from "../lib/listening-audio";
 import { analyzeEssayText, parseEssayAnswer } from "../lib/grading";
 import type { EssayQuestion, Question, QuestionResult } from "../types";
 
@@ -128,7 +128,9 @@ export default function QuestionCard({
 }: QuestionCardProps) {
   const status = result?.status;
   const [playCount, setPlayCount] = useState(0);
-  const [playing, setPlaying] = useState(false);
+  const [playing, setPlaying] = useState<0 | 1 | 2>(0);
+  const [lastChannel, setLastChannel] = useState<"audio" | "tts" | "failed">("audio");
+  const hasHumanAudio = hasListeningAudio(question.id);
   const speechAvailable = isSpeechSupported();
 
   function handleAnswer(nextValue: string) {
@@ -140,14 +142,15 @@ export default function QuestionCard({
 
   async function playListening(times: 1 | 2 = 1) {
     if (!question.listeningScript || playing) return;
-    setPlaying(true);
+    setPlaying(times);
     setPlayCount((count) => count + 1);
-    await speakEnglish(question.listeningScript, {
-      rate: loadTTSRate(),
-      forceVoiceURI: loadTTSVoiceURI(),
-      times,
-    });
-    setPlaying(false);
+    const channel = await playListeningWithFallback(
+      question.id,
+      question.listeningScript,
+      { rate: loadTTSRate(), times }
+    );
+    setLastChannel(channel);
+    setPlaying(0);
   }
 
   return (
@@ -180,23 +183,38 @@ export default function QuestionCard({
             className="primary"
             type="button"
             onClick={() => playListening(1)}
-            disabled={!speechAvailable || playing}
-            title={speechAvailable ? "" : "当前浏览器不支持语音朗读"}
+            disabled={(playing !== 0) || (!speechAvailable && !hasHumanAudio)}
+            title={!speechAvailable && !hasHumanAudio ? "当前浏览器不支持语音朗读" : ""}
           >
-            {playing ? "正在播放…" : "▶ 播放"}
+            {playing === 1 ? "正在播放…" : "▶ 播放"}
           </button>
           <button
             className="ghost"
             type="button"
             onClick={() => playListening(2)}
-            disabled={!speechAvailable || playing}
+            disabled={(playing !== 0) || (!speechAvailable && !hasHumanAudio)}
           >
-            ▶▶ 连读两遍
+            {playing === 2 ? "正在播放两遍…" : "▶▶ 连读两遍"}
           </button>
+          {playing !== 0 && (
+            <button
+              className="ghost"
+              type="button"
+              onClick={() => {
+                stopListeningAudio();
+                setPlaying(0);
+              }}
+            >
+              ■
+            </button>
+          )}
           <span>
-            {speechAvailable
-              ? `已播放 ${playCount} 次（男女声自动区分；可在设置里更换更自然的音色）`
-              : "当前浏览器不支持语音朗读，可参考提交后的听力原文。"}
+            {hasHumanAudio
+              ? `真人级语音 · 已播放 ${playCount} 次（首次联网加载后离线可用）`
+              : speechAvailable
+                ? `浏览器语音 · 已播放 ${playCount} 次（可在设置里挑选更自然的音色）`
+                : "当前浏览器不支持语音朗读，可参考提交后的听力原文。"}
+            {lastChannel === "tts" && hasHumanAudio ? "（音频加载失败，已回退浏览器语音）" : ""}
           </span>
         </div>
       )}

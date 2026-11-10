@@ -1,5 +1,5 @@
-/* SprintBook Service Worker：PWA 离线缓存（v0.16） */
-const CACHE_VERSION = "sprintbook-v0.16";
+/* SprintBook Service Worker：PWA 离线缓存（v1.3：新增听力音频缓存） */
+const CACHE_VERSION = "sprintbook-v1.3";
 const CORE_ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./favicon.svg"];
 
 self.addEventListener("install", (event) => {

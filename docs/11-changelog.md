@@ -1,5 +1,27 @@
 # Changelog
 
+## v1.3.0 - 2026-11-10
+
+听力真人级语音：预生成微软 Edge 神经网络语音 MP3（41 段 / 932KB），音频优先播放、浏览器 TTS 兜底。
+
+### Added - 真人级听力语音
+
+- **神经网络语音预生成**：用微软 Edge Neural TTS（`edge-tts`，与 Edge 浏览器"大声朗读"同源的神经网络引擎）离线合成全部 20 道听力题共 41 段 MP3（男声 Andrew / 女声 Ava，Copilot 对话音色），总计仅 932KB，随应用静态分发——纯静态架构、零运行时依赖、无 API Key。
+- **音频优先、TTS 兜底**：播放器优先播预生成音频（按说话人回合顺序播放，回合间 480ms、两遍间 900ms，`playbackRate` 支持三档语速）；音频加载失败自动回退 v1.2 的浏览器 TTS 通道，界面标注当前通道（"真人级语音 / 浏览器语音"）。
+- **离线可用**：音频经 Service Worker cache-first 缓存（SW 版本升至 v1.3 使旧缓存失效），首次联网加载后断网可用。
+- 播放中新增"■"停止按钮；听力题不再依赖浏览器是否支持 SpeechSynthesis（不支持 TTS 的环境也可播音频）。
+- 生成脚本 `scripts/generate-listening-audio.mjs`（幂等、失败重试、并发 3 防限流）：`pip3 install --user edge-tts && node scripts/generate-listening-audio.mjs`。
+
+### Technical
+
+- 新增 `src/lib/listening-audio.ts`（会话制音频播放器 + `playListeningWithFallback` 统一入口）与 `src/data/listening-audio.json` 清单。
+- 清单完整性测试 5 项：覆盖全部听力题、无幽灵引用、每个引用的 MP3 都在 `public/audio/listening/`、引擎与音色声明、文件数量下限。
+- 测试 75 → 80 个；新增 devDependency `@types/node`（清单测试访问文件系统）。
+- 浏览器实测：音频通道播放确认（speechSynthesis 未启动）、提示文案正确。
+- 说明：调研过 arkcli 的豆包 seed-tts-2.0 通道，但其 TTS 要求 Agent Plan 个人版/企业版 profile（当前账号为 Coding Plan Pro，无此通道），故选用免费且效果同为真人级的 Edge 神经语音。
+
+## v1.2.0 - 2026-11-10
+
 ## v1.2.0 - 2026-11-10
 
 听力音质升级：语音质量评分选声、男女分声对话朗读、音色选择器与连读两遍。

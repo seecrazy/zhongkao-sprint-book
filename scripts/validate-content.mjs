@@ -425,6 +425,11 @@ async function main() {
       continue;
     }
 
+    // 听力音频清单：产物型数据文件，结构由 listening-audio 测试单独校验。
+    if (content.engine && typeof content.entries === "object") {
+      continue;
+    }
+
     const isExamFile = Array.isArray(content.exams);
 
     if (!isExamFile) {

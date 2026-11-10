@@ -1,6 +1,11 @@
 import { useRef, useState } from "react";
 import MathText from "./MathText";
-import { isSpeechSupported, speakEnglish } from "../lib/tts";
+import {
+  isSpeechSupported,
+  loadTTSRate,
+  loadTTSVoiceURI,
+  speakEnglish,
+} from "../lib/tts";
 import { analyzeEssayText, parseEssayAnswer } from "../lib/grading";
 import type { EssayQuestion, Question, QuestionResult } from "../types";
 
@@ -133,11 +138,15 @@ export default function QuestionCard({
     onChange(nextValue);
   }
 
-  async function playListening() {
+  async function playListening(times: 1 | 2 = 1) {
     if (!question.listeningScript || playing) return;
     setPlaying(true);
     setPlayCount((count) => count + 1);
-    await speakEnglish(question.listeningScript);
+    await speakEnglish(question.listeningScript, {
+      rate: loadTTSRate(),
+      forceVoiceURI: loadTTSVoiceURI(),
+      times,
+    });
     setPlaying(false);
   }
 
@@ -170,15 +179,23 @@ export default function QuestionCard({
           <button
             className="primary"
             type="button"
-            onClick={playListening}
+            onClick={() => playListening(1)}
             disabled={!speechAvailable || playing}
             title={speechAvailable ? "" : "当前浏览器不支持语音朗读"}
           >
-            {playing ? "正在播放…" : "▶ 播放听力"}
+            {playing ? "正在播放…" : "▶ 播放"}
+          </button>
+          <button
+            className="ghost"
+            type="button"
+            onClick={() => playListening(2)}
+            disabled={!speechAvailable || playing}
+          >
+            ▶▶ 连读两遍
           </button>
           <span>
             {speechAvailable
-              ? `已播放 ${playCount} 次${playCount < 2 ? "（中考每段材料读两遍，建议最多听两遍）" : ""}`
+              ? `已播放 ${playCount} 次（男女声自动区分；可在设置里更换更自然的音色）`
               : "当前浏览器不支持语音朗读，可参考提交后的听力原文。"}
           </span>
         </div>

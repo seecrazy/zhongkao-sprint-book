@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { AppSettings, ProgressState, Subject, ThemeMode } from "../types";
 import { resetProgress } from "../lib/storage";
 import { clearExamHistory, saveActiveExam } from "../lib/exam-storage";
@@ -14,11 +14,23 @@ import {
   TTS_RATE_LABELS,
   isSpeechSupported,
   loadTTSRate,
+  loadTTSVoiceURI,
+  rankEnglishVoices,
   saveTTSRate,
+  saveTTSVoiceURI,
   speakEnglish,
+  stopSpeaking,
   type TTSRate,
+  type VoiceInfo,
+  type VoiceQuality,
 } from "../lib/tts";
 import { APP_NAME_EN, APP_VERSION } from "../lib/app-info";
+
+const VOICE_QUALITY_LABELS: Record<VoiceQuality, { label: string; className: string }> = {
+  premium: { label: "高清", className: "premium" },
+  good: { label: "良好", className: "good" },
+  basic: { label: "基础", className: "basic" },
+};
 
 interface SettingsProps {
   subject: Subject;
@@ -43,11 +55,39 @@ export default function Settings({
 }: SettingsProps) {
   const sprint = getSprintStatus(appSettings);
   const [ttsRate, setTtsRate] = useState<TTSRate>(() => loadTTSRate());
+  const [voiceURI, setVoiceURI] = useState<string>(() => loadTTSVoiceURI() ?? "auto");
+  const [voices, setVoices] = useState<VoiceInfo[]>([]);
   const speechSupported = isSpeechSupported();
+
+  useEffect(() => {
+    if (!speechSupported || typeof window === "undefined") return;
+    const refresh = () => setVoices(rankEnglishVoices(window.speechSynthesis.getVoices()));
+    refresh();
+    window.speechSynthesis.addEventListener("voiceschanged", refresh);
+    return () => {
+      window.speechSynthesis.removeEventListener("voiceschanged", refresh);
+      stopSpeaking();
+    };
+  }, [speechSupported]);
 
   function updateTTSRate(rate: TTSRate) {
     setTtsRate(rate);
     saveTTSRate(rate);
+  }
+
+  function updateVoiceURI(next: string) {
+    setVoiceURI(next);
+    saveTTSVoiceURI(next === "auto" ? null : next);
+  }
+
+  function previewVoice() {
+    void speakEnglish(
+      "M: Excuse me, how can I get to the library? W: Go straight and turn left. It's next to the post office.",
+      {
+        rate: ttsRate,
+        forceVoiceURI: voiceURI === "auto" ? null : voiceURI,
+      }
+    );
   }
 
   function clearProgress() {
@@ -133,11 +173,42 @@ export default function Settings({
       <div className="panel">
         <h2>英语听力朗读</h2>
         <p>
-          听力题由浏览器内置语音合成朗读（SpeechSynthesis，离线可用，无需联网下载音频）。
+          听力题由浏览器内置语音合成朗读（SpeechSynthesis，离线可用）。系统里安装的语音质量差别很大：
+          标着<strong>高清</strong>的是增强/自然语音，最接近真人；<strong>基础</strong>是紧凑合成音（更"机器"）。
           {speechSupported
-            ? "当前浏览器支持朗读，可先试听再选择语速。"
+            ? "下面可以按质量挑一个顺耳的音色，先试听再保存。"
             : "当前浏览器不支持语音朗读，听力题仍可作答，提交后可查看听力原文。"}
         </p>
+
+        {speechSupported && (
+          <>
+            <div className="tts-voice-form">
+              <label>
+                <span>朗读音色</span>
+                <select value={voiceURI} onChange={(event) => updateVoiceURI(event.target.value)}>
+                  <option value="auto">自动（按质量挑最佳）</option>
+                  {voices.map((voice) => (
+                    <option key={voice.voiceURI} value={voice.voiceURI}>
+                      {voice.name}（{voice.lang}）· {VOICE_QUALITY_LABELS[voice.quality].label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <button className="ghost" type="button" onClick={previewVoice}>
+                ▶ 试听对话
+              </button>
+              <button className="ghost" type="button" onClick={stopSpeaking}>
+                ■ 停止
+              </button>
+            </div>
+            <p className="panel-hint">
+              找不到高清音色？可以在系统里安装：macOS 打开 系统设置 → 辅助功能 → 朗读内容 →
+              系统声音 →「管理语音」安装 Enhanced/Premium 声音（如 Ava、Samantha）；Windows 在
+              设置 → 时间和语言 → 语音 中添加自然语音。安装后回到本页刷新即可选择。
+            </p>
+          </>
+        )}
+
         <div className="theme-options">
           {TTS_RATES.map((rate) => (
             <button
@@ -156,11 +227,11 @@ export default function Settings({
               onClick={() =>
                 void speakEnglish(
                   "This is a listening test. You will hear each dialogue twice.",
-                  ttsRate
+                  { rate: ttsRate, forceVoiceURI: voiceURI === "auto" ? null : voiceURI }
                 )
               }
             >
-              ▶ 试听
+              ▶ 试听语速
             </button>
           )}
         </div>

@@ -1592,6 +1592,33 @@ button.danger {
   color: var(--primary-deep);
 }
 
+.tts-voice-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 14px 0 6px;
+}
+
+.tts-voice-form label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-soft);
+  flex: 1;
+  min-width: 260px;
+}
+
+.tts-voice-form select {
+  flex: 1;
+  min-height: 42px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0 10px;
+  background: var(--surface);
+  color: inherit;
+}
+
 .listening-script {
   background: var(--surface-2);
   border: 1px solid var(--border-soft);

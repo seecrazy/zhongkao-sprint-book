@@ -43,7 +43,7 @@ describe("listening audio manifest", () => {
 
   it("manifest declares the neural voice engine", () => {
     expect(audioManifest.engine).toContain("Neural");
-    expect(audioManifest.voices).toEqual({ male: "Andrew", female: "Ava" });
+    expect(audioManifest.voices).toEqual({ male: "Guy", female: "Aria" });
   });
 
   it("audio directory is non-empty and files are mp3", () => {

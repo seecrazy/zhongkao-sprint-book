@@ -11,11 +11,12 @@ const FORCE = process.argv.includes("--force");
 const AUDIO_DIR = "public/audio/listening";
 const MANIFEST_PATH = "src/data/listening-audio.json";
 
-// 对话音色：微软最新一代 Copilot 对话声（听感最接近真人）
+// 对话音色：微软播音级经典音色（新闻/小说风格，韵律从容，实测最接近真人听感）
+// 注意：不要用 *Multilingual 系 Copilot 音色——英语韵律急促生硬，实测被用户否决
 const VOICES = {
-  male: "en-US-AndrewMultilingualNeural",
-  female: "en-US-AvaMultilingualNeural",
-  narrator: "en-US-AvaMultilingualNeural",
+  male: "en-US-GuyNeural",
+  female: "en-US-AriaNeural",
+  narrator: "en-US-AriaNeural",
 };
 
 const SPEAKER_LABELS = {
@@ -124,7 +125,7 @@ async function main() {
   const manifest = {
     version: "listening-audio-v1",
     engine: "Microsoft Edge Neural TTS (edge-tts)",
-    voices: { male: "Andrew", female: "Ava" },
+    voices: { male: "Guy", female: "Aria" },
     entries,
   };
   await writeFile(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + "\n");

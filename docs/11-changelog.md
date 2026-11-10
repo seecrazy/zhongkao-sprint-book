@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.3.1 - 2026-11-10
+
+听力音色修正：Multilingual Copilot 音色 → 播音级经典音色 Guy + Aria。
+
+### Fixed
+
+- 用户实测反馈 v1.3 的 Andrew/Ava Multilingual 音色"跟真人差距还挺大"，且明显不如 oralenglishmaster 项目的人声自然。
+- **时长指纹法锁定根因**：oralenglishmaster 的 1479 段音频同为 edge-tts 生成（48kbps/24kHz/mono 格式特征一致），用同一句台词对比各候选音色的合成时长，原版男声 4.66s 最接近 GuyNeural（4.44s），女声 3.74s 最接近 AriaNeural（3.29s）；而被否决的 Ava 系仅 2.06s——语速急促 1.6 秒，韵律生硬。
+- **结论**：Multilingual 系 Copilot 音色为多语言通用优化，英语韵律反而急促；Guy/Aria 是微软打磨最久的新闻/播音级音色，语速从容、最接近真人对话听感。
+- 全部 41 段听力音频用 **GuyNeural（男）+ AriaNeural（女）** 重新生成；SW 缓存版本 bump 使客户端旧音频缓存失效。
+- 教训已写入项目记忆：英语人声首选 Guy + Aria/Jenny，慎用 Multilingual 系。
+
+## v1.3.0 - 2026-11-10
+
 ## v1.3.0 - 2026-11-10
 
 听力真人级语音：预生成微软 Edge 神经网络语音 MP3（41 段 / 932KB），音频优先播放、浏览器 TTS 兜底。

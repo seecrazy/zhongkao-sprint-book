@@ -2,8 +2,8 @@
   "version": "listening-audio-v1",
   "engine": "Microsoft Edge Neural TTS (edge-tts)",
   "voices": {
-    "male": "Andrew",
-    "female": "Ava"
+    "male": "Guy",
+    "female": "Aria"
   },
   "entries": {
     "en-listen-001": [
